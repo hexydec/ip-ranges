@@ -161,24 +161,40 @@ class datacentres {
 		}
 	}
 
-	public function save(string $output, ?string $cache = null) : int|false {
-		$dir = \dirname($output);
-		if (!is_dir($dir)) {
-			\mkdir($dir, 0755, true);
+	public function save(array $files, ?string $cache = null) : int|false {
+		$handles = [];
+
+		// prepare output folders
+		foreach ($files AS $file) {
+			$dir = \dirname($file);
+			if (!is_dir($dir)) {
+				\mkdir($dir, 0755, true);
+			}
+			if (($handle = \fopen($file, 'w')) !== false) {
+				$ext = \mb_strrchr($file, '.');
+				$handles[$ext] = $handle;
+			} else {
+				return false;
+			}
 		}
-		if (($handle = \fopen($output, 'w')) !== false) {
-			$ext = \mb_strrchr($output, '.');
-			$i = 0;
-			foreach ($this->compile($cache) AS $item) {
+
+		// compile IP ranges
+		$i = 0;
+		foreach ($this->compile($cache) AS $item) {
+			foreach ($handles AS $ext => $handle) {
 				if ($ext === '.csv' && \fputcsv($handle, $item) === false) {
 					return false;
 				} elseif ($ext === '.txt' && \fwrite($handle, $item['range']."\n") === false) {
 					return false;
 				}
-				$i++;
 			}
-			return $i;
+			$i++;
 		}
-		return false;
+
+		// close file handles
+		foreach ($handles AS $item) {
+			\fclose($item);
+		}
+		return $i;
 	}
 }
