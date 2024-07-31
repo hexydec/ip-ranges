@@ -161,7 +161,7 @@ class datacentres {
 		}
 	}
 
-	public function save(array $files, ?string $cache = null) : int|false {
+	public function generate(array $files, ?string $cache = null) : int|false {
 		$handles = [];
 
 		// prepare output folders

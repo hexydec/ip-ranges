@@ -1,0 +1,26 @@
+name: Rebuild IP Ranges
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate-ips:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install PHP
+        uses: nanasess/setup-php@v4
+          with:
+            php-version: '8.3'
+      - run: php build.php
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Generate IP blocks
