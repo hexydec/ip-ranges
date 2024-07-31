@@ -4,7 +4,7 @@ namespace hexydec\ipaddresses;
 
 class datacentres {
 
-	protected function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
+	public static function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
 		$local = null;
 
 		// generate cache file name
@@ -121,7 +121,7 @@ class datacentres {
 						if (($source = $za->getFromIndex($i)) !== false && ($json = \json_decode($source)) !== false) {
 
 							// see if ASN name matches regex
-							$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|shopify|\bOVH\b|siteground|rackspace|namecheap|linode|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC/i';
+							$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|shopify|\bOVH\b|siteground|rackspace|namecheap|linode|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$/i';
 							if (isset($json->description) && !\str_contains(\mb_strtolower($json->description), 'telecom') && \preg_match($re, $json->description, $match)) {
 								foreach ($json->subnets->ipv4 ?? [] AS $item) {
 									yield [
