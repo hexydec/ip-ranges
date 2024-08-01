@@ -17,8 +17,8 @@ jobs:
 
       - name: Install PHP
         uses: nanasess/setup-php@v4
-          with:
-            php-version: '8.3'
+        with:
+          php-version: '8.3'
       - run: php build.php
 
       - uses: stefanzweifel/git-auto-commit-action@v5
