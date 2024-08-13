@@ -2,7 +2,7 @@
 Automatically updated lists of known IP addresses in IPv4 and IPv6 ranges. Currently offering a list of known datacentre and crawler IP ranges.
 
 ## Why?
-Detecting whether traffic is coming from a known IP address is useful in many contexts. But the data is quite difficult to come by in a useful form, and not very easy to work out.
+Detecting whether traffic is coming from a known IP address is useful in many contexts. But the data is quite difficult to come by in a useful form, so this auto-updating repository provides a reliable output to be ingested by other applications.
 
 ## What Output is Produced?
 Currently the following datasets are available:
@@ -47,7 +47,7 @@ There will be more ASN's that provide hosting services that are not captured, bu
 
 **USE AT YOUR OWN RISK! The IP's in the list are only based on ASN allocation, there is no foolproof way of knowing whether users or robots are attached to the IP addresses**
 
-### Crawers
+### Crawlers
 Reads and scrapes pages of published IP addresses for the following crawlers:
 
 - GoogleBot
