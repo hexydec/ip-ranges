@@ -10,6 +10,18 @@ Currently the following datasets are available:
 - Datacentre IP Ranges (Available as JSON, CSV, and Text)
 - Crawler IP Ranges (Available as JSON, CSV, and Text)
 
+## How can I integrate the data?
+You can integrate this project by downloading the desired datasource with the following links:
+
+- Datacentre IP Ranges
+	- [As JSON](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/datacentres.json)
+	- [As CSV](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/datacentres.csv)
+	- [As Text](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/datacentres.txt)
+- Crawler IP Ranges
+	- [As JSON](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/crawlers.json)
+	- [As CSV](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/crawlers.csv)
+	- [As Text](https://raw.githubusercontent.com/hexydec/ip-ranges/main/output/crawlers.txt)
+
 ## How are the IP's collected?
 This script uses a number of sources freely available on GitHub and the Web to collect the IP ranges. They are:
 
@@ -43,7 +55,6 @@ Apart from the published ranges from the cloud providers, the ASN names are filt
 And more ...
 
 There will be more ASN's that provide hosting services that are not captured, but this is not a bad start. I am doing more work on categorising the ASN providers list.
-
 
 **USE AT YOUR OWN RISK! The IP's in the list are only based on ASN allocation, there is no foolproof way of knowing whether users or robots are attached to the IP addresses**
 
