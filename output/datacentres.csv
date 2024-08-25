@@ -8001,6 +8001,8 @@
 "Google Cloud Platform",34.128.32.0/22
 "Google Cloud Platform",34.132.0.0/14
 "Google Cloud Platform",34.136.0.0/16
+"Google Cloud Platform",34.153.48.0/21
+"Google Cloud Platform",34.153.240.0/21
 "Google Cloud Platform",34.157.84.0/23
 "Google Cloud Platform",34.157.96.0/20
 "Google Cloud Platform",34.157.212.0/23
@@ -90546,14 +90548,13 @@ HOSTTIER,103.187.22.0/23
 "LAYER WEBHOST (PVT.) LIMITED",103.29.182.0/23
 "LAYER WEBHOST (PVT.) LIMITED",2001:df1:7840::/48
 "Manu Host",103.37.185.0/24
-"HOSTDZIRE WEB SERVICES PRIVATE LIMITED",103.182.102.0/23
+"HOSTDZIRE WEB SERVICES PRIVATE LIMITED",103.182.103.0/24
 "LIENVPS TECHNOLOGY COMPANY LIMITED",36.50.174.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.15.38.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.20.62.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.66.252.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",160.22.172.0/22
 "LIENVPS TECHNOLOGY COMPANY LIMITED",203.175.96.0/23
-"ZINVPS COMPANY LIMITED",103.164.226.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",36.50.24.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",36.50.134.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",157.10.42.0/23
@@ -94420,14 +94421,6 @@ LibraHost,2a0e:b107:12d::/48
 "Hosting Ukraine LTD",104.250.200.0/22
 "Hosting Ukraine LTD",178.159.34.0/24
 "Hosting Ukraine LTD",193.111.208.0/24
-"LLP Kompaniya Hoster.KZ",89.33.41.0/24
-"LLP Kompaniya Hoster.KZ",89.35.124.0/23
-"LLP Kompaniya Hoster.KZ",89.46.33.0/24
-"LLP Kompaniya Hoster.KZ",185.129.48.0/23
-"LLP Kompaniya Hoster.KZ",185.129.51.0/24
-"LLP Kompaniya Hoster.KZ",188.241.216.0/23
-"LLP Kompaniya Hoster.KZ",2a06:942::/48
-"LLP Kompaniya Hoster.KZ",2a06:942:2::/48
 "DiscountHost Ltd",2001:67c:b64::/48
 "Hawk Host Inc.",23.26.55.0/24
 "Hawk Host Inc.",104.223.44.0/24
@@ -95280,7 +95273,6 @@ LibraHost,2a0e:b107:12d::/48
 "UAB Cherry Servers",109.176.236.0/23
 "UAB Cherry Servers",109.176.238.0/24
 "UAB Cherry Servers",185.8.106.0/23
-"UAB Cherry Servers",185.224.3.0/24
 "UAB Cherry Servers",2a02:ae02::/36
 "WHG Hosting Services Ltd",192.250.228.0/24
 "WHG Hosting Services Ltd",192.250.235.0/24
@@ -95457,6 +95449,9 @@ LibraHost,2a0e:b107:12d::/48
 "HostLAB Bilisim Teknolojileri A.S.",93.177.103.0/24
 "LLP Kompaniya Hoster.KZ",31.14.27.0/24
 "LLP Kompaniya Hoster.KZ",86.107.44.0/23
+"LLP Kompaniya Hoster.KZ",89.33.41.0/24
+"LLP Kompaniya Hoster.KZ",89.35.124.0/23
+"LLP Kompaniya Hoster.KZ",89.46.33.0/24
 "LLP Kompaniya Hoster.KZ",89.46.34.0/24
 "LLP Kompaniya Hoster.KZ",92.114.7.0/24
 "LLP Kompaniya Hoster.KZ",93.188.206.0/24
@@ -95468,7 +95463,8 @@ LibraHost,2a0e:b107:12d::/48
 "LLP Kompaniya Hoster.KZ",185.113.134.0/23
 "LLP Kompaniya Hoster.KZ",185.121.80.0/22
 "LLP Kompaniya Hoster.KZ",185.125.89.0/24
-"LLP Kompaniya Hoster.KZ",185.129.50.0/24
+"LLP Kompaniya Hoster.KZ",185.129.48.0/22
+"LLP Kompaniya Hoster.KZ",188.241.216.0/23
 "Host Europe GmbH",31.170.120.0/21
 "Host Europe GmbH",37.122.208.0/21
 "Host Europe GmbH",46.32.224.0/19
@@ -96678,6 +96674,8 @@ LibraHost,2a0e:b107:12d::/48
 "Hostup AB",64.112.127.0/24
 "Hostup AB",206.168.212.0/22
 "Hostup AB",2a13:7c81::/32
+"AxusHost B.V.",45.8.92.0/24
+"AxusHost B.V.",95.169.174.0/24
 "WEHOST LLC",185.118.79.0/24
 "Atlas Host LLC",62.60.186.0/24
 "DORUK HOSTING VE BILISIM TEKNOLOJILERI A.S.",84.247.20.0/24
@@ -96750,6 +96748,7 @@ LibraHost,2a0e:b107:12d::/48
 "WIKIHOST Limited",178.253.52.0/23
 "Michael Vassileiou trading as DATAHOST",31.22.118.0/24
 "HOSTING MEDIA VPN LTD",193.200.78.0/24
+"Gravhosting Ltd",185.224.3.0/24
 "Gravhosting Ltd",193.25.217.0/24
 "Gravhosting Ltd",2a14:7c0:1800::/38
 "UK Dedicated Servers Limited",185.17.25.0/24
@@ -96945,6 +96944,7 @@ LibraHost,2a0e:b107:12d::/48
 "Iron Hosting Centre LTD",178.208.86.0/24
 "Iron Hosting Centre LTD",178.208.88.0/22
 "Iron Hosting Centre LTD",178.208.93.0/24
+"Iron Hosting Centre LTD",178.217.100.0/23
 "Iron Hosting Centre LTD",185.105.108.0/24
 "Iron Hosting Centre LTD",217.144.102.0/24
 "Iron Hosting Centre LTD",2a03:80c0:abba::/48
@@ -99266,6 +99266,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Webzilla B.V.",88.85.64.0/19
 "Webzilla B.V.",91.226.124.0/22
 "Webzilla B.V.",135.84.52.0/22
+"Webzilla B.V.",143.255.156.0/24
 "Webzilla B.V.",185.49.144.0/22
 "Webzilla B.V.",185.186.244.0/24
 "Webzilla B.V.",185.186.246.0/24
@@ -99702,7 +99703,6 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",2600:1406:d800::/48
 "Akamai Technologies, Inc.",2600:1406:e000::/48
 "Akamai Technologies, Inc.",2600:1406:ec00::/48
-"Akamai Technologies, Inc.",2600:1406:f800::/48
 "Akamai Technologies, Inc.",2600:1406:fc00::/48
 "Akamai Technologies, Inc.",2600:1407:17::/48
 "Akamai Technologies, Inc.",2600:1407:1b::/48
@@ -103067,7 +103067,6 @@ HostPapa,2620:b:e000::/48
 "Webzilla Inc.",67.58.109.0/24
 "Webzilla Inc.",67.58.111.0/24
 "Webzilla Inc.",74.117.176.0/21
-"Webzilla Inc.",143.255.156.0/24
 "Webzilla Inc.",143.255.158.0/24
 "Webzilla Inc.",185.186.245.0/24
 "Webzilla Inc.",185.186.247.0/24
@@ -103447,6 +103446,9 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
 "Host Europe GmbH",2603:5:2200::/40
+"GrootOP Premium Host",2a07:2486:fe0::/44
+"GrootOP Premium Host",2a07:54c7:600f::/48
+"GrootOP Premium Host",2a07:54c7:6010::/48
 "HOST EXPERT LLC",89.223.79.0/24
 "ZETTA HOSTING SOLUTIONS LLC.",78.142.16.0/24
 "ZETTA HOSTING SOLUTIONS LLC.",185.176.40.0/22
@@ -104520,7 +104522,6 @@ Arcserve,199.204.172.0/22
 "Ferdinand Zink trading as Tube-Hosting",195.182.25.0/24
 "Ferdinand Zink trading as Tube-Hosting",217.144.154.0/24
 "Ferdinand Zink trading as Tube-Hosting",2a07:4b40::/29
-"Ferdinand Zink trading as Tube-Hosting",2a12:28c0::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:8640::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:89c0::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:b180::/29
@@ -104529,8 +104530,10 @@ Arcserve,199.204.172.0/22
 "Ferdinand Zink trading as Tube-Hosting",2a12:de43::/32
 "Ferdinand Zink trading as Tube-Hosting",2a12:de44::/30
 "Ferdinand Zink trading as Tube-Hosting",2a12:eb00::/29
+"Ferdinand Zink trading as Tube-Hosting",2a13:c240::/29
 "Ferdinand Zink trading as Tube-Hosting",2a14:7c6::/32
 "Ferdinand Zink trading as Tube-Hosting",2a14:1100::/29
+"Ferdinand Zink trading as Tube-Hosting",2a14:35c0::/29
 "INTERKVM HOST SRL",141.11.64.0/24
 "INTERKVM HOST SRL",149.57.36.0/24
 "INTERKVM HOST SRL",154.6.4.0/24
@@ -104978,6 +104981,7 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2602:fed2:7084::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7088::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:708c::/48
+"Free Range Cloud Hosting Inc.",2602:fed2:7090::/44
 "Free Range Cloud Hosting Inc.",2602:fed2:7102::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7109::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:710d::/48
@@ -106505,9 +106509,7 @@ GTHost,2a13:1480::/29
 "Akamai Technologies, Inc.",172.235.110.0/23
 "Akamai Technologies, Inc.",172.235.118.0/23
 "Akamai Technologies, Inc.",172.235.128.0/17
-"Akamai Technologies, Inc.",172.236.0.0/17
-"Akamai Technologies, Inc.",172.236.128.0/18
-"Akamai Technologies, Inc.",172.236.192.0/19
+"Akamai Technologies, Inc.",172.236.0.0/16
 "Akamai Technologies, Inc.",173.230.128.0/19
 "Akamai Technologies, Inc.",173.255.192.0/18
 "Akamai Technologies, Inc.",176.58.96.0/19
