@@ -90133,6 +90133,7 @@ WHEEHOST,103.28.22.0/23
 "Datacenter IP, LLC",192.184.2.0/23
 "Datacenter IP, LLC",199.36.104.0/21
 "Datacenter IP, LLC",2604:6080::/32
+"Datacenter IP, LLC",2a0c:acc0::/29
 "Servercake Webhosting India Pvt Ltd",103.125.80.0/23
 "Servercake Webhosting India Pvt Ltd",2001:df7:4100::/48
 "WAWAHOST TECHNOLOGY",103.64.12.0/24
@@ -90309,6 +90310,7 @@ qlhost,156.245.64.0/18
 "NSI Hosting",192.147.255.0/24
 "NSI Hosting",199.19.64.0/21
 "NSI Hosting",199.189.188.0/22
+"NSI Hosting",199.231.122.0/24
 "NSI Hosting",208.71.164.0/22
 "NSI Hosting",208.82.212.0/22
 "NSI Hosting",208.83.48.0/22
@@ -90548,13 +90550,14 @@ HOSTTIER,103.187.22.0/23
 "LAYER WEBHOST (PVT.) LIMITED",103.29.182.0/23
 "LAYER WEBHOST (PVT.) LIMITED",2001:df1:7840::/48
 "Manu Host",103.37.185.0/24
-"HOSTDZIRE WEB SERVICES PRIVATE LIMITED",103.182.103.0/24
+"HOSTDZIRE WEB SERVICES PRIVATE LIMITED",103.182.102.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",36.50.174.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.15.38.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.20.62.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",157.66.252.0/23
 "LIENVPS TECHNOLOGY COMPANY LIMITED",160.22.172.0/22
 "LIENVPS TECHNOLOGY COMPANY LIMITED",203.175.96.0/23
+"ZINVPS COMPANY LIMITED",103.164.226.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",36.50.24.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",36.50.134.0/23
 "VPSTTT COMPUTER COMPANY LIMITED",157.10.42.0/23
@@ -90599,6 +90602,7 @@ HOSTPERL,2401:3b20::/32
 "Hypercore Cloud Hosting",160.22.78.0/23
 "Hypercore Cloud Hosting",2401:a4a0:1::/48
 "Hypercore Cloud Hosting",2401:a4a0:2::/48
+"Green VPS Company Limitedx",160.30.50.0/23
 "Rackspace Ltd.",5.79.0.0/18
 "Rackspace Ltd.",31.222.128.0/18
 "Rackspace Ltd.",37.188.96.0/19
@@ -90799,7 +90803,6 @@ HOSTPERL,2401:3b20::/32
 "OVH SAS",152.228.128.0/17
 "OVH SAS",158.69.0.0/16
 "OVH SAS",162.19.0.0/16
-"OVH SAS",163.5.230.0/24
 "OVH SAS",164.132.0.0/16
 "OVH SAS",164.153.186.0/24
 "OVH SAS",167.114.0.0/16
@@ -90880,18 +90883,8 @@ HOSTPERL,2401:3b20::/32
 "TotalChoice Hosting, LLC",198.38.76.0/22
 "TotalChoice Hosting, LLC",199.58.176.0/22
 "TotalChoice Hosting, LLC",208.76.80.0/21
-"Colo Solutions",66.103.129.0/24
-"Colo Solutions",66.103.130.0/23
-"Colo Solutions",66.103.132.0/22
-"Colo Solutions",66.103.143.0/24
-"Colo Solutions",66.103.145.0/24
-"Colo Solutions",66.103.146.0/23
-"Colo Solutions",66.103.148.0/24
-"Colo Solutions",66.103.150.0/23
-"Colo Solutions",66.103.159.0/24
-"Colo Solutions",72.21.8.0/23
-"Colo Solutions",72.21.12.0/23
-"Colo Solutions",72.21.14.0/24
+"Colo Solutions",66.103.128.0/19
+"Colo Solutions",72.21.0.0/20
 "Colo Solutions",72.21.20.0/24
 "Colo Solutions",72.21.22.0/24
 "Colo Solutions",144.208.108.0/24
@@ -90901,7 +90894,6 @@ HOSTPERL,2401:3b20::/32
 "Colo Solutions",209.126.92.0/24
 InfiniaHost.com,23.131.185.0/24
 InfiniaHost.com,23.153.216.0/24
-InfiniaHost.com,23.163.136.0/24
 InfiniaHost.com,23.175.40.0/24
 InfiniaHost.com,23.175.248.0/24
 InfiniaHost.com,149.112.101.0/24
@@ -93116,10 +93108,8 @@ HostPapa,216.201.96.0/20
 "Akamai Technologies, Inc.",2600:1407:5::/48
 EGIHosting,23.27.3.0/24
 EGIHosting,23.27.16.0/23
-EGIHosting,23.27.54.0/23
 EGIHosting,23.27.111.0/24
-EGIHosting,23.27.115.0/24
-EGIHosting,23.27.128.0/22
+EGIHosting,23.27.131.0/24
 EGIHosting,23.27.135.0/24
 EGIHosting,23.27.144.0/20
 EGIHosting,23.27.161.0/24
@@ -93498,6 +93488,7 @@ ColoUp,162.245.80.0/21
 "SECURED SERVERS LLC",108.165.192.0/24
 "SECURED SERVERS LLC",108.165.217.0/24
 "SECURED SERVERS LLC",108.165.226.0/23
+"SECURED SERVERS LLC",108.165.230.0/23
 "SECURED SERVERS LLC",108.165.234.0/23
 "SECURED SERVERS LLC",125.253.89.0/24
 "SECURED SERVERS LLC",131.153.0.0/21
@@ -94632,6 +94623,7 @@ LibraHost,2a0e:b107:12d::/48
 "Poort80 Hosting Services BV",2a07:7bc0::/29
 "Adeo Datacenter ApS",45.12.178.0/24
 "Adeo Datacenter ApS",45.84.100.0/24
+"Adeo Datacenter ApS",62.192.161.0/24
 "Adeo Datacenter ApS",79.174.4.0/22
 "Adeo Datacenter ApS",91.210.56.0/22
 "Adeo Datacenter ApS",91.216.103.0/24
@@ -96744,7 +96736,6 @@ LibraHost,2a0e:b107:12d::/48
 "Association HwHost",185.186.26.0/24
 "Association HwHost",2a10:4646:450::/44
 "WIKIHOST Limited",45.131.132.0/23
-"WIKIHOST Limited",161.129.42.0/24
 "WIKIHOST Limited",178.253.52.0/23
 "Michael Vassileiou trading as DATAHOST",31.22.118.0/24
 "HOSTING MEDIA VPN LTD",193.200.78.0/24
@@ -96784,7 +96775,6 @@ LibraHost,2a0e:b107:12d::/48
 "Luc Haaijer trading as Ferox Hosting",2a12:bec0:650::/47
 "ALEXANDRU VLAD trading as FREAKHOSTING",45.13.151.0/24
 "ALEXANDRU VLAD trading as FREAKHOSTING",64.72.205.0/24
-"ALEXANDRU VLAD trading as FREAKHOSTING",93.113.180.0/24
 "ALEXANDRU VLAD trading as FREAKHOSTING",109.176.229.0/24
 "ALEXANDRU VLAD trading as FREAKHOSTING",179.61.132.0/24
 "ALEXANDRU VLAD trading as FREAKHOSTING",191.96.94.0/24
@@ -96857,8 +96847,7 @@ LibraHost,2a0e:b107:12d::/48
 "SERVERS TECH FZCO",89.110.80.0/21
 "SERVERS TECH FZCO",89.110.100.0/22
 "SERVERS TECH FZCO",89.110.104.0/21
-"SERVERS TECH FZCO",89.110.112.0/22
-"SERVERS TECH FZCO",89.110.116.0/23
+"SERVERS TECH FZCO",89.110.112.0/20
 "SERVERS TECH FZCO",89.208.137.0/24
 "SERVERS TECH FZCO",89.208.142.0/24
 "SERVERS TECH FZCO",91.201.112.0/22
@@ -96968,6 +96957,11 @@ LibraHost,2a0e:b107:12d::/48
 "New Hosting Technologies LLC",2a12:b3c0:1::/48
 "Bikupa Datacenter AB",194.68.244.0/22
 "Civilized Hosting LLC",23.164.56.0/24
+"Civilized Hosting LLC",2001:470:2d2::/48
+"Civilized Hosting LLC",2602:f974:fff::/48
+"Civilized Hosting LLC",2602:fa1c:120::/48
+"Civilized Hosting LLC",2602:fa42:ff0::/44
+"Civilized Hosting LLC",2a07:54c4:1762::/48
 "HostBet Cloud Technologies Private Limited",45.67.14.0/24
 "TRUMVPS Company Limited",64.40.154.0/24
 "TRUMVPS Company Limited",64.253.94.0/24
@@ -97812,6 +97806,7 @@ Cologuard,2604:eb80::/32
 "PureVoltage Hosting Inc.",91.231.142.0/23
 "PureVoltage Hosting Inc.",91.240.71.0/24
 "PureVoltage Hosting Inc.",91.242.228.0/24
+"PureVoltage Hosting Inc.",91.243.88.0/21
 "PureVoltage Hosting Inc.",92.119.229.0/24
 "PureVoltage Hosting Inc.",93.177.118.0/23
 "PureVoltage Hosting Inc.",94.154.127.0/24
@@ -97866,6 +97861,7 @@ Cologuard,2604:eb80::/32
 "PureVoltage Hosting Inc.",193.33.66.0/24
 "PureVoltage Hosting Inc.",193.37.133.0/24
 "PureVoltage Hosting Inc.",193.56.20.0/24
+"PureVoltage Hosting Inc.",193.93.192.0/22
 "PureVoltage Hosting Inc.",193.109.221.0/24
 "PureVoltage Hosting Inc.",193.135.13.0/24
 "PureVoltage Hosting Inc.",193.176.237.0/24
@@ -99266,7 +99262,6 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Webzilla B.V.",88.85.64.0/19
 "Webzilla B.V.",91.226.124.0/22
 "Webzilla B.V.",135.84.52.0/22
-"Webzilla B.V.",143.255.156.0/24
 "Webzilla B.V.",185.49.144.0/22
 "Webzilla B.V.",185.186.244.0/24
 "Webzilla B.V.",185.186.246.0/24
@@ -102114,7 +102109,7 @@ CDNetworks,211.43.157.0/24
 "HostRoyale Technologies Pvt Ltd",2a06:3040:12::/48
 "EK HOSTING INC",45.119.4.0/24
 "EK HOSTING INC",203.23.176.0/23
-"EK HOSTING INC",2404:4a40::/32
+"EK HOSTING INC",2404:4a40:2000::/36
 "Ace Host, LLC",31.40.195.0/24
 "Ace Host, LLC",130.250.176.0/22
 "Ace Host, LLC",130.250.184.0/23
@@ -103067,6 +103062,7 @@ HostPapa,2620:b:e000::/48
 "Webzilla Inc.",67.58.109.0/24
 "Webzilla Inc.",67.58.111.0/24
 "Webzilla Inc.",74.117.176.0/21
+"Webzilla Inc.",143.255.156.0/24
 "Webzilla Inc.",143.255.158.0/24
 "Webzilla Inc.",185.186.245.0/24
 "Webzilla Inc.",185.186.247.0/24
@@ -103449,6 +103445,7 @@ HostPapa,2620:b:e000::/48
 "GrootOP Premium Host",2a07:2486:fe0::/44
 "GrootOP Premium Host",2a07:54c7:600f::/48
 "GrootOP Premium Host",2a07:54c7:6010::/48
+"GrootOP Premium Host",2a0b:4e07:b1e::/48
 "HOST EXPERT LLC",89.223.79.0/24
 "ZETTA HOSTING SOLUTIONS LLC.",78.142.16.0/24
 "ZETTA HOSTING SOLUTIONS LLC.",185.176.40.0/22
@@ -103857,11 +103854,7 @@ LayerHost,208.205.48.0/21
 LayerHost,208.214.24.0/21
 LayerHost,208.221.32.0/20
 LayerHost,2604:d180::/32
-LayerHost,2a13:2e40::/29
-LayerHost,2a13:2ec0::/29
-LayerHost,2a13:3040::/29
 LayerHost,2a13:a100::/29
-LayerHost,2a13:c500::/29
 LayerHost,2a13:fa00::/29
 "Cologix, Inc",50.58.240.0/24
 "Cologix, Inc",74.113.136.0/21
@@ -104480,6 +104473,7 @@ Arcserve,199.204.172.0/22
 "GLOBAL COLOCATION LIMITED",196.245.231.0/24
 "GLOBAL COLOCATION LIMITED",196.247.144.0/24
 "GreenHost ApS",94.143.229.0/24
+"HOSTYPE LLC",77.90.139.0/24
 "HOSTYPE LLC",94.156.177.0/24
 "HOSTYPE LLC",146.19.125.0/24
 "Seva-Host Ltd",91.217.84.0/23
@@ -104522,6 +104516,7 @@ Arcserve,199.204.172.0/22
 "Ferdinand Zink trading as Tube-Hosting",195.182.25.0/24
 "Ferdinand Zink trading as Tube-Hosting",217.144.154.0/24
 "Ferdinand Zink trading as Tube-Hosting",2a07:4b40::/29
+"Ferdinand Zink trading as Tube-Hosting",2a07:8a40::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:8640::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:89c0::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:b180::/29
@@ -104936,10 +104931,8 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",162.33.165.0/24
 "Free Range Cloud Hosting Inc.",163.5.134.0/24
 "Free Range Cloud Hosting Inc.",166.0.168.0/24
-"Free Range Cloud Hosting Inc.",167.88.48.0/24
 "Free Range Cloud Hosting Inc.",167.88.50.0/24
 "Free Range Cloud Hosting Inc.",167.253.16.0/22
-"Free Range Cloud Hosting Inc.",167.253.36.0/22
 "Free Range Cloud Hosting Inc.",167.253.112.0/22
 "Free Range Cloud Hosting Inc.",181.214.54.0/24
 "Free Range Cloud Hosting Inc.",185.220.28.0/22
@@ -104981,11 +104974,9 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2602:fed2:7084::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7088::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:708c::/48
-"Free Range Cloud Hosting Inc.",2602:fed2:7090::/44
 "Free Range Cloud Hosting Inc.",2602:fed2:7102::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7109::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:710d::/48
-"Free Range Cloud Hosting Inc.",2602:fed2:7110::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7113::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7118::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:712d::/48
@@ -105034,14 +105025,18 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2a0f:9400:fa0::/43
 "Free Range Cloud Hosting Inc.",2a0f:9400:6106::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6109::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:6112::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6163::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:6c10::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6c20::/43
+"Free Range Cloud Hosting Inc.",2a0f:9400:6c40::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6e00::/40
 "Free Range Cloud Hosting Inc.",2a0f:9400:738b::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:738c::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:7726::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:7728::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:772f::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:8012::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:8024::/48
 "Free Range Cloud Hosting Inc.",2a0f:9403::/35
 "Free Range Cloud Hosting Inc.",2a0f:9403:2000::/36
@@ -105921,7 +105916,6 @@ OneAsiaHost,116.251.216.0/21
 "Host Sailor Ltd",31.6.15.0/24
 "Host Sailor Ltd",31.56.76.0/24
 "Host Sailor Ltd",72.14.153.0/24
-"Host Sailor Ltd",103.230.69.0/24
 "Host Sailor Ltd",104.224.81.0/24
 "Host Sailor Ltd",154.3.63.0/24
 "Host Sailor Ltd",181.215.55.0/24
@@ -107274,6 +107268,8 @@ GoHosting,203.83.219.0/24
 "Colocity Pty Ltd",202.12.71.0/24
 "Colocity Pty Ltd",2401:1400::/32
 "Webhosting Holdings LLC",23.129.252.0/22
+"Webhosting Holdings LLC",162.244.95.0/24
+"Webhosting Holdings LLC",2602:faa9:4000::/36
 "HostingInside LTD.",2.58.240.0/22
 "HostingInside LTD.",103.37.4.0/23
 "HostingInside LTD.",103.98.73.0/24
