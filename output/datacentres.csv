@@ -92101,7 +92101,10 @@ qlhost,156.238.32.0/19
 qlhost,156.239.192.0/19
 qlhost,156.242.32.0/19
 qlhost,156.245.64.0/18
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
+"NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",103.172.18.0/23
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
 "DIGI VPS",103.168.66.0/23
@@ -92503,7 +92506,6 @@ HOSTPERL,2401:3b20::/32
 "OVH SAS",15.204.0.0/16
 "OVH SAS",15.235.0.0/16
 "OVH SAS",23.92.224.0/19
-"OVH SAS",23.95.142.0/24
 "OVH SAS",23.151.184.0/24
 "OVH SAS",23.156.24.0/24
 "OVH SAS",23.171.168.0/24
@@ -92514,7 +92516,7 @@ HOSTPERL,2401:3b20::/32
 "OVH SAS",31.56.52.0/22
 "OVH SAS",31.56.112.0/22
 "OVH SAS",31.56.117.0/24
-"OVH SAS",31.56.119.0/24
+"OVH SAS",31.56.118.0/23
 "OVH SAS",37.59.0.0/16
 "OVH SAS",37.60.48.0/20
 "OVH SAS",37.139.130.0/24
@@ -92733,7 +92735,8 @@ InfiniaHost.com,23.175.40.0/24
 InfiniaHost.com,23.175.248.0/24
 InfiniaHost.com,149.112.101.0/24
 InfiniaHost.com,149.112.109.0/24
-InfiniaHost.com,149.112.111.0/24
+InfiniaHost.com,2602:fa07::/48
+InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",2.16.12.0/23
 "Akamai Technologies, Inc.",2.16.30.0/23
 "Akamai Technologies, Inc.",2.16.32.0/23
@@ -96942,7 +96945,6 @@ LibraHost,2a0e:b107:12d::/48
 "HostRoyale Technologies Pvt Ltd",213.188.72.0/21
 "HostRoyale Technologies Pvt Ltd",213.255.240.0/22
 "HostRoyale Technologies Pvt Ltd",213.255.248.0/22
-"HostRoyale Technologies Pvt Ltd",216.19.220.0/23
 "HostRoyale Technologies Pvt Ltd",216.73.180.0/23
 "HostRoyale Technologies Pvt Ltd",2a05:f4c0::/29
 "HostRoyale Technologies Pvt Ltd",2a06:3040::/45
@@ -97417,6 +97419,7 @@ LibraHost,2a0e:b107:12d::/48
 "Host Europe GmbH",83.169.32.0/20
 "Host Europe GmbH",85.195.75.0/24
 "Host Europe GmbH",85.195.76.0/24
+"Host Europe GmbH",85.195.78.0/24
 "Host Europe GmbH",85.195.82.0/23
 "Host Europe GmbH",85.195.85.0/24
 "Host Europe GmbH",85.195.86.0/24
@@ -98140,7 +98143,6 @@ LibraHost,2a0e:b107:12d::/48
 "CARDOCK HOSTING LIMITED",193.3.44.0/24
 "WHG Hosting Services Ltd",195.250.27.0/24
 "WHG Hosting Services Ltd",195.250.28.0/24
-"Private-Hosting di Cipriano oscar",41.216.180.0/24
 "Private-Hosting di Cipriano oscar",41.216.182.0/23
 "Private-Hosting di Cipriano oscar",41.216.188.0/23
 "Private-Hosting di Cipriano oscar",2a05:4140:500::/47
@@ -98352,6 +98354,7 @@ LibraHost,2a0e:b107:12d::/48
 "RoyaleHosting BV",2a0b:64c0:d::/48
 "RoyaleHosting BV",2a0b:64c0:e::/47
 "RoyaleHosting BV",2a0b:64c0:10::/47
+"RoyaleHosting BV",2a0b:64c0:12::/48
 "RoyaleHosting BV",2a0b:64c0:f800::/46
 "RoyaleHosting BV",2a0b:64c0:f804::/48
 "RoyaleHosting BV",2a0b:64c0:fff8::/48
@@ -100258,6 +100261,7 @@ FDCservers.net,2a0c:71c0:4::/48
 365.hosting,138.124.187.0/24
 365.hosting,2602:2d3::/40
 Host-Engine.com,23.152.40.0/23
+Host-Engine.com,149.112.111.0/24
 "HostVenom LLC",66.118.246.0/24
 "HostVenom LLC",104.36.56.0/21
 "HostVenom LLC",104.128.48.0/22
@@ -101706,7 +101710,8 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",172.225.6.0/23
 "Akamai Technologies, Inc.",172.225.10.0/24
 "Akamai Technologies, Inc.",172.225.12.0/22
-"Akamai Technologies, Inc.",172.225.16.0/22
+"Akamai Technologies, Inc.",172.225.16.0/24
+"Akamai Technologies, Inc.",172.225.18.0/23
 "Akamai Technologies, Inc.",172.225.20.0/23
 "Akamai Technologies, Inc.",172.225.22.0/24
 "Akamai Technologies, Inc.",172.225.24.0/21
@@ -105609,28 +105614,27 @@ EBOUNDHOST.com,216.14.112.0/20
 LayerHost,23.228.64.0/20
 LayerHost,23.228.80.0/23
 LayerHost,23.228.82.0/24
-LayerHost,23.228.84.0/22
+LayerHost,23.228.84.0/23
+LayerHost,23.228.86.0/24
 LayerHost,23.228.88.0/22
 LayerHost,23.228.93.0/24
 LayerHost,23.228.94.0/23
-LayerHost,23.228.96.0/21
+LayerHost,23.228.97.0/24
+LayerHost,23.228.98.0/23
+LayerHost,23.228.100.0/22
 LayerHost,23.228.104.0/22
 LayerHost,23.228.109.0/24
 LayerHost,23.228.110.0/23
 LayerHost,23.228.112.0/20
 LayerHost,45.203.0.0/23
 LayerHost,45.203.2.0/24
-LayerHost,45.203.4.0/23
-LayerHost,45.203.6.0/24
+LayerHost,45.203.4.0/22
 LayerHost,45.203.8.0/22
 LayerHost,45.203.12.0/23
-LayerHost,45.203.14.0/24
-LayerHost,45.203.17.0/24
 LayerHost,45.203.18.0/23
 LayerHost,45.203.20.0/24
-LayerHost,45.203.23.0/24
-LayerHost,45.203.24.0/23
-LayerHost,45.203.27.0/24
+LayerHost,45.203.22.0/24
+LayerHost,45.203.24.0/24
 LayerHost,45.203.28.0/22
 LayerHost,63.75.240.0/20
 LayerHost,92.112.170.0/23
@@ -105700,8 +105704,7 @@ LayerHost,2a13:fa00::/29
 "Lamhosting LLC",23.184.88.0/24
 "Lamhosting LLC",103.165.85.0/24
 "Lamhosting LLC",141.11.50.0/23
-"Lamhosting LLC",167.253.152.0/23
-"Lamhosting LLC",167.253.154.0/24
+"Lamhosting LLC",167.253.152.0/22
 "Lamhosting LLC",208.75.132.0/23
 "Lamhosting LLC",208.75.134.0/24
 "Lamhosting LLC",2602:f8c0:1::/48
@@ -105774,7 +105777,7 @@ Arcserve,199.204.172.0/22
 "HYEHOST LTD",2a0a:6044::/46
 "HYEHOST LTD",2a0a:6044:4::/47
 "HYEHOST LTD",2a0a:6044:7::/48
-"HYEHOST LTD",2a0a:6044:8::/47
+"HYEHOST LTD",2a0a:6044:9::/48
 "HYEHOST LTD",2a0a:6044:a::/48
 "HYEHOST LTD",2a0a:6044:aa0a::/47
 "HYEHOST LTD",2a0a:6044:aa0c::/48
@@ -106320,6 +106323,7 @@ Arcserve,199.204.172.0/22
 "HOSTYPE LLC",77.90.139.0/24
 "HOSTYPE LLC",94.156.177.0/24
 "HOSTYPE LLC",146.19.125.0/24
+"HOSTYPE LLC",185.216.71.0/24
 "Seva-Host Ltd",91.217.84.0/23
 "Hostmania Cloud SRL",193.192.46.0/23
 "Russian Servers Limited",193.169.52.0/23
@@ -106361,7 +106365,6 @@ Arcserve,199.204.172.0/22
 "Ferdinand Zink trading as Tube-Hosting",217.144.154.0/24
 "Ferdinand Zink trading as Tube-Hosting",2a06:5280::/29
 "Ferdinand Zink trading as Tube-Hosting",2a07:4b40::/29
-"Ferdinand Zink trading as Tube-Hosting",2a07:8a40::/29
 "Ferdinand Zink trading as Tube-Hosting",2a10:3b00::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:8640::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:89c0::/29
@@ -106875,6 +106878,7 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2a0f:9400:6106::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6109::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6112::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:6148::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6163::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6c10::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6c20::/43
@@ -107330,7 +107334,6 @@ EGIHosting,2607:f358:15::/48
 "Hostopia Australia Web Pty Ltd",49.156.24.0/21
 "Hostopia Australia Web Pty Ltd",101.0.64.0/18
 "Hostopia Australia Web Pty Ltd",103.12.4.0/22
-"Hostopia Australia Web Pty Ltd",103.20.200.0/24
 "Hostopia Australia Web Pty Ltd",103.80.103.0/24
 "Hostopia Australia Web Pty Ltd",103.141.249.0/24
 "Hostopia Australia Web Pty Ltd",103.208.216.0/22
@@ -108411,7 +108414,8 @@ GTHost,2a13:1480::/29
 "Akamai Technologies, Inc.",2600:3c0f:44::/46
 "Akamai Technologies, Inc.",2600:3c0f:48::/48
 "Akamai Technologies, Inc.",2600:3c12:100::/40
-"Akamai Technologies, Inc.",2600:3c12:400::/38
+"Akamai Technologies, Inc.",2600:3c12:500::/40
+"Akamai Technologies, Inc.",2600:3c12:600::/39
 "Akamai Technologies, Inc.",2600:3c12:800::/39
 "Akamai Technologies, Inc.",2600:3c12:b00::/40
 "Akamai Technologies, Inc.",2600:3c13::/32
