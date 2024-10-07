@@ -93888,7 +93888,8 @@ ColoCone,103.174.152.0/23
 "RouterHosting LLC",172.86.70.0/24
 "RouterHosting LLC",172.86.72.0/23
 "RouterHosting LLC",172.86.74.0/24
-"RouterHosting LLC",172.86.80.0/22
+"RouterHosting LLC",172.86.80.0/21
+"RouterHosting LLC",172.86.88.0/22
 "RouterHosting LLC",172.86.112.0/21
 "RouterHosting LLC",172.86.120.0/22
 "RouterHosting LLC",198.251.92.0/22
@@ -93950,7 +93951,6 @@ HOSTPERL,193.37.47.0/24
 HOSTPERL,2401:3b20::/32
 "HOSTLINK (HK) LIMITED",103.91.151.0/24
 "BHARAT DATACENTER",23.142.25.0/24
-"BHARAT DATACENTER",85.209.161.0/24
 "BHARAT DATACENTER",103.111.88.0/24
 "BHARAT DATACENTER",103.136.70.0/24
 "BHARAT DATACENTER",103.170.58.0/24
@@ -98710,6 +98710,7 @@ LibraHost,2a0e:b107:12d::/48
 "Hostinger International Limited",2a02:4780:dead::/48
 "Bonsai Hosting ltd",128.254.184.0/24
 "Bonsai Hosting ltd",194.153.216.0/24
+"Remi VIDON trading as Shiftek Hosting",77.93.141.0/24
 "Remi VIDON trading as Shiftek Hosting",163.5.107.0/24
 "Remi VIDON trading as Shiftek Hosting",2a10:4646:1e0::/44
 "DIAHOSTING LIMITED",5.157.2.0/23
@@ -99004,7 +99005,6 @@ LibraHost,2a0e:b107:12d::/48
 "Host Europe GmbH",92.51.170.0/24
 "Host Europe GmbH",92.51.180.0/22
 "Host Europe GmbH",92.204.162.0/24
-"Host Europe GmbH",92.204.166.0/24
 "Host Europe GmbH",92.204.171.0/24
 "Host Europe GmbH",92.204.186.0/24
 "Host Europe GmbH",92.204.189.0/24
@@ -99427,6 +99427,7 @@ LibraHost,2a0e:b107:12d::/48
 "hosTELyon SAS",5.180.56.0/24
 "hosTELyon SAS",2a09:ff40::/32
 "Trusted-Service.net GmbH trading as Trusted-Colo GmbH & Co. KG",2.56.76.0/22
+"Trusted-Service.net GmbH trading as Trusted-Colo GmbH & Co. KG",77.90.38.0/24
 "Trusted-Service.net GmbH trading as Trusted-Colo GmbH & Co. KG",185.223.108.0/24
 "Trusted-Service.net GmbH trading as Trusted-Colo GmbH & Co. KG",2a09:d0c0::/29
 "Ablative Hosting Ltd",185.104.122.0/24
@@ -99576,8 +99577,6 @@ LibraHost,2a0e:b107:12d::/48
 "Akamai International B.V.",2806:1080:cefe::/48
 "Akamai International B.V.",2806:10b0:cefe::/48
 "Akamai International B.V.",2a02:26f0::/29
-"EKIPHOST BILISIM TEKNOLOJILERI TICARET VE SANAYI LIMITED SIRKETI",5.180.104.0/24
-"EKIPHOST BILISIM TEKNOLOJILERI TICARET VE SANAYI LIMITED SIRKETI",45.141.150.0/24
 "EKIPHOST BILISIM TEKNOLOJILERI TICARET VE SANAYI LIMITED SIRKETI",91.124.63.0/24
 "EKIPHOST BILISIM TEKNOLOJILERI TICARET VE SANAYI LIMITED SIRKETI",146.103.26.0/24
 "EKIPHOST BILISIM TEKNOLOJILERI TICARET VE SANAYI LIMITED SIRKETI",2a0f:6580:108::/48
@@ -100142,6 +100141,7 @@ LibraHost,2a0e:b107:12d::/48
 "mijn.host B.V.",2a11:4880::/32
 "Matteo Martelloni trading as DELUXHOST",31.56.7.0/24
 "Matteo Martelloni trading as DELUXHOST",46.243.77.0/24
+"WEHOST LLC",185.118.79.0/24
 "Atlas Host LLC",62.60.186.0/24
 "DORUK HOSTING VE BILISIM TEKNOLOJILERI A.S.",84.247.20.0/24
 "Benjamin Godderis trading as HostSpiral VOF",2a14:7581:ff9::/48
@@ -100275,7 +100275,7 @@ LibraHost,2a0e:b107:12d::/48
 "Partner Hosting LTD",147.45.45.0/24
 "Partner Hosting LTD",193.233.112.0/23
 "Partner Hosting LTD",193.233.134.0/24
-"Partner Hosting LTD",193.233.254.0/24
+"Partner Hosting LTD",193.233.254.0/23
 "Partner Hosting LTD",194.36.177.0/24
 "Partner Hosting LTD",195.10.205.0/24
 "Partner Hosting LTD",2a0b:4141::/32
@@ -101877,6 +101877,7 @@ FDCservers.net,67.159.32.0/23
 FDCservers.net,67.159.36.0/23
 FDCservers.net,67.159.40.0/23
 FDCservers.net,83.147.194.0/24
+FDCservers.net,89.213.208.0/24
 FDCservers.net,91.213.174.0/24
 FDCservers.net,168.100.228.0/23
 FDCservers.net,173.0.4.0/22
@@ -101926,14 +101927,27 @@ FDCservers.net,216.227.189.0/24
 FDCservers.net,216.227.190.0/23
 FDCservers.net,2001:49f0:d002::/48
 FDCservers.net,2001:49f0:d007::/48
-FDCservers.net,2001:49f0:d048::/48
+FDCservers.net,2001:49f0:d048::/47
+FDCservers.net,2001:49f0:d04a::/48
 FDCservers.net,2001:49f0:d069::/48
 FDCservers.net,2001:49f0:d06a::/48
 FDCservers.net,2001:49f0:d076::/48
+FDCservers.net,2001:49f0:d07a::/48
+FDCservers.net,2001:49f0:d07d::/48
+FDCservers.net,2001:49f0:d07e::/47
+FDCservers.net,2001:49f0:d082::/48
+FDCservers.net,2001:49f0:d084::/48
+FDCservers.net,2001:49f0:d087::/48
+FDCservers.net,2001:49f0:d089::/48
+FDCservers.net,2001:49f0:d08a::/48
+FDCservers.net,2001:49f0:d08f::/48
 FDCservers.net,2001:49f0:d090::/48
 FDCservers.net,2001:49f0:d0a3::/48
+FDCservers.net,2001:49f0:d0a5::/48
 FDCservers.net,2001:49f0:d0ac::/48
-FDCservers.net,2001:49f0:d0b7::/48
+FDCservers.net,2001:49f0:d0b2::/47
+FDCservers.net,2001:49f0:d0b4::/48
+FDCservers.net,2001:49f0:d0b6::/47
 FDCservers.net,2001:49f0:d0c4::/46
 FDCservers.net,2001:49f0:d0c8::/48
 FDCservers.net,2001:49f0:d0d1::/48
@@ -101945,6 +101959,8 @@ FDCservers.net,2001:49f0:d0fa::/48
 FDCservers.net,2001:49f0:d0fd::/48
 FDCservers.net,2001:49f0:d0fe::/48
 FDCservers.net,2001:49f0:d100::/47
+FDCservers.net,2001:49f0:d105::/48
+FDCservers.net,2001:49f0:d109::/48
 FDCservers.net,2001:49f0:d10e::/47
 FDCservers.net,2001:49f0:d11b::/48
 FDCservers.net,2001:49f0:d11d::/48
@@ -106301,7 +106317,7 @@ LayerHost,103.73.156.0/24
 "Hosting Bot, LLC",172.252.105.0/24
 "Hosting Bot, LLC",2602:fb94:1::/48
 "Hosting Bot, LLC",2602:fb94:2::/47
-"Hosting Bot, LLC",2602:fb94:4::/47
+"Hosting Bot, LLC",2602:fb94:4::/48
 "Hosting Bot, LLC",2602:fb94:a1::/48
 "Hosting Bot, LLC",2602:fb94:bb::/48
 CDNS,158.140.0.0/24
@@ -108596,8 +108612,6 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2a07:9200::/32
 "Free Range Cloud Hosting Inc.",2a07:9203::/32
 "Free Range Cloud Hosting Inc.",2a07:9204::/31
-"Free Range Cloud Hosting Inc.",2a09:342::/32
-"Free Range Cloud Hosting Inc.",2a09:346::/32
 "Free Range Cloud Hosting Inc.",2a0c:9a40:808b::/48
 "Free Range Cloud Hosting Inc.",2a0c:a582::/31
 "Free Range Cloud Hosting Inc.",2a0c:a585::/32
@@ -108616,6 +108630,7 @@ Arcserve,199.204.172.0/22
 "Free Range Cloud Hosting Inc.",2a0f:9400:614b::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:614c::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6163::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:6906::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6920::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6c10::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6c20::/43
@@ -109416,6 +109431,7 @@ OneAsiaHost,116.251.216.0/21
 "HZ Hosting Ltd",79.141.164.0/23
 "HZ Hosting Ltd",79.141.174.0/23
 "HZ Hosting Ltd",89.150.40.0/24
+"HZ Hosting Ltd",89.150.48.0/24
 "HZ Hosting Ltd",89.150.57.0/24
 "HZ Hosting Ltd",91.193.18.0/24
 "HZ Hosting Ltd",98.142.252.0/23
