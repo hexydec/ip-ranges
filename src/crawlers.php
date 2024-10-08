@@ -116,6 +116,12 @@ class crawlers extends generate {
 				'name' => 'Claude AI',
 				'source' => 'https://docs.anthropic.com/en/api/ip-addresses',
 				'domain' => 'anthropic.com'
+			],
+			[
+				'name' => 'SiteImprove',
+				'source' => 'https://help.siteimprove.com/support/solutions/articles/80000448553',
+				'domain' => 'siteimprove.com',
+
 			]
 		];
 		foreach ($map AS $item) {
