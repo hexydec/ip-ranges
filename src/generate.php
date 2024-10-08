@@ -35,7 +35,16 @@ class generate {
 			}
 			$context = \stream_context_create([
 				'http' => [
-					'user_agent' => 'Mozilla/5.0 (compatible; Hexydec IP Ranges Bot/1.0; +https://github.com/hexydec/ip-ranges/)'
+					'user_agent' => 'Mozilla/5.0 (compatible; Hexydec IP Ranges Bot/1.0; +https://github.com/hexydec/ip-ranges/)',
+					'header' => [
+						'Sec-Fetch-Dest: document',
+						'Sec-Fetch-Mode: navigate',
+						'Sec-Fetch-Site: none',
+						'Sec-Fetch-User: ?1',
+						'Sec-GPC: 1',
+						'Cache-Control: no-cache',
+						'Accept-Language: en-GB,en;q=0.5'
+					]
 				]
 			]);
 			if ($contents) {
@@ -76,7 +85,7 @@ class generate {
 	protected function getFromText(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
 			foreach (\explode("\n", \trim($result)) AS $item) {
-				yield $item;
+				yield \trim($item);
 			}
 		}
 	}
@@ -84,15 +93,13 @@ class generate {
 	protected function getFromHtml(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false && \preg_match_all('/(?:[0-9]++(?:\.[0-9]++){3}|(?:[0-9a-f]{1,4}::?){2,7}(?:[0-9a-f]{1,4})?)(?:\/[0-9]{1,3})?/i', $result, $match)) {
 			foreach ($match[0] AS $item) {
-				yield $item;
+				yield \trim($item);
 			}
 		}
 	}
 
 	public function compile(?string $cache = null) : \Generator {
-		while (false) {
-			yield [];
-		}
+		yield [];
 	}
 
 	public function save(array $files, ?string $cache = null) : int|false {
