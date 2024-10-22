@@ -4,53 +4,73 @@ namespace hexydec\ipaddresses;
 
 class datacentres extends generate {
 
-	protected function getAzure(?string $cache = null) : \Generator {
-		if (($file = $this->fetch('https://www.microsoft.com/en-my/download/details.aspx?id=56519', $cache)) !== false) {
-			if (\preg_match('/<a href="([^"]+\\.json)"/i', $file, $match)) {
-				if (($source = \file_get_contents(\htmlspecialchars_decode($match[1]))) !== false && ($json = \json_decode($source)) !== null) {
-					foreach ($json->values AS $item) {
-						foreach ($item->properties->addressPrefixes ?? [] AS $item) {
-							yield [
-								'name' => 'Microsoft Azure',
-								'range' => $item
-							];
-						}
-					}
+	// protected function getAzure(?string $cache = null) : \Generator {
+	// 	$url = 'https://www.microsoft.com/en-my/download/details.aspx?id=56519';
+	// 	if (($file = $this->fetch($url, $cache)) !== false) {
+	// 		if (\preg_match('/<a href="([^"]+\\.json)"/i', $file, $match)) {
+	// 			\sleep(3);
+	// 			if (($source = $this->fetch(\htmlspecialchars_decode($match[1]), $cache, true, ['Referer: '.$url])) !== false && ($json = \json_decode($source)) !== null) {
+	// 				foreach ($json->values AS $item) {
+	// 					foreach ($item->properties->addressPrefixes ?? [] AS $item) {
+	// 						yield [
+	// 							'name' => 'Microsoft Azure',
+	// 							'range' => $item
+	// 						];
+	// 					}
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+	protected function getAzure(string $url, ?string $cache = null) : \Generator {
+		if (($file = $this->fetch($url, $cache)) !== false && ($json = \json_decode($file)) !== null) {
+			foreach ($json->values AS $item) {
+				foreach ($item->properties->addressPrefixes ?? [] AS $item) {
+					yield $item;
 				}
 			}
 		}
 	}
 
-	protected function getAsns(?string $cache = null) : \Generator {
+	protected function getLinode(?string $cache = null) : \Generator {
+		if (($result = $this->fetch('https://geoip.linode.com/', $cache)) !== false) {
+			foreach (\explode("\n", \trim($result)) AS $item) {
+				yield \explode(',', $item, 2)[0];
+			}
+		}
+	}
+
+	protected function getAsnIds(string $file, ?string $cache = null) {
+		if (($file = $this->fetch($file, $cache, false)) !== false) {
+
+		}
+	}
+
+	protected function getAsns(array $sources, ?string $cache = null) : \Generator {
 		if (($file = $this->fetch('https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip', $cache, false)) !== false) {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
 			if ($za->open($file, \ZipArchive::RDONLY)) {
-				for ($i = 0; $i < $za->numFiles; $i++) { 
-					$stat = $za->statIndex($i);
+				foreach ($sources AS $source) {
+					foreach ($this->getFromText($source, $cache) AS $item) {
+						if (($content = $za->getFromName('asn-ip-master/as/'.$item.'/aggregated.json')) === false) {
 
-					// find matching file
-					if ($stat['size'] && \str_starts_with($stat['name'], 'asn-ip-master/as/') && \str_ends_with($stat['name'], '/aggregated.json')) {
-
-						// open and decode file
-						if (($source = $za->getFromIndex($i)) !== false && ($json = \json_decode($source)) !== false) {
-
-							// see if ASN name matches regex
-							$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|\bOVH\b|siteground|rackspace|namecheap|linode|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b/i';
-							if (isset($json->description) && !\str_contains(\mb_strtolower($json->description), 'telecom') && \preg_match($re, $json->description, $match)) {
-								foreach ($json->subnets->ipv4 ?? [] AS $item) {
-									yield [
-										'name' => $json->description,
-										'range' => $item
-									];
-								}
-								foreach ($json->subnets->ipv6 ?? [] AS $item) {
-									yield [
-										'name' => $json->description,
-										'range' => $item
-									];
-								}
+						} elseif (($json = \json_decode($content)) === false) {
+							
+						} else {
+							foreach ($json->subnets->ipv4 ?? [] AS $item) {
+								yield [
+									'name' => $json->description ?? null,
+									'range' => $item
+								];
+							}
+							foreach ($json->subnets->ipv6 ?? [] AS $item) {
+								yield [
+									'name' => $json->description ?? null,
+									'range' => $item
+								];
 							}
 						}
 					}
@@ -60,6 +80,8 @@ class datacentres extends generate {
 	}
 
 	public function compile(?string $cache = null) : \Generator {
+
+		// AWS and GCP
 		$map = [
 			'Amazon AWS' => 'https://ip-ranges.amazonaws.com/ip-ranges.json',
 			'Google Cloud Platform' => 'https://www.gstatic.com/ipranges/cloud.json'
@@ -72,14 +94,29 @@ class datacentres extends generate {
 				];
 			}
 		}
-		foreach ($this->getAzure($cache) AS $item) {
-			yield $item;
+
+		// Azure
+		$map = [
+			'Microsoft Azure Public' => 'https://azureipranges.azurewebsites.net/Data/Public.json',
+			'Microsoft Azure Government' => 'https://azureipranges.azurewebsites.net/Data/AzureGovernment.json',
+			'Microsoft Azure Germany' => 'https://azureipranges.azurewebsites.net/Data/AzureGermany.json',
+			'Micorosft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
+		];
+		foreach ($map AS $key => $item) {
+			foreach ($this->getAzure($item, $cache) AS $item) {
+				yield [
+					'name' => $key,
+					'range' => $value
+				];
+			}
 		}
+
+		// cloudflare
 		$map = [
 			'https://www.cloudflare.com/ips-v4/',
 			'https://www.cloudflare.com/ips-v6/'
 		];
-		foreach ($map AS $key => $item) {
+		foreach ($map AS $item) {
 			foreach ($this->getFromText($item, $cache) AS $value) {
 				yield [
 					'name' => 'CloudFlare',
@@ -87,7 +124,21 @@ class datacentres extends generate {
 				];
 			}
 		}
-		foreach ($this->getAsns($cache) AS $item) {
+
+		// linode
+		foreach ($this->getLinode() AS $item) {
+			yield [
+				'name' => 'Linode',
+				'range' => $value
+			];
+		}
+
+		// ASNs
+		$map = [
+			'https://github.com/Umkus/ip-index/raw/refs/heads/master/data/asns_dcs.csv',
+			'https://github.com/Umkus/ip-index/raw/refs/heads/master/data/asns_dcs_unconfirmed.csv'
+		];
+		foreach ($this->getAsns($map, $cache) AS $item) {
 			yield $item;
 		}
 	}

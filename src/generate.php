@@ -124,17 +124,21 @@ class generate {
 
 		// compile IP ranges
 		$i = 0;
+		$ranges = [];
 		foreach ($this->compile($cache) AS $item) {
-			foreach ($handles AS $ext => $handle) {
-				if ($ext === '.csv' && \fputcsv($handle, $item) === false) {
-					return false;
-				} elseif ($ext === '.txt' && \fwrite($handle, $item['range']."\n") === false) {
-					return false;
-				} elseif ($ext === '.json' && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
-					return false;
+			if (!\in_array($item['range'], $ranges, true)) {
+				$ranges[] = $item['range'];
+				foreach ($handles AS $ext => $handle) {
+					if ($ext === '.csv' && \fputcsv($handle, $item) === false) {
+						return false;
+					} elseif ($ext === '.txt' && \fwrite($handle, $item['range']."\n") === false) {
+						return false;
+					} elseif ($ext === '.json' && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
+						return false;
+					}
 				}
+				$i++;
 			}
-			$i++;
 		}
 
 		// close file handles
