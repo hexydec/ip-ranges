@@ -6997,7 +6997,6 @@ SWITCH,160.85.0.0/16
 SWITCH,160.98.0.0/16
 SWITCH,161.62.0.0/16
 SWITCH,185.133.44.0/22
-SWITCH,185.144.36.0/22
 SWITCH,185.207.116.0/22
 SWITCH,192.12.247.0/24
 SWITCH,192.26.28.0/22
@@ -7049,7 +7048,6 @@ SWITCH,193.8.136.0/23
 SWITCH,193.36.32.0/24
 SWITCH,193.73.125.0/24
 SWITCH,193.134.200.0/21
-SWITCH,193.134.216.0/21
 SWITCH,193.135.168.0/22
 SWITCH,193.135.240.0/21
 SWITCH,193.222.112.0/20
@@ -7074,7 +7072,6 @@ SWITCH,2001:620::/29
 SWITCH,2001:67c:10ec::/48
 SWITCH,2001:67c:16dc::/48
 SWITCH,2a02:7dc0::/32
-SWITCH,2a07:3e00::/29
 SWITCH,2a0a:4ec0::/29
 SWITCH,2a0b:1200::/29
 SWITCH,2a0b:2040::/29
@@ -7086,7 +7083,9 @@ SWITCH,2a0b:2040::/29
 "Oracle Corporation",192.18.220.0/22
 "Oracle Corporation",2606:b400:8004::/48
 "Oracle Corporation",2606:b400:8006::/48
+"IPXO LLC",2.58.115.0/24
 "IPXO LLC",5.39.196.0/22
+"IPXO LLC",5.102.116.0/22
 "IPXO LLC",5.253.64.0/24
 "IPXO LLC",14.102.232.0/24
 "IPXO LLC",23.26.143.0/24
@@ -7108,7 +7107,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",45.10.157.0/24
 "IPXO LLC",45.11.173.0/24
 "IPXO LLC",45.11.175.0/24
-"IPXO LLC",45.12.69.0/24
 "IPXO LLC",45.12.185.0/24
 "IPXO LLC",45.40.114.0/23
 "IPXO LLC",45.41.54.0/24
@@ -7140,6 +7138,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",62.72.168.0/24
 "IPXO LLC",62.72.185.0/24
 "IPXO LLC",62.171.240.0/22
+"IPXO LLC",62.182.32.0/22
 "IPXO LLC",64.113.16.0/24
 "IPXO LLC",64.130.32.0/21
 "IPXO LLC",65.87.16.0/21
@@ -7176,16 +7175,16 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",83.147.22.0/24
 "IPXO LLC",83.147.26.0/23
 "IPXO LLC",83.147.28.0/24
-"IPXO LLC",83.147.216.0/24
+"IPXO LLC",83.147.232.0/22
 "IPXO LLC",83.219.98.0/24
 "IPXO LLC",84.32.7.0/24
 "IPXO LLC",84.32.8.0/24
 "IPXO LLC",84.32.95.0/24
 "IPXO LLC",84.32.96.0/21
-"IPXO LLC",85.115.210.0/23
+"IPXO LLC",84.54.2.0/23
+"IPXO LLC",85.115.211.0/24
 "IPXO LLC",85.193.77.0/24
 "IPXO LLC",85.208.49.0/24
-"IPXO LLC",86.110.52.0/24
 "IPXO LLC",86.110.59.0/24
 "IPXO LLC",88.80.139.0/24
 "IPXO LLC",88.216.90.0/23
@@ -7203,12 +7202,16 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",89.213.167.0/24
 "IPXO LLC",89.213.191.0/24
 "IPXO LLC",91.186.218.0/23
-"IPXO LLC",91.231.156.0/24
+"IPXO LLC",91.209.58.0/24
+"IPXO LLC",91.210.144.0/24
+"IPXO LLC",92.53.184.0/22
 "IPXO LLC",93.177.114.0/23
+"IPXO LLC",94.229.223.0/24
 "IPXO LLC",96.43.96.0/21
 "IPXO LLC",102.129.166.0/24
 "IPXO LLC",102.129.182.0/24
 "IPXO LLC",102.129.216.0/24
+"IPXO LLC",102.129.226.0/24
 "IPXO LLC",102.129.240.0/23
 "IPXO LLC",102.129.246.0/24
 "IPXO LLC",103.72.102.0/24
@@ -7256,6 +7259,36 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",146.247.54.0/23
 "IPXO LLC",146.247.56.0/23
 "IPXO LLC",146.247.58.0/24
+"IPXO LLC",151.242.0.0/24
+"IPXO LLC",151.242.2.0/23
+"IPXO LLC",151.242.5.0/24
+"IPXO LLC",151.242.6.0/24
+"IPXO LLC",151.242.8.0/23
+"IPXO LLC",151.242.11.0/24
+"IPXO LLC",151.242.13.0/24
+"IPXO LLC",151.242.14.0/24
+"IPXO LLC",151.242.16.0/24
+"IPXO LLC",151.242.18.0/23
+"IPXO LLC",151.242.21.0/24
+"IPXO LLC",151.242.22.0/24
+"IPXO LLC",151.242.24.0/23
+"IPXO LLC",151.242.27.0/24
+"IPXO LLC",151.242.28.0/24
+"IPXO LLC",151.242.30.0/23
+"IPXO LLC",151.242.33.0/24
+"IPXO LLC",151.242.34.0/23
+"IPXO LLC",151.242.36.0/22
+"IPXO LLC",151.242.40.0/21
+"IPXO LLC",151.242.48.0/20
+"IPXO LLC",151.242.64.0/19
+"IPXO LLC",151.242.96.0/21
+"IPXO LLC",151.242.104.0/22
+"IPXO LLC",151.242.108.0/23
+"IPXO LLC",151.242.111.0/24
+"IPXO LLC",151.242.112.0/22
+"IPXO LLC",151.242.116.0/24
+"IPXO LLC",151.242.118.0/23
+"IPXO LLC",151.242.120.0/21
 "IPXO LLC",151.242.128.0/18
 "IPXO LLC",151.242.192.0/19
 "IPXO LLC",151.242.224.0/20
@@ -7275,7 +7308,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",151.243.224.0/20
 "IPXO LLC",151.243.240.0/22
 "IPXO LLC",151.243.244.0/23
-"IPXO LLC",152.89.250.0/24
 "IPXO LLC",154.16.9.0/24
 "IPXO LLC",154.16.26.0/24
 "IPXO LLC",154.16.48.0/24
@@ -7304,6 +7336,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",157.254.11.0/24
 "IPXO LLC",157.254.34.0/23
 "IPXO LLC",157.254.158.0/24
+"IPXO LLC",157.254.228.0/24
 "IPXO LLC",159.253.1.0/24
 "IPXO LLC",159.253.2.0/23
 "IPXO LLC",159.253.5.0/24
@@ -7317,7 +7350,9 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",163.5.175.0/24
 "IPXO LLC",163.5.209.0/24
 "IPXO LLC",163.5.211.0/24
+"IPXO LLC",163.5.212.0/24
 "IPXO LLC",163.5.221.0/24
+"IPXO LLC",163.5.237.0/24
 "IPXO LLC",163.5.245.0/24
 "IPXO LLC",165.140.25.0/24
 "IPXO LLC",165.140.93.0/24
@@ -7347,6 +7382,9 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",176.57.52.0/24
 "IPXO LLC",176.57.56.0/24
 "IPXO LLC",176.125.251.0/24
+"IPXO LLC",178.208.185.0/24
+"IPXO LLC",178.208.188.0/23
+"IPXO LLC",178.208.190.0/24
 "IPXO LLC",179.61.198.0/24
 "IPXO LLC",179.61.210.0/24
 "IPXO LLC",179.61.212.0/24
@@ -7395,6 +7433,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",185.240.122.0/24
 "IPXO LLC",185.241.148.0/24
 "IPXO LLC",185.251.80.0/23
+"IPXO LLC",188.94.191.0/24
 "IPXO LLC",188.164.154.0/24
 "IPXO LLC",188.214.234.0/23
 "IPXO LLC",190.92.166.0/23
@@ -7427,7 +7466,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",191.101.252.0/24
 "IPXO LLC",192.42.172.0/24
 "IPXO LLC",192.109.165.0/24
-"IPXO LLC",192.166.82.0/24
 "IPXO LLC",193.8.237.0/24
 "IPXO LLC",193.38.44.0/22
 "IPXO LLC",193.43.138.0/24
@@ -7450,6 +7488,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",194.143.222.0/23
 "IPXO LLC",194.163.68.0/24
 "IPXO LLC",194.163.70.0/23
+"IPXO LLC",194.163.80.0/22
 "IPXO LLC",194.163.88.0/21
 "IPXO LLC",194.233.28.0/22
 "IPXO LLC",194.233.148.0/23
@@ -7467,9 +7506,8 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",195.252.173.0/24
 "IPXO LLC",195.252.174.0/23
 "IPXO LLC",198.23.186.0/24
+"IPXO LLC",198.89.100.0/22
 "IPXO LLC",198.177.56.0/21
-"IPXO LLC",199.48.242.0/24
-"IPXO LLC",199.48.247.0/24
 "IPXO LLC",199.101.170.0/24
 "IPXO LLC",199.115.80.0/23
 "IPXO LLC",199.188.148.0/23
@@ -7481,6 +7519,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",200.26.191.0/24
 "IPXO LLC",200.229.16.0/23
 "IPXO LLC",205.211.154.0/23
+"IPXO LLC",206.53.57.0/24
 "IPXO LLC",206.123.144.0/24
 "IPXO LLC",206.206.74.0/23
 "IPXO LLC",206.251.16.0/22
@@ -8207,6 +8246,7 @@ Panix,2602:f977::/36
 "xTom GmbH",91.193.75.0/24
 "xTom GmbH",92.60.41.0/24
 "xTom GmbH",92.60.42.0/24
+"xTom GmbH",92.118.190.0/24
 "xTom GmbH",104.193.8.0/22
 "xTom GmbH",104.245.96.0/21
 "xTom GmbH",104.255.64.0/21
@@ -8214,6 +8254,7 @@ Panix,2602:f977::/36
 "xTom GmbH",147.78.176.0/22
 "xTom GmbH",147.78.240.0/23
 "xTom GmbH",162.248.72.0/21
+"xTom GmbH",172.93.185.0/24
 "xTom GmbH",185.37.252.0/23
 "xTom GmbH",185.37.254.0/24
 "xTom GmbH",185.49.32.0/22
@@ -10618,10 +10659,6 @@ zColo,2606:ef80:6::/48
 "China Networks Inter-Exchange",211.161.24.0/22
 "China Networks Inter-Exchange",211.161.120.0/21
 "China Networks Inter-Exchange",211.162.0.0/21
-"China Networks Inter-Exchange",211.162.64.0/22
-"China Networks Inter-Exchange",211.162.71.0/24
-"China Networks Inter-Exchange",211.162.72.0/24
-"China Networks Inter-Exchange",211.162.126.0/24
 "China Networks Inter-Exchange",218.30.179.0/24
 "China Networks Inter-Exchange",218.30.180.0/23
 "China Networks Inter-Exchange",218.30.182.0/24
@@ -10647,11 +10684,9 @@ zColo,2606:ef80:6::/48
 "China Networks Inter-Exchange",219.238.148.0/22
 "China Networks Inter-Exchange",219.238.232.0/21
 "China Networks Inter-Exchange",219.239.88.0/21
-"China Networks Inter-Exchange",220.112.1.0/24
-"China Networks Inter-Exchange",220.112.40.0/21
-"China Networks Inter-Exchange",220.112.207.0/24
 "China Networks Inter-Exchange",220.112.224.0/19
 "China Networks Inter-Exchange",220.113.96.0/21
+"China Networks Inter-Exchange",220.113.224.0/19
 "China Networks Inter-Exchange",220.181.62.0/23
 "China Networks Inter-Exchange",220.181.176.0/24
 "China Networks Inter-Exchange",220.181.190.0/24
@@ -10925,9 +10960,14 @@ zColo,2606:ef80:6::/48
 "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",192.102.171.0/24
 "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4404::/48
 "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4410::/48
-"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4414::/48
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4414::/47
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4416::/48
 "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4420::/48
 "Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4424::/48
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4434::/48
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4460::/48
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4470::/48
+"Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V.",2a03:db80:4494::/48
 "Logosnet Services Limited",82.114.32.0/21
 "Logosnet Services Limited",82.114.40.0/22
 "Logosnet Services Limited",82.114.51.0/24
@@ -11201,21 +11241,19 @@ GTT,2001:aa0:e00::/40
 "American Internet Services, LLC.",209.59.58.0/24
 "American Internet Services, LLC.",209.59.60.0/24
 "XNNET LLC",38.55.112.0/20
-"XNNET LLC",38.147.160.0/19
-"XNNET LLC",38.207.160.0/19
+"XNNET LLC",38.147.176.0/21
+"XNNET LLC",38.147.190.0/23
 "XNNET LLC",43.248.8.0/24
-"XNNET LLC",43.255.158.0/23
 "XNNET LLC",45.83.236.0/24
-"XNNET LLC",45.86.140.0/22
+"XNNET LLC",45.86.143.0/24
 "XNNET LLC",45.128.146.0/23
 "XNNET LLC",45.131.179.0/24
 "XNNET LLC",45.132.238.0/23
-"XNNET LLC",45.133.228.0/22
 "XNNET LLC",45.133.238.0/23
 "XNNET LLC",45.134.82.0/23
 "XNNET LLC",45.135.118.0/23
 "XNNET LLC",45.137.10.0/23
-"XNNET LLC",45.138.80.0/22
+"XNNET LLC",45.138.81.0/24
 "XNNET LLC",45.140.90.0/23
 "XNNET LLC",45.147.24.0/22
 "XNNET LLC",45.158.228.0/22
@@ -11223,12 +11261,16 @@ GTT,2001:aa0:e00::/40
 "XNNET LLC",88.218.194.0/23
 "XNNET LLC",91.208.104.0/24
 "XNNET LLC",91.238.207.0/24
-"XNNET LLC",102.134.52.0/22
-"XNNET LLC",103.30.76.0/22
 "XNNET LLC",103.39.76.0/23
 "XNNET LLC",103.244.88.0/22
 "XNNET LLC",116.206.176.0/22
-"XNNET LLC",149.104.0.0/19
+"XNNET LLC",149.104.0.0/23
+"XNNET LLC",149.104.2.0/24
+"XNNET LLC",149.104.7.0/24
+"XNNET LLC",149.104.8.0/23
+"XNNET LLC",149.104.11.0/24
+"XNNET LLC",149.104.12.0/23
+"XNNET LLC",149.104.14.0/24
 "XNNET LLC",154.91.194.0/24
 "XNNET LLC",176.113.70.0/24
 "XNNET LLC",182.255.44.0/23
@@ -11907,12 +11949,12 @@ CDM,216.114.78.0/24
 "NAV COMMUNICATIONS SRL",2a04:6c80::/48
 "NAV COMMUNICATIONS SRL",2a05:1c00::/30
 "NAV COMMUNICATIONS SRL",2a05:1c04::/32
-"Strato AG",81.169.128.0/17
-"Strato AG",85.214.0.0/15
-"Strato AG",192.67.198.0/24
-"Strato AG",193.141.3.0/24
-"Strato AG",194.45.97.0/24
-"Strato AG",2a01:238::/29
+"Strato GmbH",81.169.128.0/17
+"Strato GmbH",85.214.0.0/15
+"Strato GmbH",192.67.198.0/24
+"Strato GmbH",193.141.3.0/24
+"Strato GmbH",194.45.97.0/24
+"Strato GmbH",2a01:238::/29
 "DIGITAL CONTINUITY LIMITED",80.87.0.0/20
 "RECONN LLC",195.209.51.0/24
 "AS5398 SA",185.155.176.0/22
@@ -12855,6 +12897,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Qin Cloud Networks",2406:4440:f000::/44
 "Qin Cloud Networks",2602:fbda:600::/48
 "Qin Cloud Networks",2602:fbda:610::/48
+"Qin Cloud Networks",2a12:3fc2:6600::/44
 "Qin Cloud Networks",2a13:b487:1200::/44
 "Binary Net, LLC",204.27.195.0/24
 "Binary Net, LLC",216.229.0.0/19
@@ -13511,6 +13554,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Microsoft Corporation",69.52.198.0/23
 "Microsoft Corporation",69.52.204.0/24
 "Microsoft Corporation",69.59.17.0/24
+"Microsoft Corporation",69.72.71.0/24
 "Microsoft Corporation",69.84.180.0/23
 "Microsoft Corporation",70.37.0.0/17
 "Microsoft Corporation",70.37.128.0/18
@@ -14050,7 +14094,6 @@ HostUS,2a0f:5707:ab2b::/48
 "QuadraNet Enterprises LLC",45.12.52.0/23
 "QuadraNet Enterprises LLC",45.12.91.0/24
 "QuadraNet Enterprises LLC",45.15.143.0/24
-"QuadraNet Enterprises LLC",45.43.137.0/24
 "QuadraNet Enterprises LLC",45.43.147.0/24
 "QuadraNet Enterprises LLC",45.43.152.0/24
 "QuadraNet Enterprises LLC",45.56.138.0/23
@@ -14078,7 +14121,6 @@ HostUS,2a0f:5707:ab2b::/48
 "QuadraNet Enterprises LLC",63.142.242.0/23
 "QuadraNet Enterprises LLC",63.142.248.0/24
 "QuadraNet Enterprises LLC",64.20.208.0/24
-"QuadraNet Enterprises LLC",64.137.9.0/24
 "QuadraNet Enterprises LLC",64.137.54.0/24
 "QuadraNet Enterprises LLC",64.137.110.0/23
 "QuadraNet Enterprises LLC",64.137.122.0/23
@@ -14179,6 +14221,7 @@ HostUS,2a0f:5707:ab2b::/48
 "QuadraNet Enterprises LLC",141.11.136.0/23
 "QuadraNet Enterprises LLC",141.11.208.0/22
 "QuadraNet Enterprises LLC",141.11.251.0/24
+"QuadraNet Enterprises LLC",142.79.40.0/21
 "QuadraNet Enterprises LLC",142.111.174.0/24
 "QuadraNet Enterprises LLC",144.34.84.0/24
 "QuadraNet Enterprises LLC",144.172.64.0/23
@@ -14279,6 +14322,7 @@ HostUS,2a0f:5707:ab2b::/48
 "QuadraNet Enterprises LLC",199.7.210.0/23
 "QuadraNet Enterprises LLC",199.89.0.0/23
 "QuadraNet Enterprises LLC",199.89.3.0/24
+"QuadraNet Enterprises LLC",199.115.76.0/24
 "QuadraNet Enterprises LLC",199.167.28.0/24
 "QuadraNet Enterprises LLC",199.180.204.0/22
 "QuadraNet Enterprises LLC",199.249.182.0/24
@@ -14328,14 +14372,14 @@ HostUS,2a0f:5707:ab2b::/48
 "SYNAPSECOM S.A. Provider of Telecommunications and Internet Services",192.71.166.0/24
 "SYNAPSECOM S.A. Provider of Telecommunications and Internet Services",2001:1548::/29
 "SYNAPSECOM S.A. Provider of Telecommunications and Internet Services",2a03:f80:30::/48
-"IP ASSET MANAGEMENT SERVICES LTD",80.252.116.0/24
-"IP ASSET MANAGEMENT SERVICES LTD",80.252.124.0/22
-"IP ASSET MANAGEMENT SERVICES LTD",84.246.192.0/22
-"IP ASSET MANAGEMENT SERVICES LTD",93.188.180.0/22
-"IP ASSET MANAGEMENT SERVICES LTD",192.188.96.0/24
-"IP ASSET MANAGEMENT SERVICES LTD",193.195.141.0/24
-"IP ASSET MANAGEMENT SERVICES LTD",194.70.36.0/24
-"IP ASSET MANAGEMENT SERVICES LTD",2a01:2c0::/32
+"BINK GROUP LTD",80.252.116.0/24
+"BINK GROUP LTD",80.252.124.0/22
+"BINK GROUP LTD",84.246.192.0/22
+"BINK GROUP LTD",93.188.180.0/22
+"BINK GROUP LTD",192.188.96.0/24
+"BINK GROUP LTD",193.195.141.0/24
+"BINK GROUP LTD",194.70.36.0/24
+"BINK GROUP LTD",2a01:2c0::/32
 "Netwerkvereniging Coloclue",91.208.34.0/24
 "Netwerkvereniging Coloclue",94.142.240.0/21
 "Netwerkvereniging Coloclue",185.52.224.0/22
@@ -15027,6 +15071,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Amazon Data Services Ireland Ltd",2605:4300:2c1a::/47
 "Amazon Data Services Ireland Ltd",2605:4300:2c1c::/48
 "Amazon Data Services Ireland Ltd",2605:9cc0:40c::/48
+"Amazon Data Services Ireland Ltd",2605:9cc0:c0d::/48
 "Amazon Data Services Ireland Ltd",2607:f220:301::/48
 "Amazon Data Services Ireland Ltd",2620:108:d000::/44
 "Amazon Data Services Ireland Ltd",2620:123:20f9::/48
@@ -15218,6 +15263,7 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",43.226.230.0/24
 "M247 Europe SRL",43.228.156.0/23
 "M247 Europe SRL",43.228.159.0/24
+"M247 Europe SRL",43.230.56.0/22
 "M247 Europe SRL",45.8.195.0/24
 "M247 Europe SRL",45.8.197.0/24
 "M247 Europe SRL",45.8.198.0/24
@@ -15560,6 +15606,7 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",86.107.21.0/24
 "M247 Europe SRL",86.107.55.0/24
 "M247 Europe SRL",86.107.104.0/24
+"M247 Europe SRL",86.110.52.0/24
 "M247 Europe SRL",87.101.92.0/22
 "M247 Europe SRL",87.236.37.0/24
 "M247 Europe SRL",88.214.0.0/22
@@ -15870,6 +15917,15 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",104.251.88.0/24
 "M247 Europe SRL",104.251.94.0/23
 "M247 Europe SRL",104.252.6.0/24
+"M247 Europe SRL",104.253.224.0/22
+"M247 Europe SRL",104.253.228.0/23
+"M247 Europe SRL",104.253.230.0/24
+"M247 Europe SRL",104.253.234.0/23
+"M247 Europe SRL",104.253.236.0/23
+"M247 Europe SRL",104.253.238.0/24
+"M247 Europe SRL",104.253.241.0/24
+"M247 Europe SRL",104.253.242.0/23
+"M247 Europe SRL",104.253.245.0/24
 "M247 Europe SRL",108.165.249.0/24
 "M247 Europe SRL",109.70.64.0/22
 "M247 Europe SRL",109.70.236.0/24
@@ -16846,7 +16902,6 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",209.198.21.0/24
 "M247 Europe SRL",209.198.51.0/24
 "M247 Europe SRL",212.60.13.0/24
-"M247 Europe SRL",212.60.14.0/24
 "M247 Europe SRL",212.80.200.0/22
 "M247 Europe SRL",212.80.220.0/22
 "M247 Europe SRL",212.81.41.0/24
@@ -17489,6 +17544,8 @@ GoHosting,203.83.219.0/24
 "xTom Hong Kong Limited",45.125.0.0/22
 "xTom Hong Kong Limited",45.142.124.0/24
 "xTom Hong Kong Limited",95.214.164.0/23
+"xTom Hong Kong Limited",103.56.52.0/24
+"xTom Hong Kong Limited",103.56.54.0/24
 "xTom Hong Kong Limited",103.125.232.0/23
 "xTom Hong Kong Limited",103.192.224.0/23
 "xTom Hong Kong Limited",103.192.227.0/24
@@ -19131,8 +19188,6 @@ HostPapa,216.222.204.0/24
 "Exonetric Consulting Ltd",178.250.72.0/21
 "Exonetric Consulting Ltd",2a02:1658::/32
 "Invitech ICT Services Kft.",5.56.34.0/23
-"Invitech ICT Services Kft.",45.11.109.0/24
-"Invitech ICT Services Kft.",45.11.110.0/23
 "Invitech ICT Services Kft.",46.31.176.0/22
 "Invitech ICT Services Kft.",46.31.180.0/23
 "Invitech ICT Services Kft.",46.31.182.0/24
@@ -20918,9 +20973,7 @@ HostPapa,216.222.204.0/24
 "Cloudflare, Inc.",172.71.202.0/23
 "Cloudflare, Inc.",172.71.204.0/24
 "Cloudflare, Inc.",172.71.208.0/20
-"Cloudflare, Inc.",172.71.224.0/22
-"Cloudflare, Inc.",172.71.229.0/24
-"Cloudflare, Inc.",172.71.230.0/23
+"Cloudflare, Inc.",172.71.224.0/21
 "Cloudflare, Inc.",172.71.233.0/24
 "Cloudflare, Inc.",172.71.234.0/23
 "Cloudflare, Inc.",172.71.236.0/22
@@ -23355,6 +23408,7 @@ Swishmail,2602:ffb8::/36
 "Amazon.com, Inc.",129.41.172.0/23
 "Amazon.com, Inc.",130.50.125.0/24
 "Amazon.com, Inc.",130.137.82.0/24
+"Amazon.com, Inc.",130.137.89.0/24
 "Amazon.com, Inc.",130.137.172.0/24
 "Amazon.com, Inc.",130.137.253.0/24
 "Amazon.com, Inc.",130.150.240.0/22
@@ -25640,6 +25694,7 @@ CarsForSale.com,198.185.165.0/24
 "OVH SAS",45.132.216.0/24
 "OVH SAS",45.149.63.0/24
 "OVH SAS",45.149.243.0/24
+"OVH SAS",45.150.4.0/24
 "OVH SAS",45.155.254.0/24
 "OVH SAS",46.8.116.0/24
 "OVH SAS",46.8.200.0/23
@@ -25726,6 +25781,7 @@ CarsForSale.com,198.185.165.0/24
 "OVH SAS",92.113.67.0/24
 "OVH SAS",92.113.74.0/24
 "OVH SAS",92.113.77.0/24
+"OVH SAS",92.113.80.0/24
 "OVH SAS",92.222.0.0/16
 "OVH SAS",92.246.224.0/19
 "OVH SAS",93.114.69.0/24
@@ -25752,6 +25808,7 @@ CarsForSale.com,198.185.165.0/24
 "OVH SAS",128.0.118.0/24
 "OVH SAS",135.125.0.0/16
 "OVH SAS",135.148.0.0/16
+"OVH SAS",136.0.248.0/24
 "OVH SAS",137.74.0.0/16
 "OVH SAS",137.83.50.0/24
 "OVH SAS",139.99.0.0/16
@@ -27327,14 +27384,15 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",130.137.29.0/24
 "Amazon.com, Inc.",130.137.38.0/23
 "Amazon.com, Inc.",130.137.47.0/24
-"Amazon.com, Inc.",130.137.79.0/24
-"Amazon.com, Inc.",130.137.111.0/24
+"Amazon.com, Inc.",130.137.85.0/24
+"Amazon.com, Inc.",130.137.90.0/24
+"Amazon.com, Inc.",130.137.102.0/24
+"Amazon.com, Inc.",130.137.108.0/24
 "Amazon.com, Inc.",130.137.112.0/24
-"Amazon.com, Inc.",130.137.141.0/24
 "Amazon.com, Inc.",130.137.166.0/23
 "Amazon.com, Inc.",130.137.170.0/24
 "Amazon.com, Inc.",130.137.172.0/23
-"Amazon.com, Inc.",130.137.230.0/24
+"Amazon.com, Inc.",130.137.227.0/24
 "Amazon.com, Inc.",130.150.64.0/19
 "Amazon.com, Inc.",130.150.200.0/21
 "Amazon.com, Inc.",130.171.0.0/16
@@ -28206,7 +28264,6 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",172.111.172.0/24
 "Amazon.com, Inc.",172.111.180.0/24
 "Amazon.com, Inc.",172.111.190.0/23
-"Amazon.com, Inc.",173.82.9.0/24
 "Amazon.com, Inc.",173.82.10.0/24
 "Amazon.com, Inc.",173.82.15.0/24
 "Amazon.com, Inc.",173.82.16.0/24
@@ -28970,6 +29027,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",216.115.17.0/24
 "Amazon.com, Inc.",216.115.20.0/24
 "Amazon.com, Inc.",216.115.23.0/24
+"Amazon.com, Inc.",216.115.183.0/24
 "Amazon.com, Inc.",216.115.220.0/24
 "Amazon.com, Inc.",216.120.142.0/24
 "Amazon.com, Inc.",216.120.165.0/24
@@ -29296,7 +29354,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",2605:32c0:a002::/47
 "Amazon.com, Inc.",2605:4300:2c13::/48
 "Amazon.com, Inc.",2605:9cc0:378::/48
-"Amazon.com, Inc.",2605:9cc0:c12::/48
+"Amazon.com, Inc.",2605:9cc0:c05::/48
 "Amazon.com, Inc.",2605:9cc0:f03e::/48
 "Amazon.com, Inc.",2605:a7c0:101::/48
 "Amazon.com, Inc.",2605:a7c0:102::/47
@@ -29497,7 +29555,6 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",2620:134:600c::/48
 "Amazon.com, Inc.",2620:1f7:c000::/48
 "Amazon.com, Inc.",2620:1f7:c020::/48
-"Amazon.com, Inc.",2620:1f9:3f::/48
 "Amazon.com, Inc.",2631::/24
 "Amazon.com, Inc.",2804:800::/32
 "Amazon.com, Inc.",2a00:e20:151::/48
@@ -30158,6 +30215,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.39.156.0/22
 "Akamai Technologies, Inc.",23.39.176.0/20
 "Akamai Technologies, Inc.",23.39.192.0/21
+"Akamai Technologies, Inc.",23.39.212.0/22
 "Akamai Technologies, Inc.",23.39.216.0/22
 "Akamai Technologies, Inc.",23.39.224.0/22
 "Akamai Technologies, Inc.",23.39.240.0/20
@@ -30749,6 +30807,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.199.32.0/23
 "Akamai Technologies, Inc.",23.199.36.0/22
 "Akamai Technologies, Inc.",23.199.48.0/22
+"Akamai Technologies, Inc.",23.199.76.0/22
 "Akamai Technologies, Inc.",23.199.80.0/20
 "Akamai Technologies, Inc.",23.199.128.0/18
 "Akamai Technologies, Inc.",23.199.208.0/20
@@ -30987,7 +31046,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.213.36.0/22
 "Akamai Technologies, Inc.",23.213.44.0/22
 "Akamai Technologies, Inc.",23.213.48.0/22
-"Akamai Technologies, Inc.",23.213.96.0/19
+"Akamai Technologies, Inc.",23.213.64.0/18
 "Akamai Technologies, Inc.",23.213.132.0/23
 "Akamai Technologies, Inc.",23.213.136.0/23
 "Akamai Technologies, Inc.",23.213.140.0/22
@@ -31016,6 +31075,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.214.192.0/22
 "Akamai Technologies, Inc.",23.214.200.0/21
 "Akamai Technologies, Inc.",23.214.208.0/20
+"Akamai Technologies, Inc.",23.214.224.0/19
 "Akamai Technologies, Inc.",23.215.16.0/21
 "Akamai Technologies, Inc.",23.215.24.0/22
 "Akamai Technologies, Inc.",23.215.40.0/22
@@ -31092,6 +31152,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.219.124.0/22
 "Akamai Technologies, Inc.",23.219.136.0/23
 "Akamai Technologies, Inc.",23.219.140.0/22
+"Akamai Technologies, Inc.",23.219.148.0/22
 "Akamai Technologies, Inc.",23.219.164.0/22
 "Akamai Technologies, Inc.",23.219.192.0/21
 "Akamai Technologies, Inc.",23.219.200.0/22
@@ -31123,7 +31184,8 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.221.136.0/21
 "Akamai Technologies, Inc.",23.221.144.0/20
 "Akamai Technologies, Inc.",23.221.200.0/22
-"Akamai Technologies, Inc.",23.221.240.0/20
+"Akamai Technologies, Inc.",23.221.244.0/22
+"Akamai Technologies, Inc.",23.221.248.0/21
 "Akamai Technologies, Inc.",23.222.8.0/22
 "Akamai Technologies, Inc.",23.222.18.0/23
 "Akamai Technologies, Inc.",23.222.20.0/22
@@ -31134,9 +31196,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",23.222.112.0/21
 "Akamai Technologies, Inc.",23.222.124.0/22
 "Akamai Technologies, Inc.",23.222.128.0/18
-"Akamai Technologies, Inc.",23.222.192.0/21
-"Akamai Technologies, Inc.",23.222.204.0/22
-"Akamai Technologies, Inc.",23.222.208.0/20
+"Akamai Technologies, Inc.",23.222.192.0/19
 "Akamai Technologies, Inc.",23.222.224.0/22
 "Akamai Technologies, Inc.",23.223.0.0/20
 "Akamai Technologies, Inc.",23.223.36.0/22
@@ -31982,6 +32042,7 @@ campuscolo.com,2604:7fc0::/32
 "HP Inc.",192.46.43.0/24
 "HP Inc.",192.46.52.0/23
 "HP Inc.",192.46.112.0/23
+"Corporate Colocation Inc.",8.48.84.0/24
 "Corporate Colocation Inc.",66.117.1.0/24
 "Corporate Colocation Inc.",66.117.2.0/24
 "Corporate Colocation Inc.",66.117.6.0/23
@@ -31996,8 +32057,7 @@ campuscolo.com,2604:7fc0::/32
 "Corporate Colocation Inc.",205.134.224.0/21
 "Corporate Colocation Inc.",208.51.60.0/22
 "Corporate Colocation Inc.",208.103.154.0/24
-"Corporate Colocation Inc.",2607:fca8:100::/40
-"Corporate Colocation Inc.",2607:fca8:b001::/48
+"Corporate Colocation Inc.",2607:fca8::/32
 Data102,74.115.168.0/21
 Data102,76.8.48.0/20
 Data102,173.195.144.0/20
@@ -32292,8 +32352,8 @@ NTTCINS,2407:e9c0::/45
 "Brain NET",122.129.80.0/23
 "Brain NET",122.129.82.0/24
 "Brain NET",122.129.84.0/23
-"Brain NET",122.129.86.0/24
-"Brain NET",122.129.88.0/22
+"Brain NET",122.129.89.0/24
+"Brain NET",122.129.90.0/23
 "Brain NET",122.129.92.0/23
 "Brain NET",122.129.94.0/24
 "Brain NET",203.128.0.0/21
@@ -32303,7 +32363,9 @@ NTTCINS,2407:e9c0::/45
 "Brain NET",203.128.16.0/22
 "Brain NET",203.128.20.0/23
 "Brain NET",203.128.22.0/24
-"Brain NET",203.128.24.0/21
+"Brain NET",203.128.25.0/24
+"Brain NET",203.128.26.0/23
+"Brain NET",203.128.28.0/22
 "Brain NET",2400:4f00::/36
 "2-2-43 Higashi-Shinagawa, Shinagawa-ku,Tokyo,140-0002,Japan",5.252.184.0/22
 "2-2-43 Higashi-Shinagawa, Shinagawa-ku,Tokyo,140-0002,Japan",45.130.76.0/22
@@ -32370,12 +32432,7 @@ NTTCINS,2407:e9c0::/45
 "TM TECHNOLOGY SERVICES SDN BHD",202.75.52.0/22
 "TM TECHNOLOGY SERVICES SDN BHD",202.75.58.0/24
 "TM TECHNOLOGY SERVICES SDN BHD",202.75.62.0/23
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.145.0/24
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.148.0/23
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.150.0/24
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.152.0/23
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.154.0/24
-"TM TECHNOLOGY SERVICES SDN BHD",210.48.156.0/22
+"TM TECHNOLOGY SERVICES SDN BHD",210.48.144.0/20
 "Orro Pty Ltd",118.107.148.0/24
 "Orro Pty Ltd",175.184.192.0/21
 "Orro Pty Ltd",175.184.216.0/21
@@ -32466,7 +32523,6 @@ CtrlS,103.234.71.0/24
 CtrlS,103.239.36.0/24
 CtrlS,103.241.136.0/22
 CtrlS,103.241.144.0/22
-CtrlS,103.241.180.0/22
 CtrlS,103.248.80.0/22
 CtrlS,106.0.38.0/23
 CtrlS,120.138.8.0/22
@@ -32641,7 +32697,6 @@ HostPapa,216.201.96.0/20
 "IFX Corporation",45.162.170.0/24
 "IFX Corporation",45.226.186.0/23
 "IFX Corporation",131.108.68.0/22
-"IFX Corporation",179.190.0.0/18
 "IFX Corporation",181.78.32.0/21
 "IFX Corporation",181.78.64.0/19
 "IFX Corporation",181.78.96.0/21
@@ -35267,6 +35322,7 @@ ICANN,2620:0:2ee0::/48
 "The Constant Company, LLC",2620:53:a000::/44
 "The Constant Company, LLC",2620:a8:4000::/48
 "The Constant Company, LLC",2620:b3:2000::/48
+"The Constant Company, LLC",2620:c7:6000::/48
 "The Constant Company, LLC",2620:13d:2030::/46
 "The Constant Company, LLC",2a01:e281:b100::/40
 "The Constant Company, LLC",2a03:4a81::/32
@@ -35987,6 +36043,8 @@ ICANN,2620:0:2ee0::/48
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.87.172.0/24
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.87.174.0/23
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.155.102.0/24
+"MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.201.196.0/23
+"MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.201.198.0/24
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.230.16.0/23
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.230.19.0/24
 "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI",185.235.10.0/24
@@ -36417,7 +36475,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",23.236.96.0/19
 "Zenlayer Inc",23.248.160.0/19
 "Zenlayer Inc",23.251.96.0/19
-"Zenlayer Inc",31.6.63.0/24
 "Zenlayer Inc",31.57.100.0/24
 "Zenlayer Inc",31.57.228.0/24
 "Zenlayer Inc",31.57.248.0/24
@@ -36452,7 +36509,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",45.81.129.0/24
 "Zenlayer Inc",45.81.130.0/23
 "Zenlayer Inc",45.87.163.0/24
-"Zenlayer Inc",45.88.10.0/24
 "Zenlayer Inc",45.91.138.0/24
 "Zenlayer Inc",45.119.5.0/24
 "Zenlayer Inc",45.124.252.0/22
@@ -36498,7 +36554,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",61.91.194.0/24
 "Zenlayer Inc",61.111.249.0/24
 "Zenlayer Inc",64.113.5.0/24
-"Zenlayer Inc",64.253.90.0/24
 "Zenlayer Inc",64.253.92.0/24
 "Zenlayer Inc",65.255.32.0/20
 "Zenlayer Inc",66.78.36.0/23
@@ -36552,7 +36607,8 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",98.98.168.0/21
 "Zenlayer Inc",98.98.176.0/22
 "Zenlayer Inc",98.98.182.0/23
-"Zenlayer Inc",98.98.184.0/22
+"Zenlayer Inc",98.98.185.0/24
+"Zenlayer Inc",98.98.186.0/23
 "Zenlayer Inc",98.98.189.0/24
 "Zenlayer Inc",98.98.190.0/23
 "Zenlayer Inc",98.98.192.0/19
@@ -36590,7 +36646,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",104.166.182.0/23
 "Zenlayer Inc",104.166.184.0/21
 "Zenlayer Inc",104.218.160.0/21
-"Zenlayer Inc",104.243.255.0/24
 "Zenlayer Inc",104.250.45.0/24
 "Zenlayer Inc",107.148.160.0/19
 "Zenlayer Inc",107.150.113.0/24
@@ -36836,7 +36891,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",216.180.255.0/24
 "Zenlayer Inc",216.185.34.0/24
 "Zenlayer Inc",216.247.99.0/24
-"Zenlayer Inc",217.20.240.0/24
 "Zenlayer Inc",217.180.15.0/24
 "Zenlayer Inc",217.198.191.0/24
 "Zenlayer Inc",223.26.72.0/22
@@ -36861,7 +36915,6 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",2602:ffe4:c20::/47
 "Zenlayer Inc",2602:ffe4:c22::/48
 "Zenlayer Inc",2602:ffe4:c26::/47
-"Zenlayer Inc",2602:ffe4:c31::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
@@ -36905,7 +36958,7 @@ ICANN,2620:0:2ee0::/48
 "Zenlayer Inc",2a0b:21c1:5000::/36
 "Zenlayer Inc",2a0b:21c1:6000::/48
 "Zenlayer Inc",2a0b:21c1:6002::/48
-"Zenlayer Inc",2a0b:21c1:6004::/47
+"Zenlayer Inc",2a0b:21c1:6005::/48
 "Zenlayer Inc",2a0b:21c1:6006::/48
 "Zenlayer Inc",2a0b:21c1:6008::/47
 "Zenlayer Inc",2a0b:21c1:600a::/48
@@ -37036,7 +37089,6 @@ IC2NET,2606:2180:4::/47
 "Powerhouse Management, Inc.",128.90.240.0/22
 "Powerhouse Management, Inc.",128.90.244.0/23
 "Powerhouse Management, Inc.",128.90.247.0/24
-"Powerhouse Management, Inc.",178.208.168.0/23
 "Powerhouse Management, Inc.",216.168.4.0/23
 "Powerhouse Management, Inc.",216.168.12.0/24
 "Powerhouse Management, Inc.",216.168.18.0/23
@@ -37601,7 +37653,6 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",156.252.0.0/24
 "ReliableSite.Net LLC",157.254.153.0/24
 "ReliableSite.Net LLC",157.254.224.0/24
-"ReliableSite.Net LLC",157.254.228.0/24
 "ReliableSite.Net LLC",162.244.210.0/24
 "ReliableSite.Net LLC",165.140.94.0/24
 "ReliableSite.Net LLC",166.0.112.0/24
@@ -39650,6 +39701,7 @@ PropelCLOUD,38.109.242.0/23
 "FiberState, LLC",2606:c0:1::/48
 "FiberState, LLC",2606:fc40:4004::/48
 "FiberState, LLC",2a09:da00::/32
+"FiberState, LLC",2a0c:e641::/32
 "FiberState, LLC",2a0f:1584:1::/48
 "FiberState, LLC",2a0f:9400:611f::/48
 "FiberState, LLC",2a14:7582::/32
@@ -40206,10 +40258,7 @@ Gameserverkings,216.39.240.0/24
 "cloudowner llc",23.167.136.0/24
 "cloudowner llc",2607:82c0::/48
 "Otava, LLC",64.25.224.0/20
-"Otava, LLC",66.110.176.0/21
-"Otava, LLC",66.110.184.0/23
-"Otava, LLC",66.110.186.0/24
-"Otava, LLC",66.110.188.0/22
+"Otava, LLC",66.110.176.0/20
 "Otava, LLC",97.64.1.0/24
 "Otava, LLC",97.64.2.0/24
 "Otava, LLC",97.64.4.0/24
@@ -40436,9 +40485,6 @@ zColo,2610:160::/32
 "Rackspace Hosting",209.0.201.0/24
 "Rackspace Hosting",209.133.224.0/19
 "Rackspace Hosting",2001:4802::/32
-"639 DC Main LLC",23.147.224.0/24
-"639 DC Main LLC",104.234.238.0/24
-"639 DC Main LLC",2602:f92c:1::/48
 "Leaseweb USA, Inc.",23.19.120.0/22
 "Leaseweb USA, Inc.",23.19.136.0/21
 "Leaseweb USA, Inc.",23.19.176.0/21
@@ -41514,7 +41560,6 @@ Dattatec.com,2800:6c0::/32
 "HIVELOCITY, Inc.",2.57.22.0/24
 "HIVELOCITY, Inc.",2.58.28.0/24
 "HIVELOCITY, Inc.",5.102.104.0/22
-"HIVELOCITY, Inc.",5.102.116.0/22
 "HIVELOCITY, Inc.",5.252.68.0/23
 "HIVELOCITY, Inc.",5.252.70.0/24
 "HIVELOCITY, Inc.",5.252.161.0/24
@@ -41550,19 +41595,12 @@ Dattatec.com,2800:6c0::/32
 "HIVELOCITY, Inc.",23.239.174.0/23
 "HIVELOCITY, Inc.",31.6.2.0/24
 "HIVELOCITY, Inc.",31.6.36.0/24
-"HIVELOCITY, Inc.",31.57.11.0/24
 "HIVELOCITY, Inc.",31.57.131.0/24
 "HIVELOCITY, Inc.",31.57.150.0/24
 "HIVELOCITY, Inc.",31.57.176.0/24
 "HIVELOCITY, Inc.",31.57.194.0/24
-"HIVELOCITY, Inc.",31.57.252.0/22
 "HIVELOCITY, Inc.",31.58.59.0/24
 "HIVELOCITY, Inc.",31.58.146.0/24
-"HIVELOCITY, Inc.",31.58.176.0/22
-"HIVELOCITY, Inc.",31.58.200.0/22
-"HIVELOCITY, Inc.",31.58.216.0/22
-"HIVELOCITY, Inc.",31.58.240.0/22
-"HIVELOCITY, Inc.",31.58.252.0/22
 "HIVELOCITY, Inc.",31.59.14.0/24
 "HIVELOCITY, Inc.",31.59.30.0/24
 "HIVELOCITY, Inc.",31.59.97.0/24
@@ -41692,7 +41730,6 @@ Dattatec.com,2800:6c0::/32
 "HIVELOCITY, Inc.",89.233.108.0/23
 "HIVELOCITY, Inc.",89.251.24.0/24
 "HIVELOCITY, Inc.",91.124.130.0/24
-"HIVELOCITY, Inc.",91.124.149.0/24
 "HIVELOCITY, Inc.",91.147.124.0/23
 "HIVELOCITY, Inc.",91.191.208.0/24
 "HIVELOCITY, Inc.",91.191.210.0/23
@@ -44851,6 +44888,7 @@ GigeNET,2604:2700::/32
 "Akamai Technologies, Inc.",209.200.156.0/22
 "Akamai Technologies, Inc.",209.200.160.0/19
 "Akamai Technologies, Inc.",210.148.128.0/24
+"Akamai Technologies, Inc.",210.148.130.0/24
 "Akamai Technologies, Inc.",210.193.97.0/24
 "Akamai Technologies, Inc.",210.193.113.0/24
 "Akamai Technologies, Inc.",212.119.74.0/24
@@ -46373,7 +46411,6 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",85.9.120.0/21
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",85.133.197.0/24
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",89.44.243.0/24
-"Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",91.239.189.0/24
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",178.236.35.0/24
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",185.29.222.0/24
 "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",185.118.15.0/24
@@ -48158,7 +48195,7 @@ Vamos,23.184.168.0/24
 "Akamai Technologies, Inc.",172.225.142.0/24
 "Akamai Technologies, Inc.",172.225.144.0/23
 "Akamai Technologies, Inc.",172.225.152.0/24
-"Akamai Technologies, Inc.",172.225.155.0/24
+"Akamai Technologies, Inc.",172.225.154.0/23
 "Akamai Technologies, Inc.",172.225.156.0/24
 "Akamai Technologies, Inc.",172.225.158.0/23
 "Akamai Technologies, Inc.",172.225.160.0/22
@@ -48210,10 +48247,10 @@ Vamos,23.184.168.0/24
 "Akamai Technologies, Inc.",172.226.64.0/24
 "Akamai Technologies, Inc.",172.226.66.0/23
 "Akamai Technologies, Inc.",172.226.68.0/23
-"Akamai Technologies, Inc.",172.226.70.0/24
 "Akamai Technologies, Inc.",172.226.77.0/24
 "Akamai Technologies, Inc.",172.226.78.0/23
 "Akamai Technologies, Inc.",172.226.80.0/23
+"Akamai Technologies, Inc.",172.226.82.0/24
 "Akamai Technologies, Inc.",172.226.84.0/24
 "Akamai Technologies, Inc.",172.226.86.0/23
 "Akamai Technologies, Inc.",172.226.88.0/23
@@ -51006,7 +51043,6 @@ CDNetworks,211.43.157.0/24
 "SunnyVision Limited",117.18.64.0/23
 "SunnyVision Limited",117.18.70.0/23
 "SunnyVision Limited",117.18.73.0/24
-"SunnyVision Limited",117.18.79.0/24
 "SunnyVision Limited",123.103.240.0/21
 "SunnyVision Limited",123.103.248.0/23
 "SunnyVision Limited",123.103.250.0/24
@@ -52141,7 +52177,6 @@ FullHost,2604:f680::/40
 "CNSERVERS LLC",38.143.10.0/23
 "CNSERVERS LLC",38.147.163.0/24
 "CNSERVERS LLC",38.147.165.0/24
-"CNSERVERS LLC",38.182.164.0/22
 "CNSERVERS LLC",38.182.168.0/24
 "CNSERVERS LLC",38.182.179.0/24
 "CNSERVERS LLC",43.229.154.0/24
@@ -52546,7 +52581,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",104.222.163.0/24
 "Psychz Networks",104.222.164.0/23
 "Psychz Networks",104.222.166.0/24
-"Psychz Networks",104.234.134.0/24
 "Psychz Networks",104.234.172.0/24
 "Psychz Networks",104.234.177.0/24
 "Psychz Networks",104.244.152.0/22
@@ -52570,7 +52604,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",108.181.236.0/23
 "Psychz Networks",108.181.240.0/20
 "Psychz Networks",123.108.128.0/23
-"Psychz Networks",130.51.120.0/24
 "Psychz Networks",131.226.0.0/21
 "Psychz Networks",136.0.111.0/24
 "Psychz Networks",136.0.119.0/24
@@ -52607,7 +52640,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",165.73.240.0/20
 "Psychz Networks",165.231.210.0/24
 "Psychz Networks",166.0.128.0/20
-"Psychz Networks",166.0.175.0/24
 "Psychz Networks",170.39.52.0/22
 "Psychz Networks",172.83.178.0/23
 "Psychz Networks",172.83.180.0/22
@@ -52633,7 +52665,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",183.182.20.0/23
 "Psychz Networks",183.182.22.0/24
 "Psychz Networks",185.92.24.0/24
-"Psychz Networks",185.126.181.0/24
 "Psychz Networks",185.143.243.0/24
 "Psychz Networks",185.161.148.0/24
 "Psychz Networks",185.180.192.0/24
@@ -53376,7 +53407,7 @@ DediByte,45.38.4.0/24
 "Telfly Technology Limited",95.214.166.0/23
 "Telfly Technology Limited",103.99.76.0/22
 "Telfly Technology Limited",103.116.149.0/24
-"Telfly Technology Limited",103.116.150.0/24
+"Telfly Technology Limited",103.116.150.0/23
 "Telfly Technology Limited",103.209.233.0/24
 "Telfly Technology Limited",103.209.234.0/24
 "Telfly Technology Limited",154.39.69.0/24
@@ -53416,6 +53447,7 @@ DediByte,45.38.4.0/24
 "Baykov Ilya Sergeevich",92.118.169.0/24
 "Baykov Ilya Sergeevich",92.118.170.0/24
 "Baykov Ilya Sergeevich",93.123.30.0/24
+"Baykov Ilya Sergeevich",94.125.100.0/23
 "Baykov Ilya Sergeevich",95.215.8.0/24
 "Baykov Ilya Sergeevich",109.206.241.0/24
 "Baykov Ilya Sergeevich",138.124.3.0/24
@@ -55038,7 +55070,6 @@ DediByte,45.38.4.0/24
 "Martin Prager trading as NbIServ",45.149.216.0/23
 "Martin Prager trading as NbIServ",46.182.16.0/21
 "Martin Prager trading as NbIServ",185.58.156.0/24
-"Martin Prager trading as NbIServ",185.58.159.0/24
 "Martin Prager trading as NbIServ",2a02:2970::/29
 "Martin Prager trading as NbIServ",2a0f:7600::/32
 "WEBAXYS SAS",91.198.199.0/24
@@ -58197,6 +58228,7 @@ Sharktech,2a0c:c181::/32
 "JSC RU-CENTER",79.174.64.0/20
 "23M GmbH",37.247.119.0/24
 "23M GmbH",45.87.136.0/23
+"23M GmbH",45.146.160.0/23
 "23M GmbH",62.113.192.0/18
 "23M GmbH",86.105.5.0/24
 "23M GmbH",86.106.131.0/24
@@ -58498,7 +58530,6 @@ Sharktech,2a0c:c181::/32
 "Hostinger International Limited",148.135.128.0/20
 "Hostinger International Limited",149.62.37.0/24
 "Hostinger International Limited",149.62.39.0/24
-"Hostinger International Limited",149.100.138.0/24
 "Hostinger International Limited",149.100.140.0/22
 "Hostinger International Limited",149.100.144.0/20
 "Hostinger International Limited",151.106.96.0/19
@@ -58668,8 +58699,7 @@ Sharktech,2a0c:c181::/32
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",171.22.255.0/24
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.11.145.0/24
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.11.146.0/23
-"Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.38.141.0/24
-"Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.38.142.0/23
+"Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.38.140.0/22
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.61.137.0/24
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.61.138.0/23
 "Net Solutions - Consultoria Em Tecnologias De Informacao, Sociedade Unipessoal LDA",185.62.188.0/23
@@ -59941,6 +59971,7 @@ Sharktech,2a0c:c181::/32
 "Melbikomas UAB",5.188.174.0/23
 "Melbikomas UAB",91.192.82.0/24
 "Melbikomas UAB",93.189.59.0/24
+"Melbikomas UAB",185.224.251.0/24
 "Melbikomas UAB",213.183.34.0/23
 "JSC RTComm.RU",188.112.192.0/24
 "JSC RTComm.RU",188.112.196.0/24
@@ -60869,6 +60900,7 @@ Sharktech,2a0c:c181::/32
 "Newserverlife LLC",38.107.232.0/21
 "Newserverlife LLC",45.144.48.0/22
 "Newserverlife LLC",81.31.213.0/24
+"Newserverlife LLC",91.217.10.0/23
 "Newserverlife LLC",104.167.196.0/22
 "Newserverlife LLC",150.241.122.0/24
 "Newserverlife LLC",156.253.237.0/24
@@ -60934,6 +60966,7 @@ Sharktech,2a0c:c181::/32
 "WorldStream B.V.",93.119.123.0/24
 "WorldStream B.V.",93.190.136.0/21
 "WorldStream B.V.",94.177.12.0/24
+"WorldStream B.V.",96.43.105.0/24
 "WorldStream B.V.",103.20.240.0/24
 "WorldStream B.V.",103.147.152.0/24
 "WorldStream B.V.",109.236.80.0/20
@@ -60983,6 +61016,7 @@ Sharktech,2a0c:c181::/32
 "WorldStream B.V.",195.128.184.0/23
 "WorldStream B.V.",195.133.36.0/24
 "WorldStream B.V.",195.191.112.0/23
+"WorldStream B.V.",199.91.103.0/24
 "WorldStream B.V.",212.8.240.0/24
 "WorldStream B.V.",212.8.242.0/23
 "WorldStream B.V.",212.8.248.0/23
@@ -63074,18 +63108,7 @@ networksdelmanana.com,190.123.208.0/20
 "Ascenty Data Centers e Telecomunicaes S/A",138.118.140.0/22
 "Ascenty Data Centers e Telecomunicaes S/A",177.52.224.0/22
 "Ascenty Data Centers e Telecomunicaes S/A",177.185.0.0/20
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.0.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.16.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.18.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.21.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.22.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.32.0/23
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.43.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.45.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.52.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.55.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.59.0/24
-"Ascenty Data Centers e Telecomunicaes S/A",179.190.62.0/24
+"Ascenty Data Centers e Telecomunicaes S/A",179.190.0.0/18
 "Ascenty Data Centers e Telecomunicaes S/A",189.45.240.0/20
 "Ascenty Data Centers e Telecomunicaes S/A",2804:ad4::/32
 "W I X NET DO BRASIL LTDA - ME",177.67.80.0/21
@@ -64918,9 +64941,7 @@ RETOUCHUP.COM,50.237.116.0/24
 "Meteverse Limited.",138.113.72.0/22
 "Meteverse Limited.",138.113.77.0/24
 "Meteverse Limited.",138.113.78.0/23
-"Meteverse Limited.",138.113.80.0/22
-"Meteverse Limited.",138.113.84.0/23
-"Meteverse Limited.",138.113.86.0/24
+"Meteverse Limited.",138.113.80.0/21
 "Meteverse Limited.",138.113.88.0/23
 "Meteverse Limited.",138.113.91.0/24
 "Meteverse Limited.",138.113.92.0/22
@@ -64934,8 +64955,7 @@ RETOUCHUP.COM,50.237.116.0/24
 "Meteverse Limited.",138.113.152.0/22
 "Meteverse Limited.",138.113.157.0/24
 "Meteverse Limited.",138.113.158.0/23
-"Meteverse Limited.",138.113.161.0/24
-"Meteverse Limited.",138.113.162.0/24
+"Meteverse Limited.",138.113.160.0/22
 "Meteverse Limited.",138.113.164.0/24
 "Meteverse Limited.",138.113.167.0/24
 "Meteverse Limited.",138.113.170.0/23
@@ -64981,8 +65001,7 @@ RETOUCHUP.COM,50.237.116.0/24
 "Meteverse Limited.",157.185.128.0/21
 "Meteverse Limited.",157.185.136.0/24
 "Meteverse Limited.",157.185.138.0/24
-"Meteverse Limited.",157.185.140.0/24
-"Meteverse Limited.",157.185.143.0/24
+"Meteverse Limited.",157.185.140.0/22
 "Meteverse Limited.",157.185.144.0/23
 "Meteverse Limited.",157.185.147.0/24
 "Meteverse Limited.",157.185.148.0/22
@@ -65394,7 +65413,6 @@ Madgenius.com,14.192.132.0/24
 Madgenius.com,14.192.134.0/24
 Madgenius.com,14.192.153.0/24
 Madgenius.com,38.92.176.0/20
-Madgenius.com,43.226.224.0/24
 Madgenius.com,45.67.202.0/24
 Madgenius.com,64.188.29.0/24
 Madgenius.com,66.63.170.0/24
@@ -65408,7 +65426,6 @@ Madgenius.com,74.122.196.0/24
 Madgenius.com,96.44.169.0/24
 Madgenius.com,103.20.132.0/24
 Madgenius.com,103.20.134.0/23
-Madgenius.com,103.151.27.0/24
 Madgenius.com,104.129.23.0/24
 Madgenius.com,104.129.28.0/24
 Madgenius.com,104.129.51.0/24
@@ -65419,27 +65436,10 @@ Madgenius.com,109.104.134.0/24
 Madgenius.com,110.44.108.0/23
 Madgenius.com,110.44.110.0/24
 Madgenius.com,111.119.165.0/24
-Madgenius.com,113.203.224.0/23
-Madgenius.com,113.203.227.0/24
-Madgenius.com,113.203.243.0/24
 Madgenius.com,115.42.68.0/23
-Madgenius.com,115.167.3.0/24
-Madgenius.com,115.167.5.0/24
-Madgenius.com,115.167.9.0/24
-Madgenius.com,115.167.12.0/23
-Madgenius.com,115.167.14.0/24
-Madgenius.com,115.167.28.0/24
-Madgenius.com,115.167.52.0/22
-Madgenius.com,115.167.101.0/24
-Madgenius.com,115.167.102.0/23
-Madgenius.com,139.190.235.0/24
-Madgenius.com,139.190.238.0/24
 Madgenius.com,155.94.191.0/24
 Madgenius.com,173.239.210.0/24
 Madgenius.com,173.243.116.0/24
-Madgenius.com,175.110.80.0/22
-Madgenius.com,175.110.89.0/24
-Madgenius.com,175.110.91.0/24
 Madgenius.com,192.119.162.0/23
 Madgenius.com,192.119.165.0/24
 Madgenius.com,192.119.166.0/23
@@ -65479,10 +65479,6 @@ Madgenius.com,209.54.108.0/24
 Madgenius.com,212.193.0.0/24
 Madgenius.com,216.144.225.0/24
 Madgenius.com,216.144.231.0/24
-Madgenius.com,223.29.231.0/24
-Madgenius.com,223.29.235.0/24
-Madgenius.com,223.29.237.0/24
-Madgenius.com,223.29.238.0/24
 "Layer 2 Networks, Inc.",38.84.74.0/24
 RainWorx,162.208.56.0/22
 "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",149.112.126.0/24
@@ -66304,6 +66300,7 @@ RainWorx,162.208.56.0/22
 "Cloudie Limited",139.154.72.0/22
 "Cloudie Limited",144.48.8.0/23
 "Cloudie Limited",146.196.80.0/23
+"Cloudie Limited",149.104.15.0/24
 "Cloudie Limited",149.104.16.0/22
 "Cloudie Limited",150.129.80.0/22
 "Cloudie Limited",154.9.244.0/22
@@ -67246,7 +67243,7 @@ RainWorx,162.208.56.0/22
 "Misaka Network, Inc.",45.131.68.0/23
 "Misaka Network, Inc.",45.131.70.0/24
 "Misaka Network, Inc.",45.142.246.0/24
-"Misaka Network, Inc.",185.209.85.0/24
+"Misaka Network, Inc.",185.209.84.0/23
 "Misaka Network, Inc.",2a0b:4342:1a20::/44
 "Misaka Network, Inc.",2a0b:4342:2000::/36
 "Misaka Network, Inc.",2a0b:4342:4000::/36
@@ -68398,9 +68395,7 @@ RainWorx,162.208.56.0/22
 "Internet Resources Management SRL",193.138.99.0/24
 "Internet Resources Management SRL",193.169.142.0/24
 "Internet Resources Management SRL",194.6.201.0/24
-"Internet Resources Management SRL",195.78.124.0/23
-"Internet Resources Management SRL",195.88.38.0/23
-"Internet Resources Management SRL",195.245.82.0/23
+"Internet Resources Management SRL",195.245.82.0/24
 "Mamba JSC",193.0.170.0/23
 "Mamba JSC",2001:678:568::/48
 "NG Communications BV",46.19.4.0/24
@@ -69371,6 +69366,7 @@ OneAsiaHost,116.251.216.0/21
 "FSIT AG",2a07:6d80::/29
 "Free Range Cloud Ltd.",23.169.225.0/24
 "Free Range Cloud Ltd.",2a0f:9400:100::/46
+"Binary Racks Limited",23.190.232.0/24
 "Binary Racks Limited",41.77.142.0/23
 "Binary Racks Limited",41.215.243.0/24
 "Binary Racks Limited",41.216.179.0/24
@@ -70018,7 +70014,9 @@ OneAsiaHost,116.251.216.0/21
 "Bursabil Teknoloji A.S.",2a0d:c480::/29
 "Stiftung Erneuerbare Freiheit",185.177.207.0/24
 "Stiftung Erneuerbare Freiheit",185.220.101.0/24
+"Stiftung Erneuerbare Freiheit",185.220.102.0/24
 "Stiftung Erneuerbare Freiheit",2a0a:4587:2010::/46
+"Stiftung Erneuerbare Freiheit",2a0b:f4c1:2::/48
 "Stiftung Erneuerbare Freiheit",2a0b:f4c2::/40
 "IT Jedan d.o.o.",176.62.31.0/24
 "LeaseWeb Netherlands B.V.",2.56.100.0/23
@@ -70547,6 +70545,7 @@ OneAsiaHost,116.251.216.0/21
 "LeaseWeb Netherlands B.V.",2a0f:1587:100::/48
 "LeaseWeb Netherlands B.V.",2a0f:1940::/29
 "LeaseWeb Netherlands B.V.",2a0f:1e83::/32
+"LeaseWeb Netherlands B.V.",2a0f:1e85::/32
 "LeaseWeb Netherlands B.V.",2a0f:2700:1::/48
 "LeaseWeb Netherlands B.V.",2a0f:2700:2::/48
 "LeaseWeb Netherlands B.V.",2a0f:2940::/29
@@ -70859,8 +70858,7 @@ OneAsiaHost,116.251.216.0/21
 "AKILE LTD",154.83.98.0/24
 "AKILE LTD",154.204.183.0/24
 "AKILE LTD",156.224.76.0/22
-"AKILE LTD",156.226.168.0/22
-"AKILE LTD",156.226.172.0/23
+"AKILE LTD",156.226.168.0/21
 "AKILE LTD",156.229.160.0/21
 "AKILE LTD",156.231.112.0/22
 "AKILE LTD",156.231.116.0/23
@@ -70909,6 +70907,7 @@ OneAsiaHost,116.251.216.0/21
 "Zappie Host LLC",168.199.252.0/22
 "Zappie Host LLC",169.239.128.0/22
 "Zappie Host LLC",185.99.132.0/23
+"Zappie Host LLC",185.121.160.0/22
 "Zappie Host LLC",185.121.168.0/24
 "Zappie Host LLC",216.73.159.0/24
 "Zappie Host LLC",216.246.18.0/24
@@ -72035,7 +72034,6 @@ OneAsiaHost,116.251.216.0/21
 "BlueVPS OU",212.46.38.0/24
 "BlueVPS OU",213.109.147.0/24
 "BlueVPS OU",213.109.192.0/24
-"BlueVPS OU",213.218.210.0/24
 "BlueVPS OU",2a10:1fc0:1::/48
 "BlueVPS OU",2a10:1fc0:2::/47
 "BlueVPS OU",2a10:1fc0:4::/47
@@ -72640,6 +72638,7 @@ OneAsiaHost,116.251.216.0/21
 "Clouvider Limited",154.196.64.0/20
 "Clouvider Limited",154.196.80.0/21
 "Clouvider Limited",154.196.88.0/22
+"Clouvider Limited",154.197.118.0/24
 "Clouvider Limited",154.223.208.0/20
 "Clouvider Limited",155.133.4.0/23
 "Clouvider Limited",155.133.17.0/24
@@ -72972,6 +72971,8 @@ OneAsiaHost,116.251.216.0/21
 "Clouvider Limited",213.139.195.0/24
 "Clouvider Limited",213.145.70.0/24
 "Clouvider Limited",213.170.220.0/23
+"Clouvider Limited",213.182.198.0/24
+"Clouvider Limited",213.182.205.0/24
 "Clouvider Limited",213.209.131.0/24
 "Clouvider Limited",213.209.133.0/24
 "Clouvider Limited",213.209.134.0/24
@@ -73559,6 +73560,7 @@ FreeConferenceCall.com,162.251.180.0/23
 "LITE CLOUD INC",8.23.54.0/24
 "LITE CLOUD INC",16.7.77.0/24
 "LITE CLOUD INC",16.7.78.0/24
+"LITE CLOUD INC",38.123.56.0/22
 "LITE CLOUD INC",67.219.128.0/22
 "LITE CLOUD INC",173.244.34.0/24
 "LITE CLOUD INC",173.244.47.0/24
@@ -73881,6 +73883,7 @@ Service-now.com,70.34.61.0/24
 "CDS Global Cloud Co., Ltd",103.241.228.0/22
 "CDS Global Cloud Co., Ltd",106.2.158.0/23
 "CDS Global Cloud Co., Ltd",106.3.139.0/24
+"CDS Global Cloud Co., Ltd",117.18.79.0/24
 "CDS Global Cloud Co., Ltd",118.129.128.0/24
 "CDS Global Cloud Co., Ltd",118.129.192.0/24
 "CDS Global Cloud Co., Ltd",118.129.224.0/24
@@ -73965,7 +73968,8 @@ Service-now.com,70.34.61.0/24
 "CDS Global Cloud Co., Ltd",164.52.64.0/21
 "CDS Global Cloud Co., Ltd",164.52.72.0/23
 "CDS Global Cloud Co., Ltd",164.52.74.0/24
-"CDS Global Cloud Co., Ltd",164.52.76.0/22
+"CDS Global Cloud Co., Ltd",164.52.76.0/23
+"CDS Global Cloud Co., Ltd",164.52.78.0/24
 "CDS Global Cloud Co., Ltd",164.52.80.0/24
 "CDS Global Cloud Co., Ltd",164.52.82.0/23
 "CDS Global Cloud Co., Ltd",164.52.86.0/23
@@ -73996,7 +74000,7 @@ Service-now.com,70.34.61.0/24
 "CDS Global Cloud Co., Ltd",2400:5280:2800::/38
 "CDS Global Cloud Co., Ltd",2400:5280:3000::/38
 "CDS Global Cloud Co., Ltd",2400:5280:3800::/37
-"CDS Global Cloud Co., Ltd",2400:5280:4000::/37
+"CDS Global Cloud Co., Ltd",2400:5280:4000::/38
 "CDS Global Cloud Co., Ltd",2400:5280:4800::/38
 "CDS Global Cloud Co., Ltd",2400:5280:fc00::/38
 "Astute Internet",23.83.216.0/21
@@ -74964,6 +74968,7 @@ dragonhispeed,103.4.216.0/22
 "Sprious LLC",45.95.226.0/24
 "Sprious LLC",45.139.180.0/24
 "Sprious LLC",45.149.38.0/24
+"Sprious LLC",50.117.36.0/24
 "Sprious LLC",52.124.18.0/23
 "Sprious LLC",52.128.31.0/24
 "Sprious LLC",62.72.175.0/24
@@ -74982,6 +74987,8 @@ dragonhispeed,103.4.216.0/22
 "Sprious LLC",68.234.46.0/23
 "Sprious LLC",79.98.244.0/23
 "Sprious LLC",80.240.85.0/24
+"Sprious LLC",82.29.125.0/24
+"Sprious LLC",82.29.126.0/24
 "Sprious LLC",84.32.56.0/24
 "Sprious LLC",84.38.254.0/24
 "Sprious LLC",85.115.209.0/24
@@ -75130,6 +75137,7 @@ dragonhispeed,103.4.216.0/22
 "Sprious LLC",193.109.195.0/24
 "Sprious LLC",193.150.189.0/24
 "Sprious LLC",193.150.190.0/23
+"Sprious LLC",193.187.134.0/23
 "Sprious LLC",195.180.137.0/24
 "Sprious LLC",199.34.83.0/24
 "Sprious LLC",199.34.84.0/22
@@ -76381,7 +76389,6 @@ MegaHostZone,2001:df1:b900::/48
 "Colocation Hosting Global Private Limited",103.116.132.0/23
 "Colocation Hosting Global Private Limited",103.214.69.0/24
 "Colocation Hosting Global Private Limited",119.42.33.0/24
-"Colocation Hosting Global Private Limited",139.5.176.0/24
 "Colocation Hosting Global Private Limited",154.89.8.0/22
 "Colocation Hosting Global Private Limited",154.92.4.0/24
 "Colocation Hosting Global Private Limited",154.92.6.0/23
@@ -76930,7 +76937,6 @@ IMLONGHAO,2a09:b280:ff84::/47
 "DingFeng XinHui(HongKong) Technology Limited",45.193.0.0/16
 "DingFeng XinHui(HongKong) Technology Limited",45.194.128.0/18
 "DingFeng XinHui(HongKong) Technology Limited",45.194.196.0/22
-"DingFeng XinHui(HongKong) Technology Limited",45.194.215.0/24
 "DingFeng XinHui(HongKong) Technology Limited",45.196.64.0/18
 "DingFeng XinHui(HongKong) Technology Limited",45.199.0.0/17
 "DingFeng XinHui(HongKong) Technology Limited",45.203.64.0/18
@@ -76964,7 +76970,6 @@ IMLONGHAO,2a09:b280:ff84::/47
 "DingFeng XinHui(HongKong) Technology Limited",154.85.188.0/22
 "DingFeng XinHui(HongKong) Technology Limited",154.85.200.0/21
 "DingFeng XinHui(HongKong) Technology Limited",154.86.128.0/18
-"DingFeng XinHui(HongKong) Technology Limited",154.86.192.0/24
 "DingFeng XinHui(HongKong) Technology Limited",154.86.200.0/22
 "DingFeng XinHui(HongKong) Technology Limited",154.86.224.0/19
 "DingFeng XinHui(HongKong) Technology Limited",154.92.0.0/24
@@ -76977,6 +76982,7 @@ IMLONGHAO,2a09:b280:ff84::/47
 "DingFeng XinHui(HongKong) Technology Limited",154.218.64.0/18
 "DingFeng XinHui(HongKong) Technology Limited",154.219.64.0/18
 "DingFeng XinHui(HongKong) Technology Limited",154.219.128.0/18
+"DingFeng XinHui(HongKong) Technology Limited",154.220.0.0/24
 "DingFeng XinHui(HongKong) Technology Limited",156.232.128.0/17
 "DingFeng XinHui(HongKong) Technology Limited",156.235.128.0/17
 "DingFeng XinHui(HongKong) Technology Limited",156.237.128.0/19
@@ -77157,7 +77163,8 @@ IMLONGHAO,2a09:b280:ff84::/47
 "Alibaba Cloud (Singapore) Private Limited",8.215.164.0/22
 "Alibaba Cloud (Singapore) Private Limited",8.216.76.0/22
 "Alibaba Cloud (Singapore) Private Limited",8.220.124.0/22
-"Alibaba Cloud (Singapore) Private Limited",8.220.168.0/22
+"Alibaba Cloud (Singapore) Private Limited",8.220.168.0/23
+"Alibaba Cloud (Singapore) Private Limited",8.220.170.0/24
 "Alibaba Cloud (Singapore) Private Limited",8.220.236.0/22
 "Alibaba Cloud (Singapore) Private Limited",8.220.248.0/21
 "Alibaba Cloud (Singapore) Private Limited",8.221.152.0/22
@@ -77916,6 +77923,7 @@ X4B,103.249.70.0/23
 "DREAM POWER TECHNOLOGY LIMITED",103.141.224.0/23
 "DREAM POWER TECHNOLOGY LIMITED",103.248.252.0/22
 "DREAM POWER TECHNOLOGY LIMITED",150.116.13.0/24
+"DREAM POWER TECHNOLOGY LIMITED",154.90.70.0/24
 "DREAM POWER TECHNOLOGY LIMITED",154.196.245.0/24
 "DREAM POWER TECHNOLOGY LIMITED",154.200.88.0/24
 "DREAM POWER TECHNOLOGY LIMITED",154.206.14.0/23
@@ -78422,7 +78430,6 @@ X4B,103.249.70.0/23
 "CORELINK JAPAN",185.192.56.0/23
 "CORELINK JAPAN",185.192.59.0/24
 "CORELINK JAPAN",194.61.236.0/23
-"CORELINK JAPAN",194.163.80.0/22
 "CORELINK JAPAN",195.180.150.0/23
 "CORELINK JAPAN",2a0a:2842:15::/48
 "CORELINK JAPAN",2a0a:2842:100::/48
@@ -78516,7 +78523,7 @@ PhoenixNAP,2401:bc40:e303::/48
 "HUAWEI INTERNATIONAL PTE. LTD.",45.194.104.0/21
 "HUAWEI INTERNATIONAL PTE. LTD.",45.199.144.0/22
 "HUAWEI INTERNATIONAL PTE. LTD.",45.202.128.0/18
-"HUAWEI INTERNATIONAL PTE. LTD.",45.203.32.0/20
+"HUAWEI INTERNATIONAL PTE. LTD.",45.203.40.0/21
 "HUAWEI INTERNATIONAL PTE. LTD.",46.250.160.0/19
 "HUAWEI INTERNATIONAL PTE. LTD.",49.0.192.0/20
 "HUAWEI INTERNATIONAL PTE. LTD.",49.0.224.0/19
@@ -78593,8 +78600,7 @@ PhoenixNAP,2401:bc40:e303::/48
 "HUAWEI INTERNATIONAL PTE. LTD.",119.8.240.0/21
 "HUAWEI INTERNATIONAL PTE. LTD.",119.8.248.0/23
 "HUAWEI INTERNATIONAL PTE. LTD.",119.8.250.0/24
-"HUAWEI INTERNATIONAL PTE. LTD.",119.8.252.0/24
-"HUAWEI INTERNATIONAL PTE. LTD.",119.8.254.0/23
+"HUAWEI INTERNATIONAL PTE. LTD.",119.8.252.0/22
 "HUAWEI INTERNATIONAL PTE. LTD.",119.12.160.0/20
 "HUAWEI INTERNATIONAL PTE. LTD.",119.13.64.0/18
 "HUAWEI INTERNATIONAL PTE. LTD.",119.13.160.0/20
@@ -79173,6 +79179,7 @@ MOACK.Co.LTD,137.59.18.0/23
 MOACK.Co.LTD,146.103.27.0/24
 MOACK.Co.LTD,154.202.4.0/24
 MOACK.Co.LTD,154.208.168.0/22
+MOACK.Co.LTD,156.225.55.0/24
 MOACK.Co.LTD,156.234.4.0/24
 MOACK.Co.LTD,156.234.15.0/24
 MOACK.Co.LTD,156.234.18.0/24
@@ -79191,6 +79198,9 @@ MOACK.Co.LTD,156.234.201.0/24
 MOACK.Co.LTD,156.234.211.0/24
 MOACK.Co.LTD,156.234.221.0/24
 MOACK.Co.LTD,156.234.250.0/24
+MOACK.Co.LTD,156.237.32.0/19
+MOACK.Co.LTD,156.237.64.0/19
+MOACK.Co.LTD,156.241.49.0/24
 MOACK.Co.LTD,161.129.34.0/24
 MOACK.Co.LTD,161.129.45.0/24
 MOACK.Co.LTD,167.146.32.0/19
@@ -79236,12 +79246,13 @@ Gotipath,103.163.72.0/23
 "OceanBlue Cloud Technology Limited",154.211.3.0/24
 "OceanBlue Cloud Technology Limited",154.213.1.0/24
 "OceanBlue Cloud Technology Limited",154.213.2.0/23
+"OceanBlue Cloud Technology Limited",156.240.92.0/24
 "OceanBlue Cloud Technology Limited",156.252.21.0/24
 "OceanBlue Cloud Technology Limited",2001:df7:3700::/48
 "OceanBlue Cloud Technology Limited",2a0c:2ac0:3700::/48
 "Zero Cirrus Cloud Computing (Shanghai) Co., Ltd.",103.140.136.0/23
 "Zero Cirrus Cloud Computing (Shanghai) Co., Ltd.",103.147.198.0/23
-"Gelephu Digital Network",160.30.185.0/24
+"Gelephu Digital Network",160.30.184.0/23
 "Gaoshi Cloud",2402:9e80:a00::/40
 "SUPERCLOUDS LIMITED",38.84.168.0/21
 "SUPERCLOUDS LIMITED",38.84.176.0/20
@@ -79477,7 +79488,6 @@ Gotipath,103.163.72.0/23
 "rainbow network limited",103.212.34.0/23
 "rainbow network limited",103.213.248.0/22
 "rainbow network limited",103.255.56.0/22
-"rainbow network limited",109.206.247.0/24
 "rainbow network limited",116.206.92.0/22
 "rainbow network limited",123.136.95.0/24
 "rainbow network limited",124.20.0.0/15
@@ -79554,6 +79564,7 @@ ExonHost,103.187.22.0/23
 "LEGEND DYNASTY PTE. LTD.",154.85.64.0/20
 "LEGEND DYNASTY PTE. LTD.",154.85.83.0/24
 "LEGEND DYNASTY PTE. LTD.",154.85.84.0/22
+"LEGEND DYNASTY PTE. LTD.",154.85.88.0/24
 "LEGEND DYNASTY PTE. LTD.",154.85.91.0/24
 "LEGEND DYNASTY PTE. LTD.",154.85.92.0/23
 "LEGEND DYNASTY PTE. LTD.",154.92.24.0/22
@@ -79813,7 +79824,6 @@ NUFLAYER,103.132.42.0/24
 "Nebula Global LLC",2a10:ce40:232::/48
 "Nebula Global LLC",2a10:ce40:250::/48
 "Nebula Global LLC",2a10:ce40:252::/48
-"Invision IT",160.30.188.0/24
 "DIGISIGMA PTE. LTD.",103.196.26.0/24
 "DIGISIGMA PTE. LTD.",157.10.251.0/24
 "DIGISIGMA PTE. LTD.",160.30.120.0/23
@@ -81642,7 +81652,7 @@ Fastmail,202.12.124.0/24
 "Beget LLC",217.12.37.0/24
 "Beget LLC",217.12.38.0/24
 "Beget LLC",217.12.40.0/24
-"Beget LLC",217.114.0.0/21
+"Beget LLC",217.114.0.0/20
 "Beget LLC",217.172.24.0/22
 "HOSTLINE, UAB",45.155.196.0/23
 "HOSTLINE, UAB",88.119.176.0/22
@@ -82335,6 +82345,7 @@ Fastmail,202.12.124.0/24
 "Artnet Sp. z o.o.",38.180.227.0/24
 "Artnet Sp. z o.o.",38.180.250.0/24
 "Artnet Sp. z o.o.",38.180.252.0/24
+"Artnet Sp. z o.o.",38.244.152.0/23
 "Artnet Sp. z o.o.",46.203.97.0/24
 "Artnet Sp. z o.o.",46.203.102.0/24
 "Artnet Sp. z o.o.",83.168.112.0/23
@@ -83106,6 +83117,7 @@ Fastmail,202.12.124.0/24
 "ARABIAN INTERNET & COMMUNICATIONS SERVICES CO.LTD",134.239.192.0/22
 "ARABIAN INTERNET & COMMUNICATIONS SERVICES CO.LTD",2a02:df0::/29
 "SC ITNS.NET SRL",185.147.48.0/24
+"MEVSPACE sp. z o.o.",5.83.145.0/24
 "MEVSPACE sp. z o.o.",5.181.188.0/22
 "MEVSPACE sp. z o.o.",77.73.129.0/24
 "MEVSPACE sp. z o.o.",91.223.3.0/24
@@ -83127,6 +83139,7 @@ Fastmail,202.12.124.0/24
 "MEVSPACE sp. z o.o.",212.23.222.0/24
 "MEVSPACE sp. z o.o.",2a03:cfc0::/32
 "MEVSPACE sp. z o.o.",2a09:d580::/29
+"MEVSPACE sp. z o.o.",2a0c:c183::/32
 "MEVSPACE sp. z o.o.",2a12:a800:2::/48
 "Trader soft LLC",85.143.172.0/22
 "Trader soft LLC",85.143.208.0/20
@@ -85411,12 +85424,8 @@ Fastmail,202.12.124.0/24
 "RH & Co. IT Services Ltd",103.71.62.0/24
 "RH & Co. IT Services Ltd",104.193.192.0/24
 "RH & Co. IT Services Ltd",108.165.96.0/24
-"RH & Co. IT Services Ltd",113.203.226.0/24
-"RH & Co. IT Services Ltd",113.203.228.0/24
-"RH & Co. IT Services Ltd",113.203.244.0/24
 "RH & Co. IT Services Ltd",113.203.252.0/22
 "RH & Co. IT Services Ltd",115.42.71.0/24
-"RH & Co. IT Services Ltd",115.167.119.0/24
 "RH & Co. IT Services Ltd",141.98.232.0/24
 "RH & Co. IT Services Ltd",163.53.215.0/24
 "RH & Co. IT Services Ltd",166.0.118.0/24
@@ -85430,7 +85439,6 @@ Fastmail,202.12.124.0/24
 "RH & Co. IT Services Ltd",167.253.50.0/24
 "RH & Co. IT Services Ltd",173.247.234.0/23
 "RH & Co. IT Services Ltd",173.247.238.0/23
-"RH & Co. IT Services Ltd",175.110.90.0/24
 "RH & Co. IT Services Ltd",185.167.233.0/24
 "RH & Co. IT Services Ltd",185.176.92.0/24
 "RH & Co. IT Services Ltd",185.183.86.0/24
@@ -85441,8 +85449,6 @@ Fastmail,202.12.124.0/24
 "RH & Co. IT Services Ltd",198.153.2.0/24
 "RH & Co. IT Services Ltd",199.68.217.0/24
 "RH & Co. IT Services Ltd",199.180.14.0/24
-"RH & Co. IT Services Ltd",202.92.18.0/24
-"RH & Co. IT Services Ltd",202.92.20.0/24
 "RH & Co. IT Services Ltd",204.14.75.0/24
 "RH & Co. IT Services Ltd",204.76.16.0/24
 "RH & Co. IT Services Ltd",204.76.18.0/23
@@ -86219,7 +86225,10 @@ Tianyu-Zhu,2a0f:85c1:30::/47
 "AH CLOUD LTD",2a13:cdc0::/29
 "AH CLOUD LTD",2a13:d140::/29
 "AH CLOUD LTD",2a13:e040::/29
+"AH CLOUD LTD",2a14:1100::/29
+"AH CLOUD LTD",2a14:62c0::/29
 "AH CLOUD LTD",2a14:6a40::/29
+"AH CLOUD LTD",2a14:72c0::/29
 "PHOENIX NAP, LLC.",131.153.40.0/23
 "PHOENIX NAP, LLC.",131.153.96.0/23
 "PHOENIX NAP, LLC.",131.153.98.0/24
@@ -86933,12 +86942,13 @@ CALFAB,2a14:7581:475::/48
 "GmhostGrupp OU",2a0e:a840::/47
 "Megahost Kazakhstan TOO",31.56.240.0/24
 "Megahost Kazakhstan TOO",45.136.56.0/22
+"Megahost Kazakhstan TOO",191.101.218.0/24
 "Megahost Kazakhstan TOO",2a0e:9340::/48
 "Johan Karlsson trading as SweHosting",193.181.23.0/24
 "Johan Karlsson trading as SweHosting",193.181.29.0/24
 "Johan Karlsson trading as SweHosting",2a07:54c1:f000::/36
 "Johan Karlsson trading as SweHosting",2a07:54c4:1761::/48
-"Johan Karlsson trading as SweHosting",2a12:bec0:2d0::/47
+"Johan Karlsson trading as SweHosting",2a12:bec0:2d0::/48
 "Johan Karlsson trading as SweHosting",2a12:bec0:2d2::/48
 "Johan Karlsson trading as SweHosting",2a12:bec0:2da::/48
 "Johan Karlsson trading as SweHosting",2a12:bec0:2df::/48
@@ -87291,7 +87301,6 @@ CALFAB,2a14:7581:475::/48
 "Cloudflare London, LLC",45.149.12.0/24
 "Cloudflare London, LLC",45.150.115.0/24
 "Cloudflare London, LLC",45.153.7.0/24
-"Cloudflare London, LLC",45.158.56.0/24
 "Cloudflare London, LLC",45.159.216.0/22
 "Cloudflare London, LLC",45.194.53.0/24
 "Cloudflare London, LLC",45.202.113.0/24
@@ -87682,7 +87691,9 @@ CALFAB,2a14:7581:475::/48
 "I-SERVERS LTD",185.125.216.0/22
 "I-SERVERS LTD",185.200.188.0/24
 "I-SERVERS LTD",193.109.85.0/24
-"I-SERVERS LTD",193.124.176.0/20
+"I-SERVERS LTD",193.124.176.0/22
+"I-SERVERS LTD",193.124.184.0/24
+"I-SERVERS LTD",193.124.191.0/24
 "I-SERVERS LTD",193.168.224.0/24
 "I-SERVERS LTD",194.67.196.0/22
 "I-SERVERS LTD",194.67.202.0/23
@@ -88955,6 +88966,7 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",45.89.250.0/24
 "Datacamp Limited",45.90.19.0/24
 "Datacamp Limited",45.90.142.0/24
+"Datacamp Limited",45.91.23.0/24
 "Datacamp Limited",45.91.40.0/22
 "Datacamp Limited",45.91.148.0/24
 "Datacamp Limited",45.95.21.0/24
@@ -89157,7 +89169,6 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",87.249.132.0/22
 "Datacamp Limited",87.249.138.0/23
 "Datacamp Limited",88.209.195.0/24
-"Datacamp Limited",88.216.34.0/24
 "Datacamp Limited",88.218.204.0/24
 "Datacamp Limited",89.19.45.0/24
 "Datacamp Limited",89.19.50.0/24
@@ -89179,7 +89190,6 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",89.116.75.0/24
 "Datacamp Limited",89.116.103.0/24
 "Datacamp Limited",89.116.168.0/23
-"Datacamp Limited",89.116.172.0/24
 "Datacamp Limited",89.116.183.0/24
 "Datacamp Limited",89.116.255.0/24
 "Datacamp Limited",89.117.13.0/24
@@ -89190,7 +89200,6 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",89.117.111.0/24
 "Datacamp Limited",89.117.121.0/24
 "Datacamp Limited",89.117.122.0/24
-"Datacamp Limited",89.117.250.0/24
 "Datacamp Limited",89.147.104.0/22
 "Datacamp Limited",89.213.127.0/24
 "Datacamp Limited",89.213.226.0/24
@@ -89264,7 +89273,10 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",95.214.26.0/24
 "Datacamp Limited",96.9.211.0/24
 "Datacamp Limited",96.9.212.0/23
+"Datacamp Limited",96.43.106.0/23
+"Datacamp Limited",96.43.108.0/22
 "Datacamp Limited",96.62.208.0/22
+"Datacamp Limited",96.62.214.0/24
 "Datacamp Limited",96.62.232.0/21
 "Datacamp Limited",98.159.33.0/24
 "Datacamp Limited",98.159.40.0/24
@@ -89733,6 +89745,7 @@ CALFAB,2a14:7581:475::/48
 "Datacamp Limited",179.61.247.0/24
 "Datacamp Limited",179.61.255.0/24
 "Datacamp Limited",181.41.198.0/24
+"Datacamp Limited",181.41.201.0/24
 "Datacamp Limited",181.41.203.0/24
 "Datacamp Limited",181.41.207.0/24
 "Datacamp Limited",181.41.221.0/24
@@ -90235,6 +90248,7 @@ CALFAB,2a14:7581:475::/48
 "Cinzia Tocci trading as C1V",2a05:4140:62::/47
 "Cinzia Tocci trading as C1V",2a05:4140:6a::/47
 "Cinzia Tocci trading as C1V",2a05:4140:6c::/47
+"Cinzia Tocci trading as C1V",2a05:4140:b00::/40
 "Mario Gomez Canadas",2a0e:b107:1ba0::/44
 "Codamic AG",109.70.239.0/24
 "Codamic AG",2a0c:2bc0::/29
@@ -90530,7 +90544,6 @@ CALFAB,2a14:7581:475::/48
 "UA-Hosting SIA",91.194.110.0/24
 "UA-Hosting SIA",2a0f:ea81::/32
 "Ferdinand Zink trading as Tube-Hosting",31.6.50.0/24
-"Ferdinand Zink trading as Tube-Hosting",109.176.202.0/24
 "Cloudnet Computing Ltd",91.196.191.0/24
 "FixCloud Teknoloji A.S.",77.81.186.0/23
 "FixCloud Teknoloji A.S.",85.159.117.0/24
@@ -90867,6 +90880,7 @@ CALFAB,2a14:7581:475::/48
 "LAZYCLOUD LTD",2a0f:7803:fae2::/48
 "LAZYCLOUD LTD",2a12:bec4:13f0::/47
 "LAZYCLOUD LTD",2a12:bec4:13f3::/48
+"LAZYCLOUD LTD",2a12:bec4:13f6::/48
 "LAZYCLOUD LTD",2a12:bec4:1444::/48
 "Yedinyye Resheniya LLC",5.44.44.0/24
 "Yedinyye Resheniya LLC",45.128.205.0/24
@@ -91148,7 +91162,6 @@ CALFAB,2a14:7581:475::/48
 "INTERNATIONAL HOSTING COMPANY LIMITED",95.181.151.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",95.181.161.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",109.237.97.0/24
-"INTERNATIONAL HOSTING COMPANY LIMITED",141.105.142.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",147.45.196.0/23
 "INTERNATIONAL HOSTING COMPANY LIMITED",178.236.253.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",178.236.254.0/24
@@ -91217,7 +91230,7 @@ CALFAB,2a14:7581:475::/48
 "Bieber IT GmbH",2a13:fd40::/29
 "Marco Rossi trading as XeniaHosting",2.58.84.0/24
 "Marco Rossi trading as XeniaHosting",31.57.112.0/24
-"Marco Rossi trading as XeniaHosting",82.152.176.0/24
+"Marco Rossi trading as XeniaHosting",45.158.56.0/24
 "Komskov Vadim Aleksandrovich",94.159.113.0/24
 "Komskov Vadim Aleksandrovich",109.120.144.0/24
 "Abdulrahman Aljeraisy trading as Safe Way Foundation for Cyber Security",83.101.164.0/22
@@ -91803,6 +91816,7 @@ HOSTING.CL,2803:6580::/32
 "Unique Data Center",190.113.60.0/23
 "Unique Data Center",2804:79b0::/32
 "GK2 CLOUD LTDA",170.247.60.0/22
+"GK2 CLOUD LTDA",2804:7b7c::/32
 "Mino Host Hospedagem e Desenvolvimento de Sites",2804:7d14::/32
 "CCS BRASIL SERVICOS EM TELECOMUNICACOES LTDA",2804:8094::/32
 "TA AQUINET.COM",2804:809c::/32
@@ -91869,7 +91883,7 @@ HOSTING.CL,2803:6580::/32
 "Orange Tunisie",80.15.232.0/23
 "Orange Tunisie",80.15.235.0/24
 "Orange Tunisie",80.15.243.0/24
-"Orange Tunisie",80.15.246.0/23
+"Orange Tunisie",80.15.246.0/24
 "Orange Tunisie",80.15.248.0/24
 "Orange Tunisie",80.15.250.0/23
 "Orange Tunisie",80.15.252.0/23
@@ -91922,6 +91936,7 @@ HOSTING.CL,2803:6580::/32
 "Africa on Cloud",154.201.0.0/18
 "Africa on Cloud",154.202.80.0/22
 "Africa on Cloud",154.202.84.0/23
+"Africa on Cloud",154.203.252.0/22
 "Africa on Cloud",154.209.0.0/16
 "Africa on Cloud",154.214.192.0/23
 "Africa on Cloud",154.214.196.0/23
@@ -91991,6 +92006,7 @@ Serverlibya,102.216.136.0/24
 "GLOBAL CLOUD INFRASTRUCTURE SOLUTIONS (PTY) LTD",2c0f:5440:211::/48
 "OneCloud LDA",102.209.248.0/22
 "Vhost Limited",102.209.180.0/22
+"Vhost Limited",102.216.80.0/24
 "Vhost Limited",2c0f:2e40::/46
 "Vhost Limited",2c0f:2e40:4::/48
 "Maroc Datacenter MDC",102.208.100.0/24
@@ -92214,6 +92230,7 @@ B.Root-Server-OPS,2801:1b8:10::/44
 "Leaseweb USA, Inc.",23.19.152.0/22
 "Leaseweb USA, Inc.",23.19.184.0/21
 "Leaseweb USA, Inc.",23.19.220.0/22
+"Leaseweb USA, Inc.",23.81.72.0/21
 "Leaseweb USA, Inc.",23.105.32.0/24
 "Leaseweb USA, Inc.",64.120.78.0/24
 "Leaseweb USA, Inc.",67.201.48.0/23
@@ -94361,6 +94378,7 @@ DCNHOST,167.253.79.0/24
 "Tier.Net Technologies LLC",45.43.10.0/23
 "Tier.Net Technologies LLC",45.43.14.0/23
 "Tier.Net Technologies LLC",45.43.18.0/23
+"Tier.Net Technologies LLC",45.43.27.0/24
 "Tier.Net Technologies LLC",45.59.160.0/22
 "Tier.Net Technologies LLC",45.157.210.0/24
 "Tier.Net Technologies LLC",45.194.28.0/24
@@ -94397,6 +94415,7 @@ DCNHOST,167.253.79.0/24
 "Tier.Net Technologies LLC",102.165.14.0/24
 "Tier.Net Technologies LLC",103.120.14.0/24
 "Tier.Net Technologies LLC",104.167.212.0/24
+"Tier.Net Technologies LLC",104.192.101.0/24
 "Tier.Net Technologies LLC",104.234.99.0/24
 "Tier.Net Technologies LLC",104.234.195.0/24
 "Tier.Net Technologies LLC",104.234.217.0/24
@@ -94405,6 +94424,7 @@ DCNHOST,167.253.79.0/24
 "Tier.Net Technologies LLC",104.249.25.0/24
 "Tier.Net Technologies LLC",104.249.62.0/23
 "Tier.Net Technologies LLC",104.255.173.0/24
+"Tier.Net Technologies LLC",104.255.225.0/24
 "Tier.Net Technologies LLC",104.255.226.0/24
 "Tier.Net Technologies LLC",104.255.228.0/24
 "Tier.Net Technologies LLC",109.176.18.0/24
@@ -100743,7 +100763,6 @@ insiteOne,208.82.228.0/22
 "INTELSAT GLOBAL SERVICE CORPORATION",204.10.224.0/22
 "INTELSAT GLOBAL SERVICE CORPORATION",209.159.160.0/20
 "INTELSAT GLOBAL SERVICE CORPORATION",213.185.96.0/19
-"INTELSAT GLOBAL SERVICE CORPORATION",216.115.183.0/24
 "INTELSAT GLOBAL SERVICE CORPORATION",216.139.160.0/19
 "INTELSAT GLOBAL SERVICE CORPORATION",216.250.192.0/19
 "INTELSAT GLOBAL SERVICE CORPORATION",2001:43a8::/32
@@ -101784,21 +101803,18 @@ JCWIFI.COM,208.86.160.0/22
 "Swifttalk Limited",41.76.152.0/21
 "Swifttalk Limited",168.253.208.0/21
 "Phase3 Telecom Limited",41.87.64.0/19
-"Phase3 Telecom Limited",2c0f:fea8::/32
 "Information Connectivity Solutions Limited",41.203.118.0/23
 "Information Connectivity Solutions Limited",105.235.192.0/20
 "Broad Based Communications Limited",41.76.192.0/21
-"Steam Broadcasting and Communications Limited",41.78.208.0/22
-"Steam Broadcasting and Communications Limited",197.234.32.0/21
+"Steam Broadcasting and Communications Limited",41.78.208.0/23
+"Steam Broadcasting and Communications Limited",197.234.32.0/23
+"Steam Broadcasting and Communications Limited",197.234.36.0/23
+"Steam Broadcasting and Communications Limited",197.234.39.0/24
 "Steam Broadcasting and Communications Limited",197.234.48.0/22
 "Steam Broadcasting and Communications Limited",197.234.52.0/24
-"Steam Broadcasting and Communications Limited",197.234.57.0/24
 "Steam Broadcasting and Communications Limited",197.234.58.0/24
-"Steam Broadcasting and Communications Limited",197.234.60.0/24
-"Steam Broadcasting and Communications Limited",197.242.240.0/22
 "Steam Broadcasting and Communications Limited",197.242.244.0/23
-"Steam Broadcasting and Communications Limited",197.242.248.0/22
-"Steam Broadcasting and Communications Limited",197.242.252.0/24
+"Steam Broadcasting and Communications Limited",197.242.248.0/24
 "FUTURECOM LIMITED",41.79.116.0/22
 "KKON Technologies Ltd",102.212.210.0/24
 "KKON Technologies Ltd",197.157.217.0/24
@@ -102330,8 +102346,9 @@ PowerSchool,38.98.253.0/24
 "White Cloud Communications US, LLC",12.190.198.0/24
 "White Cloud Communications US, LLC",98.16.120.0/22
 "White Cloud Communications US, LLC",104.232.4.0/22
-"White Cloud Communications US, LLC",199.30.76.0/24
-"White Cloud Communications US, LLC",199.30.78.0/23
+"White Cloud Communications US, LLC",199.30.72.0/23
+"White Cloud Communications US, LLC",199.30.75.0/24
+"White Cloud Communications US, LLC",199.30.76.0/22
 "White Cloud Communications US, LLC",199.180.104.0/21
 "White Cloud Communications US, LLC",207.140.8.0/21
 "White Cloud Communications US, LLC",2602:fcda::/47
@@ -102903,6 +102920,7 @@ VIP.com,103.146.92.0/23
 "Cogent Broadband",103.151.118.0/23
 "Cogent Broadband",2001:df3:e080::/48
 "ANY DIGITAL PTE. LTD.",154.94.68.0/24
+"ANY DIGITAL PTE. LTD.",2602:fa80:29::/48
 "Data Center of Vietnam National University Ho Chi Minh City",103.175.198.0/23
 "Data Center of Vietnam National University Ho Chi Minh City",2001:df7:fd80::/48
 MTN.COM,103.152.236.0/23
@@ -102922,7 +102940,6 @@ MTN.COM,2406:3740::/32
 "Disaster Science",2001:df3:4e40::/48
 "Department of Local Government, Sport and Cultural Industries",203.24.48.0/24
 "WAHWAY DATA NETWORKS, INC.",36.255.176.0/24
-"WAHWAY DATA NETWORKS, INC.",43.237.216.0/24
 "WAHWAY DATA NETWORKS, INC.",61.29.211.0/24
 "WAHWAY DATA NETWORKS, INC.",103.92.132.0/24
 "WAHWAY DATA NETWORKS, INC.",103.194.16.0/24
@@ -103364,6 +103381,7 @@ iGaming.com-Limited,151.251.119.0/24
 "OOO WestCall Ltd.",93.189.85.0/24
 "FiberConn (SH.P.K)",77.83.120.0/22
 "Layer3 for Wireless communication Mixed LLC",185.222.40.0/24
+"Layer3 for Wireless communication Mixed LLC",213.254.176.0/23
 "Layer3 for Wireless communication Mixed LLC",2a14:4ac0::/29
 "PE Ruslan Ulyanov",193.233.237.0/24
 "PE Ruslan Ulyanov",212.22.80.0/24
@@ -103615,6 +103633,7 @@ Stratos,66.97.112.0/22
 Stratos,139.60.121.0/24
 Stratos,149.20.181.0/24
 Stratos,149.20.182.0/23
+Stratos,2605:a3c0::/32
 "Santa Clara County Federal Credit Union",12.207.157.0/24
 "Rust-Oleum Corporation",12.205.165.0/24
 "TIGER COMPUTER CONSULTING, LLC",23.160.232.0/24
