@@ -7101,7 +7101,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",31.6.63.0/24
 "IPXO LLC",31.14.38.0/23
 "IPXO LLC",31.22.107.0/24
-"IPXO LLC",31.222.200.0/21
+"IPXO LLC",31.222.204.0/22
 "IPXO LLC",36.255.197.0/24
 "IPXO LLC",37.44.228.0/22
 "IPXO LLC",37.148.218.0/23
@@ -7121,16 +7121,15 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",45.84.112.0/22
 "IPXO LLC",45.87.185.0/24
 "IPXO LLC",45.88.10.0/24
-"IPXO LLC",45.95.81.0/24
 "IPXO LLC",45.95.82.0/24
 "IPXO LLC",45.129.194.0/24
 "IPXO LLC",45.131.184.0/22
 "IPXO LLC",45.132.228.0/22
+"IPXO LLC",45.137.99.0/24
 "IPXO LLC",45.140.36.0/24
 "IPXO LLC",45.140.58.0/24
 "IPXO LLC",45.140.187.0/24
 "IPXO LLC",45.148.116.0/24
-"IPXO LLC",45.148.118.0/23
 "IPXO LLC",45.152.179.0/24
 "IPXO LLC",45.152.189.0/24
 "IPXO LLC",45.158.125.0/24
@@ -7223,7 +7222,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",89.213.181.0/24
 "IPXO LLC",89.213.191.0/24
 "IPXO LLC",91.209.58.0/24
-"IPXO LLC",91.210.144.0/24
 "IPXO LLC",92.53.184.0/22
 "IPXO LLC",93.177.114.0/23
 "IPXO LLC",94.229.223.0/24
@@ -7246,7 +7244,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",104.219.170.0/23
 "IPXO LLC",104.224.81.0/24
 "IPXO LLC",104.234.136.0/24
-"IPXO LLC",104.234.158.0/23
 "IPXO LLC",104.234.206.0/23
 "IPXO LLC",104.250.164.0/24
 "IPXO LLC",104.250.173.0/24
@@ -7278,7 +7275,10 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",134.202.180.0/22
 "IPXO LLC",139.28.240.0/22
 "IPXO LLC",139.177.148.0/23
+"IPXO LLC",140.99.184.0/23
 "IPXO LLC",140.228.16.0/22
+"IPXO LLC",140.228.20.0/24
+"IPXO LLC",141.11.146.0/23
 "IPXO LLC",141.140.24.0/21
 "IPXO LLC",144.168.0.0/22
 "IPXO LLC",146.19.22.0/24
@@ -7439,6 +7439,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",176.57.52.0/24
 "IPXO LLC",176.57.56.0/24
 "IPXO LLC",176.125.251.0/24
+"IPXO LLC",178.248.74.0/24
 "IPXO LLC",179.61.198.0/24
 "IPXO LLC",179.61.210.0/24
 "IPXO LLC",179.61.212.0/24
@@ -7492,6 +7493,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",185.212.206.0/24
 "IPXO LLC",185.227.147.0/24
 "IPXO LLC",185.230.53.0/24
+"IPXO LLC",185.238.188.0/22
 "IPXO LLC",185.241.148.0/24
 "IPXO LLC",185.251.80.0/23
 "IPXO LLC",188.164.154.0/24
@@ -7584,6 +7586,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",199.255.212.0/24
 "IPXO LLC",200.26.191.0/24
 "IPXO LLC",200.229.16.0/23
+"IPXO LLC",202.155.144.0/20
 "IPXO LLC",205.211.154.0/23
 "IPXO LLC",206.123.144.0/24
 "IPXO LLC",206.206.74.0/24
@@ -7597,7 +7600,6 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",213.18.196.0/22
 "IPXO LLC",213.18.212.0/22
 "IPXO LLC",213.18.216.0/22
-"IPXO LLC",213.137.92.0/24
 "IPXO LLC",213.139.69.0/24
 "IPXO LLC",213.139.79.0/24
 "IPXO LLC",213.139.80.0/23
@@ -7624,6 +7626,7 @@ SWITCH,2a0b:2040::/29
 "IPXO LLC",216.224.114.0/23
 "IPXO LLC",216.224.116.0/22
 "IPXO LLC",216.224.120.0/24
+"IPXO LLC",217.20.240.0/24
 "IPXO LLC",217.147.166.0/24
 "IPXO LLC",217.180.46.0/24
 "IPXO LLC",217.180.57.0/24
@@ -9107,7 +9110,6 @@ zColo,2606:ef80:6::/48
 "Oracle Corporation",141.143.208.0/20
 "Oracle Corporation",143.47.160.0/20
 "Oracle Corporation",2a02:6900:8208::/48
-"Krypt Technologies",38.140.154.0/24
 "Krypt Technologies",66.172.0.0/18
 "Krypt Technologies",66.180.192.0/20
 "Krypt Technologies",66.186.32.0/21
@@ -9878,10 +9880,6 @@ zColo,2606:ef80:6::/48
 "Korea Telecom",110.172.189.0/24
 "Korea Telecom",112.160.0.0/11
 "Korea Telecom",112.196.219.0/24
-"Korea Telecom",113.198.0.0/20
-"Korea Telecom",113.198.16.0/21
-"Korea Telecom",113.198.24.0/22
-"Korea Telecom",113.198.28.0/23
 "Korea Telecom",113.198.181.0/24
 "Korea Telecom",113.198.182.0/23
 "Korea Telecom",113.198.195.0/24
@@ -10497,7 +10495,6 @@ zColo,2606:ef80:6::/48
 "Digital United Inc.",211.74.0.0/16
 "Digital United Inc.",211.76.176.0/20
 "Digital United Inc.",211.78.4.0/24
-"Digital United Inc.",211.78.26.0/24
 "Digital United Inc.",211.78.128.0/24
 "Digital United Inc.",218.32.239.0/24
 "Digital United Inc.",218.211.35.0/24
@@ -12123,7 +12120,6 @@ CDM,216.114.78.0/24
 "Arachnitec, INC.",206.253.163.0/24
 "Arachnitec, INC.",209.198.0.0/18
 "Arachnitec, INC.",216.189.0.0/17
-"Hurricane Electric LLC",5.133.124.0/22
 "Hurricane Electric LLC",23.27.29.0/24
 "Hurricane Electric LLC",23.27.30.0/24
 "Hurricane Electric LLC",23.27.113.0/24
@@ -13403,6 +13399,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Microsoft Corporation",20.47.120.0/23
 "Microsoft Corporation",20.47.126.0/23
 "Microsoft Corporation",20.153.3.0/24
+"Microsoft Corporation",20.153.5.0/24
 "Microsoft Corporation",20.153.12.0/24
 "Microsoft Corporation",20.157.2.0/23
 "Microsoft Corporation",20.157.4.0/22
@@ -13973,7 +13970,6 @@ HostUS,2a0f:5707:ab2b::/48
 "Microsoft Corporation",193.149.64.0/19
 "Microsoft Corporation",193.189.114.0/23
 "Microsoft Corporation",193.221.113.0/24
-"Microsoft Corporation",194.41.19.0/24
 "Microsoft Corporation",194.41.22.0/24
 "Microsoft Corporation",194.44.235.0/24
 "Microsoft Corporation",194.45.24.0/23
@@ -15113,6 +15109,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Amazon Data Services Ireland Ltd",108.175.52.0/23
 "Amazon Data Services Ireland Ltd",108.175.54.0/24
 "Amazon Data Services Ireland Ltd",108.175.56.0/21
+"Amazon Data Services Ireland Ltd",130.137.118.0/24
 "Amazon Data Services Ireland Ltd",130.137.239.0/24
 "Amazon Data Services Ireland Ltd",139.121.10.0/24
 "Amazon Data Services Ireland Ltd",140.19.65.0/24
@@ -15993,7 +15990,6 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",104.243.251.0/24
 "M247 Europe SRL",104.243.252.0/23
 "M247 Europe SRL",104.245.213.0/24
-"M247 Europe SRL",104.245.240.0/22
 "M247 Europe SRL",104.250.161.0/24
 "M247 Europe SRL",104.250.165.0/24
 "M247 Europe SRL",104.250.167.0/24
@@ -16892,7 +16888,6 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",194.153.244.0/23
 "M247 Europe SRL",194.156.229.0/24
 "M247 Europe SRL",194.187.248.0/22
-"M247 Europe SRL",194.242.26.0/23
 "M247 Europe SRL",195.8.196.0/23
 "M247 Europe SRL",195.12.48.0/22
 "M247 Europe SRL",195.54.170.0/23
@@ -16924,7 +16919,6 @@ HostUS,2a0f:5707:ab2b::/48
 "M247 Europe SRL",198.190.0.0/21
 "M247 Europe SRL",198.232.0.0/21
 "M247 Europe SRL",199.84.216.0/21
-"M247 Europe SRL",199.96.164.0/22
 "M247 Europe SRL",199.120.12.0/22
 "M247 Europe SRL",203.34.26.0/24
 "M247 Europe SRL",204.124.0.0/22
@@ -17337,6 +17331,7 @@ HostUS,2a0f:5707:ab2b::/48
 "TimeWeb Ltd.",89.223.120.0/21
 "TimeWeb Ltd.",90.156.208.0/22
 "TimeWeb Ltd.",90.156.224.0/21
+"TimeWeb Ltd.",91.135.156.0/24
 "TimeWeb Ltd.",91.186.196.0/22
 "TimeWeb Ltd.",91.198.220.0/24
 "TimeWeb Ltd.",91.200.148.0/24
@@ -17418,6 +17413,7 @@ HostUS,2a0f:5707:ab2b::/48
 "TimeWeb Ltd.",185.147.127.0/24
 "TimeWeb Ltd.",185.154.192.0/22
 "TimeWeb Ltd.",185.166.196.0/23
+"TimeWeb Ltd.",185.171.80.0/24
 "TimeWeb Ltd.",185.178.44.0/22
 "TimeWeb Ltd.",185.192.246.0/23
 "TimeWeb Ltd.",185.196.117.0/24
@@ -18764,6 +18760,7 @@ NYI,207.12.88.0/21
 NYI,2607:ee80:10::/48
 NYI,2610:1c0::/31
 "Nvidia Corporation",8.26.146.0/24
+"Nvidia Corporation",8.28.229.0/24
 "Nvidia Corporation",8.36.112.0/23
 "Nvidia Corporation",8.36.120.0/24
 "Nvidia Corporation",8.44.51.0/24
@@ -21086,7 +21083,9 @@ HostPapa,216.222.204.0/24
 "Cloudflare, Inc.",172.71.202.0/23
 "Cloudflare, Inc.",172.71.204.0/24
 "Cloudflare, Inc.",172.71.208.0/20
-"Cloudflare, Inc.",172.71.224.0/21
+"Cloudflare, Inc.",172.71.224.0/22
+"Cloudflare, Inc.",172.71.229.0/24
+"Cloudflare, Inc.",172.71.230.0/23
 "Cloudflare, Inc.",172.71.233.0/24
 "Cloudflare, Inc.",172.71.234.0/23
 "Cloudflare, Inc.",172.71.236.0/22
@@ -21507,6 +21506,7 @@ HostPapa,216.222.204.0/24
 "Cloudflare, Inc.",2400:cb00:a320::/45
 "Cloudflare, Inc.",2400:cb00:a340::/46
 "Cloudflare, Inc.",2400:cb00:a344::/48
+"Cloudflare, Inc.",2400:cb00:a390::/47
 "Cloudflare, Inc.",2400:cb00:a3b0::/46
 "Cloudflare, Inc.",2400:cb00:a3f0::/48
 "Cloudflare, Inc.",2400:cb00:a3f3::/48
@@ -21607,7 +21607,6 @@ HostPapa,216.222.204.0/24
 "Cloudflare, Inc.",2400:cb00:a9b0::/47
 "Cloudflare, Inc.",2400:cb00:a9c0::/47
 "Cloudflare, Inc.",2400:cb00:a9f0::/47
-"Cloudflare, Inc.",2400:cb00:a9f2::/48
 "Cloudflare, Inc.",2400:cb00:aa20::/47
 "Cloudflare, Inc.",2400:cb00:aa22::/48
 "Cloudflare, Inc.",2400:cb00:aa30::/47
@@ -23517,6 +23516,7 @@ Swishmail,2602:ffb8::/36
 "Amazon.com, Inc.",129.41.172.0/23
 "Amazon.com, Inc.",130.50.125.0/24
 "Amazon.com, Inc.",130.137.82.0/24
+"Amazon.com, Inc.",130.137.89.0/24
 "Amazon.com, Inc.",130.137.172.0/24
 "Amazon.com, Inc.",130.137.253.0/24
 "Amazon.com, Inc.",130.150.240.0/22
@@ -26246,11 +26246,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",13.227.208.0/22
 "Amazon.com, Inc.",13.227.213.0/24
 "Amazon.com, Inc.",13.227.216.0/21
-"Amazon.com, Inc.",13.227.228.0/24
-"Amazon.com, Inc.",13.227.230.0/23
-"Amazon.com, Inc.",13.227.240.0/22
 "Amazon.com, Inc.",13.227.245.0/24
-"Amazon.com, Inc.",13.227.248.0/21
 "Amazon.com, Inc.",13.228.0.0/14
 "Amazon.com, Inc.",13.232.0.0/13
 "Amazon.com, Inc.",13.244.0.0/14
@@ -26382,6 +26378,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",20.129.0.0/16
 "Amazon.com, Inc.",20.131.0.0/16
 "Amazon.com, Inc.",20.142.0.0/16
+"Amazon.com, Inc.",23.91.0.0/19
 "Amazon.com, Inc.",23.92.173.0/24
 "Amazon.com, Inc.",23.92.174.0/24
 "Amazon.com, Inc.",23.130.160.0/24
@@ -26391,8 +26388,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",23.170.184.0/24
 "Amazon.com, Inc.",23.183.112.0/23
 "Amazon.com, Inc.",23.191.48.0/24
+"Amazon.com, Inc.",23.228.192.0/18
 "Amazon.com, Inc.",23.234.192.0/18
 "Amazon.com, Inc.",23.235.126.0/23
+"Amazon.com, Inc.",23.238.128.0/17
 "Amazon.com, Inc.",23.239.241.0/24
 "Amazon.com, Inc.",23.239.243.0/24
 "Amazon.com, Inc.",23.247.0.0/17
@@ -26402,6 +26401,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",23.250.0.0/17
 "Amazon.com, Inc.",23.251.224.0/19
 "Amazon.com, Inc.",23.254.0.0/17
+"Amazon.com, Inc.",24.110.0.0/21
+"Amazon.com, Inc.",24.110.8.0/23
+"Amazon.com, Inc.",24.110.11.0/24
+"Amazon.com, Inc.",24.110.12.0/22
+"Amazon.com, Inc.",24.110.16.0/20
+"Amazon.com, Inc.",24.110.32.0/19
+"Amazon.com, Inc.",24.110.64.0/18
+"Amazon.com, Inc.",24.110.128.0/17
 "Amazon.com, Inc.",27.131.8.0/23
 "Amazon.com, Inc.",27.131.10.0/24
 "Amazon.com, Inc.",31.1.0.0/16
@@ -26463,6 +26470,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",40.38.0.0/15
 "Amazon.com, Inc.",40.45.0.0/16
 "Amazon.com, Inc.",40.48.0.0/16
+"Amazon.com, Inc.",40.143.64.0/21
 "Amazon.com, Inc.",40.150.0.0/16
 "Amazon.com, Inc.",40.163.0.0/16
 "Amazon.com, Inc.",40.164.0.0/14
@@ -26508,6 +26516,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",45.11.252.0/23
 "Amazon.com, Inc.",45.13.100.0/22
 "Amazon.com, Inc.",45.33.160.0/19
+"Amazon.com, Inc.",45.34.0.0/15
 "Amazon.com, Inc.",45.42.136.0/22
 "Amazon.com, Inc.",45.42.252.0/22
 "Amazon.com, Inc.",45.43.140.0/23
@@ -26536,9 +26545,11 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",45.140.152.0/22
 "Amazon.com, Inc.",45.141.90.0/24
 "Amazon.com, Inc.",45.143.132.0/22
+"Amazon.com, Inc.",45.144.204.0/22
 "Amazon.com, Inc.",45.146.156.0/24
 "Amazon.com, Inc.",45.149.108.0/22
 "Amazon.com, Inc.",45.152.134.0/23
+"Amazon.com, Inc.",45.152.156.0/24
 "Amazon.com, Inc.",45.154.18.0/23
 "Amazon.com, Inc.",45.155.99.0/24
 "Amazon.com, Inc.",45.156.96.0/22
@@ -26826,6 +26837,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",63.176.0.0/12
 "Amazon.com, Inc.",63.246.112.0/20
 "Amazon.com, Inc.",63.249.128.0/17
+"Amazon.com, Inc.",63.254.144.0/21
 "Amazon.com, Inc.",64.23.0.0/18
 "Amazon.com, Inc.",64.27.0.0/19
 "Amazon.com, Inc.",64.29.17.0/24
@@ -26833,10 +26845,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",64.37.64.0/18
 "Amazon.com, Inc.",64.41.0.0/18
 "Amazon.com, Inc.",64.42.185.0/24
+"Amazon.com, Inc.",64.52.64.0/20
 "Amazon.com, Inc.",64.52.111.0/24
+"Amazon.com, Inc.",64.52.112.0/20
+"Amazon.com, Inc.",64.52.144.0/20
 "Amazon.com, Inc.",64.56.212.0/24
 "Amazon.com, Inc.",64.57.5.0/24
 "Amazon.com, Inc.",64.57.34.0/24
+"Amazon.com, Inc.",64.59.0.0/18
 "Amazon.com, Inc.",64.65.61.0/24
 "Amazon.com, Inc.",64.66.128.0/18
 "Amazon.com, Inc.",64.69.212.0/24
@@ -26848,14 +26864,17 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",64.95.155.0/24
 "Amazon.com, Inc.",64.95.157.0/24
 "Amazon.com, Inc.",64.99.86.0/23
+"Amazon.com, Inc.",64.113.192.0/19
 "Amazon.com, Inc.",64.186.3.0/24
 "Amazon.com, Inc.",64.190.110.0/24
 "Amazon.com, Inc.",64.190.237.0/24
+"Amazon.com, Inc.",64.201.0.0/19
 "Amazon.com, Inc.",64.202.96.0/24
 "Amazon.com, Inc.",64.207.194.0/24
 "Amazon.com, Inc.",64.207.196.0/24
 "Amazon.com, Inc.",64.207.198.0/23
 "Amazon.com, Inc.",64.207.204.0/23
+"Amazon.com, Inc.",64.233.0.0/17
 "Amazon.com, Inc.",64.234.115.0/24
 "Amazon.com, Inc.",64.239.109.0/24
 "Amazon.com, Inc.",64.239.123.0/24
@@ -26864,12 +26883,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",64.251.197.0/24
 "Amazon.com, Inc.",64.251.198.0/23
 "Amazon.com, Inc.",65.4.0.0/16
+"Amazon.com, Inc.",65.6.0.0/16
 "Amazon.com, Inc.",65.8.0.0/14
 "Amazon.com, Inc.",65.17.0.0/17
 "Amazon.com, Inc.",65.37.128.0/18
 "Amazon.com, Inc.",65.37.192.0/19
 "Amazon.com, Inc.",65.37.240.0/24
 "Amazon.com, Inc.",65.61.54.0/23
+"Amazon.com, Inc.",65.80.0.0/16
 "Amazon.com, Inc.",65.98.146.0/24
 "Amazon.com, Inc.",65.98.206.0/24
 "Amazon.com, Inc.",65.98.214.0/24
@@ -26878,12 +26899,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",65.110.52.0/23
 "Amazon.com, Inc.",65.110.54.0/24
 "Amazon.com, Inc.",65.175.64.0/18
+"Amazon.com, Inc.",66.7.0.0/18
 "Amazon.com, Inc.",66.22.176.0/24
 "Amazon.com, Inc.",66.22.190.0/24
 "Amazon.com, Inc.",66.33.60.0/24
 "Amazon.com, Inc.",66.33.68.0/24
 "Amazon.com, Inc.",66.33.96.0/24
 "Amazon.com, Inc.",66.34.0.0/16
+"Amazon.com, Inc.",66.36.32.0/19
 "Amazon.com, Inc.",66.37.128.0/24
 "Amazon.com, Inc.",66.45.78.0/24
 "Amazon.com, Inc.",66.51.208.0/24
@@ -26896,6 +26919,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",66.81.8.0/24
 "Amazon.com, Inc.",66.81.227.0/24
 "Amazon.com, Inc.",66.81.241.0/24
+"Amazon.com, Inc.",66.109.64.0/20
 "Amazon.com, Inc.",66.117.17.0/24
 "Amazon.com, Inc.",66.117.20.0/24
 "Amazon.com, Inc.",66.117.22.0/23
@@ -26904,11 +26928,13 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",66.117.30.0/23
 "Amazon.com, Inc.",66.129.228.0/24
 "Amazon.com, Inc.",66.132.138.0/24
+"Amazon.com, Inc.",66.152.0.0/18
 "Amazon.com, Inc.",66.152.160.0/19
-"Amazon.com, Inc.",66.157.0.0/16
+"Amazon.com, Inc.",66.156.0.0/15
 "Amazon.com, Inc.",66.159.226.0/24
 "Amazon.com, Inc.",66.159.230.0/24
 "Amazon.com, Inc.",66.159.242.0/24
+"Amazon.com, Inc.",66.160.0.0/17
 "Amazon.com, Inc.",66.165.64.0/18
 "Amazon.com, Inc.",66.178.130.0/24
 "Amazon.com, Inc.",66.178.132.0/22
@@ -26916,6 +26942,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",66.178.139.0/24
 "Amazon.com, Inc.",66.178.140.0/23
 "Amazon.com, Inc.",66.178.142.0/24
+"Amazon.com, Inc.",66.178.192.0/18
 "Amazon.com, Inc.",66.179.16.0/24
 "Amazon.com, Inc.",66.179.18.0/24
 "Amazon.com, Inc.",66.179.59.0/24
@@ -26932,8 +26959,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",66.235.130.0/24
 "Amazon.com, Inc.",66.235.151.0/24
 "Amazon.com, Inc.",66.235.152.0/22
+"Amazon.com, Inc.",66.240.64.0/18
 "Amazon.com, Inc.",66.245.128.0/19
 "Amazon.com, Inc.",67.20.60.0/24
+"Amazon.com, Inc.",67.34.0.0/15
 "Amazon.com, Inc.",67.199.239.0/24
 "Amazon.com, Inc.",67.202.213.0/24
 "Amazon.com, Inc.",67.217.75.0/24
@@ -26949,10 +26978,11 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",68.64.5.0/24
 "Amazon.com, Inc.",68.64.9.0/24
 "Amazon.com, Inc.",68.64.10.0/24
+"Amazon.com, Inc.",68.67.224.0/20
 "Amazon.com, Inc.",68.70.127.0/24
 "Amazon.com, Inc.",68.71.232.0/23
 "Amazon.com, Inc.",68.71.238.0/24
-"Amazon.com, Inc.",68.158.0.0/16
+"Amazon.com, Inc.",68.158.0.0/15
 "Amazon.com, Inc.",68.182.190.0/24
 "Amazon.com, Inc.",68.215.0.0/16
 "Amazon.com, Inc.",68.217.0.0/16
@@ -27001,6 +27031,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",72.1.32.0/21
 "Amazon.com, Inc.",72.13.121.0/24
 "Amazon.com, Inc.",72.13.124.0/23
+"Amazon.com, Inc.",72.17.128.0/17
 "Amazon.com, Inc.",72.18.77.0/24
 "Amazon.com, Inc.",72.18.91.0/24
 "Amazon.com, Inc.",72.18.222.0/24
@@ -27020,6 +27051,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",74.116.147.0/24
 "Amazon.com, Inc.",74.117.148.0/24
 "Amazon.com, Inc.",74.127.0.0/18
+"Amazon.com, Inc.",74.166.0.0/16
+"Amazon.com, Inc.",74.173.0.0/16
+"Amazon.com, Inc.",74.180.0.0/16
+"Amazon.com, Inc.",74.186.0.0/16
 "Amazon.com, Inc.",74.190.0.0/16
 "Amazon.com, Inc.",74.200.120.0/24
 "Amazon.com, Inc.",74.207.96.0/20
@@ -27028,8 +27063,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",74.221.137.0/24
 "Amazon.com, Inc.",74.221.139.0/24
 "Amazon.com, Inc.",74.221.141.0/24
+"Amazon.com, Inc.",74.221.240.0/20
 "Amazon.com, Inc.",74.230.0.0/16
-"Amazon.com, Inc.",74.233.0.0/16
+"Amazon.com, Inc.",74.232.0.0/15
+"Amazon.com, Inc.",74.237.0.0/16
 "Amazon.com, Inc.",74.250.0.0/16
 "Amazon.com, Inc.",75.22.192.0/18
 "Amazon.com, Inc.",75.45.128.0/18
@@ -27222,7 +27259,8 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",96.9.221.0/24
 "Amazon.com, Inc.",96.43.80.0/20
 "Amazon.com, Inc.",96.45.160.0/20
-"Amazon.com, Inc.",98.74.0.0/16
+"Amazon.com, Inc.",98.68.0.0/15
+"Amazon.com, Inc.",98.74.0.0/15
 "Amazon.com, Inc.",98.76.0.0/15
 "Amazon.com, Inc.",98.97.248.0/22
 "Amazon.com, Inc.",98.97.253.0/24
@@ -27277,12 +27315,15 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",99.87.128.0/18
 "Amazon.com, Inc.",99.105.128.0/18
 "Amazon.com, Inc.",99.141.0.0/17
+"Amazon.com, Inc.",99.143.0.0/16
 "Amazon.com, Inc.",99.144.192.0/18
 "Amazon.com, Inc.",99.150.0.0/17
 "Amazon.com, Inc.",99.151.64.0/18
 "Amazon.com, Inc.",99.151.128.0/18
 "Amazon.com, Inc.",99.156.192.0/18
+"Amazon.com, Inc.",99.200.0.0/13
 "Amazon.com, Inc.",100.42.64.0/20
+"Amazon.com, Inc.",100.48.0.0/12
 "Amazon.com, Inc.",102.135.181.0/24
 "Amazon.com, Inc.",102.208.248.0/23
 "Amazon.com, Inc.",102.210.190.0/23
@@ -27371,6 +27412,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",104.129.174.0/24
 "Amazon.com, Inc.",104.144.0.0/16
 "Amazon.com, Inc.",104.148.0.0/17
+"Amazon.com, Inc.",104.149.0.0/16
 "Amazon.com, Inc.",104.153.112.0/21
 "Amazon.com, Inc.",104.171.198.0/23
 "Amazon.com, Inc.",104.192.136.0/23
@@ -27387,6 +27429,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",104.207.170.0/23
 "Amazon.com, Inc.",104.207.172.0/23
 "Amazon.com, Inc.",104.207.174.0/24
+"Amazon.com, Inc.",104.216.0.0/15
 "Amazon.com, Inc.",104.218.200.0/24
 "Amazon.com, Inc.",104.218.202.0/24
 "Amazon.com, Inc.",104.218.204.0/23
@@ -27420,6 +27463,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",108.160.212.0/22
 "Amazon.com, Inc.",108.165.42.0/23
 "Amazon.com, Inc.",108.166.192.0/18
+"Amazon.com, Inc.",108.171.240.0/20
 "Amazon.com, Inc.",108.175.48.0/20
 "Amazon.com, Inc.",108.179.144.0/22
 "Amazon.com, Inc.",109.68.71.0/24
@@ -27484,13 +27528,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",130.101.0.0/16
 "Amazon.com, Inc.",130.137.14.0/24
 "Amazon.com, Inc.",130.137.20.0/24
-"Amazon.com, Inc.",130.137.28.0/23
+"Amazon.com, Inc.",130.137.29.0/24
 "Amazon.com, Inc.",130.137.38.0/23
-"Amazon.com, Inc.",130.137.79.0/24
-"Amazon.com, Inc.",130.137.81.0/24
-"Amazon.com, Inc.",130.137.102.0/24
+"Amazon.com, Inc.",130.137.47.0/24
+"Amazon.com, Inc.",130.137.80.0/24
+"Amazon.com, Inc.",130.137.85.0/24
+"Amazon.com, Inc.",130.137.90.0/24
+"Amazon.com, Inc.",130.137.108.0/24
 "Amazon.com, Inc.",130.137.112.0/24
-"Amazon.com, Inc.",130.137.136.0/24
 "Amazon.com, Inc.",130.137.141.0/24
 "Amazon.com, Inc.",130.137.166.0/23
 "Amazon.com, Inc.",130.137.170.0/24
@@ -27669,6 +27714,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",140.150.102.0/23
 "Amazon.com, Inc.",140.150.104.0/21
 "Amazon.com, Inc.",140.150.112.0/23
+"Amazon.com, Inc.",140.167.0.0/16
 "Amazon.com, Inc.",140.200.0.0/16
 "Amazon.com, Inc.",140.233.128.0/21
 "Amazon.com, Inc.",140.233.148.0/22
@@ -27842,6 +27888,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",149.98.0.0/16
 "Amazon.com, Inc.",149.114.0.0/16
 "Amazon.com, Inc.",149.116.0.0/16
+"Amazon.com, Inc.",149.128.32.0/19
+"Amazon.com, Inc.",149.128.64.0/18
+"Amazon.com, Inc.",149.128.128.0/17
+"Amazon.com, Inc.",149.164.0.0/16
 "Amazon.com, Inc.",149.177.0.0/17
 "Amazon.com, Inc.",149.180.0.0/17
 "Amazon.com, Inc.",149.181.0.0/17
@@ -27952,6 +28002,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",156.15.0.0/16
 "Amazon.com, Inc.",156.27.0.0/16
 "Amazon.com, Inc.",156.64.0.0/16
+"Amazon.com, Inc.",156.66.0.0/16
 "Amazon.com, Inc.",156.70.116.0/23
 "Amazon.com, Inc.",156.153.0.0/16
 "Amazon.com, Inc.",157.52.128.0/17
@@ -28032,6 +28083,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",160.202.22.0/24
 "Amazon.com, Inc.",160.202.137.0/24
 "Amazon.com, Inc.",160.209.0.0/16
+"Amazon.com, Inc.",160.214.0.0/16
 "Amazon.com, Inc.",160.221.0.0/16
 "Amazon.com, Inc.",160.223.0.0/17
 "Amazon.com, Inc.",160.223.128.0/19
@@ -28105,6 +28157,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",162.221.182.0/23
 "Amazon.com, Inc.",162.245.54.0/23
 "Amazon.com, Inc.",162.246.178.0/24
+"Amazon.com, Inc.",162.247.66.0/23
 "Amazon.com, Inc.",162.247.160.0/23
 "Amazon.com, Inc.",162.247.164.0/23
 "Amazon.com, Inc.",162.248.24.0/24
@@ -28150,6 +28203,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",165.1.168.0/23
 "Amazon.com, Inc.",165.67.0.0/16
 "Amazon.com, Inc.",165.69.249.0/24
+"Amazon.com, Inc.",165.70.0.0/16
 "Amazon.com, Inc.",165.84.210.0/24
 "Amazon.com, Inc.",165.85.64.0/22
 "Amazon.com, Inc.",165.85.68.0/24
@@ -28235,6 +28289,9 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",168.100.124.0/23
 "Amazon.com, Inc.",168.100.164.0/24
 "Amazon.com, Inc.",168.100.168.0/24
+"Amazon.com, Inc.",168.102.144.0/20
+"Amazon.com, Inc.",168.102.160.0/19
+"Amazon.com, Inc.",168.102.192.0/18
 "Amazon.com, Inc.",168.149.242.0/23
 "Amazon.com, Inc.",168.149.244.0/23
 "Amazon.com, Inc.",168.157.0.0/16
@@ -28255,6 +28312,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",168.225.30.0/24
 "Amazon.com, Inc.",168.238.100.0/24
 "Amazon.com, Inc.",168.241.0.0/16
+"Amazon.com, Inc.",168.242.0.0/16
 "Amazon.com, Inc.",169.150.104.0/24
 "Amazon.com, Inc.",169.150.106.0/24
 "Amazon.com, Inc.",169.150.108.0/22
@@ -28360,6 +28418,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",172.86.224.0/24
 "Amazon.com, Inc.",172.99.250.0/24
 "Amazon.com, Inc.",172.103.40.0/21
+"Amazon.com, Inc.",172.106.0.0/15
 "Amazon.com, Inc.",172.111.132.0/24
 "Amazon.com, Inc.",172.111.144.0/24
 "Amazon.com, Inc.",172.111.149.0/24
@@ -28368,7 +28427,6 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",172.111.180.0/24
 "Amazon.com, Inc.",172.111.190.0/23
 "Amazon.com, Inc.",173.82.6.0/24
-"Amazon.com, Inc.",173.82.8.0/23
 "Amazon.com, Inc.",173.82.10.0/24
 "Amazon.com, Inc.",173.82.15.0/24
 "Amazon.com, Inc.",173.82.16.0/24
@@ -28514,6 +28572,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",185.151.47.0/24
 "Amazon.com, Inc.",185.156.16.0/23
 "Amazon.com, Inc.",185.158.109.0/24
+"Amazon.com, Inc.",185.158.252.0/22
 "Amazon.com, Inc.",185.166.140.0/22
 "Amazon.com, Inc.",185.169.80.0/23
 "Amazon.com, Inc.",185.169.196.0/22
@@ -28629,6 +28688,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",192.177.71.0/24
 "Amazon.com, Inc.",192.177.79.0/24
 "Amazon.com, Inc.",192.177.85.0/24
+"Amazon.com, Inc.",192.184.32.0/19
 "Amazon.com, Inc.",192.184.67.0/24
 "Amazon.com, Inc.",192.184.69.0/24
 "Amazon.com, Inc.",192.184.70.0/23
@@ -28644,6 +28704,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",192.206.206.0/23
 "Amazon.com, Inc.",192.207.115.0/24
 "Amazon.com, Inc.",192.210.30.0/23
+"Amazon.com, Inc.",192.210.48.0/20
 "Amazon.com, Inc.",192.225.99.0/24
 "Amazon.com, Inc.",192.230.230.0/24
 "Amazon.com, Inc.",192.230.237.0/24
@@ -28780,6 +28841,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",195.252.172.0/24
 "Amazon.com, Inc.",195.254.0.0/17
 "Amazon.com, Inc.",198.13.0.0/20
+"Amazon.com, Inc.",198.13.96.0/19
 "Amazon.com, Inc.",198.14.0.0/20
 "Amazon.com, Inc.",198.41.96.0/19
 "Amazon.com, Inc.",198.44.180.0/22
@@ -28797,6 +28859,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",198.132.0.0/16
 "Amazon.com, Inc.",198.134.6.0/23
 "Amazon.com, Inc.",198.137.150.0/24
+"Amazon.com, Inc.",198.143.192.0/18
 "Amazon.com, Inc.",198.147.208.0/24
 "Amazon.com, Inc.",198.147.210.0/24
 "Amazon.com, Inc.",198.148.96.0/19
@@ -28815,12 +28878,14 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",198.204.13.0/24
 "Amazon.com, Inc.",198.207.147.0/24
 "Amazon.com, Inc.",198.211.0.0/18
+"Amazon.com, Inc.",198.211.64.0/19
 "Amazon.com, Inc.",198.212.50.0/24
 "Amazon.com, Inc.",198.251.128.0/18
 "Amazon.com, Inc.",198.251.192.0/19
 "Amazon.com, Inc.",198.251.224.0/21
 "Amazon.com, Inc.",199.15.80.0/23
 "Amazon.com, Inc.",199.15.84.0/24
+"Amazon.com, Inc.",199.15.112.0/21
 "Amazon.com, Inc.",199.30.128.0/24
 "Amazon.com, Inc.",199.34.241.0/24
 "Amazon.com, Inc.",199.35.64.0/19
@@ -28840,6 +28905,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",199.65.249.0/24
 "Amazon.com, Inc.",199.65.250.0/24
 "Amazon.com, Inc.",199.65.252.0/23
+"Amazon.com, Inc.",199.83.88.0/21
 "Amazon.com, Inc.",199.85.125.0/24
 "Amazon.com, Inc.",199.87.145.0/24
 "Amazon.com, Inc.",199.91.53.0/24
@@ -28854,6 +28920,7 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",199.187.168.0/22
 "Amazon.com, Inc.",199.192.13.0/24
 "Amazon.com, Inc.",199.196.235.0/24
+"Amazon.com, Inc.",199.198.0.0/17
 "Amazon.com, Inc.",199.205.0.0/16
 "Amazon.com, Inc.",199.250.16.0/24
 "Amazon.com, Inc.",199.255.32.0/24
@@ -28915,11 +28982,13 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",204.15.72.0/21
 "Amazon.com, Inc.",204.15.172.0/24
 "Amazon.com, Inc.",204.16.220.0/22
+"Amazon.com, Inc.",204.17.64.0/18
 "Amazon.com, Inc.",204.27.244.0/24
 "Amazon.com, Inc.",204.32.128.0/20
 "Amazon.com, Inc.",204.39.0.0/17
 "Amazon.com, Inc.",204.45.0.0/16
 "Amazon.com, Inc.",204.48.63.0/24
+"Amazon.com, Inc.",204.52.32.0/19
 "Amazon.com, Inc.",204.87.151.0/24
 "Amazon.com, Inc.",204.89.149.0/24
 "Amazon.com, Inc.",204.89.150.0/23
@@ -28947,6 +29016,9 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",205.166.195.0/24
 "Amazon.com, Inc.",205.172.176.0/22
 "Amazon.com, Inc.",205.201.44.0/23
+"Amazon.com, Inc.",205.210.108.0/22
+"Amazon.com, Inc.",205.210.112.0/21
+"Amazon.com, Inc.",205.210.120.0/22
 "Amazon.com, Inc.",205.220.188.0/24
 "Amazon.com, Inc.",205.234.204.0/24
 "Amazon.com, Inc.",205.235.121.0/24
@@ -28981,6 +29053,9 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",206.225.203.0/24
 "Amazon.com, Inc.",206.225.217.0/24
 "Amazon.com, Inc.",206.225.219.0/24
+"Amazon.com, Inc.",207.8.192.0/19
+"Amazon.com, Inc.",207.8.224.0/20
+"Amazon.com, Inc.",207.8.248.0/21
 "Amazon.com, Inc.",207.9.0.0/16
 "Amazon.com, Inc.",207.34.11.0/24
 "Amazon.com, Inc.",207.36.0.0/16
@@ -29041,15 +29116,24 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",208.115.0.0/19
 "Amazon.com, Inc.",208.124.0.0/18
 "Amazon.com, Inc.",208.127.200.0/21
+"Amazon.com, Inc.",209.19.0.0/17
 "Amazon.com, Inc.",209.46.53.0/24
+"Amazon.com, Inc.",209.51.224.0/19
 "Amazon.com, Inc.",209.54.160.0/19
 "Amazon.com, Inc.",209.71.45.0/24
+"Amazon.com, Inc.",209.86.0.0/16
 "Amazon.com, Inc.",209.88.0.0/16
 "Amazon.com, Inc.",209.91.0.0/18
+"Amazon.com, Inc.",209.92.4.0/23
 "Amazon.com, Inc.",209.92.6.0/24
+"Amazon.com, Inc.",209.92.52.0/24
+"Amazon.com, Inc.",209.92.92.0/22
+"Amazon.com, Inc.",209.92.128.0/21
 "Amazon.com, Inc.",209.94.75.0/24
+"Amazon.com, Inc.",209.110.64.0/19
 "Amazon.com, Inc.",209.114.0.0/24
 "Amazon.com, Inc.",209.114.2.0/24
+"Amazon.com, Inc.",209.114.224.0/19
 "Amazon.com, Inc.",209.126.65.0/24
 "Amazon.com, Inc.",209.127.220.0/24
 "Amazon.com, Inc.",209.127.222.0/24
@@ -29059,8 +29143,10 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",209.160.100.0/23
 "Amazon.com, Inc.",209.160.103.0/24
 "Amazon.com, Inc.",209.162.176.0/20
+"Amazon.com, Inc.",209.163.0.0/18
 "Amazon.com, Inc.",209.163.96.0/24
 "Amazon.com, Inc.",209.164.64.0/18
+"Amazon.com, Inc.",209.168.128.0/17
 "Amazon.com, Inc.",209.169.228.0/24
 "Amazon.com, Inc.",209.169.233.0/24
 "Amazon.com, Inc.",209.169.241.0/24
@@ -29068,12 +29154,16 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",209.169.245.0/24
 "Amazon.com, Inc.",209.169.246.0/23
 "Amazon.com, Inc.",209.173.64.0/18
+"Amazon.com, Inc.",209.177.0.0/20
 "Amazon.com, Inc.",209.177.20.0/22
+"Amazon.com, Inc.",209.177.24.0/21
+"Amazon.com, Inc.",209.177.32.0/19
 "Amazon.com, Inc.",209.182.220.0/24
 "Amazon.com, Inc.",209.188.109.0/24
 "Amazon.com, Inc.",209.196.215.0/24
 "Amazon.com, Inc.",209.196.216.0/24
 "Amazon.com, Inc.",209.222.82.0/24
+"Amazon.com, Inc.",209.248.128.0/17
 "Amazon.com, Inc.",210.79.172.0/24
 "Amazon.com, Inc.",211.44.103.0/24
 "Amazon.com, Inc.",212.4.240.0/22
@@ -29108,25 +29198,32 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",216.9.206.0/24
 "Amazon.com, Inc.",216.17.128.0/17
 "Amazon.com, Inc.",216.24.45.0/24
+"Amazon.com, Inc.",216.24.192.0/20
 "Amazon.com, Inc.",216.24.225.0/24
 "Amazon.com, Inc.",216.24.226.0/23
 "Amazon.com, Inc.",216.24.228.0/23
 "Amazon.com, Inc.",216.24.236.0/23
 "Amazon.com, Inc.",216.24.240.0/20
 "Amazon.com, Inc.",216.25.125.0/24
+"Amazon.com, Inc.",216.26.0.0/18
 "Amazon.com, Inc.",216.39.128.0/18
 "Amazon.com, Inc.",216.40.128.0/18
+"Amazon.com, Inc.",216.49.64.0/20
 "Amazon.com, Inc.",216.52.15.0/24
 "Amazon.com, Inc.",216.52.17.0/24
+"Amazon.com, Inc.",216.57.0.0/18
 "Amazon.com, Inc.",216.72.0.0/16
+"Amazon.com, Inc.",216.73.192.0/20
 "Amazon.com, Inc.",216.73.208.0/21
 "Amazon.com, Inc.",216.73.216.0/22
 "Amazon.com, Inc.",216.75.96.0/22
 "Amazon.com, Inc.",216.75.104.0/21
 "Amazon.com, Inc.",216.83.224.0/19
+"Amazon.com, Inc.",216.86.0.0/19
 "Amazon.com, Inc.",216.87.42.0/24
 "Amazon.com, Inc.",216.97.0.0/17
 "Amazon.com, Inc.",216.99.135.0/24
+"Amazon.com, Inc.",216.99.144.0/20
 "Amazon.com, Inc.",216.99.220.0/24
 "Amazon.com, Inc.",216.107.128.0/24
 "Amazon.com, Inc.",216.113.224.0/19
@@ -29177,9 +29274,11 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",216.169.145.0/24
 "Amazon.com, Inc.",216.170.100.0/24
 "Amazon.com, Inc.",216.171.128.0/19
+"Amazon.com, Inc.",216.173.0.0/18
 "Amazon.com, Inc.",216.175.64.0/18
 "Amazon.com, Inc.",216.181.19.0/24
 "Amazon.com, Inc.",216.182.224.0/20
+"Amazon.com, Inc.",216.187.192.0/18
 "Amazon.com, Inc.",216.198.0.0/24
 "Amazon.com, Inc.",216.198.2.0/23
 "Amazon.com, Inc.",216.198.6.0/23
@@ -29460,7 +29559,6 @@ CarsForSale.com,198.185.165.0/24
 "Amazon.com, Inc.",2605:32c0:a002::/47
 "Amazon.com, Inc.",2605:4300:2c13::/48
 "Amazon.com, Inc.",2605:9cc0:378::/48
-"Amazon.com, Inc.",2605:9cc0:c12::/48
 "Amazon.com, Inc.",2605:9cc0:f03e::/48
 "Amazon.com, Inc.",2605:a7c0:101::/48
 "Amazon.com, Inc.",2605:a7c0:102::/47
@@ -29900,12 +29998,7 @@ CarsForSale.com,198.185.165.0/24
 "Lanset America Corporation",63.80.184.0/21
 "Lanset America Corporation",63.81.80.0/20
 "Lanset America Corporation",63.83.72.0/21
-"Lanset America Corporation",69.94.128.0/20
-"Lanset America Corporation",69.94.144.0/22
-"Lanset America Corporation",69.94.148.0/23
-"Lanset America Corporation",69.94.152.0/23
-"Lanset America Corporation",69.94.156.0/23
-"Lanset America Corporation",69.94.158.0/24
+"Lanset America Corporation",69.94.128.0/19
 "Lanset America Corporation",70.98.78.0/23
 "Lanset America Corporation",70.102.102.0/23
 "Lanset America Corporation",208.186.112.0/23
@@ -32285,7 +32378,6 @@ NTTCINS,103.239.136.0/22
 NTTCINS,103.240.89.0/24
 NTTCINS,103.240.90.0/23
 NTTCINS,103.243.56.0/24
-NTTCINS,103.253.70.0/24
 NTTCINS,115.166.136.0/22
 NTTCINS,123.108.32.0/19
 NTTCINS,124.153.64.0/18
@@ -32464,7 +32556,9 @@ NTTCINS,2407:e9c0::/45
 "Brain NET",122.129.90.0/23
 "Brain NET",122.129.92.0/23
 "Brain NET",122.129.94.0/24
-"Brain NET",203.128.0.0/21
+"Brain NET",203.128.0.0/23
+"Brain NET",203.128.3.0/24
+"Brain NET",203.128.4.0/22
 "Brain NET",203.128.8.0/23
 "Brain NET",203.128.11.0/24
 "Brain NET",203.128.12.0/22
@@ -33125,7 +33219,6 @@ EGIHosting,2606:6680:36::/48
 EGIHosting,2607:f358::/32
 EGIHosting,2a02:f240::/29
 EGIHosting,2a0c:47c0::/29
-EGIHosting,2a0c:7080::/29
 EGIHosting,2a0c:7dc0::/29
 EGIHosting,2a0c:89c0::/29
 EGIHosting,2a0c:9ac0::/29
@@ -34386,6 +34479,7 @@ OrangeHost,209.172.2.0/24
 "Vercara, LLC",217.169.194.0/23
 "Vercara, LLC",217.169.196.0/23
 "Vercara, LLC",217.169.199.0/24
+"Vercara, LLC",2610:a1:1028::/48
 "Vercara, LLC",2610:a1:2000::/45
 "Vercara, LLC",2610:a1:2008::/46
 "Vercara, LLC",2610:a1:200c::/47
@@ -35339,7 +35433,6 @@ ICANN,2620:0:2ee0::/48
 "The Constant Company, LLC",198.17.215.0/24
 "The Constant Company, LLC",198.51.98.0/24
 "The Constant Company, LLC",198.62.135.0/24
-"The Constant Company, LLC",198.89.85.0/24
 "The Constant Company, LLC",198.252.96.0/23
 "The Constant Company, LLC",199.5.133.0/24
 "The Constant Company, LLC",199.184.245.0/24
@@ -35433,6 +35526,7 @@ ICANN,2620:0:2ee0::/48
 "The Constant Company, LLC",2602:ffc5:108::/48
 "The Constant Company, LLC",2602:ffc5:200::/48
 "The Constant Company, LLC",2602:ffc5:203::/48
+"The Constant Company, LLC",2606:dac0::/32
 "The Constant Company, LLC",2607:7180::/32
 "The Constant Company, LLC",2620:53:a000::/44
 "The Constant Company, LLC",2620:a8:4000::/48
@@ -35627,7 +35721,6 @@ ICANN,2620:0:2ee0::/48
 "Host Europe GmbH",62.138.128.0/18
 "Host Europe GmbH",78.138.97.0/24
 "Host Europe GmbH",78.138.107.0/24
-"Host Europe GmbH",78.138.127.0/24
 "Host Europe GmbH",79.170.44.0/24
 "Host Europe GmbH",80.237.128.0/24
 "Host Europe GmbH",80.237.130.0/24
@@ -36453,7 +36546,6 @@ ICANN,2620:0:2ee0::/48
 "Wisconsin CyberLynk Network, Inc.",162.255.20.0/22
 "Wisconsin CyberLynk Network, Inc.",2605:4480::/32
 "Amazon.com, Inc.",168.185.4.0/23
-"Amazon.com, Inc.",2605:9cc0:c0d::/48
 "Neptune Networks, LLC",23.157.160.0/24
 "Neptune Networks, LLC",108.165.246.0/24
 "Neptune Networks, LLC",122.8.96.0/22
@@ -37428,7 +37520,6 @@ Cloudmylab.com,66.160.171.0/24
 "ZSCALER, INC.",2605:4300:3200::/40
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/48
 DakotaPro.biz,66.181.240.0/20
 DakotaPro.biz,69.9.0.0/19
 DakotaPro.biz,216.183.64.0/20
@@ -37686,7 +37777,6 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",31.58.49.0/24
 "ReliableSite.Net LLC",31.58.169.0/24
 "ReliableSite.Net LLC",37.156.34.0/24
-"ReliableSite.Net LLC",38.58.186.0/24
 "ReliableSite.Net LLC",38.165.7.0/24
 "ReliableSite.Net LLC",45.12.161.0/24
 "ReliableSite.Net LLC",45.58.112.0/21
@@ -37698,6 +37788,7 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",45.88.186.0/24
 "ReliableSite.Net LLC",45.126.208.0/22
 "ReliableSite.Net LLC",45.143.162.0/24
+"ReliableSite.Net LLC",45.148.119.0/24
 "ReliableSite.Net LLC",45.164.21.0/24
 "ReliableSite.Net LLC",45.164.22.0/23
 "ReliableSite.Net LLC",45.166.111.0/24
@@ -37715,7 +37806,6 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",65.110.45.0/24
 "ReliableSite.Net LLC",66.205.246.0/24
 "ReliableSite.Net LLC",69.166.230.0/24
-"ReliableSite.Net LLC",82.153.0.0/24
 "ReliableSite.Net LLC",84.33.14.0/24
 "ReliableSite.Net LLC",84.33.244.0/23
 "ReliableSite.Net LLC",86.107.62.0/24
@@ -37801,7 +37891,8 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",209.222.104.0/24
 "ReliableSite.Net LLC",209.222.106.0/23
 "ReliableSite.Net LLC",209.222.108.0/22
-"ReliableSite.Net LLC",213.137.95.0/24
+"ReliableSite.Net LLC",213.137.93.0/24
+"ReliableSite.Net LLC",213.137.94.0/23
 "ReliableSite.Net LLC",216.73.156.0/23
 "ReliableSite.Net LLC",216.189.145.0/24
 "ReliableSite.Net LLC",2407:9d00:10::/48
@@ -37813,7 +37904,6 @@ STAMPS.COM,192.54.92.0/23
 "ReliableSite.Net LLC",2602:fb54:140::/47
 "ReliableSite.Net LLC",2602:fb54:142::/48
 "ReliableSite.Net LLC",2602:fd09:100::/42
-"ReliableSite.Net LLC",2602:fed2:7081::/48
 "ReliableSite.Net LLC",2602:fed2:7318::/48
 "ReliableSite.Net LLC",2605:9880::/39
 "ReliableSite.Net LLC",2605:9880:200::/40
@@ -38908,7 +38998,6 @@ SG.GS,2405:4200::/32
 "Hetzner Online GmbH",201.131.3.0/24
 "Hetzner Online GmbH",204.29.146.0/24
 "Hetzner Online GmbH",213.133.96.0/19
-"Hetzner Online GmbH",213.232.193.0/24
 "Hetzner Online GmbH",213.239.192.0/18
 "Hetzner Online GmbH",216.55.108.0/22
 "Hetzner Online GmbH",2a01:4f8::/31
@@ -39612,7 +39701,12 @@ FortressITX,216.67.224.0/19
 "IT7 Networks Inc",23.252.104.0/21
 "IT7 Networks Inc",43.243.84.0/22
 "IT7 Networks Inc",45.62.96.0/19
-"IT7 Networks Inc",45.78.0.0/18
+"IT7 Networks Inc",45.78.1.0/24
+"IT7 Networks Inc",45.78.2.0/23
+"IT7 Networks Inc",45.78.4.0/22
+"IT7 Networks Inc",45.78.8.0/21
+"IT7 Networks Inc",45.78.16.0/20
+"IT7 Networks Inc",45.78.32.0/19
 "IT7 Networks Inc",45.78.64.0/20
 "IT7 Networks Inc",46.254.88.0/22
 "IT7 Networks Inc",64.64.224.0/19
@@ -39707,7 +39801,6 @@ FortressITX,216.67.224.0/19
 "Cloudnium LLC",50.114.40.0/24
 "Cloudnium LLC",104.234.254.0/24
 "Cloudnium LLC",108.165.113.0/24
-"Cloudnium LLC",140.228.20.0/24
 "Cloudnium LLC",180.149.32.0/24
 "Cloudnium LLC",2602:fed2:770a::/48
 "ETS TELECOM",23.147.88.0/24
@@ -39972,6 +40065,7 @@ ServerPoint.com,2607:3fc0:4::/47
 "Baxet Group Inc.",103.99.52.0/24
 "Baxet Group Inc.",103.136.68.0/24
 "Baxet Group Inc.",103.136.150.0/24
+"Baxet Group Inc.",104.193.194.0/24
 "Baxet Group Inc.",104.239.87.0/24
 "Baxet Group Inc.",141.195.112.0/24
 "Baxet Group Inc.",142.111.173.0/24
@@ -40037,6 +40131,7 @@ ServerPoint.com,2607:3fc0:4::/47
 "Baxet Group Inc.",207.174.30.0/23
 "Baxet Group Inc.",212.192.12.0/23
 "Baxet Group Inc.",212.192.15.0/24
+"Baxet Group Inc.",212.192.23.0/24
 "Baxet Group Inc.",212.192.215.0/24
 "Baxet Group Inc.",212.192.221.0/24
 "Baxet Group Inc.",212.192.223.0/24
@@ -40601,8 +40696,6 @@ zColo,2610:160::/32
 "Rackspace Hosting",209.0.201.0/24
 "Rackspace Hosting",209.133.224.0/19
 "Rackspace Hosting",2001:4802::/32
-"639 DC Main LLC",23.147.224.0/24
-"639 DC Main LLC",104.234.238.0/24
 "Leaseweb USA, Inc.",23.19.120.0/22
 "Leaseweb USA, Inc.",23.19.136.0/21
 "Leaseweb USA, Inc.",23.19.176.0/21
@@ -43103,6 +43196,7 @@ Host-Engine.com,23.152.40.0/23
 "Virtual Systems LLC",185.255.120.0/24
 "Virtual Systems LLC",185.255.122.0/24
 "Virtual Systems LLC",188.95.89.0/24
+"Virtual Systems LLC",191.96.171.0/24
 "Virtual Systems LLC",193.23.181.0/24
 "Virtual Systems LLC",194.42.205.0/24
 "Virtual Systems LLC",195.66.214.0/23
@@ -44538,7 +44632,6 @@ GigeNET,2001:1850::/32
 GigeNET,2602:fd24::/40
 GigeNET,2602:fea7:e00::/40
 GigeNET,2604:2700::/32
-"Tech Futures Interactive Inc.",23.190.64.0/24
 "Liquid Web, L.L.C",50.28.0.0/18
 "Liquid Web, L.L.C",50.28.64.0/19
 "Liquid Web, L.L.C",50.57.240.0/20
@@ -45626,7 +45719,7 @@ VOLICO,2607:f3c8::/32
 "Akamai International B.V.",2600:1480:a000::/40
 "Akamai International B.V.",2600:14e1::/44
 "Akamai International B.V.",2600:14e1:18::/45
-"Akamai International B.V.",2600:14e1:20::/44
+"Akamai International B.V.",2600:14e1:20::/45
 "Cloud Temple SAS",45.15.212.0/22
 "Cloud Temple SAS",80.75.152.0/21
 "Cloud Temple SAS",91.223.207.0/24
@@ -46605,7 +46698,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "iFog GmbH",2a0c:9a40:2900::/48
 "iFog GmbH",2a0c:9a40:2a00::/39
 "iFog GmbH",2a0c:9a40:2c00::/40
-"iFog GmbH",2a0c:9a40:2d00::/44
+"iFog GmbH",2a0c:9a40:2d00::/48
 "iFog GmbH",2a0c:9a40:2e00::/40
 "iFog GmbH",2a0c:9a44::/48
 "iFog GmbH",2a0c:9a46:500::/40
@@ -50639,10 +50732,7 @@ Contegix,2605:9f00::/32
 "Google, LLC",136.22.83.0/24
 "Google, LLC",136.22.86.0/23
 "Google, LLC",136.22.92.0/22
-"Google, LLC",136.22.96.0/22
-"Google, LLC",136.22.101.0/24
-"Google, LLC",136.22.102.0/23
-"Google, LLC",136.22.104.0/21
+"Google, LLC",136.22.96.0/20
 "Google, LLC",136.22.112.0/22
 "Google, LLC",136.22.122.0/23
 "Google, LLC",136.22.224.0/22
@@ -54367,6 +54457,7 @@ DediByte,45.38.4.0/24
 "UK Dedicated Servers Limited",45.155.100.0/23
 "UK Dedicated Servers Limited",45.195.82.0/23
 "UK Dedicated Servers Limited",45.195.88.0/21
+"UK Dedicated Servers Limited",45.196.152.0/21
 "UK Dedicated Servers Limited",45.198.64.0/18
 "UK Dedicated Servers Limited",45.198.128.0/19
 "UK Dedicated Servers Limited",45.198.160.0/20
@@ -54406,7 +54497,6 @@ DediByte,45.38.4.0/24
 "UK Dedicated Servers Limited",89.40.92.0/24
 "UK Dedicated Servers Limited",89.43.60.0/24
 "UK Dedicated Servers Limited",89.44.103.0/24
-"UK Dedicated Servers Limited",89.47.114.0/24
 "UK Dedicated Servers Limited",89.116.148.0/24
 "UK Dedicated Servers Limited",89.117.70.0/23
 "UK Dedicated Servers Limited",89.238.117.0/24
@@ -54418,7 +54508,6 @@ DediByte,45.38.4.0/24
 "UK Dedicated Servers Limited",91.234.19.0/24
 "UK Dedicated Servers Limited",91.239.149.0/24
 "UK Dedicated Servers Limited",92.114.35.0/24
-"UK Dedicated Servers Limited",93.114.73.0/24
 "UK Dedicated Servers Limited",93.115.201.0/24
 "UK Dedicated Servers Limited",93.117.137.0/24
 "UK Dedicated Servers Limited",94.46.184.0/22
@@ -56665,7 +56754,6 @@ DediByte,45.38.4.0/24
 "Alibaba (US) Technology Co., Ltd.",47.77.64.0/19
 "Alibaba (US) Technology Co., Ltd.",47.77.96.0/20
 "Alibaba (US) Technology Co., Ltd.",47.77.128.0/17
-"Alibaba (US) Technology Co., Ltd.",47.78.0.0/16
 "Alibaba (US) Technology Co., Ltd.",47.79.0.0/17
 "Alibaba (US) Technology Co., Ltd.",47.80.0.0/15
 "Alibaba (US) Technology Co., Ltd.",47.82.0.0/17
@@ -57396,9 +57484,7 @@ NHNCLOUD,223.255.207.0/24
 "blue tech technology Co., Limited",23.166.232.0/24
 "Safeway Insurance Group",205.234.135.0/24
 "QuickPacket, LLC",38.31.128.0/17
-"QuickPacket, LLC",45.33.144.0/22
-"QuickPacket, LLC",45.33.148.0/23
-"QuickPacket, LLC",45.33.151.0/24
+"QuickPacket, LLC",45.33.144.0/21
 "QuickPacket, LLC",45.33.153.0/24
 "QuickPacket, LLC",45.33.155.0/24
 "QuickPacket, LLC",45.33.156.0/23
@@ -57411,9 +57497,11 @@ NHNCLOUD,223.255.207.0/24
 "QuickPacket, LLC",45.59.31.0/24
 "QuickPacket, LLC",45.81.25.0/24
 "QuickPacket, LLC",45.90.204.0/22
+"QuickPacket, LLC",45.94.137.0/24
 "QuickPacket, LLC",45.129.220.0/22
 "QuickPacket, LLC",45.130.64.0/24
-"QuickPacket, LLC",45.135.139.0/24
+"QuickPacket, LLC",45.135.138.0/23
+"QuickPacket, LLC",45.139.3.0/24
 "QuickPacket, LLC",45.153.239.0/24
 "QuickPacket, LLC",59.152.124.0/22
 "QuickPacket, LLC",61.14.224.0/22
@@ -57618,6 +57706,7 @@ NHNCLOUD,223.255.207.0/24
 "QuickPacket, LLC",216.158.204.0/24
 "QuickPacket, LLC",216.158.206.0/24
 "QuickPacket, LLC",216.158.208.0/23
+"QuickPacket, LLC",216.158.210.0/24
 "QuickPacket, LLC",216.158.212.0/23
 "QuickPacket, LLC",216.158.216.0/23
 "QuickPacket, LLC",216.158.218.0/24
@@ -65643,7 +65732,6 @@ RainWorx,162.208.56.0/22
 "White Sands Hosting",66.11.127.0/24
 "White Sands Hosting",199.193.14.0/23
 "Zultys, Inc.",52.128.36.0/22
-"Zultys, Inc.",66.179.244.0/23
 "Zultys, Inc.",72.46.100.0/22
 "Zultys, Inc.",104.218.228.0/22
 "Zultys, Inc.",137.83.4.0/22
@@ -67179,7 +67267,6 @@ RainWorx,162.208.56.0/22
 "Fiber 23 SRL",89.47.3.0/24
 "Fiber 23 SRL",89.47.10.0/24
 "Fiber 23 SRL",176.126.175.0/24
-"Fiber 23 SRL",188.240.208.0/24
 "Maksym Rivtin",46.254.107.0/24
 "Maksym Rivtin",193.0.61.0/24
 "Maksym Rivtin",195.14.122.0/24
@@ -67375,6 +67462,7 @@ RainWorx,162.208.56.0/22
 "ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C",194.5.192.0/23
 "ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C",194.5.206.0/23
 "ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C",2a0f:94c0:100::/40
+"ARVANCLOUD GLOBAL TECHNOLOGIES L.L.C",2a0f:94c0:200::/40
 "Penta SA",91.189.11.0/24
 "Penta SA",91.189.12.0/22
 "Misaka Network, Inc.",45.131.68.0/23
@@ -67689,7 +67777,8 @@ RainWorx,162.208.56.0/22
 "Prager Connect GmbH",77.83.156.0/22
 "Prager Connect GmbH",77.243.92.0/22
 "Prager Connect GmbH",79.143.48.0/20
-"Prager Connect GmbH",79.174.20.0/22
+"Prager Connect GmbH",79.174.21.0/24
+"Prager Connect GmbH",79.174.22.0/23
 "Prager Connect GmbH",80.68.149.0/24
 "Prager Connect GmbH",81.16.136.0/22
 "Prager Connect GmbH",84.39.184.0/21
@@ -67757,7 +67846,6 @@ RainWorx,162.208.56.0/22
 "Prager Connect GmbH",185.190.82.0/24
 "Prager Connect GmbH",185.193.36.0/22
 "Prager Connect GmbH",185.205.68.0/24
-"Prager Connect GmbH",185.207.176.0/24
 "Prager Connect GmbH",185.207.178.0/24
 "Prager Connect GmbH",185.207.212.0/24
 "Prager Connect GmbH",185.208.168.0/22
@@ -69256,18 +69344,6 @@ OneAsiaHost,116.251.216.0/21
 "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",213.176.28.0/22
 "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a05:9a00::/29
 "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a07:7ec0::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a07:e440::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a09:1180::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a09:5880::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a0b:d8c0::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a0d:7780::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a10:4340::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a10:5c40::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a10:6140::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a10:b800::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a11:1dc0::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a12:9340::/29
-"NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",2a13:3e40::/29
 "HMB Holding GmbH",91.239.15.0/24
 "HMB Holding GmbH",185.55.24.0/22
 "HMB Holding GmbH",185.71.136.0/24
@@ -70842,7 +70918,6 @@ OneAsiaHost,116.251.216.0/21
 "CLOUD SG UK LTD",185.25.67.0/24
 "BerryByte Limited",102.215.224.0/24
 "BerryByte Limited",104.167.215.0/24
-"BerryByte Limited",104.167.231.0/24
 "BerryByte Limited",128.254.225.0/24
 "BerryByte Limited",166.0.170.0/24
 "BerryByte Limited",205.167.97.0/24
@@ -73645,11 +73720,7 @@ VPNWholesaler.com,104.36.226.0/24
 "Eonix Corporation",104.206.48.0/22
 "Eonix Corporation",104.206.52.0/23
 "Eonix Corporation",104.206.56.0/21
-"Eonix Corporation",104.206.64.0/20
-"Eonix Corporation",104.206.80.0/21
-"Eonix Corporation",104.206.91.0/24
-"Eonix Corporation",104.206.92.0/22
-"Eonix Corporation",104.206.96.0/19
+"Eonix Corporation",104.206.64.0/18
 "Eonix Corporation",104.206.128.0/18
 "Eonix Corporation",104.206.192.0/19
 "Eonix Corporation",104.206.224.0/20
@@ -73950,7 +74021,6 @@ GTHost,2a13:18c2::/32
 "Critical Hosting Solutions LLC",209.142.88.0/22
 "Critical Hosting Solutions LLC",2607:1580::/32
 "Enova International, Inc.",198.134.255.0/24
-"AFLY CLOUD LLC",2602:f824::/48
 Service-now.com,70.34.50.0/24
 Service-now.com,70.34.57.0/24
 Service-now.com,70.34.58.0/24
@@ -74212,9 +74282,7 @@ Service-now.com,70.34.61.0/24
 "Facebook, Inc.",129.134.170.0/23
 "Facebook, Inc.",129.134.172.0/24
 "Facebook, Inc.",129.134.174.0/23
-"Facebook, Inc.",129.134.176.0/22
-"Facebook, Inc.",129.134.180.0/23
-"Facebook, Inc.",129.134.183.0/24
+"Facebook, Inc.",129.134.176.0/21
 "Facebook, Inc.",129.134.184.0/22
 "Facebook, Inc.",129.134.188.0/23
 "Facebook, Inc.",129.134.190.0/24
@@ -74252,8 +74320,7 @@ Service-now.com,70.34.61.0/24
 "Facebook, Inc.",2a03:2887:ff4e::/47
 "Facebook, Inc.",2a03:2887:ff50::/47
 "Facebook, Inc.",2a03:2887:ff53::/48
-"Facebook, Inc.",2a03:2887:ff54::/47
-"Facebook, Inc.",2a03:2887:ff56::/48
+"Facebook, Inc.",2a03:2887:ff54::/46
 "Facebook, Inc.",2a03:2887:ff58::/47
 "Facebook, Inc.",2a03:2887:ff60::/48
 "Facebook, Inc.",2a03:2887:ff62::/47
@@ -74333,6 +74400,7 @@ Gotekky,2602:ff98::/36
 "Velocihost Inc.",2602:ff50:200::/48
 "Velocihost Inc.",2602:ff50:300::/40
 "Velocihost Inc.",2602:ff50:400::/40
+"HostHatch, LLC",31.57.224.0/24
 "HostHatch, LLC",31.187.64.0/24
 "HostHatch, LLC",31.220.4.0/23
 "HostHatch, LLC",31.220.7.0/24
@@ -74916,7 +74984,6 @@ dragonhispeed,103.4.216.0/22
 "BGP Network Limited",202.79.160.0/23
 "BGP Network Limited",202.95.4.0/24
 "BGP Network Limited",202.95.16.0/21
-"BGP Network Limited",202.162.97.0/24
 "BGP Network Limited",202.162.102.0/24
 "BGP Network Limited",202.162.107.0/24
 "BGP Network Limited",202.162.108.0/24
@@ -80447,6 +80514,7 @@ hongmicloud.com,2406:840:f48f::/48
 "Bangmod Cloud Pte. Ltd.",103.78.28.0/23
 "Bangmod Cloud Pte. Ltd.",103.78.30.0/24
 "Bangmod Cloud Pte. Ltd.",103.169.66.0/24
+"ARYAN DUNYA ICT",160.30.234.0/24
 "Zhuhai Xiyun Cloud Technology Co Ltd",2406:840:ed00::/40
 "Zhuhai Xiyun Cloud Technology Co Ltd",2406:840:fece::/48
 "Greenhost BV",103.104.244.0/24
@@ -80749,7 +80817,6 @@ ColoCone,103.174.152.0/23
 "GOLD VPS LIMITED",103.72.56.0/23
 "GOLD VPS LIMITED",2401:33a0::/48
 "HUNGCLOUD COMPANY LIMITED",103.77.182.0/23
-"HUNGCLOUD COMPANY LIMITED",2401:35a0::/48
 "VPSMMO COMPANY LIMITED",103.77.242.0/23
 "VPSMMO COMPANY LIMITED",2401:36e0::/48
 "PT RumahNET Internusa",103.79.244.0/23
@@ -82303,7 +82370,7 @@ Fastmail,202.12.124.0/24
 "Koopjeserver BV",212.52.12.0/24
 "GRUPO HOSTIT SAS",128.254.204.0/24
 "Binero AB",195.200.219.0/24
-"Cloud Hosting Solutions, Limited.",37.46.16.0/23
+"Cloud Hosting Solutions, Limited.",37.46.16.0/22
 "Cloud Hosting Solutions, Limited.",45.132.1.0/24
 "Cloud Hosting Solutions, Limited.",85.28.47.0/24
 "Cloud Hosting Solutions, Limited.",87.120.36.0/24
@@ -85680,7 +85747,6 @@ Labitat,2a01:4262:1ab::/48
 "Hostigger INC.",193.106.188.0/24
 "Hostigger INC.",194.26.108.0/23
 "Hostigger INC.",194.26.114.0/23
-"Host Media DOO",141.11.5.0/24
 "Base IP B.V.",45.38.15.0/24
 "Base IP B.V.",45.38.18.0/24
 "Base IP B.V.",81.171.60.0/24
@@ -86243,6 +86309,10 @@ Tianyu-Zhu,2a0f:85c1:30::/47
 "NetTask GmbH",2a06:edc0::/29
 "Brightcloud Ltd",130.117.122.0/24
 "Brightcloud Ltd",185.118.127.0/24
+"GalaxyStar LLC",103.151.27.0/24
+"GalaxyStar LLC",115.167.3.0/24
+"GalaxyStar LLC",115.167.101.0/24
+"GalaxyStar LLC",115.167.103.0/24
 "GalaxyStar LLC",185.173.176.0/22
 "GalaxyStar LLC",185.230.13.0/24
 "GalaxyStar LLC",194.150.215.0/24
@@ -88434,6 +88504,7 @@ CALFAB,2a14:7581:475::/48
 "AEZA INTERNATIONAL LTD",95.181.173.0/24
 "AEZA INTERNATIONAL LTD",95.181.174.0/23
 "AEZA INTERNATIONAL LTD",103.249.132.0/22
+"AEZA INTERNATIONAL LTD",104.238.29.0/24
 "AEZA INTERNATIONAL LTD",109.107.181.0/24
 "AEZA INTERNATIONAL LTD",109.107.190.0/24
 "AEZA INTERNATIONAL LTD",109.120.132.0/22
@@ -88951,6 +89022,7 @@ CALFAB,2a14:7581:475::/48
 "Alex Group LLC",109.120.159.0/24
 "Alex Group LLC",176.98.185.0/24
 "Alex Group LLC",176.98.186.0/24
+"Alex Group LLC",176.98.188.0/24
 "Alex Group LLC",176.124.192.0/23
 "Alex Group LLC",185.80.91.0/24
 "Alex Group LLC",185.224.212.0/24
@@ -90836,6 +90908,7 @@ CALFAB,2a14:7581:475::/48
 "MTK Global Ltd",212.192.4.0/24
 "VoltHosting Ltd",185.195.238.0/24
 "VoltHosting Ltd",2a14:1ec7:f100::/40
+"Milad Ahadpour",45.11.185.0/24
 "Milad Ahadpour",185.215.229.0/24
 "HOST TELECOM LTD",5.253.56.0/23
 "HOST TELECOM LTD",5.253.58.0/24
@@ -90932,6 +91005,7 @@ CALFAB,2a14:7581:475::/48
 "Matteo Martelloni trading as DELUXHOST",5.181.177.0/24
 "Matteo Martelloni trading as DELUXHOST",31.56.7.0/24
 "Matteo Martelloni trading as DELUXHOST",31.56.26.0/24
+"Matteo Martelloni trading as DELUXHOST",31.57.254.0/24
 "Matteo Martelloni trading as DELUXHOST",31.58.156.0/24
 "Matteo Martelloni trading as DELUXHOST",85.208.9.0/24
 "Matteo Martelloni trading as DELUXHOST",141.11.167.0/24
@@ -95771,7 +95845,7 @@ Packetware,63.141.38.0/24
 "AROSSCLOUD INC.",38.14.216.0/21
 "AROSSCLOUD INC.",38.14.224.0/21
 "AROSSCLOUD INC.",38.14.240.0/20
-"AROSSCLOUD INC.",38.38.248.0/22
+"AROSSCLOUD INC.",38.38.248.0/23
 "AROSSCLOUD INC.",38.55.144.0/21
 "AROSSCLOUD INC.",38.55.160.0/19
 "AROSSCLOUD INC.",38.55.192.0/18
@@ -102245,7 +102319,6 @@ JCWIFI.COM,208.86.160.0/22
 "First Bank of NG PLC",196.11.150.0/23
 "VDT COMMUNICATIONS LIMITED",41.216.160.0/20
 "VDT COMMUNICATIONS LIMITED",102.135.192.0/19
-"VDT COMMUNICATIONS LIMITED",2c0f:6400::/32
 "MyISP Limited",41.217.220.0/22
 "MyISP Limited",196.223.160.0/20
 "MyISP Limited",2c0f:f878::/32
@@ -102426,6 +102499,7 @@ HANATI,121.172.146.0/24
 "Chittagong Online Limited.",163.47.84.0/22
 "Chittagong Online Limited.",202.65.168.0/21
 "Chittagong Online Limited.",203.80.188.0/22
+"Chittagong Online Limited.",2402:2300::/32
 "Infinite Networks PTY LTD",103.243.84.0/22
 "Infinite Networks PTY LTD",119.15.96.0/20
 "Infinite Networks PTY LTD",175.106.4.0/22
@@ -103114,7 +103188,7 @@ PowerSchool,38.98.253.0/24
 "M.A Network Service",103.97.204.0/23
 "Metropolitan Bank and Trust Company",103.248.143.0/24
 "Machhapuchchhre Bank Limited",103.162.242.0/23
-"NEW VISION SATELLITE NETWORK INC.",103.167.252.0/23
+"NEW VISION SATELLITE NETWORK INC.",103.167.253.0/24
 "NEW VISION SATELLITE NETWORK INC.",2001:df2:c340::/48
 "COMPUTER & NETWORK SOLUTIONS LIMITED",103.254.228.0/24
 "C2A Internet.com.au Pty. Ltd.",103.226.53.0/24
@@ -103437,6 +103511,7 @@ MTN.COM,2406:3740::/32
 "FALCON BROADBAND (PRIVATE) LIMITED",122.129.67.0/24
 "FALCON BROADBAND (PRIVATE) LIMITED",122.129.68.0/24
 "FALCON BROADBAND (PRIVATE) LIMITED",160.30.236.0/23
+"Geeky Cloud",103.175.17.0/24
 "CLOUDPATH TELECOM PRIVATE LIMITED",103.182.120.0/23
 "CMTG Hosting",103.177.193.0/24
 Hostonion,103.184.137.0/24
@@ -103823,7 +103898,6 @@ iGaming.com-Limited,151.251.119.0/24
 "SIA Singularity Telecom",194.76.238.0/24
 "SIA Singularity Telecom",194.113.238.0/24
 "SIA Singularity Telecom",194.124.41.0/24
-"SIA Singularity Telecom",194.242.26.0/24
 "SIA Singularity Telecom",195.234.90.0/23
 "SIA Singularity Telecom",212.102.144.0/20
 "SIA Singularity Telecom",213.109.188.0/22
@@ -103942,11 +104016,10 @@ iGaming.com-Limited,151.251.119.0/24
 "AMAZONET TELECOMUNICACOES LTDA",2804:2674:8000::/33
 "CMTECH Com.e Serv.de Informatica Ltda",131.161.248.0/22
 "CMTECH Com.e Serv.de Informatica Ltda",2804:8e64::/32
-"CONECTA AMAZONIA TELECOM LTDA. - ME",38.159.32.0/23
-"CONECTA AMAZONIA TELECOM LTDA. - ME",132.255.168.0/23
+"CONECTA AMAZONIA TELECOM LTDA. - ME",38.159.32.0/22
+"CONECTA AMAZONIA TELECOM LTDA. - ME",132.255.168.0/22
 "CONECTA AMAZONIA TELECOM LTDA. - ME",201.71.221.0/24
-"CONECTA AMAZONIA TELECOM LTDA. - ME",2804:20b4::/33
-"CONECTA AMAZONIA TELECOM LTDA. - ME",2804:20b4:c000::/34
+"CONECTA AMAZONIA TELECOM LTDA. - ME",2804:20b4::/32
 "BANCO GNB PARAGUAY SOCIEDAD ANONIMA EMISORA DE CAPITAL ABIERTO",200.10.141.0/24
 "BANCO GNB PARAGUAY SOCIEDAD ANONIMA EMISORA DE CAPITAL ABIERTO",2801:11:1000::/48
 "TECNOLOGIA Y SISTEMAS WILCASJI SOCIEDAD ANONIMA",168.181.160.0/22
