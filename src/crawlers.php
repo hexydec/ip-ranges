@@ -49,12 +49,6 @@ class crawlers extends generate {
 				'url' => 'http://www.apple.com/go/applebot'
 			],
 			[
-				'name' => 'FacebookBot',
-				'source' => 'https://raw.githubusercontent.com/ipverse/asn-ip/master/as/32934/aggregated.json',
-				'domain' => 'facebook.com',
-				'url' => 'http://www.facebook.com/externalhit_uatext.php'
-			],
-			[
 				'name' => 'OpenAI Search Bot',
 				'source' => 'https://openai.com/searchbot.json',
 				'domain' => 'openai.com',
@@ -156,6 +150,24 @@ class crawlers extends generate {
 		];
 		foreach ($map AS $item) {
 			foreach ($this->getFromText($item['source'], $cache) AS $value) {
+				yield [
+					'name' => $item['name'],
+					'range' => $value,
+					'domain' => $item['domain'],
+					'url' => $item['url'] ?? null
+				];
+			}
+		}
+		$map = [
+			[
+				'name' => 'Meta Crawlers',
+				'source' => 'https://www.facebook.com/peering/geofeed',
+				'domain' => 'meta.com',
+				'url' => 'https://developers.facebook.com/docs/sharing/webmasters/web-crawlers'
+			]
+		];
+		foreach ($map AS $item) {
+			foreach ($this->getFromCsv($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
 					'range' => $value,

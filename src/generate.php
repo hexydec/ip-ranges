@@ -98,6 +98,16 @@ class generate {
 		}
 	}
 
+	protected function getFromCsv(string $file, ?string $cache = null) : \Generator {
+		if (($result = $this->fetch($file, $cache)) !== false) {
+			foreach (\explode("\n", $result) AS $item) {
+				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item)) !== false) {
+					yield $data[0];
+				}
+			}
+		}
+	}
+
 	public function compile(?string $cache = null) : \Generator {
 		yield [];
 	}
