@@ -4,25 +4,6 @@ namespace hexydec\ipaddresses;
 
 class datacentres extends generate {
 
-	// protected function getAzure(?string $cache = null) : \Generator {
-	// 	$url = 'https://www.microsoft.com/en-my/download/details.aspx?id=56519';
-	// 	if (($file = $this->fetch($url, $cache)) !== false) {
-	// 		if (\preg_match('/<a href="([^"]+\\.json)"/i', $file, $match)) {
-	// 			\sleep(3);
-	// 			if (($source = $this->fetch(\htmlspecialchars_decode($match[1]), $cache, true, ['Referer: '.$url])) !== false && ($json = \json_decode($source)) !== null) {
-	// 				foreach ($json->values AS $item) {
-	// 					foreach ($item->properties->addressPrefixes ?? [] AS $item) {
-	// 						yield [
-	// 							'name' => 'Microsoft Azure',
-	// 							'range' => $item
-	// 						];
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// }
-
 	protected function getAzure(string $url, ?string $cache = null) : \Generator {
 		if (($file = $this->fetch($url, $cache)) !== false && ($json = \json_decode($file)) !== null) {
 			foreach ($json->values AS $item) {
@@ -42,36 +23,54 @@ class datacentres extends generate {
 	}
 
 	protected function getAsnIds(string $file, ?string $cache = null) {
-		if (($file = $this->fetch($file, $cache, false)) !== false) {
+		if (($data = $this->fetch($file, $cache)) !== false) {
+			$asns = [];
+			foreach (\explode("\n", \trim($data)) AS $item) {
+				$parts = \explode(' ', $item, 2);
+				if (isset($parts[1])) {
+					$name = \explode(',', $parts[1], 2);
+					$asns[$parts[0]] = [
+						'name' => \trim($name[0]),
+						'country' => isset($name[1]) ? \trim($name[1]) : null
+					];
+				}
+			}
 
+			// see if ASN name matches regex
+			$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|\bOVH\b|siteground|rackspace|namecheap|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b|Data Techno Park|VISANET/i';
+			$found = [];
+			foreach ($asns AS $key => $item) {
+				if (\preg_match($re, $item['name'])) {
+					$found[$key] = $item;
+				}
+			}
+			return \array_keys($found);
 		}
 	}
 
-	protected function getAsns(array $sources, ?string $cache = null) : \Generator {
+	protected function getAsns(array $asns, ?string $cache = null) : \Generator {
 		if (($file = $this->fetch('https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip', $cache, false)) !== false) {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
 			if ($za->open($file, \ZipArchive::RDONLY)) {
-				foreach ($sources AS $source) {
-					foreach ($this->getFromText($source, $cache) AS $item) {
-						if (($content = $za->getFromName('asn-ip-master/as/'.$item.'/aggregated.json')) === false) {
+				foreach ($asns AS $asn) {
+					if (($content = $za->getFromName('asn-ip-master/as/'.$asn.'/aggregated.json')) === false) {
 
-						} elseif (($json = \json_decode($content)) === false) {
-							
-						} else {
-							foreach ($json->subnets->ipv4 ?? [] AS $item) {
-								yield [
-									'name' => $json->description ?? null,
-									'range' => $item
-								];
-							}
-							foreach ($json->subnets->ipv6 ?? [] AS $item) {
-								yield [
-									'name' => $json->description ?? null,
-									'range' => $item
-								];
-							}
+					} elseif (($json = \json_decode($content)) === false) {
+						
+					} else {
+						foreach ($json->subnets->ipv4 ?? [] AS $item) {
+							yield [
+								'name' => $json->description ?? null,
+								'range' => $item
+							];
+						}
+						foreach ($json->subnets->ipv6 ?? [] AS $item) {
+							yield [
+								'name' => $json->description ?? null,
+								'range' => $item
+							];
 						}
 					}
 				}
@@ -103,7 +102,7 @@ class datacentres extends generate {
 			'Micorosft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
 		];
 		foreach ($map AS $key => $item) {
-			foreach ($this->getAzure($item, $cache) AS $item) {
+			foreach ($this->getAzure($item, $cache) AS $value) {
 				yield [
 					'name' => $key,
 					'range' => $value
@@ -133,13 +132,11 @@ class datacentres extends generate {
 			];
 		}
 
-		// ASNs
-		$map = [
-			'https://github.com/Umkus/ip-index/raw/refs/heads/master/data/asns_dcs.csv',
-			'https://github.com/Umkus/ip-index/raw/refs/heads/master/data/asns_dcs_unconfirmed.csv'
-		];
-		foreach ($this->getAsns($map, $cache) AS $item) {
-			yield $item;
+		// Filter ASN ID's
+		if (($asns = $this->getAsnIds('https://ftp.ripe.net/ripe/asnames/asn.txt', $cache)) !== false) {
+			foreach ($this->getAsns($asns, $cache) AS $item) {
+				yield $item;
+			}
 		}
 	}
 }
