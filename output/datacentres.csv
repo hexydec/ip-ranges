@@ -988,6 +988,7 @@
 "Amazon AWS",15.230.15.74/31
 "Amazon AWS",15.230.39.158/31
 "Amazon AWS",15.230.73.128/26
+"Amazon AWS",35.96.7.0/24
 "Amazon AWS",52.93.122.202/32
 "Amazon AWS",52.93.127.18/32
 "Amazon AWS",52.93.127.195/32
@@ -4306,6 +4307,7 @@
 "Amazon AWS",15.230.39.62/31
 "Amazon AWS",15.230.179.0/29
 "Amazon AWS",18.183.0.0/16
+"Amazon AWS",35.96.0.0/24
 "Amazon AWS",46.137.0.0/17
 "Amazon AWS",52.93.60.0/24
 "Amazon AWS",52.93.86.160/32
@@ -62792,7 +62794,6 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",93.114.69.0/24
 "OVH SAS",94.23.0.0/16
 "OVH SAS",95.128.156.0/24
-"OVH SAS",95.131.32.0/24
 "OVH SAS",95.169.162.0/24
 "OVH SAS",95.214.173.0/24
 "OVH SAS",103.5.12.0/22
@@ -66252,10 +66253,8 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",88.80.192.0/19
 "Host Europe GmbH",91.109.2.0/23
 "Host Europe GmbH",91.250.64.0/21
-"Host Europe GmbH",92.42.111.0/24
 "Host Europe GmbH",92.51.170.0/24
 "Host Europe GmbH",92.51.180.0/22
-"Host Europe GmbH",92.204.162.0/24
 "Host Europe GmbH",92.204.171.0/24
 "Host Europe GmbH",92.204.189.0/24
 "Host Europe GmbH",92.204.191.0/24
@@ -73335,7 +73334,6 @@ Arcserve,199.204.172.0/22
 "UNMANAGED LTD",80.94.92.0/23
 "UNMANAGED LTD",80.94.94.0/24
 "UNMANAGED LTD",92.118.39.0/24
-"UNMANAGED LTD",141.140.3.0/24
 "UNMANAGED LTD",154.214.198.0/24
 "UNMANAGED LTD",154.214.205.0/24
 "UNMANAGED LTD",154.214.213.0/24
@@ -75303,7 +75301,6 @@ OneAsiaHost,116.251.216.0/21
 "Zappie Host LLC",168.199.252.0/22
 "Zappie Host LLC",169.239.128.0/22
 "Zappie Host LLC",185.99.132.0/23
-"Zappie Host LLC",185.121.160.0/22
 "Zappie Host LLC",185.121.168.0/24
 "Zappie Host LLC",216.73.159.0/24
 "Zappie Host LLC",216.246.18.0/24
@@ -75336,6 +75333,7 @@ OneAsiaHost,116.251.216.0/21
 "Host4Biz sp. z o.o.",185.151.244.0/22
 "Host4Biz sp. z o.o.",2a07:7c80::/29
 "EDGOO NETWORKS LLC",161.123.216.0/24
+"EDGOO NETWORKS LLC",161.123.241.0/24
 "EDGOO NETWORKS LLC",161.123.246.0/24
 "Ante Mediam LLC",77.88.192.0/21
 "Ante Mediam LLC",185.2.108.0/22
@@ -76833,6 +76831,7 @@ qlhost,156.245.96.0/20
 "PT IndoWebhost Kreasi",103.176.198.0/23
 ColoCone,103.29.180.0/23
 ColoCone,103.174.152.0/23
+ColoCone,103.252.47.0/24
 "Diana Host Ltd",103.169.160.0/23
 "VPSMMO TECHNOLOGY COMPANY LIMITED",103.72.68.0/22
 "VPSMMO TECHNOLOGY COMPANY LIMITED",103.75.72.0/23
@@ -78067,6 +78066,9 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",154.209.240.0/21
 "HostRoyale Technologies Pvt Ltd",154.209.248.0/23
 "HostRoyale Technologies Pvt Ltd",154.209.250.0/24
+"HostRoyale Technologies Pvt Ltd",154.217.179.0/24
+"HostRoyale Technologies Pvt Ltd",154.217.224.0/21
+"HostRoyale Technologies Pvt Ltd",154.217.232.0/23
 "HostRoyale Technologies Pvt Ltd",154.223.137.0/24
 "HostRoyale Technologies Pvt Ltd",154.223.138.0/23
 "HostRoyale Technologies Pvt Ltd",154.223.140.0/22
@@ -78095,6 +78097,7 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",156.235.32.0/20
 "HostRoyale Technologies Pvt Ltd",156.235.64.0/22
 "HostRoyale Technologies Pvt Ltd",156.235.68.0/23
+"HostRoyale Technologies Pvt Ltd",156.237.64.0/19
 "HostRoyale Technologies Pvt Ltd",156.243.159.0/24
 "HostRoyale Technologies Pvt Ltd",156.243.160.0/20
 "HostRoyale Technologies Pvt Ltd",156.243.176.0/21
@@ -78370,10 +78373,9 @@ HOSTPERL,2401:3b20::/32
 "Dade Pardazi Mobinhost Co LTD",87.107.167.0/24
 "Dade Pardazi Mobinhost Co LTD",95.128.194.0/24
 "Dade Pardazi Mobinhost Co LTD",185.53.140.0/24
-"HOSTGW SRL",45.80.148.0/22
+"HOSTGW SRL",45.80.148.0/23
+"HOSTGW SRL",45.80.151.0/24
 "HOSTGW SRL",88.80.144.0/24
-"HOSTGW SRL",185.244.129.0/24
-"HOSTGW SRL",185.244.130.0/23
 "GLOBAL CLOUD NETWORK LLC",37.18.14.0/23
 "GLOBAL CLOUD NETWORK LLC",46.243.232.0/22
 "GLOBAL CLOUD NETWORK LLC",78.159.240.0/21
@@ -79367,6 +79369,11 @@ HOSTPERL,2401:3b20::/32
 "HOSTEUR SAS",91.92.70.0/24
 "HOSTEUR SAS",93.123.20.0/24
 "FEDERICO BOVE trading as HATHOST",193.84.108.0/24
+"FEDERICO BOVE trading as HATHOST",2a06:a005:1f::/48
+"FEDERICO BOVE trading as HATHOST",2a06:a005:a90::/44
+"FEDERICO BOVE trading as HATHOST",2a06:a005:aa0::/44
+"FEDERICO BOVE trading as HATHOST",2a06:a005:ac0::/44
+"FEDERICO BOVE trading as HATHOST",2a10:ba80::/31
 "Simulhost Limited",2602:2b7:69::/48
 "Simulhost Limited",2a0a:6040:b200::/47
 "Simulhost Limited",2a0a:6040:b202::/48
@@ -79737,7 +79744,6 @@ HOSTPERL,2401:3b20::/32
 "Datacamp Limited",75.102.11.0/24
 "Datacamp Limited",75.102.18.0/24
 "Datacamp Limited",75.102.28.0/23
-"Datacamp Limited",75.127.88.0/23
 "Datacamp Limited",77.36.2.0/23
 "Datacamp Limited",77.36.4.0/22
 "Datacamp Limited",77.36.54.0/23
@@ -79949,7 +79955,6 @@ HOSTPERL,2401:3b20::/32
 "Datacamp Limited",96.43.106.0/23
 "Datacamp Limited",96.43.108.0/22
 "Datacamp Limited",96.62.180.0/22
-"Datacamp Limited",96.62.208.0/22
 "Datacamp Limited",96.62.214.0/24
 "Datacamp Limited",96.62.232.0/21
 "Datacamp Limited",98.159.33.0/24
@@ -81167,7 +81172,7 @@ HOSTPERL,2401:3b20::/32
 "Intrahost Solutions Ltd",185.251.3.0/24
 "Intrahost Solutions Ltd",193.32.136.0/23
 "Intrahost Solutions Ltd",193.32.138.0/24
-"Ofek U. Havia",103.245.230.0/23
+"Ofek U. Havia",103.245.230.0/24
 "Ofek U. Havia",2a11:29c0:49::/48
 "Julian Kempf trading as Host-Zentrum",31.56.45.0/24
 "Julian Kempf trading as Host-Zentrum",2a11:29c0:4d::/48
@@ -81406,6 +81411,7 @@ HOSTPERL,2401:3b20::/32
 "Yedinyye Resheniya LLC",45.129.186.0/24
 "Yedinyye Resheniya LLC",185.244.50.0/24
 "Yedinyye Resheniya LLC",185.251.38.0/24
+"Wireless Networks Research Group Limited",2001:678:110::/48
 "Gravhosting Ltd",5.175.248.0/24
 "Gravhosting Ltd",77.90.40.0/24
 "Gravhosting Ltd",193.25.217.0/24
@@ -81884,7 +81890,8 @@ HOSTING.CL,2803:6580::/32
 "Routed Hosting (PTY) LTD",2c0f:f238::/32
 "Optify Systems (Pty) Ltd",164.160.88.0/22
 "Optify Systems (Pty) Ltd",2c0f:f0c8::/32
-"Orange Tunisie",80.15.228.0/22
+"Orange Tunisie",80.15.228.0/23
+"Orange Tunisie",80.15.231.0/24
 "Orange Tunisie",80.15.232.0/23
 "Orange Tunisie",80.15.235.0/24
 "Orange Tunisie",80.15.243.0/24
@@ -82239,6 +82246,7 @@ LayerHost,103.73.156.0/24
 "Tampa Co-Op",2602:2af:100::/48
 "Tampa Co-Op",2605:900:1000::/40
 "Tampa Co-Op",2607:f3f0:2::/48
+"Nexuscore Hosting",108.165.63.0/24
 "Cyclone Servers",23.27.1.0/24
 "Cyclone Servers",23.27.6.0/24
 "Cyclone Servers",207.90.207.0/24
