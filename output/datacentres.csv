@@ -4491,6 +4491,7 @@
 "Amazon AWS",15.168.40.0/25
 "Amazon AWS",15.168.40.128/25
 "Amazon AWS",15.168.96.0/22
+"Amazon AWS",56.155.19.0/24
 "Amazon AWS",13.200.90.0/23
 "Amazon AWS",13.200.92.0/22
 "Amazon AWS",13.201.195.192/26
@@ -4565,6 +4566,7 @@
 "Amazon AWS",16.51.32.0/22
 "Amazon AWS",43.216.52.0/23
 "Amazon AWS",43.216.61.0/24
+"Amazon AWS",43.216.62.0/24
 "Amazon AWS",43.216.63.0/24
 "Amazon AWS",43.216.64.0/24
 "Amazon AWS",43.216.65.0/24
@@ -62424,6 +62426,7 @@ Data-Tech,208.73.96.0/22
 "1GSERVERS, LLC",157.254.221.0/24
 "1GSERVERS, LLC",166.0.105.0/24
 "1GSERVERS, LLC",166.0.168.0/23
+"1GSERVERS, LLC",173.0.98.0/24
 "1GSERVERS, LLC",173.0.106.0/24
 "1GSERVERS, LLC",173.0.109.0/24
 "1GSERVERS, LLC",173.0.110.0/24
@@ -62711,6 +62714,7 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",45.149.63.0/24
 "OVH SAS",45.149.243.0/24
 "OVH SAS",45.150.4.0/24
+"OVH SAS",46.8.97.0/24
 "OVH SAS",46.8.116.0/24
 "OVH SAS",46.8.200.0/23
 "OVH SAS",46.28.236.0/24
@@ -62773,7 +62777,6 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",85.217.144.0/23
 "OVH SAS",86.38.156.0/24
 "OVH SAS",86.110.36.0/24
-"OVH SAS",86.110.46.0/24
 "OVH SAS",86.110.53.0/24
 "OVH SAS",86.110.56.0/24
 "OVH SAS",86.110.58.0/24
@@ -62870,7 +62873,6 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",157.254.155.0/24
 "OVH SAS",158.69.0.0/16
 "OVH SAS",162.19.0.0/16
-"OVH SAS",163.5.22.0/24
 "OVH SAS",163.5.31.0/24
 "OVH SAS",163.5.46.0/24
 "OVH SAS",163.5.62.0/24
@@ -62907,8 +62909,8 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",185.135.188.0/24
 "OVH SAS",185.155.218.0/24
 "OVH SAS",185.157.51.0/24
-"OVH SAS",185.162.176.0/24
 "OVH SAS",185.167.234.0/24
+"OVH SAS",185.210.233.0/24
 "OVH SAS",185.216.126.0/24
 "OVH SAS",185.220.196.0/24
 "OVH SAS",185.223.80.0/24
@@ -63142,7 +63144,7 @@ InfiniaHost.com,2606:ae40::/32
 "Akamai Technologies, Inc.",2.22.32.0/22
 "Akamai Technologies, Inc.",2.22.44.0/22
 "Akamai Technologies, Inc.",2.22.56.0/22
-"Akamai Technologies, Inc.",2.22.64.0/21
+"Akamai Technologies, Inc.",2.22.68.0/22
 "Akamai Technologies, Inc.",2.22.76.0/22
 "Akamai Technologies, Inc.",2.22.80.0/21
 "Akamai Technologies, Inc.",2.22.96.0/20
@@ -66256,10 +66258,8 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",87.230.112.0/21
 "Host Europe GmbH",91.109.2.0/23
 "Host Europe GmbH",91.250.64.0/21
-"Host Europe GmbH",92.42.111.0/24
 "Host Europe GmbH",92.51.170.0/24
 "Host Europe GmbH",92.51.180.0/22
-"Host Europe GmbH",92.204.166.0/24
 "Host Europe GmbH",92.204.171.0/24
 "Host Europe GmbH",92.204.189.0/24
 "Host Europe GmbH",92.204.191.0/24
@@ -66281,7 +66281,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",178.77.112.0/21
 "Host Europe GmbH",185.34.212.0/22
 "Host Europe GmbH",185.85.50.0/23
-"Host Europe GmbH",185.136.158.0/24
+"Host Europe GmbH",185.136.158.0/23
 "Host Europe GmbH",185.136.160.0/24
 "Host Europe GmbH",188.121.32.0/19
 "Host Europe GmbH",217.115.128.0/21
@@ -68056,6 +68056,7 @@ FDCservers.net,83.147.194.0/24
 FDCservers.net,89.213.208.0/24
 FDCservers.net,91.211.89.0/24
 FDCservers.net,92.114.4.0/24
+FDCservers.net,149.18.105.0/24
 FDCservers.net,149.57.52.0/24
 FDCservers.net,168.100.228.0/23
 FDCservers.net,168.100.232.0/23
@@ -72512,9 +72513,7 @@ PowerSchool,38.98.253.0/24
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
 "Host Europe GmbH",2603:5:2200::/40
-"GrootOP Premium Host",204.126.181.0/24
 "GrootOP Premium Host",2a0b:4e07:1800::/38
-"GrootOP Premium Host",2a14:6781:f100::/44
 "Colocation Ltd",2a0f:85c0:400::/48
 "IT CONCEPT SRL",195.178.106.0/24
 "HOST EXPERT LLC",89.223.79.0/24
@@ -74063,7 +74062,8 @@ AHOSTING,207.91.192.0/24
 "Eqservers LLC",199.26.192.0/24
 "Crexendo Business Solutions, Inc.",68.106.64.0/24
 "Crexendo Business Solutions, Inc.",184.178.213.0/24
-"Crexendo Business Solutions, Inc.",207.45.76.0/24
+"Crexendo Business Solutions, Inc.",207.45.76.0/23
+"Crexendo Business Solutions, Inc.",207.45.78.0/24
 "White Sands Hosting",66.11.127.0/24
 "White Sands Hosting",199.193.14.0/23
 "Zultys, Inc.",52.128.36.0/22
@@ -75335,8 +75335,9 @@ OneAsiaHost,116.251.216.0/21
 "InterBS S.R.L. (BAEHOST)",2803:eb80::/32
 "Meta Servers Tecnologia e Telecomunicacaoes Ltda",131.100.224.0/22
 "Meta Servers Tecnologia e Telecomunicacaoes Ltda",2804:1c64::/32
-"ColocationIX GmbH",45.159.212.0/22
 "ColocationIX GmbH",185.54.108.0/22
+"ColocationIX GmbH",2a02:44a0:f::/48
+"ColocationIX GmbH",2a02:44a0:1f::/48
 "ColocationIX GmbH",2a02:44a7:ff01::/48
 "York UK Hosting Ltd",193.203.116.0/23
 "York UK Hosting Ltd",2001:67c:a08::/48
@@ -75386,7 +75387,6 @@ OneAsiaHost,116.251.216.0/21
 "BlueVPS OU",2a12:c740::/47
 "CLOUDEUS SL",45.132.34.0/24
 "CLOUDEUS SL",185.127.129.0/24
-"Datahost SRL",185.212.8.0/24
 "Hostland LTD",185.26.120.0/22
 "Hostland LTD",185.37.62.0/24
 "Hostland LTD",185.221.212.0/22
@@ -75484,6 +75484,7 @@ OneAsiaHost,116.251.216.0/21
 "GLOBALTELEHOST Corp.",158.51.120.0/22
 "GLOBALTELEHOST Corp.",176.126.222.0/24
 "GLOBALTELEHOST Corp.",185.111.188.0/24
+"GLOBALTELEHOST Corp.",186.190.210.0/24
 "GLOBALTELEHOST Corp.",188.212.39.0/24
 "GLOBALTELEHOST Corp.",192.166.226.0/24
 "GLOBALTELEHOST Corp.",193.108.58.0/24
@@ -76555,7 +76556,7 @@ HOSTOMEGA,2001:df4:adc0::/48
 "Host Universal Pty Ltd",115.165.170.0/24
 "Host Universal Pty Ltd",124.150.139.0/24
 "Host Universal Pty Ltd",144.48.36.0/22
-"Host Universal Pty Ltd",157.20.104.0/24
+"Host Universal Pty Ltd",157.20.104.0/23
 "Host Universal Pty Ltd",160.30.138.0/23
 "Host Universal Pty Ltd",163.5.56.0/24
 "Host Universal Pty Ltd",163.5.89.0/24
@@ -76803,6 +76804,7 @@ qlhost,45.204.88.0/22
 qlhost,45.204.92.0/23
 qlhost,45.204.94.0/24
 qlhost,154.86.64.0/19
+qlhost,154.196.112.0/20
 qlhost,154.203.96.0/19
 qlhost,154.206.192.0/19
 qlhost,154.206.224.0/22
@@ -76963,6 +76965,7 @@ HOSTPERL,85.117.243.0/24
 HOSTPERL,87.120.89.0/24
 HOSTPERL,94.156.239.0/24
 HOSTPERL,103.243.170.0/23
+HOSTPERL,185.236.8.0/24
 HOSTPERL,193.37.47.0/24
 HOSTPERL,2401:3b20::/32
 "HOSTLINK (HK) LIMITED",103.91.151.0/24
@@ -77307,6 +77310,7 @@ HOSTPERL,2401:3b20::/32
 "Hosting Ukraine LTD",2a0c:6080::/29
 "Hosting Ukraine LTD",2a0d:1100::/29
 "Hosting Ukraine LTD",2a0d:6500::/29
+"Akamai International B.V.",23.216.135.0/24
 "Akamai International B.V.",170.199.192.0/20
 "Akamai International B.V.",185.123.168.0/22
 "Akamai International B.V.",192.33.24.0/22
@@ -77419,7 +77423,7 @@ HOSTPERL,2401:3b20::/32
 "Dadeh Gostar Sina Shiraz PLC",188.212.96.0/24
 "Dadeh Gostar Sina Shiraz PLC",213.108.240.0/22
 "24x7 Hosting B.V.",194.39.200.0/23
-"24x7 Hosting B.V.",2a0c:f0c2::/31
+"24x7 Hosting B.V.",2a0c:f0c0::/30
 "Kazakov Aleksey Alexandrovich",46.8.61.0/24
 "Titan DataCenters France SAS",46.37.120.0/24
 "Titan DataCenters France SAS",94.143.225.0/24
@@ -78103,8 +78107,7 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",154.217.81.0/24
 "HostRoyale Technologies Pvt Ltd",154.217.96.0/19
 "HostRoyale Technologies Pvt Ltd",154.217.128.0/21
-"HostRoyale Technologies Pvt Ltd",154.217.144.0/22
-"HostRoyale Technologies Pvt Ltd",154.217.152.0/21
+"HostRoyale Technologies Pvt Ltd",154.217.144.0/20
 "HostRoyale Technologies Pvt Ltd",154.217.160.0/20
 "HostRoyale Technologies Pvt Ltd",154.217.179.0/24
 "HostRoyale Technologies Pvt Ltd",154.217.224.0/21
@@ -78873,10 +78876,8 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",89.40.81.0/24
 "HostRoyale Technologies Pvt Ltd",89.40.164.0/23
 "HostRoyale Technologies Pvt Ltd",89.47.43.0/24
-"HostRoyale Technologies Pvt Ltd",89.104.122.0/23
 "HostRoyale Technologies Pvt Ltd",89.223.14.0/23
 "HostRoyale Technologies Pvt Ltd",89.223.18.0/23
-"HostRoyale Technologies Pvt Ltd",89.223.22.0/23
 "HostRoyale Technologies Pvt Ltd",89.249.51.0/24
 "HostRoyale Technologies Pvt Ltd",91.92.22.0/23
 "HostRoyale Technologies Pvt Ltd",91.92.138.0/24
@@ -78934,14 +78935,12 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",104.143.80.0/23
 "HostRoyale Technologies Pvt Ltd",104.200.68.0/22
 "HostRoyale Technologies Pvt Ltd",110.238.192.0/19
-"HostRoyale Technologies Pvt Ltd",110.239.208.0/20
+"HostRoyale Technologies Pvt Ltd",110.239.212.0/22
 "HostRoyale Technologies Pvt Ltd",116.212.188.0/22
 "HostRoyale Technologies Pvt Ltd",119.12.176.0/20
 "HostRoyale Technologies Pvt Ltd",119.12.192.0/20
 "HostRoyale Technologies Pvt Ltd",119.13.192.0/19
-"HostRoyale Technologies Pvt Ltd",121.91.80.0/21
 "HostRoyale Technologies Pvt Ltd",139.5.104.0/22
-"HostRoyale Technologies Pvt Ltd",139.28.120.0/22
 "HostRoyale Technologies Pvt Ltd",150.129.92.0/22
 "HostRoyale Technologies Pvt Ltd",154.73.248.0/23
 "HostRoyale Technologies Pvt Ltd",154.73.250.0/24
@@ -79047,8 +79046,7 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",193.28.202.0/24
 "HostRoyale Technologies Pvt Ltd",193.28.237.0/24
 "HostRoyale Technologies Pvt Ltd",193.31.56.0/22
-"HostRoyale Technologies Pvt Ltd",193.42.56.0/22
-"HostRoyale Technologies Pvt Ltd",193.56.24.0/22
+"HostRoyale Technologies Pvt Ltd",193.56.24.0/23
 "HostRoyale Technologies Pvt Ltd",193.142.103.0/24
 "HostRoyale Technologies Pvt Ltd",193.151.52.0/22
 "HostRoyale Technologies Pvt Ltd",193.200.104.0/23
@@ -79058,7 +79056,6 @@ HOSTPERL,2401:3b20::/32
 "HostRoyale Technologies Pvt Ltd",194.0.133.0/24
 "HostRoyale Technologies Pvt Ltd",194.0.136.0/24
 "HostRoyale Technologies Pvt Ltd",194.31.176.0/22
-"HostRoyale Technologies Pvt Ltd",194.41.120.0/22
 "HostRoyale Technologies Pvt Ltd",194.53.68.0/23
 "HostRoyale Technologies Pvt Ltd",194.53.70.0/24
 "HostRoyale Technologies Pvt Ltd",194.88.143.0/24
@@ -81459,6 +81456,7 @@ HOSTPERL,2401:3b20::/32
 "HosterDaddy Private Limited",203.98.68.0/24
 "HosterDaddy Private Limited",212.232.22.0/24
 "Association By-Hoster",89.213.144.0/24
+"Association HwHost",2a10:4646:450::/44
 "WIKIHOST Limited",45.131.132.0/23
 "WIKIHOST Limited",178.253.52.0/23
 "Michael Vassileiou trading as DATAHOST",31.22.118.0/24
@@ -81964,7 +81962,7 @@ HOSTING.CL,2803:6580::/32
 "Orange Tunisie",80.15.232.0/23
 "Orange Tunisie",80.15.235.0/24
 "Orange Tunisie",80.15.243.0/24
-"Orange Tunisie",80.15.246.0/24
+"Orange Tunisie",80.15.246.0/23
 "Orange Tunisie",80.15.248.0/24
 "Orange Tunisie",80.15.250.0/23
 "Orange Tunisie",80.15.252.0/23
