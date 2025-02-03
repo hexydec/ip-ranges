@@ -62925,7 +62925,6 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",163.5.62.0/24
 "OVH SAS",163.5.149.0/24
 "OVH SAS",163.5.187.0/24
-"OVH SAS",163.5.209.0/24
 "OVH SAS",164.132.0.0/16
 "OVH SAS",164.153.186.0/24
 "OVH SAS",166.1.231.0/24
@@ -62947,6 +62946,7 @@ Data-Tech,208.73.96.0/22
 "OVH SAS",185.19.33.0/24
 "OVH SAS",185.23.237.0/24
 "OVH SAS",185.25.93.0/24
+"OVH SAS",185.30.214.0/23
 "OVH SAS",185.33.26.0/24
 "OVH SAS",185.45.160.0/22
 "OVH SAS",185.68.137.0/24
@@ -66411,6 +66411,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",91.250.64.0/21
 "Host Europe GmbH",92.51.170.0/24
 "Host Europe GmbH",92.51.180.0/22
+"Host Europe GmbH",92.204.166.0/24
 "Host Europe GmbH",92.204.171.0/24
 "Host Europe GmbH",92.204.189.0/24
 "Host Europe GmbH",92.204.191.0/24
@@ -66434,6 +66435,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",185.85.50.0/23
 "Host Europe GmbH",185.136.158.0/24
 "Host Europe GmbH",185.136.160.0/24
+"Host Europe GmbH",185.136.166.0/24
 "Host Europe GmbH",188.121.32.0/19
 "Host Europe GmbH",217.115.128.0/21
 "Host Europe GmbH",217.115.143.0/24
@@ -68212,7 +68214,6 @@ FDCservers.net,89.213.208.0/24
 FDCservers.net,91.211.89.0/24
 FDCservers.net,92.114.4.0/24
 FDCservers.net,149.18.105.0/24
-FDCservers.net,149.57.52.0/24
 FDCservers.net,168.100.228.0/23
 FDCservers.net,168.100.232.0/23
 FDCservers.net,178.22.26.0/24
@@ -68925,6 +68926,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Webzilla B.V.",88.85.64.0/19
 "Webzilla B.V.",91.226.124.0/22
 "Webzilla B.V.",135.84.52.0/22
+"Webzilla B.V.",143.255.156.0/24
 "Webzilla B.V.",185.49.144.0/22
 "Webzilla B.V.",185.186.244.0/24
 "Webzilla B.V.",185.186.246.0/24
@@ -69409,7 +69411,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",2600:1406:fc00::/48
 "Akamai Technologies, Inc.",2600:1407:17::/48
 "Akamai Technologies, Inc.",2600:1407:1b::/48
-"Akamai Technologies, Inc.",2600:1407:1e::/47
+"Akamai Technologies, Inc.",2600:1407:1f::/48
 "Akamai Technologies, Inc.",2600:1407:22::/47
 "Akamai Technologies, Inc.",2600:1407:24::/48
 "Akamai Technologies, Inc.",2600:1407:c00::/48
@@ -69522,7 +69524,9 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",172.224.152.0/22
 "Akamai Technologies, Inc.",172.224.156.0/24
 "Akamai Technologies, Inc.",172.224.158.0/23
-"Akamai Technologies, Inc.",172.224.160.0/21
+"Akamai Technologies, Inc.",172.224.160.0/22
+"Akamai Technologies, Inc.",172.224.164.0/23
+"Akamai Technologies, Inc.",172.224.166.0/24
 "Akamai Technologies, Inc.",172.224.168.0/22
 "Akamai Technologies, Inc.",172.224.172.0/24
 "Akamai Technologies, Inc.",172.224.175.0/24
@@ -69605,7 +69609,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",172.225.174.0/23
 "Akamai Technologies, Inc.",172.225.176.0/24
 "Akamai Technologies, Inc.",172.225.178.0/23
-"Akamai Technologies, Inc.",172.225.181.0/24
+"Akamai Technologies, Inc.",172.225.180.0/23
 "Akamai Technologies, Inc.",172.225.184.0/24
 "Akamai Technologies, Inc.",172.225.186.0/23
 "Akamai Technologies, Inc.",172.225.188.0/22
@@ -70591,6 +70595,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies, Inc.",2a02:26f7:ec04::/48
 "Akamai Technologies, Inc.",2a02:26f7:ec08::/48
 "Akamai Technologies, Inc.",2a02:26f7:ec0c::/48
+"Akamai Technologies, Inc.",2a02:26f7:ec10::/48
 "Akamai Technologies, Inc.",2a02:26f7:ec40::/48
 "Akamai Technologies, Inc.",2a02:26f7:ec44::/48
 "Akamai Technologies, Inc.",2a02:26f7:ec48::/48
@@ -72272,6 +72277,7 @@ PowerSchool,38.98.253.0/24
 "ZAO Web Hosting",217.112.46.0/24
 "ProstoHosting LTD",178.216.168.0/22
 "ProstoHosting LTD",195.189.246.0/23
+"ProstoHosting LTD",2001:678:26c::/48
 "FAST GEO HOSTING S.R.L.",5.180.20.0/23
 "FAST GEO HOSTING S.R.L.",5.180.27.0/24
 "FAST GEO HOSTING S.R.L.",5.180.29.0/24
@@ -73018,9 +73024,19 @@ LayerHost,103.91.106.0/23
 LayerHost,103.92.210.0/23
 LayerHost,123.253.88.0/23
 LayerHost,125.62.84.0/22
+LayerHost,156.236.32.0/24
+LayerHost,156.236.34.0/23
+LayerHost,156.236.36.0/24
 LayerHost,156.236.38.0/24
+LayerHost,156.236.40.0/24
 LayerHost,156.236.42.0/24
-LayerHost,156.236.47.0/24
+LayerHost,156.236.44.0/22
+LayerHost,156.236.48.0/24
+LayerHost,156.236.52.0/24
+LayerHost,156.236.54.0/23
+LayerHost,156.236.56.0/23
+LayerHost,156.236.58.0/24
+LayerHost,156.236.62.0/23
 LayerHost,158.51.78.0/24
 LayerHost,182.255.36.0/23
 LayerHost,192.48.32.0/24
@@ -74536,6 +74552,7 @@ Serverside.com,2607:e0c0:fffe::/47
 "Hostopia Australia Web Pty Ltd",49.156.24.0/21
 "Hostopia Australia Web Pty Ltd",101.0.64.0/18
 "Hostopia Australia Web Pty Ltd",103.12.4.0/22
+"Hostopia Australia Web Pty Ltd",103.20.200.0/24
 "Hostopia Australia Web Pty Ltd",103.80.103.0/24
 "Hostopia Australia Web Pty Ltd",103.141.249.0/24
 "Hostopia Australia Web Pty Ltd",103.208.216.0/22
@@ -74576,13 +74593,6 @@ Serverside.com,2607:e0c0:fffe::/47
 "Zone Networks Pty Ltd",119.252.189.0/24
 "Zone Networks Pty Ltd",119.252.190.0/23
 "Zone Networks Pty Ltd",203.98.81.0/24
-"Everdata Technologies Pvt Ltd",43.231.124.0/22
-"Everdata Technologies Pvt Ltd",103.10.234.0/23
-"Everdata Technologies Pvt Ltd",103.50.212.0/23
-"Everdata Technologies Pvt Ltd",103.118.16.0/23
-"Everdata Technologies Pvt Ltd",103.138.188.0/23
-"Everdata Technologies Pvt Ltd",103.142.174.0/23
-"Everdata Technologies Pvt Ltd",202.0.103.0/24
 "Viet Solutions Services Trading Company Limited",45.122.220.0/22
 "Viet Solutions Services Trading Company Limited",103.27.60.0/22
 "Viet Solutions Services Trading Company Limited",103.92.28.0/22
@@ -75510,6 +75520,7 @@ OneAsiaHost,116.251.216.0/21
 "TIGOVA NETWORK LIMITED",78.135.97.0/24
 "TIGOVA NETWORK LIMITED",78.135.104.0/24
 "TIGOVA NETWORK LIMITED",185.17.114.0/23
+"TIGOVA NETWORK LIMITED",185.17.136.0/24
 "TIGOVA NETWORK LIMITED",185.73.200.0/22
 "TIGOVA NETWORK LIMITED",185.165.77.0/24
 "TIGOVA NETWORK LIMITED",188.132.236.0/24
@@ -75957,6 +75968,7 @@ GTHost,2a13:18c2::/32
 "NOHAVPS LLC",173.46.81.0/24
 "NOHAVPS LLC",198.23.185.0/24
 "NOHAVPS LLC",216.122.166.0/24
+"NOHAVPS LLC",2602:f8ea::/40
 "Hostzors Inc.",162.252.24.0/21
 "Critical Hosting Solutions LLC",192.82.232.0/24
 "Critical Hosting Solutions LLC",209.142.88.0/22
@@ -77089,7 +77101,7 @@ qlhost,45.204.92.0/23
 qlhost,45.204.94.0/24
 qlhost,154.86.64.0/19
 qlhost,154.196.96.0/19
-qlhost,154.203.112.0/20
+qlhost,154.203.96.0/19
 qlhost,154.206.192.0/24
 qlhost,154.212.149.0/24
 qlhost,154.212.150.0/24
@@ -77664,9 +77676,9 @@ HOSTPERL,2401:3b20::/32
 "ALEXHOST SRL",217.156.64.0/23
 "ALEXHOST SRL",2001:678:6d4::/48
 "ALEXHOST SRL",2a00:1728:3e::/47
-"ALEXHOST SRL",2a09:2983::/32
 "ALEXHOST SRL",2a0a:8d80:1::/48
-"ALEXHOST SRL",2a0e:4341::/32
+"ALEXHOST SRL",2a0e:3f46::/32
+"ALEXHOST SRL",2a0e:5902::/32
 "ALEXHOST SRL",2a0f:5f40::/47
 "ALEXHOST SRL",2a0f:5f40:1000::/48
 "ALEXHOST SRL",2a0f:5f45::/32
@@ -78690,7 +78702,6 @@ HOSTPERL,2401:3b20::/32
 "Abelohost BV",185.221.200.0/22
 "Abelohost BV",185.224.80.0/22
 "Abelohost BV",185.235.176.0/22
-"Abelohost BV",185.243.188.0/22
 "Invermae Solutions SL",109.205.60.0/24
 "HostRoyale Technologies Pvt Ltd",45.41.184.0/23
 "HostRoyale Technologies Pvt Ltd",45.41.188.0/22
@@ -79589,6 +79600,7 @@ HOSTPERL,2401:3b20::/32
 "I-SERVERS LTD",2a0a:f580::/32
 "I-SERVERS LTD",2a0b:7780::/29
 "I-SERVERS LTD",2a0b:8040::/29
+"I-SERVERS LTD",2a0b:9005::/32
 "I-SERVERS LTD",2a0c:4185::/32
 "I-SERVERS LTD",2a0c:6980::/29
 "I-SERVERS LTD",2a0d:3041::/32
@@ -80216,6 +80228,7 @@ HOSTPERL,2401:3b20::/32
 "Datacamp Limited",87.121.46.0/24
 "Datacamp Limited",87.249.132.0/22
 "Datacamp Limited",87.249.138.0/23
+"Datacamp Limited",88.218.204.0/24
 "Datacamp Limited",89.19.45.0/24
 "Datacamp Limited",89.19.50.0/24
 "Datacamp Limited",89.31.125.0/24
@@ -81368,6 +81381,7 @@ HOSTPERL,2401:3b20::/32
 "RoyaleHosting BV",146.19.160.0/24
 "RoyaleHosting BV",146.19.162.0/24
 "RoyaleHosting BV",146.19.231.0/24
+"RoyaleHosting BV",170.62.96.0/22
 "RoyaleHosting BV",170.62.101.0/24
 "RoyaleHosting BV",170.62.105.0/24
 "RoyaleHosting BV",170.62.109.0/24
@@ -81398,8 +81412,7 @@ HOSTPERL,2401:3b20::/32
 "RoyaleHosting BV",2a0b:3e00::/29
 "RoyaleHosting BV",2a0b:64c0:1::/48
 "RoyaleHosting BV",2a0b:64c0:2::/47
-"RoyaleHosting BV",2a0b:64c0:5::/48
-"RoyaleHosting BV",2a0b:64c0:6::/47
+"RoyaleHosting BV",2a0b:64c0:4::/46
 "RoyaleHosting BV",2a0b:64c0:8::/48
 "RoyaleHosting BV",2a0b:64c0:a::/47
 "RoyaleHosting BV",2a0b:64c0:e::/47
@@ -81489,8 +81502,12 @@ HOSTPERL,2401:3b20::/32
 "Host.AL Shpk",203.30.219.0/24
 "Host.AL Shpk",2001:67c:fd0::/48
 "Imad Nabil Daher trading as ID Performance",109.176.202.0/24
+"Jack Davies",202.50.53.0/24
+"Jack Davies",2a0a:6044:6c00::/40
+"Jack Davies",2a0f:85c1:b45::/48
+"Jack Davies",2a0f:b244:400::/39
+"Jack Davies",2a0f:b244:2000::/36
 "Varesh Cloud Hosting Limited Liability Company",2a14:ec00::/48
-"HOSTEG HOSPEDAGEM E SERVIDORES LTDA",82.153.35.0/24
 "HOSTEG HOSPEDAGEM E SERVIDORES LTDA",102.216.82.0/24
 "HOSTEG HOSPEDAGEM E SERVIDORES LTDA",136.175.225.0/24
 "HOSTEG HOSPEDAGEM E SERVIDORES LTDA",181.214.95.0/24
@@ -81547,6 +81564,7 @@ HOSTPERL,2401:3b20::/32
 "Nitrode Corporation trading as ChartVPS Technologies",184.174.45.0/24
 "Nitrode Corporation trading as ChartVPS Technologies",184.174.49.0/24
 "Nitrode Corporation trading as ChartVPS Technologies",216.107.131.0/24
+"ITITAN HOSTING SOLUTIONS SRL",82.23.183.0/24
 "ITITAN HOSTING SOLUTIONS SRL",91.200.220.0/24
 "EXO TECHNOLOGIES spol. s r.o.",185.184.30.0/23
 "EXO TECHNOLOGIES spol. s r.o.",2a10:ac82::/31
@@ -81743,6 +81761,7 @@ HOSTPERL,2401:3b20::/32
 "Alessandro Accorsi trading as Len Service SRL",45.89.99.0/24
 "Alessandro Accorsi trading as Len Service SRL",45.95.67.0/24
 "Alessandro Accorsi trading as Len Service SRL",45.131.135.0/24
+"Alessandro Accorsi trading as Len Service SRL",87.229.82.0/24
 "Alessandro Accorsi trading as Len Service SRL",91.227.114.0/24
 "Alessandro Accorsi trading as Len Service SRL",140.233.176.0/24
 "Alessandro Accorsi trading as Len Service SRL",2a0f:9400:6146::/48
@@ -81923,7 +81942,7 @@ HOSTPERL,2401:3b20::/32
 "Taymaz Gostaran Naghshe Almas Co. ( Ltd )",185.235.196.0/23
 "Taymaz Gostaran Naghshe Almas Co. ( Ltd )",185.239.3.0/24
 "Taymaz Gostaran Naghshe Almas Co. ( Ltd )",194.1.155.0/24
-"Taymaz Gostaran Naghshe Almas Co. ( Ltd )",2a14:4f80::/29
+"Taymaz Gostaran Naghshe Almas Co. ( Ltd )",2a14:4f85::/38
 "SERVERS TECH FZCO",5.35.32.0/23
 "SERVERS TECH FZCO",5.35.34.0/24
 "SERVERS TECH FZCO",5.35.36.0/22
@@ -82609,6 +82628,7 @@ Hostodo,2606:65c0:40::/48
 "Ysleta Independent School District",198.137.205.0/24
 "Ysleta Independent School District",216.171.95.0/24
 "Madcityservers LLC",69.166.231.0/24
+"Madcityservers LLC",157.254.224.0/24
 "Madcityservers LLC",172.99.249.0/24
 "Madcityservers LLC",2602:fed2:7086::/48
 "Madcityservers LLC",2602:fed2:7e85::/48
