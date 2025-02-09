@@ -37,7 +37,7 @@ class datacentres extends generate {
 			}
 
 			// see if ASN name matches regex
-			$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|\bOVH\b|siteground|rackspace|namecheap|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b|Data Techno Park|VISANET/i';
+			$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|PacketHub|M247|31173 Services|Blix Solutions AS|Keminet|Private Layer|xtom|Zenlayer|QuadraNet|UK-2 Limited|Squarespace|\bOVH\b|siteground|rackspace|namecheap|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b|Data Techno Park|VISANET/i';
 			$found = [];
 			foreach ($asns AS $key => $item) {
 				if (\preg_match($re, $item['name'])) {
