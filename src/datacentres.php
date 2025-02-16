@@ -22,44 +22,42 @@ class datacentres extends generate {
 		}
 	}
 
-	protected function getAsnIds(string $file, ?string $cache = null) {
-		if (($data = $this->fetch($file, $cache)) !== false) {
-			$asns = [];
-			foreach (\explode("\n", \trim($data)) AS $item) {
-				$parts = \explode(' ', $item, 2);
-				if (isset($parts[1])) {
-					$name = \explode(',', $parts[1], 2);
-					$asns[$parts[0]] = [
-						'name' => \trim($name[0]),
-						'country' => isset($name[1]) ? \trim($name[1]) : null
-					];
-				}
-			}
+	protected function asnMatches(string $name) {
 
-			// see if ASN name matches regex
-			$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|DIGITALOCEAN-ASN|PacketHub|M247|31173 Services|Blix Solutions AS|Keminet|Private Layer|xtom|Zenlayer|QuadraNet|UK-2 Limited|Squarespace|\bOVH\b|siteground|rackspace|namecheap|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b|Data Techno Park|VISANET|Aeza|Virtual Systems|Latitude|Equinix|Baxet|Yandex\.Cloud|LLC VK|Smart Ape|RECONN|Adman|StormWall|DDOS-GUARD|IQWeb FZ-LLC|JSC IOT|NForce|EuroByte|firstcolo|dataforest|Voxility|Atman|WorldStream|Psychz|WebSupport|STARK INDUSTRIES SOLUTIONS|(Lease|Time|Liquid)(?! )Web|aurologic|G-Core|Salesforce|MEVSPACE|QWARTA|Selectel|Kaspersky|Domain names registrar|Tucows|Beget|Fastly|Alibaba|netcup/i';
-			$found = [];
-			foreach ($asns AS $key => $item) {
-				if (\preg_match($re, $item['name'])) {
-					$found[$key] = $item;
-				}
+		// string matches
+		$matches = [
+			'GoDaddy', 'IONOS', 'Hetzner', 'DigitalOcean', 'PacketHub', '31173 Services', 'Blix Solutions AS', 'Keminet', 'Private Layer', 'xtom', 'Zenlayer', 'QuadraNet', 'UK-2 Limited', 'Squarespace', 'siteground', 'rackspace', 'namecheap', 'dedipower', 'pulsant', 'MediaTemple', 'valice', 'GANDI.NET', 'PAIR-NETWORKS', 'webzilla', 'softlayer', 'Joyent', 'APPTOCLOUD', 'www.mvps.net', 'ServInt', 'Incapsula', 'Red Hat', 'Vertisoft', 'Secured Network Services', 'Akamai', 'IT Outsourcing LLC', 'fly.io', 'NetPlanet', 'ArcServe', 'Data Techno Park', 'VISANET', 'Virtual Systems', 'Latitude', 'LLC VK', 'Smart Ape', 'RECONN', 'Adman', 'StormWall', 'DDOS-GUARD', 'IQWeb FZ-LLC', 'JSC IOT', 'NForce', 'EuroByte', 'firstcolo', 'dataforest', 'Voxility', 'Atman', 'WorldStream', 'Psychz', 'WebSupport', 'STARK INDUSTRIES SOLUTIONS', 'aurologic', 'Salesforce', 'MEVSPACE', 'QWARTA', 'Selectel', 'Kaspersky', 'Domain names registrar', 'Tucows', 'Beget', 'Fastly', 'Alibaba', 'netcup'
+		];
+		foreach ($matches AS $item) {
+			if (\mb_stripos($name, $item) !== false) {
+				return true;
 			}
-			return \array_keys($found);
 		}
+
+		// see if ASN name matches regex
+		$re = '/\bcolo(?!m|rado|n|mbo|r|proctology|ur)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(?!works-as-ap)(ing|ed)?(?! hotel)|Servers(?!orgung)|\bOVH\b|\bVPS|VPS\b|datacenter|\bCDN(?!bt)|^Network Solutions|^render$|^20i\b|(Lease|Time|Liquid)(?! )Web|\bG-Core|^aeza\b/i';
+		if (\preg_match($re, $name)) {
+			return true;
+		}
+		return false;
 	}
 
-	protected function getAsns(array $asns, ?string $cache = null) : \Generator {
+	protected function getAsns(?string $cache = null) : \Generator {
 		if (($file = $this->fetch('https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip', $cache, false)) !== false) {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
 			if ($za->open($file, \ZipArchive::RDONLY)) {
-				foreach ($asns AS $asn) {
-					if (($content = $za->getFromName('asn-ip-master/as/'.$asn.'/aggregated.json')) === false) {
+				$count = $za->numFiles;
+				for ($i = 0; $i < $count; $i++) {
+					$filename = $za->getNameIndex($i);
+					if (!\str_ends_with($filename, '/aggregated.json')) {
+
+					} elseif (($content = $za->getFromIndex($i)) === false) {
 
 					} elseif (($json = \json_decode($content)) === false) {
-						
-					} else {
+
+					} elseif (!empty($json->description) && $this->asnMatches($json->description)) {
 						foreach ($json->subnets->ipv4 ?? [] AS $item) {
 							yield [
 								'name' => $json->description ?? null,
@@ -99,7 +97,7 @@ class datacentres extends generate {
 			'Microsoft Azure Public' => 'https://azureipranges.azurewebsites.net/Data/Public.json',
 			'Microsoft Azure Government' => 'https://azureipranges.azurewebsites.net/Data/AzureGovernment.json',
 			'Microsoft Azure Germany' => 'https://azureipranges.azurewebsites.net/Data/AzureGermany.json',
-			'Micorosft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
+			'Microsoft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
 		];
 		foreach ($map AS $key => $item) {
 			foreach ($this->getAzure($item, $cache) AS $value) {
@@ -125,18 +123,16 @@ class datacentres extends generate {
 		}
 
 		// linode
-		foreach ($this->getLinode() AS $item) {
+		foreach ($this->getLinode($cache) AS $item) {
 			yield [
 				'name' => 'Linode',
 				'range' => $value
 			];
 		}
 
-		// Filter ASN ID's
-		if (($asns = $this->getAsnIds('https://ftp.ripe.net/ripe/asnames/asn.txt', $cache)) !== false) {
-			foreach ($this->getAsns($asns, $cache) AS $item) {
-				yield $item;
-			}
+		// get ranges from matching ASN's
+		foreach ($this->getAsns($cache) AS $item) {
+			yield $item;
 		}
 	}
 }
