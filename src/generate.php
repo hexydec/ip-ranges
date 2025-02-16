@@ -69,7 +69,7 @@ class generate {
 	}
 
 	protected function getFromJson(string $file, ?string $cache = null) : \Generator {
-		if (($result = $this->fetch($file, $cache)) !== false && ($json = \json_decode($result)) !== false) {
+		if (($result = $this->fetch($file, $cache)) !== false && ($json = \json_decode($result)) !== null) {
 			foreach ($json->prefixes ?? [] AS $item) {
 				yield $item->ipv4Prefix ?? $item->ipv6Prefix ?? $item->ip_prefix;
 			}
