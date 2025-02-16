@@ -8,7 +8,16 @@ require __DIR__.'/src/autoload.php';
 $cache = \in_array('--cache', $argv ?? []) ? __DIR__.'/cache/' : null;
 
 // create object and generate output
-$files = [__DIR__.'/output/datacentres.csv', __DIR__.'/output/datacentres.txt', __DIR__.'/output/datacentres.json'];
+$files = [
+	__DIR__.'/output/datacentres.csv',
+	__DIR__.'/output/datacentres.txt',
+	__DIR__.'/output/datacentres.json',
+	__DIR__.'/output/datacentres-ipv4.csv',
+	__DIR__.'/output/datacentres-ipv4.txt',
+	__DIR__.'/output/datacentres-ipv4.json',
+	__DIR__.'/output/datacentres-ipv6.csv',
+	__DIR__.'/output/datacentres-ipv6.txt',
+	__DIR__.'/output/datacentres-ipv6.json'];
 $obj = new datacentres();
 if (($count = $obj->save($files, $cache)) !== false) {
 	echo 'Saved '.$count.' Datacentre IP Ranges'."\n";

@@ -100,7 +100,7 @@ class generate {
 
 	protected function getFromCsv(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
-			foreach (\explode("\n", $result) AS $item) {
+			foreach (\explode("\n", \trim($result)) AS $item) {
 				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item)) !== false) {
 					yield $data[0];
 				}
@@ -123,7 +123,7 @@ class generate {
 			}
 			if (($handle = \fopen($file, 'w')) !== false) {
 				$ext = \mb_strrchr($file, '.');
-				$handles[$ext] = $handle;
+				$handles[$file] = $handle;
 				if ($ext === '.json' && \fwrite($handle, "[\n") === false) {
 					return false;
 				}
@@ -133,18 +133,28 @@ class generate {
 		}
 
 		// compile IP ranges
+		$include = function (string $file, string $range) : bool {
+			if (\str_contains($file, '-ipv4')) {
+				return !\str_contains($range, ':');
+			} elseif (\str_contains($file, '-ipv6')) {
+				return \str_contains($range, ':');
+			}
+			return true;
+		};
 		$i = 0;
 		$ranges = [];
 		foreach ($this->compile($cache) AS $item) {
 			if (!\in_array($item['range'], $ranges, true)) {
 				$ranges[] = $item['range'];
-				foreach ($handles AS $ext => $handle) {
-					if ($ext === '.csv' && \fputcsv($handle, $item) === false) {
-						return false;
-					} elseif ($ext === '.txt' && \fwrite($handle, $item['range']."\n") === false) {
-						return false;
-					} elseif ($ext === '.json' && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
-						return false;
+				foreach ($handles AS $file => $handle) {
+					if ($include($file, $item['range'])) {
+						if (\str_ends_with($file, '.csv') && \fputcsv($handle, $item) === false) {
+							return false;
+						} elseif (\str_ends_with($file, '.txt') && \fwrite($handle, $item['range']."\n") === false) {
+							return false;
+						} elseif (\str_ends_with($file, '.json') && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
+							return false;
+						}
 					}
 				}
 				$i++;
