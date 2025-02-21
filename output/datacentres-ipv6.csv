@@ -14243,6 +14243,7 @@ MegaHostZone,2001:df1:b900::/48
 "Leaseweb Japan K.K.",2401:d560::/32
 "HostRoyale Technologies Pvt Ltd",2402:bd80::/30
 "HostRoyale Technologies Pvt Ltd",2a13:c44::/30
+"HostUS Solutions LLC",2402:e380:303::/48
 "PI DATA CENTERS PRIVATE LIMITED",2400:b120::/32
 "PI DATA CENTERS PRIVATE LIMITED",2407:b240::/32
 "Thailand Government Data Center and Cloud service (TGDCC)",2001:c38:90a0::/44
@@ -14493,13 +14494,9 @@ HOSTOMEGA,2001:df4:adc0::/48
 "Edgecast Inc.",2606:2800:4a8a::/48
 "Edgecast Inc.",2606:2800:4a8c::/48
 "Edgecast Inc.",2606:2800:4a94::/47
-"Edgecast Inc.",2606:2800:4a96::/48
 "Edgecast Inc.",2606:2800:4ad4::/47
-"Edgecast Inc.",2606:2800:4ad6::/48
 "Edgecast Inc.",2606:2800:4adc::/47
-"Edgecast Inc.",2606:2800:4ade::/48
 "Edgecast Inc.",2606:2800:4ae4::/48
-"Edgecast Inc.",2606:2800:4ae6::/48
 "Edgecast Inc.",2606:2800:4af4::/47
 "Edgecast Inc.",2606:2800:504c::/48
 "Edgecast Inc.",2606:2800:50a4::/47
@@ -14823,9 +14820,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:2::/48
 "Incapsula Inc",2a02:e982:5::/48
 "Incapsula Inc",2a02:e982:6::/47
-"Incapsula Inc",2a02:e982:8::/46
-"Incapsula Inc",2a02:e982:d::/48
-"Incapsula Inc",2a02:e982:e::/47
+"Incapsula Inc",2a02:e982:8::/45
 "Incapsula Inc",2a02:e982:10::/45
 "Incapsula Inc",2a02:e982:18::/46
 "Incapsula Inc",2a02:e982:1c::/47
@@ -15463,11 +15458,12 @@ StabiliServers,2605:e480:11::/48
 "Lowhosting services of Davide Gennari",2a0e:b107:dd0::/44
 "DD webhosting B.V.",2a0c:a180::/29
 "Akamai International B.V.",2a02:2370:1000::/48
+"Marcel Neufeld trading as Hostishere",2a11:29c0:23::/48
 "UA-Hosting SIA",2a0f:ea81::/32
 "Hetzner Online GmbH",2a01:4ff::/40
 "FLAME HOST BRASIL LTDA",2a0c:b641:280::/44
 "INTERNATIONAL HOSTING SOLUTIONS LLP",2a11:9c00::/40
-"OakHost OU",2a10:b140::/29
+"OakHost OU",2a10:b140:1::/48
 "Akamai International B.V.",2600:1401:1::/48
 "Akamai International B.V.",2600:1401:2::/48
 "Akamai International B.V.",2600:1403:a::/48
@@ -15622,7 +15618,6 @@ StabiliServers,2605:e480:11::/48
 "Iron Hosting Centre LTD",2a09:c140:feed::/48
 "Aeza Group LLC",2a01:e5c0::/35
 "Aeza Group LLC",2a0f:cdc6:2020::/44
-"Hyperhost Solutions Limited",2a0e:fd45:2d70::/48
 "New Hosting Technologies LLC",2a00:f9a0::/32
 "New Hosting Technologies LLC",2a12:b3c0:1::/48
 "Civilized Hosting LLC",2602:f974::/36
@@ -15661,6 +15656,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
+"Zenlayer Inc",2602:ffe4:c3c::/48
 "Zenlayer Inc",2602:ffe4:c3e::/48
 "Zenlayer Inc",2602:ffe4:c40::/47
 "Zenlayer Inc",2602:ffe4:c42::/48
@@ -16117,6 +16113,7 @@ FDCservers.net,2001:49f0:d0d0::/47
 FDCservers.net,2001:49f0:d0d2::/48
 FDCservers.net,2001:49f0:d0d9::/48
 FDCservers.net,2001:49f0:d0da::/47
+FDCservers.net,2001:49f0:d0dc::/48
 FDCservers.net,2001:49f0:d0df::/48
 FDCservers.net,2001:49f0:d0e1::/48
 FDCservers.net,2001:49f0:d0e2::/48
@@ -16741,10 +16738,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:b240::/42
 "Akamai Technologies, Inc.",2a02:26f7:b280::/44
 "Akamai Technologies, Inc.",2a02:26f7:b290::/46
-"Akamai Technologies, Inc.",2a02:26f7:b340::/43
-"Akamai Technologies, Inc.",2a02:26f7:b360::/45
-"Akamai Technologies, Inc.",2a02:26f7:b36c::/46
-"Akamai Technologies, Inc.",2a02:26f7:b370::/44
+"Akamai Technologies, Inc.",2a02:26f7:b340::/42
 "Akamai Technologies, Inc.",2a02:26f7:b380::/47
 "Akamai Technologies, Inc.",2a02:26f7:b382::/48
 "Akamai Technologies, Inc.",2a02:26f7:b384::/47
@@ -16792,7 +16786,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:b702::/48
 "Akamai Technologies, Inc.",2a02:26f7:b708::/48
 "Akamai Technologies, Inc.",2a02:26f7:b740::/48
-"Akamai Technologies, Inc.",2a02:26f7:b744::/48
+"Akamai Technologies, Inc.",2a02:26f7:b744::/47
 "Akamai Technologies, Inc.",2a02:26f7:b746::/48
 "Akamai Technologies, Inc.",2a02:26f7:b748::/48
 "Akamai Technologies, Inc.",2a02:26f7:b74c::/48
@@ -16959,7 +16953,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:c308::/48
 "Akamai Technologies, Inc.",2a02:26f7:c30c::/48
 "Akamai Technologies, Inc.",2a02:26f7:c344::/47
-"Akamai Technologies, Inc.",2a02:26f7:c348::/48
+"Akamai Technologies, Inc.",2a02:26f7:c348::/47
 "Akamai Technologies, Inc.",2a02:26f7:c34a::/48
 "Akamai Technologies, Inc.",2a02:26f7:c34c::/47
 "Akamai Technologies, Inc.",2a02:26f7:c350::/46
@@ -16968,7 +16962,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:c358::/48
 "Akamai Technologies, Inc.",2a02:26f7:c35c::/47
 "Akamai Technologies, Inc.",2a02:26f7:c384::/48
-"Akamai Technologies, Inc.",2a02:26f7:c388::/48
+"Akamai Technologies, Inc.",2a02:26f7:c388::/47
 "Akamai Technologies, Inc.",2a02:26f7:c38a::/48
 "Akamai Technologies, Inc.",2a02:26f7:c38c::/48
 "Akamai Technologies, Inc.",2a02:26f7:c391::/48
@@ -17646,7 +17640,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:f304::/48
 "Akamai Technologies, Inc.",2a02:26f7:f308::/48
 "Akamai Technologies, Inc.",2a02:26f7:f340::/48
-"Akamai Technologies, Inc.",2a02:26f7:f348::/48
+"Akamai Technologies, Inc.",2a02:26f7:f348::/47
 "Akamai Technologies, Inc.",2a02:26f7:f34a::/48
 "Akamai Technologies, Inc.",2a02:26f7:f34c::/48
 "Akamai Technologies, Inc.",2a02:26f7:f380::/48
@@ -18170,6 +18164,7 @@ HostPapa,2606:bd00::/32
 HostPapa,2620:b:e000::/48
 "Supreme Servers",2606:fe80:20::/44
 "Snakecraft Hosting",2602:f964:2::/48
+"TECH SERVE HOSTING LLC",2602:f932::/40
 "Colocataires Inc.",2602:f72c::/36
 "Web Host Most, LLC",2602:f72d::/37
 "Turnkey Internet Inc.",2604:7c00::/32
@@ -18697,6 +18692,8 @@ Steadfast,2607:f128::/48
 "Steven Smith trading as HyberHost",2602:f865:f0::/47
 "ActiveHost RU LLC",2a01:9160::/48
 "Oy Crea Nova Hosting Solution Ltd",2a0c:f040::/48
+"Oy Crea Nova Hosting Solution Ltd",2a0c:f040:a665::/48
+"Oy Crea Nova Hosting Solution Ltd",2a0c:f040:b665::/48
 "Oy Crea Nova Hosting Solution Ltd",2a10:9681::/32
 "The Center of Dedicated Servers LLC",2a0b:e980::/29
 "CSL Data Centre Services Limited",2a00:8de7::/32
@@ -19093,6 +19090,7 @@ Steadfast,2607:f128::/48
 "Fastly, Inc.",2a04:4e40:b400::/48
 "Fastly, Inc.",2a04:4e40:b410::/44
 "Fastly, Inc.",2a04:4e40:b440::/44
+"Fastly, Inc.",2a04:4e40:b4f0::/48
 "Fastly, Inc.",2a04:4e40:b600::/48
 "Fastly, Inc.",2a04:4e40:b630::/44
 "Fastly, Inc.",2a04:4e40:b640::/44
@@ -19375,6 +19373,8 @@ Serversaurus,2401:38c0::/32
 "HZ Hosting Ltd",2a01:8640:11::/48
 "HZ Hosting Ltd",2a01:8640:12::/47
 "HZ Hosting Ltd",2a01:8640:14::/47
+"HZ Hosting Ltd",2a01:8640:17::/48
+"HZ Hosting Ltd",2a01:8640:18::/48
 "HZ Hosting Ltd",2a01:8640:1a::/47
 "HZ Hosting Ltd",2a01:8640:1c::/47
 "Safe Hosts Internet LLP",2a05:2a00::/29
@@ -19537,7 +19537,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V.",2a0f:e200::/48
 "LeaseWeb Netherlands B.V.",2a0f:e200:33::/48
 "LeaseWeb Netherlands B.V.",2a0f:e202:11::/48
-"LeaseWeb Netherlands B.V.",2a0f:e600::/29
 "LeaseWeb Netherlands B.V.",2a0f:e6c1::/32
 "LeaseWeb Netherlands B.V.",2a0f:e6c2:10::/48
 "LeaseWeb Netherlands B.V.",2a0f:e6c6:33::/48
@@ -19627,6 +19626,7 @@ Serversaurus,2401:38c0::/32
 "HZ Hosting Ltd",2a01:8640:1::/48
 "HZ Hosting Ltd",2a01:8640:7::/48
 "HZ Hosting Ltd",2a01:8640:16::/48
+"HZ Hosting Ltd",2a01:8640:20::/47
 "Interhost Communication Solutions Ltd.",2a01:8640:c::/48
 "Interhost Communication Solutions Ltd.",2a03:f80:972::/48
 "Interhost Communication Solutions Ltd.",2a03:ff40::/32
@@ -19834,6 +19834,7 @@ GTHost,2a13:18c2::/32
 "Leaseweb USA, Inc.",2607:f5b5::/47
 "Leaseweb USA, Inc.",2a0f:1e84::/32
 HostUS,2402:9e80::/47
+HostUS,2402:e380:33c::/48
 HostUS,2403:5680::/48
 HostUS,2602:ffc5::/48
 HostUS,2602:ffc5:10::/44
