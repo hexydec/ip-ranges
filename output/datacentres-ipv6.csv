@@ -14387,7 +14387,6 @@ HOSTOMEGA,2001:df4:adc0::/48
 "Edgecast Inc.",2606:2800:4046::/48
 "Edgecast Inc.",2606:2800:404c::/48
 "Edgecast Inc.",2606:2800:404e::/48
-"Edgecast Inc.",2606:2800:4050::/48
 "Edgecast Inc.",2606:2800:4203::/48
 "Edgecast Inc.",2606:2800:420c::/48
 "Edgecast Inc.",2606:2800:420e::/47
@@ -14419,10 +14418,12 @@ HOSTOMEGA,2001:df4:adc0::/48
 "ADVANCED KNOWLEDGE NETWORKS",2604:8600:8000::/36
 "Hosting Solution Ltd.",2606:5e00::/36
 "Hosting Solution Ltd.",2606:5e00:f000::/36
+"Hosting Solution Ltd.",2a04:6e40::/29
 "Hosting Solution Ltd.",2a07:4dc0::/29
 "Hosting Solution Ltd.",2a07:b400::/29
 "Hosting Solution Ltd.",2a0b:2000::/29
 "Hosting Solution Ltd.",2a0d:6800::/29
+"Hosting Solution Ltd.",2a0f:9e00::/29
 "PacketHub S.A.",2407:e8c0::/44
 "PacketHub S.A.",2407:e8c0:11::/48
 "PacketHub S.A.",2407:e8c0:4a00::/40
@@ -14517,7 +14518,6 @@ HOSTPERL,2401:3b20::/32
 "OneAsia Data Center (BKK1) Company Limited",2401:5460::/32
 "DAUN PENH DATA CENTER CO., LTD.",2001:df3:54c0::/48
 "Shopvps Technology Company Limited",2001:df4:7d40::/48
-"VPS4U TECHNOLOGY COMPANY LIMITED",2001:df4:b3c0::/48
 "Tucows.com Co.",2604:4000::/48
 "Rackspace Ltd.",2a00:1a48::/32
 "Fasthosts Internet Limited",2607:f1c0:fe::/47
@@ -15268,6 +15268,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",2a01:488::/32
 "Hosteur SA",2a07:5c80::/29
 "YOLO COLO AS",2a0f:b6c0::/29
+"SERV.HOST GROUP LTD",2a01:ecc0:2c1::/48
 "SERV.HOST GROUP LTD",2a01:ecc0:3c0::/42
 "SERV.HOST GROUP LTD",2a01:ecc0:400::/42
 "SERV.HOST GROUP LTD",2a01:ecc0:480::/41
@@ -15447,6 +15448,7 @@ StabiliServers,2605:e480:11::/48
 "RoyaleHosting BV",2a0b:64c0:1a::/48
 "RoyaleHosting BV",2a0b:64c0:f800::/46
 "RoyaleHosting BV",2a0b:64c0:f804::/48
+"RoyaleHosting BV",2a0b:64c0:f806::/48
 "RoyaleHosting BV",2a0b:ac00::/29
 "RoyaleHosting BV",2a0b:b480::/29
 "RoyaleHosting BV",2a13:b840::/29
@@ -15619,8 +15621,6 @@ StabiliServers,2605:e480:11::/48
 "Hyperhost Solutions Limited",2a0e:fd45:2d70::/48
 "New Hosting Technologies LLC",2a00:f9a0::/32
 "New Hosting Technologies LLC",2a12:b3c0:1::/48
-"Civilized Hosting LLC",2602:f974::/36
-"Civilized Hosting LLC",2602:fa1c:120::/48
 "UAB Cherry Servers",2a02:ae00:1000::/36
 "Colocation America Corporation",2602:fed3:b::/48
 "Colocation America Corporation",2602:fed3:11::/48
@@ -15992,6 +15992,7 @@ MOJOHOST,2607:ffb8::/32
 "HIVELOCITY, Inc.",2602:ff16:8::/47
 "HIVELOCITY, Inc.",2602:ff16:10::/46
 "HIVELOCITY, Inc.",2602:ff16:14::/47
+"HIVELOCITY, Inc.",2602:ff16:16::/48
 "HIVELOCITY, Inc.",2602:ffd1:4::/48
 "HIVELOCITY, Inc.",2602:fff6:4::/48
 "HIVELOCITY, Inc.",2602:fff6:f::/48
@@ -18359,6 +18360,7 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
 "Host Europe GmbH",2603:5:2200::/40
+"GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:400::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c40::/29
 "STARK INDUSTRIES SOLUTIONS LTD",2a0b:cf40::/31
@@ -18453,6 +18455,7 @@ HostPapa,2620:b:e000::/48
 "Servers Australia Pty. Ltd",2405:1000::/32
 "Servers Australia Pty. Ltd",2406:c500:fff3::/48
 "Servers Australia Pty. Ltd",2a0f:11c0::/29
+"GPLHost LLC",2404:bf40:8580::/46
 "Tonaquint Data Center, Inc.",2605:bc00::/32
 "The Constant Company, LLC",2001:19f0:a08::/48
 "The Constant Company, LLC",2a05:f480:10::/48
@@ -18730,6 +18733,7 @@ Steadfast,2607:f128::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:730c::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:730f::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7311::/48
+"Free Range Cloud Hosting Inc.",2602:fed2:7319::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:731a::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:731e::/48
 "Free Range Cloud Hosting Inc.",2602:fed2:7700::/47
@@ -18951,6 +18955,7 @@ Steadfast,2607:f128::/48
 "Fastly, Inc.",2a04:4e40:6640::/44
 "Fastly, Inc.",2a04:4e40:66f0::/47
 "Fastly, Inc.",2a04:4e40:6800::/48
+"Fastly, Inc.",2a04:4e40:6810::/48
 "Fastly, Inc.",2a04:4e40:6820::/48
 "Fastly, Inc.",2a04:4e40:6830::/48
 "Fastly, Inc.",2a04:4e40:6840::/48
