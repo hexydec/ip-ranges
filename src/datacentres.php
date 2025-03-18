@@ -32,7 +32,7 @@ class datacentres extends generate {
 		}
 	}
 
-	protected function asnMatches(string $name) {
+	protected function asnMatches(string $name, int $asn) {
 
 		// string matches
 		$matches = [
@@ -49,6 +49,15 @@ class datacentres extends generate {
 		if (\preg_match($re, $name)) {
 			return true;
 		}
+
+		// ASN matches
+
+		$asnList = [13193 => 'Nerim', 15422 => 'AMEN SAS', 197422 => 'TETANEUTRAL.NET', 197922 => 'Techcrea Solutions SAS', 199422 => 'NEXEREN', 201133 => 'PROXGROUP', 201364 => 'Scalair', 203476 => 'ONLYSERVICES', 203646 => 'MyCloud SA (FrenchNodes)', 204818 => 'HOSTEUR SAS', 20766 => 'GIGAHOSTING FR (PlusServer)', 21409 => 'Ikoula Net SAS', 24803 => 'NFRANCE (NFrance Conseil)', 29169 => 'GANDI SAS', 30781 => 'Free Pro SAS', 31216 => 'BSO Network Solutions', 35177 => 'FULLSAVE', 34572 => 'SYSTONIC', 35661 => 'VIRTUA SYSTEMS SAS', 41115 => 'ADISTA', 43940 => 'ALWAYS DATA', 49434 => 'ALTINEA', 49455 => 'IONIS', 50409 => 'SwissCenter / ITS Services', 50474 => 'o2switch', 62000 => 'SERVERD SAS', 62044 => 'PLANETHOSTER', 62119 => 'root SAS', 12876 => 'SCALEWAY S.A.S.'];
+
+		if (isset($asnList[$asn])) {
+			return true;
+		}
+
 		return false;
 	}
 
@@ -67,7 +76,7 @@ class datacentres extends generate {
 
 					} elseif (($json = \json_decode($content)) === false) {
 
-					} elseif (!empty($json->description) && $this->asnMatches($json->description)) {
+					} elseif (!empty($json->description) && $this->asnMatches($json->description, $json->asn)) {
 						foreach ($json->subnets->ipv4 ?? [] AS $item) {
 							yield [
 								'name' => $json->description ?? null,
