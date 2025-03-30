@@ -13932,7 +13932,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-03-28 10:00:05.334466"
+Linode,"# Last modified: 2025-03-29 10:00:07.290686"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15429,6 +15429,7 @@ StabiliServers,2605:e480:11::/48
 "RoyaleHosting BV",2a0b:64c0:a::/47
 "RoyaleHosting BV",2a0b:64c0:e::/47
 "RoyaleHosting BV",2a0b:64c0:10::/46
+"RoyaleHosting BV",2a0b:64c0:15::/48
 "RoyaleHosting BV",2a0b:64c0:17::/48
 "RoyaleHosting BV",2a0b:64c0:18::/48
 "RoyaleHosting BV",2a0b:64c0:1a::/48
@@ -15558,7 +15559,6 @@ StabiliServers,2605:e480:11::/48
 "ColocaTel Inc.",2a0f:ca83:1337::/48
 "ColocaTel Inc.",2a0f:ca84::/40
 "ColocaTel Inc.",2a0f:ca86::/40
-"SATISFYHOST LTD",2a14:7581:fe9::/48
 "ELGAE HOSPEDAGEM E DATACENTER LTDA",2a0c:b641:1b0::/44
 "Monkey Tree Hosting Limited",2a0a:a500::/32
 "Monkey Tree Hosting Limited",2a0a:a506::/32
@@ -17955,7 +17955,6 @@ Zenlayer,2407:62c0::/32
 HOSTKEY,2604:5940::/32
 HOSTKEY,2a0f:3940::/29
 HOSTKEY,2a0f:39c0::/29
-"Skylink Hosting LLC",2602:f6b7::/40
 "Leaseweb USA, Inc.",2607:f5b4::/32
 "Leaseweb USA, Inc.",2a0f:e1c5::/32
 "Leaseweb USA, Inc.",2a13:c040::/29
@@ -18124,7 +18123,7 @@ Hostodo,2606:65c0:40::/48
 "Hosting Bot, LLC",2602:fb94:5::/48
 "Hosting Bot, LLC",2602:fb94:6::/47
 "Hosting Bot, LLC",2602:fb94:8::/48
-"Hosting Bot, LLC",2602:fb94:12::/48
+"Hosting Bot, LLC",2602:fb94:12::/47
 "Hosting Bot, LLC",2602:fb94:a1::/48
 "Hosting Bot, LLC",2602:fb94:aa::/48
 "Hosting Bot, LLC",2602:fb94:bb::/48
@@ -18216,7 +18215,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",2602:ff96:1fe::/48
 "Psychz Networks",2602:ffb0:11::/48
 "Psychz Networks",2602:ffb0:ffe::/48
-"Psychz Networks",2602:ffb0:cafe::/48
 "Psychz Networks",2604:980:1::/48
 "Psychz Networks",2604:6600::/32
 "Psychz Networks",2606:cc0:10::/47
@@ -18405,6 +18403,7 @@ HostPapa,2620:b:e000::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:2f80::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3081::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3082::/31
+"STARK INDUSTRIES SOLUTIONS LTD",2a14:3084::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3880::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3883:1::/48
 "SkyLink Data Center BV",2001:df3:3980::/48
@@ -19626,7 +19625,8 @@ Serversaurus,2401:38c0::/32
 "Hivelocity LLC",2c0f:f738:2000::/35
 "iServerHost LTD",2a05:c441::/32
 "InterBS S.R.L. (BAEHOST)",2800:c00:2::/48
-"InterBS S.R.L. (BAEHOST)",2803:eb80::/32
+"InterBS S.R.L. (BAEHOST)",2803:eb80::/33
+"InterBS S.R.L. (BAEHOST)",2803:eb80:c000::/34
 "ELEA DATA CENTERS",2804:8ae0::/32
 "ColocationIX GmbH",2a02:44a0:f::/48
 "ColocationIX GmbH",2a02:44a0:1f::/48
