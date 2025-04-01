@@ -22,45 +22,53 @@ class datacentres extends generate {
 		}
 	}
 
-	protected function getAsnIds(string $file, ?string $cache = null) : array|false {
-		if (($data = $this->fetch($file, $cache)) !== false) {
-			$asns = [];
-			foreach (\explode("\n", \trim($data)) AS $item) {
-				$parts = \explode(' ', $item, 2);
-				if (isset($parts[1])) {
-					$name = \explode(',', $parts[1], 2);
-					$asns[$parts[0]] = [
-						'name' => \trim($name[0]),
-						'country' => isset($name[1]) ? \trim($name[1]) : null
-					];
+	protected function getOracle(?string $cache = null) : \Generator {
+		if (($result = $this->fetch('https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json', $cache)) !== false && ($json = \json_decode($result)) !== null) {
+			foreach ($json->regions ?? [] AS $region) {
+				foreach ($region->cidrs AS $item) {
+					yield $item->cidr;
 				}
 			}
+		}
+	}
 
-			// see if ASN name matches regex
-			$re = '/\bcolo(?!mbia|rado|n|mbo|r|proctology)|(?<!\bg)host(ing|ed)?\b(?! hotel)|\bhost(ing|ed)?(?! hotel)|Servers(?!orgung)|GoDaddy|IONOS|Hetzner|LiquidWeb|DIGITALOCEAN-ASN|Squarespace|\bOVH\b|siteground|rackspace|namecheap|dedipower|pulsant|MediaTemple|valice|GANDI.NET|PAIR-NETWORKS|webzilla|softlayer|Joyent|APPTOCLOUD|www\.mvps\.net|\bVPS|VPS\b|datacenter|ServInt|Incapsula|\bCDN(?!bt)|Red Hat|Vertisoft|Secured Network Services|Akamai|^Network Solutions|IT Outsourcing LLC|fly\.io|NetPlanet|ArcServe|^render$|^20i\b|Data Techno Park|VISANET/i';
-			$found = [];
-			foreach ($asns AS $key => $item) {
-				if (\preg_match($re, $item['name'])) {
-					$found[$key] = $item;
-				}
+	protected function asnMatches(string $name) : bool {
+
+		// string matches
+		$matches = [
+			'GoDaddy', 'IONOS', 'Hetzner', 'DigitalOcean', 'PacketHub', '31173 Services', 'Blix Solutions AS', 'Keminet', 'Private Layer', 'xtom', 'Zenlayer', 'QuadraNet', 'UK-2 Limited', 'Squarespace', 'siteground', 'rackspace', 'namecheap', 'dedipower', 'pulsant', 'MediaTemple', 'valice', 'GANDI', 'PAIR-NETWORKS', 'webzilla', 'softlayer', 'Joyent', 'APPTOCLOUD', 'www.mvps.net', 'ServInt', 'Incapsula', 'Red Hat', 'Vertisoft', 'Secured Network Services', 'Akamai', 'IT Outsourcing LLC', 'fly.io', 'NetPlanet', 'ArcServe', 'Data Techno Park', 'VISANET', 'Virtual Systems', 'Latitude', 'LLC VK', 'Smart Ape', 'RECONN', 'Adman', 'StormWall', 'DDOS-GUARD', 'IQWeb FZ-LLC', 'JSC IOT', 'NForce', 'EuroByte', 'firstcolo', 'dataforest', 'Voxility', 'Atman', 'WorldStream', 'Psychz', 'WebSupport', 'STARK INDUSTRIES SOLUTIONS', 'aurologic', 'Salesforce', 'MEVSPACE', 'QWARTA', 'Selectel', 'Kaspersky', 'Domain names registrar', 'Tucows', 'Beget', 'Fastly', 'Alibaba', 'netcup', 'edgeuno', 'equinix', 'lumen technologies', 'unitas global', 'The Constant Company', 'atlantic.net', 'crocweb', 'small orange', 'hivelocity', 'thehostingsolution', 'NearlyFreeSpeech.NET', 'joink', 'webline services', 'ipower', 'Onehostplanet', 'register.com', 'enom solutions', 'GHOSTnet', 'WebHosts R Us', 'PlanetHoster', 'GLOBALHOSTINGSOLUTIONS', 'ALLHOSTSHOP.COM', 'Xhostserver', 'ROCKHOSTER', 'QuickHostUK', 'EUROHOSTER', 'MKBWebhoster', 'Webhosting24', 'VMhosts', 'QHOSTER', 'webhoster.de', 'BtHoster', 'ASPhostBG', 'Fasthosts', 'SnTHostings', 'MegaHostZone', 'turnkey internet inc', 'GmhostGrupp', 'LightEdge Solutions', 'Digital Edge Korea', 'Robustedge Software And Digital Networks Pvt. Ltd', 'Edge Centres', 'Edge Speed', 'Edgenext', 'data edge', 'Edgecast', 'ADVANCED KNOWLEDGE NETWORKS', 'Block Edge Technologies', 'Edgevana', 'EDGE CLOUD (SG) PTE', 'NEURALEDGE TECHNOLOGIES', 'DIGITAL EDGE VENTURES', 'GreenEdge B.V', 'SBA Edge', 'Redge Technologies', 'EDGEAM', 'EdgeCenter', 'Transparent Edge Services', 'TECHHEDGE LABS ANS', 'EdgeIX', 'Newedge Facilities Management', ' 4EDGE TECNOLOGIA', 'LoadEdge', 'EdgeConneX', 'Defend Edge', 'EDGENAT CLOUD', 'BrightEdge Technologies', 'RamNode', 'LeaseWeb', 'zscaler', 'Atlantic Metro', 'BIT BV', 'BSO Network Solutions', 'Contabo', 'DEFT.COM', 'Duocast', 'Eonix', 'ALTINEA', 'Flexential', 'GigeNET', 'Ikoula', 'Interserver', 'Keyweb', 'Nexeon', 'NovoServe', 'o2switch', 'odn', 'plus.line', 'ReliableSite.Net', 'SCALEWAY', 'Serverius', 'Sharktech', 'SysEleven', 'UKDedicated', 'VIRTUA SYSTEMS', 'Vautron Rechenzentrum', 'We Dare', 'WebNX', 'WholeSale Internet', 'dogado', 'i3D.net', 'root SAS', 'velia.net', 'webgo', 'Performive', 'TierPoint', 'wiit'
+		];
+		foreach ($matches AS $item) {
+			if (\mb_stripos($name, $item) !== false) {
+				return true;
 			}
-			return \array_keys($found);
+		}
+
+		// see if ASN name matches regex
+		$re = '/\bcolo(?!m|rado|n|mbo|r|proctology|ur)|(?<!\b[g-])host(ing|ed)?\b(?! hotel| call centre)|\bhost(?!works-as-ap)(ing|ed|s)?(?! hotel)|Servers(?!orgung)|\bOVH\b|\bVPS|VPS\b|data ?cent(?:er|re)s?|\bCDN(?!bt)|CDN\b|^Network Solutions|^render$|^20i\b|(Lease|Time|Liquid)(?! )Web|\bG-Core|^aeza|^steadfast$/i';
+		if (\preg_match($re, $name)) {
+			return true;
 		}
 		return false;
 	}
 
-	protected function getAsns(array $asns, ?string $cache = null) : \Generator {
+	protected function getAsns(?string $cache = null) : \Generator {
 		if (($file = $this->fetch('https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip', $cache, false)) !== false) {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
 			if ($za->open($file, \ZipArchive::RDONLY)) {
-				foreach ($asns AS $asn) {
-					if (($content = $za->getFromName('asn-ip-master/as/'.$asn.'/aggregated.json')) === false) {
+				$count = $za->numFiles;
+				$asns = [];
+				for ($i = 0; $i < $count; $i++) {
+					$filename = $za->getNameIndex($i);
+					if (!\str_ends_with($filename, '/aggregated.json')) {
+
+					} elseif (($content = $za->getFromIndex($i)) === false) {
 
 					} elseif (($json = \json_decode($content)) === false) {
-						
-					} else {
+
+					} elseif (!empty($json->description) && $this->asnMatches($json->description)) {
 						foreach ($json->subnets->ipv4 ?? [] AS $item) {
 							yield [
 								'name' => $json->description ?? null,
@@ -73,6 +81,8 @@ class datacentres extends generate {
 								'range' => $item
 							];
 						}
+					} elseif (isset($this->asns[$json->asn])) {
+						$asns[$json->asn] = $json->description;
 					}
 				}
 			}
@@ -100,7 +110,7 @@ class datacentres extends generate {
 			'Microsoft Azure Public' => 'https://azureipranges.azurewebsites.net/Data/Public.json',
 			'Microsoft Azure Government' => 'https://azureipranges.azurewebsites.net/Data/AzureGovernment.json',
 			'Microsoft Azure Germany' => 'https://azureipranges.azurewebsites.net/Data/AzureGermany.json',
-			'Micorosft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
+			'Microsoft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
 		];
 		foreach ($map AS $key => $item) {
 			foreach ($this->getAzure($item, $cache) AS $value) {
@@ -126,18 +136,32 @@ class datacentres extends generate {
 		}
 
 		// linode
-		foreach ($this->getLinode() AS $item) {
+		foreach ($this->getLinode($cache) AS $item) {
 			yield [
 				'name' => 'Linode',
-				'range' => $value
+				'range' => $item
 			];
 		}
 
-		// Filter ASN ID's
-		if (($asns = $this->getAsnIds('https://ftp.ripe.net/ripe/asnames/asn.txt', $cache)) !== false) {
-			foreach ($this->getAsns($asns, $cache) AS $item) {
-				yield $item;
-			}
+		// oracle
+		foreach ($this->getOracle($cache) AS $item) {
+			yield [
+				'name' => 'Oracle',
+				'range' => $item
+			];
+		}
+
+		// IBM
+		foreach ($this->getFromHtml('https://cloud.ibm.com/docs/security-groups?topic=security-groups-ibm-cloud-ip-ranges', $cache) AS $item) {
+			yield [
+				'name' => 'IBM',
+				'range' => $item
+			];
+		}
+
+		// get ranges from matching ASN's
+		foreach ($this->getAsns($cache) AS $item) {
+			yield $item;
 		}
 	}
 }
