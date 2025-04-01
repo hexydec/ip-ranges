@@ -101,7 +101,7 @@ class generate {
 	protected function getFromCsv(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
 			foreach (\explode("\n", $result) AS $item) {
-				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item)) !== false) {
+				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item, ',', '"', '\\')) !== false) {
 					yield $data[0];
 				}
 			}
@@ -139,7 +139,7 @@ class generate {
 			if (!\in_array($item['range'], $ranges, true)) {
 				$ranges[] = $item['range'];
 				foreach ($handles AS $ext => $handle) {
-					if ($ext === '.csv' && \fputcsv($handle, $item) === false) {
+					if ($ext === '.csv' && \fputcsv($handle, $item, ',', '"', '\\') === false) {
 						return false;
 					} elseif ($ext === '.txt' && \fwrite($handle, $item['range']."\n") === false) {
 						return false;

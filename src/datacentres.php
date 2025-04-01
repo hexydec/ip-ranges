@@ -22,7 +22,7 @@ class datacentres extends generate {
 		}
 	}
 
-	protected function getAsnIds(string $file, ?string $cache = null) {
+	protected function getAsnIds(string $file, ?string $cache = null) : array|false {
 		if (($data = $this->fetch($file, $cache)) !== false) {
 			$asns = [];
 			foreach (\explode("\n", \trim($data)) AS $item) {
@@ -46,6 +46,7 @@ class datacentres extends generate {
 			}
 			return \array_keys($found);
 		}
+		return false;
 	}
 
 	protected function getAsns(array $asns, ?string $cache = null) : \Generator {
