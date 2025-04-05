@@ -14410,7 +14410,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-04-03 10:00:05.123106"
+Linode,"# Last modified: 2025-04-04 10:00:05.728908"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14729,7 +14729,6 @@ Linode,2600:3c0f:50::/48
 "UK-2 Limited",2a13:9500:3::/48
 "UK-2 Limited",2a13:9500:24::/46
 "UK-2 Limited",2a13:9500:28::/48
-"UK-2 Limited",2a13:9500:34::/47
 "Data Centre Services",2403:8700::/32
 MegaHostZone,2001:df1:b900::/48
 "NxtGen Datacenter & Cloud Technologies Pvt. Ltd.",2404:7e80:1000::/36
@@ -14829,7 +14828,7 @@ HOSTOMEGA,2001:df4:adc0::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:3::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:4::/46
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:8::/48
-"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a::/47
+"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:d::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:10::/47
@@ -15011,6 +15010,7 @@ HOSTOMEGA,2001:df4:adc0::/48
 "Edgecast Inc.",2606:2800:4a8c::/48
 "Edgecast Inc.",2606:2800:4a94::/47
 "Edgecast Inc.",2606:2800:4ad4::/47
+"Edgecast Inc.",2606:2800:4adc::/47
 "Edgecast Inc.",2606:2800:504c::/48
 "Edgecast Inc.",2606:2800:50a7::/48
 "Edgecast Inc.",2606:2800:50a8::/47
@@ -15707,6 +15707,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2602:fed2:731c::/48
 "The Constant Company, LLC",2602:ffc5:108::/48
 "The Constant Company, LLC",2602:ffc5:200::/48
+"The Constant Company, LLC",2606:f180:5::/48
 "The Constant Company, LLC",2607:7180::/32
 "The Constant Company, LLC",2620:53:a000::/44
 "The Constant Company, LLC",2620:a8:4000::/48
@@ -16062,6 +16063,7 @@ StabiliServers,2605:e480:11::/48
 "Hetzner Online GmbH",2a01:4ff::/40
 "FLAME HOST BRASIL LTDA",2a0c:b641:280::/44
 "INTERNATIONAL HOSTING SOLUTIONS LLP",2a11:9c00::/40
+"OakHost OU",2a10:b140:1::/48
 "Akamai International B.V.",2600:1401:1::/48
 "Akamai International B.V.",2600:1401:2::/48
 "Akamai International B.V.",2600:1403:a::/48
@@ -16321,7 +16323,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -16423,6 +16425,7 @@ DEFT.COM,2620:7d::/48
 "Hetzner Online GmbH",2a12:1fc0::/42
 "NETPLANET GmbH",2001:1ad0::/32
 "NETPLANET GmbH",2a00:5320::/32
+"NETPLANET GmbH",2a0b:c200::/29
 "NETPLANET GmbH",2a0d:f9c3::/32
 "WIIT AG",2001:4ba0::/31
 "WIIT AG",2001:4ba3::/32
@@ -16702,6 +16705,7 @@ MOJOHOST,2607:ffb8::/32
 "HIVELOCITY, Inc.",2604:4500:c00::/39
 "HIVELOCITY, Inc.",2604:4500:e00::/40
 "HIVELOCITY, Inc.",2604:4500:1600::/40
+"HIVELOCITY, Inc.",2604:4500:1800::/40
 "HIVELOCITY, Inc.",2604:7c00:100::/40
 "HIVELOCITY, Inc.",2604:8380::/35
 "HIVELOCITY, Inc.",2604:8380:2400::/38
@@ -16713,6 +16717,8 @@ MOJOHOST,2607:ffb8::/32
 "HIVELOCITY, Inc.",2604:8380:3400::/39
 "HIVELOCITY, Inc.",2604:8380:3600::/40
 "HIVELOCITY, Inc.",2604:dc40::/48
+"HIVELOCITY, Inc.",2605:e240:fff2::/47
+"HIVELOCITY, Inc.",2605:e240:fff4::/46
 "HIVELOCITY, Inc.",2605:e240:fff8::/46
 "HIVELOCITY, Inc.",2605:e240:fffd::/48
 "HIVELOCITY, Inc.",2605:e240:fffe::/48
@@ -17209,8 +17215,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2600:1400:2000::/48
 "Akamai Technologies, Inc.",2600:1401:7::/48
 "Akamai Technologies, Inc.",2600:1402:15::/48
-"Akamai Technologies, Inc.",2600:1402:1a::/47
-"Akamai Technologies, Inc.",2600:1402:1c::/48
 "Akamai Technologies, Inc.",2600:1402:4000::/48
 "Akamai Technologies, Inc.",2600:1403:5c00::/48
 "Akamai Technologies, Inc.",2600:1403:6400::/48
@@ -18785,9 +18789,7 @@ LayerHost,2406:2580::/32
 "VPS House Technology Group LLC",2602:fcd5:4::/46
 "VPS House Technology Group LLC",2602:fcd5:a::/47
 "VPS House Technology Group LLC",2602:fcd5:c::/46
-"VPS House Technology Group LLC",2602:fcd5:10::/45
-"VPS House Technology Group LLC",2602:fcd5:1a::/47
-"VPS House Technology Group LLC",2602:fcd5:1c::/46
+"VPS House Technology Group LLC",2602:fcd5:10::/44
 "VPS House Technology Group LLC",2602:fcd5:20::/44
 "VPS House Technology Group LLC",2602:fcd5:30::/45
 "VPS House Technology Group LLC",2602:fcd5:38::/46
@@ -18819,14 +18821,14 @@ Hostodo,2606:65c0:40::/48
 "Hosting Bot, LLC",2602:fb94:6::/47
 "Hosting Bot, LLC",2602:fb94:8::/48
 "Hosting Bot, LLC",2602:fb94:12::/47
+"Hosting Bot, LLC",2602:fb94:14::/48
 "Hosting Bot, LLC",2602:fb94:a1::/48
 "Hosting Bot, LLC",2602:fb94:aa::/48
 "Hosting Bot, LLC",2602:fb94:bb::/48
 "Hosting Bot, LLC",2602:fb94:bc::/48
 "Hexium Hosting, LLC",2602:f948:39::/48
 "Hexium Hosting, LLC",2602:f948:40::/48
-BreezeHost,2602:fa62::/39
-BreezeHost,2602:fa62:200::/40
+BreezeHost,2602:fa62::/38
 "H5 Data Centers",2605:3ac0:c000::/36
 "H5 Data Centers",2605:3ac0:6000::/36
 "Cyclone Servers",2602:fed2:7082::/48
@@ -18899,6 +18901,7 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",2406:4f40:10::/45
 "Psychz Networks",2406:b2c0::/32
 "Psychz Networks",2602:2c5:1::/48
+"Psychz Networks",2602:f992:fa::/48
 "Psychz Networks",2602:fb0f::/40
 "Psychz Networks",2602:fd92:efe::/48
 "Psychz Networks",2602:fea6::/36
@@ -19689,7 +19692,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:3400::/48
 "Fastly, Inc.",2a04:4e40:3600::/48
 "Fastly, Inc.",2a04:4e40:3610::/48
-"Fastly, Inc.",2a04:4e40:3630::/44
 "Fastly, Inc.",2a04:4e40:3640::/44
 "Fastly, Inc.",2a04:4e40:3650::/48
 "Fastly, Inc.",2a04:4e40:36f0::/48
@@ -19704,7 +19706,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:3af0::/48
 "Fastly, Inc.",2a04:4e40:3c00::/48
 "Fastly, Inc.",2a04:4e40:3c10::/44
-"Fastly, Inc.",2a04:4e40:3c20::/43
+"Fastly, Inc.",2a04:4e40:3c20::/44
 "Fastly, Inc.",2a04:4e40:3c40::/44
 "Fastly, Inc.",2a04:4e40:3cf0::/48
 "Fastly, Inc.",2a04:4e40:4000::/48
@@ -19744,7 +19746,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:58f0::/48
 "Fastly, Inc.",2a04:4e40:5a00::/48
 "Fastly, Inc.",2a04:4e40:5a20::/48
-"Fastly, Inc.",2a04:4e40:5a30::/44
 "Fastly, Inc.",2a04:4e40:5a40::/44
 "Fastly, Inc.",2a04:4e40:5af0::/48
 "Fastly, Inc.",2a04:4e40:5e00::/48
@@ -20156,8 +20157,6 @@ Serversaurus,2401:38c0::/32
 "HOSTPALACE DATACENTERS LTD",2a04:f780::/32
 "HOSTPALACE DATACENTERS LTD",2a04:f781::/40
 "Host Sailor Ltd",2a03:660::/32
-"Host Sailor Ltd",2a04:dd00::/31
-"Host Sailor Ltd",2a04:dd02::/32
 "Host Sailor Ltd",2a05:9340::/31
 "Host Sailor Ltd",2a05:9342::/32
 "Host Sailor Ltd",2a06:3d80::/29
