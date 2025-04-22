@@ -26,7 +26,17 @@ if (($count = $obj->save($files, $cache)) !== false) {
 }
 
 // create object and generate output
-$files = [__DIR__.'/output/crawlers.csv', __DIR__.'/output/crawlers.txt', __DIR__.'/output/crawlers.json'];
+$files = [
+	__DIR__.'/output/crawlers.csv',
+	__DIR__.'/output/crawlers.txt',
+	__DIR__.'/output/crawlers.json',
+	__DIR__.'/output/crawlers-ipv4.csv',
+	__DIR__.'/output/crawlers-ipv4.txt',
+	__DIR__.'/output/crawlers-ipv4.json',
+	__DIR__.'/output/crawlers-ipv6.csv',
+	__DIR__.'/output/crawlers-ipv6.txt',
+	__DIR__.'/output/crawlers-ipv6.json'
+];
 $obj = new crawlers();
 if (($count = $obj->save($files, $cache)) !== false) {
 	exit('Saved '.$count.' Crawler IP Ranges');
