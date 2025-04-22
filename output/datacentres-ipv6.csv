@@ -14416,7 +14416,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-04-20 10:00:04.209546"
+Linode,"# Last modified: 2025-04-21 10:00:04.557258"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15117,6 +15117,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:2c00::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:3400::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:3800::/40
+"Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:4400::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:5000::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:6000::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:7000::/40
@@ -15589,8 +15590,7 @@ EGIHosting,2a11:bd40::/29
 "Kaspersky Lab Switzerland GmbH",2a03:2480:802a::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:802d::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:802e::/47
-"Kaspersky Lab Switzerland GmbH",2a03:2480:8030::/46
-"Kaspersky Lab Switzerland GmbH",2a03:2480:8036::/47
+"Kaspersky Lab Switzerland GmbH",2a03:2480:8030::/45
 "Global Servers LTD",2606:f180:11::/48
 "DNHOST IKE",2a02:4901::/32
 "Association LibraHost",2a0e:b107:12d::/48
@@ -15756,6 +15756,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2602:fb1b::/48
 "The Constant Company, LLC",2602:fed2:7100::/48
 "The Constant Company, LLC",2602:fed2:710e::/48
+"The Constant Company, LLC",2602:fed2:7123::/48
 "The Constant Company, LLC",2602:fed2:712c::/48
 "The Constant Company, LLC",2602:fed2:719c::/48
 "The Constant Company, LLC",2602:fed2:719e::/48
@@ -16389,7 +16390,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -18672,6 +18673,7 @@ Steadfast,2607:f128::/32
 HostPapa,2602:f692:1::/48
 HostPapa,2602:f692:2::/48
 HostPapa,2605:6f01::/32
+HostPapa,2605:6f02::/32
 HostPapa,2606:c680::/32
 HostPapa,2607:9d00::/32
 HostPapa,2a04:6ac0::/29
@@ -18982,9 +18984,7 @@ LayerHost,2406:2580::/32
 "VPS House Technology Group LLC",2602:fcd5:4::/46
 "VPS House Technology Group LLC",2602:fcd5:a::/47
 "VPS House Technology Group LLC",2602:fcd5:c::/46
-"VPS House Technology Group LLC",2602:fcd5:12::/47
-"VPS House Technology Group LLC",2602:fcd5:14::/46
-"VPS House Technology Group LLC",2602:fcd5:18::/45
+"VPS House Technology Group LLC",2602:fcd5:10::/44
 "VPS House Technology Group LLC",2602:fcd5:20::/44
 "VPS House Technology Group LLC",2602:fcd5:30::/45
 "VPS House Technology Group LLC",2602:fcd5:38::/46
@@ -19279,6 +19279,7 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
 "Host Europe GmbH",2603:5:2200::/40
+"GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:400::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c40::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c44::/31
@@ -19444,7 +19445,6 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2a0a:6044:2::/48
 "HYEHOST LTD",2a0a:6044:7::/48
 "HYEHOST LTD",2a0a:6044:a::/47
-"HYEHOST LTD",2a0a:6044:10::/48
 "VPS4You Kft.",2a02:730:7000::/48
 "D.O.O.Domen Drustvo za Proizvodnju,Promet i Usluge - Podgorica",2001:678:408::/48
 "IpHost P.C.",2a02:ce00::/29
@@ -19453,7 +19453,9 @@ Sharktech,2a0c:c181::/32
 "Hostinger International Limited",2a02:4780:8::/45
 "Hostinger International Limited",2a02:4780:10::/44
 "Hostinger International Limited",2a02:4780:20::/43
-"Hostinger International Limited",2a02:4780:40::/44
+"Hostinger International Limited",2a02:4780:40::/46
+"Hostinger International Limited",2a02:4780:44::/47
+"Hostinger International Limited",2a02:4780:48::/45
 "Hostinger International Limited",2a02:4780:50::/46
 "Hostinger International Limited",2a02:4780:55::/48
 "Hostinger International Limited",2a02:4780:56::/47
@@ -19509,7 +19511,6 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a04:a5c0::/29
 "JSC Selectel",2a05:b300::/29
 "JSC Selectel",2a0e:d00::/29
-"JSC Selectel",2a0e:13c5::/32
 "JSC Selectel",2a0e:8880::/29
 "JSC Selectel",2a0e:b140::/29
 "JSC Selectel",2a0e:c380::/29
@@ -20287,6 +20288,7 @@ Serverside.com,2607:e0c0:fffe::/47
 "HOSTKEY B.V.",2a0c:b641:330::/44
 "HOSTKEY B.V.",2a0e:e6c0:8000::/44
 "HOSTKEY B.V.",2a11:3500::/29
+"HOSTKEY B.V.",2a13:8c86:120::/48
 "HOSTKEY B.V.",2a13:c380::/32
 "CDNvideo LLC",2a02:aec0:1::/48
 "CDNvideo LLC",2a02:aec0:2::/47
@@ -20333,7 +20335,10 @@ Serversaurus,2401:38c0::/32
 "LLC Vpsville",2a07:14c0:5000::/36
 "LLC Vpsville",2a07:14c0:6000::/36
 "LLC Vpsville",2a07:14c0:f000::/36
+"LLC Vpsville",2a0a:4785::/32
+"LLC Vpsville",2a0a:4787::/32
 "LLC Vpsville",2a0c:5241::/32
+"LLC Vpsville",2a0c:5247:5000::/36
 "LLC Vpsville",2a0c:5247:c000::/36
 "LLC Vpsville",2a0d:60c0::/32
 "LLC Vpsville",2a0d:60c3::/32
@@ -20609,7 +20614,9 @@ Serversaurus,2401:38c0::/32
 "Zscaler Switzerland GmbH",2a03:eec0:2b00::/40
 "Zscaler Switzerland GmbH",2a03:eec0:2c00::/38
 "Zscaler Switzerland GmbH",2a03:eec0:3000::/39
+"Zscaler Switzerland GmbH",2a03:eec0:3215::/48
 "Zscaler Switzerland GmbH",2a03:eec0:321d::/48
+"Zscaler Switzerland GmbH",2a03:eec0:321f::/48
 "Zscaler Switzerland GmbH",2a03:eec0:3300::/40
 "Hostland LTD",2a00:8960::/48
 "root SAS",2a12:42c0::/29
@@ -20729,6 +20736,7 @@ GTHost,2a13:18c2::/32
 "Akamai Technologies, Inc.",2a01:7e00::/30
 "Akamai Technologies, Inc.",2a02:26f0:1280::/48
 "EDGEUNO S.A.S",2800:1e0:2100::/40
+"EDGEUNO S.A.S",2800:1e0:2430::/44
 "EDGEUNO ARGENTINA S.A.",2803:8f90::/32
 "EDGEUNO SPA",2803:ef90::/32
 "EDGEUNO S.A.C.",2803:e850::/32
