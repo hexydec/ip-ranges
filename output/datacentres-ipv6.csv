@@ -14493,7 +14493,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-04-30 10:00:05.261439"
+Linode,"# Last modified: 2025-05-01 10:00:04.732483"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15140,7 +15140,6 @@ HOSTPERL,2401:3b20::/32
 "OneAsia Data Center (BKK1) Company Limited",2401:5460::/32
 "5centsCDN Inc",2001:df3:46c0::/48
 "DAUN PENH DATA CENTER CO., LTD.",2001:df3:54c0::/48
-"Rasu Web Host",2001:df3:5ec0::/48
 "Shopvps Technology Company Limited",2001:df4:7d40::/48
 "Tucows.com Co.",2604:4000::/48
 "Rackspace Ltd.",2a00:1a48::/32
@@ -16376,8 +16375,10 @@ StabiliServers,2605:e480:11::/48
 "Hyperhost Solutions Limited",2a0e:fd45:2d70::/48
 "New Hosting Technologies LLC",2a00:f9a0::/32
 "New Hosting Technologies LLC",2a12:b3c0:1::/48
-"Civilized Hosting LLC",2602:f974:fff::/48
+"Civilized Hosting LLC",2602:f869::/36
+"Civilized Hosting LLC",2602:f974::/36
 "Civilized Hosting LLC",2602:fa1c:120::/48
+"Civilized Hosting LLC",2602:fa42:ff0::/44
 "UAB Cherry Servers",2a02:ae00:1000::/36
 "Colocation America Corporation",2602:fed3:b::/48
 "Colocation America Corporation",2602:fed3:11::/48
@@ -16476,7 +16477,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/47
+"ZSCALER, INC.",2a03:eec0:3213::/48
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -18758,6 +18759,7 @@ HostPapa,2602:f692:2::/48
 HostPapa,2605:6f01::/32
 HostPapa,2605:6f02::/32
 HostPapa,2605:6f04::/31
+HostPapa,2605:6f06::/32
 HostPapa,2606:c680::/32
 HostPapa,2607:9d00::/32
 HostPapa,2a04:6ac0::/29
@@ -19060,8 +19062,8 @@ LayerHost,2406:2580::/32
 "VPS House Technology Group LLC",2602:fcd5:a::/47
 "VPS House Technology Group LLC",2602:fcd5:c::/46
 "VPS House Technology Group LLC",2602:fcd5:10::/45
-"VPS House Technology Group LLC",2602:fcd5:18::/47
-"VPS House Technology Group LLC",2602:fcd5:1c::/46
+"VPS House Technology Group LLC",2602:fcd5:18::/46
+"VPS House Technology Group LLC",2602:fcd5:1e::/47
 "VPS House Technology Group LLC",2602:fcd5:20::/44
 "VPS House Technology Group LLC",2602:fcd5:30::/45
 "VPS House Technology Group LLC",2602:fcd5:38::/46
@@ -19496,7 +19498,8 @@ Steadfast,2607:f128::/48
 LayerHost,2604:d180::/32
 "Lamhosting LLC",2602:f8c0:1::/48
 "Lamhosting LLC",2602:f8c0:2::/47
-"Lamhosting LLC",2602:f8c0:4::/46
+"Lamhosting LLC",2602:f8c0:4::/47
+"Lamhosting LLC",2602:f8c0:7::/48
 "Lamhosting LLC",2602:f8c0:8::/47
 Sharktech,2610:150::/32
 Sharktech,2610:151::/34
@@ -19685,6 +19688,7 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a10:4900::/30
 "JSC Selectel",2a10:4904::/32
 "JSC Selectel",2a10:4906::/31
+"JSC Selectel",2a11:7887::/32
 "JSC Selectel",2a11:9887::/32
 "JSC Selectel",2a13:d207::/32
 "Ahosting a.s.",2a0c:7840::/29
@@ -19943,6 +19947,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:1030::/44
 "Fastly, Inc.",2a04:4e40:1040::/44
 "Fastly, Inc.",2a04:4e40:1050::/48
+"Fastly, Inc.",2a04:4e40:10f0::/48
 "Fastly, Inc.",2a04:4e40:1200::/48
 "Fastly, Inc.",2a04:4e40:1220::/44
 "Fastly, Inc.",2a04:4e40:1240::/48
@@ -20156,7 +20161,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:b600::/47
 "Fastly, Inc.",2a04:4e40:b630::/44
 "Fastly, Inc.",2a04:4e40:b640::/44
-"Fastly, Inc.",2a04:4e40:b6f0::/48
+"Fastly, Inc.",2a04:4e40:b6f0::/47
 "Fastly, Inc.",2a04:4e40:b800::/48
 "Fastly, Inc.",2a04:4e40:b810::/48
 "Fastly, Inc.",2a04:4e40:b830::/48
@@ -20446,6 +20451,9 @@ Serversaurus,2401:38c0::/32
 "HZ Hosting Ltd",2a01:8640:1c::/47
 "2342 Verwaltungs GmbH",2001:4ce8::/29
 "StormWall s.r.o.",2a06:a180:10::/48
+"StormWall s.r.o.",2a06:a180:30::/48
+"StormWall s.r.o.",2a06:a180:40::/48
+"StormWall s.r.o.",2a06:a180:50::/48
 "StormWall s.r.o.",2a06:a180:60::/48
 "HOSTPALACE DATACENTERS LTD",2a04:f780::/32
 "HOSTPALACE DATACENTERS LTD",2a04:f781::/40
