@@ -14493,7 +14493,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-05 10:00:04.857892"
+Linode,"# Last modified: 2025-05-06 10:00:04.726409"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14940,7 +14940,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e002::/47
-"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e004::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:f001::/48
 "Big Data Center Of Shandong Province",2405:f940::/32
 "Hyve Managed Hosting Corp Inc",2001:df0:fd80::/48
@@ -15448,6 +15447,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:224::/47
 "Incapsula Inc",2a02:e980:22a::/47
 "Incapsula Inc",2a02:e980:22c::/46
+"Incapsula Inc",2a02:e980:230::/47
+"Incapsula Inc",2a02:e980:232::/48
 "Incapsula Inc",2a02:e980:240::/48
 "Incapsula Inc",2a02:e980:244::/48
 "Incapsula Inc",2a02:e981:1::/48
@@ -15648,16 +15649,11 @@ EGIHosting,2a11:bd40::/29
 "ALEXHOST SRL",2001:678:6d4::/48
 "ALEXHOST SRL",2a00:1728:3e::/47
 "ALEXHOST SRL",2a0a:8d80:1::/48
-"ALEXHOST SRL",2a0d:3042::/32
 "ALEXHOST SRL",2a0f:5f40::/47
 "ALEXHOST SRL",2a0f:5f40:1000::/48
 "ALEXHOST SRL",2a0f:5f45::/32
 "ALEXHOST SRL",2a0f:5f46::/32
-"ALEXHOST SRL",2a11:5884::/32
-"ALEXHOST SRL",2a11:9881::/32
-"ALEXHOST SRL",2a11:c104::/32
-"ALEXHOST SRL",2a11:f184::/32
-"ALEXHOST SRL",2a12:1802::/32
+"ALEXHOST SRL",2a12:41c2::/32
 "Kaspersky Lab Switzerland GmbH",2a03:2480:68::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:70::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:80::/48
@@ -15902,7 +15898,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a0f:9400:7386::/48
 "The Constant Company, LLC",2a0f:9400:8020::/48
 "The Constant Company, LLC",2a0f:ea00:100::/40
-"The Constant Company, LLC",2a0f:ea00:400::/39
 "The Constant Company, LLC",2a0f:ea01::/40
 "The Constant Company, LLC",2a11:29c0:3dd0::/44
 "The Constant Company, LLC",2a11:29c0:3e40::/44
@@ -16036,38 +16031,38 @@ StabiliServers,2605:e480:11::/48
 "Flyservers S.A.",2a10:9107:f000::/36
 "Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f0::/48
 "I-SERVERS LTD",2a06:ddc0::/29
-"I-SERVERS LTD",2a09:6900::/32
 "I-SERVERS LTD",2a09:da41::/32
+"I-SERVERS LTD",2a09:da44::/32
 "I-SERVERS LTD",2a0a:9300:2::/48
 "I-SERVERS LTD",2a0a:9300:d0::/47
 "I-SERVERS LTD",2a0a:9300:d2::/48
 "I-SERVERS LTD",2a0a:9302:1::/48
-"I-SERVERS LTD",2a0a:c0c1::/32
-"I-SERVERS LTD",2a0a:c380::/32
+"I-SERVERS LTD",2a0a:c0c3::/32
 "I-SERVERS LTD",2a0b:7780::/29
 "I-SERVERS LTD",2a0b:8040::/29
 "I-SERVERS LTD",2a0c:4185::/32
 "I-SERVERS LTD",2a0c:6980::/29
-"I-SERVERS LTD",2a0d:3040::/32
 "I-SERVERS LTD",2a0d:3880::/29
+"I-SERVERS LTD",2a0d:adc1::/32
 "I-SERVERS LTD",2a0e:f01::/32
 "I-SERVERS LTD",2a0e:13c0::/32
 "I-SERVERS LTD",2a0e:67c1::/32
-"I-SERVERS LTD",2a0e:7f01::/32
+"I-SERVERS LTD",2a0e:7f00::/32
 "I-SERVERS LTD",2a0e:8541::/32
-"I-SERVERS LTD",2a0e:c4c1::/32
+"I-SERVERS LTD",2a0e:c4c0::/32
 "I-SERVERS LTD",2a0e:eec1::/32
-"I-SERVERS LTD",2a0f:4300::/32
 "I-SERVERS LTD",2a0f:bb03::/32
-"I-SERVERS LTD",2a0f:da81::/32
 "I-SERVERS LTD",2a0f:da82::/32
 "I-SERVERS LTD",2a11:640::/32
 "I-SERVERS LTD",2a11:3181::/32
+"I-SERVERS LTD",2a11:3d02::/32
 "I-SERVERS LTD",2a11:7882::/32
 "I-SERVERS LTD",2a11:8504::/32
 "I-SERVERS LTD",2a11:b785::/32
+"I-SERVERS LTD",2a11:d706::/32
+"I-SERVERS LTD",2a12:1546::/32
+"I-SERVERS LTD",2a12:41c7::/32
 "I-SERVERS LTD",2a12:4c06::/32
-"I-SERVERS LTD",2a12:cc01::/32
 "LEONIX EVENTS SAS",2a0d:6f80:2302::/48
 "EuroByte LLC",2a03:80c0::/47
 "EuroByte LLC",2a03:c980:db::/48
@@ -16373,7 +16368,6 @@ StabiliServers,2605:e480:11::/48
 "Colocation America Corporation",2a09:1e80::/29
 "Colocation America Corporation",2a10:ccc6:ccc0::/44
 "Red Hat, Inc.",2620:52:6::/48
-"Zenlayer Inc",2404:e5c0::/32
 "Zenlayer Inc",240d:c010:14b::/48
 "Zenlayer Inc",240d:c010:14c::/48
 "Zenlayer Inc",2602:ffe4::/37
@@ -16463,7 +16457,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/47
+"ZSCALER, INC.",2a03:eec0:3213::/48
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -16486,7 +16480,7 @@ DEFT.COM,2620:7d::/48
 "ReliableSite.Net LLC",2605:9880:344::/47
 "ReliableSite.Net LLC",2605:9880:400::/42
 "ReliableSite.Net LLC",2606:c0:4::/48
-"ReliableSite.Net LLC",2a0a:e2c0::/29
+"ReliableSite.Net LLC",2a0a:e2c4::/30
 "ReliableSite.Net LLC",2a0c:8fc3::/40
 "ReliableSite.Net LLC",2a0c:8fc3:6400::/40
 "ReliableSite.Net LLC",2a0c:8fc3:8000::/40
@@ -16561,7 +16555,6 @@ DEFT.COM,2620:7d::/48
 "Hetzner Online GmbH",2a01:4f8::/31
 "Hetzner Online GmbH",2a06:be80::/29
 "Hetzner Online GmbH",2a11:e980::/29
-"Hetzner Online GmbH",2a12:1fc0::/42
 "Hetzner Online GmbH",2a12:2240::/29
 "NETPLANET GmbH",2001:1ad0::/32
 "NETPLANET GmbH",2a00:5320::/32
@@ -17587,8 +17580,8 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:158::/48
 "Akamai Technologies, Inc.",2a02:26f7:15a::/47
 "Akamai Technologies, Inc.",2a02:26f7:15c::/46
-"Akamai Technologies, Inc.",2a02:26f7:161::/48
 "Akamai Technologies, Inc.",2a02:26f7:162::/47
+"Akamai Technologies, Inc.",2a02:26f7:164::/48
 "Akamai Technologies, Inc.",2a02:26f7:200::/48
 "Akamai Technologies, Inc.",2a02:26f7:b200::/43
 "Akamai Technologies, Inc.",2a02:26f7:b220::/44
@@ -18991,7 +18984,6 @@ Latitude.sh,2a13:9500:33::/48
 "Leaseweb USA, Inc.",2a0f:1e80:1::/48
 "Leaseweb USA, Inc.",2a0f:3d87::/32
 "Leaseweb USA, Inc.",2a0f:ea82::/32
-"Salesforce, Inc.",2401:ce80:1001::/48
 "Salesforce, Inc.",2620:113:f000::/45
 "HostRoyale LLC",2a06:a640::/29
 "Canadian Shield Data Center Inc",2602:fedd:1::/48
@@ -19355,7 +19347,6 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:5:2200::/40
 "GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:2::/48
-"Colocation Ltd",2a0f:85c0:400::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c40::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c44::/31
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c46::/32
@@ -19697,8 +19688,6 @@ Sharktech,2a0c:c181::/32
 "Serverius Holding B.V.",2a09:aa80::/32
 "Serverius Holding B.V.",2a0a:3f40::/32
 "Serverius Holding B.V.",2a0e:c9c0::/29
-"HOSTKEY B.V.",2a05:b80::/29
-"HOSTKEY B.V.",2a0a:eec0:1::/48
 "xTom Global Telecom Inc.",2001:67c:2140::/48
 "WebSupport s.r.o.",2a00:4b40::/32
 "WebSupport s.r.o.",2a02:250:2::/48
@@ -19995,6 +19984,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:40f0::/48
 "Fastly, Inc.",2a04:4e40:4200::/48
 "Fastly, Inc.",2a04:4e40:4400::/48
+"Fastly, Inc.",2a04:4e40:4410::/48
 "Fastly, Inc.",2a04:4e40:4440::/48
 "Fastly, Inc.",2a04:4e40:4600::/48
 "Fastly, Inc.",2a04:4e40:4610::/48
@@ -20260,7 +20250,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:f630::/44
 "Fastly, Inc.",2a04:4e40:f6f0::/47
 "Fastly, Inc.",2a04:4e40:f800::/48
-"Fastly, Inc.",2a04:4e40:f820::/44
+"Fastly, Inc.",2a04:4e40:f820::/48
 "Fastly, Inc.",2a04:4e40:f8f0::/48
 "Fastly, Inc.",2a04:4e40:fa00::/47
 "Fastly, Inc.",2a04:4e40:fa20::/47
@@ -20848,7 +20838,6 @@ GTHost,2a13:18c2::/32
 "Coloblox Data Centers Inc",2606:6680:43::/48
 "Coloblox Data Centers Inc",2606:6680:44::/48
 "Coloblox Data Centers Inc",2607:f948::/32
-"Virtual Systems LLC",2a09:2dc2::/32
 "PERFTECH, podjetje za proizvodnjo in uvajanje novih tehnologij, d.o.o.",2a0f:7840::/29
 "Netminders Server Hosting",2605:bc40::/32
 "Cologix, Inc",2607:fce0::/32
