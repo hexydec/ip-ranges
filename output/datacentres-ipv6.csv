@@ -14493,7 +14493,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-06 10:00:04.726409"
+Linode,"# Last modified: 2025-05-07 10:00:04.754910"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14808,6 +14808,7 @@ Linode,2600:3c0f:51::/48
 "UK-2 Limited",2a02:2498::/47
 "UK-2 Limited",2a02:2498:4::/47
 "UK-2 Limited",2a02:2498:16::/48
+"UK-2 Limited",2a02:2498:300::/48
 "UK-2 Limited",2a02:2498:1000::/36
 "UK-2 Limited",2a02:2498:257b::/48
 "UK-2 Limited",2a02:2498:53aa::/48
@@ -14940,6 +14941,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e002::/47
+"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e004::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:f001::/48
 "Big Data Center Of Shandong Province",2405:f940::/32
 "Hyve Managed Hosting Corp Inc",2001:df0:fd80::/48
@@ -15003,8 +15005,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:e000::/48
 "Edgecast Inc.",2606:2800:e002::/47
 "Edgecast Inc.",2606:2800:e004::/47
-"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
-"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
@@ -15114,10 +15114,9 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:4233::/48
 "Edgecast Inc.",2606:2800:424a::/48
 "Edgecast Inc.",2606:2800:4267::/48
-"Edgecast Inc.",2606:2800:4268::/48
 "Edgecast Inc.",2606:2800:4a94::/47
 "Edgecast Inc.",2606:2800:4ad4::/47
-"Edgecast Inc.",2606:2800:4adc::/47
+"Edgecast Inc.",2606:2800:4adc::/48
 "Edgecast Inc.",2606:2800:504c::/48
 "Edgecast Inc.",2606:2800:50a7::/48
 "Edgecast Inc.",2606:2800:50a8::/47
@@ -15649,10 +15648,15 @@ EGIHosting,2a11:bd40::/29
 "ALEXHOST SRL",2001:678:6d4::/48
 "ALEXHOST SRL",2a00:1728:3e::/47
 "ALEXHOST SRL",2a0a:8d80:1::/48
+"ALEXHOST SRL",2a0d:adc6::/32
+"ALEXHOST SRL",2a0e:8546::/32
+"ALEXHOST SRL",2a0e:c4c2::/32
 "ALEXHOST SRL",2a0f:5f40::/47
 "ALEXHOST SRL",2a0f:5f40:1000::/48
 "ALEXHOST SRL",2a0f:5f45::/32
 "ALEXHOST SRL",2a0f:5f46::/32
+"ALEXHOST SRL",2a0f:bb04::/32
+"ALEXHOST SRL",2a11:d707::/32
 "ALEXHOST SRL",2a12:41c2::/32
 "Kaspersky Lab Switzerland GmbH",2a03:2480:68::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:70::/48
@@ -16457,7 +16461,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -17581,7 +17585,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:15a::/47
 "Akamai Technologies, Inc.",2a02:26f7:15c::/46
 "Akamai Technologies, Inc.",2a02:26f7:162::/47
-"Akamai Technologies, Inc.",2a02:26f7:164::/48
 "Akamai Technologies, Inc.",2a02:26f7:200::/48
 "Akamai Technologies, Inc.",2a02:26f7:b200::/43
 "Akamai Technologies, Inc.",2a02:26f7:b220::/44
@@ -18962,8 +18965,56 @@ Latitude.sh,2a0a:a701:7000::/47
 Latitude.sh,2a0a:a701:8000::/47
 Latitude.sh,2a0a:a701:9000::/47
 Latitude.sh,2a0a:a701:a000::/47
-Latitude.sh,2a0a:a702::/31
-Latitude.sh,2a0e:4206::/32
+Latitude.sh,2a0a:a702::/32
+Latitude.sh,2a0a:a703::/47
+Latitude.sh,2a0a:a703:2::/48
+Latitude.sh,2a0a:a703:1000::/47
+Latitude.sh,2a0a:a703:1002::/48
+Latitude.sh,2a0a:a703:2000::/47
+Latitude.sh,2a0a:a703:2002::/48
+Latitude.sh,2a0a:a703:3000::/47
+Latitude.sh,2a0a:a703:3002::/48
+Latitude.sh,2a0a:a703:4000::/47
+Latitude.sh,2a0a:a703:4002::/48
+Latitude.sh,2a0a:a703:5000::/47
+Latitude.sh,2a0a:a703:5002::/48
+Latitude.sh,2a0a:a703:6000::/47
+Latitude.sh,2a0a:a703:6002::/48
+Latitude.sh,2a0a:a703:7000::/47
+Latitude.sh,2a0a:a703:7002::/48
+Latitude.sh,2a0a:a703:8000::/47
+Latitude.sh,2a0a:a703:8002::/48
+Latitude.sh,2a0a:a703:9000::/47
+Latitude.sh,2a0a:a703:9002::/48
+Latitude.sh,2a0a:a703:a000::/47
+Latitude.sh,2a0a:a703:a002::/48
+Latitude.sh,2a0a:a703:b000::/47
+Latitude.sh,2a0a:a703:b002::/48
+Latitude.sh,2a0a:a703:c000::/47
+Latitude.sh,2a0a:a703:c002::/48
+Latitude.sh,2a0a:a703:d000::/47
+Latitude.sh,2a0a:a703:d002::/48
+Latitude.sh,2a0a:a703:e000::/47
+Latitude.sh,2a0a:a703:e002::/48
+Latitude.sh,2a0a:a703:f000::/47
+Latitude.sh,2a0a:a703:f002::/48
+Latitude.sh,2a0e:4206::/47
+Latitude.sh,2a0e:4206:1000::/47
+Latitude.sh,2a0e:4206:2000::/47
+Latitude.sh,2a0e:4206:3000::/47
+Latitude.sh,2a0e:4206:4000::/47
+Latitude.sh,2a0e:4206:5000::/47
+Latitude.sh,2a0e:4206:6000::/47
+Latitude.sh,2a0e:4206:7000::/47
+Latitude.sh,2a0e:4206:8000::/47
+Latitude.sh,2a0e:4206:9000::/47
+Latitude.sh,2a0e:4206:a000::/47
+Latitude.sh,2a0e:4206:b000::/47
+Latitude.sh,2a0e:4206:c000::/47
+Latitude.sh,2a0e:4206:d000::/47
+Latitude.sh,2a0e:4206:e000::/47
+Latitude.sh,2a0e:4206:f000::/47
+Latitude.sh,2a0e:4206:f500::/47
 Latitude.sh,2a0e:4207::/47
 Latitude.sh,2a0e:4207:1000::/47
 Latitude.sh,2a0e:4207:2000::/47
@@ -19040,13 +19091,12 @@ LayerHost,2406:2580::/32
 "VPS House Technology Group LLC",2602:fcd5:4::/46
 "VPS House Technology Group LLC",2602:fcd5:a::/47
 "VPS House Technology Group LLC",2602:fcd5:c::/46
-"VPS House Technology Group LLC",2602:fcd5:10::/46
-"VPS House Technology Group LLC",2602:fcd5:14::/47
-"VPS House Technology Group LLC",2602:fcd5:18::/45
-"VPS House Technology Group LLC",2602:fcd5:20::/45
-"VPS House Technology Group LLC",2602:fcd5:28::/46
-"VPS House Technology Group LLC",2602:fcd5:2e::/47
-"VPS House Technology Group LLC",2602:fcd5:30::/45
+"VPS House Technology Group LLC",2602:fcd5:10::/44
+"VPS House Technology Group LLC",2602:fcd5:20::/46
+"VPS House Technology Group LLC",2602:fcd5:26::/47
+"VPS House Technology Group LLC",2602:fcd5:28::/45
+"VPS House Technology Group LLC",2602:fcd5:32::/47
+"VPS House Technology Group LLC",2602:fcd5:34::/46
 "VPS House Technology Group LLC",2602:fcd5:38::/46
 "VPS House Technology Group LLC",2602:fcd5:3e::/47
 "VPS House Technology Group LLC",2602:fcd5:40::/47
@@ -19071,6 +19121,7 @@ Hostodo,2606:65c0:40::/48
 "Madcityservers LLC",2602:fed2:7089::/48
 "Madcityservers LLC",2602:fed2:7e85::/48
 "Hydra Host, Inc.",2606:a5c0::/48
+"Hosting Bot, LLC",2602:fa8a:1::/48
 "Hosting Bot, LLC",2602:fb94:1::/48
 "Hosting Bot, LLC",2602:fb94:2::/47
 "Hosting Bot, LLC",2602:fb94:5::/48
@@ -19085,7 +19136,6 @@ Hostodo,2606:65c0:40::/48
 "Hexium Hosting, LLC",2602:f948:39::/48
 "Hexium Hosting, LLC",2602:f948:40::/48
 BreezeHost,2602:fa62::/38
-BreezeHost,2602:fa8a:1::/48
 "H5 Data Centers",2605:3ac0:c000::/36
 "H5 Data Centers",2605:3ac0:6000::/36
 "Cyclone Servers",2602:fed2:7082::/48
@@ -19589,7 +19639,6 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a10:7700::/29
 "JSC Selectel",2a12:4300::/29
 "JSC Selectel",2a12:ba00::/29
-"JSC Selectel",2a12:c181::/32
 "JSC Selectel",2a12:dc00::/29
 "JSC Selectel",2a13:1340::/29
 "JSC Selectel",2a13:4fc0::/29
@@ -20259,7 +20308,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:faf0::/48
 "Fastly, Inc.",2a04:4e40:fc00::/48
 "Fastly, Inc.",2a04:4e40:fe00::/48
-"Fastly, Inc.",2a04:4e40:fe10::/44
 "Fastly, Inc.",2a04:4e40:fe30::/48
 "Fastly, Inc.",2a04:4e40:fe40::/44
 "Fastly, Inc.",2a04:4e41::/33
@@ -20555,7 +20603,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V.",2a0f:7d06:33::/48
 "LeaseWeb Netherlands B.V.",2a0f:7d06:44::/48
 "LeaseWeb Netherlands B.V.",2a0f:8100::/29
-"LeaseWeb Netherlands B.V.",2a0f:8300::/29
 "LeaseWeb Netherlands B.V.",2a0f:8680::/29
 "LeaseWeb Netherlands B.V.",2a0f:a940::/29
 "LeaseWeb Netherlands B.V.",2a0f:d940::/29
@@ -20598,6 +20645,7 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V.",2a12:ac46:55::/48
 "LeaseWeb Netherlands B.V.",2a12:ac46:66::/48
 "LeaseWeb Netherlands B.V.",2a12:d100::/29
+"LeaseWeb Netherlands B.V.",2a12:eb40::/29
 "LeaseWeb Netherlands B.V.",2a12:ecc0:11::/48
 "LeaseWeb Netherlands B.V.",2a12:ecc0:33::/48
 "LeaseWeb Netherlands B.V.",2a12:ecc0:44::/48
@@ -20873,7 +20921,6 @@ HostUS,2602:ffc5:10::/44
 HostUS,2602:ffc5:20::/48
 HostUS,2602:ffc5:30::/44
 HostUS,2602:ffc5:40::/44
-HostUS,2602:ffc5:50::/48
 HostUS,2602:ffc5:60::/43
 HostUS,2602:ffc5:103::/48
 HostUS,2602:ffc5:109::/48
