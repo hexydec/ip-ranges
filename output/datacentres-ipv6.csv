@@ -14493,7 +14493,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-09 10:00:05.341799"
+Linode,"# Last modified: 2025-05-10 10:00:05.307690"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15006,8 +15006,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:e000::/48
 "Edgecast Inc.",2606:2800:e002::/47
 "Edgecast Inc.",2606:2800:e004::/47
-"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
-"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
@@ -16468,7 +16466,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -19424,7 +19422,9 @@ HostPapa,2620:b:e000::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a12:6500::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a13:6300::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a13:6304::/31
-"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d80::/29
+"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d80::/32
+"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d82::/31
+"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d84::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:2e80::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:2f80::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3081::/32
@@ -20928,6 +20928,7 @@ HostUS,2602:ffc5:10::/44
 HostUS,2602:ffc5:20::/48
 HostUS,2602:ffc5:30::/44
 HostUS,2602:ffc5:40::/44
+HostUS,2602:ffc5:50::/48
 HostUS,2602:ffc5:60::/43
 HostUS,2602:ffc5:103::/48
 HostUS,2602:ffc5:109::/48
