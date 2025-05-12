@@ -14493,7 +14493,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-10 10:00:05.307690"
+Linode,"# Last modified: 2025-05-11 10:00:04.680223"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14871,8 +14871,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Host Universal Pty Ltd",2401:7fa0:1::/48
 "Host Universal Pty Ltd",2401:7fa0:2::/48
 "Host Universal Pty Ltd",2401:8360:1::/48
-"Host Universal Pty Ltd",2402:7340:1::/48
-"Host Universal Pty Ltd",2402:7340:3::/48
 "Host Universal Pty Ltd",2404:f780::/47
 "Host Universal Pty Ltd",2404:f780:2::/48
 "Host Universal Pty Ltd",2404:f780:4::/47
@@ -14941,7 +14939,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:2c::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e001::/48
-"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e002::/47
+"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e002::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e004::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:f001::/48
 "Big Data Center Of Shandong Province",2405:f940::/32
@@ -15006,6 +15004,8 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:e000::/48
 "Edgecast Inc.",2606:2800:e002::/47
 "Edgecast Inc.",2606:2800:e004::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
@@ -15495,9 +15495,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:32::/47
 "Incapsula Inc",2a02:e982:34::/47
 "Incapsula Inc",2a02:e982:38::/45
-"Incapsula Inc",2a02:e982:40::/47
-"Incapsula Inc",2a02:e982:42::/48
-"Incapsula Inc",2a02:e982:44::/46
+"Incapsula Inc",2a02:e982:40::/45
 "Incapsula Inc",2a02:e982:48::/46
 "Incapsula Inc",2a02:e982:53::/48
 "Incapsula Inc",2a02:e982:1001::/48
@@ -16297,6 +16295,7 @@ StabiliServers,2605:e480:11::/48
 "UAB Cherry Servers",2a02:ae00:2000::/36
 "VoltHosting Ltd",2a14:1ec7:f100::/40
 "Four Seasons Hosting LLC",2a0f:85c1:899::/48
+"Bulent Aydin trading as Hostlayici",2a13:a440:8::/48
 "Ali Koyuncu trading as Zumbak Hosting",2a14:37c0:f000::/48
 "STRATOSPHERE SERVERS LTD",2a0f:7803:fa10::/44
 "TECHHEDGE LABS ANS",2a05:a00::/32
@@ -17280,7 +17279,6 @@ Steadfast,2607:f128::/32
 "Akamai International B.V.",2a02:26f0:33::/48
 "Akamai International B.V.",2a02:26f0:36::/48
 "Akamai International B.V.",2a02:26f0:74::/48
-"Akamai International B.V.",2a02:26f0:77::/48
 "Akamai International B.V.",2a02:26f0:88::/48
 "Akamai International B.V.",2a02:26f0:96::/48
 "Akamai International B.V.",2a02:26f0:9c::/47
@@ -18767,7 +18765,8 @@ HOSTOWEB,2c0f:5f40::/48
 "Hangzhou Alibaba Advertising Co.,Ltd.",2405:e000::/32
 "Hangzhou Alibaba Advertising Co.,Ltd.",2407:bc00::/32
 "Hangzhou Alibaba Advertising Co.,Ltd.",2408:4000::/22
-FlowVPS,2402:7340:2::/48
+FlowVPS,2402:7340:1::/48
+FlowVPS,2402:7340:2::/47
 FlowVPS,2402:7340:4000::/34
 FlowVPS,2402:7340:8000::/37
 FlowVPS,2a14:7581:d000::/40
@@ -19402,6 +19401,7 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:5:2200::/40
 "GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:2::/48
+"Colocation Ltd",2a0f:85c2:100::/40
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c40::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c44::/31
 "STARK INDUSTRIES SOLUTIONS LTD",2a09:7c46::/32
@@ -19422,9 +19422,7 @@ HostPapa,2620:b:e000::/48
 "STARK INDUSTRIES SOLUTIONS LTD",2a12:6500::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a13:6300::/30
 "STARK INDUSTRIES SOLUTIONS LTD",2a13:6304::/31
-"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d80::/32
-"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d82::/31
-"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d84::/30
+"STARK INDUSTRIES SOLUTIONS LTD",2a14:2d80::/29
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:2e80::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:2f80::/32
 "STARK INDUSTRIES SOLUTIONS LTD",2a14:3081::/32
@@ -19557,7 +19555,6 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2602:f96d:200::/40
 "HYEHOST LTD",2602:f96d:940::/42
 "HYEHOST LTD",2602:f96d:980::/42
-"HYEHOST LTD",2602:f96d:a00::/40
 "HYEHOST LTD",2602:f96d:e00::/40
 "HYEHOST LTD",2602:f96d:f00::/44
 "HYEHOST LTD",2602:f96d:f71::/48
