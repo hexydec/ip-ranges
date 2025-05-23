@@ -14501,7 +14501,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-21 10:00:05.419425"
+Linode,"# Last modified: 2025-05-22 10:00:04.280320"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15016,7 +15016,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "1GSERVERS, LLC",2a13:a5c7:2710::/44
 "Salesforce.com, Inc.",2401:ce80::/32
 "Salesforce.com, Inc.",2605:6180::/32
-"Salesforce.com, Inc.",2a03:5d60::/29
+"Salesforce.com, Inc.",2a03:5d60::/32
 "1st Class Hosting, LLC",2605:c180::/36
 "SureHosting Internet Solutions, Inc.",2606:800::/32
 "NTT Global Data Centers Americas, INC.",2001:438:7d::/48
@@ -15113,9 +15113,8 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:4002::/47
 "Edgecast Inc.",2606:2800:4006::/47
 "Edgecast Inc.",2606:2800:400c::/48
-"Edgecast Inc.",2606:2800:400e::/47
+"Edgecast Inc.",2606:2800:400f::/48
 "Edgecast Inc.",2606:2800:4014::/48
-"Edgecast Inc.",2606:2800:4062::/47
 "Edgecast Inc.",2606:2800:4071::/48
 "Edgecast Inc.",2606:2800:420b::/48
 "Edgecast Inc.",2606:2800:420c::/48
@@ -15123,7 +15122,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:4233::/48
 "Edgecast Inc.",2606:2800:424a::/48
 "Edgecast Inc.",2606:2800:4267::/48
-"Edgecast Inc.",2606:2800:4a94::/47
 "Edgecast Inc.",2606:2800:4adc::/48
 "Edgecast Inc.",2606:2800:504c::/48
 "Edgecast Inc.",2606:2800:50a7::/48
@@ -15503,7 +15501,9 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:2f::/48
 "Incapsula Inc",2a02:e982:32::/47
 "Incapsula Inc",2a02:e982:34::/47
-"Incapsula Inc",2a02:e982:38::/45
+"Incapsula Inc",2a02:e982:38::/47
+"Incapsula Inc",2a02:e982:3b::/48
+"Incapsula Inc",2a02:e982:3c::/46
 "Incapsula Inc",2a02:e982:40::/45
 "Incapsula Inc",2a02:e982:48::/46
 "Incapsula Inc",2a02:e982:4c::/48
@@ -15659,18 +15659,18 @@ EGIHosting,2a11:bd40::/29
 "ALEXHOST SRL",2001:678:6d4::/48
 "ALEXHOST SRL",2a00:1728:3e::/47
 "ALEXHOST SRL",2a09:af84::/32
-"ALEXHOST SRL",2a09:cf05::/32
-"ALEXHOST SRL",2a09:dd03::/32
-"ALEXHOST SRL",2a09:e705::/32
-"ALEXHOST SRL",2a09:ef00::/32
 "ALEXHOST SRL",2a0a:8d80:1::/48
-"ALEXHOST SRL",2a0b:9000::/32
 "ALEXHOST SRL",2a0b:9003::/32
-"ALEXHOST SRL",2a0e:5883::/32
+"ALEXHOST SRL",2a0e:f03::/32
+"ALEXHOST SRL",2a0e:8545::/32
 "ALEXHOST SRL",2a0f:5f40::/47
 "ALEXHOST SRL",2a0f:5f40:1000::/48
 "ALEXHOST SRL",2a0f:5f45::/32
 "ALEXHOST SRL",2a0f:5f46::/32
+"ALEXHOST SRL",2a11:3186::/32
+"ALEXHOST SRL",2a11:4a03::/32
+"ALEXHOST SRL",2a11:8505::/32
+"ALEXHOST SRL",2a11:9884::/32
 "Kaspersky Lab Switzerland GmbH",2a03:2480:68::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:70::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:80::/48
@@ -15910,6 +15910,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a0f:f42::/32
 "The Constant Company, LLC",2a0f:13c0::/29
 "The Constant Company, LLC",2a0f:1e84:20::/48
+"The Constant Company, LLC",2a0f:3047::/48
 "The Constant Company, LLC",2a0f:7d00:1::/48
 "The Constant Company, LLC",2a0f:9400:6167::/48
 "The Constant Company, LLC",2a0f:9400:690a::/47
@@ -16047,14 +16048,6 @@ StabiliServers,2605:e480:11::/48
 "Flyservers S.A.",2a10:9107:f000::/36
 "Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f0::/48
 "I-SERVERS LTD",2a06:ddc0::/29
-"I-SERVERS LTD",2a09:2985::/32
-"I-SERVERS LTD",2a09:af87::/32
-"I-SERVERS LTD",2a09:c704::/32
-"I-SERVERS LTD",2a09:cf07::/32
-"I-SERVERS LTD",2a09:d707::/32
-"I-SERVERS LTD",2a09:dd07::/32
-"I-SERVERS LTD",2a09:e301::/32
-"I-SERVERS LTD",2a09:e706::/32
 "I-SERVERS LTD",2a0a:9300:2::/48
 "I-SERVERS LTD",2a0a:9300:d0::/47
 "I-SERVERS LTD",2a0a:9300:d2::/48
@@ -16064,21 +16057,28 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a0b:9006::/32
 "I-SERVERS LTD",2a0c:4185::/32
 "I-SERVERS LTD",2a0c:6980::/29
+"I-SERVERS LTD",2a0d:3043::/32
 "I-SERVERS LTD",2a0d:3880::/29
-"I-SERVERS LTD",2a0e:f01::/32
+"I-SERVERS LTD",2a0e:f00::/31
 "I-SERVERS LTD",2a0e:13c0::/32
+"I-SERVERS LTD",2a0e:13c4::/32
 "I-SERVERS LTD",2a0e:3f45::/32
-"I-SERVERS LTD",2a0e:5887::/32
+"I-SERVERS LTD",2a0e:4586::/32
 "I-SERVERS LTD",2a0e:67c1::/32
 "I-SERVERS LTD",2a0e:8541::/32
 "I-SERVERS LTD",2a0e:eec1::/32
 "I-SERVERS LTD",2a0f:bb03::/32
 "I-SERVERS LTD",2a11:640::/32
+"I-SERVERS LTD",2a11:642::/32
 "I-SERVERS LTD",2a11:3181::/32
+"I-SERVERS LTD",2a11:4a01::/32
 "I-SERVERS LTD",2a11:7882::/32
+"I-SERVERS LTD",2a11:8502::/32
 "I-SERVERS LTD",2a11:8504::/32
+"I-SERVERS LTD",2a11:9882::/32
 "I-SERVERS LTD",2a11:b785::/32
 "I-SERVERS LTD",2a12:4c06::/32
+"I-SERVERS LTD",2a12:9500::/32
 "LEONIX EVENTS SAS",2a0d:6f80:2302::/48
 "EuroByte LLC",2a03:80c0::/47
 "EuroByte LLC",2a03:c980:db::/48
@@ -16156,6 +16156,11 @@ StabiliServers,2605:e480:11::/48
 "Serverius Holding B.V.",2a07:52c0::/29
 "Serverius Holding B.V.",2a0f:8cc0::/48
 "Serverius Holding B.V.",2a14:bc80:102::/48
+"PebbleHost Ltd",2a06:2840::/48
+"PebbleHost Ltd",2a0e:15c4::/32
+"PebbleHost Ltd",2a10:e780::/40
+"PebbleHost Ltd",2a12:7b40::/48
+"PebbleHost Ltd",2a12:d3c0::/29
 "Hetzner Online GmbH",2a01:4ff:100::/40
 "RoyaleHosting BV",2001:3080::/29
 "RoyaleHosting BV",2a0b:64c0:1::/48
@@ -16293,6 +16298,7 @@ StabiliServers,2605:e480:11::/48
 "Host.AL Shpk",2602:f700:1::/48
 "Host.AL Shpk",2602:f700:80::/42
 "Varesh Cloud Hosting Limited Liability Company",2a14:ec00::/48
+"HOSTEG HOSPEDAGEM E SERVIDORES LTDA",2a0c:b641:30::/48
 "HOSTEG HOSPEDAGEM E SERVIDORES LTDA",2a0c:b641:70::/44
 "HOSTLUMIX CLOUD & HOSTING LLP",2a0b:4e07:1c02::/48
 "u1host ltd",2a01:ecc0:40::/42
@@ -16476,7 +16482,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/47
+"ZSCALER, INC.",2a03:eec0:3213::/48
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -17010,6 +17016,7 @@ Sucuri,2a02:fe80:2010::/48
 "Unitas Global",2a02:b50:4000::/34
 365.hosting,2602:2d3::/40
 "HostVenom LLC",2602:fed2:7194::/48
+"HostVenom LLC",2602:fed2:7e82::/48
 "HostVenom LLC",2602:ffbb::/36
 "Wolfpaw Data Centres Inc",2605:e680::/32
 "Leaseweb USA, Inc.",2604:9a00::/32
@@ -17478,7 +17485,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:6::/48
 "Akamai Technologies, Inc.",2a02:26f7:a::/48
 "Akamai Technologies, Inc.",2a02:26f7:c::/48
-"Akamai Technologies, Inc.",2a02:26f7:e::/48
 "Akamai Technologies, Inc.",2a02:26f7:10::/48
 "Akamai Technologies, Inc.",2a02:26f7:12::/48
 "Akamai Technologies, Inc.",2a02:26f7:16::/48
@@ -19181,6 +19187,7 @@ HostPapa,2620:b:e000::/48
 "Iron Mountain Data Center",2605:3380:ff0f::/48
 "Supreme Servers",2606:fe80:20::/44
 "Ace Data Centers II, L.L.C.",2604:ba00:f000::/36
+"TECH SERVE HOSTING LLC",2602:f932::/40
 "Colocataires Inc.",2602:f72c::/48
 "Web Host Most, LLC",2602:f72d::/37
 "Web Host Most, LLC",2602:f72d:800::/38
@@ -19418,6 +19425,7 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
 "Host Europe GmbH",2603:5:2200::/40
+"GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:2::/48
 "Colocation Ltd",2a0f:85c2:100::/40
 "PQ HOSTING PLUS S.R.L.",2a09:7c40::/30
@@ -20301,7 +20309,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:eaf0::/47
 "Fastly, Inc.",2a04:4e40:ec00::/48
 "Fastly, Inc.",2a04:4e40:ec20::/44
-"Fastly, Inc.",2a04:4e40:ec40::/44
 "Fastly, Inc.",2a04:4e40:ecf0::/48
 "Fastly, Inc.",2a04:4e40:ee00::/48
 "Fastly, Inc.",2a04:4e40:ee10::/48
@@ -20329,6 +20336,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:fa40::/47
 "Fastly, Inc.",2a04:4e40:faf0::/48
 "Fastly, Inc.",2a04:4e40:fc00::/48
+"Fastly, Inc.",2a04:4e40:fc20::/48
 "Fastly, Inc.",2a04:4e40:fe00::/48
 "Fastly, Inc.",2a04:4e40:fe10::/44
 "Fastly, Inc.",2a04:4e40:fe40::/44
@@ -20678,7 +20686,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V.",2a12:ecc0:44::/48
 "LeaseWeb Netherlands B.V.",2a12:ecc1::/32
 "LeaseWeb Netherlands B.V.",2a12:fd00::/36
-"LeaseWeb Netherlands B.V.",2a13:cc0::/29
 "LeaseWeb Netherlands B.V.",2a13:d40:1::/48
 "LeaseWeb Netherlands B.V.",2a13:d40:2::/48
 "LeaseWeb Netherlands B.V.",2a13:1380::/29
