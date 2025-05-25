@@ -14501,7 +14501,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-05-23 10:00:04.957430"
+Linode,"# Last modified: 2025-05-24 10:00:05.467557"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14924,7 +14924,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:4::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:6::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:8::/48
-"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a::/47
+"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:a::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:d::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:10::/47
@@ -15005,6 +15005,9 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Edgecast Inc.",2606:2800:e000::/48
 "Edgecast Inc.",2606:2800:e002::/47
 "Edgecast Inc.",2606:2800:e004::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
+"NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
 "PT Klinik Digital Indonesia JNHOST",2602:fbe8:f3::/48
 "NSI Hosting",2605:9500:212::/47
@@ -15193,6 +15196,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:c0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2606:5c80::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1000::/39
+"Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1400::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1800::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1c00::/40
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:2400::/39
@@ -15570,6 +15574,7 @@ EGIHosting,2a11:bd40::/29
 "Webspace Hosting B.V.",2a0b:3c40:13::/48
 "PIO-Hosting GmbH",2a10:ca80::/48
 "HOSTLINE, UAB",2001:df3:67c0::/48
+"HOSTLINE, UAB",2a00:1eb8:c000::/48
 "HOSTLINE, UAB",2a07:8980::/32
 "HOSTLINE, UAB",2a07:8982::/32
 "HOSTLINE, UAB",2a07:8983:1000::/36
@@ -16480,7 +16485,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -19115,7 +19120,6 @@ LayerHost,2406:2580::/32
 "Ace Host, LLC",2606:6680:50::/48
 "Ace Host, LLC",2607:1740:1000::/36
 "GoDaddy.com, LLC",2a01:488:bb12::/48
-"Equinix, Inc.",2607:f6f0:1400::/40
 "VPS House Technology Group LLC",2001:550:a15::/48
 "VPS House Technology Group LLC",2602:fcd5:2::/47
 "VPS House Technology Group LLC",2602:fcd5:4::/46
@@ -19431,7 +19435,7 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L.",2a0b:cf43::/32
 "PQ HOSTING PLUS S.R.L.",2a0b:cf45::/32
 "PQ HOSTING PLUS S.R.L.",2a0b:cf46::/31
-"PQ HOSTING PLUS S.R.L.",2a11:3800::/31
+"PQ HOSTING PLUS S.R.L.",2a11:3800::/32
 "PQ HOSTING PLUS S.R.L.",2a11:3802::/32
 "PQ HOSTING PLUS S.R.L.",2a11:3805::/32
 "PQ HOSTING PLUS S.R.L.",2a11:3c00::/30
@@ -19942,6 +19946,7 @@ Sharktech,2a0c:c181::/32
 "RAM Host",2605:8900:1000::/36
 "RAM Host",2605:8900:3000::/36
 "RAM Host",2605:8900:5000::/36
+"GorillaServers, Inc.",2602:f797::/40
 "GorillaServers, Inc.",2606:c700::/32
 "Priority Colo Inc",2607:f699::/32
 "Fastly, Inc.",2001:df0:45f::/48
@@ -20058,8 +20063,8 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:40f0::/48
 "Fastly, Inc.",2a04:4e40:4200::/48
 "Fastly, Inc.",2a04:4e40:4400::/48
-"Fastly, Inc.",2a04:4e40:4410::/48
-"Fastly, Inc.",2a04:4e40:4440::/48
+"Fastly, Inc.",2a04:4e40:4410::/44
+"Fastly, Inc.",2a04:4e40:4440::/44
 "Fastly, Inc.",2a04:4e40:44f0::/48
 "Fastly, Inc.",2a04:4e40:4600::/48
 "Fastly, Inc.",2a04:4e40:4610::/48
@@ -20288,6 +20293,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:e040::/44
 "Fastly, Inc.",2a04:4e40:e200::/48
 "Fastly, Inc.",2a04:4e40:e210::/48
+"Fastly, Inc.",2a04:4e40:e220::/48
 "Fastly, Inc.",2a04:4e40:e230::/48
 "Fastly, Inc.",2a04:4e40:e240::/44
 "Fastly, Inc.",2a04:4e40:e2f0::/48
