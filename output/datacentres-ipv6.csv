@@ -14586,7 +14586,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-06-11 10:00:04.990314"
+Linode,"# Last modified: 2025-06-12 10:00:05.123190"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15039,7 +15039,8 @@ ExonHost,2400:7920::/32
 "RIMU HOSTING LIMITED",2403:4f00::/36
 "OBHost LLC",2001:df7:c380::/48
 "Free Range Cloud Hosting Inc",2602:fed2::/48
-"Free Range Cloud Hosting Inc",2a0f:9400::/46
+"Free Range Cloud Hosting Inc",2a0f:9400::/47
+"Free Range Cloud Hosting Inc",2a0f:9400:2::/48
 "Free Range Cloud Hosting Inc",2a0f:9400:4::/48
 "Free Range Cloud Hosting Inc",2a0f:9400:6::/48
 "SD Data Center",2401:dac0::/32
@@ -15101,6 +15102,8 @@ ExonHost,2400:7920::/32
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
 "PT Klinik Digital Indonesia JNHOST",2602:fbe8:f3::/48
+"PT Klinik Digital Indonesia JNHOST",2602:fbe8:f4::/47
+"PT Klinik Digital Indonesia JNHOST",2a13:9500:40::/48
 "NSI Hosting",2605:9500:212::/47
 "NSI Hosting",2605:9500:b001::/48
 "Greenhost BV",2402:20c0:1::/48
@@ -15117,7 +15120,6 @@ ExonHost,2400:7920::/32
 "NTT Global Data Centers Americas, INC.",2606:9500:3000::/36
 "Hosting Solution Ltd.",2606:5e00::/36
 "Hosting Solution Ltd.",2606:5e00:f000::/36
-"Hosting Solution Ltd.",2a06:a5c0::/29
 "Hosting Solution Ltd.",2a06:dfc0::/29
 "Hosting Solution Ltd.",2a07:4dc0::/29
 "Hosting Solution Ltd.",2a07:b400::/29
@@ -15129,15 +15131,11 @@ ExonHost,2400:7920::/32
 "Hosting Solution Ltd.",2a0f:e00::/29
 "Hosting Solution Ltd.",2a0f:19c0::/29
 "Hosting Solution Ltd.",2a0f:2300::/29
-"Hosting Solution Ltd.",2a0f:2840::/29
 "Hosting Solution Ltd.",2a0f:2d40::/29
 "Hosting Solution Ltd.",2a0f:3240::/29
 "Hosting Solution Ltd.",2a0f:35c0::/29
 "Hosting Solution Ltd.",2a0f:36c0::/29
-"Hosting Solution Ltd.",2a0f:9e00::/29
-"Hosting Solution Ltd.",2a0f:a200::/29
 "Hosting Solution Ltd.",2a0f:e540::/29
-"Hosting Solution Ltd.",2a0f:e600::/29
 "Hosting Solution Ltd.",2a0f:e9c0::/29
 "Hosting Solution Ltd.",2a10:30c0::/29
 "Hosting Solution Ltd.",2a10:3140::/29
@@ -15154,27 +15152,17 @@ ExonHost,2400:7920::/32
 "Hosting Solution Ltd.",2a10:7100::/29
 "Hosting Solution Ltd.",2a10:7300::/29
 "Hosting Solution Ltd.",2a10:7500::/29
-"Hosting Solution Ltd.",2a10:7900::/29
 "Hosting Solution Ltd.",2a10:7b00::/29
 "Hosting Solution Ltd.",2a10:7d00::/29
-"Hosting Solution Ltd.",2a11:4800::/29
 "Hosting Solution Ltd.",2a11:7440::/29
 "Hosting Solution Ltd.",2a11:89c0::/29
-"Hosting Solution Ltd.",2a11:e580::/29
-"Hosting Solution Ltd.",2a12:2c80::/29
-"Hosting Solution Ltd.",2a12:4b00::/29
-"Hosting Solution Ltd.",2a12:5e00::/29
 "Hosting Solution Ltd.",2a12:d100::/29
-"Hosting Solution Ltd.",2a12:d540::/29
-"Hosting Solution Ltd.",2a12:d5c0::/29
 "Hosting Solution Ltd.",2a13:200::/29
 "Hosting Solution Ltd.",2a13:2bc0::/29
 "Hosting Solution Ltd.",2a13:3080::/29
 "Hosting Solution Ltd.",2a13:8f00::/29
-"Hosting Solution Ltd.",2a13:9680::/29
 "Hosting Solution Ltd.",2a13:a100::/29
 "Hosting Solution Ltd.",2a13:df00::/29
-"Hosting Solution Ltd.",2a13:f900::/29
 "PacketHub S.A.",2407:e8c0::/44
 "PacketHub S.A.",2407:e8c0:11::/48
 "PacketHub S.A.",2407:e8c0:12::/47
@@ -15784,11 +15772,19 @@ EGIHosting,2a11:bd40::/29
 "Akamai International B.V.",2a0b:35c0::/30
 "ALEXHOST SRL",2001:678:6d4::/48
 "ALEXHOST SRL",2a00:1728:3e::/47
+"ALEXHOST SRL",2a09:f1c3::/32
+"ALEXHOST SRL",2a09:f9c4::/32
 "ALEXHOST SRL",2a0a:8d80:1::/48
+"ALEXHOST SRL",2a0e:5cc6::/32
+"ALEXHOST SRL",2a0e:7343::/32
+"ALEXHOST SRL",2a0e:8844::/32
+"ALEXHOST SRL",2a0e:b1c5::/32
+"ALEXHOST SRL",2a0f:c04::/32
 "ALEXHOST SRL",2a0f:5f40::/47
 "ALEXHOST SRL",2a0f:5f40:1000::/48
 "ALEXHOST SRL",2a0f:5f45::/32
 "ALEXHOST SRL",2a0f:5f46::/32
+"ALEXHOST SRL",2a0f:72c6::/32
 "Kaspersky Lab Switzerland GmbH",2a03:2480:68::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:70::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:80::/48
@@ -16488,7 +16484,6 @@ StabiliServers,2605:e480:11::/48
 "Scandinavian Hosting AB",2a07:2446:1000::/36
 "Partner Hosting LTD",2a0c:9a40:9404::/47
 "Hetzner Online GmbH",2a01:4ff:200::/40
-"Menno Job Gravekamp trading as Atrioxhosting",2a14:7c2:1004::/48
 "xTom Japan Corporation",2a14:1f80::/29
 "HostingBazis Beteti Tarsasag",2a14:2f40::/32
 "GoodLeaf Hosting & Development LLC",2602:299:40::/48
@@ -16569,6 +16564,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c72::/48
 "Zenlayer Inc",2602:ffe4:c79::/48
 "Zenlayer Inc",2602:ffe4:c7a::/47
+"Zenlayer Inc",2602:ffe4:c7e::/48
 "Zenlayer Inc",2604:980:1000::/36
 "Zenlayer Inc",2604:980:2000::/35
 "Zenlayer Inc",2604:980:4000::/35
@@ -16876,6 +16872,7 @@ MOJOHOST,2607:ffb8::/32
 "EDGEUNO ECUADOR S.A.",2800:b30::/31
 "iHosting Servicios Internet Ltda.",2803:b480::/48
 "iHosting Servicios Internet Ltda.",2a03:f80:56::/48
+"Com4 Data Center Ltda",2804:160::/32
 "Host One Servicos de Internet Ltda",2804:8c:dc01::/48
 "EDGEUNO MEXICO SA DE CV",2806:3dd::/32
 "HOSTLOCATION LTDA",2804:3414::/32
@@ -16913,6 +16910,7 @@ MOJOHOST,2607:ffb8::/32
 "velia.net Internetdienste GmbH",2a01:7a0::/32
 "velia.net Internetdienste GmbH",2a01:7a7::/32
 "velia.net Internetdienste GmbH",2a0f:4a00::/29
+"velia.net Internetdienste GmbH",2a10:b5c1::/32
 "velia.net Internetdienste GmbH",2a10:e380::/32
 "LLC Hostmaster",2001:67c:258::/48
 "LLC Hostmaster",2001:4130:20::/48
@@ -17401,7 +17399,6 @@ Steadfast,2607:f128::/32
 "HostDime.com, Inc.",2607:fcd8::/43
 "HostDime.com, Inc.",2607:fcd8:20::/44
 "HostDime.com, Inc.",2803:c40::/32
-"HostDime.com, Inc.",2806:213::/32
 "HostDime.com, Inc.",2a04:840::/44
 "Hive Data Center Inc.",2602:fd23::/36
 "Hive Data Center Inc.",2606:6680:45::/48
@@ -17424,7 +17421,6 @@ Steadfast,2607:f128::/32
 "UFO Hosting LLC",2a09:7c47::/32
 "Host Europe GmbH",2001:1520:3::/48
 "Host Europe GmbH",2001:1520:100::/40
-"Host Europe GmbH",2a00:1158::/32
 "Host Europe GmbH",2a00:1168:101::/48
 "Akamai International B.V.",2001:4878:c254::/48
 "Akamai International B.V.",2001:4878:c270::/47
@@ -19321,6 +19317,7 @@ LayerHost,2406:2580::/32
 "VPS House Technology Group LLC",2602:fcd5:40::/47
 "VPS House Technology Group LLC",2602:fcd5:46::/47
 "VPS House Technology Group LLC",2602:fcd5:48::/46
+"VPS Solutions, LLC",2602:fb9c::/40
 "Red Hat, Inc.",2620:52:10::/48
 "Rackspace Ltd.",2a0b:440::/32
 "AME Hosting LLC",2602:fb89::/44
@@ -19370,7 +19367,6 @@ HostPapa,2620:b:e000::/48
 "Supreme Servers",2606:fe80:20::/44
 "BulletServers LLC",2602:f646:2::/48
 "Ace Data Centers II, L.L.C.",2604:ba00:f000::/36
-"TECH SERVE HOSTING LLC",2602:f932::/40
 "Colocataires Inc.",2602:f72c::/48
 "Web Host Most, LLC",2602:f72d::/37
 "Web Host Most, LLC",2602:f72d:800::/38
@@ -19895,7 +19891,6 @@ Sharktech,2a0c:c181::/32
 "Ferdinand Zink trading as Tube-Hosting",2a12:b200::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:de40::/32
 "QHost LLC",2001:67c:c6c::/48
-"Akamai International B.V.",2606:6c00:6001::/48
 "Akamai International B.V.",2606:6c00:6002::/47
 "Akamai International B.V.",2606:6c00:6004::/48
 "WorldStream B.V.",2a00:7c80::/30
@@ -19964,7 +19959,6 @@ Sharktech,2a0c:c181::/32
 "WebSupport s.r.o.",2a00:4b40::/32
 "WebSupport s.r.o.",2a02:250:2::/48
 "WebSupport s.r.o.",2a02:4a8:10::/48
-"WebSupport s.r.o.",2a0e:bb40::/48
 "Dade Pardazi Mobinhost Co LTD",2a0a:2fc4::/32
 "H4Hosting BV",2a01:5cc0::/32
 "H4Hosting BV",2a0f:b580::/29
@@ -20546,6 +20540,7 @@ Sharktech,2a0c:c181::/32
 "Equinix, Inc.",2607:f6f0:2000::/40
 "InMotion Hosting, Inc.",2602:f96b::/40
 "InMotion Hosting, Inc.",2605:f400:2::/47
+"Midwest Data Center, Inc.",2606:e40::/32
 "Packet Host, Inc.",2604:1380::/42
 "Packet Host, Inc.",2604:1380:50::/44
 "Packet Host, Inc.",2604:1380:60::/43
@@ -21217,6 +21212,7 @@ HostUS,2a0f:5707:ab2b::/48
 "xTom Pty Ltd",2a11:8081::/32
 "xTom Pty Ltd",2a11:8082::/31
 "Host Europe GmbH",2001:1520::/32
+"Host Europe GmbH",2a00:1158::/32
 "VSHosting s.r.o.",2a02:5420:1::/48
 "VSHosting s.r.o.",2a0a:54c1:28::/47
 "Adman LLC",2a0b:4300::/29
