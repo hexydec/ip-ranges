@@ -162,11 +162,12 @@ class generate {
 		}
 
 		// close file handles
-		foreach ($handles AS $key => $item) {
-			if ($key === '.json' && \fwrite($handle, "\n]") === false) {
+		foreach ($handles AS $file => $handle) {
+			$ext = \mb_strrchr($file, '.');
+			if ($ext === '.json' && \fwrite($handle, "\n]") === false) {
 				return false;
 			}
-			\fclose($item);
+			\fclose($handle);
 		}
 		return $i;
 	}
