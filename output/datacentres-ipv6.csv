@@ -14657,7 +14657,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-06-29 10:00:04.787356"
+Linode,"# Last modified: 2025-06-30 10:00:05.243488"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15016,7 +15016,6 @@ MegaHostZone,2001:df1:b900::/48
 "HaNoi State data center",2001:df3:a980::/48
 "PT Cloud Hosting Indonesia",2001:df7:7400::/48
 "Medha Hosting",2400:8dc0::/32
-HOSTOMEGA,2001:df4:8a40::/48
 HOSTOMEGA,2001:df4:adc0::/47
 "Flexential Colorado Corp.",2600:3000::/29
 "Flexential Colorado Corp.",2602:f788::/38
@@ -15058,6 +15057,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "CyberWorld Data Center Co.,Ltd.",2405:2500:5::/48
 "CyberWorld Data Center Co.,Ltd.",2405:2500:11::/48
 "LIFTUP HOSTING PTY LTD",2a05:dfc1:1d00::/40
+"Asia Colo (HK) Limited",2401:f6a0::/35
 "Asia Colo (HK) Limited",2407:47c0::/35
 "PacketHub S.A.",2a13:240:8000::/40
 "PacketHub S.A.",2a13:240:8888::/48
@@ -15067,6 +15067,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "strateq data centre sdn bhd",2001:df2:8100::/48
 "Localhost Limited",2402:3cc0::/32
 "Datacenter IP, LLC",2604:6080::/32
+"Datacenter IP, LLC",2a0c:acc0::/29
 "Unitas Global",2600:c0e::/32
 "Unitas Global",2600:c14::/32
 "Unitas Global",2600:c13::/32
@@ -15481,8 +15482,7 @@ EGIHosting,2a11:bd40::/29
 "Enzu Inc",2605:f700:180::/44
 "Enzu Inc",2605:f700:480::/41
 "Enzu Inc",2605:f700:500::/40
-"Enzu Inc",2605:f700:800::/42
-"Enzu Inc",2605:f700:880::/41
+"Enzu Inc",2605:f700:800::/40
 "Unitas Global",2600:c10::/32
 "Scala Data Centers",2804:38:3403::/48
 "Scala Data Centers",2804:38:3404::/48
@@ -15631,8 +15631,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:218::/46
 "Incapsula Inc",2a02:e980:21d::/48
 "Incapsula Inc",2a02:e980:21e::/47
-"Incapsula Inc",2a02:e980:220::/46
-"Incapsula Inc",2a02:e980:224::/47
+"Incapsula Inc",2a02:e980:220::/45
+"Incapsula Inc",2a02:e980:228::/48
 "Incapsula Inc",2a02:e980:22a::/47
 "Incapsula Inc",2a02:e980:22c::/46
 "Incapsula Inc",2a02:e980:230::/45
@@ -16076,7 +16076,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a07:5580::/32
 "The Constant Company, LLC",2a07:a341::/32
 "The Constant Company, LLC",2a09:e1c1:f000::/44
-"The Constant Company, LLC",2a09:e1c1:f800::/37
 "The Constant Company, LLC",2a0a:3400::/29
 "The Constant Company, LLC",2a0a:7180:80::/48
 "The Constant Company, LLC",2a0a:79c0:d00::/44
@@ -16145,7 +16144,6 @@ StabiliServers,2605:e480:11::/48
 "Leaseweb UK Limited",2a0f:e440::/29
 "Leaseweb UK Limited",2a0f:e6c6:bf88::/48
 "Leaseweb UK Limited",2a0f:ea44:88::/48
-"Leaseweb UK Limited",2a10:33c0::/29
 "Leaseweb UK Limited",2a10:3440::/29
 "Leaseweb UK Limited",2a10:3840::/29
 "Leaseweb UK Limited",2a11:3240::/29
@@ -16186,6 +16184,7 @@ StabiliServers,2605:e480:11::/48
 "hosttech GmbH",2a11:8b81::/32
 "hosttech GmbH",2a11:8b82::/32
 "hosttech GmbH",2a11:8b83:1::/48
+"Stormnet Hosting LTD",2a13:9500:98::/48
 "MEVSPACE sp. z o.o.",2001:67c:2498::/48
 "MARKAHOST TELEKOMUNIKASYON VE TICARET LIMITED SIRKETI",2a12:aac0::/44
 "LLP Kompaniya Hoster.KZ",2a06:940::/48
@@ -16201,6 +16200,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",2a00:1168::/32
 "Host Europe GmbH",2a01:488::/32
 "Hosteur SA",2a07:5c80::/29
+"Association FIVEHOST",2a10:4646:4e0::/44
 "YOLO COLO AS",2a0f:b6c0::/29
 "SERV.HOST GROUP LTD",2a01:ecc0:2c1::/48
 "SERV.HOST GROUP LTD",2a01:ecc0:3c0::/42
@@ -16208,7 +16208,6 @@ StabiliServers,2605:e480:11::/48
 "SERV.HOST GROUP LTD",2a01:ecc0:480::/41
 "SERV.HOST GROUP LTD",2a01:ecc0:500::/41
 "SERV.HOST GROUP LTD",2a05:8e80::/29
-"HostRoyale Technologies Pvt Ltd",2600:2900::/32
 "HostRoyale Technologies Pvt Ltd",2600:2902::/31
 "Go Host Ltd",2a14:c380:160::/43
 "Go Host Ltd",2a14:c380:180::/43
@@ -16598,6 +16597,7 @@ StabiliServers,2605:e480:11::/48
 "New Hosting Technologies LLC",2a12:b3c0:1::/48
 "Civilized Hosting LLC",2602:fa1c:120::/48
 "UAB Cherry Servers",2a02:ae00:1000::/36
+"Colocation America Corporation",2602:fed3:6::/48
 "Colocation America Corporation",2602:fed3:b::/48
 "Colocation America Corporation",2602:fed3:11::/48
 "Colocation America Corporation",2605:a240::/32
@@ -16698,7 +16698,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3200::/39
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/47
+"ZSCALER, INC.",2a03:eec0:3213::/48
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -16727,7 +16727,6 @@ DEFT.COM,2620:7d::/48
 "HostRocket.com, Inc.",2605:f080:500::/40
 "Equinix Asia Pacific Pte Ltd",2404:4f01::/33
 "UDomain Web Hosting Company Limited",2400:c300::/47
-"UDomain Web Hosting Company Limited",2400:db00::/32
 "Equinix Asia Pacific Pte Ltd",2407:b001:1000::/40
 "Equinix Asia Pacific Pte Ltd",2407:b001:3000::/40
 "EdgeIX Pty Ltd",2405:b640::/46
@@ -17343,7 +17342,6 @@ PloxHost,2606:fc40:4001::/48
 "WholeSale Internet, Inc.",2602:fed3:1::/48
 "WholeSale Internet, Inc.",2602:fed3:2::/47
 "WholeSale Internet, Inc.",2602:fed3:4::/47
-"WholeSale Internet, Inc.",2602:fed3:6::/48
 "WholeSale Internet, Inc.",2602:fed3:8::/47
 "xTom GmbH",2a03:d9c0:1000::/48
 "xTom GmbH",2a03:d9c0:2000::/48
@@ -17859,8 +17857,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:b220::/44
 "Akamai Technologies, Inc.",2a02:26f7:b234::/46
 "Akamai Technologies, Inc.",2a02:26f7:b238::/45
-"Akamai Technologies, Inc.",2a02:26f7:b240::/45
-"Akamai Technologies, Inc.",2a02:26f7:b24c::/46
+"Akamai Technologies, Inc.",2a02:26f7:b240::/44
 "Akamai Technologies, Inc.",2a02:26f7:b250::/45
 "Akamai Technologies, Inc.",2a02:26f7:b25c::/46
 "Akamai Technologies, Inc.",2a02:26f7:b260::/44
@@ -18032,6 +18029,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:bd90::/48
 "Akamai Technologies, Inc.",2a02:26f7:bdc0::/48
 "Akamai Technologies, Inc.",2a02:26f7:bdc2::/48
+"Akamai Technologies, Inc.",2a02:26f7:bdc6::/48
 "Akamai Technologies, Inc.",2a02:26f7:bdc8::/48
 "Akamai Technologies, Inc.",2a02:26f7:bdcc::/48
 "Akamai Technologies, Inc.",2a02:26f7:bdd0::/48
@@ -18677,6 +18675,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:e644::/48
 "Akamai Technologies, Inc.",2a02:26f7:e680::/48
 "Akamai Technologies, Inc.",2a02:26f7:e682::/48
+"Akamai Technologies, Inc.",2a02:26f7:e684::/48
 "Akamai Technologies, Inc.",2a02:26f7:e68c::/48
 "Akamai Technologies, Inc.",2a02:26f7:e6c0::/48
 "Akamai Technologies, Inc.",2a02:26f7:e6c2::/48
@@ -18935,6 +18934,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:f6d0::/48
 "Akamai Technologies, Inc.",2a02:26f7:f6d4::/47
 "Akamai Technologies, Inc.",2a02:26f7:f6d8::/47
+"Akamai Technologies, Inc.",2a02:26f7:f6da::/48
 "Akamai Technologies, Inc.",2a02:26f7:f6dc::/48
 "Akamai Technologies, Inc.",2a02:26f7:f6e0::/47
 "Akamai Technologies, Inc.",2a02:26f7:f6e8::/47
@@ -19148,6 +19148,8 @@ Zenlayer,2407:62c0::/32
 "31173 Services AB",2a06:de00:12::/48
 "31173 Services AB",2a06:de00:16::/48
 "31173 Services AB",2a07:e344::/32
+"31173 Services AB",2a0b:4e07:60e0::/44
+"31173 Services AB",2a0c:9a46:a00::/40
 "31173 Services AB",2a10:ccc2:20::/44
 "Akamai Technologies, Inc.",2606:6c00:2000::/48
 "Tucows.com Co.",2620:57:4001::/48
@@ -19839,7 +19841,8 @@ Steadfast,2607:f128::/48
 LayerHost,2604:d180::/32
 "Lamhosting LLC",2602:f8c0:1::/48
 "Lamhosting LLC",2602:f8c0:2::/47
-"Lamhosting LLC",2602:f8c0:4::/46
+"Lamhosting LLC",2602:f8c0:4::/47
+"Lamhosting LLC",2602:f8c0:7::/48
 "Lamhosting LLC",2602:f8c0:8::/47
 Sharktech,2604:c980:4600::/40
 Sharktech,2610:150::/32
@@ -19876,7 +19879,10 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2a0a:6044:7::/48
 "HYEHOST LTD",2a0a:6044:8::/46
 "HYEHOST LTD",2a0f:6280:a::/48
+"HYEHOST LTD",2a0f:6280:10::/46
 "HYEHOST LTD",2a0f:6280:14::/48
+"HYEHOST LTD",2a0f:6280:19::/48
+"HYEHOST LTD",2a0f:6280:1a::/48
 "VPS4You Kft.",2a02:730:7000::/48
 "D.O.O.Domen Drustvo za Proizvodnju,Promet i Usluge - Podgorica",2001:678:408::/48
 "IpHost P.C.",2a02:ce00::/29
@@ -20172,11 +20178,6 @@ Sharktech,2a0c:c181::/32
 "Free Range Cloud Hosting Inc.",2602:fed2:7e84::/48
 "Free Range Cloud Hosting Inc.",2620:13a:c000::/40
 "Free Range Cloud Hosting Inc.",2a07:9200::/32
-"Free Range Cloud Hosting Inc.",2a07:9203::/32
-"Free Range Cloud Hosting Inc.",2a07:9204::/31
-"Free Range Cloud Hosting Inc.",2a0c:a582::/31
-"Free Range Cloud Hosting Inc.",2a0c:a585::/32
-"Free Range Cloud Hosting Inc.",2a0c:a587::/32
 "Free Range Cloud Hosting Inc.",2a0d:5100::/29
 "Free Range Cloud Hosting Inc.",2a0f:9400:fa0::/43
 "Free Range Cloud Hosting Inc.",2a0f:9400:6101::/48
@@ -20186,6 +20187,7 @@ Sharktech,2a0c:c181::/32
 "Free Range Cloud Hosting Inc.",2a0f:9400:6148::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:614b::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:614c::/48
+"Free Range Cloud Hosting Inc.",2a0f:9400:61e0::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6906::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:6920::/44
 "Free Range Cloud Hosting Inc.",2a0f:9400:6931::/48
@@ -20202,9 +20204,6 @@ Sharktech,2a0c:c181::/32
 "Free Range Cloud Hosting Inc.",2a0f:9400:8012::/48
 "Free Range Cloud Hosting Inc.",2a0f:9400:8024::/48
 "Free Range Cloud Hosting Inc.",2a0f:9405::/32
-"Free Range Cloud Hosting Inc.",2a10:dfc1::/32
-"Free Range Cloud Hosting Inc.",2a10:dfc2::/31
-"Free Range Cloud Hosting Inc.",2a10:dfc4::/30
 "Free Range Cloud Hosting Inc.",2a14:7c7::/32
 "ZSCALER, INC.",2400:7aa0:1200::/39
 "ZSCALER, INC.",2400:7aa0:1400::/38
@@ -20296,6 +20295,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:1830::/44
 "Fastly, Inc.",2a04:4e40:1840::/44
 "Fastly, Inc.",2a04:4e40:1850::/48
+"Fastly, Inc.",2a04:4e40:1a00::/44
 "Fastly, Inc.",2a04:4e40:1c00::/47
 "Fastly, Inc.",2a04:4e40:1c30::/47
 "Fastly, Inc.",2a04:4e40:1c40::/47
@@ -20310,7 +20310,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:2410::/48
 "Fastly, Inc.",2a04:4e40:24f0::/48
 "Fastly, Inc.",2a04:4e40:2600::/47
-"Fastly, Inc.",2a04:4e40:2800::/48
+"Fastly, Inc.",2a04:4e40:2800::/44
 "Fastly, Inc.",2a04:4e40:2a00::/48
 "Fastly, Inc.",2a04:4e40:2a10::/44
 "Fastly, Inc.",2a04:4e40:2a20::/43
@@ -20898,7 +20898,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V.",2a0f:1200:11::/48
 "LeaseWeb Netherlands B.V.",2a0f:1204::/31
 "LeaseWeb Netherlands B.V.",2a0f:1206:22::/48
-"LeaseWeb Netherlands B.V.",2a0f:1380::/29
 "LeaseWeb Netherlands B.V.",2a0f:1440::/29
 "LeaseWeb Netherlands B.V.",2a0f:1e83::/32
 "LeaseWeb Netherlands B.V.",2a0f:1e85::/32
@@ -21126,6 +21125,7 @@ GTHost,2a0f:f400::/29
 GTHost,2a13:1480::/29
 GTHost,2a13:18c2::/32
 "NOHAVPS LLC",2602:f8ea::/40
+"Critical Hosting Solutions LLC",2607:1580::/32
 "Pacific Servers Inc.",2602:80b:7000::/44
 "Pacific Servers Inc.",2605:cf80::/32
 "Tucows.com Co.",2620:57:4002::/48
