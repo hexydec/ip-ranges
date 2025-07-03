@@ -14657,7 +14657,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-07-01 10:00:05.377331"
+Linode,"# Last modified: 2025-07-02 10:00:06.657239"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -14921,6 +14921,7 @@ Linode,2600:3c0f:53::/48
 "LLC Digital Network",2a0e:8081::/32
 "LLC Digital Network",2a11:3c47::/32
 "LLC Digital Network",2a12:1cc4::/32
+"Pulsant (Scotland) Ltd",2001:4dc0::/32
 "Pulsant (Scotland) Ltd",2a00:85a0::/32
 "Pulsant (Scotland) Ltd",2a01:5ae0::/32
 "Pulsant (Scotland) Ltd",2a01:6ca0::/32
@@ -15058,6 +15059,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "CyberWorld Data Center Co.,Ltd.",2405:2500:5::/48
 "CyberWorld Data Center Co.,Ltd.",2405:2500:11::/48
 "LIFTUP HOSTING PTY LTD",2a05:dfc1:1d00::/40
+"Asia Colo (HK) Limited",2401:f6a0::/35
 "Asia Colo (HK) Limited",2407:47c0::/35
 "PacketHub S.A.",2a13:240:8000::/40
 "PacketHub S.A.",2a13:240:8888::/48
@@ -15104,6 +15106,7 @@ ExonHost,2400:7920::/32
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e001::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e002::/47
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e004::/48
+"Edgenext Legend Dynasty Pte. Ltd.",2407:2440:e009::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:f001::/48
 "Big Data Center Of Shandong Province",2405:f940::/32
 "Hyve Managed Hosting Corp Inc",2001:df0:fd80::/48
@@ -15354,14 +15357,17 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2407:b000::/31
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:40::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:80::/44
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:a0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:c0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:100::/43
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4040::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4060::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:40f0::/44
-"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4100::/44
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4100::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4500::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4520::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4630::/44
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4640::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2606:5c80::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1000::/39
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1400::/40
@@ -15639,7 +15645,6 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:230::/45
 "Incapsula Inc",2a02:e980:238::/47
 "Incapsula Inc",2a02:e980:240::/48
-"Incapsula Inc",2a02:e980:244::/48
 "Incapsula Inc",2a02:e981:1::/48
 "Incapsula Inc",2a02:e981:2::/47
 "Incapsula Inc",2a02:e981:4::/46
@@ -15784,7 +15789,7 @@ EGIHosting,2a11:bd40::/29
 "G-Core Labs S.A.",2a03:90c0:1d0::/44
 "G-Core Labs S.A.",2a03:90c0:1e0::/43
 "G-Core Labs S.A.",2a03:90c0:210::/44
-"G-Core Labs S.A.",2a03:90c0:220::/44
+"G-Core Labs S.A.",2a03:90c0:220::/43
 "G-Core Labs S.A.",2a03:90c0:240::/42
 "G-Core Labs S.A.",2a03:90c0:280::/43
 "G-Core Labs S.A.",2a03:90c0:2a0::/44
@@ -16187,6 +16192,7 @@ StabiliServers,2605:e480:11::/48
 "hosttech GmbH",2a11:8b83:1::/48
 "Stormnet Hosting LTD",2a13:9500:98::/48
 "MEVSPACE sp. z o.o.",2001:67c:2498::/48
+"MARKAHOST TELEKOMUNIKASYON VE TICARET LIMITED SIRKETI",2a12:aac0::/44
 "LLP Kompaniya Hoster.KZ",2a06:940::/48
 "LLP Kompaniya Hoster.KZ",2a06:940:2::/48
 "LLP Kompaniya Hoster.KZ",2a06:942::/48
@@ -16272,28 +16278,28 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a0c:4185::/32
 "I-SERVERS LTD",2a0c:6980::/29
 "I-SERVERS LTD",2a0d:3880::/29
-"I-SERVERS LTD",2a0d:f640::/31
-"I-SERVERS LTD",2a0e:8842::/32
+"I-SERVERS LTD",2a0d:f641::/32
 "I-SERVERS LTD",2a0e:d603::/32
-"I-SERVERS LTD",2a0f:72c7::/32
+"I-SERVERS LTD",2a11:15c0::/32
 "I-SERVERS LTD",2a11:21c0::/32
-"I-SERVERS LTD",2a11:21c7::/32
-"I-SERVERS LTD",2a11:2d80::/32
 "I-SERVERS LTD",2a11:3087::/32
 "I-SERVERS LTD",2a11:31c0::/32
-"I-SERVERS LTD",2a11:35c6::/32
 "I-SERVERS LTD",2a11:3d05::/32
+"I-SERVERS LTD",2a11:4a06::/32
 "I-SERVERS LTD",2a11:7087::/32
+"I-SERVERS LTD",2a11:8446::/32
 "I-SERVERS LTD",2a11:b682::/32
-"I-SERVERS LTD",2a11:b785::/32
+"I-SERVERS LTD",2a11:b784::/31
+"I-SERVERS LTD",2a11:c103::/32
+"I-SERVERS LTD",2a11:d086::/32
 "I-SERVERS LTD",2a11:d382::/32
-"I-SERVERS LTD",2a11:d387::/32
 "I-SERVERS LTD",2a11:d704::/32
-"I-SERVERS LTD",2a12:24c7::/32
+"I-SERVERS LTD",2a12:1806::/32
+"I-SERVERS LTD",2a12:24c0::/32
 "I-SERVERS LTD",2a12:3147::/32
-"I-SERVERS LTD",2a12:35c3::/32
+"I-SERVERS LTD",2a12:35c0::/32
+"I-SERVERS LTD",2a12:4145::/32
 "I-SERVERS LTD",2a12:4c06::/32
-"I-SERVERS LTD",2a14:9706::/32
 "LEONIX EVENTS SAS",2a0d:6f80:2302::/48
 "EuroByte LLC",2a03:80c0::/47
 "EuroByte LLC",2a03:c980:db::/48
@@ -16523,6 +16529,7 @@ StabiliServers,2605:e480:11::/48
 "VoltHosting Ltd",2a14:1ec7:f100::/40
 "Four Seasons Hosting LLC",2a0f:85c1:899::/48
 "Bulent Aydin trading as Hostlayici",2a13:a440:8::/48
+"Ali Koyuncu trading as Zumbak Hosting",2a14:37c0:f000::/48
 "STRATOSPHERE SERVERS LTD",2a0f:7803:fa10::/44
 "TECHHEDGE LABS ANS",2a05:a00::/32
 "Hostup AB",2a13:7c80::/31
@@ -17164,7 +17171,7 @@ FDCservers.net,2001:49f0:d07d::/48
 FDCservers.net,2001:49f0:d07e::/47
 FDCservers.net,2001:49f0:d082::/48
 FDCservers.net,2001:49f0:d084::/48
-FDCservers.net,2001:49f0:d087::/48
+FDCservers.net,2001:49f0:d086::/47
 FDCservers.net,2001:49f0:d089::/48
 FDCservers.net,2001:49f0:d08a::/48
 FDCservers.net,2001:49f0:d08d::/48
@@ -17418,7 +17425,6 @@ GigeNET,2604:2700::/32
 "xTom Japan Corporation",2403:fbc0:4000::/48
 "xTom Japan Corporation",2a09:7::/47
 "xTom Japan Corporation",2a0d:c7c1::/32
-"xTom Japan Corporation",2a0f:7800:900::/40
 "xTom Japan Corporation",2a12:a300::/31
 "xTom Japan Corporation",2a12:a302::/32
 "xTom Japan Corporation",2a12:a303:100::/40
@@ -19456,6 +19462,7 @@ BreezeHost,2602:fa62::/38
 HostPapa,2604:9780::/32
 HostPapa,2605:6f00::/32
 HostPapa,2605:6f03::/32
+HostPapa,2605:6f07::/32
 HostPapa,2606:bd00::/32
 HostPapa,2620:b:e000::/48
 "Iron Mountain Data Center",2605:3380:ff0f::/48
@@ -19876,13 +19883,10 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2602:f96d:ffd::/48
 "HYEHOST LTD",2a05:dfc3:f500::/40
 "HYEHOST LTD",2a06:1281:1000::/36
-"HYEHOST LTD",2a0a:6044::/46
-"HYEHOST LTD",2a0a:6044:4::/47
-"HYEHOST LTD",2a0a:6044:7::/48
-"HYEHOST LTD",2a0a:6044:8::/46
 "HYEHOST LTD",2a0f:6280:a::/48
 "HYEHOST LTD",2a0f:6280:10::/46
 "HYEHOST LTD",2a0f:6280:14::/47
+"HYEHOST LTD",2a0f:6280:16::/48
 "HYEHOST LTD",2a0f:6280:18::/47
 "HYEHOST LTD",2a0f:6280:1a::/48
 "VPS4You Kft.",2a02:730:7000::/48
@@ -19893,10 +19897,7 @@ Sharktech,2a0c:c181::/32
 "Hostinger International Limited",2a02:4780:8::/45
 "Hostinger International Limited",2a02:4780:10::/44
 "Hostinger International Limited",2a02:4780:20::/43
-"Hostinger International Limited",2a02:4780:40::/45
-"Hostinger International Limited",2a02:4780:49::/48
-"Hostinger International Limited",2a02:4780:4a::/47
-"Hostinger International Limited",2a02:4780:4c::/46
+"Hostinger International Limited",2a02:4780:40::/44
 "Hostinger International Limited",2a02:4780:50::/46
 "Hostinger International Limited",2a02:4780:55::/48
 "Hostinger International Limited",2a02:4780:56::/47
@@ -20325,6 +20326,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:2c00::/48
 "Fastly, Inc.",2a04:4e40:2e00::/44
 "Fastly, Inc.",2a04:4e40:3000::/48
+"Fastly, Inc.",2a04:4e40:3200::/48
 "Fastly, Inc.",2a04:4e40:3400::/48
 "Fastly, Inc.",2a04:4e40:3600::/48
 "Fastly, Inc.",2a04:4e40:3610::/48
@@ -20626,7 +20628,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:fa40::/47
 "Fastly, Inc.",2a04:4e40:fc00::/48
 "Fastly, Inc.",2a04:4e40:fc20::/48
-"Fastly, Inc.",2a04:4e40:fcf0::/48
 "Fastly, Inc.",2a04:4e40:fe00::/48
 "Fastly, Inc.",2a04:4e40:fe10::/44
 "Fastly, Inc.",2a04:4e40:fe30::/48
@@ -20648,18 +20649,17 @@ Sharktech,2a0c:c181::/32
 "Packet Host, Inc.",2604:1380:50::/44
 "Packet Host, Inc.",2604:1380:60::/43
 "Packet Host, Inc.",2604:1380:90::/44
-"Packet Host, Inc.",2604:1380:a0::/43
+"Packet Host, Inc.",2604:1380:b0::/44
 "Packet Host, Inc.",2604:1380:e0::/43
 "Packet Host, Inc.",2604:1380:1000::/36
 "Packet Host, Inc.",2604:1380:2000::/35
 "Packet Host, Inc.",2604:1380:4000::/44
 "Packet Host, Inc.",2604:1380:4030::/44
-"Packet Host, Inc.",2604:1380:4040::/43
+"Packet Host, Inc.",2604:1380:4050::/44
 "Packet Host, Inc.",2604:1380:4080::/43
 "Packet Host, Inc.",2604:1380:40a0::/44
 "Packet Host, Inc.",2604:1380:40d0::/44
 "Packet Host, Inc.",2604:1380:40e0::/44
-"Packet Host, Inc.",2604:1380:4110::/44
 "Packet Host, Inc.",2604:1380:4501::/48
 "Packet Host, Inc.",2604:1380:4502::/48
 "Packet Host, Inc.",2604:1380:4510::/44
@@ -20668,7 +20668,7 @@ Sharktech,2a0c:c181::/32
 "Packet Host, Inc.",2604:1380:4580::/43
 "Packet Host, Inc.",2604:1380:45c0::/42
 "Packet Host, Inc.",2604:1380:4600::/43
-"Packet Host, Inc.",2604:1380:4640::/43
+"Packet Host, Inc.",2604:1380:4650::/44
 "Packet Host, Inc.",2604:1380:4660::/44
 "Packet Host, Inc.",2604:1380:ffc0::/43
 "Packet Host, Inc.",2604:1380:ffe0::/44
@@ -20822,7 +20822,6 @@ Serversaurus,2401:38c0::/32
 "Mezhdugorodnyaya Mezhdunarodnaya Telefonnaya Stanciya Ltd.",2a03:5a00:3b::/48
 "Equinix, Inc.",2001:4818:6000::/36
 "SIA RixHost",2a02:4840:200::/47
-"Pulsant - Onyx Group",2001:4dc0::/32
 "LeaseWeb Netherlands B.V.",2001:678:10c::/48
 "LeaseWeb Netherlands B.V.",2001:1af8::/32
 "LeaseWeb Netherlands B.V.",2a00:5020::/48
@@ -21133,6 +21132,8 @@ GTHost,2a13:1480::/29
 GTHost,2a13:18c2::/32
 "NOHAVPS LLC",2602:f8ea::/40
 "Critical Hosting Solutions LLC",2607:1580::/32
+"H5 Data Centers",2604:2c40:1000::/36
+"H5 Data Centers",2604:2c40:2000::/36
 "Pacific Servers Inc.",2602:80b:7000::/44
 "Pacific Servers Inc.",2605:cf80::/32
 "Tucows.com Co.",2620:57:4002::/48
@@ -21319,6 +21320,7 @@ HostUS,2a0f:5707:ab2b::/48
 "xTom Pty Ltd",2a11:8080:100::/46
 "xTom Pty Ltd",2a11:8080:200::/48
 "xTom Pty Ltd",2a11:8080:300::/40
+"xTom Pty Ltd",2a11:8080:500::/48
 "xTom Pty Ltd",2a11:8081::/32
 "xTom Pty Ltd",2a11:8082::/31
 "Host Europe GmbH",2001:1520::/32
