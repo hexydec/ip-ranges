@@ -14887,7 +14887,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-07-18 10:00:05.113240"
+Linode,"# Last modified: 2025-07-19 10:00:04.761838"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16323,6 +16323,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a13:1002::/48
 "The Constant Company, LLC",2a13:5681:a181::/48
 "The Constant Company, LLC",2a13:9500:61::/48
+"The Constant Company, LLC",2a13:9500:ae::/48
 "The Constant Company, LLC",2a14:7584:8000::/36
 "UAB Cherry Servers",2a02:ae02::/36
 "HOSTEUR SAS",2a0d:5380::/29
@@ -16740,6 +16741,7 @@ StabiliServers,2605:e480:11::/48
 "Ultahost, Inc.",2a00:dd0:eeee::/48
 "Ikoula Net SAS",2a00:c70::/32
 "Horizon Hosting Limited",2a07:5c0:1::/48
+"Horizon Hosting Limited",2a07:5c0:2::/48
 "Intrahost Solutions Ltd",2a14:8300::/29
 "Julian Kempf trading as Host-Zentrum",2a11:29c0:4d::/48
 "UAB Cherry Servers",2a02:ae00:2000::/36
@@ -16774,13 +16776,10 @@ StabiliServers,2605:e480:11::/48
 "netcup GmbH",2a0a:4cc0:2000::/48
 "Maik Polman trading as PixelHosting",2a06:9f41::/32
 "Association By-Hoster",2a13:9500:a8::/48
-"Association HwHost",2a10:4646:450::/44
-"Association HwHost",2a13:9500:91::/48
 "Gravhosting LLC",2602:fb54:155::/48
 "Gravhosting LLC",2a14:7c0:1800::/38
 "Gravhosting LLC",2a14:7c0:4800::/40
 "UK Dedicated Servers Limited",2a01:a501::/32
-"Thomas Sebastiaan Viet trading as Wasabi Hosting",2a0e:fd45:2e50::/48
 "SummerHosting sp. z o. o.",2a0e:97c0:670::/44
 "SummerHosting sp. z o. o.",2a14:1ec7:1100::/40
 "Wisconsin CyberLynk Network, Inc.",2604:cb80::/32
@@ -16807,6 +16806,7 @@ StabiliServers,2605:e480:11::/48
 "SERVERS TECH FZCO",2a14:1e00:2::/47
 "Root Localhost LLC",2a0e:97c0:df0::/46
 "INTERNATIONAL HOSTING COMPANY LIMITED",2a0d:d940:13::/48
+"INTERNATIONAL HOSTING COMPANY LIMITED",2a0d:d940:14::/48
 "INTERNATIONAL HOSTING COMPANY LIMITED",2a0f:cdc6:50::/44
 "INTERNATIONAL HOSTING COMPANY LIMITED",2a0f:cdc6:500::/44
 "Iron Hosting Centre LTD",2a03:80c0:abba::/48
@@ -17367,6 +17367,7 @@ MOJOHOST,2607:ffb8::/32
 "HIVELOCITY, Inc.",2a0f:bc00:a1c4::/48
 "HIVELOCITY, Inc.",2a0f:e7c5:98bc::/48
 "HIVELOCITY, Inc.",2c0f:8c0:1::/48
+"Atlantic Metro Communications II, Inc.",2001:550:5c03::/48
 "Atlantic Metro Communications II, Inc.",2001:1980::/32
 "Atlantic Metro Communications II, Inc.",2602:ffb5::/36
 "Atlantic Metro Communications II, Inc.",2602:ffd8::/36
@@ -17547,7 +17548,6 @@ Host-Engine.com,2602:fa82::/36
 "Leaseweb USA, Inc.",2a13:e107:22::/48
 "aurologic GmbH",2602:fa59::/40
 "aurologic GmbH",2a01:367::/32
-"aurologic GmbH",2a09:38c0::/29
 "aurologic GmbH",2a0c:3580::/29
 "aurologic GmbH",2a0c:6a40::/29
 "aurologic GmbH",2a0d:4cc0::/29
@@ -19353,7 +19353,7 @@ Zenlayer,2407:62c0::/32
 "31173 Services AB",2a03:1b20:901::/48
 "31173 Services AB",2a03:1b20:bef1::/48
 "31173 Services AB",2a03:1b20:bef2::/48
-"31173 Services AB",2a03:1b21:100::/40
+"31173 Services AB",2a03:1b21:100::/48
 "31173 Services AB",2a06:de00:16::/48
 "31173 Services AB",2a07:e344::/32
 "31173 Services AB",2a0b:4e07:60e0::/44
@@ -20082,7 +20082,6 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2602:f96d:f00::/44
 "HYEHOST LTD",2602:f96d:f71::/48
 "HYEHOST LTD",2602:f96d:f72::/48
-"HYEHOST LTD",2602:f96d:fe0::/44
 "HYEHOST LTD",2602:f96d:ffb::/48
 "HYEHOST LTD",2602:f96d:ffd::/48
 "HYEHOST LTD",2a05:dfc3:f500::/40
@@ -20296,6 +20295,7 @@ Sharktech,2a0c:c181::/32
 "WebSupport s.r.o.",2a00:4b40::/32
 "WebSupport s.r.o.",2a02:250:2::/48
 "WebSupport s.r.o.",2a02:4a8:10::/48
+"Dade Pardazi Mobinhost Co LTD",2a0a:2fc4::/32
 "H4Hosting BV",2a01:5cc0::/32
 "H4Hosting BV",2a0f:b580::/29
 "EdgeUno, Inc.",2a0c:e080::/44
@@ -21220,7 +21220,6 @@ Serversaurus,2401:38c0::/32
 "Zappie Host LLC",2602:fba1:700::/40
 "Zappie Host LLC",2606:b940::/32
 "Zappie Host LLC",2a06:1280::/32
-"Zappie Host LLC",2a06:a006::/32
 "Zappie Host LLC",2a0c:9a40:8082::/48
 "Zappie Host LLC",2c0f:f530::/32
 "Hostek AB",2a02:fc00::/29
