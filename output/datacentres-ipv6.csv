@@ -14950,7 +14950,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-07-23 10:00:10.760668"
+Linode,"# Last modified: 2025-07-24 10:00:06.525037"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15266,9 +15266,7 @@ Linode,2600:3c0f:53::/48
 "UK-2 Limited",2a02:2498:53aa::/48
 "UK-2 Limited",2a02:2498:6d7b::/48
 "UK-2 Limited",2a02:2498:8000::/34
-"UK-2 Limited",2a02:2498:e000::/36
-"UK-2 Limited",2a02:2498:f000::/47
-"UK-2 Limited",2a02:2498:f002::/48
+"UK-2 Limited",2a02:2498:e000::/35
 "UK-2 Limited",2a07:4841::/48
 "UK-2 Limited",2a07:4842::/48
 "UK-2 Limited",2a13:9500:3::/48
@@ -15307,7 +15305,6 @@ MegaHostZone,2001:df1:b900::/48
 "HaNoi State data center",2001:df3:a980::/48
 "PT Cloud Hosting Indonesia",2001:df7:7400::/48
 "Medha Hosting",2400:8dc0::/32
-HOSTOMEGA,2001:df4:8a40::/48
 HOSTOMEGA,2001:df4:adc0::/47
 "Flexential Colorado Corp.",2600:3000::/29
 "Flexential Colorado Corp.",2602:f788::/38
@@ -15321,6 +15318,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Host Universal Pty Ltd",2401:7fa0:1::/48
 "Host Universal Pty Ltd",2401:7fa0:2::/48
 "Host Universal Pty Ltd",2401:8360:1::/48
+"Host Universal Pty Ltd",2402:5e0:1::/48
 "Host Universal Pty Ltd",2404:f780::/47
 "Host Universal Pty Ltd",2404:f780:2::/48
 "Host Universal Pty Ltd",2404:f780:4::/47
@@ -15371,7 +15369,6 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Cloud Host Pte Ltd",2404:6740:3::/48
 "Scala Data Centers",2804:2ae4:4000::/36
 "Scala Data Centers",2804:2ae4:f000::/36
-ExonHost,2400:7920::/32
 "Auckland Data Centre Limited",2001:df3:f980::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:1::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:3::/48
@@ -15461,6 +15458,7 @@ ExonHost,2400:7920::/32
 "Edgecast Inc.",2606:2800:e004::/47
 "NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
 "NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
+"NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "ARK Data Centers LLC",2001:49f8:40a::/48
 "ARK Data Centers LLC",2604:9b00::/38
@@ -16170,6 +16168,7 @@ EGIHosting,2a11:bd40::/29
 "Redge Technologies sp. z o.o.",2a00:8dc0:fffe::/47
 "Zagorodnikov Aleksei",2a06:a005:ba3::/48
 "Zagorodnikov Aleksei",2a06:a005:1084::/48
+"HOSTSHIELD LTD",2a13:29c0::/29
 "HZ Hosting Ltd",2a01:8640:3::/48
 "HZ Hosting Ltd",2a01:8640:19::/48
 "HZ Hosting Ltd",2a0a:e2c3::/32
@@ -16315,7 +16314,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2602:fed2:710e::/48
 "The Constant Company, LLC",2602:fed2:7110::/48
 "The Constant Company, LLC",2602:fed2:712c::/48
-"The Constant Company, LLC",2602:fed2:719c::/48
 "The Constant Company, LLC",2602:fed2:719e::/48
 "The Constant Company, LLC",2602:fed2:7309::/48
 "The Constant Company, LLC",2602:fed2:730d::/48
@@ -16372,8 +16370,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a0f:9400:7386::/48
 "The Constant Company, LLC",2a0f:9400:8020::/48
 "The Constant Company, LLC",2a0f:e1c0:37a::/48
-"The Constant Company, LLC",2a0f:ea00:100::/40
-"The Constant Company, LLC",2a0f:ea01::/40
 "The Constant Company, LLC",2a11:29c0:3dd0::/44
 "The Constant Company, LLC",2a12:fc0:10::/48
 "The Constant Company, LLC",2a12:5340:6::/47
@@ -16768,7 +16764,18 @@ StabiliServers,2605:e480:11::/48
 "Akamai International B.V.",2a02:26f0:67::/48
 "Akamai International B.V.",2a02:26f0:68::/48
 "Akamai International B.V.",2a02:26f0:117::/48
+"ColocaTel Inc.",2a06:a000:160::/44
+"ColocaTel Inc.",2a06:a001:a010::/44
+"ColocaTel Inc.",2a0f:ca80::/47
+"ColocaTel Inc.",2a0f:ca80:619::/48
+"ColocaTel Inc.",2a0f:ca80:1100::/40
+"ColocaTel Inc.",2a0f:ca80:1337::/48
+"ColocaTel Inc.",2a0f:ca80:1338::/48
+"ColocaTel Inc.",2a0f:ca80:abcd::/48
 "ColocaTel Inc.",2a0f:ca80:f000::/40
+"ColocaTel Inc.",2a0f:ca83:1337::/48
+"ColocaTel Inc.",2a0f:ca84::/40
+"ColocaTel Inc.",2a0f:ca86::/40
 "Monkey Tree Hosting Limited",2a0a:a500::/32
 "Monkey Tree Hosting Limited",2a0a:a506::/32
 "CDN Infra Limited",2a14:7580:600::/40
@@ -16843,6 +16850,7 @@ StabiliServers,2605:e480:11::/48
 "Menno Job Gravekamp trading as Atrioxhosting",2a14:7c2:1004::/48
 "xTom Japan Corporation",2a14:1f80::/29
 "HostingBazis Beteti Tarsasag",2a14:2f40::/32
+"VPSVAULT.HOST LTD",2604:be0:fff0::/44
 "GoodLeaf Hosting & Development LLC",2602:299:40::/48
 "GoodLeaf Hosting & Development LLC",2602:f779::/36
 "GoodLeaf Hosting & Development LLC",2602:fed2:7131::/48
@@ -16972,14 +16980,17 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3700::/40
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3213::/48
+"ZSCALER, INC.",2a03:eec0:3212::/47
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
 DEFT.COM,2602:f923::/36
 DEFT.COM,2607:4440::/48
 DEFT.COM,2620:7d::/48
-"NuCDN LLC",2610:1c8::/32
+"NuCDN LLC",2610:1c8:1b::/48
+"NuCDN LLC",2610:1c8:b001::/48
+"NuCDN LLC",2610:1c8:b002::/47
+"NuCDN LLC",2610:1c8:b004::/48
 "ReliableSite.Net LLC",2407:9d00:10::/48
 "ReliableSite.Net LLC",2602:f7f8:6::/48
 "ReliableSite.Net LLC",2602:fa4f:300::/40
@@ -17675,7 +17686,10 @@ GigeNET,2604:2700::/32
 GigeNET,2607:adc0::/32
 "Voxility LLP",2001:67c:b30::/48
 "Voxility LLP",2602:ff84:8::/48
-"Voxility LLP",2a03:5180::/44
+"Voxility LLP",2a03:5180::/45
+"Voxility LLP",2a03:5180:9::/48
+"Voxility LLP",2a03:5180:a::/47
+"Voxility LLP",2a03:5180:c::/46
 "Voxility LLP",2a03:5180:10::/46
 "Voxility LLP",2a03:5180:15::/48
 "Voxility LLP",2a03:5180:16::/48
@@ -19669,7 +19683,6 @@ Latitude.sh,2a13:9500:88::/47
 "VPS House Technology Group LLC",2602:fcd5:40::/47
 "VPS House Technology Group LLC",2602:fcd5:46::/47
 "VPS House Technology Group LLC",2602:fcd5:48::/46
-"VPS Solutions, LLC",2602:fb9c::/40
 "Red Hat, Inc.",2620:52:10::/48
 "Rackspace Ltd.",2a0b:440::/32
 "AME Hosting LLC",2602:fb89::/44
@@ -19963,7 +19976,8 @@ HostPapa,2620:b:e000::/48
 "GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:2::/48
 "Colocation Ltd",2a0f:85c2:100::/40
-"PQ HOSTING PLUS S.R.L.",2a09:7c40::/30
+"PQ HOSTING PLUS S.R.L.",2a09:7c40::/31
+"PQ HOSTING PLUS S.R.L.",2a09:7c42::/32
 "PQ HOSTING PLUS S.R.L.",2a09:7c44::/31
 "PQ HOSTING PLUS S.R.L.",2a09:7c46::/32
 "PQ HOSTING PLUS S.R.L.",2a0b:cf40::/31
@@ -20626,7 +20640,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:3e10::/44
 "Fastly, Inc.",2a04:4e40:3e20::/48
 "Fastly, Inc.",2a04:4e40:3e40::/48
-"Fastly, Inc.",2a04:4e40:4000::/48
+"Fastly, Inc.",2a04:4e40:4000::/47
 "Fastly, Inc.",2a04:4e40:40f0::/48
 "Fastly, Inc.",2a04:4e40:4200::/48
 "Fastly, Inc.",2a04:4e40:4400::/48
@@ -20830,7 +20844,6 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:d040::/44
 "Fastly, Inc.",2a04:4e40:d050::/48
 "Fastly, Inc.",2a04:4e40:d0f0::/48
-"Fastly, Inc.",2a04:4e40:d200::/48
 "Fastly, Inc.",2a04:4e40:d400::/48
 "Fastly, Inc.",2a04:4e40:d430::/44
 "Fastly, Inc.",2a04:4e40:d440::/44
