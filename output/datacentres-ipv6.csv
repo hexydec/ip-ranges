@@ -14950,7 +14950,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-07-24 10:00:06.525037"
+Linode,"# Last modified: 2025-07-25 10:00:07.965700"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15182,7 +15182,6 @@ Linode,2600:3c0f:53::/48
 "Akamai Technologies, Inc.",2600:140f:e800::/48
 "Plus.line AG",2a02:2e0::/29
 "Plus.line AG",2a02:48e0::/48
-"Plus.line AG",2a05:c700:1::/48
 "Plus.line AG",2a05:c700:14::/48
 "Plus.line AG",2a0b:20c0:100::/40
 "Plus.line AG",2a0b:20c0:6000::/36
@@ -15298,6 +15297,7 @@ MegaHostZone,2001:df1:b900::/48
 "HostRoyale Technologies Pvt Ltd",2a13:c44::/30
 "Alibaba Cloud (Singapore) Private Limited",2401:8680:4004::/46
 "Alibaba Cloud (Singapore) Private Limited",2401:8680:4100::/48
+"PI DATA CENTERS PRIVATE LIMITED",2001:df5:e240::/48
 "PI DATA CENTERS PRIVATE LIMITED",2400:b120::/32
 "PI DATA CENTERS PRIVATE LIMITED",2401:f620::/32
 "Thailand Government Data Center and Cloud service (TGDCC)",2001:c38:90a0::/44
@@ -15305,6 +15305,7 @@ MegaHostZone,2001:df1:b900::/48
 "HaNoi State data center",2001:df3:a980::/48
 "PT Cloud Hosting Indonesia",2001:df7:7400::/48
 "Medha Hosting",2400:8dc0::/32
+HOSTOMEGA,2001:df4:8a40::/48
 HOSTOMEGA,2001:df4:adc0::/47
 "Flexential Colorado Corp.",2600:3000::/29
 "Flexential Colorado Corp.",2602:f788::/38
@@ -15369,6 +15370,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Cloud Host Pte Ltd",2404:6740:3::/48
 "Scala Data Centers",2804:2ae4:4000::/36
 "Scala Data Centers",2804:2ae4:f000::/36
+ExonHost,2400:7920::/32
 "Auckland Data Centre Limited",2001:df3:f980::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:1::/48
 "Edgenext Legend Dynasty Pte. Ltd.",2407:2440:3::/48
@@ -15899,10 +15901,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:218::/46
 "Incapsula Inc",2a02:e980:21d::/48
 "Incapsula Inc",2a02:e980:21e::/47
-"Incapsula Inc",2a02:e980:220::/45
-"Incapsula Inc",2a02:e980:228::/48
-"Incapsula Inc",2a02:e980:22a::/47
-"Incapsula Inc",2a02:e980:22c::/46
+"Incapsula Inc",2a02:e980:220::/44
 "Incapsula Inc",2a02:e980:230::/45
 "Incapsula Inc",2a02:e980:238::/47
 "Incapsula Inc",2a02:e980:240::/48
@@ -16376,6 +16375,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company, LLC",2a13:1002::/48
 "The Constant Company, LLC",2a13:5681:a181::/48
 "The Constant Company, LLC",2a13:9500:61::/48
+"The Constant Company, LLC",2a13:9500:ae::/48
 "The Constant Company, LLC",2a14:7584:8000::/36
 "UAB Cherry Servers",2a02:ae02::/36
 "HOSTEUR SAS",2a0d:5380::/29
@@ -16564,7 +16564,6 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a11:5182::/32
 "I-SERVERS LTD",2a11:6305::/32
 "I-SERVERS LTD",2a11:9383::/32
-"I-SERVERS LTD",2a11:b682::/32
 "I-SERVERS LTD",2a11:b785::/32
 "I-SERVERS LTD",2a12:4c06::/32
 "LEONIX EVENTS SAS",2a0d:6f80:2302::/48
@@ -16957,6 +16956,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2a0b:21c1:600a::/48
 "Zenlayer Inc",2a0b:21c1:6010::/47
 "Zenlayer Inc",2a0b:21c1:6012::/48
+"Zenlayer Inc",2a0b:21c1:601b::/48
 "Zenlayer Inc",2a13:9500:aa::/48
 "Southern Data Center",2602:fe3f::/34
 "Southern Data Center",2602:fe3f:8000::/34
@@ -16980,17 +16980,14 @@ Cologuard,2604:eb80::/32
 "ZSCALER, INC.",2605:4300:3700::/40
 "ZSCALER, INC.",2605:4300:e200::/39
 "ZSCALER, INC.",2a03:eec0:3210::/48
-"ZSCALER, INC.",2a03:eec0:3212::/47
+"ZSCALER, INC.",2a03:eec0:3213::/48
 "ZSCALER, INC.",2a03:eec0:3217::/48
 "Red Hat, Inc.",2620:52::/40
 DEFT.COM,2001:1838::/32
 DEFT.COM,2602:f923::/36
 DEFT.COM,2607:4440::/48
 DEFT.COM,2620:7d::/48
-"NuCDN LLC",2610:1c8:1b::/48
-"NuCDN LLC",2610:1c8:b001::/48
-"NuCDN LLC",2610:1c8:b002::/47
-"NuCDN LLC",2610:1c8:b004::/48
+"NuCDN LLC",2610:1c8::/32
 "ReliableSite.Net LLC",2407:9d00:10::/48
 "ReliableSite.Net LLC",2602:f7f8:6::/48
 "ReliableSite.Net LLC",2602:fa4f:300::/40
@@ -17189,6 +17186,7 @@ HOSTING.CL,2803:6580::/32
 "Flyservers S.A.",2a10:9100:5::/48
 "VPS GURU CHILE SPA",2803:d860::/32
 "SAOREDES CIA. LTDA. (SAOHOSTING)",2803:2a60::/32
+"BRDrive Datacenter | Cloud | Ti",2804:5384::/32
 "TRI CLOUD DATA CENTER LTDA",2804:5a00::/32
 "CDNTV TECNOLOGIA LTDA",2804:8388::/48
 "CDNTV TECNOLOGIA LTDA",2804:8388:4000::/48
@@ -17686,10 +17684,7 @@ GigeNET,2604:2700::/32
 GigeNET,2607:adc0::/32
 "Voxility LLP",2001:67c:b30::/48
 "Voxility LLP",2602:ff84:8::/48
-"Voxility LLP",2a03:5180::/45
-"Voxility LLP",2a03:5180:9::/48
-"Voxility LLP",2a03:5180:a::/47
-"Voxility LLP",2a03:5180:c::/46
+"Voxility LLP",2a03:5180::/44
 "Voxility LLP",2a03:5180:10::/46
 "Voxility LLP",2a03:5180:15::/48
 "Voxility LLP",2a03:5180:16::/48
@@ -18048,7 +18043,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:58::/48
 "Akamai Technologies, Inc.",2a02:26f7:5a::/48
 "Akamai Technologies, Inc.",2a02:26f7:5c::/48
-"Akamai Technologies, Inc.",2a02:26f7:60::/48
 "Akamai Technologies, Inc.",2a02:26f7:62::/48
 "Akamai Technologies, Inc.",2a02:26f7:64::/48
 "Akamai Technologies, Inc.",2a02:26f7:66::/48
@@ -18900,15 +18894,12 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:e240::/48
 "Akamai Technologies, Inc.",2a02:26f7:e244::/48
 "Akamai Technologies, Inc.",2a02:26f7:e248::/48
-"Akamai Technologies, Inc.",2a02:26f7:e280::/48
 "Akamai Technologies, Inc.",2a02:26f7:e282::/48
 "Akamai Technologies, Inc.",2a02:26f7:e284::/48
 "Akamai Technologies, Inc.",2a02:26f7:e288::/48
-"Akamai Technologies, Inc.",2a02:26f7:e2c0::/48
 "Akamai Technologies, Inc.",2a02:26f7:e2c2::/48
 "Akamai Technologies, Inc.",2a02:26f7:e2c4::/48
 "Akamai Technologies, Inc.",2a02:26f7:e2c8::/48
-"Akamai Technologies, Inc.",2a02:26f7:e340::/48
 "Akamai Technologies, Inc.",2a02:26f7:e342::/48
 "Akamai Technologies, Inc.",2a02:26f7:e344::/48
 "Akamai Technologies, Inc.",2a02:26f7:e348::/48
@@ -19091,7 +19082,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:eecc::/48
 "Akamai Technologies, Inc.",2a02:26f7:ef00::/48
 "Akamai Technologies, Inc.",2a02:26f7:ef02::/48
-"Akamai Technologies, Inc.",2a02:26f7:ef04::/48
 "Akamai Technologies, Inc.",2a02:26f7:ef0c::/48
 "Akamai Technologies, Inc.",2a02:26f7:ef10::/48
 "Akamai Technologies, Inc.",2a02:26f7:ef14::/48
@@ -19267,7 +19257,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:f950::/48
 "Akamai Technologies, Inc.",2a02:26f7:f980::/48
 "Akamai Technologies, Inc.",2a02:26f7:f982::/48
-"Akamai Technologies, Inc.",2a02:26f7:f984::/48
 "Akamai Technologies, Inc.",2a02:26f7:f988::/48
 "Akamai Technologies, Inc.",2a02:26f7:f98c::/48
 "Akamai Technologies, Inc.",2a02:26f7:f9c0::/48
@@ -19275,7 +19264,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:f9c8::/48
 "Akamai Technologies, Inc.",2a02:26f7:fa00::/48
 "Akamai Technologies, Inc.",2a02:26f7:fa02::/48
-"Akamai Technologies, Inc.",2a02:26f7:fa04::/48
 "Akamai Technologies, Inc.",2a02:26f7:fa08::/48
 "Akamai Technologies, Inc.",2a02:26f7:fa40::/48
 "Akamai Technologies, Inc.",2a02:26f7:fa44::/48
@@ -19289,7 +19277,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies, Inc.",2a02:26f7:facc::/48
 "Akamai Technologies, Inc.",2a02:26f7:fb00::/48
 "Akamai Technologies, Inc.",2a02:26f7:fb02::/48
-"Akamai Technologies, Inc.",2a02:26f7:fb04::/48
 "Akamai Technologies, Inc.",2a02:26f7:fb08::/48
 "Akamai Technologies, Inc.",2a02:26f7:fb40::/48
 "Akamai Technologies, Inc.",2a02:26f7:fb44::/48
@@ -19794,7 +19781,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",2406:4f40:10::/45
 "Psychz Networks",2406:b2c0::/32
 "Psychz Networks",2602:2c5:1::/48
-"Psychz Networks",2602:fb0f::/40
 "Psychz Networks",2602:fd92:efe::/48
 "Psychz Networks",2602:fea6::/36
 "Psychz Networks",2602:ff96:5::/48
@@ -19997,9 +19983,7 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L.",2a13:6300::/31
 "PQ HOSTING PLUS S.R.L.",2a13:6303::/32
 "PQ HOSTING PLUS S.R.L.",2a13:6304::/31
-"PQ HOSTING PLUS S.R.L.",2a14:2d80::/30
-"PQ HOSTING PLUS S.R.L.",2a14:2d84::/31
-"PQ HOSTING PLUS S.R.L.",2a14:2d86::/32
+"PQ HOSTING PLUS S.R.L.",2a14:2d80::/29
 "PQ HOSTING PLUS S.R.L.",2a14:2e80::/32
 "PQ HOSTING PLUS S.R.L.",2a14:2f80::/32
 "PQ HOSTING PLUS S.R.L.",2a14:3081::/32
