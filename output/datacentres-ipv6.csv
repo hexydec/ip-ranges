@@ -14966,7 +14966,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-07-29 10:00:10.601823"
+Linode,"# Last modified: 2025-07-30 10:00:05.816024"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15274,6 +15274,7 @@ Linode,2600:3c0f:53::/48
 "UK-2 Limited",2606:2e00:8003::/48
 "UK-2 Limited",2606:2e00:8027::/48
 "UK-2 Limited",2606:2e00:8028::/47
+"UK-2 Limited",2606:2e00:9000::/36
 "UK-2 Limited",2a02:2498::/47
 "UK-2 Limited",2a02:2498:4::/47
 "UK-2 Limited",2a02:2498:16::/48
@@ -15466,7 +15467,6 @@ ExonHost,2400:7920::/32
 "Edgecast Inc.",2600:40fc:1011::/48
 "Edgecast Inc.",2600:40fc:1013::/48
 "Edgecast Inc.",2600:40fc:1014::/47
-"Edgecast Inc.",2606:2800:4032::/48
 "Edgecast Inc.",2606:2800:4044::/48
 "Edgecast Inc.",2606:2800:4046::/48
 "Edgecast Inc.",2606:2800:404c::/48
@@ -15640,16 +15640,17 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:c0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:100::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4000::/44
-"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4040::/44
-"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4060::/43
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4040::/42
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:40f0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4100::/43
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4500::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4520::/43
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4550::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:45d0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:45f0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4630::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:4640::/44
+"Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:ffd0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2604:1380:ffe0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V.",2606:5c80::/32
 "Equinix (EMEA) Acquisition Enterprises B.V.",2607:f6f0:1000::/39
@@ -16577,7 +16578,6 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a0a:9302:1::/48
 "I-SERVERS LTD",2a0a:9307::/32
 "I-SERVERS LTD",2a0b:7780::/29
-"I-SERVERS LTD",2a0b:8040::/29
 "I-SERVERS LTD",2a0c:4185::/32
 "I-SERVERS LTD",2a0c:6980::/29
 "I-SERVERS LTD",2a0d:2dc0::/30
@@ -16639,6 +16639,7 @@ StabiliServers,2605:e480:11::/48
 "AEZA INTERNATIONAL LTD",2a12:5940:4000::/34
 "AEZA INTERNATIONAL LTD",2a12:5940:8000::/33
 "FIVE CYBER HOST SECURITY S.R.L.",2a0f:9400:7e01::/48
+"FIVE CYBER HOST SECURITY S.R.L.",2a0f:9400:7e50::/48
 "EdgeCenter LLC",2a11:27c0::/43
 "EdgeCenter LLC",2a11:27c0:20::/44
 "EdgeCenter LLC",2a11:27c0:100::/43
@@ -16911,7 +16912,6 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
-"Zenlayer Inc",2602:ffe4:c3c::/48
 "Zenlayer Inc",2602:ffe4:c3e::/48
 "Zenlayer Inc",2602:ffe4:c40::/47
 "Zenlayer Inc",2602:ffe4:c42::/48
@@ -20877,7 +20877,7 @@ Sharktech,2a0c:c181::/32
 "Fastly, Inc.",2a04:4e40:eaf0::/47
 "Fastly, Inc.",2a04:4e40:ec00::/48
 "Fastly, Inc.",2a04:4e40:ec20::/44
-"Fastly, Inc.",2a04:4e40:ec40::/44
+"Fastly, Inc.",2a04:4e40:ec40::/48
 "Fastly, Inc.",2a04:4e40:ecf0::/48
 "Fastly, Inc.",2a04:4e40:ee00::/48
 "Fastly, Inc.",2a04:4e40:ee10::/48
@@ -20931,20 +20931,19 @@ Sharktech,2a0c:c181::/32
 "Packet Host, Inc.",2604:1380:1000::/36
 "Packet Host, Inc.",2604:1380:2000::/35
 "Packet Host, Inc.",2604:1380:4030::/44
-"Packet Host, Inc.",2604:1380:4050::/44
 "Packet Host, Inc.",2604:1380:4080::/43
 "Packet Host, Inc.",2604:1380:40a0::/44
 "Packet Host, Inc.",2604:1380:40d0::/44
 "Packet Host, Inc.",2604:1380:40e0::/44
 "Packet Host, Inc.",2604:1380:4510::/44
-"Packet Host, Inc.",2604:1380:4540::/43
+"Packet Host, Inc.",2604:1380:4540::/44
 "Packet Host, Inc.",2604:1380:4580::/43
 "Packet Host, Inc.",2604:1380:45c0::/44
 "Packet Host, Inc.",2604:1380:45e0::/44
 "Packet Host, Inc.",2604:1380:4600::/43
 "Packet Host, Inc.",2604:1380:4650::/44
 "Packet Host, Inc.",2604:1380:4660::/44
-"Packet Host, Inc.",2604:1380:ffc0::/43
+"Packet Host, Inc.",2604:1380:ffc0::/44
 "Packet Host, Inc.",2604:1380:ffff::/48
 "Intelliracks Managed Hosting",2602:fff9::/40
 "eStruxture Data Centers Inc.",2605:9000:d::/48
