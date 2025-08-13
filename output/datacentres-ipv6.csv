@@ -15655,6 +15655,7 @@ ExonHost,2400:7920::/32
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:2c::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a001::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:b002::/48
+"Edgenext Legend Dynasty Pte. Ltd",2407:2440:b005::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e001::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e002::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e004::/48
@@ -15711,10 +15712,13 @@ ExonHost,2400:7920::/32
 "Hosteons Pte. Ltd",2402:d0c0:20::/46
 "Edgecast Inc",2600:40fc:1011::/48
 "Edgecast Inc",2600:40fc:1013::/48
-"Edgecast Inc",2600:40fc:1015::/48
+"Edgecast Inc",2600:40fc:1014::/47
 "Edgecast Inc",2606:2800:e000::/48
-"Edgecast Inc",2606:2800:e002::/48
+"Edgecast Inc",2606:2800:e002::/47
 "Edgecast Inc",2606:2800:e004::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
+"NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
+"NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "ARK Data Centers LLC",2001:49f8:40a::/48
 "ARK Data Centers LLC",2604:9b00::/38
 "ARK Data Centers LLC",2604:9b00:c00::/38
@@ -15871,7 +15875,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:45c0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:45f0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4630::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4640::/44
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4640::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffd0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffe0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2606:5c80::/32
@@ -16110,7 +16114,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:180::/48
 "Incapsula Inc",2a02:e980:185::/48
 "Incapsula Inc",2a02:e980:186::/47
-"Incapsula Inc",2a02:e980:188::/46
+"Incapsula Inc",2a02:e980:188::/47
+"Incapsula Inc",2a02:e980:18a::/48
 "Incapsula Inc",2a02:e980:18d::/48
 "Incapsula Inc",2a02:e980:18e::/47
 "Incapsula Inc",2a02:e980:190::/45
@@ -16179,7 +16184,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:2::/48
 "Incapsula Inc",2a02:e982:6::/47
 "Incapsula Inc",2a02:e982:9::/48
-"Incapsula Inc",2a02:e982:a::/47
+"Incapsula Inc",2a02:e982:a::/48
 "Incapsula Inc",2a02:e982:c::/46
 "Incapsula Inc",2a02:e982:10::/45
 "Incapsula Inc",2a02:e982:18::/46
@@ -16305,8 +16310,11 @@ EGIHosting,2a11:bd40::/29
 "G-Core Labs S.A",2a03:90c0:20::/43
 "G-Core Labs S.A",2a03:90c0:40::/42
 "G-Core Labs S.A",2a03:90c0:80::/41
-"G-Core Labs S.A",2a03:90c0:100::/41
-"G-Core Labs S.A",2a03:90c0:180::/42
+"G-Core Labs S.A",2a03:90c0:100::/42
+"G-Core Labs S.A",2a03:90c0:140::/43
+"G-Core Labs S.A",2a03:90c0:170::/44
+"G-Core Labs S.A",2a03:90c0:180::/44
+"G-Core Labs S.A",2a03:90c0:1a0::/43
 "G-Core Labs S.A",2a03:90c0:1d0::/44
 "G-Core Labs S.A",2a03:90c0:1e0::/43
 "G-Core Labs S.A",2a03:90c0:210::/44
@@ -16823,7 +16831,6 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a11:b785::/32
 "I-SERVERS LTD",2a12:2fc4::/32
 "I-SERVERS LTD",2a12:4c06::/32
-"LEONIX EVENTS SAS",2a0d:6f80:2302::/48
 "EuroByte LLC",2a03:80c0::/47
 "EuroByte LLC",2a03:c980:db::/48
 "EuroByte LLC",2a03:c980:e5::/48
@@ -17145,6 +17152,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
+"Zenlayer Inc",2602:ffe4:c3c::/48
 "Zenlayer Inc",2602:ffe4:c3e::/48
 "Zenlayer Inc",2602:ffe4:c40::/47
 "Zenlayer Inc",2602:ffe4:c42::/48
@@ -17441,7 +17449,6 @@ HOSTING.CL,2803:6580::/32
 "VOLAREHOST INTERNET LTDA ME",2804:6350::/32
 "HOSTNET SPA",2803:d60::/32
 "Tyna Host - Datacenter no Brasil",2804:6ab0::/32
-"EQUINIX BRASIL",2a0e:97c1:8a27::/48
 "MASTER DA WEB DATACENTER LTDA",2804:6dec::/44
 "AGINET DATACENTER INFORMATICA LTDA",2804:6ed8::/39
 "Ecxon Datacenter LTDA",2804:7110:1000::/48
@@ -20145,8 +20152,6 @@ HostPapa,2620:b:e000::/48
 "UK Dedicated Servers Limited",2a01:a507::/32
 "UK Dedicated Servers Limited",2a03:9da0::/40
 "UK Dedicated Servers Limited",2a04:d180::/29
-"UK Dedicated Servers Limited",2a05:9f40:1f::/48
-"UK Dedicated Servers Limited",2a05:9f44:2a05::/48
 "UK Dedicated Servers Limited",2a0c:b840:2::/48
 "UK Dedicated Servers Limited",2a0e:fd45:b30::/48
 "Certit Hosting Handelsbolag",2001:678:cbc::/48
@@ -20857,6 +20862,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:38f0::/48
 "Fastly Inc",2a04:4e40:3a00::/48
 "Fastly Inc",2a04:4e40:3a10::/44
+"Fastly Inc",2a04:4e40:3a40::/44
 "Fastly Inc",2a04:4e40:3af0::/48
 "Fastly Inc",2a04:4e40:3c00::/48
 "Fastly Inc",2a04:4e40:3c10::/44
@@ -20905,7 +20911,6 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:5a00::/47
 "Fastly Inc",2a04:4e40:5a10::/48
 "Fastly Inc",2a04:4e40:5a20::/48
-"Fastly Inc",2a04:4e40:5a40::/44
 "Fastly Inc",2a04:4e40:5af0::/48
 "Fastly Inc",2a04:4e40:5e00::/48
 "Fastly Inc",2a04:4e40:5e10::/44
@@ -21180,7 +21185,6 @@ Sharktech,2a0c:c181::/32
 "Packet Host Inc",2604:1380:4580::/43
 "Packet Host Inc",2604:1380:45e0::/44
 "Packet Host Inc",2604:1380:4600::/43
-"Packet Host Inc",2604:1380:4650::/44
 "Packet Host Inc",2604:1380:4660::/44
 "Packet Host Inc",2604:1380:ffc0::/44
 "Packet Host Inc",2604:1380:ffff::/48
@@ -21613,6 +21617,7 @@ HostRush,2606:cc0:400::/40
 "ZSCALER INC",2605:4300:ff00::/40
 "Abc-Hosters LLC",2602:fbe8::/48
 "Abc-Hosters LLC",2602:fed2:7034::/48
+GTHost,2604:7580:f2::/48
 GTHost,2604:86c0::/33
 GTHost,2604:86c0:8000::/34
 GTHost,2604:86c0:f000::/38
@@ -21643,7 +21648,6 @@ GTHost,2a13:18c2::/32
 "Velocihost Inc",2602:ff50:400::/40
 "HostHatch LLC",2406:ef80:1::/48
 "HostHatch LLC",2406:ef80:2::/47
-"HostHatch LLC",2406:ef80:4::/48
 "HostHatch LLC",2406:ef80:100::/40
 "HostHatch LLC",2605:4840:2::/47
 "HostHatch LLC",2a01:6f0:ffff::/48
@@ -21825,7 +21829,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Host Europe GmbH",2001:1520::/32
 "Host Europe GmbH",2a00:1158::/32
 "VSHosting s.r.o",2a02:5420:1::/48
-"VSHosting s.r.o",2a0a:54c1:28::/48
+"VSHosting s.r.o",2a0a:54c1:28::/47
 "Adman LLC",2a0b:4300::/29
 "JSC TIMEWEB",2a03:6f00::/29
 "JSC TIMEWEB",2a04:6e40::/29
