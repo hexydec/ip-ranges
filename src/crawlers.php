@@ -71,6 +71,18 @@ class crawlers extends generate {
 				'source' => 'https://duckduckgo.com/duckduckbot.json',
 				'domain' => 'duckduckgo.com',
 				'url' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
+			],
+			[
+				'name' => 'Mistral AI',
+				'source' => 'https://mistral.ai/mistralai-user-ips.json',
+				'domain' => 'mistral.ai',
+				'url' => 'https://docs.mistral.ai/robots/'
+			],
+			[
+				'name' => 'Perplexity AI',
+				'source' => 'https://www.perplexity.ai/perplexitybot.json',
+				'domain' => 'perplexity.ai',
+				'url' => 'https://docs.perplexity.ai/guides/bots'
 			]
 		];
 		foreach ($map AS $item) {
