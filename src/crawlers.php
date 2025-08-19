@@ -65,6 +65,12 @@ class crawlers extends generate {
 				'source' => 'https://openai.com/gptbot.json',
 				'domain' => 'openai.com',
 				'url' => 'https://openai.com/gptbot'
+			],
+			[
+				'name' => 'DuckDuckBot',
+				'source' => 'https://duckduckgo.com/duckduckbot.json',
+				'domain' => 'duckduckgo.com',
+				'url' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
 			]
 		];
 		foreach ($map AS $item) {
@@ -78,12 +84,6 @@ class crawlers extends generate {
 			}
 		}
 		$map = [
-			[
-				'name' => 'DuckDuckBot',
-				'source' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/',
-				'domain' => 'duckduckgo.com',
-				'url' => 'http://duckduckgo.com/duckduckbot.html'
-			],
 			[
 				'name' => 'OnCrawl',
 				'source' => 'https://help.oncrawl.com/en/articles/2288662-what-ips-does-oncrawl-use-to-crawl-a-website',
@@ -114,8 +114,12 @@ class crawlers extends generate {
 			[
 				'name' => 'SiteImprove',
 				'source' => 'https://help.siteimprove.com/support/solutions/articles/80000448553',
-				'domain' => 'siteimprove.com',
-
+				'domain' => 'siteimprove.com'
+			],
+			[
+				'name' => 'Add Search Bot',
+				'source' => 'https://www.addsearch.com/docs/indexing/whitelisting-addsearch-bot/',
+				'domain' => 'addsearch.com'
 			]
 		];
 		foreach ($map AS $item) {

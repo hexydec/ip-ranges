@@ -91,9 +91,11 @@ class generate {
 	}
 
 	protected function getFromHtml(string $file, ?string $cache = null) : \Generator {
-		if (($result = $this->fetch($file, $cache)) !== false && \preg_match_all('/(?:[0-9]++(?:\.[0-9]++){3}|(?:[0-9a-f]{1,4}::?){2,7}(?:[0-9a-f]{1,4})?)(?:\/[0-9]{1,3})?/i', $result, $match)) {
+		if (($result = $this->fetch($file, $cache)) !== false && \preg_match_all('/(?<=[>\\n\\r\\t ])(?:[0-9]++(?:\.[0-9]++){3}|(?:[0-9a-f]{1,4}::?){2,7}(?:[0-9a-f]{1,4})?)(?:\/[0-9]{1,3})?(?=[<\\n\\r\\t ])/i', $result, $match)) {
 			foreach ($match[0] AS $item) {
-				yield \trim($item);
+				if (!\preg_match('/^\d{2}:\d{2}:\d{2}$/', $item)) {
+					yield \trim($item);
+				}
 			}
 		}
 	}
