@@ -15225,7 +15225,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-08-17 10:00:04.323549"
+Linode,"# Last modified: 2025-08-18 10:00:04.596703"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15690,7 +15690,6 @@ ExonHost,2400:7920::/32
 "SD Data Center",2604:2ec0::/32
 "SD Data Center",2a09:6d80::/32
 "Host Tel",2400:7720::/32
-"JASHORE COLO",2001:df4:8440::/48
 "VPSBlocks Pty Ltd",2406:340::/32
 "DigitalOcean LLC",2400:6180::/48
 "DigitalOcean LLC",2400:6180:10::/48
@@ -16166,6 +16165,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:230::/45
 "Incapsula Inc",2a02:e980:238::/47
 "Incapsula Inc",2a02:e980:240::/48
+"Incapsula Inc",2a02:e980:248::/47
+"Incapsula Inc",2a02:e980:250::/48
 "Incapsula Inc",2a02:e981:1::/48
 "Incapsula Inc",2a02:e981:2::/47
 "Incapsula Inc",2a02:e981:4::/46
@@ -16299,6 +16300,11 @@ EGIHosting,2a11:bd40::/29
 "Virtual Data Center Inc",2a0a:2e83::/36
 "Virtual Data Center Inc",2a0a:2e84::/36
 "Virtual Data Center Inc",2a0a:2e85::/36
+"Virtual Data Center Inc",2a0a:2e86:1000::/36
+"Virtual Data Center Inc",2a0a:2e86:2000::/35
+"Virtual Data Center Inc",2a0a:2e86:4000::/34
+"Virtual Data Center Inc",2a0a:2e86:8000::/35
+"Virtual Data Center Inc",2a0a:2e86:a000::/36
 "Virtual Data Center Inc",2a0d:adc4::/32
 "Virtual Data Center Inc",2a11:3d01::/32
 "Virtual Data Center Inc",2a11:7e41:1::/48
@@ -16310,6 +16316,7 @@ EGIHosting,2a11:bd40::/29
 "Virtual Data Center Inc",2a11:8483::/36
 "Virtual Data Center Inc",2a11:df42::/36
 "Virtual Data Center Inc",2a11:df43::/36
+"Virtual Data Center Inc",2a12:3cc1::/32
 "Virtual Data Center Inc",2a12:6703::/36
 "Virtual Data Center Inc",2a12:6704::/36
 "Virtual Data Center Inc",2a14:9705::/32
@@ -16625,6 +16632,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a05:f480:1000::/36
 "The Constant Company LLC",2a05:f480:2000::/36
 "The Constant Company LLC",2a05:f480:3000::/37
+"The Constant Company LLC",2a06:1287::/32
 "The Constant Company LLC",2a06:25c0::/32
 "The Constant Company LLC",2a06:3e87::/32
 "The Constant Company LLC",2a06:4c00::/32
@@ -16774,6 +16782,7 @@ StabiliServers,2605:e480:11::/48
 "HostRoyale Technologies Pvt Ltd",2600:2900::/32
 "HostRoyale Technologies Pvt Ltd",2600:2902::/31
 "Ronald Agorsah trading as Alpenhost e.U",2a07:cec0:4200::/48
+"Go Host Ltd",2602:f915::/40
 "Go Host Ltd",2a14:c380:160::/43
 "Go Host Ltd",2a14:c380:180::/43
 "Hosting 2 GO B.V",2a06:f700::/29
@@ -16990,7 +16999,7 @@ StabiliServers,2605:e480:11::/48
 "Akamai International B.V",2600:1480:2800::/48
 "Akamai International B.V",2600:1480:4800::/48
 "Akamai International B.V",2600:1480:5801::/48
-"Akamai International B.V",2600:1480:5802::/47
+"Akamai International B.V",2600:1480:5802::/48
 "Akamai International B.V",2600:1480:5805::/48
 "Akamai International B.V",2600:1480:5809::/48
 "Akamai International B.V",2600:1480:580b::/48
@@ -17502,6 +17511,7 @@ HOSTING.CL,2803:6580::/32
 "Leaseweb USA Inc",2607:f5b1::/32
 "ZENLAYER TECNOLOGIAS LTDA",2804:9374::/32
 "Akahosting do Brasil",2804:9430::/32
+"GCN SOLUÇÕES DE TECNOLOGIA E CLOUD HOSTING",2804:9460::/32
 "Sacred Servers",2602:f865:ff0::/48
 "Equinix Inc",2607:f6f0:206::/48
 MOJOHOST,2607:f5a8::/32
@@ -19566,6 +19576,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:fc08::/48
 "Akamai Technologies Inc",2a02:26f7:fc10::/48
 "Akamai Technologies Inc",2a02:26f7:fc14::/48
+"HOSTCIRCLE INC",2604:ef40:2::/48
 "Tempest Hosting LLC",2606:f240::/32
 HostPapa,2602:f692:1::/48
 HostPapa,2602:f692:2::/48
@@ -19873,7 +19884,6 @@ Latitude.sh,2a13:9500:88::/47
 "Leaseweb USA Inc",2a0f:ea82::/32
 "Salesforce Inc",2620:113:f000::/45
 "HostRoyale LLC",2a06:a640::/29
-"HostRoyale LLC",2a0f:63c0::/32
 "Canadian Shield Data Center Inc",2602:fedd:1::/48
 "SPARKED HOST LLC",2602:fa87:1::/48
 "SPARKED HOST LLC",2602:fa87:3::/48
@@ -19991,7 +20001,6 @@ HostPapa,2620:b:e000::/48
 "Iron Mountain Data Center",2605:3380:ff0f::/48
 "Supreme Servers",2606:fe80:20::/44
 "BulletServers LLC",2602:f646:2::/48
-"Ace Data Centers II L.L.C",2604:ba00:f000::/36
 "ViperHost LLC",2602:f7eb::/40
 "Colocataires Inc",2602:f72c::/48
 "Web Host Most LLC",2602:f72d::/37
@@ -20019,7 +20028,7 @@ HostPapa,2620:b:e000::/48
 "Fly.io Inc",2a09:8280:26::/47
 "Fly.io Inc",2a09:8280:29::/48
 "Fly.io Inc",2a09:8280:2b::/48
-"Fly.io Inc",2a09:8280:2c::/47
+"Fly.io Inc",2a09:8280:2c::/48
 "Fly.io Inc",2a09:8280:2f::/48
 "Fly.io Inc",2a09:8280:30::/48
 "Fly.io Inc",2a09:8280:50::/47
@@ -21284,7 +21293,6 @@ Serverside.com,2607:e0c0:6::/48
 "dataforest GmbH",2a03:403:8000::/34
 "dataforest GmbH",2a05:dfc7::/32
 "dataforest GmbH",2a06:a007::/32
-"dataforest GmbH",2a0a:7747::/32
 "dataforest GmbH",2a0c:4ac0:1100::/40
 "dataforest GmbH",2a0c:4ac0:1200::/40
 "dataforest GmbH",2a0c:4ac1::/32
