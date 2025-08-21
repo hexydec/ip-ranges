@@ -15225,7 +15225,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-08-19 10:00:04.806749"
+Linode,"# Last modified: 2025-08-20 10:00:05.198801"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15874,7 +15874,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:20::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:40::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:60::/44
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:60::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:80::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:a0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:c0::/43
@@ -16171,6 +16171,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:230::/45
 "Incapsula Inc",2a02:e980:238::/47
 "Incapsula Inc",2a02:e980:240::/48
+"Incapsula Inc",2a02:e980:245::/48
+"Incapsula Inc",2a02:e980:246::/47
 "Incapsula Inc",2a02:e980:248::/47
 "Incapsula Inc",2a02:e980:250::/48
 "Incapsula Inc",2a02:e981:2::/47
@@ -16305,11 +16307,7 @@ EGIHosting,2a11:bd40::/29
 "Virtual Data Center Inc",2a0a:2e83::/36
 "Virtual Data Center Inc",2a0a:2e84::/36
 "Virtual Data Center Inc",2a0a:2e85::/36
-"Virtual Data Center Inc",2a0a:2e86:1000::/36
-"Virtual Data Center Inc",2a0a:2e86:2000::/35
-"Virtual Data Center Inc",2a0a:2e86:4000::/34
-"Virtual Data Center Inc",2a0a:2e86:8000::/35
-"Virtual Data Center Inc",2a0a:2e86:a000::/36
+"Virtual Data Center Inc",2a0a:2e86::/32
 "Virtual Data Center Inc",2a0d:adc4::/32
 "Virtual Data Center Inc",2a11:3d01::/32
 "Virtual Data Center Inc",2a11:7e41:1::/48
@@ -16352,7 +16350,6 @@ EGIHosting,2a11:bd40::/29
 "G-Core Labs S.A",2a03:90c0:3e0::/43
 "G-Core Labs S.A",2a03:90c0:400::/44
 "G-Core Labs S.A",2a03:90c0:420::/43
-"G-Core Labs S.A",2a03:90c0:450::/44
 "G-Core Labs S.A",2a03:90c0:460::/43
 "G-Core Labs S.A",2a03:90c0:480::/41
 "G-Core Labs S.A",2a03:90c0:500::/41
@@ -17259,7 +17256,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -17864,6 +17861,7 @@ Host-Engine.com,2602:fa82::/36
 "Leaseweb USA Inc",2a0f:3e80::/29
 "Leaseweb USA Inc",2a0f:7d02:1::/48
 "Leaseweb USA Inc",2a0f:7d06:66::/48
+"Leaseweb USA Inc",2a0f:b400::/29
 "Leaseweb USA Inc",2a0f:e1c6::/32
 "Leaseweb USA Inc",2a0f:e1c7:1::/48
 "Leaseweb USA Inc",2a0f:e1c7:2::/48
@@ -18146,7 +18144,6 @@ Steadfast,2607:f128::/32
 "Akamai International B.V",2a02:26f0:1a00::/48
 "Akamai International B.V",2a02:26f0:1e00::/48
 "Akamai International B.V",2a02:26f0:2e80::/48
-"Akamai International B.V",2a02:26f0:2f80::/48
 "Akamai International B.V",2a02:26f0:3600::/48
 "Akamai International B.V",2a02:26f0:4500::/48
 "Akamai International B.V",2a02:26f0:4900::/48
@@ -20074,7 +20071,12 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",2602:fd92:efe::/48
 "Psychz Networks",2602:fea6::/36
 "Psychz Networks",2602:ff96:5::/48
-"Psychz Networks",2602:ff96:17::/48
+"Psychz Networks",2602:ff96:9::/48
+"Psychz Networks",2602:ff96:12::/48
+"Psychz Networks",2602:ff96:15::/48
+"Psychz Networks",2602:ff96:16::/47
+"Psychz Networks",2602:ff96:1f::/48
+"Psychz Networks",2602:ff96:1fe::/48
 "Psychz Networks",2602:ffb0:11::/48
 "Psychz Networks",2604:980:1::/48
 "Psychz Networks",2604:6600::/32
@@ -20259,12 +20261,13 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L",2a11:4c06::/32
 "PQ HOSTING PLUS S.R.L",2a11:7e00::/32
 "PQ HOSTING PLUS S.R.L",2a11:7e05::/32
-"PQ HOSTING PLUS S.R.L",2a11:7e06::/32
 "PQ HOSTING PLUS S.R.L",2a12:6500::/32
 "PQ HOSTING PLUS S.R.L",2a13:6300::/31
 "PQ HOSTING PLUS S.R.L",2a13:6303::/32
 "PQ HOSTING PLUS S.R.L",2a13:6304::/31
-"PQ HOSTING PLUS S.R.L",2a14:2d80::/29
+"PQ HOSTING PLUS S.R.L",2a14:2d80::/31
+"PQ HOSTING PLUS S.R.L",2a14:2d82::/32
+"PQ HOSTING PLUS S.R.L",2a14:2d84::/30
 "PQ HOSTING PLUS S.R.L",2a14:2e80::/32
 "PQ HOSTING PLUS S.R.L",2a14:2f80::/32
 "PQ HOSTING PLUS S.R.L",2a14:3081::/32
@@ -21183,7 +21186,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e41::/33
 "Fastly Inc",2a04:4e41:8000::/48
 "Fastly Inc",2a04:4e42::/32
-"Fastly Inc",2a04:4e47::/46
+"Fastly Inc",2a04:4e47::/45
 "Fastly Inc",2a0d:8000:1::/48
 "Hostwinds LLC",2607:5500::/31
 "Hostwinds LLC",2a0d:7c40::/32
@@ -21196,7 +21199,6 @@ Sharktech,2a0c:c181::/32
 "Packet Host Inc",2604:1380:10::/44
 "Packet Host Inc",2604:1380:30::/44
 "Packet Host Inc",2604:1380:50::/44
-"Packet Host Inc",2604:1380:70::/44
 "Packet Host Inc",2604:1380:90::/44
 "Packet Host Inc",2604:1380:b0::/44
 "Packet Host Inc",2604:1380:e0::/43
