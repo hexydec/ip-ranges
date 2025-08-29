@@ -672,6 +672,7 @@
 "Amazon AWS",15.177.76.0/24
 "Amazon AWS",15.177.105.0/24
 "Amazon AWS",15.230.135.0/24
+"Amazon AWS",16.12.96.0/21
 "Amazon AWS",35.55.30.0/24
 "Amazon AWS",52.30.0.0/15
 "Amazon AWS",52.93.201.80/28
@@ -1051,6 +1052,7 @@
 "Amazon AWS",13.248.0.0/20
 "Amazon AWS",15.230.39.174/31
 "Amazon AWS",15.230.39.240/31
+"Amazon AWS",16.12.104.0/21
 "Amazon AWS",52.93.127.219/32
 "Amazon AWS",52.93.153.177/32
 "Amazon AWS",52.93.199.106/32
@@ -1210,6 +1212,7 @@
 "Amazon AWS",150.222.234.110/31
 "Amazon AWS",13.248.97.0/24
 "Amazon AWS",15.248.120.0/21
+"Amazon AWS",16.12.88.0/21
 "Amazon AWS",18.190.0.0/16
 "Amazon AWS",52.82.168.0/24
 "Amazon AWS",52.93.34.0/26
@@ -1893,6 +1896,7 @@
 "Amazon AWS",155.146.208.0/20
 "Amazon AWS",15.230.15.152/31
 "Amazon AWS",15.230.179.8/29
+"Amazon AWS",16.12.112.0/21
 "Amazon AWS",16.186.0.0/16
 "Amazon AWS",35.96.6.0/24
 "Amazon AWS",35.96.35.0/24
@@ -57899,13 +57903,12 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",45.13.234.0/24
 "PacketHub S.A",45.66.136.0/22
 "PacketHub S.A",45.66.252.0/22
-"PacketHub S.A",45.80.184.0/22
+"PacketHub S.A",45.80.186.0/23
 "PacketHub S.A",45.81.4.0/22
 "PacketHub S.A",45.84.136.0/23
 "PacketHub S.A",45.85.248.0/24
 "PacketHub S.A",45.85.251.0/24
 "PacketHub S.A",45.88.221.0/24
-"PacketHub S.A",45.94.208.0/24
 "PacketHub S.A",45.94.232.0/22
 "PacketHub S.A",45.95.160.0/22
 "PacketHub S.A",45.113.96.0/22
@@ -57914,7 +57917,7 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",45.129.35.0/24
 "PacketHub S.A",45.132.156.0/24
 "PacketHub S.A",45.134.188.0/22
-"PacketHub S.A",45.137.78.0/23
+"PacketHub S.A",45.137.79.0/24
 "PacketHub S.A",45.140.184.0/24
 "PacketHub S.A",45.141.23.0/24
 "PacketHub S.A",45.141.120.0/23
@@ -57942,7 +57945,7 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",77.78.120.0/23
 "PacketHub S.A",77.237.229.0/24
 "PacketHub S.A",77.243.84.0/24
-"PacketHub S.A",77.243.86.0/23
+"PacketHub S.A",77.243.86.0/24
 "PacketHub S.A",79.132.72.0/22
 "PacketHub S.A",79.135.152.0/23
 "PacketHub S.A",79.135.155.0/24
@@ -57975,8 +57978,10 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",82.140.181.0/24
 "PacketHub S.A",82.140.186.0/24
 "PacketHub S.A",82.140.190.0/23
-"PacketHub S.A",82.149.76.0/22
-"PacketHub S.A",82.149.80.0/22
+"PacketHub S.A",82.149.77.0/24
+"PacketHub S.A",82.149.78.0/23
+"PacketHub S.A",82.149.80.0/24
+"PacketHub S.A",82.149.82.0/23
 "PacketHub S.A",82.180.148.0/24
 "PacketHub S.A",82.180.150.0/23
 "PacketHub S.A",82.197.76.0/22
@@ -58241,7 +58246,6 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",155.133.6.0/24
 "PacketHub S.A",155.133.10.0/24
 "PacketHub S.A",155.133.13.0/24
-"PacketHub S.A",155.133.15.0/24
 "PacketHub S.A",155.133.16.0/24
 "PacketHub S.A",155.133.18.0/23
 "PacketHub S.A",155.133.21.0/24
@@ -58265,7 +58269,8 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",156.67.118.0/23
 "PacketHub S.A",156.67.121.0/24
 "PacketHub S.A",156.67.122.0/24
-"PacketHub S.A",156.67.124.0/22
+"PacketHub S.A",156.67.124.0/23
+"PacketHub S.A",156.67.126.0/24
 "PacketHub S.A",158.220.72.0/21
 "PacketHub S.A",159.48.52.0/24
 "PacketHub S.A",159.148.125.0/24
@@ -58306,7 +58311,7 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",185.169.254.0/24
 "PacketHub S.A",185.172.54.0/23
 "PacketHub S.A",185.177.117.0/24
-"PacketHub S.A",185.177.118.0/23
+"PacketHub S.A",185.177.119.0/24
 "PacketHub S.A",185.182.11.0/24
 "PacketHub S.A",185.183.52.0/22
 "PacketHub S.A",185.183.87.0/24
@@ -58358,7 +58363,8 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",185.229.56.0/23
 "PacketHub S.A",185.230.139.0/24
 "PacketHub S.A",185.237.254.0/24
-"PacketHub S.A",185.239.148.0/22
+"PacketHub S.A",185.239.148.0/24
+"PacketHub S.A",185.239.150.0/23
 "PacketHub S.A",185.240.244.0/22
 "PacketHub S.A",185.243.57.0/24
 "PacketHub S.A",185.243.58.0/24
@@ -58391,7 +58397,6 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",193.149.24.0/22
 "PacketHub S.A",193.160.118.0/24
 "PacketHub S.A",193.160.244.0/22
-"PacketHub S.A",193.176.126.0/24
 "PacketHub S.A",193.187.128.0/24
 "PacketHub S.A",193.187.130.0/23
 "PacketHub S.A",193.189.106.0/23
@@ -58444,9 +58449,9 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",212.32.93.0/24
 "PacketHub S.A",212.32.94.0/24
 "PacketHub S.A",212.90.122.0/23
-"PacketHub S.A",212.97.64.0/22
-"PacketHub S.A",212.97.68.0/24
-"PacketHub S.A",212.97.70.0/23
+"PacketHub S.A",212.97.64.0/23
+"PacketHub S.A",212.97.67.0/24
+"PacketHub S.A",212.97.71.0/24
 "PacketHub S.A",212.103.60.0/23
 "PacketHub S.A",213.232.85.0/24
 "PacketHub S.A",213.232.86.0/23
@@ -58620,6 +58625,7 @@ ExonHost,103.187.22.0/23
 "Edgenext Legend Dynasty Pte. Ltd",103.243.92.0/22
 "Edgenext Legend Dynasty Pte. Ltd",123.108.72.0/24
 "Edgenext Legend Dynasty Pte. Ltd",148.222.160.0/23
+"Edgenext Legend Dynasty Pte. Ltd",148.222.162.0/24
 "Edgenext Legend Dynasty Pte. Ltd",148.222.175.0/24
 "Edgenext Legend Dynasty Pte. Ltd",151.242.210.0/23
 "Edgenext Legend Dynasty Pte. Ltd",151.242.212.0/22
@@ -60248,8 +60254,6 @@ netandhost.com,165.101.107.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.57.91.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.57.105.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.98.15.0/24
-"Equinix (EMEA) Acquisition Enterprises B.V",193.102.144.0/23
-"Equinix (EMEA) Acquisition Enterprises B.V",193.102.184.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.104.164.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.109.118.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",193.162.13.0/24
@@ -60508,6 +60512,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",43.226.0.0/23
 "OVH SAS",45.39.79.0/24
 "OVH SAS",45.43.142.0/24
+"OVH SAS",45.62.167.0/24
 "OVH SAS",45.66.82.0/23
 "OVH SAS",45.92.60.0/22
 "OVH SAS",45.93.184.0/23
@@ -60585,6 +60590,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",79.137.0.0/17
 "OVH SAS",80.71.226.0/24
 "OVH SAS",80.87.206.0/24
+"OVH SAS",81.199.114.0/24
 "OVH SAS",82.21.139.0/24
 "OVH SAS",82.22.118.0/24
 "OVH SAS",82.24.96.0/22
@@ -60617,6 +60623,8 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",88.218.34.0/24
 "OVH SAS",89.19.44.0/24
 "OVH SAS",89.39.120.0/24
+"OVH SAS",89.213.145.0/24
+"OVH SAS",89.213.154.0/24
 "OVH SAS",89.251.28.0/24
 "OVH SAS",91.90.88.0/21
 "OVH SAS",91.121.0.0/16
@@ -60642,6 +60650,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",93.174.111.0/24
 "OVH SAS",94.23.0.0/16
 "OVH SAS",95.81.72.0/22
+"OVH SAS",95.135.60.0/24
 "OVH SAS",95.169.162.0/24
 "OVH SAS",95.214.177.0/24
 "OVH SAS",96.62.105.0/24
@@ -60711,9 +60720,11 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",146.19.9.0/24
 "OVH SAS",146.59.0.0/16
 "OVH SAS",146.103.10.0/24
+"OVH SAS",147.79.3.0/24
 "OVH SAS",147.135.0.0/16
 "OVH SAS",148.113.0.0/18
 "OVH SAS",148.113.128.0/17
+"OVH SAS",148.135.199.0/24
 "OVH SAS",148.222.40.0/22
 "OVH SAS",149.56.0.0/16
 "OVH SAS",149.202.0.0/16
@@ -60760,6 +60771,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",166.1.231.0/24
 "OVH SAS",167.114.0.0/16
 "OVH SAS",167.148.33.0/24
+"OVH SAS",167.148.193.0/24
 "OVH SAS",167.234.38.0/24
 "OVH SAS",167.253.62.0/24
 "OVH SAS",168.245.185.0/24
@@ -60796,6 +60808,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",185.155.218.0/24
 "OVH SAS",185.170.155.0/24
 "OVH SAS",185.196.221.0/24
+"OVH SAS",185.200.210.0/24
 "OVH SAS",185.207.134.0/24
 "OVH SAS",185.213.248.0/24
 "OVH SAS",185.216.126.0/24
@@ -60825,7 +60838,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",193.8.112.0/24
 "OVH SAS",193.17.223.0/24
 "OVH SAS",193.32.204.0/24
-"OVH SAS",193.32.207.0/24
+"OVH SAS",193.32.206.0/23
 "OVH SAS",193.33.176.0/23
 "OVH SAS",193.43.104.0/24
 "OVH SAS",193.70.0.0/17
@@ -60899,7 +60912,6 @@ netandhost.com,165.101.107.0/24
 "WIIT S.p.A",217.118.0.0/20
 "EQUINIX BRASIL",5.62.51.0/24
 "EQUINIX BRASIL",142.215.101.0/24
-"EQUINIX BRASIL",155.204.192.0/24
 "Flexential Corp",206.196.20.0/23
 "Flexential Corp",206.196.28.0/23
 "Equinix Inc",142.215.107.0/24
@@ -60954,7 +60966,7 @@ InfiniaHost.com,149.112.111.0/24
 "Akamai Technologies Inc",2.17.0.0/21
 "Akamai Technologies Inc",2.17.16.0/22
 "Akamai Technologies Inc",2.17.48.0/20
-"Akamai Technologies Inc",2.17.80.0/20
+"Akamai Technologies Inc",2.17.64.0/19
 "Akamai Technologies Inc",2.17.96.0/22
 "Akamai Technologies Inc",2.17.124.0/22
 "Akamai Technologies Inc",2.17.128.0/22
@@ -61058,7 +61070,7 @@ InfiniaHost.com,149.112.111.0/24
 "Akamai Technologies Inc",2.23.64.0/20
 "Akamai Technologies Inc",2.23.88.0/22
 "Akamai Technologies Inc",2.23.108.0/22
-"Akamai Technologies Inc",2.23.112.0/21
+"Akamai Technologies Inc",2.23.112.0/20
 "Akamai Technologies Inc",2.23.136.0/21
 "Akamai Technologies Inc",2.23.144.0/21
 "Akamai Technologies Inc",2.23.180.0/22
@@ -61569,6 +61581,7 @@ InfiniaHost.com,149.112.111.0/24
 "Akamai Technologies Inc",23.52.76.0/22
 "Akamai Technologies Inc",23.52.84.0/22
 "Akamai Technologies Inc",23.52.88.0/23
+"Akamai Technologies Inc",23.52.96.0/23
 "Akamai Technologies Inc",23.52.116.0/22
 "Akamai Technologies Inc",23.52.120.0/21
 "Akamai Technologies Inc",23.52.142.0/23
@@ -62333,7 +62346,6 @@ InfiniaHost.com,149.112.111.0/24
 "Akamai Technologies Inc",23.221.26.0/23
 "Akamai Technologies Inc",23.221.32.0/21
 "Akamai Technologies Inc",23.221.44.0/22
-"Akamai Technologies Inc",23.221.52.0/22
 "Akamai Technologies Inc",23.221.56.0/22
 "Akamai Technologies Inc",23.221.62.0/23
 "Akamai Technologies Inc",23.221.70.0/23
@@ -62637,9 +62649,10 @@ InfiniaHost.com,149.112.111.0/24
 "Akamai Technologies Inc",104.81.128.0/22
 "Akamai Technologies Inc",104.81.160.0/20
 "Akamai Technologies Inc",104.81.192.0/20
-"Akamai Technologies Inc",104.82.78.0/23
+"Akamai Technologies Inc",104.82.72.0/21
 "Akamai Technologies Inc",104.82.80.0/20
-"Akamai Technologies Inc",104.82.96.0/20
+"Akamai Technologies Inc",104.82.96.0/19
+"Akamai Technologies Inc",104.82.128.0/20
 "Akamai Technologies Inc",104.82.190.0/23
 "Akamai Technologies Inc",104.82.224.0/19
 "Akamai Technologies Inc",104.83.0.0/22
@@ -63499,7 +63512,6 @@ Vertisoft,216.137.165.0/24
 "Ai Host LLC",69.94.0.0/23
 "Secure Hosting Ltd",190.15.68.0/22
 "Secure Hosting Ltd",208.87.32.0/21
-HostPapa,216.201.96.0/20
 "Virtual Systems",74.120.20.0/23
 "Virtual Systems",74.120.23.0/24
 "Virtual Systems",74.204.50.0/23
@@ -64041,8 +64053,7 @@ EGIHosting,142.252.218.0/24
 EGIHosting,142.252.222.0/24
 EGIHosting,147.189.130.0/24
 EGIHosting,154.203.51.0/24
-EGIHosting,154.203.52.0/23
-EGIHosting,154.203.54.0/24
+EGIHosting,154.203.52.0/22
 EGIHosting,154.203.56.0/22
 EGIHosting,154.203.60.0/23
 EGIHosting,154.203.62.0/24
@@ -64418,6 +64429,7 @@ ColoUp,162.245.80.0/21
 "Bird Hosting Inc",204.11.96.0/21
 "Bird Hosting Inc",207.14.35.0/24
 "Bird Hosting Inc",208.65.200.0/22
+"Bird Hosting Inc",208.89.132.0/22
 "Bird Hosting Inc",208.93.16.0/21
 "Leaseweb USA Inc",23.19.108.0/22
 "Leaseweb USA Inc",23.19.132.0/22
@@ -64963,6 +64975,7 @@ ColoUp,162.245.80.0/21
 "netcup GmbH",152.53.244.0/22
 "netcup GmbH",152.53.248.0/21
 "netcup GmbH",152.89.104.0/22
+"netcup GmbH",159.195.4.0/22
 "netcup GmbH",185.16.60.0/22
 "netcup GmbH",185.48.228.0/22
 "netcup GmbH",185.158.212.0/22
@@ -65019,7 +65032,7 @@ ColoUp,162.245.80.0/21
 "Domain names registrar REG.RU Ltd",62.213.122.0/24
 "Domain names registrar REG.RU Ltd",62.213.125.0/24
 "Domain names registrar REG.RU Ltd",62.213.126.0/24
-"Domain names registrar REG.RU Ltd",79.174.78.0/24
+"Domain names registrar REG.RU Ltd",79.174.78.0/23
 "Domain names registrar REG.RU Ltd",79.174.80.0/20
 "Domain names registrar REG.RU Ltd",80.78.240.0/20
 "Domain names registrar REG.RU Ltd",83.166.244.0/22
@@ -67875,6 +67888,7 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",45.131.110.0/24
 "The Constant Company LLC",45.133.24.0/23
 "The Constant Company LLC",45.143.238.0/23
+"The Constant Company LLC",45.150.53.0/24
 "The Constant Company LLC",45.156.1.0/24
 "The Constant Company LLC",45.196.200.0/24
 "The Constant Company LLC",45.197.158.0/23
@@ -67924,7 +67938,6 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",72.11.136.0/23
 "The Constant Company LLC",78.108.58.0/24
 "The Constant Company LLC",78.141.192.0/18
-"The Constant Company LLC",79.172.219.0/24
 "The Constant Company LLC",80.240.16.0/20
 "The Constant Company LLC",82.97.196.0/23
 "The Constant Company LLC",84.32.63.0/24
@@ -67961,7 +67974,6 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",91.229.228.0/24
 "The Constant Company LLC",91.232.136.0/22
 "The Constant Company LLC",91.238.148.0/23
-"The Constant Company LLC",92.112.58.0/24
 "The Constant Company LLC",92.112.147.0/24
 "The Constant Company LLC",93.114.169.0/24
 "The Constant Company LLC",93.115.155.0/24
@@ -68078,6 +68090,7 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",151.244.4.0/24
 "The Constant Company LLC",151.244.134.0/24
 "The Constant Company LLC",151.244.187.0/24
+"The Constant Company LLC",151.246.218.0/24
 "The Constant Company LLC",152.39.128.0/17
 "The Constant Company LLC",154.16.52.0/24
 "The Constant Company LLC",154.81.137.0/24
@@ -68263,7 +68276,6 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",209.222.0.0/19
 "The Constant Company LLC",209.246.143.0/24
 "The Constant Company LLC",209.250.224.0/19
-"The Constant Company LLC",212.6.48.0/24
 "The Constant Company LLC",212.187.208.0/23
 "The Constant Company LLC",212.187.246.0/23
 "The Constant Company LLC",212.192.16.0/22
@@ -68401,6 +68413,7 @@ StabiliServers,38.135.34.0/24
 "Green Mini host BV",185.200.100.0/22
 "Data Center Experts LTD",103.176.152.0/24
 "LLC NARODNAYA KASSA",78.140.236.0/22
+"HOSTIFOX INTERNET VE BILISIM HIZMETLERI TICARET SANAYI LIMITED SIRKETI",31.40.196.0/24
 "HOSTIFOX INTERNET VE BILISIM HIZMETLERI TICARET SANAYI LIMITED SIRKETI",31.57.134.0/24
 "HOSTIFOX INTERNET VE BILISIM HIZMETLERI TICARET SANAYI LIMITED SIRKETI",45.8.172.0/24
 "HOSTIFOX INTERNET VE BILISIM HIZMETLERI TICARET SANAYI LIMITED SIRKETI",45.94.171.0/24
@@ -68438,6 +68451,7 @@ StabiliServers,38.135.34.0/24
 "GreenEdge B.V",195.114.30.0/24
 "RSO Host Sp. z o.o",45.131.32.0/24
 "Zeta Datacenters B.V",5.42.194.0/24
+"Team Host LLC",103.73.34.0/24
 "FLAMINGHOST SRL",46.37.113.0/24
 "1 of 1 Servers Corp",45.141.24.0/24
 "1 of 1 Servers Corp",45.144.225.0/24
@@ -68465,7 +68479,7 @@ StabiliServers,38.135.34.0/24
 "i3D.net B.V",185.179.200.0/23
 "NSIX Data Center sp. z o.o",185.182.96.0/22
 "UXHOST LTD",104.165.205.0/24
-"UXHOST LTD",144.31.176.0/23
+"UXHOST LTD",144.31.176.0/24
 "Domain names registrar REG.RU Ltd",178.170.189.0/24
 "Domain names registrar REG.RU Ltd",178.170.243.0/24
 "Domain names registrar REG.RU Ltd",178.170.244.0/24
@@ -68537,7 +68551,7 @@ StabiliServers,38.135.34.0/24
 "PacketHub S.A",89.46.9.0/24
 "PacketHub S.A",89.46.10.0/23
 "PacketHub S.A",93.114.62.0/23
-"PacketHub S.A",94.156.150.0/24
+"PacketHub S.A",94.156.150.0/23
 "PacketHub S.A",185.161.202.0/23
 "PacketHub S.A",185.214.96.0/23
 "PacketHub S.A",185.250.39.0/24
@@ -68614,6 +68628,7 @@ StabiliServers,38.135.34.0/24
 "I-SERVERS LTD",46.243.6.0/24
 "I-SERVERS LTD",85.209.0.0/24
 "I-SERVERS LTD",89.44.86.0/23
+"I-SERVERS LTD",95.81.113.0/24
 "I-SERVERS LTD",95.81.126.0/23
 "I-SERVERS LTD",95.214.8.0/24
 "I-SERVERS LTD",139.28.220.0/23
@@ -69043,6 +69058,7 @@ StabiliServers,38.135.34.0/24
 "GmhostGrupp OU",45.129.96.0/24
 "Megahost Kazakhstan TOO",31.56.240.0/24
 "Megahost Kazakhstan TOO",45.136.56.0/22
+"Megahost Kazakhstan TOO",191.101.218.0/24
 "Megahost Kazakhstan TOO",193.39.68.0/24
 "Johan Karlsson trading as SweHosting",193.181.23.0/24
 "Johan Karlsson trading as SweHosting",193.181.29.0/24
@@ -70137,9 +70153,7 @@ StabiliServers,38.135.34.0/24
 "Private Internet Hosting LTD",193.150.70.0/24
 "Akamai International B.V",2.21.122.0/24
 "Akamai International B.V",72.52.4.0/22
-"Akamai International B.V",72.52.8.0/22
-"Akamai International B.V",72.52.13.0/24
-"Akamai International B.V",72.52.14.0/23
+"Akamai International B.V",72.52.8.0/21
 "Akamai International B.V",103.41.68.0/22
 "Akamai International B.V",114.141.72.0/24
 "Akamai International B.V",199.46.32.0/19
@@ -70670,7 +70684,6 @@ StabiliServers,38.135.34.0/24
 "HosterDaddy Private Limited",203.98.68.0/24
 "HosterDaddy Private Limited",206.245.165.0/24
 "HosterDaddy Private Limited",212.232.22.0/24
-"Association By-Hoster",89.213.144.0/24
 "Michael Vassileiou trading as DATAHOST",31.22.118.0/24
 "NovoServe B.V",31.57.144.0/24
 "NovoServe B.V",45.8.178.0/24
@@ -71252,9 +71265,9 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",85.237.211.0/24
 "Zenlayer Inc",85.237.223.0/24
 "Zenlayer Inc",86.38.187.0/24
-"Zenlayer Inc",87.229.112.0/24
 "Zenlayer Inc",88.80.139.0/24
 "Zenlayer Inc",89.47.100.0/24
+"Zenlayer Inc",89.116.45.0/24
 "Zenlayer Inc",92.62.240.0/24
 "Zenlayer Inc",92.112.157.0/24
 "Zenlayer Inc",92.113.66.0/24
@@ -71442,11 +71455,11 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",147.161.3.0/24
 "Zenlayer Inc",148.135.196.0/23
 "Zenlayer Inc",148.135.204.0/23
+"Zenlayer Inc",148.135.207.0/24
 "Zenlayer Inc",150.107.0.0/24
-"Zenlayer Inc",151.240.79.0/24
+"Zenlayer Inc",150.241.237.0/24
 "Zenlayer Inc",151.240.177.0/24
 "Zenlayer Inc",151.240.255.0/24
-"Zenlayer Inc",151.241.8.0/24
 "Zenlayer Inc",151.242.87.0/24
 "Zenlayer Inc",151.242.148.0/24
 "Zenlayer Inc",151.242.174.0/23
@@ -71476,6 +71489,7 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",154.201.1.0/24
 "Zenlayer Inc",154.202.115.0/24
 "Zenlayer Inc",155.2.218.0/23
+"Zenlayer Inc",155.117.63.0/24
 "Zenlayer Inc",155.117.99.0/24
 "Zenlayer Inc",155.117.163.0/24
 "Zenlayer Inc",155.117.197.0/24
@@ -71530,7 +71544,7 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",162.128.44.0/24
 "Zenlayer Inc",162.128.46.0/23
 "Zenlayer Inc",162.128.48.0/21
-"Zenlayer Inc",162.128.56.0/24
+"Zenlayer Inc",162.128.56.0/23
 "Zenlayer Inc",162.128.67.0/24
 "Zenlayer Inc",162.128.128.0/20
 "Zenlayer Inc",162.128.144.0/21
@@ -71558,6 +71572,7 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",162.221.4.0/22
 "Zenlayer Inc",162.221.192.0/21
 "Zenlayer Inc",163.5.66.0/24
+"Zenlayer Inc",163.5.119.0/24
 "Zenlayer Inc",163.53.245.0/24
 "Zenlayer Inc",164.90.73.0/24
 "Zenlayer Inc",164.90.97.0/24
@@ -71588,7 +71603,9 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",178.95.196.0/24
 "Zenlayer Inc",178.239.116.0/24
 "Zenlayer Inc",178.253.16.0/24
+"Zenlayer Inc",178.253.210.0/24
 "Zenlayer Inc",178.253.226.0/24
+"Zenlayer Inc",179.61.140.0/24
 "Zenlayer Inc",181.214.100.0/24
 "Zenlayer Inc",181.215.205.0/24
 "Zenlayer Inc",182.161.36.0/22
@@ -71604,7 +71621,6 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",188.255.253.0/24
 "Zenlayer Inc",190.98.146.0/24
 "Zenlayer Inc",192.145.69.0/24
-"Zenlayer Inc",192.166.114.0/24
 "Zenlayer Inc",192.169.96.0/19
 "Zenlayer Inc",192.253.210.0/24
 "Zenlayer Inc",192.254.80.0/20
@@ -71639,8 +71655,10 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",210.87.206.0/24
 "Zenlayer Inc",211.56.131.0/24
 "Zenlayer Inc",211.56.132.0/23
+"Zenlayer Inc",212.103.47.0/24
 "Zenlayer Inc",213.139.235.0/24
 "Zenlayer Inc",213.218.216.0/24
+"Zenlayer Inc",216.75.132.0/24
 "Zenlayer Inc",216.132.101.0/24
 "Zenlayer Inc",216.247.99.0/24
 "Zenlayer Inc",217.198.191.0/24
@@ -72339,6 +72357,8 @@ GigeNET,66.252.16.0/21
 "Equinix (Germany) GmbH",89.110.128.0/18
 "Equinix (Germany) GmbH",185.7.71.0/24
 "Equinix (Germany) GmbH",192.76.162.0/24
+"Equinix (Germany) GmbH",193.102.144.0/23
+"Equinix (Germany) GmbH",193.102.184.0/24
 "Equinix (Germany) GmbH",193.239.227.0/24
 "Equinix (Germany) GmbH",193.242.218.0/23
 "Equinix (Germany) GmbH",194.8.123.0/24
@@ -72353,12 +72373,14 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",23.226.139.0/24
 "INTERKVM HOST SRL",23.226.142.0/24
 "INTERKVM HOST SRL",40.183.143.0/24
+"INTERKVM HOST SRL",40.183.214.0/24
 "INTERKVM HOST SRL",45.38.1.0/24
 "INTERKVM HOST SRL",45.128.78.0/24
 "INTERKVM HOST SRL",46.229.243.0/24
 "INTERKVM HOST SRL",46.229.251.0/24
 "INTERKVM HOST SRL",46.229.253.0/24
 "INTERKVM HOST SRL",50.2.235.0/24
+"INTERKVM HOST SRL",50.118.134.0/24
 "INTERKVM HOST SRL",62.76.229.0/24
 "INTERKVM HOST SRL",63.247.92.0/24
 "INTERKVM HOST SRL",64.22.96.0/24
@@ -72404,6 +72426,7 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",104.165.231.0/24
 "INTERKVM HOST SRL",104.241.133.0/24
 "INTERKVM HOST SRL",104.252.39.0/24
+"INTERKVM HOST SRL",104.252.52.0/24
 "INTERKVM HOST SRL",104.253.21.0/24
 "INTERKVM HOST SRL",139.177.157.0/24
 "INTERKVM HOST SRL",149.57.62.0/24
@@ -72424,6 +72447,7 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",195.74.93.0/24
 "INTERKVM HOST SRL",195.211.190.0/24
 "INTERKVM HOST SRL",198.1.242.0/24
+"INTERKVM HOST SRL",199.91.101.0/24
 "INTERKVM HOST SRL",199.101.193.0/24
 "INTERKVM HOST SRL",199.115.80.0/24
 "INTERKVM HOST SRL",203.14.32.0/24
@@ -72433,6 +72457,7 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",209.51.156.0/24
 "INTERKVM HOST SRL",209.87.163.0/24
 "INTERKVM HOST SRL",216.75.130.0/24
+"INTERKVM HOST SRL",216.75.150.0/24
 "INTERKVM HOST SRL",216.83.52.0/24
 "INTERKVM HOST SRL",216.180.244.0/24
 "QualityHosting AG",46.235.240.0/21
@@ -73160,7 +73185,7 @@ HOSTING.CL,201.148.104.0/22
 "MASTER DA WEB DATACENTER LTDA",181.41.200.0/24
 "MASTER DA WEB DATACENTER LTDA",181.224.24.0/22
 "MASTER DA WEB DATACENTER LTDA",185.228.72.0/24
-"MASTER DA WEB DATACENTER LTDA",190.89.16.0/23
+"MASTER DA WEB DATACENTER LTDA",190.89.16.0/24
 "AGINET DATACENTER INFORMATICA LTDA",186.224.197.0/24
 "AGINET DATACENTER INFORMATICA LTDA",189.50.211.0/24
 "Ecxon Datacenter LTDA",45.40.99.0/24
@@ -73979,6 +74004,7 @@ MOJOHOST,208.122.192.0/19
 "HIVELOCITY Inc",46.203.206.0/24
 "HIVELOCITY Inc",46.203.209.0/24
 "HIVELOCITY Inc",50.114.47.0/24
+"HIVELOCITY Inc",62.164.195.0/24
 "HIVELOCITY Inc",63.223.89.0/24
 "HIVELOCITY Inc",63.223.90.0/24
 "HIVELOCITY Inc",63.223.106.0/24
@@ -75091,7 +75117,6 @@ PloxHost,199.253.30.0/24
 "xTom GmbH",193.8.124.0/23
 "xTom GmbH",193.8.168.0/23
 "xTom GmbH",193.111.90.0/23
-"xTom GmbH",194.36.27.0/24
 "xTom GmbH",194.36.222.0/23
 "xTom GmbH",194.124.213.0/24
 "xTom GmbH",194.124.216.0/24
@@ -75512,6 +75537,7 @@ Steadfast,216.86.144.0/20
 "Akamai Technologies Inc",72.52.60.0/23
 "Akamai Technologies Inc",72.52.63.0/24
 "Akamai Technologies Inc",81.174.71.0/24
+"Akamai Technologies Inc",85.45.250.0/24
 "Akamai Technologies Inc",89.147.32.0/23
 "Akamai Technologies Inc",92.122.184.0/23
 "Akamai Technologies Inc",92.122.207.0/24
@@ -76997,7 +77023,7 @@ HostPapa,72.11.152.0/22
 HostPapa,72.249.94.0/24
 HostPapa,72.249.124.0/24
 HostPapa,74.112.78.0/23
-HostPapa,74.122.24.0/22
+HostPapa,74.122.26.0/23
 HostPapa,74.217.200.0/23
 HostPapa,75.102.10.0/24
 HostPapa,75.102.27.0/24
@@ -77310,7 +77336,6 @@ HostPapa,155.94.180.0/24
 HostPapa,155.94.186.0/24
 HostPapa,155.94.190.0/24
 HostPapa,155.94.192.0/23
-HostPapa,155.94.195.0/24
 HostPapa,155.94.198.0/23
 HostPapa,155.94.207.0/24
 HostPapa,155.94.225.0/24
@@ -79343,7 +79368,6 @@ HostMyCalls,104.232.44.0/24
 "GoDaddy.com LLC",64.207.144.0/20
 "GoDaddy.com LLC",64.207.176.0/20
 "GoDaddy.com LLC",68.178.132.0/22
-"GoDaddy.com LLC",68.178.176.0/24
 "GoDaddy.com LLC",68.178.180.0/22
 "GoDaddy.com LLC",68.178.184.0/21
 "GoDaddy.com LLC",68.178.192.0/20
@@ -81245,7 +81269,8 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",2.56.122.0/24
 "PQ HOSTING PLUS S.R.L",2.56.125.0/24
 "PQ HOSTING PLUS S.R.L",2.56.126.0/23
-"PQ HOSTING PLUS S.R.L",2.56.172.0/22
+"PQ HOSTING PLUS S.R.L",2.56.173.0/24
+"PQ HOSTING PLUS S.R.L",2.56.174.0/24
 "PQ HOSTING PLUS S.R.L",2.56.176.0/23
 "PQ HOSTING PLUS S.R.L",2.56.179.0/24
 "PQ HOSTING PLUS S.R.L",2.58.124.0/22
@@ -81320,7 +81345,6 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",45.15.142.0/24
 "PQ HOSTING PLUS S.R.L",45.15.144.0/22
 "PQ HOSTING PLUS S.R.L",45.15.152.0/22
-"PQ HOSTING PLUS S.R.L",45.15.160.0/24
 "PQ HOSTING PLUS S.R.L",45.15.162.0/23
 "PQ HOSTING PLUS S.R.L",45.15.164.0/22
 "PQ HOSTING PLUS S.R.L",45.15.168.0/22
@@ -81387,7 +81411,8 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",45.88.176.0/22
 "PQ HOSTING PLUS S.R.L",45.88.181.0/24
 "PQ HOSTING PLUS S.R.L",45.88.182.0/24
-"PQ HOSTING PLUS S.R.L",45.89.52.0/22
+"PQ HOSTING PLUS S.R.L",45.89.52.0/23
+"PQ HOSTING PLUS S.R.L",45.89.54.0/24
 "PQ HOSTING PLUS S.R.L",45.89.96.0/24
 "PQ HOSTING PLUS S.R.L",45.89.98.0/24
 "PQ HOSTING PLUS S.R.L",45.89.107.0/24
@@ -81618,17 +81643,13 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",138.124.106.0/24
 "PQ HOSTING PLUS S.R.L",138.124.120.0/23
 "PQ HOSTING PLUS S.R.L",138.124.122.0/24
-"PQ HOSTING PLUS S.R.L",138.124.126.0/24
 "PQ HOSTING PLUS S.R.L",138.124.180.0/24
 "PQ HOSTING PLUS S.R.L",138.124.183.0/24
 "PQ HOSTING PLUS S.R.L",138.124.184.0/24
 "PQ HOSTING PLUS S.R.L",138.124.240.0/21
-"PQ HOSTING PLUS S.R.L",138.124.251.0/24
-"PQ HOSTING PLUS S.R.L",138.124.252.0/23
 "PQ HOSTING PLUS S.R.L",139.28.233.0/24
 "PQ HOSTING PLUS S.R.L",139.28.235.0/24
 "PQ HOSTING PLUS S.R.L",141.98.160.0/22
-"PQ HOSTING PLUS S.R.L",141.98.164.0/24
 "PQ HOSTING PLUS S.R.L",141.98.166.0/24
 "PQ HOSTING PLUS S.R.L",141.98.168.0/23
 "PQ HOSTING PLUS S.R.L",141.98.170.0/24
@@ -81673,7 +81694,7 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",185.138.164.0/24
 "PQ HOSTING PLUS S.R.L",185.153.180.0/22
 "PQ HOSTING PLUS S.R.L",185.156.108.0/24
-"PQ HOSTING PLUS S.R.L",185.156.110.0/23
+"PQ HOSTING PLUS S.R.L",185.156.111.0/24
 "PQ HOSTING PLUS S.R.L",185.161.69.0/24
 "PQ HOSTING PLUS S.R.L",185.161.70.0/23
 "PQ HOSTING PLUS S.R.L",185.166.153.0/24
@@ -81688,7 +81709,8 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",185.234.9.0/24
 "PQ HOSTING PLUS S.R.L",185.234.57.0/24
 "PQ HOSTING PLUS S.R.L",185.234.58.0/24
-"PQ HOSTING PLUS S.R.L",185.234.64.0/22
+"PQ HOSTING PLUS S.R.L",185.234.64.0/23
+"PQ HOSTING PLUS S.R.L",185.234.66.0/24
 "PQ HOSTING PLUS S.R.L",185.234.247.0/24
 "PQ HOSTING PLUS S.R.L",185.235.240.0/23
 "PQ HOSTING PLUS S.R.L",185.235.243.0/24
@@ -81731,7 +81753,8 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",193.43.147.0/24
 "PQ HOSTING PLUS S.R.L",193.46.56.0/23
 "PQ HOSTING PLUS S.R.L",193.47.61.0/24
-"PQ HOSTING PLUS S.R.L",193.57.136.0/22
+"PQ HOSTING PLUS S.R.L",193.57.136.0/23
+"PQ HOSTING PLUS S.R.L",193.57.138.0/24
 "PQ HOSTING PLUS S.R.L",193.124.3.0/24
 "PQ HOSTING PLUS S.R.L",193.124.6.0/24
 "PQ HOSTING PLUS S.R.L",193.124.91.0/24
@@ -81766,7 +81789,6 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",194.135.23.0/24
 "PQ HOSTING PLUS S.R.L",194.156.98.0/23
 "PQ HOSTING PLUS S.R.L",194.165.59.0/24
-"PQ HOSTING PLUS S.R.L",194.242.127.0/24
 "PQ HOSTING PLUS S.R.L",194.246.114.0/23
 "PQ HOSTING PLUS S.R.L",195.16.74.0/24
 "PQ HOSTING PLUS S.R.L",195.42.232.0/22
@@ -81793,7 +81815,9 @@ HostPapa,216.222.192.0/22
 "PQ HOSTING PLUS S.R.L",213.159.64.0/22
 "PQ HOSTING PLUS S.R.L",213.159.68.0/24
 "PQ HOSTING PLUS S.R.L",213.159.70.0/23
-"PQ HOSTING PLUS S.R.L",213.159.72.0/21
+"PQ HOSTING PLUS S.R.L",213.159.72.0/22
+"PQ HOSTING PLUS S.R.L",213.159.76.0/24
+"PQ HOSTING PLUS S.R.L",213.159.78.0/24
 "PQ HOSTING PLUS S.R.L",213.226.100.0/24
 "Federal State Unitary Enterprise Rossiya Segodnya International Information Agency",194.36.17.0/24
 "Federal State Unitary Enterprise Rossiya Segodnya International Information Agency",195.93.246.0/23
@@ -81882,10 +81906,9 @@ HostPapa,216.222.192.0/22
 "IT HOSTLINE LTD",138.124.32.0/23
 "IT HOSTLINE LTD",138.124.76.0/23
 "IT HOSTLINE LTD",138.124.86.0/23
+"IT HOSTLINE LTD",138.124.126.0/24
 "IT HOSTLINE LTD",138.124.228.0/22
-"IT HOSTLINE LTD",138.124.248.0/23
-"IT HOSTLINE LTD",138.124.250.0/24
-"IT HOSTLINE LTD",138.124.254.0/23
+"IT HOSTLINE LTD",138.124.248.0/21
 "IT HOSTLINE LTD",142.111.45.0/24
 "IT HOSTLINE LTD",142.111.46.0/24
 "IT HOSTLINE LTD",142.111.52.0/24
@@ -82024,6 +82047,7 @@ HostPapa,216.222.192.0/22
 "IT HOSTLINE LTD",194.87.163.0/24
 "IT HOSTLINE LTD",194.87.180.0/23
 "IT HOSTLINE LTD",194.87.182.0/24
+"IT HOSTLINE LTD",194.242.127.0/24
 "IT HOSTLINE LTD",195.58.56.0/24
 "IT HOSTLINE LTD",195.58.59.0/24
 "IT HOSTLINE LTD",195.58.62.0/24
@@ -84051,6 +84075,7 @@ Arcserve,199.204.172.0/22
 "WorldStream B.V",2.59.168.0/22
 "WorldStream B.V",5.252.152.0/24
 "WorldStream B.V",37.202.210.0/24
+"WorldStream B.V",38.225.110.0/24
 "WorldStream B.V",45.14.132.0/22
 "WorldStream B.V",45.82.64.0/22
 "WorldStream B.V",45.93.23.0/24
@@ -84078,7 +84103,6 @@ Arcserve,199.204.172.0/22
 "WorldStream B.V",93.190.136.0/21
 "WorldStream B.V",94.177.12.0/24
 "WorldStream B.V",96.43.105.0/24
-"WorldStream B.V",103.20.240.0/24
 "WorldStream B.V",109.236.80.0/20
 "WorldStream B.V",130.254.44.0/24
 "WorldStream B.V",146.19.188.0/24
@@ -85182,6 +85206,8 @@ Arcserve,199.204.172.0/22
 "The Center of Dedicated Servers LLC",85.143.188.0/23
 "The Center of Dedicated Servers LLC",91.221.70.0/23
 "The Center of Dedicated Servers LLC",185.189.132.0/22
+"JSC TIMEWEB",5.129.244.0/24
+"JSC TIMEWEB",5.129.254.0/24
 "JSC TIMEWEB",45.149.128.0/24
 "JSC TIMEWEB",193.164.152.0/24
 "CSL Data Centre Services Limited",91.220.139.0/24
@@ -85406,6 +85432,7 @@ PlanetHoster,209.16.158.0/24
 "ZSCALER INC",64.62.169.0/24
 "ZSCALER INC",101.2.192.0/22
 "ZSCALER INC",101.2.196.0/24
+"ZSCALER INC",101.2.199.0/24
 "ZSCALER INC",136.226.222.0/23
 "ZSCALER INC",136.226.224.0/23
 "ZSCALER INC",136.226.228.0/22
@@ -85512,7 +85539,6 @@ PlanetHoster,209.16.158.0/24
 "GorillaServers Inc",23.159.8.0/24
 "GorillaServers Inc",23.178.24.0/24
 "GorillaServers Inc",23.239.96.0/19
-"GorillaServers Inc",64.50.162.0/24
 "GorillaServers Inc",74.118.168.0/24
 "GorillaServers Inc",86.109.75.0/24
 "GorillaServers Inc",96.47.165.0/24
@@ -85548,6 +85574,7 @@ PlanetHoster,209.16.158.0/24
 "Fastly Inc",23.235.35.0/24
 "Fastly Inc",23.235.36.0/23
 "Fastly Inc",23.235.38.0/24
+"Fastly Inc",23.235.40.0/24
 "Fastly Inc",23.235.43.0/24
 "Fastly Inc",23.235.44.0/23
 "Fastly Inc",43.249.73.0/24
@@ -86106,6 +86133,7 @@ Serverside.com,198.73.56.0/23
 "Hostopia Australia Web Pty Ltd",116.90.0.0/18
 "Hostopia Australia Web Pty Ltd",125.214.64.0/20
 "Hostopia Australia Web Pty Ltd",137.59.248.0/22
+"Hostopia Australia Web Pty Ltd",163.47.73.0/24
 "Hostopia Australia Web Pty Ltd",163.53.248.0/22
 "Hostopia Australia Web Pty Ltd",175.41.40.0/22
 "Hostopia Australia Web Pty Ltd",182.160.128.0/18
@@ -86413,6 +86441,7 @@ Serverside.com,198.73.56.0/23
 "HOSTKEY B.V",104.253.216.0/24
 "HOSTKEY B.V",107.181.147.0/24
 "HOSTKEY B.V",107.181.151.0/24
+"HOSTKEY B.V",109.110.177.0/24
 "HOSTKEY B.V",109.122.1.0/24
 "HOSTKEY B.V",109.122.7.0/24
 "HOSTKEY B.V",109.122.28.0/24
@@ -86435,7 +86464,7 @@ Serverside.com,198.73.56.0/23
 "HOSTKEY B.V",154.86.2.0/23
 "HOSTKEY B.V",154.86.12.0/23
 "HOSTKEY B.V",154.193.166.0/23
-"HOSTKEY B.V",154.222.10.0/24
+"HOSTKEY B.V",154.222.10.0/23
 "HOSTKEY B.V",154.222.79.0/24
 "HOSTKEY B.V",156.67.62.0/23
 "HOSTKEY B.V",166.1.129.0/24
@@ -86480,6 +86509,7 @@ Serverside.com,198.73.56.0/23
 "HOSTKEY B.V",193.37.196.0/24
 "HOSTKEY B.V",193.39.245.0/24
 "HOSTKEY B.V",193.84.2.0/23
+"HOSTKEY B.V",193.93.54.0/24
 "HOSTKEY B.V",193.109.68.0/23
 "HOSTKEY B.V",193.124.17.0/24
 "HOSTKEY B.V",193.124.225.0/24
@@ -86664,6 +86694,12 @@ Serverside.com,198.73.56.0/23
 "Freedom Data Centers LLP",91.132.148.0/22
 "Freedom Data Centers LLP",91.213.49.0/24
 "Freedom Data Centers LLP",91.239.101.0/24
+"Freedom Data Centers LLP",94.131.225.0/24
+"Freedom Data Centers LLP",94.131.226.0/23
+"Freedom Data Centers LLP",94.131.228.0/24
+"Freedom Data Centers LLP",94.131.230.0/23
+"Freedom Data Centers LLP",94.131.232.0/23
+"Freedom Data Centers LLP",94.131.234.0/24
 "Freedom Data Centers LLP",128.127.96.0/21
 "Freedom Data Centers LLP",178.20.176.0/21
 "Freedom Data Centers LLP",185.191.212.0/24
@@ -86761,6 +86797,7 @@ Serversaurus,103.209.24.0/23
 "DEDICATED SERVERS AUSTRALIA",103.18.42.0/23
 "DEDICATED SERVERS AUSTRALIA",113.52.144.0/22
 OneAsiaHost,116.251.216.0/21
+"G-Core Labs S.A",78.111.101.0/24
 "LEASEWEB SINGAPORE PTE. LTD",23.106.48.0/21
 "LEASEWEB SINGAPORE PTE. LTD",23.106.64.0/20
 "LEASEWEB SINGAPORE PTE. LTD",23.106.120.0/21
@@ -88263,6 +88300,7 @@ xTom,194.36.242.0/24
 "NexonHost Srl",31.56.41.0/24
 "NexonHost Srl",45.155.88.0/24
 "NexonHost Srl",82.29.112.0/24
+"NexonHost Srl",82.115.0.0/24
 "NexonHost Srl",89.33.13.0/24
 "NexonHost Srl",89.37.116.0/23
 "NexonHost Srl",89.37.118.0/24
