@@ -15226,7 +15226,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-09-05 10:00:05.319437"
+Linode,"# Last modified: 2025-09-06 10:00:04.854468"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15800,7 +15800,6 @@ ExonHost,2400:7920::/32
 "Rethem Hosting LLC",2607:8500::/32
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:24::/48
 "LAYER WEBHOST (PVT.) LIMITED",2001:df1:7840::/48
-"HOSTDZIRE WEB SERVICES PRIVATE LIMITED",2400:5c60::/32
 "ZINVPS COMPANY LIMITED",2401:ea0::/48
 "VNG DATA CENTER CO. LTD",2401:1420::/48
 "GOLD VPS LIMITED",2401:33a0::/48
@@ -15829,7 +15828,6 @@ HOSTPERL,2401:3b20::/32
 "Tucows.com Co",2604:4000::/48
 "Rackspace Ltd",2a00:1a48::/32
 "Hosting Oxygen",2402:1f60::/32
-"HOSTUP CLOUD TECHNOLOGIES PRIVATE LIMITED",2402:1fe0::/32
 "Fasthosts Internet Limited",2607:f1c0:fe::/47
 "Atman Sp. z o.o",2001:1a68::/32
 "Atman Sp. z o.o",2a06:af00::/29
@@ -16456,6 +16454,8 @@ EGIHosting,2a11:bd40::/29
 "Redge Technologies sp. z o.o",2a00:8dc0:ff00::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:ff04::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:fffe::/47
+"Zagorodnikov Aleksei",2a06:a005:ba3::/48
+"Zagorodnikov Aleksei",2a06:a005:1084::/48
 "HOSTSHIELD LTD",2a13:29c0::/29
 "HZ Hosting Ltd",2a01:8640:3::/48
 "HZ Hosting Ltd",2a01:8640:19::/48
@@ -16599,6 +16599,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2406:840:b0ff::/48
 "The Constant Company LLC",2406:840:e071::/48
 "The Constant Company LLC",2406:c500:ffd0::/48
+"The Constant Company LLC",2601:2018::/29
 "The Constant Company LLC",2602:810:6008::/48
 "The Constant Company LLC",2602:f6ac::/36
 "The Constant Company LLC",2602:f7cb::/36
@@ -16636,8 +16637,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a05:f480:1000::/36
 "The Constant Company LLC",2a05:f480:2000::/36
 "The Constant Company LLC",2a05:f480:3000::/37
-"The Constant Company LLC",2a06:1281::/43
-"The Constant Company LLC",2a06:1281:20::/44
 "The Constant Company LLC",2a06:1287::/32
 "The Constant Company LLC",2a06:25c0::/32
 "The Constant Company LLC",2a06:3e87::/32
@@ -16669,7 +16668,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a11:29c0:3dd0::/44
 "The Constant Company LLC",2a12:fc0:10::/48
 "The Constant Company LLC",2a12:5340:6::/47
-"The Constant Company LLC",2a13:540::/29
 "The Constant Company LLC",2a13:1000::/48
 "The Constant Company LLC",2a13:1002::/48
 "The Constant Company LLC",2a13:5681:a181::/48
@@ -17276,7 +17274,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -17447,6 +17445,7 @@ DEFT.COM,2620:7d::/48
 "GoDaddy.com LLC",2001:df1:9c00::/48
 "GoDaddy.com LLC",2403:bc80::/32
 "GoDaddy.com LLC",2407:1c00::/32
+"GoDaddy.com LLC",2603:3:6103::/48
 "GoDaddy.com LLC",2607:f208:d200::/43
 "GoDaddy.com LLC",2607:f208:df01::/48
 "GoDaddy.com LLC",2a01:488:bb08::/47
@@ -17638,7 +17637,7 @@ MOJOHOST,2607:ffb8::/32
 "Reliable Hosting Services",2606:6680:38::/48
 "Webline Services Inc",2604:d680::/48
 "Webline Services Inc",2604:d680:5::/48
-"HIVELOCITY Inc",2602:f5b3:1::/48
+"HIVELOCITY Inc",2602:f5b3::/47
 "HIVELOCITY Inc",2602:f972:a::/48
 "HIVELOCITY Inc",2602:f972:10::/48
 "HIVELOCITY Inc",2602:ff16:1::/48
@@ -17920,7 +17919,6 @@ Host-Engine.com,2602:fa82::/36
 "Leaseweb USA Inc",2a13:8c82:3::/48
 "Leaseweb USA Inc",2a13:9280::/32
 "Leaseweb USA Inc",2a13:c900:44::/48
-"Leaseweb USA Inc",2a13:cf01::/32
 "Leaseweb USA Inc",2a13:df00::/29
 "Leaseweb USA Inc",2a13:e101:2::/48
 "Leaseweb USA Inc",2a13:e102:3::/48
@@ -18115,7 +18113,6 @@ Steadfast,2607:f128::/32
 "Routed Hosting (PTY) LTD",2c0f:f238::/32
 "Host Africa (Pty) Ltd",2c0f:8c0::/48
 "xTom Limited",2c0f:ec00::/48
-"TWC Hosting CC",2c0f:e8a8::/32
 "Absolute Hosting (Pty) Ltd",2c0f:5780::/32
 "Host Africa (Pty) Ltd",2c0f:f300::/48
 "Host Africa (Pty) Ltd",2c0f:f598:2::/48
@@ -21687,6 +21684,7 @@ HostRush,2606:cc0:400::/40
 "ZSCALER INC",2605:4300:ff00::/40
 "Abc-Hosters LLC",2602:fbe8::/48
 "Abc-Hosters LLC",2602:fed2:7034::/48
+GTHost,2602:81c:3000::/44
 GTHost,2604:7580:f2::/48
 GTHost,2604:86c0::/33
 GTHost,2604:86c0:8000::/34
@@ -21938,6 +21936,7 @@ xTom,2a12:9d00::/29
 "Webhosting Holdings LLC",2602:faa9:3000::/36
 "Webhosting Holdings LLC",2602:faa9:4000::/36
 "HostingInside LTD",2401:95c0::/35
+"HostingInside LTD",2403:cfc0:1004::/48
 "HostingInside LTD",2405:fbc0:111::/48
 "HostingInside LTD",2405:fbc0:112::/48
 "PureVoltage Hosting Inc",2604:fbc0:1000::/36
