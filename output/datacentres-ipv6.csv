@@ -15226,7 +15226,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-09-07 10:00:05.489033"
+Linode,"# Last modified: 2025-09-08 10:00:04.709887"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15576,7 +15576,7 @@ MegaHostZone,2001:df1:b900::/48
 "PT Cloud Hosting Indonesia",2001:df7:7400::/48
 "Medha Hosting",2400:8dc0::/32
 HOSTOMEGA,2001:df4:8a40::/48
-HOSTOMEGA,2001:df4:adc0::/47
+HOSTOMEGA,2001:df4:adc0::/48
 "Flexential Colorado Corp",2600:3000::/29
 "Flexential Colorado Corp",2602:f788::/38
 "Flexential Colorado Corp",2607:f758::/32
@@ -16673,33 +16673,17 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a13:5681:a181::/48
 "The Constant Company LLC",2a13:9500:61::/48
 "The Constant Company LLC",2a13:9500:cf::/48
-"The Constant Company LLC",2a14:7580:100::/41
-"The Constant Company LLC",2a14:7580:180::/43
-"The Constant Company LLC",2a14:7580:1b0::/44
-"The Constant Company LLC",2a14:7580:1c0::/42
-"The Constant Company LLC",2a14:7580:b00::/41
-"The Constant Company LLC",2a14:7580:b80::/43
-"The Constant Company LLC",2a14:7580:bb0::/44
-"The Constant Company LLC",2a14:7580:bc0::/42
-"The Constant Company LLC",2a14:7581:3e00::/41
-"The Constant Company LLC",2a14:7581:3e80::/43
-"The Constant Company LLC",2a14:7581:3eb0::/44
-"The Constant Company LLC",2a14:7581:3ec0::/42
-"The Constant Company LLC",2a14:7581:3f00::/41
-"The Constant Company LLC",2a14:7581:3f80::/43
-"The Constant Company LLC",2a14:7581:3fb0::/44
-"The Constant Company LLC",2a14:7581:3fc0::/42
+"The Constant Company LLC",2a14:7580:100::/40
+"The Constant Company LLC",2a14:7580:b00::/40
+"The Constant Company LLC",2a14:7581:3e00::/39
+"The Constant Company LLC",2a14:7581:e000::/44
 "The Constant Company LLC",2a14:7583:f000::/44
 "The Constant Company LLC",2a14:7583:f020::/43
 "The Constant Company LLC",2a14:7583:f040::/42
-"The Constant Company LLC",2a14:7583:f080::/43
-"The Constant Company LLC",2a14:7583:f0b0::/44
-"The Constant Company LLC",2a14:7583:f0c0::/42
+"The Constant Company LLC",2a14:7583:f080::/41
 "The Constant Company LLC",2a14:7583:f120::/43
 "The Constant Company LLC",2a14:7583:f140::/42
-"The Constant Company LLC",2a14:7583:f180::/43
-"The Constant Company LLC",2a14:7583:f1b0::/44
-"The Constant Company LLC",2a14:7583:f1c0::/42
+"The Constant Company LLC",2a14:7583:f180::/41
 "The Constant Company LLC",2a14:7584:8000::/36
 "UAB Cherry Servers",2a02:ae02::/36
 "HOSTEUR SAS",2a0d:5380::/29
@@ -16884,8 +16868,6 @@ StabiliServers,2605:e480:11::/48
 "I-SERVERS LTD",2a11:b785::/32
 "I-SERVERS LTD",2a12:4c06::/32
 "LEONIX EVENTS SAS",2a0d:6f80:2302::/48
-"ByteShield Hosting S.R.L",2a13:9500:a7::/48
-"ByteShield Hosting S.R.L",2a14:7583:2fc0::/42
 "EuroByte LLC",2a03:80c0::/47
 "EuroByte LLC",2a03:c980:db::/48
 "EuroByte LLC",2a03:c980:e5::/48
@@ -16979,6 +16961,7 @@ StabiliServers,2605:e480:11::/48
 "managedhosting.de GmbH",2a02:2878:c000::/34
 "DD webhosting B.V",2a0c:a180::/29
 "Akamai International B.V",2a02:2370:1000::/48
+"Marcel Neufeld trading as Hostishere",2a0f:9400:6102::/48
 "Marcel Neufeld trading as Hostishere",2a11:29c0:23::/48
 "Marcel Neufeld trading as Hostishere",2a11:29c0:3db0::/48
 "Narodni bezpecnostni urad Czech Republic",2a0f:b480::/29
@@ -17117,7 +17100,8 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",2607:f208:df05::/48
 "Host Europe GmbH",2a00:1169::/39
 "netcup GmbH",2a0a:4cc0:2000::/48
-"Maik Polman trading as PixelHosting",2a06:9f41::/32
+"Maik Polman trading as PixelHosting",2a06:9f41:a100::/40
+"Association By-Hoster",2a13:9500:a8::/48
 "Northeast Hosting LLC",2a0f:85c1:d3e::/48
 "Gravhosting LLC",2602:fb54:155::/48
 "Gravhosting LLC",2a14:7c0:1800::/38
@@ -17136,6 +17120,7 @@ StabiliServers,2605:e480:11::/48
 "Scandinavian Hosting AB",2a07:2446:1000::/36
 "Partner Hosting LTD",2a0c:9a40:9404::/47
 "Hetzner Online GmbH",2a01:4ff:200::/40
+"Menno Job Gravekamp trading as Atrioxhosting",2a14:7c2:1004::/48
 "xTom Japan Corporation",2a14:1f80::/29
 "HostingBazis Beteti Tarsasag",2a14:2f40::/32
 "VPSVAULT.HOST LTD",2604:be0:fff0::/44
@@ -17274,7 +17259,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3213::/48
+"ZSCALER INC",2a03:eec0:3212::/47
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 DEFT.COM,2001:1838::/32
@@ -17445,7 +17430,6 @@ DEFT.COM,2620:7d::/48
 "GoDaddy.com LLC",2001:df1:9c00::/48
 "GoDaddy.com LLC",2403:bc80::/32
 "GoDaddy.com LLC",2407:1c00::/32
-"GoDaddy.com LLC",2603:3:6103::/48
 "GoDaddy.com LLC",2607:f208:d200::/43
 "GoDaddy.com LLC",2607:f208:df01::/48
 "GoDaddy.com LLC",2a01:488:bb08::/47
@@ -20443,6 +20427,7 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2602:f96d:ffd::/48
 "HYEHOST LTD",2a05:dfc3:f500::/40
 "HYEHOST LTD",2a06:1281:1000::/36
+"HYEHOST LTD",2a09:54c5::/32
 "HYEHOST LTD",2a0f:6280:a::/48
 "HYEHOST LTD",2a0f:6280:10::/45
 "HYEHOST LTD",2a0f:6280:18::/47
