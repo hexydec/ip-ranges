@@ -15235,7 +15235,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-09-15 10:00:04.969098"
+Linode,"# Last modified: 2025-09-16 10:00:04.835825"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15535,6 +15535,7 @@ Linode,2600:3c0f:53::/48
 "UK-2 Limited",2606:2e00:8027::/48
 "UK-2 Limited",2606:2e00:8028::/47
 "UK-2 Limited",2606:2e00:9000::/36
+"UK-2 Limited",2606:2e00:a000::/36
 "UK-2 Limited",2a02:2498::/47
 "UK-2 Limited",2a02:2498:4::/47
 "UK-2 Limited",2a02:2498:16::/48
@@ -15674,7 +15675,7 @@ ExonHost,2400:7920::/32
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:2a::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:2c::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a001::/48
-"Edgenext Legend Dynasty Pte. Ltd",2407:2440:a002::/48
+"Edgenext Legend Dynasty Pte. Ltd",2407:2440:a002::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a004::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a006::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a008::/47
@@ -15829,7 +15830,6 @@ ExonHost,2400:7920::/32
 HOSTPERL,2401:3b20::/32
 "BHARAT DATACENTER",2001:df3:5cc0::/48
 "BHARAT DATACENTER",2a0b:4e07:1c00::/47
-"WEBYNE DATA CENTRE PRIVATE LIMITED",2401:7ee0::/48
 "WEBYNE DATA CENTRE PRIVATE LIMITED",2a13:9500:78::/48
 "Zappie Host LLC",2404:3d80::/32
 "JOYPUR COLO",2401:72e0::/32
@@ -15890,8 +15890,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:60::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:80::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:a0::/43
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:c0::/43
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:f0::/44
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:c0::/42
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:100::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:2000::/36
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4000::/44
@@ -16154,8 +16153,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:180::/48
 "Incapsula Inc",2a02:e980:185::/48
 "Incapsula Inc",2a02:e980:186::/47
-"Incapsula Inc",2a02:e980:188::/47
-"Incapsula Inc",2a02:e980:18a::/48
+"Incapsula Inc",2a02:e980:188::/46
 "Incapsula Inc",2a02:e980:18d::/48
 "Incapsula Inc",2a02:e980:18e::/47
 "Incapsula Inc",2a02:e980:190::/45
@@ -16243,7 +16241,9 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:2c::/47
 "Incapsula Inc",2a02:e982:32::/47
 "Incapsula Inc",2a02:e982:34::/47
-"Incapsula Inc",2a02:e982:38::/45
+"Incapsula Inc",2a02:e982:38::/46
+"Incapsula Inc",2a02:e982:3c::/48
+"Incapsula Inc",2a02:e982:3e::/47
 "Incapsula Inc",2a02:e982:40::/45
 "Incapsula Inc",2a02:e982:48::/46
 "Incapsula Inc",2a02:e982:4c::/47
@@ -17330,7 +17330,6 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2a10:3c0:4::/47
 "Zenlayer Inc",2a13:9500:aa::/48
 "Southern Data Center",2602:fe3f::/34
-"Southern Data Center",2602:fe3f:8000::/34
 "Red Hat Inc",2620:52:4::/47
 Cologuard,2604:eb80::/32
 "InMotion Hosting Inc",2605:f400:1::/48
@@ -17350,6 +17349,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:2d00::/40
 "ZSCALER INC",2605:4300:2e00::/40
 "ZSCALER INC",2605:4300:3200::/39
+"ZSCALER INC",2605:4300:3500::/40
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
@@ -17476,7 +17476,6 @@ DEFT.COM,2620:7d::/48
 "SysEleven GmbH",2a04:d480::/37
 "SysEleven GmbH",2a04:d480:800::/38
 "SysEleven GmbH",2a04:d480:1000::/37
-"SysEleven GmbH",2a04:d480:1800::/38
 "SysEleven GmbH",2a04:d480:2400::/38
 "SysEleven GmbH",2a04:d480:2800::/37
 "SysEleven GmbH",2a04:d480:3000::/38
@@ -17585,17 +17584,10 @@ HOSTING.CL,2803:6580::/32
 "MASTER DA WEB DATACENTER LTDA",2804:6dec::/44
 "AGINET DATACENTER INFORMATICA LTDA",2804:6ed8::/39
 "Ecxon Datacenter LTDA",2804:7110:1000::/48
-"Ecxon Datacenter LTDA",2804:7110:2000::/48
-"Ecxon Datacenter LTDA",2804:7110:3000::/48
-"Ecxon Datacenter LTDA",2804:7110:3100::/48
 "Ecxon Datacenter LTDA",2804:7110:4000::/48
 "Ecxon Datacenter LTDA",2804:7110:5100::/48
-"Ecxon Datacenter LTDA",2804:7110:6000::/48
-"Ecxon Datacenter LTDA",2804:7110:6100::/48
-"Ecxon Datacenter LTDA",2804:7110:6aff::/48
 "Ecxon Datacenter LTDA",2804:7110:7100::/48
 "Ecxon Datacenter LTDA",2804:7110:8000::/48
-"Ecxon Datacenter LTDA",2804:7110:9000::/48
 "Unique Data Center",2804:79b0::/32
 "GTITHOST C.A",2803:cf10::/32
 "Edgeuno Servicos de Infra Estrutura em Nuvem LTDA",2804:8384::/32
@@ -17623,7 +17615,6 @@ MOJOHOST,2607:ffb8::/32
 "iHosting Servicios Internet Ltda",2803:b480::/48
 "iHosting Servicios Internet Ltda",2a03:f80:56::/48
 "Com4 Data Center Ltda",2804:160::/32
-"Host One Servicos de Internet Ltda",2804:8c:dc01::/48
 "EDGEUNO MEXICO SA DE CV",2806:3dd::/32
 "HOSTLOCATION LTDA",2804:3414::/32
 "Easyhost BVBA",2001:1598::/32
@@ -18418,6 +18409,7 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:1a::/48
 "Akamai Technologies Inc",2a02:26f7:1c::/48
 "Akamai Technologies Inc",2a02:26f7:1e::/48
+"Akamai Technologies Inc",2a02:26f7:20::/48
 "Akamai Technologies Inc",2a02:26f7:22::/48
 "Akamai Technologies Inc",2a02:26f7:24::/48
 "Akamai Technologies Inc",2a02:26f7:26::/48
@@ -18754,6 +18746,8 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:c042::/48
 "Akamai Technologies Inc",2a02:26f7:c050::/48
 "Akamai Technologies Inc",2a02:26f7:c080::/48
+"Akamai Technologies Inc",2a02:26f7:c082::/48
+"Akamai Technologies Inc",2a02:26f7:c084::/48
 "Akamai Technologies Inc",2a02:26f7:c088::/48
 "Akamai Technologies Inc",2a02:26f7:c08c::/48
 "Akamai Technologies Inc",2a02:26f7:c0c0::/48
@@ -18852,6 +18846,8 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:c5c4::/47
 "Akamai Technologies Inc",2a02:26f7:c5c8::/48
 "Akamai Technologies Inc",2a02:26f7:c600::/48
+"Akamai Technologies Inc",2a02:26f7:c602::/48
+"Akamai Technologies Inc",2a02:26f7:c604::/48
 "Akamai Technologies Inc",2a02:26f7:c608::/47
 "Akamai Technologies Inc",2a02:26f7:c640::/48
 "Akamai Technologies Inc",2a02:26f7:c644::/47
@@ -18875,6 +18871,8 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:c784::/47
 "Akamai Technologies Inc",2a02:26f7:c788::/48
 "Akamai Technologies Inc",2a02:26f7:c7c0::/48
+"Akamai Technologies Inc",2a02:26f7:c7c2::/48
+"Akamai Technologies Inc",2a02:26f7:c7c4::/48
 "Akamai Technologies Inc",2a02:26f7:c7c8::/47
 "Akamai Technologies Inc",2a02:26f7:c800::/48
 "Akamai Technologies Inc",2a02:26f7:c804::/47
@@ -19685,7 +19683,9 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:fb88::/48
 "Akamai Technologies Inc",2a02:26f7:fb90::/48
 "Akamai Technologies Inc",2a02:26f7:fbc0::/48
+"Akamai Technologies Inc",2a02:26f7:fbc2::/48
 "Akamai Technologies Inc",2a02:26f7:fbc4::/48
+"Akamai Technologies Inc",2a02:26f7:fbc8::/48
 "Akamai Technologies Inc",2a02:26f7:fbcc::/48
 "Akamai Technologies Inc",2a02:26f7:fc04::/48
 "Akamai Technologies Inc",2a02:26f7:fc08::/48
@@ -19836,6 +19836,8 @@ Zenlayer,2407:62c0::/32
 "H5 Data Centers",2606:6800:1800::/40
 "H5 Data Centers",2606:6800:1c00::/40
 "H5 Data Centers",2606:6800:2400::/40
+"Shock Hosting LLC",2403:cfc0:100c::/48
+"Shock Hosting LLC",2403:cfc0:1110::/48
 "Shock Hosting LLC",2406:cb40::/47
 "Shock Hosting LLC",2406:cb41::/48
 "Shock Hosting LLC",2406:cb42::/48
@@ -20366,7 +20368,6 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L",2a0b:cf45::/32
 "PQ HOSTING PLUS S.R.L",2a0b:cf46::/31
 "PQ HOSTING PLUS S.R.L",2a11:3800::/32
-"PQ HOSTING PLUS S.R.L",2a11:3c01::/32
 "PQ HOSTING PLUS S.R.L",2a11:3c02::/31
 "PQ HOSTING PLUS S.R.L",2a11:4c00::/30
 "PQ HOSTING PLUS S.R.L",2a11:4c05::/32
@@ -20623,7 +20624,6 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a04:a5c0::/29
 "JSC Selectel",2a0e:c380::/29
 "JSC Selectel",2a10:4700::/29
-"JSC Selectel",2a12:4300::/31
 "JSC Selectel",2a13:4fc0::/29
 "Eonix Corporation",2403:ad80:8002::/48
 "Eonix Corporation",2a07:440::/32
@@ -21034,6 +21034,8 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:4640::/44
 "Fastly Inc",2a04:4e40:4650::/48
 "Fastly Inc",2a04:4e40:46f0::/48
+"Fastly Inc",2a04:4e40:4700::/44
+"Fastly Inc",2a04:4e40:4800::/44
 "Fastly Inc",2a04:4e40:4a00::/48
 "Fastly Inc",2a04:4e40:4c00::/48
 "Fastly Inc",2a04:4e40:4e00::/48
@@ -21097,6 +21099,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:7830::/48
 "Fastly Inc",2a04:4e40:7840::/48
 "Fastly Inc",2a04:4e40:7b00::/48
+"Fastly Inc",2a04:4e40:7bf0::/48
 "Fastly Inc",2a04:4e40:7e00::/48
 "Fastly Inc",2a04:4e40:7e10::/48
 "Fastly Inc",2a04:4e40:7e20::/48
@@ -21248,6 +21251,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:e000::/47
 "Fastly Inc",2a04:4e40:e010::/47
 "Fastly Inc",2a04:4e40:e020::/47
+"Fastly Inc",2a04:4e40:e040::/44
 "Fastly Inc",2a04:4e40:e200::/48
 "Fastly Inc",2a04:4e40:e210::/48
 "Fastly Inc",2a04:4e40:e220::/48
@@ -21318,7 +21322,6 @@ Sharktech,2a0c:c181::/32
 "Packet Host Inc",2604:1380:30::/44
 "Packet Host Inc",2604:1380:50::/44
 "Packet Host Inc",2604:1380:90::/44
-"Packet Host Inc",2604:1380:e0::/44
 "Packet Host Inc",2604:1380:1000::/36
 "Packet Host Inc",2604:1380:3000::/36
 "Packet Host Inc",2604:1380:4080::/44
@@ -21532,7 +21535,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0a:2d06:1312::/48
 "LeaseWeb Netherlands B.V",2a0b:b740::/29
 "LeaseWeb Netherlands B.V",2a0c:7881:1312::/48
-"LeaseWeb Netherlands B.V",2a0c:7881:aa23::/48
 "LeaseWeb Netherlands B.V",2a0c:7882:11::/48
 "LeaseWeb Netherlands B.V",2a0c:7885:1::/48
 "LeaseWeb Netherlands B.V",2a0c:7886:44::/48
@@ -21558,6 +21560,7 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0e:f603:22::/48
 "LeaseWeb Netherlands B.V",2a0f:1204::/31
 "LeaseWeb Netherlands B.V",2a0f:1206:22::/48
+"LeaseWeb Netherlands B.V",2a0f:1ac0::/29
 "LeaseWeb Netherlands B.V",2a0f:1e83::/32
 "LeaseWeb Netherlands B.V",2a0f:1e85::/32
 "LeaseWeb Netherlands B.V",2a0f:1f80::/29
@@ -21607,8 +21610,11 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0f:ea42::/32
 "LeaseWeb Netherlands B.V",2a0f:ea44:22::/48
 "LeaseWeb Netherlands B.V",2a0f:ea44:33::/48
+"LeaseWeb Netherlands B.V",2a10:31c0::/29
+"LeaseWeb Netherlands B.V",2a10:3740::/29
 "LeaseWeb Netherlands B.V",2a10:6700::/29
 "LeaseWeb Netherlands B.V",2a10:b5c1::/32
+"LeaseWeb Netherlands B.V",2a11:1c40::/29
 "LeaseWeb Netherlands B.V",2a11:d240::/29
 "LeaseWeb Netherlands B.V",2a12:ac42::/32
 "LeaseWeb Netherlands B.V",2a12:ac43:11::/48
