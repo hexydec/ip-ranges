@@ -15235,7 +15235,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-09-18 10:00:04.004123"
+Linode,"# Last modified: 2025-09-19 10:00:05.203742"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15681,6 +15681,7 @@ ExonHost,2400:7920::/32
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:a008::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:b002::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:b005::/48
+"Edgenext Legend Dynasty Pte. Ltd",2407:2440:c001::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e001::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e002::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e004::/48
@@ -15897,7 +15898,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4060::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4090::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:40f0::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4100::/43
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4110::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4500::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4520::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4550::/44
@@ -16192,7 +16193,6 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e980:220::/44
 "Incapsula Inc",2a02:e980:230::/45
 "Incapsula Inc",2a02:e980:238::/47
-"Incapsula Inc",2a02:e980:240::/48
 "Incapsula Inc",2a02:e980:245::/48
 "Incapsula Inc",2a02:e980:246::/47
 "Incapsula Inc",2a02:e980:248::/47
@@ -16286,7 +16286,20 @@ EGIHosting,2a11:bd40::/29
 "Domain names registrar REG.RU Ltd",2a03:4900:fffb::/48
 "Domain names registrar REG.RU Ltd",2a03:4900:fffc::/46
 "Keminet SHPK",2a04:27c0::/29
+"Keminet SHPK",2a09:6e40::/29
+"Keminet SHPK",2a09:6ec0::/29
 "Keminet SHPK",2a0d:1dc0::/29
+"Keminet SHPK",2a0d:27c0::/29
+"Keminet SHPK",2a0d:42c0::/29
+"Keminet SHPK",2a0d:4940::/29
+"Keminet SHPK",2a0d:4a40::/29
+"Keminet SHPK",2a0e:3f00::/29
+"Keminet SHPK",2a0e:4f00::/29
+"Keminet SHPK",2a0e:abc0::/29
+"Keminet SHPK",2a0e:d4c0::/29
+"Keminet SHPK",2a0f:42c0::/29
+"Keminet SHPK",2a0f:4780::/29
+"Keminet SHPK",2a0f:a880::/29
 "The Internet Engineering Group B.V",2a03:27a0::/32
 "The Internet Engineering Group B.V",2a03:7900::/32
 "Georgios Vardikos trading as HYPERHOSTING",2a00:6620:2000::/48
@@ -16422,6 +16435,7 @@ EGIHosting,2a11:bd40::/29
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8000::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8010::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8021::/48
+"Kaspersky Lab Switzerland GmbH",2a03:2480:8022::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8025::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8026::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8029::/48
@@ -16606,6 +16620,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2602:f831:c1::/48
 "The Constant Company LLC",2602:f831:c2::/47
 "The Constant Company LLC",2602:f831:c4::/48
+"The Constant Company LLC",2602:f96d:e00::/40
 "The Constant Company LLC",2602:fb1b::/48
 "The Constant Company LLC",2602:fed2:7100::/48
 "The Constant Company LLC",2602:fed2:710e::/48
@@ -16640,6 +16655,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a05:f480:3000::/37
 "The Constant Company LLC",2a06:1287::/32
 "The Constant Company LLC",2a06:25c0::/32
+"The Constant Company LLC",2a06:35c1::/32
 "The Constant Company LLC",2a06:3e87::/32
 "The Constant Company LLC",2a06:4c00::/32
 "The Constant Company LLC",2a07:5580::/32
@@ -16708,7 +16724,6 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a09:400:8000::/36
 "LLC Vpsville",2a09:402::/32
 "LLC Vpsville",2a09:404::/31
-"LLC Vpsville",2a09:407:7000::/36
 "LLC Vpsville",2a09:407:e000::/36
 "LLC Vpsville",2a09:d80::/29
 "LLC Vpsville",2a09:3504::/32
@@ -16731,14 +16746,12 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a0a:f201::/32
 "LLC Vpsville",2a0a:f202::/32
 "LLC Vpsville",2a0a:f206:3000::/36
-"LLC Vpsville",2a0a:f206:d000::/36
 "LLC Vpsville",2a0a:f206:e000::/35
 "LLC Vpsville",2a0b:b0c0::/29
 "LLC Vpsville",2a0b:bd07:4000::/36
 "LLC Vpsville",2a0b:bd07:6000::/35
 "LLC Vpsville",2a0c:2100::/29
 "LLC Vpsville",2a0c:5240::/29
-"LLC Vpsville",2a0c:e8c1::/32
 "LLC Vpsville",2a0d:5ec0::/32
 "LLC Vpsville",2a0d:5ec1:5000::/36
 "LLC Vpsville",2a0d:5ec1:6000::/35
@@ -16748,13 +16761,10 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a0d:60c0::/29
 "LLC Vpsville",2a0d:7740::/29
 "LLC Vpsville",2a0d:8b00::/29
-"LLC Vpsville",2a0d:abc0::/29
 "LLC Vpsville",2a0d:e4c0::/29
 "LLC Vpsville",2a0f:c580::/29
 "LLC Vpsville",2a0f:cc80::/29
-"LLC Vpsville",2a0f:cf81::/32
-"LLC Vpsville",2a0f:cf82::/31
-"LLC Vpsville",2a0f:cf84::/30
+"LLC Vpsville",2a0f:cf86::/31
 "LLC Vpsville",2a10:c340::/29
 "LLC Vpsville",2a11:200:3000::/36
 "LLC Vpsville",2a11:200:5000::/36
@@ -16772,6 +16782,7 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a11:c80:6000::/35
 "LLC Vpsville",2a11:e80::/29
 "LLC Vpsville",2a11:3340::/29
+"LLC Vpsville",2a11:6344::/32
 "LLC Vpsville",2a11:65c0::/29
 "LLC Vpsville",2a11:af00::/29
 "LLC Vpsville",2a12:7c04::/31
@@ -16933,7 +16944,7 @@ StabiliServers,2605:e480:11::/48
 "Flyservers S.A",2a10:9100:7::/48
 "Flyservers S.A",2a10:9100:9::/48
 "Flyservers S.A",2a10:9107:f000::/36
-"Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f1::/48
+"Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f0::/47
 "I-SERVERS LTD",2a06:ddc0::/29
 "I-SERVERS LTD",2a0a:9300:2::/48
 "I-SERVERS LTD",2a0a:9300:d0::/47
@@ -17273,7 +17284,6 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
-"Zenlayer Inc",2602:ffe4:c3c::/48
 "Zenlayer Inc",2602:ffe4:c3e::/48
 "Zenlayer Inc",2602:ffe4:c40::/47
 "Zenlayer Inc",2602:ffe4:c42::/48
@@ -17705,7 +17715,7 @@ MOJOHOST,2607:ffb8::/32
 "Reliable Hosting Services",2606:6680:38::/48
 "Webline Services Inc",2604:d680::/48
 "Webline Services Inc",2604:d680:5::/48
-"HIVELOCITY Inc",2602:f5b3::/47
+"HIVELOCITY Inc",2602:f5b3:1::/48
 "HIVELOCITY Inc",2602:f972:a::/48
 "HIVELOCITY Inc",2602:f972:10::/48
 "HIVELOCITY Inc",2602:ff16:1::/48
@@ -19698,6 +19708,7 @@ HostPapa,2605:6f04::/31
 HostPapa,2605:6f06::/32
 HostPapa,2605:6f08::/32
 HostPapa,2606:c680::/32
+HostPapa,2607:5dc0::/32
 HostPapa,2607:9d00::/32
 HostPapa,2a04:6ac0::/29
 HostPapa,2a0a:2d04:f::/48
@@ -20079,6 +20090,7 @@ Hostodo,2606:65c0:40::/48
 "CodeforHost Inc",2602:fc06:2::/47
 "Atlantic Metro Communications II Inc",2607:fd50::/32
 "Contabo Inc",2605:a140::/30
+"Contabo Inc",2605:a144::/32
 "SECURED SERVERS LLC",2607:ff00:f00::/40
 "Madcityservers LLC",2602:fed2:7081::/48
 "Madcityservers LLC",2602:fed2:7086::/48
@@ -20371,14 +20383,11 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L",2a11:7e00::/32
 "PQ HOSTING PLUS S.R.L",2a11:7e05::/32
 "PQ HOSTING PLUS S.R.L",2a13:6301::/32
-"PQ HOSTING PLUS S.R.L",2a13:6303::/32
 "PQ HOSTING PLUS S.R.L",2a13:6305::/32
-"PQ HOSTING PLUS S.R.L",2a14:2d81::/32
 "PQ HOSTING PLUS S.R.L",2a14:2d82::/32
 "PQ HOSTING PLUS S.R.L",2a14:2d85::/32
 "PQ HOSTING PLUS S.R.L",2a14:2d87::/32
 "PQ HOSTING PLUS S.R.L",2a14:2e80::/32
-"PQ HOSTING PLUS S.R.L",2a14:3081::/32
 "PQ HOSTING PLUS S.R.L",2a14:3083::/32
 "PQ HOSTING PLUS S.R.L",2a14:3085::/32
 "PQ HOSTING PLUS S.R.L",2a14:3086::/31
@@ -20452,7 +20461,7 @@ HostPapa,2620:b:e000::/48
 "Servers Australia Pty. Ltd",2405:1000::/32
 "Servers Australia Pty. Ltd",2406:c500:fff3::/48
 "GPLHost LLC",2404:bf40:8580::/46
-"Tonaquint Data Center Inc",2605:bc00::/32
+"ValorC3 Data Centers",2605:bc00::/32
 "The Constant Company LLC",2001:19f0:a08::/48
 "The Constant Company LLC",2a05:f480:10::/48
 Steadfast,2607:f128::/48
@@ -20524,6 +20533,7 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2a0f:6280:18::/47
 "HYEHOST LTD",2a0f:6280:1b::/48
 "HYEHOST LTD",2a0f:6280:1c::/47
+"HYEHOST LTD",2a0f:6280:1f::/48
 "HYEHOST LTD",2a0f:6283:1130::/44
 "HYEHOST LTD",2a0f:6283:1140::/44
 "HYEHOST LTD",2a0f:6284:4700::/40
@@ -20535,10 +20545,8 @@ Sharktech,2a0c:c181::/32
 "Hostinger International Limited",2a02:4780:8::/45
 "Hostinger International Limited",2a02:4780:10::/44
 "Hostinger International Limited",2a02:4780:20::/43
-"Hostinger International Limited",2a02:4780:40::/45
-"Hostinger International Limited",2a02:4780:48::/46
-"Hostinger International Limited",2a02:4780:4c::/47
-"Hostinger International Limited",2a02:4780:52::/47
+"Hostinger International Limited",2a02:4780:40::/44
+"Hostinger International Limited",2a02:4780:50::/46
 "Hostinger International Limited",2a02:4780:55::/48
 "Hostinger International Limited",2a02:4780:56::/47
 "Hostinger International Limited",2a02:4780:58::/45
