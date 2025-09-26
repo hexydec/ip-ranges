@@ -15235,7 +15235,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-09-24 10:00:05.397052"
+Linode,"# Last modified: 2025-09-25 10:00:04.717560"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15889,8 +15889,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2407:b000::/31
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:20::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:40::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:60::/43
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:40::/42
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:80::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:a0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:c0::/42
@@ -15913,6 +15912,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4660::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffc0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffe0::/44
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffff::/48
 "Equinix (EMEA) Acquisition Enterprises B.V",2606:5c80::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2607:f6f0:1000::/39
 "Equinix (EMEA) Acquisition Enterprises B.V",2607:f6f0:1400::/40
@@ -16226,6 +16226,8 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e981:68::/45
 "Incapsula Inc",2a02:e981:70::/47
 "Incapsula Inc",2a02:e981:72::/48
+"Incapsula Inc",2a02:e981:74::/47
+"Incapsula Inc",2a02:e981:76::/48
 "Incapsula Inc",2a02:e981:78::/47
 "Incapsula Inc",2a02:e981:80::/48
 "Incapsula Inc",2a02:e982:2::/48
@@ -16245,9 +16247,7 @@ EGIHosting,2a11:bd40::/29
 "Incapsula Inc",2a02:e982:2c::/47
 "Incapsula Inc",2a02:e982:32::/47
 "Incapsula Inc",2a02:e982:34::/47
-"Incapsula Inc",2a02:e982:38::/46
-"Incapsula Inc",2a02:e982:3c::/48
-"Incapsula Inc",2a02:e982:3e::/47
+"Incapsula Inc",2a02:e982:38::/45
 "Incapsula Inc",2a02:e982:40::/45
 "Incapsula Inc",2a02:e982:48::/46
 "Incapsula Inc",2a02:e982:4c::/47
@@ -16364,9 +16364,7 @@ EGIHosting,2a11:bd40::/29
 "G-Core Labs S.A",2a03:90c0:220::/43
 "G-Core Labs S.A",2a03:90c0:240::/42
 "G-Core Labs S.A",2a03:90c0:280::/41
-"G-Core Labs S.A",2a03:90c0:300::/44
-"G-Core Labs S.A",2a03:90c0:320::/43
-"G-Core Labs S.A",2a03:90c0:340::/42
+"G-Core Labs S.A",2a03:90c0:300::/41
 "G-Core Labs S.A",2a03:90c0:380::/42
 "G-Core Labs S.A",2a03:90c0:3e0::/43
 "G-Core Labs S.A",2a03:90c0:400::/44
@@ -16497,7 +16495,7 @@ EGIHosting,2a11:bd40::/29
 "HZ Hosting Ltd",2a01:8640:b::/48
 "HZ Hosting Ltd",2a01:8640:e::/48
 "HZ Hosting Ltd",2a01:8640:1e::/47
-"HZ Hosting Ltd",2a01:8640:23::/48
+"HZ Hosting Ltd",2a01:8640:22::/47
 "SCALEWAY S.A.S",2c0f:3781::/32
 "HOSTGLOBAL.PLUS LTD",2a04:5200:5977::/48
 "LLC Basalt Svobodnoe Programnoe Obespechenie",2a0c:88c0::/47
@@ -16694,8 +16692,10 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a13:9500:61::/48
 "The Constant Company LLC",2a13:9500:cf::/48
 "The Constant Company LLC",2a13:e103::/32
+"The Constant Company LLC",2a14:67c1:b700::/40
 "The Constant Company LLC",2a14:7580:100::/40
 "The Constant Company LLC",2a14:7580:b00::/40
+"The Constant Company LLC",2a14:7581:f30::/44
 "The Constant Company LLC",2a14:7581:3e00::/39
 "The Constant Company LLC",2a14:7581:e000::/42
 "The Constant Company LLC",2a14:7581:e040::/43
@@ -16748,7 +16748,7 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a0a:f201::/32
 "LLC Vpsville",2a0a:f202::/32
 "LLC Vpsville",2a0a:f206:3000::/36
-"LLC Vpsville",2a0a:f206:e000::/35
+"LLC Vpsville",2a0a:f206:e000::/36
 "LLC Vpsville",2a0b:b0c0::/29
 "LLC Vpsville",2a0b:bd07:4000::/36
 "LLC Vpsville",2a0b:bd07:6000::/35
@@ -17029,7 +17029,8 @@ StabiliServers,2605:e480:11::/48
 "Private-Hosting di Cipriano oscar",2a05:4140:500::/48
 "Hostingforyou B.V",2a03:ec80::/48
 "NEOHOST SRL",2a0b:4e07:29::/48
-"NEOHOST SRL",2a14:7583:2a00::/42
+"NEOHOST SRL",2a14:7580:b000::/36
+"NEOHOST SRL",2a14:7583:2a40::/42
 "NEOHOST SRL",2a14:7583:2a80::/42
 "FEDERICO BOVE trading as HATHOST",2a06:a005:1f::/48
 "FEDERICO BOVE trading as HATHOST",2a06:a005:a90::/44
@@ -17203,7 +17204,6 @@ StabiliServers,2605:e480:11::/48
 "netcup GmbH",2a0a:4cc0:2000::/48
 "Maik Polman trading as PixelHosting",2a06:9f41::/32
 "Finn Hess trading as Ryzehosting",2a06:1283:8d00::/40
-"Association By-Hoster",2a13:9500:a8::/48
 "Northeast Hosting LLC",2a0f:85c1:d3e::/48
 "Gravhosting LLC",2602:fb54:155::/48
 "Gravhosting LLC",2a14:7c0:1800::/38
@@ -17521,6 +17521,7 @@ DEFT.COM,2620:7d::/48
 "DIALHOST INTERNET EIRELI",2804:b44:4000::/34
 "DIALHOST INTERNET EIRELI",2804:b44:8000::/33
 "Centro de Tecnologia Armazem Datacenter Ltda",2804:4d44::/32
+"VIRTUAL CENTER HOSTING TECNOLOGIA EIRELI",2804:ae8::/48
 "CDZNET DATACENTER LTDA",2804:938::/32
 "PowerHost Telecom SPA",2803:8180:1::/48
 "PowerHost Telecom SPA",2803:8180:2::/47
@@ -20385,9 +20386,7 @@ HostPapa,2620:b:e000::/48
 "PQ HOSTING PLUS S.R.L",2a13:6305::/32
 "PQ HOSTING PLUS S.R.L",2a14:2d82::/32
 "PQ HOSTING PLUS S.R.L",2a14:2d85::/32
-"PQ HOSTING PLUS S.R.L",2a14:2d87::/32
 "PQ HOSTING PLUS S.R.L",2a14:2e80::/32
-"PQ HOSTING PLUS S.R.L",2a14:3083::/32
 "PQ HOSTING PLUS S.R.L",2a14:3085::/32
 "PQ HOSTING PLUS S.R.L",2a14:3086::/31
 "IT HOSTLINE LTD",2a0d:1ac3::/32
@@ -20663,6 +20662,7 @@ Sharktech,2a0c:c181::/32
 "Ferdinand Zink trading as Tube-Hosting",2a12:de40::/32
 "Ferdinand Zink trading as Tube-Hosting",2a13:9500:d5::/48
 "QHost LLC",2001:67c:c6c::/48
+"Akamai International B.V",2606:6c00:6001::/48
 "Akamai International B.V",2606:6c00:6002::/47
 "Akamai International B.V",2606:6c00:6004::/48
 "WorldStream B.V",2a00:7c80::/30
@@ -21031,7 +21031,6 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:4200::/48
 "Fastly Inc",2a04:4e40:4400::/48
 "Fastly Inc",2a04:4e40:4410::/44
-"Fastly Inc",2a04:4e40:4440::/44
 "Fastly Inc",2a04:4e40:44f0::/48
 "Fastly Inc",2a04:4e40:4500::/44
 "Fastly Inc",2a04:4e40:4600::/48
@@ -21093,6 +21092,9 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:6a30::/44
 "Fastly Inc",2a04:4e40:6a40::/44
 "Fastly Inc",2a04:4e40:6af0::/48
+"Fastly Inc",2a04:4e40:6c00::/48
+"Fastly Inc",2a04:4e40:6c20::/48
+"Fastly Inc",2a04:4e40:6c40::/48
 "Fastly Inc",2a04:4e40:6f00::/48
 "Fastly Inc",2a04:4e40:6ff0::/48
 "Fastly Inc",2a04:4e40:7000::/48
@@ -21325,18 +21327,14 @@ Sharktech,2a0c:c181::/32
 "Midwest Data Center Inc",2606:e40::/32
 "Packet Host Inc",2604:1380:10::/44
 "Packet Host Inc",2604:1380:30::/44
-"Packet Host Inc",2604:1380:50::/44
 "Packet Host Inc",2604:1380:90::/44
 "Packet Host Inc",2604:1380:1000::/36
 "Packet Host Inc",2604:1380:3000::/36
 "Packet Host Inc",2604:1380:4080::/44
-"Packet Host Inc",2604:1380:40a0::/44
-"Packet Host Inc",2604:1380:40d0::/44
 "Packet Host Inc",2604:1380:40e0::/44
 "Packet Host Inc",2604:1380:4540::/44
 "Packet Host Inc",2604:1380:4580::/43
 "Packet Host Inc",2604:1380:45e0::/44
-"Packet Host Inc",2604:1380:ffff::/48
 "Intelliracks Managed Hosting",2602:fff9::/40
 "eStruxture Data Centers Inc",2605:9000:d::/48
 EdgeUno,2607:b3c0::/32
@@ -21667,7 +21665,7 @@ Serversaurus,2401:38c0::/32
 "Hostek AB",2a02:fc00::/29
 "Host4Biz sp. z o.o",2a07:7c80::/29
 "Hivelocity LLC",2604:4500:1a::/47
-"Hivelocity LLC",2604:4500:1c::/47
+"Hivelocity LLC",2604:4500:1c::/48
 "Hivelocity LLC",2604:4500:1f::/48
 "Hivelocity LLC",2604:4500:21::/48
 "Hivelocity LLC",2604:4500:1200::/39
@@ -21925,7 +21923,6 @@ HostUS,2a0f:5707:ab2b::/48
 "Servers.com Inc",2406:380::/31
 "Servers.com Inc",2600:9c00::/30
 "Servers.com Inc",2600:9c04::/31
-"Servers.com Inc",2600:9c06::/32
 "Servers.com Inc",2600:9c0f::/32
 "Servers.com Inc",2604:8240::/32
 "Servers.com Inc",2604:84c0::/32
