@@ -15290,7 +15290,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-07 10:00:03.966241"
+Linode,"# Last modified: 2025-10-08 10:00:04.605052"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15763,7 +15763,7 @@ ExonHost,2400:7920::/32
 "SD Data Center",2604:2ec0::/32
 "SD Data Center",2a09:6d80::/32
 "Host Tel",2400:7720::/32
-"Code For Host Inc Ltd",2402:29e0:c010::/48
+"Code For Host Inc Ltd",2402:29e0:c010::/47
 "Code For Host Inc Ltd",2402:29e0:d010::/48
 "VPSBlocks Pty Ltd",2406:340::/32
 "DigitalOcean LLC",2400:6180::/48
@@ -15958,6 +15958,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:f0::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:100::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:2000::/36
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:3010::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4000::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4040::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4060::/44
@@ -15966,7 +15967,7 @@ HOSTPERL,2401:3b20::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4110::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4500::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4520::/43
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4550::/44
+"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4540::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4580::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:45c0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:45f0::/44
@@ -16387,7 +16388,7 @@ EGIHosting,2a11:bd40::/29
 "G-Core Labs S.A",2a03:90c0:1d0::/44
 "G-Core Labs S.A",2a03:90c0:1e0::/43
 "G-Core Labs S.A",2a03:90c0:210::/44
-"G-Core Labs S.A",2a03:90c0:220::/44
+"G-Core Labs S.A",2a03:90c0:220::/43
 "G-Core Labs S.A",2a03:90c0:240::/42
 "G-Core Labs S.A",2a03:90c0:280::/41
 "G-Core Labs S.A",2a03:90c0:300::/41
@@ -16641,6 +16642,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2602:810:6008::/48
 "The Constant Company LLC",2602:f6ac::/36
 "The Constant Company LLC",2602:f7cb::/36
+"The Constant Company LLC",2602:f93b:800::/40
 "The Constant Company LLC",2602:f96d:e00::/40
 "The Constant Company LLC",2602:fb1b::/48
 "The Constant Company LLC",2602:fed2:7100::/48
@@ -16973,6 +16975,7 @@ StabiliServers,2605:e480:11::/48
 "Flyservers S.A",2a10:9100:9::/48
 "Flyservers S.A",2a10:9107:f000::/36
 "Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f0::/47
+"Curt Joseph Hidalgo trading as Curt Creation Website Hosting Services",2a0c:b641:3f2::/48
 "I-SERVERS LTD",2a06:ddc0::/29
 "I-SERVERS LTD",2a0a:9300:2::/48
 "I-SERVERS LTD",2a0a:9300:d0::/47
@@ -17228,6 +17231,7 @@ StabiliServers,2605:e480:11::/48
 "Host Europe GmbH",2607:f208:d310::/44
 "Host Europe GmbH",2607:f208:df05::/48
 "Host Europe GmbH",2a00:1169::/39
+"netcup GmbH",2a0a:4cc0:101::/48
 "netcup GmbH",2a0a:4cc0:2000::/48
 "Maik Polman trading as PixelHosting",2a06:9f41::/32
 "Finn Hess trading as Ryzehosting",2a06:1283:8d00::/40
@@ -17366,6 +17370,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2a10:3c0:4::/47
 "Zenlayer Inc",2a13:9500:aa::/48
 "Southern Data Center",2602:fe3f::/34
+"Southern Data Center",2602:fe3f:8000::/34
 "Red Hat Inc",2620:52:4::/47
 Cologuard,2604:eb80::/32
 "InMotion Hosting Inc",2605:f400:1::/48
@@ -17389,7 +17394,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 HostPapa,2605:6f0f::/32
@@ -18224,7 +18229,6 @@ Steadfast,2607:f128::/32
 "Routed Hosting (PTY) LTD",2c0f:f238::/32
 "Host Africa (Pty) Ltd",2c0f:8c0::/48
 "xTom Limited",2c0f:ec00::/48
-"TWC Hosting CC",2c0f:e8a8::/32
 "Absolute Hosting (Pty) Ltd",2c0f:5780::/32
 "Host Africa (Pty) Ltd",2c0f:f300::/48
 "Host Africa (Pty) Ltd",2c0f:f598:2::/48
@@ -18282,7 +18286,7 @@ Steadfast,2607:f128::/32
 "Akamai International B.V",2a02:26f0:c4::/48
 "Akamai International B.V",2a02:26f0:106::/47
 "Akamai International B.V",2a02:26f0:110::/48
-"Akamai International B.V",2a02:26f0:125::/48
+"Akamai International B.V",2a02:26f0:124::/47
 "Akamai International B.V",2a02:26f0:126::/48
 "Akamai International B.V",2a02:26f0:1600::/48
 "Akamai International B.V",2a02:26f0:1a00::/48
@@ -19844,7 +19848,6 @@ Zenlayer,2407:62c0::/32
 "31173 Services AB",2a03:1b21:100::/40
 "31173 Services AB",2a07:e344::/32
 "31173 Services AB",2a10:ccc2:20::/44
-"Akamai Technologies Inc",2606:6c00:ff::/48
 "Akamai Technologies Inc",2606:6c00:2000::/48
 "Tucows.com Co",2620:57:4001::/48
 "Tucows.com Co",2620:57:4007::/48
@@ -20112,7 +20115,6 @@ Hostodo,2606:65c0:40::/48
 "CodeforHost Inc",2602:fc06:2::/47
 "Atlantic Metro Communications II Inc",2607:fd50::/32
 "Contabo Inc",2605:a140::/30
-"Contabo Inc",2605:a144::/32
 "SECURED SERVERS LLC",2607:ff00:f00::/40
 "Madcityservers LLC",2602:fed2:7081::/48
 "Madcityservers LLC",2602:fed2:7086::/48
@@ -20531,9 +20533,9 @@ Sharktech,2a0c:c181::/32
 "HYEHOST LTD",2a06:1281:1000::/36
 "HYEHOST LTD",2a0f:6280:a::/48
 "HYEHOST LTD",2a0f:6280:10::/45
-"HYEHOST LTD",2a0f:6280:18::/47
+"HYEHOST LTD",2a0f:6280:18::/48
 "HYEHOST LTD",2a0f:6280:1b::/48
-"HYEHOST LTD",2a0f:6280:1c::/47
+"HYEHOST LTD",2a0f:6280:1d::/48
 "HYEHOST LTD",2a0f:6280:1f::/48
 "HYEHOST LTD",2a0f:6283:1130::/44
 "HYEHOST LTD",2a0f:6283:1140::/44
@@ -20747,6 +20749,7 @@ Sharktech,2a0c:c181::/32
 "Contabo GmbH",2a02:c204::/30
 "Host-Telecom.com s.r.o",2a03:1840::/46
 "Host-Telecom.com s.r.o",2a10:9687::/32
+"BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEWSKI BARTOSZ WASZAK LUKASZ GROSZEWSKI",2001:67c:d94::/48
 "BARTOSZ WASZAK trading as HOSTEAM S.C. TOMASZ GROSZEWSKI BARTOSZ WASZAK LUKASZ GROSZEWSKI",2001:67c:2044::/48
 "AltusHost B.V",2a00:7142::/31
 "AltusHost B.V",2a00:7144::/32
@@ -21000,10 +21003,12 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:2020::/43
 "Fastly Inc",2a04:4e40:2040::/43
 "Fastly Inc",2a04:4e40:20f0::/48
+"Fastly Inc",2a04:4e40:2100::/44
 "Fastly Inc",2a04:4e40:2200::/44
 "Fastly Inc",2a04:4e40:2400::/48
 "Fastly Inc",2a04:4e40:2410::/48
 "Fastly Inc",2a04:4e40:24f0::/48
+"Fastly Inc",2a04:4e40:2500::/44
 "Fastly Inc",2a04:4e40:2600::/47
 "Fastly Inc",2a04:4e40:2700::/44
 "Fastly Inc",2a04:4e40:2800::/44
@@ -21204,7 +21209,6 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:b040::/47
 "Fastly Inc",2a04:4e40:b200::/48
 "Fastly Inc",2a04:4e40:b240::/44
-"Fastly Inc",2a04:4e40:b2f0::/48
 "Fastly Inc",2a04:4e40:b400::/48
 "Fastly Inc",2a04:4e40:b410::/44
 "Fastly Inc",2a04:4e40:b440::/44
@@ -21290,7 +21294,6 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:e600::/47
 "Fastly Inc",2a04:4e40:e610::/47
 "Fastly Inc",2a04:4e40:e620::/47
-"Fastly Inc",2a04:4e40:e640::/47
 "Fastly Inc",2a04:4e40:e6f0::/47
 "Fastly Inc",2a04:4e40:e800::/47
 "Fastly Inc",2a04:4e40:e820::/44
@@ -21347,8 +21350,6 @@ Sharktech,2a0c:c181::/32
 "Packet Host Inc",2604:1380:90::/44
 "Packet Host Inc",2604:1380:e0::/44
 "Packet Host Inc",2604:1380:1000::/36
-"Packet Host Inc",2604:1380:3000::/36
-"Packet Host Inc",2604:1380:4540::/44
 "Packet Host Inc",2604:1380:45e0::/44
 "Intelliracks Managed Hosting",2602:fff9::/40
 "eStruxture Data Centers Inc",2605:9000:d::/48
@@ -21751,7 +21752,6 @@ xTom,2a0d:c7c0::/32
 "GLOBALTELEHOST Corp",2602:fec3:200::/40
 "GLOBALTELEHOST Corp",2607:a140:900::/40
 "GLOBALTELEHOST Corp",2607:a140:a00::/40
-"GLOBALTELEHOST Corp",2a11:840:58::/48
 "Virtual Hosting Inc",2604:e040::/32
 "Zenlayer Inc",2602:ffe4:c68::/46
 "Zenlayer Inc",2602:ffe4:c74::/46
@@ -22003,11 +22003,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Adman LLC",2a0b:4300::/29
 "JSC TIMEWEB",2a03:6f00::/29
 "JSC TIMEWEB",2a0f:1f80::/29
-"JSC TIMEWEB",2a0f:9600::/29
-"JSC TIMEWEB",2a10:3440::/29
 "JSC TIMEWEB",2a12:4ac0::/29
-"JSC TIMEWEB",2a13:9180::/29
-"JSC TIMEWEB",2a13:9580::/29
 "True Internet Data Center Company Limited",2001:fb0:1000::/47
 "True Internet Data Center Company Limited",2001:fb0:1002::/48
 "True Internet Data Center Company Limited",2404:3280::/32
