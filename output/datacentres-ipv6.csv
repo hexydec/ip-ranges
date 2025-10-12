@@ -18,6 +18,7 @@
 "Google Cloud Platform",2600:1900:4010::/44
 "Google Cloud Platform",2600:1901:81f0::/44
 "Google Cloud Platform",2600:1901:81b0::/44
+"Google Cloud Platform",2600:1900:42c0::/44
 "Google Cloud Platform",2600:1900:40c0::/44
 "Google Cloud Platform",2600:1900:40d0::/44
 "Google Cloud Platform",2600:1900:4060::/44
@@ -15450,7 +15451,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-10 10:00:04.618523"
+Linode,"# Last modified: 2025-10-11 10:00:04.881507"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15685,6 +15686,7 @@ Linode,2600:3c0f:57::/48
 "ODN OnlineDienst Nordbayern GmbH & Co. KG",2001:67c:2e60::/48
 "ODN OnlineDienst Nordbayern GmbH & Co. KG",2a00:12e8:f141::/48
 "ODN OnlineDienst Nordbayern GmbH & Co. KG",2a01:120::/29
+"Plus Hosting Grupa d.o.o",2a0b:ee41::/32
 "Krystal Hosting Ltd",2a03:2800::/32
 "Krystal Hosting Ltd",2a03:2802::/31
 "Krystal Hosting Ltd",2a03:2804::/32
@@ -15902,7 +15904,7 @@ ExonHost,2400:7920::/32
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e004::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e007::/48
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:e009::/48
-"Edgenext Legend Dynasty Pte. Ltd",2407:2440:e00b::/48
+"Edgenext Legend Dynasty Pte. Ltd",2407:2440:e00a::/47
 "Edgenext Legend Dynasty Pte. Ltd",2407:2440:f001::/48
 "Big Data Center Of Shandong Province",2405:f940::/32
 "Hyve Managed Hosting Corp Inc",2001:df0:fd80::/48
@@ -15960,6 +15962,7 @@ ExonHost,2400:7920::/32
 "Edgecast Inc",2606:2800:e004::/47
 "NICHONET Inter-Continental Hosting Operation Network",2602:feda:b42::/47
 "NICHONET Inter-Continental Hosting Operation Network",2602:feda:b44::/48
+"NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1200::/48
 "NICHONET Inter-Continental Hosting Operation Network",2a0e:b107:1204::/48
 "ARK Data Centers LLC",2001:49f8:40a::/48
 "ARK Data Centers LLC",2604:9b00::/38
@@ -16868,14 +16871,8 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a14:67c1:b800::/40
 "The Constant Company LLC",2a14:67c1:c400::/39
 "The Constant Company LLC",2a14:7581:f30::/44
-"The Constant Company LLC",2a14:7583:f000::/42
-"The Constant Company LLC",2a14:7583:f040::/43
-"The Constant Company LLC",2a14:7583:f060::/44
-"The Constant Company LLC",2a14:7583:f070::/45
-"The Constant Company LLC",2a14:7583:f100::/42
-"The Constant Company LLC",2a14:7583:f140::/43
-"The Constant Company LLC",2a14:7583:f160::/44
-"The Constant Company LLC",2a14:7583:f170::/45
+"The Constant Company LLC",2a14:7583:f000::/44
+"The Constant Company LLC",2a14:7583:f100::/44
 "The Constant Company LLC",2a14:7584:8000::/36
 "UAB Cherry Servers",2a02:ae02::/36
 "HOSTEUR SAS",2a0d:5380::/29
@@ -18166,6 +18163,7 @@ Host-Engine.com,2602:fa82::/36
 "Leaseweb USA Inc",2a10:37c0::/29
 "Leaseweb USA Inc",2a10:4a00::/29
 "Leaseweb USA Inc",2a10:5400::/29
+"Leaseweb USA Inc",2a10:6500::/29
 "Leaseweb USA Inc",2a10:68c0::/29
 "Leaseweb USA Inc",2a10:6d40::/29
 "Leaseweb USA Inc",2a10:7100::/29
@@ -20225,6 +20223,7 @@ Latitude.sh,2a13:9500:84::/47
 "Ace Host LLC",2606:6680:49::/48
 "Ace Host LLC",2606:6680:50::/48
 "Ace Host LLC",2607:1740:1000::/36
+"GoDaddy.com LLC",2a01:488:bb12::/48
 "VPS House Technology Group LLC",2602:fcd5:2::/47
 "VPS House Technology Group LLC",2602:fcd5:4::/46
 "VPS House Technology Group LLC",2602:fcd5:a::/47
@@ -20506,6 +20505,7 @@ HostPapa,2620:b:e000::/48
 "firstcolo GmbH",2a0d:3c0::/40
 "Webhost LLC",2a0a:8d80::/48
 "Host Europe GmbH",2603:4:1000::/47
+"Host Europe GmbH",2603:4:1004::/47
 "Host Europe GmbH",2603:4:100a::/47
 "Host Europe GmbH",2603:4:100c::/47
 "Host Europe GmbH",2603:4:1010::/46
@@ -21771,7 +21771,6 @@ Serversaurus,2401:38c0::/32
 "ColocationIX GmbH",2a02:44a7:ff02::/47
 "ColocationIX GmbH",2a02:44a7:ff04::/48
 "JSC Selectel",2a00:ab00:6000::/36
-"JSC Selectel",2a14:e600::/32
 "York UK Hosting Ltd",2001:67c:a08::/48
 "BlueVPS OU",2a10:1fc0:1::/48
 "BlueVPS OU",2a10:1fc0:2::/47
@@ -22004,6 +22003,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Servers.com Inc",2600:9c00::/30
 "Servers.com Inc",2600:9c04::/31
 "Servers.com Inc",2600:9c06::/32
+"Servers.com Inc",2600:9c08::/32
 "Servers.com Inc",2600:9c0f::/32
 "Servers.com Inc",2604:8240::/32
 "Servers.com Inc",2604:84c0::/32
