@@ -614,6 +614,7 @@
 "Amazon AWS",15.190.128.0/20
 "Amazon AWS",15.230.178.0/24
 "Amazon AWS",15.230.192.0/24
+"Amazon AWS",35.50.139.0/24
 "Amazon AWS",40.239.0.0/16
 "Amazon AWS",51.200.0.0/15
 "Amazon AWS",52.93.127.121/32
@@ -838,6 +839,7 @@
 "Amazon AWS",15.221.6.0/24
 "Amazon AWS",15.230.79.64/26
 "Amazon AWS",16.12.10.0/23
+"Amazon AWS",35.50.137.0/24
 "Amazon AWS",43.221.0.0/16
 "Amazon AWS",52.93.21.0/24
 "Amazon AWS",52.93.147.0/24
@@ -1744,6 +1746,7 @@
 "Amazon AWS",15.230.214.0/24
 "Amazon AWS",16.140.0.0/16
 "Amazon AWS",34.224.0.0/12
+"Amazon AWS",35.50.141.0/24
 "Amazon AWS",52.75.0.0/16
 "Amazon AWS",52.82.160.0/22
 "Amazon AWS",52.93.152.162/32
@@ -59193,7 +59196,7 @@ HOSTOMEGA,163.227.50.0/24
 "PacketHub S.A",89.41.28.0/23
 "PacketHub S.A",89.41.49.0/24
 "PacketHub S.A",89.41.189.0/24
-"PacketHub S.A",89.41.190.0/23
+"PacketHub S.A",89.41.190.0/24
 "PacketHub S.A",89.42.10.0/24
 "PacketHub S.A",89.42.152.0/23
 "PacketHub S.A",89.116.0.0/24
@@ -60691,7 +60694,7 @@ HOSTPERL,193.37.47.0/24
 "Netminders Server Hosting",199.21.150.0/24
 "BHARAT DATACENTER",38.124.228.0/22
 "BHARAT DATACENTER",85.209.161.0/24
-"BHARAT DATACENTER",103.190.92.0/24
+"BHARAT DATACENTER",103.190.92.0/23
 "BHARAT DATACENTER",157.10.98.0/23
 "BHARAT DATACENTER",157.254.24.0/24
 "BHARAT DATACENTER",163.227.111.0/24
@@ -60764,13 +60767,11 @@ Edgevana,80.73.135.0/24
 "Hasan Host",68.165.252.0/22
 "Hasan Host",103.6.160.0/24
 "Mondoze Data Centre",160.25.140.0/24
+"Host Leasing Corporation",131.143.43.0/24
 "Host Leasing Corporation",205.166.250.0/24
 "Karim Hosting Services",103.159.172.0/23
 "ASIA CLOUD HOSTING",202.12.122.0/24
-"ADVPS SERVICES",103.15.156.0/23
-"ADVPS SERVICES",149.13.54.0/23
 "ADVPS SERVICES",154.49.164.0/22
-"ADVPS SERVICES",163.227.89.0/24
 "Nazim Host",160.191.148.0/23
 "Tucows.com Co",64.99.0.0/16
 "Tucows.com Co",216.40.32.0/20
@@ -61045,6 +61046,7 @@ netandhost.com,165.101.107.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",103.135.43.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",103.140.211.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",103.169.184.0/24
+"Equinix (EMEA) Acquisition Enterprises B.V",103.182.173.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",103.198.36.0/22
 "Equinix (EMEA) Acquisition Enterprises B.V",103.227.188.0/22
 "Equinix (EMEA) Acquisition Enterprises B.V",103.236.202.0/24
@@ -61868,7 +61870,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",151.240.24.0/24
 "OVH SAS",151.241.1.0/24
 "OVH SAS",151.241.8.0/24
-"OVH SAS",151.241.69.0/24
+"OVH SAS",151.241.68.0/23
 "OVH SAS",151.242.5.0/24
 "OVH SAS",151.242.67.0/24
 "OVH SAS",151.242.91.0/24
@@ -65587,6 +65589,7 @@ ColoUp,162.245.80.0/21
 "GMCHOSTING LLC",137.83.91.0/24
 "GMCHOSTING LLC",205.178.168.0/24
 "GMCHOSTING LLC",208.103.169.0/24
+"Rochester Colo LLC",199.180.64.0/21
 "Interserver Inc",5.175.194.0/24
 "Interserver Inc",5.231.203.0/24
 "Interserver Inc",5.231.242.0/24
@@ -65670,8 +65673,11 @@ ColoUp,162.245.80.0/21
 "Interserver Inc",154.88.32.0/21
 "Interserver Inc",154.94.12.0/22
 "Interserver Inc",154.194.196.0/22
+"Interserver Inc",154.194.200.0/22
 "Interserver Inc",154.194.224.0/23
+"Interserver Inc",154.213.196.0/22
 "Interserver Inc",155.2.192.0/24
+"Interserver Inc",156.233.72.0/22
 "Interserver Inc",156.244.204.0/22
 "Interserver Inc",157.250.192.0/20
 "Interserver Inc",161.129.64.0/21
@@ -69486,7 +69492,6 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",188.211.252.0/22
 "The Constant Company LLC",188.212.104.0/22
 "The Constant Company LLC",188.212.131.0/24
-"The Constant Company LLC",188.213.84.0/23
 "The Constant Company LLC",188.214.89.0/24
 "The Constant Company LLC",188.215.233.0/24
 "The Constant Company LLC",188.241.59.0/24
@@ -69686,7 +69691,6 @@ StabiliServers,38.135.34.0/24
 "Hostigger INC",185.219.132.0/22
 "Hostigger INC",193.106.188.0/24
 "Hostigger INC",194.26.109.0/24
-"Hostigger INC",194.26.115.0/24
 "WIIT AG",185.21.124.0/22
 "WIIT AG",208.82.72.0/22
 "WIIT AG",212.237.244.0/22
@@ -70389,7 +70393,7 @@ StabiliServers,38.135.34.0/24
 "Intelligence Hosting Services Limited",45.143.116.0/22
 "Superhosting doo",45.80.132.0/22
 "Data Center LLC",45.12.124.0/24
-"Data Center LLC",45.12.126.0/24
+"Data Center LLC",45.12.126.0/23
 "Data Center LLC",91.213.144.0/24
 "Data Center LLC",91.232.93.0/24
 "Data Center LLC",91.243.190.0/23
@@ -72192,6 +72196,7 @@ StabiliServers,38.135.34.0/24
 "HosterDaddy Private Limited",212.232.22.0/24
 "Finn Hess trading as Ryzehosting",5.83.134.0/24
 "Finn Hess trading as Ryzehosting",5.175.140.0/24
+"Finn Hess trading as Ryzehosting",5.175.222.0/24
 "Association By-Hoster",155.117.100.0/24
 "Michael Vassileiou trading as DATAHOST",31.22.118.0/24
 "NovoServe B.V",31.57.144.0/24
@@ -73472,7 +73477,6 @@ DEFT.COM,216.246.0.0/17
 "ReliableSite.Net LLC",102.177.182.0/24
 "ReliableSite.Net LLC",103.14.22.0/24
 "ReliableSite.Net LLC",103.106.66.0/23
-"ReliableSite.Net LLC",103.193.72.0/24
 "ReliableSite.Net LLC",103.195.100.0/22
 "ReliableSite.Net LLC",103.197.52.0/24
 "ReliableSite.Net LLC",104.128.72.0/22
@@ -73520,7 +73524,6 @@ DEFT.COM,216.246.0.0/17
 "ReliableSite.Net LLC",199.91.97.0/24
 "ReliableSite.Net LLC",199.127.60.0/22
 "ReliableSite.Net LLC",206.170.56.0/22
-"ReliableSite.Net LLC",206.170.60.0/24
 "ReliableSite.Net LLC",206.221.176.0/20
 "ReliableSite.Net LLC",206.232.4.0/23
 "ReliableSite.Net LLC",207.105.108.0/22
@@ -78172,7 +78175,6 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies Inc",172.224.180.0/23
 "Akamai Technologies Inc",172.224.182.0/24
 "Akamai Technologies Inc",172.224.184.0/21
-"Akamai Technologies Inc",172.224.192.0/24
 "Akamai Technologies Inc",172.224.194.0/24
 "Akamai Technologies Inc",172.224.198.0/24
 "Akamai Technologies Inc",172.224.202.0/23
@@ -78320,7 +78322,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies Inc",172.226.152.0/22
 "Akamai Technologies Inc",172.226.156.0/24
 "Akamai Technologies Inc",172.226.160.0/24
-"Akamai Technologies Inc",172.226.162.0/23
+"Akamai Technologies Inc",172.226.162.0/24
 "Akamai Technologies Inc",172.226.164.0/24
 "Akamai Technologies Inc",172.226.166.0/23
 "Akamai Technologies Inc",172.226.168.0/22
@@ -82114,6 +82116,7 @@ HostPapa,216.222.192.0/21
 "Psychz Networks",31.59.29.0/24
 "Psychz Networks",31.59.34.0/24
 "Psychz Networks",40.27.24.0/23
+"Psychz Networks",40.223.184.0/22
 "Psychz Networks",41.216.184.0/24
 "Psychz Networks",43.246.114.0/23
 "Psychz Networks",43.250.72.0/22
@@ -83873,6 +83876,7 @@ Hostcenter,210.121.164.0/24
 "GPLHost LLC",117.121.244.0/24
 "GPLHost LLC",182.54.232.0/24
 "GPLHost LLC",182.54.234.0/24
+"Enterprise VPS Solutions LLC",130.12.68.0/22
 "White Sky Hosting",31.56.65.0/24
 "ValorC3 Data Centers",74.118.180.0/22
 "ValorC3 Data Centers",149.19.181.0/24
@@ -85580,7 +85584,6 @@ Arcserve,199.204.172.0/22
 "WorldStream B.V",195.128.184.0/23
 "WorldStream B.V",195.133.36.0/24
 "WorldStream B.V",195.191.112.0/23
-"WorldStream B.V",198.1.233.0/24
 "WorldStream B.V",199.91.103.0/24
 "WorldStream B.V",212.8.240.0/24
 "WorldStream B.V",212.8.242.0/23
@@ -86506,19 +86509,12 @@ Arcserve,199.204.172.0/22
 "Oy Crea Nova Hosting Solution Ltd",5.181.168.0/23
 "Oy Crea Nova Hosting Solution Ltd",5.183.255.0/24
 "Oy Crea Nova Hosting Solution Ltd",31.40.195.0/24
-"Oy Crea Nova Hosting Solution Ltd",37.72.141.0/24
 "Oy Crea Nova Hosting Solution Ltd",45.141.128.0/24
-"Oy Crea Nova Hosting Solution Ltd",45.159.21.0/24
-"Oy Crea Nova Hosting Solution Ltd",45.159.22.0/24
 "Oy Crea Nova Hosting Solution Ltd",46.20.110.0/24
-"Oy Crea Nova Hosting Solution Ltd",46.253.131.0/24
-"Oy Crea Nova Hosting Solution Ltd",62.204.49.0/24
 "Oy Crea Nova Hosting Solution Ltd",62.233.39.0/24
-"Oy Crea Nova Hosting Solution Ltd",77.83.24.0/22
 "Oy Crea Nova Hosting Solution Ltd",77.83.247.0/24
 "Oy Crea Nova Hosting Solution Ltd",77.90.176.0/24
 "Oy Crea Nova Hosting Solution Ltd",77.90.187.0/24
-"Oy Crea Nova Hosting Solution Ltd",77.243.88.0/22
 "Oy Crea Nova Hosting Solution Ltd",80.66.66.0/24
 "Oy Crea Nova Hosting Solution Ltd",82.21.220.0/24
 "Oy Crea Nova Hosting Solution Ltd",82.21.233.0/24
@@ -86544,17 +86540,11 @@ Arcserve,199.204.172.0/22
 "Oy Crea Nova Hosting Solution Ltd",82.29.237.0/24
 "Oy Crea Nova Hosting Solution Ltd",82.29.249.0/24
 "Oy Crea Nova Hosting Solution Ltd",82.115.220.0/24
-"Oy Crea Nova Hosting Solution Ltd",83.97.116.0/22
 "Oy Crea Nova Hosting Solution Ltd",83.143.106.0/24
-"Oy Crea Nova Hosting Solution Ltd",88.218.45.0/24
-"Oy Crea Nova Hosting Solution Ltd",88.218.47.0/24
 "Oy Crea Nova Hosting Solution Ltd",91.132.197.0/24
 "Oy Crea Nova Hosting Solution Ltd",91.221.66.0/23
 "Oy Crea Nova Hosting Solution Ltd",91.233.116.0/23
-"Oy Crea Nova Hosting Solution Ltd",91.246.51.0/24
-"Oy Crea Nova Hosting Solution Ltd",91.247.163.0/24
 "Oy Crea Nova Hosting Solution Ltd",92.242.167.0/24
-"Oy Crea Nova Hosting Solution Ltd",94.154.113.0/24
 "Oy Crea Nova Hosting Solution Ltd",103.99.33.0/24
 "Oy Crea Nova Hosting Solution Ltd",103.99.34.0/24
 "Oy Crea Nova Hosting Solution Ltd",103.101.88.0/22
@@ -86566,43 +86556,23 @@ Arcserve,199.204.172.0/22
 "Oy Crea Nova Hosting Solution Ltd",144.225.188.0/22
 "Oy Crea Nova Hosting Solution Ltd",146.19.140.0/24
 "Oy Crea Nova Hosting Solution Ltd",164.138.0.0/20
-"Oy Crea Nova Hosting Solution Ltd",178.20.28.0/22
-"Oy Crea Nova Hosting Solution Ltd",178.20.215.0/24
-"Oy Crea Nova Hosting Solution Ltd",185.68.152.0/22
 "Oy Crea Nova Hosting Solution Ltd",185.77.216.0/22
 "Oy Crea Nova Hosting Solution Ltd",185.89.42.0/23
-"Oy Crea Nova Hosting Solution Ltd",185.94.32.0/22
-"Oy Crea Nova Hosting Solution Ltd",185.101.20.0/23
 "Oy Crea Nova Hosting Solution Ltd",185.103.110.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.108.107.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.112.82.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.117.118.0/24
-"Oy Crea Nova Hosting Solution Ltd",185.202.108.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.204.1.0/24
-"Oy Crea Nova Hosting Solution Ltd",185.212.115.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.212.149.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.217.196.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.221.163.0/24
 "Oy Crea Nova Hosting Solution Ltd",185.247.140.0/23
 "Oy Crea Nova Hosting Solution Ltd",192.124.182.0/24
-"Oy Crea Nova Hosting Solution Ltd",193.31.126.0/24
 "Oy Crea Nova Hosting Solution Ltd",193.42.245.0/24
-"Oy Crea Nova Hosting Solution Ltd",193.151.189.0/24
-"Oy Crea Nova Hosting Solution Ltd",193.151.190.0/23
 "Oy Crea Nova Hosting Solution Ltd",193.161.204.0/24
 "Oy Crea Nova Hosting Solution Ltd",193.161.246.0/23
-"Oy Crea Nova Hosting Solution Ltd",193.163.89.0/24
-"Oy Crea Nova Hosting Solution Ltd",193.163.92.0/24
-"Oy Crea Nova Hosting Solution Ltd",193.163.207.0/24
 "Oy Crea Nova Hosting Solution Ltd",193.233.88.0/22
-"Oy Crea Nova Hosting Solution Ltd",194.26.129.0/24
 "Oy Crea Nova Hosting Solution Ltd",194.34.132.0/22
-"Oy Crea Nova Hosting Solution Ltd",194.70.234.0/24
-"Oy Crea Nova Hosting Solution Ltd",194.99.24.0/24
-"Oy Crea Nova Hosting Solution Ltd",194.99.26.0/24
-"Oy Crea Nova Hosting Solution Ltd",194.104.128.0/24
-"Oy Crea Nova Hosting Solution Ltd",212.18.113.0/24
-"Oy Crea Nova Hosting Solution Ltd",212.18.127.0/24
 "Oy Crea Nova Hosting Solution Ltd",213.209.132.0/24
 "Oy Crea Nova Hosting Solution Ltd",213.209.148.0/24
 "Oy Crea Nova Hosting Solution Ltd",213.232.120.0/24
@@ -89751,6 +89721,7 @@ xTom,194.36.242.0/24
 "GLOBALTELEHOST Corp",192.166.226.0/24
 "GLOBALTELEHOST Corp",193.108.58.0/24
 "GLOBALTELEHOST Corp",198.57.26.0/23
+"GLOBALTELEHOST Corp",208.69.79.0/24
 "GLOBALTELEHOST Corp",216.39.250.0/24
 "Zenlayer Inc",23.251.33.0/24
 "Zenlayer Inc",23.251.36.0/23
@@ -90155,7 +90126,7 @@ HostRush,207.231.110.0/23
 "Eonix Corporation",170.130.46.0/24
 "Eonix Corporation",170.130.48.0/21
 "Eonix Corporation",170.130.58.0/23
-"Eonix Corporation",170.130.60.0/22
+"Eonix Corporation",170.130.62.0/23
 "Eonix Corporation",170.130.64.0/22
 "Eonix Corporation",170.130.70.0/23
 "Eonix Corporation",170.130.72.0/21
@@ -90475,10 +90446,15 @@ GTHost,199.91.96.0/24
 GTHost,204.136.10.0/23
 GTHost,207.180.38.0/24
 GTHost,208.69.76.0/24
-GTHost,208.69.78.0/23
+GTHost,208.69.78.0/24
 GTHost,212.23.196.0/24
 GTHost,216.39.248.0/23
 GTHost,216.39.251.0/24
+GTHost,216.106.176.0/23
+GTHost,216.106.179.0/24
+GTHost,216.106.180.0/22
+GTHost,216.106.184.0/22
+GTHost,216.106.188.0/23
 GTHost,216.122.186.0/24
 GTHost,216.177.129.0/24
 GTHost,216.247.104.0/24
