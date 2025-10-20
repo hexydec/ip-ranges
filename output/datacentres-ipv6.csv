@@ -15521,7 +15521,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-18 10:00:04.493548"
+Linode,"# Last modified: 2025-10-19 10:00:04.660714"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16491,9 +16491,7 @@ EGIHosting,2a0c:9ac0::/29
 "Incapsula Inc",2a02:e982:a::/48
 "Incapsula Inc",2a02:e982:d::/48
 "Incapsula Inc",2a02:e982:e::/47
-"Incapsula Inc",2a02:e982:10::/46
-"Incapsula Inc",2a02:e982:14::/47
-"Incapsula Inc",2a02:e982:17::/48
+"Incapsula Inc",2a02:e982:10::/45
 "Incapsula Inc",2a02:e982:18::/47
 "Incapsula Inc",2a02:e982:1b::/48
 "Incapsula Inc",2a02:e982:1c::/47
@@ -16727,6 +16725,8 @@ EGIHosting,2a0c:9ac0::/29
 "Redge Technologies sp. z o.o",2a00:8dc0:ff00::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:ff04::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:fffe::/47
+"Zagorodnikov Aleksei",2a06:a005:ba3::/48
+"Zagorodnikov Aleksei",2a06:a005:1084::/48
 "HZ Hosting Ltd",2a01:8640:3::/48
 "HZ Hosting Ltd",2a01:8640:19::/48
 "HOSTGNOME LTD",2602:f9e4::/36
@@ -16944,7 +16944,11 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a14:7580:b00::/40
 "The Constant Company LLC",2a14:7581:f30::/44
 "The Constant Company LLC",2a14:7583:f000::/44
+"The Constant Company LLC",2a14:7583:f010::/45
+"The Constant Company LLC",2a14:7583:f018::/46
 "The Constant Company LLC",2a14:7583:f100::/44
+"The Constant Company LLC",2a14:7583:f110::/45
+"The Constant Company LLC",2a14:7583:f118::/46
 "The Constant Company LLC",2a14:7584:8000::/36
 "The Constant Company LLC",2a14:ae00:5::/48
 "UAB Cherry Servers",2a02:ae02::/36
@@ -17084,7 +17088,7 @@ StabiliServers,2605:e480:11::/48
 "BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c14::/47
 "BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c16::/48
 "BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c19::/48
-"BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c1a::/47
+"BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c1b::/48
 "BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c1c::/48
 "BEANSUMMERHOST NEXTGEN SHED HOSTING SOLUTIONS LLC",2a14:c380:c20::/46
 "Plus.line AG",2a02:2e0:41c::/48
@@ -17442,6 +17446,7 @@ StabiliServers,2605:e480:11::/48
 "mijn.host B.V",2a11:4880::/31
 "Matteo Martelloni trading as DELUXHOST",2a12:bec4:1820::/44
 "Matteo Martelloni trading as DELUXHOST",2a12:bec4:1da0::/44
+"LLC DZHIBIEN HOST",2a0e:7200::/40
 "Sebastian Stefanek trading as MatHost.eu",2a05:dfc1:1410::/44
 "Sebastian Stefanek trading as MatHost.eu",2a06:1283:8904::/48
 "Sebastian Stefanek trading as MatHost.eu",2a07:54c1:c000::/44
@@ -17467,7 +17472,6 @@ StabiliServers,2605:e480:11::/48
 "Finn Hess trading as Ryzehosting",2a06:1283:8d00::/40
 "Association By-Hoster",2a13:9500:a8::/48
 "NovoServe B.V",2606:f180:6::/48
-"Northeast Hosting LLC",2a0f:85c1:d3e::/48
 "Gravhosting LLC",2a14:7c0:1800::/38
 "Gravhosting LLC",2a14:7c0:4800::/40
 "UK Dedicated Servers Limited",2a01:a501::/32
@@ -18460,7 +18464,6 @@ Steadfast,2607:f128::/32
 "Routed Hosting (PTY) LTD",2c0f:f238::/32
 "Host Africa (Pty) Ltd",2c0f:8c0::/48
 "xTom Limited",2c0f:ec00::/48
-"TWC Hosting CC",2c0f:e8a8::/32
 "Absolute Hosting (Pty) Ltd",2c0f:5780::/32
 "Host Africa (Pty) Ltd",2c0f:f300::/48
 "Host Africa (Pty) Ltd",2c0f:f598:2::/48
@@ -20906,7 +20909,6 @@ Sharktech,2a0c:c181::/32
 "WorldStream B.V",2a13:9500:ac::/48
 "Spartan Host Ltd",2604:9cc0::/35
 "Spartan Host Ltd",2604:9cc0:2000::/38
-"Spartan Host Ltd",2604:9cc0:2400::/48
 "Spartan Host Ltd",2605:3a40:4::/48
 "Spartan Host Ltd",2605:fb80:f000::/48
 "Spartan Host Ltd",2607:f8f8:1f00::/44
