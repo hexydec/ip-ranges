@@ -15521,7 +15521,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-21 10:00:04.939800"
+Linode,"# Last modified: 2025-10-22 10:00:04.996226"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15617,6 +15617,7 @@ Linode,2600:3c0f:56::/48
 Linode,2600:3c12:e00::/40
 Linode,2600:3c0f:57::/48
 "Henderson Data Centre Ltd",2407:7200::/32
+"Server Starter Host LLC",2602:f6bb::/40
 "Rodney Grimes Sole Proprietorship",2602:fbea::/36
 "Unitas Global",2600:c04::/32
 "Unitas Global",2600:c08::/32
@@ -16421,8 +16422,7 @@ EGIHosting,2a0c:9ac0::/29
 "Incapsula Inc",2a02:e980:158::/45
 "Incapsula Inc",2a02:e980:160::/43
 "Incapsula Inc",2a02:e980:180::/45
-"Incapsula Inc",2a02:e980:188::/47
-"Incapsula Inc",2a02:e980:18a::/48
+"Incapsula Inc",2a02:e980:188::/46
 "Incapsula Inc",2a02:e980:18d::/48
 "Incapsula Inc",2a02:e980:18e::/47
 "Incapsula Inc",2a02:e980:190::/44
@@ -16495,9 +16495,7 @@ EGIHosting,2a0c:9ac0::/29
 "Incapsula Inc",2a02:e982:a::/48
 "Incapsula Inc",2a02:e982:d::/48
 "Incapsula Inc",2a02:e982:e::/47
-"Incapsula Inc",2a02:e982:10::/46
-"Incapsula Inc",2a02:e982:14::/47
-"Incapsula Inc",2a02:e982:17::/48
+"Incapsula Inc",2a02:e982:10::/45
 "Incapsula Inc",2a02:e982:18::/47
 "Incapsula Inc",2a02:e982:1b::/48
 "Incapsula Inc",2a02:e982:1c::/47
@@ -16576,6 +16574,7 @@ EGIHosting,2a0c:9ac0::/29
 "SBA Edge LLC",2605:d100::/32
 "Webspace Hosting B.V",2a0b:3c40:13::/48
 "PIO-Hosting GmbH",2a10:ca80::/48
+"Beget LLC",2a04:bac0::/29
 "HOSTLINE UAB",2001:df3:67c0::/48
 "HOSTLINE UAB",2a00:1eb8:c000::/48
 "HOSTLINE UAB",2a07:8980::/31
@@ -16915,6 +16914,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a07:a341::/32
 "The Constant Company LLC",2a0a:7180:80::/48
 "The Constant Company LLC",2a0a:bb06:1000::/48
+"The Constant Company LLC",2a0b:b86:ffc0::/48
 "The Constant Company LLC",2a0b:64c4::/31
 "The Constant Company LLC",2a0d:2680:900::/40
 "The Constant Company LLC",2a0d:2680:2111::/48
@@ -17050,17 +17050,27 @@ StabiliServers,2605:e480:11::/48
 "Leaseweb UK Limited",2a04:88c4::/30
 "Leaseweb UK Limited",2a0d:3000::/30
 "Leaseweb UK Limited",2a0d:3004::/32
+"Leaseweb UK Limited",2a0f:14c0::/29
 "Leaseweb UK Limited",2a0f:1540::/29
 "Leaseweb UK Limited",2a0f:1640::/29
+"Leaseweb UK Limited",2a0f:1840::/29
+"Leaseweb UK Limited",2a0f:18c0::/29
 "Leaseweb UK Limited",2a0f:1940::/29
+"Leaseweb UK Limited",2a0f:1a40::/29
+"Leaseweb UK Limited",2a0f:1fc0::/29
 "Leaseweb UK Limited",2a0f:2840::/29
+"Leaseweb UK Limited",2a0f:28c0::/29
 "Leaseweb UK Limited",2a0f:2940::/29
 "Leaseweb UK Limited",2a0f:2a40::/29
+"Leaseweb UK Limited",2a0f:2d40::/29
 "Leaseweb UK Limited",2a0f:2dc0::/29
 "Leaseweb UK Limited",2a0f:2e40::/29
+"Leaseweb UK Limited",2a0f:2ec0::/29
 "Leaseweb UK Limited",2a0f:30c0::/29
 "Leaseweb UK Limited",2a0f:3140::/29
 "Leaseweb UK Limited",2a0f:3540::/29
+"Leaseweb UK Limited",2a0f:35c0::/29
+"Leaseweb UK Limited",2a0f:36c0::/29
 "Leaseweb UK Limited",2a0f:3740::/29
 "Leaseweb UK Limited",2a0f:bc02::/32
 "Leaseweb UK Limited",2a0f:d9c0::/29
@@ -17076,6 +17086,7 @@ StabiliServers,2605:e480:11::/48
 "Leaseweb UK Limited",2a12:cd00::/29
 "Leaseweb UK Limited",2a12:dc00::/29
 "Leaseweb UK Limited",2a12:ecc0:3::/48
+"Leaseweb UK Limited",2a13:cf00::/29
 "Leaseweb UK Limited",2a13:e100:1::/48
 "Your Hosting B.V",2a05:1500:400::/40
 "Switch Datacenters Amsterdam 1 B.V",2a13:8b00::/29
@@ -17638,7 +17649,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 HostPapa,2605:6f0f::/32
@@ -17720,7 +17731,6 @@ DEFT.COM,2620:7d::/48
 "Datacenter Luxembourg S.A",2001:b20::/29
 "Atman Sp. z o.o",2001:1a68:2c::/48
 "Atman Sp. z o.o",2001:1a68:37::/48
-"LLC Hostmaster",2001:4130::/48
 "Broadband Hosting B.V",2a02:10::/29
 "NovoServe B.V",2001:968::/29
 "NovoServe B.V",2a00:11f8::/29
@@ -17903,6 +17913,7 @@ MOJOHOST,2607:ffb8::/32
 "iHosting Servicios Internet Ltda",2803:b480::/48
 "iHosting Servicios Internet Ltda",2a03:f80:56::/48
 "Com4 Data Center Ltda",2804:160::/32
+"LOCAL DATACENTER SOLUCOES EM COMUNICACAO LTDA",2804:4bbc::/32
 "EDGEUNO MEXICO SA DE CV",2806:3dd::/32
 "HOSTLOCATION LTDA",2804:3414::/32
 "Easyhost BVBA",2001:1598::/32
@@ -17918,15 +17929,28 @@ MOJOHOST,2607:ffb8::/32
 "Leaseweb Deutschland GmbH",2a07:8a40::/29
 "Leaseweb Deutschland GmbH",2a09:7b00::/29
 "Leaseweb Deutschland GmbH",2a09:d140::/29
+"Leaseweb Deutschland GmbH",2a0a:3200::/29
 "Leaseweb Deutschland GmbH",2a0a:7d00::/29
 "Leaseweb Deutschland GmbH",2a0c:4880::/29
 "Leaseweb Deutschland GmbH",2a0f:17c0::/29
 "Leaseweb Deutschland GmbH",2a0f:2500::/29
+"Leaseweb Deutschland GmbH",2a0f:7f00::/29
 "Leaseweb Deutschland GmbH",2a0f:d200::/29
 "Leaseweb Deutschland GmbH",2a0f:db40::/29
+"Leaseweb Deutschland GmbH",2a10:34c0::/29
+"Leaseweb Deutschland GmbH",2a10:3640::/29
+"Leaseweb Deutschland GmbH",2a10:6b00::/29
+"Leaseweb Deutschland GmbH",2a10:6d00::/29
+"Leaseweb Deutschland GmbH",2a10:7500::/29
+"Leaseweb Deutschland GmbH",2a10:7d00::/29
+"Leaseweb Deutschland GmbH",2a10:7f00::/29
+"Leaseweb Deutschland GmbH",2a11:1200::/29
+"Leaseweb Deutschland GmbH",2a11:7440::/29
 "Leaseweb Deutschland GmbH",2a11:8880::/29
 "Leaseweb Deutschland GmbH",2a11:bb44::/32
+"Leaseweb Deutschland GmbH",2a11:efc0::/29
 "Leaseweb Deutschland GmbH",2a12:ecc0:158::/48
+"Leaseweb Deutschland GmbH",2a12:ef00::/29
 "Leaseweb Deutschland GmbH",2a13:1380::/29
 "Leaseweb Deutschland GmbH",2a13:18c6:66::/48
 "Leaseweb Deutschland GmbH",2a13:2cc0::/29
@@ -17939,7 +17963,9 @@ MOJOHOST,2607:ffb8::/32
 "Leaseweb Deutschland GmbH",2a13:7900::/29
 "Leaseweb Deutschland GmbH",2a13:7d80::/29
 "Leaseweb Deutschland GmbH",2a13:8200::/29
+"Leaseweb Deutschland GmbH",2a13:9080::/29
 "Leaseweb Deutschland GmbH",2a13:9180::/29
+"Leaseweb Deutschland GmbH",2a13:9680::/29
 "Leaseweb Deutschland GmbH",2a13:d100::/29
 "Leaseweb Deutschland GmbH",2a13:d700::/29
 "Leaseweb Deutschland GmbH",2a13:d900::/29
@@ -17960,7 +17986,7 @@ MOJOHOST,2607:ffb8::/32
 "LLC Hostmaster",2001:4130:b0::/48
 "LLC Hostmaster",2001:4130:cd::/48
 "LLC Hostmaster",2001:4130:ce::/48
-"LLC Hostmaster",2001:4130:140::/47
+"LLC Hostmaster",2001:4130:141::/48
 "LLC Hostmaster",2001:4130:50f1::/48
 "LLC Hostmaster",2001:4130:50f2::/48
 "Hostpoint AG",2a00:d70::/32
@@ -20092,8 +20118,6 @@ Zenlayer,2407:62c0::/32
 "31173 Services AB",2a03:1b20:bef1::/48
 "31173 Services AB",2a03:1b20:bef2::/48
 "31173 Services AB",2a03:1b21:100::/40
-"31173 Services AB",2a06:de00:15::/48
-"31173 Services AB",2a06:de00:19::/48
 "31173 Services AB",2a07:e344::/32
 "Akamai Technologies Inc",2606:6c00:2000::/48
 "Tucows.com Co",2620:57:4001::/48
@@ -20620,7 +20644,7 @@ HostPapa,2620:b:e000::/48
 "Host Europe GmbH",2603:4:100a::/47
 "Host Europe GmbH",2603:4:100c::/47
 "Host Europe GmbH",2603:4:1010::/46
-"Host Europe GmbH",2603:4:101c::/46
+"Host Europe GmbH",2603:4:101c::/47
 "Host Europe GmbH",2603:4:1500::/48
 "Host Europe GmbH",2603:4:1504::/48
 "Host Europe GmbH",2603:5:2100::/40
@@ -21085,7 +21109,6 @@ Sharktech,2a0c:c181::/32
 "Free Range Cloud Hosting Inc",2602:fed2:7e84::/48
 "Free Range Cloud Hosting Inc",2620:13a:c000::/40
 "Free Range Cloud Hosting Inc",2a0d:5100::/29
-"Free Range Cloud Hosting Inc",2a0f:9400:80::/48
 "Free Range Cloud Hosting Inc",2a0f:9400:fa0::/43
 "Free Range Cloud Hosting Inc",2a0f:9400:6101::/48
 "Free Range Cloud Hosting Inc",2a0f:9400:6103::/48
@@ -21279,7 +21302,6 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:3e00::/48
 "Fastly Inc",2a04:4e40:3e10::/44
 "Fastly Inc",2a04:4e40:3e20::/48
-"Fastly Inc",2a04:4e40:3e40::/48
 "Fastly Inc",2a04:4e40:3ef0::/48
 "Fastly Inc",2a04:4e40:4000::/47
 "Fastly Inc",2a04:4e40:40f0::/47
@@ -21655,7 +21677,6 @@ Serverside.com,2607:e0c0:6::/48
 "CDNvideo LLC",2a02:aec0:8::/47
 "CDNvideo LLC",2a02:aec0:b::/48
 "Atman Sp. z o.o",2001:1a68:19::/48
-"Atman Sp. z o.o",2001:1a68:1a::/48
 "Atman Sp. z o.o",2001:1a68:ec00::/40
 "Adman LLC",2a06:fc00::/29
 "DDOS-GUARD LTD",2a0a:4180::/48
@@ -21774,6 +21795,7 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a06:4d80::/29
 "LeaseWeb Netherlands B.V",2a06:a5c0::/29
 "LeaseWeb Netherlands B.V",2a06:ab00::/32
+"LeaseWeb Netherlands B.V",2a07:a300::/29
 "LeaseWeb Netherlands B.V",2a09:17c0:33::/48
 "LeaseWeb Netherlands B.V",2a09:17c0:acab::/48
 "LeaseWeb Netherlands B.V",2a09:17c1:22::/48
@@ -21799,6 +21821,7 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0c:7887::/32
 "LeaseWeb Netherlands B.V",2a0c:9e40:1::/48
 "LeaseWeb Netherlands B.V",2a0c:9e40:2::/48
+"LeaseWeb Netherlands B.V",2a0d:1140::/29
 "LeaseWeb Netherlands B.V",2a0d:6100::/29
 "LeaseWeb Netherlands B.V",2a0d:e5c0::/29
 "LeaseWeb Netherlands B.V",2a0e:15c0:11::/48
@@ -21812,12 +21835,16 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0e:1a83:33::/48
 "LeaseWeb Netherlands B.V",2a0e:1a83:44::/48
 "LeaseWeb Netherlands B.V",2a0e:5a80::/29
+"LeaseWeb Netherlands B.V",2a0e:e980::/29
+"LeaseWeb Netherlands B.V",2a0e:f500::/29
 "LeaseWeb Netherlands B.V",2a0e:f600:11::/48
 "LeaseWeb Netherlands B.V",2a0e:f600:48::/48
 "LeaseWeb Netherlands B.V",2a0e:f603:b::/48
 "LeaseWeb Netherlands B.V",2a0e:f603:22::/48
 "LeaseWeb Netherlands B.V",2a0f:1204::/31
 "LeaseWeb Netherlands B.V",2a0f:1206:22::/48
+"LeaseWeb Netherlands B.V",2a0f:1380::/29
+"LeaseWeb Netherlands B.V",2a0f:1440::/29
 "LeaseWeb Netherlands B.V",2a0f:19c0::/29
 "LeaseWeb Netherlands B.V",2a0f:1ac0::/29
 "LeaseWeb Netherlands B.V",2a0f:1e83::/32
@@ -21825,6 +21852,8 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0f:2700:1::/48
 "LeaseWeb Netherlands B.V",2a0f:2700:2::/48
 "LeaseWeb Netherlands B.V",2a0f:3040::/29
+"LeaseWeb Netherlands B.V",2a0f:3940::/29
+"LeaseWeb Netherlands B.V",2a0f:39c0::/29
 "LeaseWeb Netherlands B.V",2a0f:3d82::/32
 "LeaseWeb Netherlands B.V",2a0f:3d86:22::/48
 "LeaseWeb Netherlands B.V",2a0f:3d86:33::/48
@@ -21836,11 +21865,15 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0f:7d04:1312::/48
 "LeaseWeb Netherlands B.V",2a0f:7d06:b::/48
 "LeaseWeb Netherlands B.V",2a0f:7d06:33::/48
+"LeaseWeb Netherlands B.V",2a0f:8100::/29
 "LeaseWeb Netherlands B.V",2a0f:8680::/29
+"LeaseWeb Netherlands B.V",2a0f:9600::/29
+"LeaseWeb Netherlands B.V",2a0f:9b00::/29
 "LeaseWeb Netherlands B.V",2a0f:9e00::/29
 "LeaseWeb Netherlands B.V",2a0f:a940::/29
 "LeaseWeb Netherlands B.V",2a0f:cc00::/29
 "LeaseWeb Netherlands B.V",2a0f:d940::/29
+"LeaseWeb Netherlands B.V",2a0f:dfc0::/29
 "LeaseWeb Netherlands B.V",2a0f:e040::/29
 "LeaseWeb Netherlands B.V",2a0f:e0c0::/29
 "LeaseWeb Netherlands B.V",2a0f:e1c4::/32
@@ -21849,7 +21882,9 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0f:e1c7:44::/48
 "LeaseWeb Netherlands B.V",2a0f:e200::/48
 "LeaseWeb Netherlands B.V",2a0f:e202:11::/48
+"LeaseWeb Netherlands B.V",2a0f:e5c0::/29
 "LeaseWeb Netherlands B.V",2a0f:e600::/29
+"LeaseWeb Netherlands B.V",2a0f:e640::/29
 "LeaseWeb Netherlands B.V",2a0f:e6c1::/32
 "LeaseWeb Netherlands B.V",2a0f:e6c2:10::/48
 "LeaseWeb Netherlands B.V",2a0f:e6c6:33::/48
@@ -21878,14 +21913,20 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a12:d540::/29
 "LeaseWeb Netherlands B.V",2a12:ecc0:33::/48
 "LeaseWeb Netherlands B.V",2a12:ecc1::/32
+"LeaseWeb Netherlands B.V",2a12:f440::/29
 "LeaseWeb Netherlands B.V",2a12:fd00::/36
+"LeaseWeb Netherlands B.V",2a13:540::/29
+"LeaseWeb Netherlands B.V",2a13:cc0::/29
 "LeaseWeb Netherlands B.V",2a13:d40:1::/48
 "LeaseWeb Netherlands B.V",2a13:d40:2::/48
 "LeaseWeb Netherlands B.V",2a13:18c6:a::/48
 "LeaseWeb Netherlands B.V",2a13:18c6:11::/48
 "LeaseWeb Netherlands B.V",2a13:18c7::/32
+"LeaseWeb Netherlands B.V",2a13:1940::/29
+"LeaseWeb Netherlands B.V",2a13:2c40::/29
 "LeaseWeb Netherlands B.V",2a13:2fc0::/29
 "LeaseWeb Netherlands B.V",2a13:5c80::/29
+"LeaseWeb Netherlands B.V",2a13:7400::/29
 "LeaseWeb Netherlands B.V",2a13:8c86:33::/48
 "LeaseWeb Netherlands B.V",2a13:8c86:44::/48
 "LeaseWeb Netherlands B.V",2a13:8c86:55::/48
@@ -21896,6 +21937,7 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a13:e107:33::/48
 "LeaseWeb Netherlands B.V",2a13:e107:44::/48
 "LeaseWeb Netherlands B.V",2a13:e107:55::/48
+"LeaseWeb Netherlands B.V",2a13:fa00::/29
 "LeaseWeb Netherlands B.V",2a14:6881::/32
 "Netwise Hosting Ltd",2a03:ec40::/29
 "HZ Hosting Ltd",2a01:8640:1::/48
@@ -22080,7 +22122,6 @@ GTHost,2a13:18c2::/32
 "Atlantic.net Inc",2607:f170:8000::/44
 "Atlantic.net Inc",2a03:41a0:100::/44
 "HOSTVN Technology Solutions Joint Stock Company",2001:df2:27c0::/48
-"HOSTVN Technology Solutions Joint Stock Company",2001:df3:2d00::/48
 "Akamai Technologies Inc",2400:8904::/31
 "Akamai Technologies Inc",2600:3c00::/29
 "Akamai Technologies Inc",2600:3c08::/30
