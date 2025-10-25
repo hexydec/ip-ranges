@@ -4601,6 +4601,8 @@
 "Microsoft Azure Public",2603:1020:1501:f::10/127
 "Microsoft Azure Public",2603:1020:1502:2::480/121
 "Microsoft Azure Public",2603:1020:1502:2::500/120
+"Microsoft Azure Public",2603:1020:1601:8::f/128
+"Microsoft Azure Public",2603:1020:1601:8::18/128
 "Microsoft Azure Public",2603:1020:1602:2::480/121
 "Microsoft Azure Public",2603:1020:1602:2::500/120
 "Microsoft Azure Public",2603:1030:7::25/128
@@ -9753,6 +9755,7 @@
 "Microsoft Azure Public",2603:1030:213:8010::/61
 "Microsoft Azure Public",2603:1030:213:8018::/62
 "Microsoft Azure Public",2603:1030:213:801c::/63
+"Microsoft Azure Public",2603:1030:40f::/49
 "Microsoft Azure Public",2603:1030:410::/49
 "Microsoft Azure Public",2603:1030:410:8000::/61
 "Microsoft Azure Public",2603:1030:410:8008::/62
@@ -11209,9 +11212,12 @@
 "Microsoft Azure Public",2603:1030:9:6f8::/63
 "Microsoft Azure Public",2603:1030:9:6fb::/64
 "Microsoft Azure Public",2603:1030:9:6fc::/62
-"Microsoft Azure Public",2603:1030:9:700::/58
-"Microsoft Azure Public",2603:1030:9:740::/60
-"Microsoft Azure Public",2603:1030:9:750::/62
+"Microsoft Azure Public",2603:1030:9:700::/57
+"Microsoft Azure Public",2603:1030:9:780::/60
+"Microsoft Azure Public",2603:1030:9:790::/61
+"Microsoft Azure Public",2603:1030:9:798::/62
+"Microsoft Azure Public",2603:1030:9:79c::/63
+"Microsoft Azure Public",2603:1030:9:79e::/64
 "Microsoft Azure Public",2603:1030:a::/47
 "Microsoft Azure Public",2603:1030:d::/48
 "Microsoft Azure Public",2603:1030:10::/47
@@ -11815,9 +11821,10 @@
 "Microsoft Azure Public",2603:1030:401:927::/64
 "Microsoft Azure Public",2603:1030:401:928::/61
 "Microsoft Azure Public",2603:1030:401:930::/60
-"Microsoft Azure Public",2603:1030:401:940::/59
-"Microsoft Azure Public",2603:1030:401:960::/60
-"Microsoft Azure Public",2603:1030:401:970::/62
+"Microsoft Azure Public",2603:1030:401:940::/58
+"Microsoft Azure Public",2603:1030:401:980::/58
+"Microsoft Azure Public",2603:1030:401:9c0::/63
+"Microsoft Azure Public",2603:1030:401:9c2::/64
 "Microsoft Azure Public",2603:1030:402::/47
 "Microsoft Azure Public",2603:1030:406::/47
 "Microsoft Azure Public",2603:1030:408::/48
@@ -12108,9 +12115,9 @@
 "Microsoft Azure Public",2603:1047:1:220::/59
 "Microsoft Azure Public",2603:1061:1010::/58
 "Microsoft Azure Public",2603:1061:1010:40::/59
-"Microsoft Azure Public",2603:1061:1010:60::/61
-"Microsoft Azure Public",2603:1061:1010:68::/62
-"Microsoft Azure Public",2603:1061:1010:6c::/63
+"Microsoft Azure Public",2603:1061:1010:60::/60
+"Microsoft Azure Public",2603:1061:1010:70::/62
+"Microsoft Azure Public",2603:1061:1010:74::/63
 "Microsoft Azure Public",2603:1061:1310:5800::/54
 "Microsoft Azure Public",2603:1061:1743::/48
 "Microsoft Azure Public",2603:1061:2000:660::/62
@@ -12139,9 +12146,9 @@
 "Microsoft Azure Public",2603:1047:1:260::/59
 "Microsoft Azure Public",2603:1061:1007::/57
 "Microsoft Azure Public",2603:1061:1007:80::/59
-"Microsoft Azure Public",2603:1061:1007:a0::/62
-"Microsoft Azure Public",2603:1061:1007:a4::/63
-"Microsoft Azure Public",2603:1061:1007:a6::/64
+"Microsoft Azure Public",2603:1061:1007:a0::/61
+"Microsoft Azure Public",2603:1061:1007:a8::/63
+"Microsoft Azure Public",2603:1061:1007:aa::/64
 "Microsoft Azure Public",2603:1061:1310:800::/54
 "Microsoft Azure Public",2603:1061:1737::/48
 "Microsoft Azure Public",2603:1061:2000:720::/62
@@ -12205,6 +12212,7 @@
 "Microsoft Azure Public",2603:1061:100b:e0::/60
 "Microsoft Azure Public",2603:1061:100b:f0::/61
 "Microsoft Azure Public",2603:1061:100b:f8::/62
+"Microsoft Azure Public",2603:1061:100b:fc::/63
 "Microsoft Azure Public",2603:1061:1311:1c00::/54
 "Microsoft Azure Public",2603:1061:173b::/48
 "Microsoft Azure Public",2603:1061:2000:760::/62
@@ -12864,6 +12872,7 @@
 "Microsoft Azure Public",2603:1037:1:220::/59
 "Microsoft Azure Public",2603:1061:1012::/59
 "Microsoft Azure Public",2603:1061:1012:20::/61
+"Microsoft Azure Public",2603:1061:1012:28::/64
 "Microsoft Azure Public",2603:1061:1312:4c00::/54
 "Microsoft Azure Public",2603:1061:1747::/63
 "Microsoft Azure Public",2603:1063:2200:3c::/64
@@ -12989,6 +12998,9 @@
 "Microsoft Azure Public",2603:1030:804:51c::/63
 "Microsoft Azure Public",2603:1030:804:51f::/64
 "Microsoft Azure Public",2603:1030:804:520::/64
+"Microsoft Azure Public",2603:1030:804:522::/63
+"Microsoft Azure Public",2603:1030:804:524::/63
+"Microsoft Azure Public",2603:1030:804:526::/64
 "Microsoft Azure Public",2603:1030:805::/48
 "Microsoft Azure Public",2603:1030:806::/48
 "Microsoft Azure Public",2603:1030:807::/48
@@ -13125,12 +13137,7 @@
 "Microsoft Azure Public",2603:1030:1305::/48
 "Microsoft Azure Public",2603:1036:3000:240::/59
 "Microsoft Azure Public",2603:1037:1:280::/59
-"Microsoft Azure Public",2603:1061:1018::/59
-"Microsoft Azure Public",2603:1061:1018:20::/60
-"Microsoft Azure Public",2603:1061:1018:30::/61
-"Microsoft Azure Public",2603:1061:1018:38::/62
-"Microsoft Azure Public",2603:1061:1018:3c::/63
-"Microsoft Azure Public",2603:1061:1018:3e::/64
+"Microsoft Azure Public",2603:1061:1018::/58
 "Microsoft Azure Public",2603:1061:1312:5800::/54
 "Microsoft Azure Public",2603:1061:174a::/63
 "Microsoft Azure Public",2603:1063:2206:4c::/64
@@ -13162,6 +13169,7 @@
 "Microsoft Azure Public",2603:1061:1008:b0::/61
 "Microsoft Azure Public",2603:1061:1008:b8::/62
 "Microsoft Azure Public",2603:1061:1008:c0::/62
+"Microsoft Azure Public",2603:1061:1008:c4::/63
 "Microsoft Azure Public",2603:1061:1311:3400::/54
 "Microsoft Azure Public",2603:1061:1738::/48
 "Microsoft Azure Public",2603:1061:2000:5e0::/62
@@ -13821,8 +13829,8 @@
 "Microsoft Azure Public",2603:1020:1605::/48
 "Microsoft Azure Public",2603:1026:900:43::/64
 "Microsoft Azure Public",2603:1026:900:44::/63
-"Microsoft Azure Public",2603:1026:2403::/48
-"Microsoft Azure Public",2603:1026:240f::/48
+"Microsoft Azure Public",2603:1026:2403::/63
+"Microsoft Azure Public",2603:1026:240f::/63
 "Microsoft Azure Public",2603:1026:2500:8::/64
 "Microsoft Azure Public",2603:1026:2500:30::/64
 "Microsoft Azure Public",2603:1026:3000:280::/59
@@ -15268,9 +15276,7 @@
 "Microsoft Azure China",2406:e500:2602:400::70/124
 "Microsoft Azure China",2406:e500:2602:800::70/124
 "Microsoft Azure China",2406:e500:2602:c00::70/124
-"Microsoft Azure China",2406:e500:4400::/40
-"Microsoft Azure China",2406:e500:c020::/44
-"Microsoft Azure China",2406:e500:c120::/44
+"Microsoft Azure China",2406:e500:4400::/39
 "Microsoft Azure China",2404:7940:1::40/122
 "Microsoft Azure China",2404:7940:101::40/122
 "Microsoft Azure China",2404:7940:201::40/122
@@ -15521,7 +15527,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-23 10:00:04.221800"
+Linode,"# Last modified: 2025-10-24 10:00:04.806436"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15811,6 +15817,7 @@ Linode,2600:3c0f:57::/48
 "SCALEWAY S.A.S",2001:bc8::/32
 "Black HOST Ltd",2a01:e940::/48
 "Black HOST Ltd",2a01:e945::/48
+"Black HOST Ltd",2a01:e946::/48
 "Black HOST Ltd",2a01:e947::/48
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",2001:4c5c::/30
 "Nexeon Technologies Inc",2404:1980::/32
@@ -16652,6 +16659,7 @@ EGIHosting,2a0c:9ac0::/29
 "G-Core Labs S.A",2a03:90c0:740::/43
 "G-Core Labs S.A",2a03:90c0:770::/44
 "G-Core Labs S.A",2a03:90c0:780::/43
+"G-Core Labs S.A",2a03:90c0:7c0::/44
 "G-Core Labs S.A",2a03:90c0:8885::/48
 "G-Core Labs S.A",2a03:90c0:8886::/48
 "G-Core Labs S.A",2a03:90c0:8888::/46
@@ -16928,6 +16936,8 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0e:b107:df2::/48
 "The Constant Company LLC",2a0e:b800:aaaa::/48
 "The Constant Company LLC",2a0e:b800:abcd::/48
+"The Constant Company LLC",2a0e:b800:baba::/48
+"The Constant Company LLC",2a0e:b800:bbaa::/48
 "The Constant Company LLC",2a0f:f42::/32
 "The Constant Company LLC",2a0f:13c0::/29
 "The Constant Company LLC",2a0f:1e84:20::/48
@@ -16972,7 +16982,6 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a04:c105::/34
 "LLC Vpsville",2a04:c105:4000::/36
 "LLC Vpsville",2a04:c105:6000::/36
-"LLC Vpsville",2a04:c105:9000::/36
 "LLC Vpsville",2a04:c105:b000::/36
 "LLC Vpsville",2a04:c105:f000::/36
 "LLC Vpsville",2a05:fb40::/29
@@ -16995,11 +17004,9 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a09:6f02::/32
 "LLC Vpsville",2a09:a4c0::/29
 "LLC Vpsville",2a09:b680::/29
-"LLC Vpsville",2a09:bd82::/32
 "LLC Vpsville",2a09:ce07::/32
 "LLC Vpsville",2a0a:b40::/29
 "LLC Vpsville",2a0a:c3c0::/31
-"LLC Vpsville",2a0a:c3c2:e000::/36
 "LLC Vpsville",2a0a:f201::/32
 "LLC Vpsville",2a0a:f202::/32
 "LLC Vpsville",2a0a:f206:3000::/36
@@ -17027,14 +17034,10 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a11:200:5000::/36
 "LLC Vpsville",2a11:206::/32
 "LLC Vpsville",2a11:680::/29
-"LLC Vpsville",2a11:780:4000::/34
-"LLC Vpsville",2a11:780:d000::/36
-"LLC Vpsville",2a11:780:e000::/35
+"LLC Vpsville",2a11:780:4000::/35
+"LLC Vpsville",2a11:780:7000::/36
 "LLC Vpsville",2a11:980::/29
 "LLC Vpsville",2a11:a80::/29
-"LLC Vpsville",2a11:b81::/32
-"LLC Vpsville",2a11:b83::/32
-"LLC Vpsville",2a11:b84::/32
 "LLC Vpsville",2a11:c80:5000::/36
 "LLC Vpsville",2a11:c80:6000::/35
 "LLC Vpsville",2a11:d80:7000::/36
@@ -17309,10 +17312,9 @@ StabiliServers,2605:e480:11::/48
 "Data Center Solutions Kft",2a11:540::/30
 "Private-Hosting di Cipriano oscar",2a05:4140:500::/48
 "Hostingforyou B.V",2a03:ec80::/48
-"NEOHOST SRL",2a0b:4e07:28::/48
+"NEOHOST SRL",2a0b:4e07:28::/47
 "NEOHOST SRL",2a14:7580:b000::/36
-"NEOHOST SRL",2a14:7583:2a00::/41
-"NEOHOST SRL",2a14:7583:2ac0::/42
+"NEOHOST SRL",2a14:7583:2a00::/40
 "FEDERICO BOVE trading as HATHOST",2a06:a005:1f::/48
 "FEDERICO BOVE trading as HATHOST",2a06:a005:a90::/44
 "FEDERICO BOVE trading as HATHOST",2a06:a005:aa0::/44
@@ -17339,6 +17341,7 @@ StabiliServers,2605:e480:11::/48
 "RoyaleHosting BV",2602:f78a:10::/44
 "RoyaleHosting BV",2a0b:64c0::/32
 "RoyaleHosting BV",2a0b:b680::/29
+"Liviate Hosting ApS",2a06:7ec0::/29
 "Lowhosting services of Davide Gennari",2a0e:b107:dd0::/44
 "Hostinux Limited",2a0d:d940:12::/48
 "DD webhosting B.V",2a0c:a180::/29
@@ -17675,7 +17678,6 @@ DEFT.COM,2620:7d::/48
 "ReliableSite.Net LLC",2605:9880::/39
 "ReliableSite.Net LLC",2605:9880:200::/40
 "ReliableSite.Net LLC",2605:9880:300::/42
-"ReliableSite.Net LLC",2605:9880:340::/48
 "ReliableSite.Net LLC",2605:9880:344::/47
 "ReliableSite.Net LLC",2605:9880:400::/42
 "ReliableSite.Net LLC",2a0c:8fc3::/40
@@ -17990,7 +17992,7 @@ MOJOHOST,2607:ffb8::/32
 "LLC Hostmaster",2001:4130:b0::/48
 "LLC Hostmaster",2001:4130:cd::/48
 "LLC Hostmaster",2001:4130:ce::/48
-"LLC Hostmaster",2001:4130:141::/48
+"LLC Hostmaster",2001:4130:140::/47
 "LLC Hostmaster",2001:4130:50f1::/48
 "LLC Hostmaster",2001:4130:50f2::/48
 "Hostpoint AG",2a00:d70::/32
@@ -18222,6 +18224,9 @@ FDCservers.net,2a0a:2d06:104::/48
 FDCservers.net,2a0c:71c0::/47
 FDCservers.net,2a0c:71c0:3::/48
 FDCservers.net,2a0c:71c0:4::/47
+FDCservers.net,2a10:7500::/29
+FDCservers.net,2a11:efc0::/29
+FDCservers.net,2a12:ef00::/29
 velia.net,2605:de00::/32
 velia.net,2a13:9500:36::/48
 Sucuri,2a02:fe80:11::/48
@@ -18505,6 +18510,7 @@ Steadfast,2607:f128::/32
 "Routed Hosting (PTY) LTD",2c0f:f238::/32
 "Host Africa (Pty) Ltd",2c0f:8c0::/48
 "xTom Limited",2c0f:ec00::/48
+"TWC Hosting CC",2c0f:e8a8::/32
 "Absolute Hosting (Pty) Ltd",2c0f:5780::/32
 "Host Africa (Pty) Ltd",2c0f:f300::/48
 "Host Africa (Pty) Ltd",2c0f:f598:2::/48
@@ -18737,7 +18743,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:2c::/48
 "Akamai Technologies Inc",2a02:26f7:2e::/48
 "Akamai Technologies Inc",2a02:26f7:30::/48
-"Akamai Technologies Inc",2a02:26f7:32::/48
 "Akamai Technologies Inc",2a02:26f7:34::/48
 "Akamai Technologies Inc",2a02:26f7:36::/48
 "Akamai Technologies Inc",2a02:26f7:3a::/48
@@ -18861,7 +18866,8 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:b220::/44
 "Akamai Technologies Inc",2a02:26f7:b234::/46
 "Akamai Technologies Inc",2a02:26f7:b238::/45
-"Akamai Technologies Inc",2a02:26f7:b240::/44
+"Akamai Technologies Inc",2a02:26f7:b240::/45
+"Akamai Technologies Inc",2a02:26f7:b24c::/46
 "Akamai Technologies Inc",2a02:26f7:b250::/45
 "Akamai Technologies Inc",2a02:26f7:b26c::/46
 "Akamai Technologies Inc",2a02:26f7:b278::/45
@@ -19024,7 +19030,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:bd8c::/48
 "Akamai Technologies Inc",2a02:26f7:bdc0::/48
 "Akamai Technologies Inc",2a02:26f7:bdc2::/48
-"Akamai Technologies Inc",2a02:26f7:bdc6::/48
 "Akamai Technologies Inc",2a02:26f7:bdc8::/48
 "Akamai Technologies Inc",2a02:26f7:bdd4::/48
 "Akamai Technologies Inc",2a02:26f7:be00::/48
@@ -19666,7 +19671,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:e644::/48
 "Akamai Technologies Inc",2a02:26f7:e680::/48
 "Akamai Technologies Inc",2a02:26f7:e682::/48
-"Akamai Technologies Inc",2a02:26f7:e684::/48
 "Akamai Technologies Inc",2a02:26f7:e688::/48
 "Akamai Technologies Inc",2a02:26f7:e6c0::/48
 "Akamai Technologies Inc",2a02:26f7:e6c2::/48
@@ -19912,7 +19916,6 @@ Steadfast,2607:f128::/32
 "Akamai Technologies Inc",2a02:26f7:f6d0::/48
 "Akamai Technologies Inc",2a02:26f7:f6d4::/47
 "Akamai Technologies Inc",2a02:26f7:f6d8::/47
-"Akamai Technologies Inc",2a02:26f7:f6da::/48
 "Akamai Technologies Inc",2a02:26f7:f6dc::/48
 "Akamai Technologies Inc",2a02:26f7:f6e0::/47
 "Akamai Technologies Inc",2a02:26f7:f6ee::/48
@@ -20659,7 +20662,6 @@ HostPapa,2620:b:e000::/48
 "GrootOP Premium Host",2a0b:4e07:1800::/38
 "Colocation Ltd",2a0f:85c0:2::/48
 "Colocation Ltd",2a0f:85c2:100::/40
-"PQ HOSTING PLUS S.R.L",2a11:4c03::/32
 "IT HOSTLINE LTD",2a0d:1ac3::/32
 "SkyLink Data Center BV",2001:df3:3980::/48
 "SkyLink Data Center BV",2605:31c0::/32
@@ -20778,31 +20780,31 @@ Sharktech,2a0c:c181::/32
 "dogado GmbH",2a06:ee40:22::/48
 "dogado GmbH",2a0d:1080:1::/48
 "NTT Global Data Centers EMEA UK Ltd",2001:678:1068::/48
-"HYEHOST LTD",2001:67c:d84::/48
-"HYEHOST LTD",2001:67c:d88::/48
-"HYEHOST LTD",2001:67c:d8c::/48
-"HYEHOST LTD",2001:67c:d90::/48
-"HYEHOST LTD",2602:f96d::/40
-"HYEHOST LTD",2602:f96d:100::/48
-"HYEHOST LTD",2602:f96d:200::/40
-"HYEHOST LTD",2602:f96d:980::/42
-"HYEHOST LTD",2602:f96d:f71::/48
-"HYEHOST LTD",2602:f96d:f72::/48
-"HYEHOST LTD",2602:f96d:ffb::/48
-"HYEHOST LTD",2602:f96d:ffd::/48
-"HYEHOST LTD",2a05:dfc3:f500::/40
-"HYEHOST LTD",2a06:1281:40::/44
-"HYEHOST LTD",2a06:1281:1000::/36
-"HYEHOST LTD",2a0f:6280:a::/48
-"HYEHOST LTD",2a0f:6280:10::/45
-"HYEHOST LTD",2a0f:6280:18::/48
-"HYEHOST LTD",2a0f:6280:1b::/48
-"HYEHOST LTD",2a0f:6280:1c::/47
-"HYEHOST LTD",2a0f:6280:1f::/48
-"HYEHOST LTD",2a0f:6283:1130::/44
-"HYEHOST LTD",2a0f:6283:1140::/44
-"HYEHOST LTD",2a0f:6283:6000::/36
-"HYEHOST LTD",2a0f:6284:4700::/40
+"HYEHOST LLC",2001:67c:d84::/48
+"HYEHOST LLC",2001:67c:d88::/48
+"HYEHOST LLC",2001:67c:d8c::/48
+"HYEHOST LLC",2001:67c:d90::/48
+"HYEHOST LLC",2602:f96d::/40
+"HYEHOST LLC",2602:f96d:100::/48
+"HYEHOST LLC",2602:f96d:200::/40
+"HYEHOST LLC",2602:f96d:980::/42
+"HYEHOST LLC",2602:f96d:f71::/48
+"HYEHOST LLC",2602:f96d:f72::/48
+"HYEHOST LLC",2602:f96d:ffb::/48
+"HYEHOST LLC",2602:f96d:ffd::/48
+"HYEHOST LLC",2a05:dfc3:f500::/40
+"HYEHOST LLC",2a06:1281:40::/44
+"HYEHOST LLC",2a06:1281:1000::/36
+"HYEHOST LLC",2a0f:6280:a::/48
+"HYEHOST LLC",2a0f:6280:10::/45
+"HYEHOST LLC",2a0f:6280:18::/48
+"HYEHOST LLC",2a0f:6280:1b::/48
+"HYEHOST LLC",2a0f:6280:1c::/47
+"HYEHOST LLC",2a0f:6280:1f::/48
+"HYEHOST LLC",2a0f:6283:1130::/44
+"HYEHOST LLC",2a0f:6283:1140::/44
+"HYEHOST LLC",2a0f:6283:6000::/36
+"HYEHOST LLC",2a0f:6284:4700::/40
 "VPS4You Kft",2a02:730:7000::/48
 "D.O.O.Domen Drustvo za Proizvodnju Promet i Usluge - Podgorica",2001:678:408::/48
 "IpHost P.C",2a02:ce00::/29
@@ -20857,10 +20859,6 @@ Sharktech,2a0c:c181::/32
 "Hosting technology LTD",2a0d:8480:2::/48
 "webgo GmbH",2a00:5fc1::/32
 "Adman LLC",2a0d:8500::/29
-"HOST NETWORKS",2402:e400::/32
-"HOST NETWORKS",2402:f280::/32
-"HOST NETWORKS",2407:3280::/32
-"HOST NETWORKS",2407:a580::/32
 "Oulun DataCenter Oy",2a00:1a28:100::/48
 "Oulun DataCenter Oy",2a04:d500::/32
 "Your Hosting B.V",2001:678:3a4::/48
@@ -21602,7 +21600,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:fe10::/44
 "Fastly Inc",2a04:4e40:fe40::/44
 "Fastly Inc",2a04:4e41::/33
-"Fastly Inc",2a04:4e41:8000::/48
+"Fastly Inc",2a04:4e41:8000::/47
 "Fastly Inc",2a04:4e42::/32
 "Fastly Inc",2a04:4e47::/45
 "Fastly Inc",2a0d:8000:1::/48
@@ -21728,7 +21726,6 @@ Serversaurus,2401:38c0::/32
 "LLC Vpsville",2a0a:4785::/32
 "LLC Vpsville",2a0c:5241::/32
 "LLC Vpsville",2a0c:5247:5000::/36
-"LLC Vpsville",2a0c:5247:c000::/36
 "LLC Vpsville",2a0d:60c0::/32
 "LLC Vpsville",2a0d:60c3::/32
 "LLC Vpsville",2a0d:e4c4::/32
@@ -22307,6 +22304,7 @@ HostUS,2a0f:5707:ab2b::/48
 "True Internet Data Center Company Limited",2404:3280::/32
 "Colocity Pty Ltd",2401:1400::/32
 "xTom Hong Kong Limited",2403:2c80::/31
+"NovoServe LLC",2606:f340::/32
 xTom,2001:df4:dd80::/48
 xTom,2a06:4fc0::/29
 xTom,2a06:57c0::/29
