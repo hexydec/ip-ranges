@@ -35,6 +35,7 @@
 "Google Cloud Platform",2600:1900:40f0::/44
 "Google Cloud Platform",2600:1901:4010::/44
 "Google Cloud Platform",2600:1900:4000::/44
+"Google Cloud Platform",2600:1902::/44
 "Google Cloud Platform",2600:1900:4070::/44
 "Google Cloud Platform",2600:1900:4020::/44
 "Google Cloud Platform",2600:1900:4090::/44
@@ -15527,7 +15528,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-10-24 10:00:04.806436"
+Linode,"# Last modified: 2025-10-25 10:00:05.343629"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -15853,7 +15854,6 @@ Linode,2600:3c0f:57::/48
 "UK-2 Limited",2a13:9500:28::/48
 "UK-2 Limited",2a13:9500:5b::/48
 "UK-2 Limited",2a13:9500:5c::/46
-"Data Centre Services",2403:8700::/32
 MegaHostZone,2001:df1:b900::/48
 "NxtGen Datacenter & Cloud Technologies Pvt. Ltd",2404:7e80:1000::/36
 "NxtGen Datacenter & Cloud Technologies Pvt. Ltd",2404:7e80:3000::/36
@@ -15892,8 +15892,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "Flexential Colorado Corp",2607:f758::/32
 "Flexential Colorado Corp",2607:fdf8::/32
 "Flexential Colorado Corp",2620:84:a000::/44
-"Streamline Servers Pty Ltd",2602:f919:106::/47
-"Streamline Servers Pty Ltd",2602:f919:108::/48
+"Streamline Servers Pty Ltd",2602:f919:106::/48
 "COLODEE DIGITAL NETWORK COMPANY LIMITED",2401:fc0::/32
 "Host Universal Pty Ltd",2001:df4:fc00::/48
 "Host Universal Pty Ltd",2401:7fa0:1::/48
@@ -16058,6 +16057,7 @@ ExonHost,2400:7920::/32
 "ARK Data Centers LLC",2604:9b00:3c01::/48
 "ARK Data Centers LLC",2607:fb20:10::/48
 "PT Klinik Digital Indonesia JNHOST",2001:df0:1340::/48
+"PT Klinik Digital Indonesia JNHOST",2602:fbe8:f3::/48
 "PT Klinik Digital Indonesia JNHOST",2a13:9500:40::/48
 "NSI Hosting",2605:9500:212::/47
 "NSI Hosting",2605:9500:b001::/48
@@ -16089,7 +16089,6 @@ ExonHost,2400:7920::/32
 "PacketHub S.A",2407:e8c0:5800::/40
 "PacketHub S.A",2407:e8c0:5a00::/39
 "PacketHub S.A",2a13:240:4000::/40
-"PT Hostingan Awan Indonesia",2001:df1:1040::/48
 "Hosted Backbone",2607:5c80::/32
 "Unitas Global",2600:c0d::/32
 "Unitas Global",2600:c01::/32
@@ -16429,8 +16428,7 @@ EGIHosting,2a0c:9ac0::/29
 "Incapsula Inc",2a02:e980:158::/45
 "Incapsula Inc",2a02:e980:160::/43
 "Incapsula Inc",2a02:e980:180::/45
-"Incapsula Inc",2a02:e980:188::/47
-"Incapsula Inc",2a02:e980:18a::/48
+"Incapsula Inc",2a02:e980:188::/46
 "Incapsula Inc",2a02:e980:18d::/48
 "Incapsula Inc",2a02:e980:18e::/47
 "Incapsula Inc",2a02:e980:190::/44
@@ -16741,8 +16739,6 @@ EGIHosting,2a0c:9ac0::/29
 "Redge Technologies sp. z o.o",2a00:8dc0:ff00::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:ff04::/47
 "Redge Technologies sp. z o.o",2a00:8dc0:fffe::/47
-"Zagorodnikov Aleksei",2a06:a005:ba3::/48
-"Zagorodnikov Aleksei",2a06:a005:1084::/48
 "HZ Hosting Ltd",2a01:8640:3::/48
 "HZ Hosting Ltd",2a01:8640:19::/48
 "HOSTGNOME LTD",2602:f9e4::/36
@@ -17658,7 +17654,7 @@ Cologuard,2604:eb80::/32
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52::/40
 HostPapa,2605:6f0f::/32
@@ -18165,8 +18161,7 @@ FDCservers.net,2001:49f0:d0a3::/48
 FDCservers.net,2001:49f0:d0a5::/48
 FDCservers.net,2001:49f0:d0ac::/47
 FDCservers.net,2001:49f0:d0ae::/48
-FDCservers.net,2001:49f0:d0b0::/48
-FDCservers.net,2001:49f0:d0b2::/47
+FDCservers.net,2001:49f0:d0b0::/46
 FDCservers.net,2001:49f0:d0b4::/48
 FDCservers.net,2001:49f0:d0b6::/47
 FDCservers.net,2001:49f0:d0bf::/48
@@ -18184,6 +18179,7 @@ FDCservers.net,2001:49f0:d0e1::/48
 FDCservers.net,2001:49f0:d0e2::/48
 FDCservers.net,2001:49f0:d0e4::/48
 FDCservers.net,2001:49f0:d0e6::/48
+FDCservers.net,2001:49f0:d0e8::/48
 FDCservers.net,2001:49f0:d0ea::/47
 FDCservers.net,2001:49f0:d0ed::/48
 FDCservers.net,2001:49f0:d0f5::/48
@@ -22241,8 +22237,7 @@ HostUS,2a0f:5707:ab2b::/48
 "Servers.com Inc",2a01:60f::/32
 "Servers.com Inc",2a05:93c0::/31
 "Servers.com Inc",2a05:93c3::/32
-"Servers.com Inc",2a05:93c4::/32
-"Servers.com Inc",2a05:93c6::/31
+"Servers.com Inc",2a05:93c4::/30
 "Servers.com Inc",2a07:45c6::/40
 "Cologix Inc",2001:518::/32
 "Cologix Inc",2605:4400:2::/48
