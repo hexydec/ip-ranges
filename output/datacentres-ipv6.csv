@@ -15596,7 +15596,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-11-11 10:00:04.315336"
+Linode,"# Last modified: 2025-11-12 10:00:04.831395"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16283,7 +16283,6 @@ SERVERSTEP,2401:e920:8800::/48
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:4660::/44
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffc0::/43
 "Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffe0::/44
-"Equinix (EMEA) Acquisition Enterprises B.V",2604:1380:ffff::/48
 "Equinix (EMEA) Acquisition Enterprises B.V",2606:5c80::/32
 "Equinix (EMEA) Acquisition Enterprises B.V",2607:f6f0:1000::/39
 "Equinix (EMEA) Acquisition Enterprises B.V",2607:f6f0:1400::/40
@@ -16993,6 +16992,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0a:bb06:1000::/48
 "The Constant Company LLC",2a0b:b86:ffc0::/48
 "The Constant Company LLC",2a0b:64c4::/31
+"The Constant Company LLC",2a0c:b642:2000::/36
 "The Constant Company LLC",2a0d:2680:900::/40
 "The Constant Company LLC",2a0d:2680:2111::/48
 "The Constant Company LLC",2a0d:2680:bf90::/48
@@ -17001,6 +17001,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0e:7d45:1a02::/47
 "The Constant Company LLC",2a0e:7d45:1a04::/47
 "The Constant Company LLC",2a0e:7d45:1a12::/48
+"The Constant Company LLC",2a0e:7d45:3100::/40
 "The Constant Company LLC",2a0e:7d45:3200::/40
 "The Constant Company LLC",2a0e:7d45:3301::/48
 "The Constant Company LLC",2a0e:7d45:3312::/48
@@ -17014,12 +17015,14 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0e:7d45:3387::/48
 "The Constant Company LLC",2a0e:7d45:3399::/48
 "The Constant Company LLC",2a0e:7d45:3400::/40
+"The Constant Company LLC",2a0e:7d45:4120::/48
 "The Constant Company LLC",2a0e:7d45:4200::/40
 "The Constant Company LLC",2a0e:7d45:741a::/48
 "The Constant Company LLC",2a0e:7d45:7425::/48
 "The Constant Company LLC",2a0e:7d45:7439::/48
 "The Constant Company LLC",2a0e:7d45:7442::/48
 "The Constant Company LLC",2a0e:7d45:7453::/48
+"The Constant Company LLC",2a0e:7d45:7500::/40
 "The Constant Company LLC",2a0e:7d45:aa00::/40
 "The Constant Company LLC",2a0e:7d45:b411::/48
 "The Constant Company LLC",2a0e:7d45:b424::/48
@@ -17084,7 +17087,7 @@ StabiliServers,2605:e480:11::/48
 "LLC Vpsville",2a04:c105:b000::/36
 "LLC Vpsville",2a04:c105:f000::/36
 "LLC Vpsville",2a05:fb40::/29
-"LLC Vpsville",2a06:d900::/32
+"LLC Vpsville",2a06:d900::/31
 "LLC Vpsville",2a07:14c0::/29
 "LLC Vpsville",2a09:400:1000::/36
 "LLC Vpsville",2a09:400:4000::/36
@@ -17274,7 +17277,6 @@ StabiliServers,2605:e480:11::/48
 "SERV.HOST GROUP LTD",2a01:ecc0:bc0::/42
 "HostRoyale Technologies Pvt Ltd",2600:2900::/32
 "HostRoyale Technologies Pvt Ltd",2600:2902::/31
-"Ronald Agorsah trading as Alpenhost e.U",2a07:cec0:4200::/48
 "Stormur Datacenters ehf",2a07:54c7::/36
 "Go Host Ltd",2602:f915::/40
 "Go Host Ltd",2a14:c380:160::/43
@@ -17291,7 +17293,6 @@ StabiliServers,2605:e480:11::/48
 "Johan Karlsson trading as SweHosting",2a14:1ec7:f000::/40
 "Johan Karlsson trading as SweHosting",2a14:1ec7:f500::/40
 "Johan Karlsson trading as SweHosting",2a14:1ec7:fffd::/48
-"Dade Pardazi Mobinhost Co LTD",2a09:2b80:14::/48
 "Dade Pardazi Mobinhost Co LTD",2a0e:4a40::/29
 "dogado GmbH",2a01:aee0::/32
 "Serverius Holding B.V",2a03:3f40:89::/48
@@ -17585,6 +17586,8 @@ StabiliServers,2605:e480:11::/48
 "Sebastian Stefanek trading as MatHost.eu",2a13:9500:53::/48
 "31173 Services AB",2a03:1b21:1::/48
 "bit datacenters GmbH",2a0a:14c0::/29
+"bit datacenters GmbH",2a0c:3b40::/29
+"bit datacenters GmbH",2a0f:9640::/29
 "bit datacenters GmbH",2a13:2a40::/29
 "bit datacenters GmbH",2a13:3d40::/29
 "bit datacenters GmbH",2a13:3dc0::/29
@@ -18029,28 +18032,36 @@ MOJOHOST,2607:ffb8::/32
 "Leaseweb Deutschland GmbH",2a03:e340:4::/48
 "Leaseweb Deutschland GmbH",2a04:88c5::/32
 "Leaseweb Deutschland GmbH",2a04:9f40::/29
+"Leaseweb Deutschland GmbH",2a05:b900::/29
 "Leaseweb Deutschland GmbH",2a06:3bc0::/29
 "Leaseweb Deutschland GmbH",2a07:8a40::/29
 "Leaseweb Deutschland GmbH",2a09:7b00::/29
+"Leaseweb Deutschland GmbH",2a09:b700::/29
 "Leaseweb Deutschland GmbH",2a09:d140::/29
 "Leaseweb Deutschland GmbH",2a0a:7d00::/29
 "Leaseweb Deutschland GmbH",2a0c:4880::/29
 "Leaseweb Deutschland GmbH",2a0f:17c0::/29
 "Leaseweb Deutschland GmbH",2a0f:2500::/29
+"Leaseweb Deutschland GmbH",2a0f:27c0::/29
+"Leaseweb Deutschland GmbH",2a0f:3640::/29
 "Leaseweb Deutschland GmbH",2a0f:7f00::/29
+"Leaseweb Deutschland GmbH",2a0f:a200::/29
 "Leaseweb Deutschland GmbH",2a0f:d200::/29
 "Leaseweb Deutschland GmbH",2a0f:db40::/29
 "Leaseweb Deutschland GmbH",2a10:34c0::/29
 "Leaseweb Deutschland GmbH",2a10:6b00::/29
 "Leaseweb Deutschland GmbH",2a11:8880::/29
 "Leaseweb Deutschland GmbH",2a11:bb44::/32
+"Leaseweb Deutschland GmbH",2a12:4ac0::/29
 "Leaseweb Deutschland GmbH",2a12:ecc0:158::/48
+"Leaseweb Deutschland GmbH",2a13:200::/29
 "Leaseweb Deutschland GmbH",2a13:1380::/29
 "Leaseweb Deutschland GmbH",2a13:18c6:66::/48
 "Leaseweb Deutschland GmbH",2a13:2cc0::/29
 "Leaseweb Deutschland GmbH",2a13:2d40::/29
 "Leaseweb Deutschland GmbH",2a13:2dc0::/29
 "Leaseweb Deutschland GmbH",2a13:2e40::/29
+"Leaseweb Deutschland GmbH",2a13:3040::/29
 "Leaseweb Deutschland GmbH",2a13:3380::/29
 "Leaseweb Deutschland GmbH",2a13:4900::/29
 "Leaseweb Deutschland GmbH",2a13:5b80::/29
@@ -18059,6 +18070,7 @@ MOJOHOST,2607:ffb8::/32
 "Leaseweb Deutschland GmbH",2a13:8200::/29
 "Leaseweb Deutschland GmbH",2a13:9080::/29
 "Leaseweb Deutschland GmbH",2a13:9180::/29
+"Leaseweb Deutschland GmbH",2a13:9480::/29
 "Leaseweb Deutschland GmbH",2a13:9680::/29
 "Leaseweb Deutschland GmbH",2a13:d100::/29
 "Leaseweb Deutschland GmbH",2a13:d700::/29
@@ -18603,6 +18615,7 @@ Steadfast,2607:f128::/32
 "Truehost Cloud Limited",2c0f:4440::/32
 "Vhost Limited",2c0f:2e40::/46
 "Vhost Limited",2c0f:2e40:4::/48
+"Maroc Datacenter MDC",2c0f:3e40::/32
 "VEXXHOST Inc",2604:e100:1::/48
 "VEXXHOST Inc",2604:e100:3::/48
 "VEXXHOST Inc",2604:e100:4::/48
@@ -20125,6 +20138,7 @@ HostPapa,2a0e:3840:3::/48
 "AFRIHOST SP (PTY) LTD",2c0f:f4c0::/32
 HOSTOWEB,2c0f:5400:2::/47
 HOSTOWEB,2c0f:5400:4::/47
+HOSTOWEB,2c0f:5f40::/48
 "Hangzhou Alibaba Advertising Co. Ltd",2400:3200::/32
 "Hangzhou Alibaba Advertising Co. Ltd",2400:b200::/32
 "Hangzhou Alibaba Advertising Co. Ltd",2401:2e00::/32
@@ -20255,6 +20269,7 @@ Zenlayer,2407:62c0::/32
 "Shock Hosting LLC",2a0d:9ec1::/48
 "Shock Hosting LLC",2a0d:9ec2::/48
 "Shock Hosting LLC",2a0d:9ec3::/48
+"Shock Hosting LLC",2a0d:9ec4::/48
 "Shock Hosting LLC",2a0d:d8c0::/47
 "Iron Mountain Data Center",2605:3380:4d00::/40
 "Iron Mountain Data Center",2605:3380:d000::/36
@@ -20417,6 +20432,7 @@ Latitude.sh,2a13:9500:88::/47
 "Vault Host",2001:67c:1388::/48
 "Vault Host",2401:fb40::/32
 "Vault Host",2406:2580::/32
+"HostFlyte Server Solutions",2602:fdd3::/36
 "LaunchVPS LLC",2001:550:1703::/48
 "LaunchVPS LLC",2602:fc53:35::/48
 "LaunchVPS LLC",2604:bf00:210::/48
@@ -20517,6 +20533,7 @@ HostPapa,2620:b:e000::/48
 "Iron Mountain Data Center",2605:3380:4e00::/40
 "Iron Mountain Data Center",2605:3380:ff0f::/48
 "Supreme Servers",2606:fe80:20::/44
+"Skyspark Hosting LLC",2402:1920:fb00::/40
 "BulletServers LLC",2602:f646:2::/48
 "Ace Data Centers II L.L.C",2604:ba00:f000::/36
 "ViperHost LLC",2602:f7eb::/40
@@ -20533,6 +20550,7 @@ HostPapa,2620:b:e000::/48
 "Turnkey Internet Inc",2606:ed00:4::/48
 "QWK.net Hosting L.L.C",2602:fc33::/36
 "QWK.net Hosting L.L.C",2604:680::/32
+"Canhost Inc",2607:7300::/32
 "GameServerSupply LLC",2602:f949::/40
 "Fly.io Inc",2a09:8280:1::/48
 "Fly.io Inc",2a09:8280:13::/48
@@ -21229,7 +21247,7 @@ Sharktech,2a0c:c181::/32
 "ZSCALER INC",2400:7aa0:2200::/39
 "ZSCALER INC",2400:7aa0:2400::/39
 "ZSCALER INC",2400:7aa0:2600::/40
-"ZSCALER INC",2400:7aa0:2800::/40
+"ZSCALER INC",2400:7aa0:2800::/39
 "ZSCALER INC",2605:4300:5::/48
 "ZSCALER INC",2a03:eec0:3211::/48
 "ZSCALER INC",2a03:eec0:3216::/48
@@ -21274,6 +21292,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2620:11a:c016::/48
 "Fastly Inc",2620:11a:c018::/46
 "Fastly Inc",2620:11a:c01c::/47
+"Fastly Inc",2620:11a:c020::/48
 "Fastly Inc",2620:11a:c024::/47
 "Fastly Inc",2620:12a:8000::/44
 "Fastly Inc",2a04:4e40::/48
@@ -21668,6 +21687,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:f430::/48
 "Fastly Inc",2a04:4e40:f440::/48
 "Fastly Inc",2a04:4e40:f600::/47
+"Fastly Inc",2a04:4e40:f610::/44
 "Fastly Inc",2a04:4e40:f630::/44
 "Fastly Inc",2a04:4e40:f6f0::/47
 "Fastly Inc",2a04:4e40:f800::/48
@@ -22301,9 +22321,7 @@ HostUS,2a0c:b642:1a07::/48
 HostUS,2a0e:fd45:40fa::/48
 HostUS,2a0f:5707:ab2b::/48
 "Servers.com Inc",2406:380::/31
-"Servers.com Inc",2600:9c00::/30
-"Servers.com Inc",2600:9c04::/31
-"Servers.com Inc",2600:9c06::/32
+"Servers.com Inc",2600:9c00::/29
 "Servers.com Inc",2600:9c08::/32
 "Servers.com Inc",2600:9c0f::/32
 "Servers.com Inc",2604:8240::/32
