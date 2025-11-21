@@ -15771,7 +15771,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-11-19 10:00:04.981784"
+Linode,"# Last modified: 2025-11-20 10:00:05.401082"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16075,6 +16075,7 @@ Linode,2600:3c0f:57::/48
 "UK-2 Limited",2606:2e00:8028::/47
 "UK-2 Limited",2606:2e00:9000::/36
 "UK-2 Limited",2606:2e00:a000::/36
+"UK-2 Limited",2606:2e00:c000::/36
 "UK-2 Limited",2a02:2498::/47
 "UK-2 Limited",2a02:2498:4::/47
 "UK-2 Limited",2a02:2498:16::/48
@@ -16113,6 +16114,7 @@ MegaHostZone,2001:df1:b900::/48
 "Leaseweb Japan K.K",2401:d560::/32
 "HostRoyale Technologies Pvt Ltd",2402:bd80::/30
 "HostRoyale Technologies Pvt Ltd",2a13:c44::/30
+"HostPalace Web Solution PVT LTD",2406:9980::/32
 "Alibaba Cloud (Singapore) Private Limited",2401:8680:4004::/46
 "Alibaba Cloud (Singapore) Private Limited",2401:8680:4100::/48
 "PI DATA CENTERS PRIVATE LIMITED",2001:df5:e240::/48
@@ -16180,6 +16182,7 @@ HOSTOMEGA,2001:df4:adc0::/47
 "strateq data centre sdn bhd",2001:df2:8100::/48
 "Localhost Limited",2402:3cc0::/32
 "Datacenter IP LLC",2604:6080::/32
+"Datacenter IP LLC",2a0c:acc0::/29
 "Unitas Global",2600:c0e::/32
 "Unitas Global",2600:c14::/32
 "Unitas Global",2600:c13::/32
@@ -16372,7 +16375,6 @@ HOSTPERL,2401:3b20::/32
 "BHARAT DATACENTER",2001:df3:5cc0::/48
 "BHARAT DATACENTER",2a0b:4e07:1c00::/47
 "WEBYNE DATA CENTRE PRIVATE LIMITED",2401:7ee0::/48
-"WEBYNE DATA CENTRE PRIVATE LIMITED",2a13:9500:78::/48
 "Zappie Host LLC",2404:3d80::/32
 "JOYPUR COLO",2401:72e0::/32
 "TOTHOST SOLUTIONS AND TECHNOLOGIES COMPANY LIMITED",2401:5b60::/48
@@ -16381,6 +16383,7 @@ HOSTPERL,2401:3b20::/32
 "ADVPS SERVICES",2001:df6:3fc0::/48
 "VPS4U TECHNOLOGY COMPANY LIMITED",2001:df4:b3c0::/48
 "Tucows.com Co",2604:4000::/48
+SERVERSTEP,2401:e920:8800::/48
 "Rackspace Ltd",2a00:1a48::/32
 "Hosting Oxygen",2402:1f60::/32
 "HOSTUP CLOUD TECHNOLOGIES PRIVATE LIMITED",2402:1fe0::/32
@@ -17199,6 +17202,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0e:7d45:7453::/48
 "The Constant Company LLC",2a0e:7d45:7500::/40
 "The Constant Company LLC",2a0e:7d45:7600::/40
+"The Constant Company LLC",2a0e:7d45:77c5::/48
 "The Constant Company LLC",2a0e:7d45:77d5::/48
 "The Constant Company LLC",2a0e:7d45:aa00::/40
 "The Constant Company LLC",2a0e:7d45:b411::/48
@@ -17442,7 +17446,6 @@ StabiliServers,2605:e480:11::/48
 "S.P.D. Hosting LTD",2a05:4500::/29
 "Dopravni podnik hl.m. Prahy a.s",2001:67c:3dc::/48
 "EUROHOSTER Ltd",2a12:9cc0::/47
-"Host Europe GmbH",2a00:1168::/32
 "Host Europe GmbH",2a01:488::/32
 "Hosteur SA",2a07:5c80::/29
 "YOLO COLO AS",2a0f:b6c0::/29
@@ -17676,7 +17679,6 @@ StabiliServers,2605:e480:11::/48
 "Akamai International B.V",2600:1480:2800::/48
 "Akamai International B.V",2600:1480:4800::/48
 "Akamai International B.V",2600:1480:5801::/48
-"Akamai International B.V",2600:1480:5802::/48
 "Akamai International B.V",2600:1480:5805::/48
 "Akamai International B.V",2600:1480:5809::/48
 "Akamai International B.V",2600:1480:580b::/48
@@ -17863,6 +17865,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c20::/47
 "Zenlayer Inc",2602:ffe4:c22::/48
 "Zenlayer Inc",2602:ffe4:c26::/47
+"Zenlayer Inc",2602:ffe4:c31::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
@@ -18118,7 +18121,7 @@ DEFT.COM,2620:7d::/48
 "GoDaddy.com LLC",2607:f208:df01::/48
 "GoDaddy.com LLC",2a01:488:bb08::/47
 "GoDaddy.com LLC",2a01:488:bb0b::/48
-"GoDaddy.com LLC",2a01:488:bb0c::/48
+"GoDaddy.com LLC",2a01:488:bb0c::/47
 "PureVoltage Hosting Inc",2602:f5e5::/36
 "PureVoltage Hosting Inc",2602:f689:10::/44
 "PureVoltage Hosting Inc",2602:fa42:201::/48
@@ -20381,6 +20384,7 @@ FlowVPS,2a14:7581:d000::/40
 "InMotion Hosting Inc",2604:180:9::/48
 "InMotion Hosting Inc",2604:180:a::/47
 "InMotion Hosting Inc",2604:180:c::/48
+"InMotion Hosting Inc",2604:180:c1::/48
 "InMotion Hosting Inc",2604:180:f1::/48
 "InMotion Hosting Inc",2604:180:f2::/47
 "InMotion Hosting Inc",2604:180:f4::/48
@@ -20653,6 +20657,7 @@ Latitude.sh,2a13:9500:88::/47
 "PureVoltage Hosting Inc",2602:fb54:146::/48
 "PureVoltage Hosting Inc",2606:fc40::/41
 "VPSie INC",2602:fd5d::/40
+"VPSie INC",2602:ffa6:f00::/48
 "Ace Host LLC",2606:6680:8::/48
 "Ace Host LLC",2606:6680:49::/48
 "Ace Host LLC",2606:6680:50::/48
@@ -20726,6 +20731,7 @@ HostPapa,2620:b:e000::/48
 "Skyspark Hosting LLC",2402:1920:fb00::/40
 "BulletServers LLC",2602:f646:2::/48
 "Ace Data Centers II L.L.C",2604:ba00:f000::/36
+"ViperHost LLC",2602:f7eb::/40
 "H5 Data Centers",2605:3ac0:3000::/40
 "H5 Data Centers",2605:3ac0:5000::/40
 "Colocataires Inc",2602:f72c::/48
@@ -21112,7 +21118,7 @@ Sharktech,2a0c:c181::/32
 "Hostinger International Limited",2a02:4780:60::/48
 "Hostinger International Limited",2a02:4780:66::/47
 "Hostinger International Limited",2a02:4780:68::/46
-"Hostinger International Limited",2a02:4780:6d::/48
+"Hostinger International Limited",2a02:4780:6c::/47
 "Hostinger International Limited",2a02:4780:84::/48
 "Hostinger International Limited",2a02:4780:d053::/48
 "LLC VK",2a00:1148::/29
@@ -21189,6 +21195,8 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a10:4700::/29
 "JSC Selectel",2a11:3f80::/29
 "JSC Selectel",2a13:4fc0::/29
+"Eonix Corporation",2403:ad80:8002::/48
+"Eonix Corporation",2a07:440::/32
 "i3D.net B.V",2406:d140:8000::/34
 "i3D.net B.V",2a00:1630::/29
 "i3D.net B.V",2a00:1708::/32
@@ -21519,6 +21527,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:a20::/43
 "Fastly Inc",2a04:4e40:a40::/43
 "Fastly Inc",2a04:4e40:af0::/48
+"Fastly Inc",2a04:4e40:b00::/44
 "Fastly Inc",2a04:4e40:d00::/44
 "Fastly Inc",2a04:4e40:e00::/48
 "Fastly Inc",2a04:4e40:e10::/48
@@ -21873,6 +21882,7 @@ Sharktech,2a0c:c181::/32
 "Fastly Inc",2a04:4e40:ec40::/48
 "Fastly Inc",2a04:4e40:ecf0::/48
 "Fastly Inc",2a04:4e40:ee00::/48
+"Fastly Inc",2a04:4e40:ee10::/48
 "Fastly Inc",2a04:4e40:ee20::/48
 "Fastly Inc",2a04:4e40:ee40::/48
 "Fastly Inc",2a04:4e40:eef0::/48
@@ -22118,7 +22128,6 @@ Serversaurus,2401:38c0::/32
 "LeaseWeb Netherlands B.V",2a0a:2d06:44::/48
 "LeaseWeb Netherlands B.V",2a0a:2d06:77::/48
 "LeaseWeb Netherlands B.V",2a0a:2d06:88::/48
-"LeaseWeb Netherlands B.V",2a0a:2d06:1312::/48
 "LeaseWeb Netherlands B.V",2a0b:b740::/29
 "LeaseWeb Netherlands B.V",2a0c:7881:1312::/48
 "LeaseWeb Netherlands B.V",2a0c:7881:aa23::/48
