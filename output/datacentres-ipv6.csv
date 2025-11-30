@@ -15771,7 +15771,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-11-28 10:00:04.428867"
+Linode,"# Last modified: 2025-11-29 10:00:04.787797"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16908,7 +16908,6 @@ EGIHosting,2a0c:9ac0::/29
 "G-Core Labs S.A",2a03:90c0:9994::/46
 "G-Core Labs S.A",2a03:90c0:9998::/45
 "G-Core Labs S.A",2a03:90c0:ffe0::/43
-"Cloud Hosting Solutions Limited",2a0f:cdc6:200::/44
 "Rackspace Hosting",2001:4801::/32
 "LOCALHOST AS",2a01:6060::/32
 "Ippon Hosting SARL",2a01:bfe0::/32
@@ -16944,7 +16943,7 @@ EGIHosting,2a0c:9ac0::/29
 "Kaspersky Lab Switzerland GmbH",2a03:2480:80::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8000::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8010::/48
-"Kaspersky Lab Switzerland GmbH",2a03:2480:8021::/48
+"Kaspersky Lab Switzerland GmbH",2a03:2480:8020::/47
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8022::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8025::/48
 "Kaspersky Lab Switzerland GmbH",2a03:2480:8026::/47
@@ -17053,6 +17052,8 @@ EGIHosting,2a0c:9ac0::/29
 "HostRoyale Technologies Pvt Ltd",2a06:3040:ca00::/48
 "HostRoyale Technologies Pvt Ltd",2a06:3040:cb00::/45
 "HostRoyale Technologies Pvt Ltd",2a06:3040:cb08::/48
+"HostRoyale Technologies Pvt Ltd",2a06:3040:ea00::/46
+"HostRoyale Technologies Pvt Ltd",2a06:3040:ea04::/48
 "HostRoyale Technologies Pvt Ltd",2a06:3040:f000::/47
 "HostRoyale Technologies Pvt Ltd",2a06:46c0::/29
 "HostRoyale Technologies Pvt Ltd",2a06:5700::/29
@@ -17203,7 +17204,6 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a13:5681:a181::/48
 "The Constant Company LLC",2a13:9500:61::/48
 "The Constant Company LLC",2a13:9500:cf::/48
-"The Constant Company LLC",2a14:7581:f30::/44
 "UAB Cherry Servers",2a02:ae02::/36
 "HOSTEUR SAS",2a0d:5380::/29
 "Hostinger International Limited",2a02:4780:dead::/48
@@ -17566,6 +17566,7 @@ StabiliServers,2605:e480:11::/48
 "PebbleHost Ltd",2a0e:15c4::/32
 "PebbleHost Ltd",2a10:e780::/40
 "PebbleHost Ltd",2a12:d3c0::/29
+"PebbleHost Ltd",2a13:9500:10e::/48
 "PebbleHost Ltd",2a14:7580:ff60::/44
 "Infrastructure Switzerland Colo Sarl",2001:40c0::/48
 "Hetzner Online GmbH",2a01:4ff:100::/40
@@ -17715,7 +17716,6 @@ StabiliServers,2605:e480:11::/48
 "LLC DZHIBIEN HOST",2a0e:7200::/40
 "Sebastian Stefanek trading as MatHost.eu",2a05:dfc1:1410::/44
 "Sebastian Stefanek trading as MatHost.eu",2a06:1283:8904::/48
-"Sebastian Stefanek trading as MatHost.eu",2a07:54c1:c000::/44
 "Sebastian Stefanek trading as MatHost.eu",2a0f:85c1:80b::/48
 "Sebastian Stefanek trading as MatHost.eu",2a0f:b240:5c00::/40
 "Sebastian Stefanek trading as MatHost.eu",2a13:9500:53::/48
@@ -17816,6 +17816,7 @@ StabiliServers,2605:e480:11::/48
 "Zenlayer Inc",2602:ffe4:c20::/47
 "Zenlayer Inc",2602:ffe4:c22::/48
 "Zenlayer Inc",2602:ffe4:c26::/47
+"Zenlayer Inc",2602:ffe4:c31::/48
 "Zenlayer Inc",2602:ffe4:c34::/48
 "Zenlayer Inc",2602:ffe4:c37::/48
 "Zenlayer Inc",2602:ffe4:c3b::/48
@@ -17894,7 +17895,7 @@ Cologuard,2604:eb80:6::/48
 "ZSCALER INC",2605:4300:3700::/40
 "ZSCALER INC",2605:4300:e200::/39
 "ZSCALER INC",2a03:eec0:3210::/48
-"ZSCALER INC",2a03:eec0:3212::/47
+"ZSCALER INC",2a03:eec0:3213::/48
 "ZSCALER INC",2a03:eec0:3217::/48
 "Red Hat Inc",2620:52:8::/48
 HostPapa,2605:6f0f::/32
@@ -20351,6 +20352,7 @@ Zenlayer,2407:62c0::/32
 "Catalyst Host LLC",2602:ffd1:1::/48
 "Catalyst Host LLC",2602:ffd1:2::/47
 "Catalyst Host LLC",2602:ffd1:6::/47
+"Catalyst Host LLC",2602:ffd1:8::/48
 "NTT Global Data Centers Americas INC",2606:9500:200::/40
 "NTT Global Data Centers Americas INC",2606:9500:1000::/36
 "31173 Services AB",2a03:1b20:1::/48
@@ -20363,6 +20365,8 @@ Zenlayer,2407:62c0::/32
 "31173 Services AB",2a03:1b20:bef2::/48
 "31173 Services AB",2a03:1b21:100::/47
 "31173 Services AB",2a03:1b21:120::/48
+"31173 Services AB",2a06:de00:15::/48
+"31173 Services AB",2a06:de00:19::/48
 "31173 Services AB",2a07:e344::/32
 "Akamai Technologies Inc",2606:6c00:2000::/48
 "Tucows.com Co",2620:57:4001::/48
@@ -21138,6 +21142,7 @@ Sharktech,2a0c:c181::/32
 "JSC Selectel",2a00:ab00::/32
 "JSC Selectel",2a04:a5c4::/30
 "JSC Selectel",2a0e:c380::/29
+"JSC Selectel",2a10:3240::/29
 "JSC Selectel",2a10:4700::/29
 "JSC Selectel",2a11:3f80::/29
 "JSC Selectel",2a13:4fc0::/29
@@ -21167,6 +21172,7 @@ Sharktech,2a0c:c181::/32
 "i3D.net B.V",2a0e:6b00::/48
 "i3D.net B.V",2a13:3ec0::/29
 "i3D.net B.V",2a13:d780::/29
+"Ferdinand Zink trading as Tube-Hosting",2a02:2fc0:11::/48
 "Ferdinand Zink trading as Tube-Hosting",2a12:8640::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:b200::/29
 "Ferdinand Zink trading as Tube-Hosting",2a12:de40::/32
@@ -22536,6 +22542,8 @@ HostUS,2a0f:5707:ab2b::/48
 "JSC TIMEWEB",2a0e:c781::/32
 "JSC TIMEWEB",2a0f:1582::/32
 "JSC TIMEWEB",2a0f:2ec0::/29
+"JSC TIMEWEB",2a10:4102::/32
+"JSC TIMEWEB",2a10:4107::/32
 "JSC TIMEWEB",2a12:1e80::/29
 "True Internet Data Center Company Limited",2001:fb0:1000::/47
 "True Internet Data Center Company Limited",2001:fb0:1002::/48
