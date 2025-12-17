@@ -831,6 +831,7 @@
 "Amazon AWS",52.93.136.0/24
 "Amazon AWS",52.93.199.34/32
 "Amazon AWS",52.94.249.208/28
+"Amazon AWS",52.219.23.0/24
 "Amazon AWS",54.222.100.0/22
 "Amazon AWS",54.233.0.0/18
 "Amazon AWS",68.66.112.0/20
@@ -2867,6 +2868,7 @@
 "Amazon AWS",52.94.14.0/24
 "Amazon AWS",52.94.198.64/28
 "Amazon AWS",52.119.216.0/21
+"Amazon AWS",54.222.89.0/24
 "Amazon AWS",108.166.244.1/32
 "Amazon AWS",108.166.244.28/32
 "Amazon AWS",150.222.24.33/32
@@ -3889,6 +3891,7 @@
 "Amazon AWS",18.253.0.0/16
 "Amazon AWS",35.96.10.0/24
 "Amazon AWS",35.96.56.0/24
+"Amazon AWS",43.193.65.0/24
 "Amazon AWS",52.46.192.0/20
 "Amazon AWS",52.82.187.0/24
 "Amazon AWS",52.93.126.76/32
@@ -57751,131 +57754,83 @@ Linode,172.235.122.0/24
 Linode,172.235.123.0/24
 Linode,172.235.124.0/24
 Linode,172.235.125.0/24
-Oracle,129.80.0.0/16
-Oracle,129.144.0.0/16
-Oracle,129.145.16.0/21
-Oracle,129.145.74.0/23
-Oracle,129.145.76.0/22
-Oracle,129.151.48.0/20
-Oracle,129.152.40.0/22
-Oracle,129.153.0.0/19
-Oracle,129.153.32.0/20
-Oracle,129.153.128.0/18
-Oracle,129.153.224.0/20
-Oracle,129.157.224.0/21
-Oracle,129.158.32.0/19
-Oracle,129.158.64.0/18
-Oracle,129.158.128.0/17
-Oracle,129.159.64.0/18
-Oracle,129.159.160.0/19
-Oracle,129.213.8.0/21
-Oracle,129.213.16.0/20
-Oracle,129.213.32.0/19
-Oracle,129.213.64.0/18
-Oracle,129.213.128.0/18
-Oracle,129.213.192.0/20
-Oracle,129.213.208.0/21
-Oracle,132.145.128.0/18
-Oracle,132.145.192.0/19
-Oracle,132.226.32.0/19
-Oracle,138.2.208.0/20
-Oracle,141.148.0.0/18
-Oracle,141.148.64.0/19
-Oracle,142.0.160.0/21
-Oracle,143.47.96.0/19
-Oracle,150.136.0.0/16
-Oracle,150.230.160.0/19
-Oracle,152.70.32.0/22
-Oracle,152.70.192.0/20
-Oracle,157.151.128.0/17
-Oracle,158.101.96.0/19
-Oracle,193.122.128.0/17
-Oracle,193.123.128.0/19
-Oracle,205.147.88.0/23
-Oracle,207.135.4.0/22
-Oracle,207.135.10.0/23
-Oracle,207.135.12.0/22
-Oracle,207.135.29.0/24
-Oracle,64.181.152.0/21
-Oracle,129.213.0.128/25
-Oracle,129.213.2.128/25
-Oracle,129.213.4.128/25
-Oracle,130.35.16.0/22
-Oracle,130.35.96.0/21
-Oracle,130.35.144.0/22
-Oracle,130.35.200.0/22
-Oracle,130.35.228.0/22
-Oracle,134.70.24.0/21
-Oracle,134.70.32.0/22
-Oracle,138.1.48.0/21
-Oracle,140.86.216.0/21
-Oracle,140.91.10.0/23
-Oracle,140.91.12.0/22
-Oracle,147.154.0.0/19
-Oracle,147.154.32.0/25
-Oracle,147.154.36.0/22
-Oracle,147.154.40.0/21
-Oracle,147.154.48.0/21
-Oracle,147.154.56.0/22
-Oracle,157.151.64.0/18
-Oracle,169.155.128.0/19
-Oracle,170.9.192.0/19
-Oracle,129.146.0.0/21
-Oracle,129.146.8.0/22
-Oracle,129.146.16.0/20
-Oracle,129.146.32.0/19
-Oracle,129.146.64.0/18
-Oracle,129.146.128.0/17
-Oracle,129.150.64.0/18
-Oracle,129.150.128.0/17
-Oracle,129.151.0.0/19
-Oracle,129.152.128.0/19
-Oracle,129.153.64.0/18
-Oracle,129.153.192.0/19
-Oracle,129.191.0.0/17
-Oracle,132.226.24.0/21
-Oracle,132.226.64.0/18
-Oracle,132.226.144.0/20
-Oracle,137.131.0.0/18
-Oracle,141.147.240.0/20
-Oracle,141.148.128.0/18
-Oracle,144.24.0.0/18
-Oracle,152.70.128.0/19
-Oracle,158.101.0.0/18
-Oracle,160.34.6.0/23
-Oracle,160.34.8.0/22
-Oracle,161.153.0.0/17
-Oracle,193.123.0.0/19
-Oracle,193.123.192.0/19
-Oracle,207.135.0.0/22
-Oracle,207.135.25.0/24
-Oracle,207.135.26.0/24
-Oracle,207.135.28.0/24
-Oracle,129.146.12.128/25
-Oracle,129.146.13.128/25
-Oracle,129.146.14.128/25
-Oracle,129.148.8.0/22
-Oracle,129.149.28.0/22
-Oracle,130.35.0.0/22
-Oracle,130.35.128.0/22
-Oracle,134.65.52.128/25
-Oracle,134.65.208.0/20
-Oracle,134.70.8.0/21
-Oracle,134.70.16.0/22
-Oracle,136.248.128.0/19
-Oracle,138.1.32.0/21
-Oracle,138.1.112.0/20
-Oracle,140.91.4.0/22
-Oracle,140.91.8.0/23
-Oracle,146.235.0.0/20
-Oracle,147.154.96.0/20
-Oracle,147.154.112.0/21
-Oracle,147.154.120.0/22
-Oracle,161.153.128.0/18
-Oracle,192.18.200.0/21
-Oracle,192.29.96.0/20
-Oracle,204.216.192.0/20
-Oracle,207.127.124.0/22
+Oracle,40.233.0.0/19
+Oracle,139.177.96.0/21
+Oracle,157.137.160.0/19
+Oracle,64.181.146.0/23
+Oracle,134.70.200.0/23
+Oracle,139.177.104.0/22
+Oracle,139.177.108.0/25
+Oracle,140.91.90.0/23
+Oracle,140.204.132.128/25
+Oracle,157.137.253.0/24
+Oracle,40.233.64.0/18
+Oracle,129.153.48.0/20
+Oracle,132.145.96.0/20
+Oracle,140.238.128.0/19
+Oracle,150.230.24.0/21
+Oracle,155.248.216.0/21
+Oracle,161.153.224.0/20
+Oracle,161.153.248.0/21
+Oracle,192.18.144.0/20
+Oracle,207.135.27.0/24
+Oracle,134.70.72.0/22
+Oracle,140.91.28.0/23
+Oracle,140.204.0.128/25
+Oracle,159.112.162.0/23
+Oracle,159.112.168.0/22
+Oracle,161.153.240.0/21
+Oracle,192.29.8.0/21
+Oracle,192.29.64.0/21
+Oracle,192.29.72.0/25
+Oracle,204.216.127.192/26
+Oracle,64.110.64.0/19
+Oracle,129.91.3.0/24
+Oracle,129.91.4.0/23
+Oracle,129.154.192.0/19
+Oracle,130.162.128.0/19
+Oracle,131.186.16.0/20
+Oracle,132.145.80.0/20
+Oracle,132.226.16.0/21
+Oracle,132.226.168.0/21
+Oracle,132.226.224.0/20
+Oracle,140.238.0.0/19
+Oracle,146.56.32.0/20
+Oracle,146.56.128.0/18
+Oracle,152.70.36.0/22
+Oracle,152.70.88.0/21
+Oracle,152.70.232.0/21
+Oracle,152.70.240.0/20
+Oracle,161.118.128.0/19
+Oracle,193.122.96.0/19
+Oracle,193.123.224.0/19
+Oracle,217.142.128.0/19
+Oracle,134.70.96.0/22
+Oracle,140.91.40.0/23
+Oracle,140.204.24.128/25
+Oracle,146.56.61.192/26
+Oracle,161.33.253.0/24
+Oracle,192.29.20.0/22
+Oracle,192.29.24.0/21
+Oracle,64.110.96.0/20
+Oracle,64.110.112.0/21
+Oracle,138.2.32.0/19
+Oracle,140.83.48.0/20
+Oracle,140.83.80.0/21
+Oracle,141.147.144.0/20
+Oracle,150.230.0.0/21
+Oracle,150.230.56.0/21
+Oracle,152.69.192.0/20
+Oracle,152.70.80.0/21
+Oracle,161.33.0.0/18
+Oracle,168.138.32.0/19
+Oracle,217.142.224.0/19
+Oracle,129.149.63.192/26
+Oracle,134.70.112.0/22
+Oracle,140.91.48.0/23
+Oracle,140.204.30.128/25
+Oracle,192.29.240.0/22
+Oracle,192.29.248.0/21
 Oracle,64.181.160.0/19
 Oracle,129.148.16.0/20
 Oracle,129.148.32.0/19
@@ -57908,6 +57863,7 @@ Oracle,129.148.12.0/22
 Oracle,134.70.84.0/22
 Oracle,140.91.34.0/23
 Oracle,140.204.12.128/25
+Oracle,157.137.128.0/22
 Oracle,168.129.246.0/24
 Oracle,192.29.128.0/23
 Oracle,192.29.130.0/24
@@ -57915,68 +57871,116 @@ Oracle,192.29.134.0/23
 Oracle,192.29.137.192/26
 Oracle,192.29.138.0/23
 Oracle,192.29.140.0/22
-Oracle,129.150.32.0/19
-Oracle,134.185.80.0/20
-Oracle,138.2.64.0/19
-Oracle,138.2.96.0/20
-Oracle,140.245.96.0/19
-Oracle,146.235.16.0/21
-Oracle,152.69.208.0/20
-Oracle,158.178.224.0/20
-Oracle,158.178.240.0/21
-Oracle,161.118.192.0/18
-Oracle,168.107.64.0/19
-Oracle,168.138.160.0/19
-Oracle,213.35.96.0/19
-Oracle,129.148.176.0/22
-Oracle,129.148.180.0/25
-Oracle,129.148.184.0/22
-Oracle,134.70.128.0/22
-Oracle,140.91.56.0/23
-Oracle,140.204.54.128/25
-Oracle,159.112.172.0/22
-Oracle,168.110.244.0/22
-Oracle,207.127.109.192/26
-Oracle,129.91.0.0/23
-Oracle,129.91.2.0/24
-Oracle,129.151.96.0/19
-Oracle,136.248.240.0/21
-Oracle,144.22.32.0/19
-Oracle,146.235.240.0/21
-Oracle,159.112.128.0/20
-Oracle,159.112.144.0/21
-Oracle,161.153.192.0/20
-Oracle,161.153.216.0/21
-Oracle,194.164.248.0/21
-Oracle,64.181.132.0/24
-Oracle,129.148.152.0/23
-Oracle,129.149.32.0/23
-Oracle,129.149.36.0/22
-Oracle,134.70.152.0/22
-Oracle,140.91.66.0/23
-Oracle,140.204.86.128/25
-Oracle,168.129.244.0/24
-Oracle,129.151.128.0/19
-Oracle,129.149.48.0/22
-Oracle,129.149.52.0/25
-Oracle,134.70.144.0/22
-Oracle,140.91.64.0/23
-Oracle,140.204.80.128/25
-Oracle,141.253.216.0/21
-Oracle,145.241.178.0/23
-Oracle,207.127.72.0/22
-Oracle,84.8.128.0/20
-Oracle,129.151.160.0/19
-Oracle,145.241.184.0/21
-Oracle,158.180.226.0/23
-Oracle,204.216.112.0/23
-Oracle,129.149.64.0/22
-Oracle,129.149.68.0/25
-Oracle,130.110.28.0/23
-Oracle,134.70.160.0/22
-Oracle,140.91.70.0/23
-Oracle,140.204.96.128/25
-Oracle,158.179.196.0/24
+Oracle,64.181.192.0/19
+Oracle,131.186.0.0/21
+Oracle,149.130.208.0/20
+Oracle,163.192.96.0/19
+Oracle,163.192.192.0/19
+Oracle,163.192.240.0/20
+Oracle,164.152.16.0/20
+Oracle,164.152.104.0/21
+Oracle,168.129.160.0/20
+Oracle,170.9.224.0/19
+Oracle,207.211.160.0/19
+Oracle,64.181.136.0/22
+Oracle,64.181.140.0/23
+Oracle,64.181.150.0/23
+Oracle,131.186.8.0/22
+Oracle,131.186.12.0/25
+Oracle,134.70.188.0/22
+Oracle,134.70.192.0/21
+Oracle,140.91.84.0/22
+Oracle,140.91.88.0/23
+Oracle,140.204.122.128/25
+Oracle,140.204.124.128/25
+Oracle,140.204.126.128/25
+Oracle,146.235.252.64/26
+Oracle,146.235.252.128/25
+Oracle,146.235.253.0/24
+Oracle,146.235.254.0/23
+Oracle,194.164.156.0/22
+Oracle,64.181.224.0/19
+Oracle,129.159.32.0/20
+Oracle,138.2.224.0/20
+Oracle,146.235.192.0/19
+Oracle,146.235.224.0/20
+Oracle,150.230.32.0/20
+Oracle,152.67.224.0/19
+Oracle,152.70.112.0/20
+Oracle,155.248.192.0/20
+Oracle,155.248.208.0/21
+Oracle,159.54.160.0/19
+Oracle,163.192.0.0/18
+Oracle,163.192.64.0/19
+Oracle,165.1.64.0/20
+Oracle,167.234.208.0/20
+Oracle,170.9.0.0/19
+Oracle,170.9.48.0/20
+Oracle,192.9.128.0/19
+Oracle,192.9.224.0/19
+Oracle,192.18.128.0/20
+Oracle,129.148.160.0/23
+Oracle,129.148.164.0/25
+Oracle,129.148.166.0/23
+Oracle,129.149.56.0/22
+Oracle,134.70.124.0/22
+Oracle,140.91.54.0/23
+Oracle,140.204.58.128/25
+Oracle,146.235.251.192/26
+Oracle,204.216.120.0/22
+Oracle,68.233.96.0/20
+Oracle,68.233.112.0/21
+Oracle,129.154.32.0/20
+Oracle,129.159.16.0/21
+Oracle,129.159.224.0/20
+Oracle,132.226.176.0/21
+Oracle,140.245.192.0/18
+Oracle,144.24.128.0/19
+Oracle,150.230.128.0/20
+Oracle,152.67.160.0/19
+Oracle,152.70.64.0/20
+Oracle,207.135.18.0/23
+Oracle,129.148.128.0/23
+Oracle,129.148.132.0/22
+Oracle,129.148.168.0/21
+Oracle,134.70.120.0/22
+Oracle,134.185.76.0/24
+Oracle,140.91.52.0/23
+Oracle,140.204.50.128/25
+Oracle,204.216.119.192/26
+Oracle,68.233.120.0/21
+Oracle,151.145.32.0/19
+Oracle,155.248.224.0/20
+Oracle,168.138.64.0/19
+Oracle,170.9.32.0/20
+Oracle,204.216.104.0/21
+Oracle,38.104.155.92/31
+Oracle,134.70.116.0/22
+Oracle,140.91.50.0/23
+Oracle,140.204.46.128/25
+Oracle,168.129.240.0/22
+Oracle,192.29.80.0/22
+Oracle,192.29.88.0/21
+Oracle,79.72.0.0/20
+Oracle,80.225.64.0/20
+Oracle,81.208.160.0/20
+Oracle,81.208.188.0/22
+Oracle,130.110.96.0/19
+Oracle,141.147.128.0/20
+Oracle,144.24.208.0/20
+Oracle,150.230.48.0/21
+Oracle,150.230.240.0/21
+Oracle,158.101.224.0/19
+Oracle,193.122.64.0/19
+Oracle,207.127.96.0/21
+Oracle,207.135.30.0/23
+Oracle,134.70.100.0/22
+Oracle,140.91.42.0/23
+Oracle,140.204.34.128/25
+Oracle,192.29.112.0/20
+Oracle,192.29.224.0/22
+Oracle,192.29.232.0/25
+Oracle,192.29.232.192/26
 Oracle,79.72.16.0/22
 Oracle,79.76.32.0/19
 Oracle,84.235.208.0/20
@@ -58003,47 +58007,6 @@ Oracle,140.91.72.0/23
 Oracle,140.204.100.128/25
 Oracle,141.253.214.0/24
 Oracle,158.179.198.0/23
-Oracle,80.225.192.0/18
-Oracle,92.4.64.0/19
-Oracle,129.151.40.0/21
-Oracle,129.154.224.0/19
-Oracle,132.226.184.0/21
-Oracle,140.238.160.0/21
-Oracle,140.238.224.0/21
-Oracle,140.238.232.0/22
-Oracle,140.238.240.0/20
-Oracle,140.245.0.0/19
-Oracle,141.148.192.0/19
-Oracle,144.24.96.0/19
-Oracle,146.56.48.0/21
-Oracle,150.230.232.0/21
-Oracle,152.67.0.0/19
-Oracle,155.248.240.0/20
-Oracle,161.118.160.0/19
-Oracle,168.138.112.0/21
-Oracle,207.135.16.0/23
-Oracle,134.70.76.0/22
-Oracle,140.91.30.0/23
-Oracle,140.204.4.128/25
-Oracle,168.110.240.0/22
-Oracle,192.29.48.0/22
-Oracle,192.29.160.0/21
-Oracle,192.29.168.0/22
-Oracle,192.29.172.0/24
-Oracle,129.151.64.0/19
-Oracle,134.65.56.0/21
-Oracle,144.24.224.0/21
-Oracle,129.148.200.0/21
-Oracle,129.149.16.0/23
-Oracle,129.149.20.0/23
-Oracle,129.149.22.0/25
-Oracle,129.149.22.192/26
-Oracle,129.149.23.0/24
-Oracle,130.110.24.0/22
-Oracle,134.70.136.0/22
-Oracle,140.91.60.0/23
-Oracle,140.204.70.128/25
-Oracle,209.17.60.0/22
 Oracle,79.72.40.0/21
 Oracle,80.225.80.0/20
 Oracle,89.168.16.0/20
@@ -58061,126 +58024,19 @@ Oracle,140.91.74.0/23
 Oracle,140.204.104.128/25
 Oracle,141.253.215.0/24
 Oracle,158.179.8.0/22
-Oracle,40.233.64.0/18
-Oracle,129.153.48.0/20
-Oracle,132.145.96.0/20
-Oracle,140.238.128.0/19
-Oracle,150.230.24.0/21
-Oracle,155.248.216.0/21
-Oracle,161.153.224.0/20
-Oracle,161.153.248.0/21
-Oracle,192.18.144.0/20
-Oracle,207.135.27.0/24
-Oracle,134.70.72.0/22
-Oracle,140.91.28.0/23
-Oracle,140.204.0.128/25
-Oracle,159.112.162.0/23
-Oracle,159.112.168.0/22
-Oracle,161.153.240.0/21
-Oracle,192.29.8.0/21
-Oracle,192.29.64.0/21
-Oracle,192.29.72.0/25
-Oracle,204.216.127.192/26
-Oracle,129.91.16.0/21
-Oracle,129.154.64.0/18
-Oracle,129.154.168.0/22
-Oracle,140.238.192.0/20
-Oracle,150.230.8.0/21
-Oracle,152.67.96.0/19
-Oracle,152.69.160.0/20
-Oracle,152.70.228.0/22
-Oracle,158.178.136.0/21
-Oracle,158.180.4.0/22
-Oracle,159.13.32.0/19
-Oracle,161.33.224.0/20
-Oracle,161.33.240.0/21
-Oracle,168.138.96.0/20
-Oracle,192.9.160.0/19
-Oracle,129.148.0.0/21
-Oracle,129.148.156.0/22
-Oracle,134.70.92.0/22
-Oracle,134.185.72.0/22
-Oracle,140.91.38.0/23
-Oracle,140.204.20.128/25
-Oracle,168.110.64.0/19
-Oracle,168.110.224.0/20
-Oracle,192.29.144.0/23
-Oracle,192.29.148.0/23
-Oracle,192.29.151.0/24
-Oracle,192.29.152.0/22
-Oracle,192.29.158.0/23
-Oracle,207.127.107.192/26
-Oracle,64.110.64.0/19
-Oracle,129.91.3.0/24
-Oracle,129.91.4.0/23
-Oracle,129.154.192.0/19
-Oracle,130.162.128.0/19
-Oracle,131.186.16.0/20
-Oracle,132.145.80.0/20
-Oracle,132.226.16.0/21
-Oracle,132.226.168.0/21
-Oracle,132.226.224.0/20
-Oracle,140.238.0.0/19
-Oracle,146.56.32.0/20
-Oracle,146.56.128.0/18
-Oracle,152.70.36.0/22
-Oracle,152.70.88.0/21
-Oracle,152.70.232.0/21
-Oracle,152.70.240.0/20
-Oracle,161.118.128.0/19
-Oracle,193.122.96.0/19
-Oracle,193.123.224.0/19
-Oracle,217.142.128.0/19
-Oracle,134.70.96.0/22
-Oracle,140.91.40.0/23
-Oracle,140.204.24.128/25
-Oracle,146.56.61.192/26
-Oracle,161.33.253.0/24
-Oracle,192.29.20.0/22
-Oracle,192.29.24.0/21
-Oracle,68.233.96.0/20
-Oracle,68.233.112.0/21
-Oracle,129.154.32.0/20
-Oracle,129.159.16.0/21
-Oracle,129.159.224.0/20
-Oracle,132.226.176.0/21
-Oracle,140.245.192.0/18
-Oracle,144.24.128.0/19
-Oracle,150.230.128.0/20
-Oracle,152.67.160.0/19
-Oracle,152.70.64.0/20
-Oracle,207.135.18.0/23
-Oracle,129.148.128.0/23
-Oracle,129.148.132.0/22
-Oracle,129.148.168.0/21
-Oracle,134.70.120.0/22
-Oracle,134.185.76.0/24
-Oracle,140.91.52.0/23
-Oracle,140.204.50.128/25
-Oracle,204.216.119.192/26
-Oracle,129.154.48.0/20
-Oracle,134.185.96.0/19
-Oracle,138.2.112.0/20
-Oracle,140.245.64.0/20
-Oracle,144.24.64.0/19
-Oracle,146.56.96.0/20
-Oracle,146.56.112.0/21
-Oracle,150.230.248.0/21
-Oracle,152.67.192.0/19
-Oracle,152.69.224.0/20
-Oracle,158.179.160.0/20
-Oracle,158.179.192.0/22
-Oracle,158.180.64.0/19
-Oracle,168.107.0.0/18
-Oracle,168.110.96.0/19
-Oracle,129.148.144.0/23
-Oracle,129.148.148.0/25
-Oracle,129.148.148.192/26
-Oracle,129.148.150.0/23
-Oracle,134.70.132.0/22
-Oracle,140.91.58.0/23
-Oracle,140.204.52.128/25
-Oracle,146.56.120.0/22
+Oracle,79.72.48.0/20
+Oracle,89.168.0.0/21
+Oracle,130.110.232.0/22
+Oracle,141.253.192.0/20
+Oracle,143.47.32.0/19
+Oracle,158.179.208.0/20
+Oracle,79.72.20.0/23
+Oracle,130.110.239.0/24
+Oracle,134.70.176.0/22
+Oracle,140.91.78.0/23
+Oracle,140.204.112.128/25
+Oracle,155.248.136.0/22
+Oracle,155.248.140.0/25
 Oracle,79.72.64.0/19
 Oracle,84.8.144.0/20
 Oracle,129.156.0.0/20
@@ -58282,6 +58138,369 @@ Oracle,147.154.160.0/20
 Oracle,147.154.176.0/21
 Oracle,147.154.184.0/22
 Oracle,147.154.189.128/25
+Oracle,80.225.184.0/21
+Oracle,80.225.160.0/26
+Oracle,80.225.160.128/25
+Oracle,80.225.161.192/26
+Oracle,80.225.162.0/23
+Oracle,80.225.164.0/22
+Oracle,80.225.168.0/22
+Oracle,80.225.176.0/23
+Oracle,80.225.178.128/25
+Oracle,80.225.192.0/18
+Oracle,92.4.64.0/19
+Oracle,129.151.40.0/21
+Oracle,129.154.224.0/19
+Oracle,132.226.184.0/21
+Oracle,140.238.160.0/21
+Oracle,140.238.224.0/21
+Oracle,140.238.232.0/22
+Oracle,140.238.240.0/20
+Oracle,140.245.0.0/19
+Oracle,141.148.192.0/19
+Oracle,144.24.96.0/19
+Oracle,146.56.48.0/21
+Oracle,150.230.232.0/21
+Oracle,152.67.0.0/19
+Oracle,155.248.240.0/20
+Oracle,161.118.160.0/19
+Oracle,168.138.112.0/21
+Oracle,207.135.16.0/23
+Oracle,134.70.76.0/22
+Oracle,140.91.30.0/23
+Oracle,140.204.4.128/25
+Oracle,168.110.240.0/22
+Oracle,192.29.48.0/22
+Oracle,192.29.160.0/21
+Oracle,192.29.168.0/22
+Oracle,192.29.172.0/24
+Oracle,84.8.96.0/19
+Oracle,145.241.104.0/21
+Oracle,145.241.152.0/21
+Oracle,79.76.16.0/23
+Oracle,79.76.20.0/24
+Oracle,84.8.64.0/22
+Oracle,84.8.68.0/25
+Oracle,84.8.72.0/22
+Oracle,84.8.88.128/25
+Oracle,130.110.224.0/21
+Oracle,141.253.212.0/23
+Oracle,84.8.128.0/20
+Oracle,129.151.160.0/19
+Oracle,145.241.184.0/21
+Oracle,158.180.226.0/23
+Oracle,204.216.112.0/23
+Oracle,129.149.64.0/22
+Oracle,129.149.68.0/25
+Oracle,130.110.28.0/23
+Oracle,134.70.160.0/22
+Oracle,140.91.70.0/23
+Oracle,140.204.96.128/25
+Oracle,158.179.196.0/24
+Oracle,84.235.160.0/19
+Oracle,92.5.192.0/19
+Oracle,92.5.224.0/20
+Oracle,134.98.128.0/19
+Oracle,140.204.84.0/23
+Oracle,141.144.192.0/19
+Oracle,141.148.224.0/19
+Oracle,143.47.176.0/20
+Oracle,144.21.32.0/20
+Oracle,150.230.20.0/22
+Oracle,152.70.48.0/20
+Oracle,158.101.192.0/19
+Oracle,158.178.144.0/20
+Oracle,158.180.8.0/21
+Oracle,168.138.120.0/22
+Oracle,193.122.16.0/20
+Oracle,193.123.32.0/19
+Oracle,62.115.179.220/31
+Oracle,62.115.179.228/31
+Oracle,79.72.32.0/22
+Oracle,79.76.24.0/21
+Oracle,92.5.255.0/24
+Oracle,134.70.104.0/22
+Oracle,140.83.44.0/22
+Oracle,140.91.44.0/23
+Oracle,140.204.36.128/25
+Oracle,140.204.38.128/25
+Oracle,140.204.40.128/25
+Oracle,158.178.220.0/22
+Oracle,192.29.192.0/22
+Oracle,192.29.200.0/21
+Oracle,213.19.198.156/31
+Oracle,213.19.198.164/31
+Oracle,84.235.240.0/20
+Oracle,139.185.32.0/19
+Oracle,141.145.144.0/20
+Oracle,145.241.112.0/20
+Oracle,193.123.64.0/19
+Oracle,64.110.120.0/21
+Oracle,129.148.208.0/22
+Oracle,129.148.212.0/23
+Oracle,129.148.214.0/24
+Oracle,129.148.215.0/25
+Oracle,129.148.218.0/24
+Oracle,129.148.219.192/26
+Oracle,129.148.220.0/22
+Oracle,134.70.148.0/22
+Oracle,140.91.92.0/23
+Oracle,140.204.66.128/25
+Oracle,89.168.32.0/19
+Oracle,141.145.192.0/19
+Oracle,141.253.96.0/19
+Oracle,145.241.160.0/20
+Oracle,158.178.192.0/20
+Oracle,158.178.208.0/21
+Oracle,79.76.18.0/23
+Oracle,134.70.180.0/22
+Oracle,140.91.80.0/23
+Oracle,140.204.116.128/25
+Oracle,145.241.183.0/24
+Oracle,155.248.128.0/22
+Oracle,155.248.132.0/23
+Oracle,155.248.135.128/25
+Oracle,129.80.0.0/16
+Oracle,129.144.0.0/16
+Oracle,129.145.16.0/21
+Oracle,129.145.74.0/23
+Oracle,129.145.76.0/22
+Oracle,129.151.48.0/20
+Oracle,129.152.40.0/22
+Oracle,129.153.0.0/19
+Oracle,129.153.32.0/20
+Oracle,129.153.128.0/18
+Oracle,129.153.224.0/20
+Oracle,129.157.224.0/21
+Oracle,129.158.32.0/19
+Oracle,129.158.64.0/18
+Oracle,129.158.128.0/17
+Oracle,129.159.64.0/18
+Oracle,129.159.160.0/19
+Oracle,129.213.8.0/21
+Oracle,129.213.16.0/20
+Oracle,129.213.32.0/19
+Oracle,129.213.64.0/18
+Oracle,129.213.128.0/18
+Oracle,129.213.192.0/20
+Oracle,129.213.208.0/21
+Oracle,132.145.128.0/18
+Oracle,132.145.192.0/19
+Oracle,132.226.32.0/19
+Oracle,138.2.208.0/20
+Oracle,141.148.0.0/18
+Oracle,141.148.64.0/19
+Oracle,142.0.160.0/21
+Oracle,143.47.96.0/19
+Oracle,150.136.0.0/16
+Oracle,150.230.160.0/19
+Oracle,152.70.32.0/22
+Oracle,152.70.192.0/20
+Oracle,157.151.128.0/17
+Oracle,158.101.96.0/19
+Oracle,193.122.128.0/17
+Oracle,193.123.128.0/19
+Oracle,205.147.88.0/23
+Oracle,207.135.4.0/22
+Oracle,207.135.10.0/23
+Oracle,207.135.12.0/22
+Oracle,207.135.29.0/24
+Oracle,64.181.152.0/21
+Oracle,129.213.0.128/25
+Oracle,129.213.2.128/25
+Oracle,129.213.4.128/25
+Oracle,130.35.16.0/22
+Oracle,130.35.96.0/21
+Oracle,130.35.144.0/22
+Oracle,130.35.200.0/22
+Oracle,130.35.228.0/22
+Oracle,134.70.24.0/21
+Oracle,134.70.32.0/22
+Oracle,138.1.48.0/21
+Oracle,140.86.216.0/21
+Oracle,140.91.10.0/23
+Oracle,140.91.12.0/22
+Oracle,147.154.0.0/19
+Oracle,147.154.32.0/25
+Oracle,147.154.36.0/22
+Oracle,147.154.40.0/21
+Oracle,147.154.48.0/21
+Oracle,147.154.56.0/22
+Oracle,157.151.64.0/18
+Oracle,169.155.128.0/19
+Oracle,170.9.192.0/19
+Oracle,129.91.0.0/23
+Oracle,129.91.2.0/24
+Oracle,129.151.96.0/19
+Oracle,136.248.240.0/21
+Oracle,144.22.32.0/19
+Oracle,146.235.240.0/21
+Oracle,159.112.128.0/20
+Oracle,159.112.144.0/21
+Oracle,161.153.192.0/20
+Oracle,161.153.216.0/21
+Oracle,194.164.248.0/21
+Oracle,64.181.132.0/24
+Oracle,129.148.152.0/23
+Oracle,129.149.32.0/23
+Oracle,129.149.36.0/22
+Oracle,134.70.152.0/22
+Oracle,140.91.66.0/23
+Oracle,140.204.86.128/25
+Oracle,168.129.244.0/24
+Oracle,129.91.16.0/21
+Oracle,129.154.64.0/18
+Oracle,129.154.168.0/22
+Oracle,140.238.192.0/20
+Oracle,150.230.8.0/21
+Oracle,152.67.96.0/19
+Oracle,152.69.160.0/20
+Oracle,152.70.228.0/22
+Oracle,158.178.136.0/21
+Oracle,158.180.4.0/22
+Oracle,159.13.32.0/19
+Oracle,161.33.224.0/20
+Oracle,161.33.240.0/21
+Oracle,168.138.96.0/20
+Oracle,192.9.160.0/19
+Oracle,129.148.0.0/21
+Oracle,129.148.156.0/22
+Oracle,134.70.92.0/22
+Oracle,134.185.72.0/22
+Oracle,140.91.38.0/23
+Oracle,140.204.20.128/25
+Oracle,168.110.64.0/19
+Oracle,168.110.224.0/20
+Oracle,192.29.144.0/23
+Oracle,192.29.148.0/23
+Oracle,192.29.151.0/24
+Oracle,192.29.152.0/22
+Oracle,192.29.158.0/23
+Oracle,207.127.107.192/26
+Oracle,129.146.0.0/21
+Oracle,129.146.8.0/22
+Oracle,129.146.16.0/20
+Oracle,129.146.32.0/19
+Oracle,129.146.64.0/18
+Oracle,129.146.128.0/17
+Oracle,129.150.64.0/18
+Oracle,129.150.128.0/17
+Oracle,129.151.0.0/19
+Oracle,129.152.128.0/19
+Oracle,129.153.64.0/18
+Oracle,129.153.192.0/19
+Oracle,129.191.0.0/17
+Oracle,132.226.24.0/21
+Oracle,132.226.64.0/18
+Oracle,132.226.144.0/20
+Oracle,137.131.0.0/18
+Oracle,141.147.240.0/20
+Oracle,141.148.128.0/18
+Oracle,144.24.0.0/18
+Oracle,152.70.128.0/19
+Oracle,158.101.0.0/18
+Oracle,160.34.6.0/23
+Oracle,160.34.8.0/22
+Oracle,161.153.0.0/17
+Oracle,193.123.0.0/19
+Oracle,193.123.192.0/19
+Oracle,207.135.0.0/22
+Oracle,207.135.25.0/24
+Oracle,207.135.26.0/24
+Oracle,207.135.28.0/24
+Oracle,129.146.12.128/25
+Oracle,129.146.13.128/25
+Oracle,129.146.14.128/25
+Oracle,129.148.8.0/22
+Oracle,129.149.28.0/22
+Oracle,130.35.0.0/22
+Oracle,130.35.128.0/22
+Oracle,134.65.52.128/25
+Oracle,134.65.208.0/20
+Oracle,134.70.8.0/21
+Oracle,134.70.16.0/22
+Oracle,136.248.128.0/19
+Oracle,138.1.32.0/21
+Oracle,138.1.112.0/20
+Oracle,140.91.4.0/22
+Oracle,140.91.8.0/23
+Oracle,146.235.0.0/20
+Oracle,147.154.96.0/20
+Oracle,147.154.112.0/21
+Oracle,147.154.120.0/22
+Oracle,161.153.128.0/18
+Oracle,192.18.200.0/21
+Oracle,192.29.96.0/20
+Oracle,204.216.192.0/20
+Oracle,207.127.124.0/22
+Oracle,129.150.32.0/19
+Oracle,134.185.80.0/20
+Oracle,138.2.64.0/19
+Oracle,138.2.96.0/20
+Oracle,140.245.96.0/19
+Oracle,146.235.16.0/21
+Oracle,152.69.208.0/20
+Oracle,158.178.224.0/20
+Oracle,158.178.240.0/21
+Oracle,161.118.192.0/18
+Oracle,168.107.64.0/19
+Oracle,168.138.160.0/19
+Oracle,213.35.96.0/19
+Oracle,129.148.176.0/22
+Oracle,129.148.180.0/25
+Oracle,129.148.184.0/22
+Oracle,134.70.128.0/22
+Oracle,140.91.56.0/23
+Oracle,140.204.54.128/25
+Oracle,159.112.172.0/22
+Oracle,168.110.244.0/22
+Oracle,207.127.109.192/26
+Oracle,129.151.64.0/19
+Oracle,134.65.56.0/21
+Oracle,144.24.224.0/21
+Oracle,129.148.200.0/21
+Oracle,129.149.16.0/23
+Oracle,129.149.20.0/23
+Oracle,129.149.22.0/25
+Oracle,129.149.22.192/26
+Oracle,129.149.23.0/24
+Oracle,130.110.24.0/22
+Oracle,134.70.136.0/22
+Oracle,140.91.60.0/23
+Oracle,140.204.70.128/25
+Oracle,209.17.60.0/22
+Oracle,129.151.128.0/19
+Oracle,129.149.48.0/22
+Oracle,129.149.52.0/25
+Oracle,134.70.144.0/22
+Oracle,140.91.64.0/23
+Oracle,140.204.80.128/25
+Oracle,141.253.216.0/21
+Oracle,145.241.178.0/23
+Oracle,207.127.72.0/22
+Oracle,129.154.48.0/20
+Oracle,134.185.96.0/19
+Oracle,138.2.112.0/20
+Oracle,140.245.64.0/20
+Oracle,144.24.64.0/19
+Oracle,146.56.96.0/20
+Oracle,146.56.112.0/21
+Oracle,150.230.248.0/21
+Oracle,152.67.192.0/19
+Oracle,152.69.224.0/20
+Oracle,158.179.160.0/20
+Oracle,158.179.192.0/22
+Oracle,158.180.64.0/19
+Oracle,168.107.0.0/18
+Oracle,168.110.96.0/19
+Oracle,129.148.144.0/23
+Oracle,129.148.148.0/25
+Oracle,129.148.148.192/26
+Oracle,129.148.150.0/23
+Oracle,134.70.132.0/22
+Oracle,140.91.58.0/23
+Oracle,140.204.52.128/25
+Oracle,146.56.120.0/22
 Oracle,129.159.128.0/19
 Oracle,130.110.238.0/24
 Oracle,151.145.80.0/20
@@ -58294,68 +58513,6 @@ Oracle,129.149.126.0/25
 Oracle,134.70.172.0/22
 Oracle,140.91.76.0/23
 Oracle,140.204.108.128/25
-Oracle,64.181.224.0/19
-Oracle,129.159.32.0/20
-Oracle,138.2.224.0/20
-Oracle,146.235.192.0/19
-Oracle,146.235.224.0/20
-Oracle,150.230.32.0/20
-Oracle,152.67.224.0/19
-Oracle,152.70.112.0/20
-Oracle,155.248.192.0/20
-Oracle,155.248.208.0/21
-Oracle,159.54.160.0/19
-Oracle,163.192.0.0/18
-Oracle,163.192.64.0/19
-Oracle,165.1.64.0/20
-Oracle,167.234.208.0/20
-Oracle,170.9.0.0/19
-Oracle,170.9.48.0/20
-Oracle,192.9.128.0/19
-Oracle,192.9.224.0/19
-Oracle,192.18.128.0/20
-Oracle,129.148.160.0/23
-Oracle,129.148.164.0/25
-Oracle,129.148.166.0/23
-Oracle,129.149.56.0/22
-Oracle,134.70.124.0/22
-Oracle,140.91.54.0/23
-Oracle,140.204.58.128/25
-Oracle,146.235.251.192/26
-Oracle,204.216.120.0/22
-Oracle,79.72.48.0/20
-Oracle,89.168.0.0/21
-Oracle,130.110.232.0/22
-Oracle,141.253.192.0/20
-Oracle,143.47.32.0/19
-Oracle,158.179.208.0/20
-Oracle,79.72.20.0/23
-Oracle,130.110.239.0/24
-Oracle,134.70.176.0/22
-Oracle,140.91.78.0/23
-Oracle,140.204.112.128/25
-Oracle,155.248.136.0/22
-Oracle,155.248.140.0/25
-Oracle,79.72.0.0/20
-Oracle,80.225.64.0/20
-Oracle,81.208.160.0/20
-Oracle,81.208.188.0/22
-Oracle,130.110.96.0/19
-Oracle,141.147.128.0/20
-Oracle,144.24.208.0/20
-Oracle,150.230.48.0/21
-Oracle,150.230.240.0/21
-Oracle,158.101.224.0/19
-Oracle,193.122.64.0/19
-Oracle,207.127.96.0/21
-Oracle,207.135.30.0/23
-Oracle,134.70.100.0/22
-Oracle,140.91.42.0/23
-Oracle,140.204.34.128/25
-Oracle,192.29.112.0/20
-Oracle,192.29.224.0/22
-Oracle,192.29.232.0/25
-Oracle,192.29.232.192/26
 Oracle,130.162.192.0/21
 Oracle,152.69.176.0/20
 Oracle,152.70.224.0/22
@@ -58375,34 +58532,6 @@ Oracle,159.13.14.0/23
 Oracle,161.33.254.0/24
 Oracle,192.29.208.0/22
 Oracle,192.29.216.0/21
-Oracle,64.181.192.0/19
-Oracle,131.186.0.0/21
-Oracle,149.130.208.0/20
-Oracle,163.192.96.0/19
-Oracle,163.192.192.0/19
-Oracle,163.192.240.0/20
-Oracle,164.152.16.0/20
-Oracle,164.152.104.0/21
-Oracle,168.129.160.0/20
-Oracle,170.9.224.0/19
-Oracle,207.211.160.0/19
-Oracle,64.181.136.0/22
-Oracle,64.181.140.0/23
-Oracle,64.181.150.0/23
-Oracle,131.186.8.0/22
-Oracle,131.186.12.0/25
-Oracle,134.70.188.0/22
-Oracle,134.70.192.0/21
-Oracle,140.91.84.0/22
-Oracle,140.91.88.0/23
-Oracle,140.204.122.128/25
-Oracle,140.204.124.128/25
-Oracle,140.204.126.128/25
-Oracle,146.235.252.64/26
-Oracle,146.235.252.128/25
-Oracle,146.235.253.0/24
-Oracle,146.235.254.0/23
-Oracle,194.164.156.0/22
 Oracle,131.186.32.0/20
 Oracle,131.186.56.0/21
 Oracle,132.145.112.0/20
@@ -58478,39 +58607,6 @@ Oracle,134.70.140.0/22
 Oracle,140.91.62.0/23
 Oracle,140.204.76.128/25
 Oracle,149.130.136.0/23
-Oracle,84.235.160.0/19
-Oracle,92.5.192.0/19
-Oracle,92.5.224.0/20
-Oracle,134.98.128.0/19
-Oracle,140.204.84.0/23
-Oracle,141.144.192.0/19
-Oracle,141.148.224.0/19
-Oracle,143.47.176.0/20
-Oracle,144.21.32.0/20
-Oracle,150.230.20.0/22
-Oracle,152.70.48.0/20
-Oracle,158.101.192.0/19
-Oracle,158.178.144.0/20
-Oracle,158.180.8.0/21
-Oracle,168.138.120.0/22
-Oracle,193.122.16.0/20
-Oracle,193.123.32.0/19
-Oracle,62.115.179.220/31
-Oracle,62.115.179.228/31
-Oracle,79.72.32.0/22
-Oracle,79.76.24.0/21
-Oracle,92.5.255.0/24
-Oracle,134.70.104.0/22
-Oracle,140.83.44.0/22
-Oracle,140.91.44.0/23
-Oracle,140.204.36.128/25
-Oracle,140.204.38.128/25
-Oracle,140.204.40.128/25
-Oracle,158.178.220.0/22
-Oracle,192.29.192.0/22
-Oracle,192.29.200.0/21
-Oracle,213.19.198.156/31
-Oracle,213.19.198.164/31
 Oracle,134.98.192.0/19
 Oracle,134.70.218.0/23
 Oracle,134.70.220.0/23
@@ -58534,60 +58630,6 @@ Oracle,140.204.142.128/25
 Oracle,157.151.32.0/21
 Oracle,157.151.40.0/22
 Oracle,157.151.44.0/23
-Oracle,64.110.96.0/20
-Oracle,64.110.112.0/21
-Oracle,138.2.32.0/19
-Oracle,140.83.48.0/20
-Oracle,140.83.80.0/21
-Oracle,141.147.144.0/20
-Oracle,150.230.0.0/21
-Oracle,150.230.56.0/21
-Oracle,152.69.192.0/20
-Oracle,152.70.80.0/21
-Oracle,161.33.0.0/18
-Oracle,168.138.32.0/19
-Oracle,217.142.224.0/19
-Oracle,129.149.63.192/26
-Oracle,134.70.112.0/22
-Oracle,140.91.48.0/23
-Oracle,140.204.30.128/25
-Oracle,192.29.240.0/22
-Oracle,192.29.248.0/21
-Oracle,40.233.0.0/19
-Oracle,139.177.96.0/21
-Oracle,157.137.160.0/19
-Oracle,64.181.146.0/23
-Oracle,134.70.200.0/23
-Oracle,139.177.104.0/22
-Oracle,139.177.108.0/25
-Oracle,140.91.90.0/23
-Oracle,140.204.132.128/25
-Oracle,157.137.253.0/24
-Oracle,84.235.240.0/20
-Oracle,139.185.32.0/19
-Oracle,141.145.144.0/20
-Oracle,145.241.112.0/20
-Oracle,193.123.64.0/19
-Oracle,64.110.120.0/21
-Oracle,129.148.208.0/22
-Oracle,129.148.212.0/23
-Oracle,129.148.214.0/24
-Oracle,129.148.215.0/25
-Oracle,129.148.218.0/24
-Oracle,129.148.219.192/26
-Oracle,129.148.220.0/22
-Oracle,134.70.148.0/22
-Oracle,140.91.92.0/23
-Oracle,140.204.66.128/25
-Oracle,140.245.32.0/19
-Oracle,217.142.184.0/21
-Oracle,159.13.0.0/22
-Oracle,159.13.4.0/25
-Oracle,161.33.255.0/24
-Oracle,217.142.160.0/21
-Oracle,217.142.168.0/22
-Oracle,217.142.176.0/23
-Oracle,217.142.178.128/25
 Oracle,140.84.160.0/19
 Oracle,159.54.128.0/19
 Oracle,160.34.208.0/20
@@ -58600,31 +58642,15 @@ Oracle,155.248.144.0/22
 Oracle,155.248.148.0/25
 Oracle,159.112.166.0/24
 Oracle,168.129.247.0/24
-Oracle,89.168.32.0/19
-Oracle,141.145.192.0/19
-Oracle,141.253.96.0/19
-Oracle,145.241.160.0/20
-Oracle,158.178.192.0/20
-Oracle,158.178.208.0/21
-Oracle,79.76.18.0/23
-Oracle,134.70.180.0/22
-Oracle,140.91.80.0/23
-Oracle,140.204.116.128/25
-Oracle,145.241.183.0/24
-Oracle,155.248.128.0/22
-Oracle,155.248.132.0/23
-Oracle,155.248.135.128/25
-Oracle,84.8.96.0/19
-Oracle,145.241.104.0/21
-Oracle,145.241.152.0/21
-Oracle,79.76.16.0/23
-Oracle,79.76.20.0/24
-Oracle,84.8.64.0/22
-Oracle,84.8.68.0/25
-Oracle,84.8.72.0/22
-Oracle,84.8.88.128/25
-Oracle,130.110.224.0/21
-Oracle,141.253.212.0/23
+Oracle,140.245.32.0/19
+Oracle,217.142.184.0/21
+Oracle,159.13.0.0/22
+Oracle,159.13.4.0/25
+Oracle,161.33.255.0/24
+Oracle,217.142.160.0/21
+Oracle,217.142.168.0/22
+Oracle,217.142.176.0/23
+Oracle,217.142.178.128/25
 Oracle,149.130.160.0/19
 Oracle,157.137.192.0/19
 Oracle,157.137.224.0/20
@@ -58652,19 +58678,6 @@ Oracle,140.204.136.128/25
 Oracle,168.129.182.0/23
 Oracle,207.211.128.0/22
 Oracle,207.211.132.0/25
-Oracle,68.233.120.0/21
-Oracle,151.145.32.0/19
-Oracle,155.248.224.0/20
-Oracle,168.138.64.0/19
-Oracle,170.9.32.0/20
-Oracle,204.216.104.0/21
-Oracle,38.104.155.92/31
-Oracle,134.70.116.0/22
-Oracle,140.91.50.0/23
-Oracle,140.204.46.128/25
-Oracle,168.129.240.0/22
-Oracle,192.29.80.0/22
-Oracle,192.29.88.0/21
 Oracle,168.107.192.0/19
 Oracle,134.70.230.0/23
 Oracle,134.70.232.0/23
@@ -58723,15 +58736,6 @@ Oracle,192.22.36.0/22
 Oracle,192.22.40.0/22
 Oracle,192.22.44.128/25
 Oracle,192.22.48.0/23
-Oracle,192.22.128.0/19
-Oracle,192.22.160.0/26
-Oracle,192.22.160.128/25
-Oracle,192.22.161.192/26
-Oracle,192.22.162.0/23
-Oracle,192.22.164.0/22
-Oracle,192.22.168.0/22
-Oracle,192.22.172.128/25
-Oracle,192.22.176.0/23
 Oracle,192.22.64.0/19
 Oracle,192.22.96.0/26
 Oracle,192.22.96.128/25
@@ -58741,15 +58745,24 @@ Oracle,192.22.100.0/22
 Oracle,192.22.104.0/22
 Oracle,192.22.108.128/25
 Oracle,192.22.112.0/23
-Oracle,80.225.184.0/21
-Oracle,80.225.160.0/26
-Oracle,80.225.160.128/25
-Oracle,80.225.161.192/26
-Oracle,80.225.162.0/23
-Oracle,80.225.164.0/22
-Oracle,80.225.168.0/22
-Oracle,80.225.176.0/23
-Oracle,80.225.178.128/25
+Oracle,192.22.128.0/19
+Oracle,192.22.160.0/26
+Oracle,192.22.160.128/25
+Oracle,192.22.161.192/26
+Oracle,192.22.162.0/23
+Oracle,192.22.164.0/22
+Oracle,192.22.168.0/22
+Oracle,192.22.172.128/25
+Oracle,192.22.176.0/23
+Oracle,192.22.192.0/19
+Oracle,192.22.224.0/26
+Oracle,192.22.224.128/25
+Oracle,192.22.225.192/26
+Oracle,192.22.226.0/23
+Oracle,192.22.228.0/22
+Oracle,192.22.232.0/22
+Oracle,192.22.236.128/25
+Oracle,192.22.240.0/23
 Oracle,81.208.192.0/19
 Oracle,207.127.82.0/23
 Oracle,130.110.31.0/24
@@ -60221,7 +60234,7 @@ HostPapa,208.88.72.0/21
 "Black HOST Ltd",213.254.179.0/24
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",80.94.16.0/20
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",109.69.88.0/23
-"Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",212.14.51.0/24
+"Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",212.14.50.0/23
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",212.14.52.0/23
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",212.14.56.0/23
 "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie Akademickie Centrum Informatyki",212.14.58.0/24
@@ -60686,6 +60699,7 @@ HostPapa,208.88.72.0/21
 "UK-2 Limited",178.93.56.0/24
 "UK-2 Limited",178.93.58.0/24
 "UK-2 Limited",178.93.64.0/24
+"UK-2 Limited",178.93.80.0/22
 "UK-2 Limited",178.93.88.0/24
 "UK-2 Limited",178.93.91.0/24
 "UK-2 Limited",178.93.93.0/24
@@ -60981,6 +60995,7 @@ MegaHostZone,103.252.46.0/24
 "LEASEWEB HONG KONG LIMITED",103.21.220.0/24
 "LEASEWEB HONG KONG LIMITED",103.75.117.0/24
 "LEASEWEB HONG KONG LIMITED",103.133.190.0/24
+"LEASEWEB HONG KONG LIMITED",103.138.32.0/24
 "LEASEWEB HONG KONG LIMITED",103.161.224.0/23
 "LEASEWEB HONG KONG LIMITED",104.164.38.0/24
 "LEASEWEB HONG KONG LIMITED",172.96.185.0/24
@@ -61145,6 +61160,8 @@ MegaHostZone,103.252.46.0/24
 "Alibaba Cloud (Singapore) Private Limited",8.220.236.0/22
 "Alibaba Cloud (Singapore) Private Limited",8.220.248.0/21
 "Alibaba Cloud (Singapore) Private Limited",8.221.152.0/22
+"Alibaba Cloud (Singapore) Private Limited",38.47.128.0/20
+"Alibaba Cloud (Singapore) Private Limited",45.194.56.0/22
 "Alibaba Cloud (Singapore) Private Limited",47.57.197.0/24
 "Alibaba Cloud (Singapore) Private Limited",47.87.24.0/21
 "Alibaba Cloud (Singapore) Private Limited",47.87.72.0/21
@@ -61167,6 +61184,7 @@ MegaHostZone,103.252.46.0/24
 "Alibaba Cloud (Singapore) Private Limited",47.251.128.0/22
 "Alibaba Cloud (Singapore) Private Limited",47.251.192.0/22
 "Alibaba Cloud (Singapore) Private Limited",47.253.124.0/22
+"Alibaba Cloud (Singapore) Private Limited",103.173.12.0/24
 "Alibaba Cloud (Singapore) Private Limited",103.206.40.0/22
 "Alibaba Cloud (Singapore) Private Limited",139.95.66.0/24
 "Alibaba Cloud (Singapore) Private Limited",147.139.252.0/22
@@ -61202,7 +61220,9 @@ MegaHostZone,103.252.46.0/24
 "Alibaba Cloud (Singapore) Private Limited",178.132.247.0/24
 "Alibaba Cloud (Singapore) Private Limited",198.11.144.0/24
 "Alibaba Cloud (Singapore) Private Limited",203.107.48.0/22
+"Alibaba Cloud (Singapore) Private Limited",205.198.40.0/23
 "Alibaba Cloud (Singapore) Private Limited",205.198.43.0/24
+"Alibaba Cloud (Singapore) Private Limited",209.146.118.0/24
 "CLOUD SERVERS AUSTRALIA PTY LTD",103.86.188.0/23
 "CLOUD SERVERS AUSTRALIA PTY LTD",103.209.152.0/23
 "PI DATA CENTERS PRIVATE LIMITED",36.255.252.0/22
@@ -61536,7 +61556,7 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",5.104.77.0/24
 "PacketHub S.A",5.104.78.0/23
 "PacketHub S.A",5.133.116.0/22
-"PacketHub S.A",5.154.252.0/24
+"PacketHub S.A",5.154.252.0/23
 "PacketHub S.A",5.157.129.0/24
 "PacketHub S.A",5.180.63.0/24
 "PacketHub S.A",5.183.32.0/22
@@ -61799,9 +61819,7 @@ HOSTOMEGA,163.227.50.0/23
 "PacketHub S.A",87.239.254.0/24
 "PacketHub S.A",88.218.202.0/23
 "PacketHub S.A",89.18.192.0/20
-"PacketHub S.A",89.18.208.0/22
-"PacketHub S.A",89.18.212.0/23
-"PacketHub S.A",89.18.215.0/24
+"PacketHub S.A",89.18.208.0/21
 "PacketHub S.A",89.18.216.0/23
 "PacketHub S.A",89.18.219.0/24
 "PacketHub S.A",89.18.220.0/22
@@ -62870,6 +62888,7 @@ noorhost.com.bd,74.2.112.0/22
 "Salesforce.com Inc",204.14.232.0/21
 "HOST DESIGNS LLC",66.170.134.0/24
 "1st Class Hosting LLC",65.49.128.0/23
+"1st Class Hosting LLC",65.49.149.0/24
 "1st Class Hosting LLC",104.251.115.0/24
 "1st Class Hosting LLC",104.251.116.0/24
 "1st Class Hosting LLC",104.251.118.0/24
@@ -63198,6 +63217,7 @@ ColoCone,103.252.47.0/24
 "VPSMMO TECHNOLOGY COMPANY LIMITED",103.122.162.0/23
 "VPSMMO TECHNOLOGY COMPANY LIMITED",103.228.126.0/23
 "VPSMMO TECHNOLOGY COMPANY LIMITED",160.30.90.0/23
+"TRUMVPS COMPANY LIMITED",85.117.229.0/24
 "TRUMVPS COMPANY LIMITED",157.66.24.0/22
 "TRUMVPS COMPANY LIMITED",160.30.18.0/23
 "TRUMVPS COMPANY LIMITED",160.191.164.0/23
@@ -63373,7 +63393,6 @@ HOSTPERL,193.37.47.0/24
 "BHARAT DATACENTER",103.190.92.0/23
 "BHARAT DATACENTER",157.10.98.0/23
 "BHARAT DATACENTER",157.254.24.0/24
-"BHARAT DATACENTER",178.215.239.0/24
 "BHARAT DATACENTER",212.82.44.0/22
 "WEBYNE DATA CENTRE PRIVATE LIMITED",36.50.82.0/24
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.76.122.0/24
@@ -63393,11 +63412,12 @@ HOSTPERL,193.37.47.0/24
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.180.176.0/23
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.180.212.0/23
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.180.236.0/23
-"WEBYNE DATA CENTRE PRIVATE LIMITED",103.181.114.0/24
+"WEBYNE DATA CENTRE PRIVATE LIMITED",103.181.114.0/23
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.181.198.0/23
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.204.169.0/24
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.211.56.0/24
 "WEBYNE DATA CENTRE PRIVATE LIMITED",103.212.136.0/23
+"WEBYNE DATA CENTRE PRIVATE LIMITED",103.213.6.0/24
 "WEBYNE DATA CENTRE PRIVATE LIMITED",150.242.200.0/22
 "WEBYNE DATA CENTRE PRIVATE LIMITED",157.15.202.0/23
 "WEBYNE DATA CENTRE PRIVATE LIMITED",157.20.211.0/24
@@ -63463,6 +63483,7 @@ Edgevana,80.73.135.0/24
 "Tucows.com Co",216.40.32.0/20
 "Ummah Host BD",103.77.100.0/24
 "Ummah Host BD",116.212.186.0/23
+"Ummah Host BD",151.241.142.0/23
 "Ummah Host BD",161.248.188.0/23
 "Ummah Host BD",165.99.62.0/23
 HosterCube,163.223.241.0/24
@@ -63666,7 +63687,10 @@ netandhost.com,165.101.107.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",85.119.0.0/21
 "Equinix (EMEA) Acquisition Enterprises B.V",85.209.178.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",85.233.192.0/19
-"Equinix (EMEA) Acquisition Enterprises B.V",86.109.0.0/20
+"Equinix (EMEA) Acquisition Enterprises B.V",86.109.1.0/24
+"Equinix (EMEA) Acquisition Enterprises B.V",86.109.2.0/23
+"Equinix (EMEA) Acquisition Enterprises B.V",86.109.4.0/22
+"Equinix (EMEA) Acquisition Enterprises B.V",86.109.8.0/21
 "Equinix (EMEA) Acquisition Enterprises B.V",87.108.0.0/16
 "Equinix (EMEA) Acquisition Enterprises B.V",87.199.127.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",87.237.184.0/21
@@ -63961,6 +63985,7 @@ netandhost.com,165.101.107.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",163.114.144.0/23
 "Equinix (EMEA) Acquisition Enterprises B.V",164.38.158.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",168.90.172.0/22
+"Equinix (EMEA) Acquisition Enterprises B.V",169.148.156.0/23
 "Equinix (EMEA) Acquisition Enterprises B.V",170.39.112.0/22
 "Equinix (EMEA) Acquisition Enterprises B.V",170.189.220.0/24
 "Equinix (EMEA) Acquisition Enterprises B.V",170.248.10.0/24
@@ -64307,6 +64332,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",31.24.81.0/24
 "OVH SAS",31.41.37.0/24
 "OVH SAS",31.56.52.0/22
+"OVH SAS",31.56.112.0/24
 "OVH SAS",31.56.219.0/24
 "OVH SAS",31.57.161.0/24
 "OVH SAS",31.57.199.0/24
@@ -64422,6 +64448,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",82.38.60.0/24
 "OVH SAS",82.38.62.0/24
 "OVH SAS",82.38.82.0/24
+"OVH SAS",82.38.171.0/24
 "OVH SAS",82.39.108.0/24
 "OVH SAS",82.39.138.0/24
 "OVH SAS",82.117.230.0/23
@@ -64482,6 +64509,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",95.81.72.0/22
 "OVH SAS",95.169.162.0/24
 "OVH SAS",96.62.105.0/24
+"OVH SAS",96.62.231.0/24
 "OVH SAS",103.5.12.0/22
 "OVH SAS",103.82.16.0/22
 "OVH SAS",103.167.178.0/23
@@ -64552,6 +64580,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",143.14.231.0/24
 "OVH SAS",143.20.66.0/24
 "OVH SAS",143.20.195.0/24
+"OVH SAS",143.20.223.0/24
 "OVH SAS",144.2.32.0/19
 "OVH SAS",144.172.73.0/24
 "OVH SAS",144.217.0.0/16
@@ -64623,6 +64652,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",172.83.201.0/24
 "OVH SAS",176.31.0.0/16
 "OVH SAS",178.32.0.0/15
+"OVH SAS",178.93.124.0/24
 "OVH SAS",178.95.186.0/24
 "OVH SAS",180.131.145.0/24
 "OVH SAS",180.149.33.0/24
@@ -64656,6 +64686,7 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",185.226.181.0/24
 "OVH SAS",185.228.207.0/24
 "OVH SAS",185.241.50.0/23
+"OVH SAS",185.251.234.0/24
 "OVH SAS",185.255.28.0/24
 "OVH SAS",188.68.164.0/22
 "OVH SAS",188.165.0.0/16
@@ -64684,7 +64715,6 @@ netandhost.com,165.101.107.0/24
 "OVH SAS",193.219.99.0/24
 "OVH SAS",193.221.202.0/24
 "OVH SAS",193.243.147.0/24
-"OVH SAS",194.15.33.0/24
 "OVH SAS",194.31.164.0/24
 "OVH SAS",194.31.166.0/24
 "OVH SAS",194.59.183.0/24
@@ -67763,7 +67793,6 @@ EGIHosting,142.111.220.0/24
 EGIHosting,142.111.225.0/24
 EGIHosting,142.111.227.0/24
 EGIHosting,142.111.234.0/24
-EGIHosting,142.111.241.0/24
 EGIHosting,142.111.242.0/24
 EGIHosting,142.111.245.0/24
 EGIHosting,142.111.248.0/24
@@ -68069,7 +68098,6 @@ EGIHosting,216.172.128.0/19
 "Enzu Inc",85.209.152.0/24
 "Enzu Inc",85.209.192.0/23
 "Enzu Inc",104.218.192.0/24
-"Enzu Inc",107.163.160.0/19
 "Enzu Inc",107.163.192.0/18
 "Enzu Inc",108.187.16.0/20
 "Enzu Inc",108.187.240.0/20
@@ -68249,6 +68277,7 @@ ColoUp,162.245.80.0/21
 "Interserver Inc",45.202.102.0/24
 "Interserver Inc",45.202.107.0/24
 "Interserver Inc",45.202.120.0/22
+"Interserver Inc",45.207.48.0/21
 "Interserver Inc",45.207.57.0/24
 "Interserver Inc",50.20.202.0/23
 "Interserver Inc",50.20.206.0/23
@@ -68302,6 +68331,7 @@ ColoUp,162.245.80.0/21
 "Interserver Inc",151.244.170.0/24
 "Interserver Inc",154.88.32.0/22
 "Interserver Inc",154.94.12.0/22
+"Interserver Inc",154.194.16.0/21
 "Interserver Inc",154.194.196.0/22
 "Interserver Inc",154.194.200.0/22
 "Interserver Inc",154.213.196.0/22
@@ -68320,6 +68350,7 @@ ColoUp,162.245.80.0/21
 "Interserver Inc",162.245.184.0/21
 "Interserver Inc",162.246.16.0/21
 "Interserver Inc",162.250.120.0/21
+"Interserver Inc",163.245.192.0/19
 "Interserver Inc",166.0.144.0/24
 "Interserver Inc",173.214.160.0/20
 "Interserver Inc",173.225.96.0/20
@@ -71940,6 +71971,7 @@ StabiliServers,38.135.34.0/24
 "The Constant Company LLC",178.92.94.0/23
 "The Constant Company LLC",178.92.119.0/24
 "The Constant Company LLC",178.92.125.0/24
+"The Constant Company LLC",178.95.166.0/24
 "The Constant Company LLC",178.95.197.0/24
 "The Constant Company LLC",181.215.70.0/24
 "The Constant Company LLC",185.21.253.0/24
@@ -72094,6 +72126,7 @@ StabiliServers,38.135.34.0/24
 "UAB Cherry Servers",84.32.32.0/24
 "UAB Cherry Servers",84.32.34.0/24
 "UAB Cherry Servers",84.32.48.0/24
+"UAB Cherry Servers",84.32.63.0/24
 "UAB Cherry Servers",84.32.70.0/23
 "UAB Cherry Servers",84.32.128.0/22
 "UAB Cherry Servers",84.32.220.0/24
@@ -72157,6 +72190,7 @@ StabiliServers,38.135.34.0/24
 "EasyDataHost S.L",153.92.27.0/24
 "EasyDataHost S.L",155.133.192.0/23
 "EasyDataHost S.L",185.136.216.0/22
+"EasyDataHost S.L",194.121.26.0/24
 "Alfahost LLC",77.239.124.0/24
 "Alfahost LLC",144.31.24.0/24
 "Alfahost LLC",144.31.223.0/24
@@ -73590,7 +73624,7 @@ StabiliServers,38.135.34.0/24
 "WHG Hosting Services Ltd",103.138.188.0/24
 "WHG Hosting Services Ltd",195.250.27.0/24
 "WHG Hosting Services Ltd",195.250.28.0/24
-"Private-Hosting di Cipriano oscar",41.216.188.0/23
+"Private-Hosting di Cipriano oscar",41.216.189.0/24
 "CARDOCK HOSTING LIMITED",185.83.229.0/24
 "CARDOCK HOSTING LIMITED",185.22.229.0/24
 "AdminVPS OOO",5.35.124.0/22
@@ -74628,6 +74662,7 @@ StabiliServers,38.135.34.0/24
 "Hostup AB",193.53.40.0/24
 "Hostup AB",206.168.212.0/22
 "Hostup AB",207.2.123.0/24
+"DanBot Hosting LTD",82.38.134.0/24
 "DanBot Hosting LTD",185.223.80.0/24
 "AxusHost B.V",81.161.238.0/24
 "AxusHost B.V",95.155.156.0/24
@@ -74742,6 +74777,7 @@ StabiliServers,38.135.34.0/24
 "netcup GmbH",152.53.240.0/22
 "netcup GmbH",159.195.12.0/22
 "netcup GmbH",159.195.16.0/22
+"netcup GmbH",159.195.91.0/24
 "netcup GmbH",159.195.92.0/22
 "OXIGEN Data Center S.L",46.27.195.0/24
 "OXIGEN Data Center S.L",78.41.57.0/24
@@ -74781,7 +74817,6 @@ StabiliServers,38.135.34.0/24
 "NovoServe B.V",154.6.96.0/22
 "NovoServe B.V",154.6.193.0/24
 "NovoServe B.V",154.16.180.0/24
-"NovoServe B.V",165.49.64.0/24
 "NovoServe B.V",181.215.178.0/24
 "NovoServe B.V",185.177.228.0/24
 "NovoServe B.V",185.224.217.0/24
@@ -74936,6 +74971,7 @@ StabiliServers,38.135.34.0/24
 "Edgevana Inc",206.206.82.0/24
 "Edgevana Inc",206.206.85.0/24
 "Edgevana Inc",216.74.105.0/24
+"Bilhost Bilisim Teknolojileri A.S",213.238.170.0/24
 "Scandinavian Hosting AB",185.141.152.0/22
 "Partner Hosting LTD",5.252.153.0/24
 "Partner Hosting LTD",5.252.155.0/24
@@ -74973,7 +75009,7 @@ StabiliServers,38.135.34.0/24
 "VPSVAULT.HOST LTD",87.121.84.0/24
 "GoodLeaf Hosting & Development LLC",67.227.44.0/24
 "GoodLeaf Hosting & Development LLC",88.218.205.0/24
-"GoodLeaf Hosting & Development LLC",140.235.124.0/24
+"GoodLeaf Hosting & Development LLC",140.235.124.0/23
 "GoodLeaf Hosting & Development LLC",176.97.213.0/24
 "GoodLeaf Hosting & Development LLC",192.41.102.0/24
 "GoodLeaf Hosting & Development LLC",192.157.29.0/24
@@ -75082,6 +75118,7 @@ StabiliServers,38.135.34.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",144.31.140.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",144.31.200.0/23
 "INTERNATIONAL HOSTING COMPANY LIMITED",144.31.204.0/23
+"INTERNATIONAL HOSTING COMPANY LIMITED",144.31.250.0/24
 "INTERNATIONAL HOSTING COMPANY LIMITED",147.45.196.0/23
 "INTERNATIONAL HOSTING COMPANY LIMITED",147.45.222.0/23
 "INTERNATIONAL HOSTING COMPANY LIMITED",150.241.90.0/23
@@ -75434,7 +75471,7 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",82.23.172.0/24
 "Zenlayer Inc",82.25.35.0/24
 "Zenlayer Inc",82.27.197.0/24
-"Zenlayer Inc",82.38.42.0/23
+"Zenlayer Inc",82.38.43.0/24
 "Zenlayer Inc",82.38.200.0/24
 "Zenlayer Inc",82.39.148.0/24
 "Zenlayer Inc",82.39.155.0/24
@@ -75692,7 +75729,6 @@ StabiliServers,38.135.34.0/24
 "Zenlayer Inc",156.252.4.0/24
 "Zenlayer Inc",157.119.23.0/24
 "Zenlayer Inc",157.185.182.0/24
-"Zenlayer Inc",157.254.191.0/24
 "Zenlayer Inc",158.173.202.0/24
 "Zenlayer Inc",158.173.204.0/24
 "Zenlayer Inc",162.128.16.0/22
@@ -76062,6 +76098,7 @@ DEFT.COM,216.246.0.0/17
 "ReliableSite.Net LLC",104.243.38.0/24
 "ReliableSite.Net LLC",104.243.40.0/21
 "ReliableSite.Net LLC",128.254.144.0/24
+"ReliableSite.Net LLC",128.254.147.0/24
 "ReliableSite.Net LLC",128.254.207.0/24
 "ReliableSite.Net LLC",138.204.111.0/24
 "ReliableSite.Net LLC",140.99.223.0/24
@@ -76494,7 +76531,6 @@ GigeNET,66.252.16.0/21
 "Coloplast A/S",194.0.134.0/24
 "INTERKVM HOST SRL",5.199.3.0/24
 "INTERKVM HOST SRL",23.27.114.0/24
-"INTERKVM HOST SRL",31.56.192.0/24
 "INTERKVM HOST SRL",31.57.191.0/24
 "INTERKVM HOST SRL",31.57.237.0/24
 "INTERKVM HOST SRL",45.128.78.0/24
@@ -76502,6 +76538,7 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",45.195.150.0/24
 "INTERKVM HOST SRL",45.195.159.0/24
 "INTERKVM HOST SRL",45.197.21.0/24
+"INTERKVM HOST SRL",45.201.8.0/24
 "INTERKVM HOST SRL",46.203.72.0/24
 "INTERKVM HOST SRL",46.203.180.0/24
 "INTERKVM HOST SRL",46.229.243.0/24
@@ -76512,11 +76549,11 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",64.50.178.0/24
 "INTERKVM HOST SRL",66.92.171.0/24
 "INTERKVM HOST SRL",66.93.12.0/24
-"INTERKVM HOST SRL",66.93.23.0/24
 "INTERKVM HOST SRL",66.93.132.0/24
 "INTERKVM HOST SRL",66.93.179.0/24
 "INTERKVM HOST SRL",67.210.107.0/24
 "INTERKVM HOST SRL",68.167.52.0/24
+"INTERKVM HOST SRL",69.33.5.0/24
 "INTERKVM HOST SRL",74.81.78.0/24
 "INTERKVM HOST SRL",74.114.33.0/24
 "INTERKVM HOST SRL",76.164.200.0/22
@@ -76524,7 +76561,6 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",77.93.133.0/24
 "INTERKVM HOST SRL",77.246.223.0/24
 "INTERKVM HOST SRL",79.99.146.0/24
-"INTERKVM HOST SRL",79.172.228.0/24
 "INTERKVM HOST SRL",81.168.105.0/24
 "INTERKVM HOST SRL",82.21.7.0/24
 "INTERKVM HOST SRL",82.21.199.0/24
@@ -76555,8 +76591,10 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",91.238.92.0/24
 "INTERKVM HOST SRL",91.246.27.0/24
 "INTERKVM HOST SRL",92.42.100.0/24
+"INTERKVM HOST SRL",92.112.106.0/24
 "INTERKVM HOST SRL",92.113.208.0/24
 "INTERKVM HOST SRL",93.114.194.0/24
+"INTERKVM HOST SRL",95.133.244.0/23
 "INTERKVM HOST SRL",95.135.58.0/24
 "INTERKVM HOST SRL",95.135.164.0/24
 "INTERKVM HOST SRL",95.214.173.0/24
@@ -76604,7 +76642,6 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",167.148.175.0/24
 "INTERKVM HOST SRL",168.222.3.0/24
 "INTERKVM HOST SRL",168.222.63.0/24
-"INTERKVM HOST SRL",173.211.3.0/24
 "INTERKVM HOST SRL",178.239.112.0/24
 "INTERKVM HOST SRL",185.101.107.0/24
 "INTERKVM HOST SRL",185.104.63.0/24
@@ -76615,7 +76652,6 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",188.211.233.0/24
 "INTERKVM HOST SRL",188.241.218.0/23
 "INTERKVM HOST SRL",193.5.11.0/24
-"INTERKVM HOST SRL",193.32.187.0/24
 "INTERKVM HOST SRL",194.58.36.0/24
 "INTERKVM HOST SRL",194.87.122.0/24
 "INTERKVM HOST SRL",194.231.139.0/24
@@ -76635,7 +76671,6 @@ GigeNET,66.252.16.0/21
 "INTERKVM HOST SRL",212.74.34.0/24
 "INTERKVM HOST SRL",212.100.190.0/24
 "INTERKVM HOST SRL",212.135.20.0/24
-"INTERKVM HOST SRL",212.135.164.0/24
 "INTERKVM HOST SRL",212.135.246.0/23
 "INTERKVM HOST SRL",213.157.123.0/24
 "INTERKVM HOST SRL",213.179.70.0/24
@@ -77592,6 +77627,7 @@ MOJOHOST,208.122.192.0/19
 "Easyhost BVBA",94.198.160.0/21
 "Easyhost BVBA",217.22.48.0/20
 "Leaseweb Deutschland GmbH",5.61.32.0/20
+"Leaseweb Deutschland GmbH",23.19.196.0/23
 "Leaseweb Deutschland GmbH",31.56.138.0/24
 "Leaseweb Deutschland GmbH",31.57.43.0/24
 "Leaseweb Deutschland GmbH",31.57.76.0/24
@@ -78398,6 +78434,7 @@ MOJOHOST,208.122.192.0/19
 "HIVELOCITY Inc",109.176.56.0/21
 "HIVELOCITY Inc",109.176.235.0/24
 "HIVELOCITY Inc",114.129.10.0/23
+"HIVELOCITY Inc",115.167.77.0/24
 "HIVELOCITY Inc",130.254.40.0/22
 "HIVELOCITY Inc",131.196.172.0/22
 "HIVELOCITY Inc",139.177.145.0/24
@@ -78661,7 +78698,6 @@ MOJOHOST,208.122.192.0/19
 "Equinix Inc",198.32.109.0/24
 "ColoGuys Inc",209.135.16.0/20
 FDCservers.net,2.56.101.0/24
-FDCservers.net,23.26.204.0/24
 FDCservers.net,23.27.16.0/24
 FDCservers.net,23.237.0.0/20
 FDCservers.net,23.237.16.0/21
@@ -78771,7 +78807,6 @@ FDCservers.net,62.192.98.0/23
 FDCservers.net,62.192.104.0/23
 FDCservers.net,62.192.116.0/22
 FDCservers.net,64.8.226.0/23
-FDCservers.net,64.22.82.0/24
 FDCservers.net,64.105.80.0/22
 FDCservers.net,64.105.86.0/23
 FDCservers.net,64.105.92.0/22
@@ -78962,6 +78997,7 @@ FDCservers.net,198.255.112.0/22
 FDCservers.net,198.255.117.0/24
 FDCservers.net,198.255.118.0/23
 FDCservers.net,198.255.120.0/21
+FDCservers.net,202.155.147.0/24
 FDCservers.net,205.196.146.0/24
 FDCservers.net,208.123.222.0/24
 FDCservers.net,209.101.0.0/21
@@ -79099,7 +79135,6 @@ Host-Engine.com,149.112.128.0/24
 "Wolfpaw Data Centres Inc",208.123.212.0/22
 "Wolfpaw Data Centres Inc",208.123.216.0/22
 "Leaseweb USA Inc",5.181.40.0/23
-"Leaseweb USA Inc",23.19.196.0/23
 "Leaseweb USA Inc",23.82.8.0/21
 "Leaseweb USA Inc",23.82.128.0/22
 "Leaseweb USA Inc",23.105.0.0/20
@@ -79184,6 +79219,7 @@ Host-Engine.com,149.112.128.0/24
 "Lifeline Data Centers",65.111.250.0/24
 "Lifeline Data Centers",65.111.252.0/22
 "Equinix Inc",142.34.23.0/24
+"aurologic GmbH",41.216.188.0/24
 "aurologic GmbH",45.11.16.0/22
 "aurologic GmbH",45.59.112.0/24
 "aurologic GmbH",45.61.156.0/24
@@ -79961,6 +79997,7 @@ OXAHOST,102.219.176.0/22
 "Truehost Cloud Limited",102.212.244.0/22
 "Truehost Cloud Limited",156.232.88.0/24
 "West Africa Data Centres Limited",102.211.114.0/23
+"Vhost Limited",102.203.172.0/22
 "Vhost Limited",102.206.68.0/22
 "Vhost Limited",102.209.180.0/22
 "Maroc Datacenter MDC",102.208.100.0/24
@@ -80341,6 +80378,7 @@ ALLHOSTSHOP.COM,216.18.238.0/24
 "Akamai International B.V",95.100.90.0/23
 "Akamai International B.V",95.100.92.0/24
 "Akamai International B.V",95.101.12.0/24
+"Akamai International B.V",95.101.112.0/24
 "Akamai International B.V",95.101.121.0/24
 "Akamai International B.V",95.101.138.0/23
 "Akamai International B.V",104.73.162.0/24
@@ -80500,7 +80538,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies Inc",23.32.2.0/24
 "Akamai Technologies Inc",23.32.4.0/24
 "Akamai Technologies Inc",23.32.18.0/23
-"Akamai Technologies Inc",23.32.37.0/24
+"Akamai Technologies Inc",23.32.36.0/23
 "Akamai Technologies Inc",23.32.155.0/24
 "Akamai Technologies Inc",23.32.181.0/24
 "Akamai Technologies Inc",23.33.26.0/24
@@ -80860,13 +80898,15 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies Inc",172.224.160.0/22
 "Akamai Technologies Inc",172.224.164.0/23
 "Akamai Technologies Inc",172.224.166.0/24
-"Akamai Technologies Inc",172.224.168.0/22
+"Akamai Technologies Inc",172.224.168.0/24
+"Akamai Technologies Inc",172.224.170.0/23
 "Akamai Technologies Inc",172.224.172.0/24
 "Akamai Technologies Inc",172.224.174.0/23
 "Akamai Technologies Inc",172.224.176.0/23
 "Akamai Technologies Inc",172.224.179.0/24
 "Akamai Technologies Inc",172.224.180.0/22
-"Akamai Technologies Inc",172.224.184.0/22
+"Akamai Technologies Inc",172.224.185.0/24
+"Akamai Technologies Inc",172.224.186.0/23
 "Akamai Technologies Inc",172.224.189.0/24
 "Akamai Technologies Inc",172.224.190.0/23
 "Akamai Technologies Inc",172.224.192.0/21
@@ -80958,6 +80998,7 @@ X-HOST-COMMUNICATION-SRL,45.14.237.0/24
 "Akamai Technologies Inc",172.225.216.0/24
 "Akamai Technologies Inc",172.225.218.0/23
 "Akamai Technologies Inc",172.225.220.0/23
+"Akamai Technologies Inc",172.225.222.0/24
 "Akamai Technologies Inc",172.225.224.0/21
 "Akamai Technologies Inc",172.225.233.0/24
 "Akamai Technologies Inc",172.225.235.0/24
@@ -83164,6 +83205,7 @@ Latitude.sh,5.253.47.0/24
 Latitude.sh,5.253.200.0/23
 Latitude.sh,5.253.203.0/24
 Latitude.sh,14.102.53.0/24
+Latitude.sh,23.230.45.0/24
 Latitude.sh,31.22.73.0/24
 Latitude.sh,31.56.139.0/24
 Latitude.sh,31.57.90.0/24
@@ -83942,6 +83984,7 @@ HostMyCalls,104.232.44.0/24
 "VPSie INC",23.148.4.0/24
 "VPSie INC",23.162.112.0/23
 "VPSie INC",23.247.152.0/22
+"VPSie INC",206.83.146.0/24
 "VPSie INC",208.85.92.0/22
 "Ace Host LLC",5.183.78.0/24
 "Ace Host LLC",23.173.136.0/24
@@ -83952,6 +83995,7 @@ HostMyCalls,104.232.44.0/24
 "Ace Host LLC",38.101.24.0/22
 "Ace Host LLC",45.14.114.0/24
 "Ace Host LLC",45.133.72.0/24
+"Ace Host LLC",68.65.27.0/24
 "Ace Host LLC",83.136.48.0/24
 "Ace Host LLC",147.189.139.0/24
 "Ace Host LLC",161.38.60.0/24
@@ -83961,7 +84005,9 @@ HostMyCalls,104.232.44.0/24
 "Ace Host LLC",194.62.167.0/24
 "Ace Host LLC",209.216.77.0/24
 "Ace Host LLC",209.216.78.0/23
-"Ace Host LLC",209.216.80.0/21
+"Ace Host LLC",209.216.80.0/23
+"Ace Host LLC",209.216.83.0/24
+"Ace Host LLC",209.216.84.0/22
 "Ace Host LLC",209.216.88.0/22
 "Ace Host LLC",209.216.92.0/23
 "Ace Host LLC",209.216.94.0/24
@@ -84144,6 +84190,8 @@ Hostodo,216.126.238.0/24
 "EDGENAT CLOUD",151.243.49.0/24
 "EDGENAT CLOUD",151.243.95.0/24
 "EDGENAT CLOUD",155.117.148.0/24
+"Hostings House",66.245.164.0/23
+"Hostings House",66.245.166.0/24
 "Hostings House",103.181.98.0/23
 "Hostings House",162.221.148.0/22
 "Hosting Bot LLC",23.27.96.0/23
@@ -84423,6 +84471,7 @@ HostPapa,216.222.192.0/21
 "Ace Data Centers II L.L.C",23.26.103.0/24
 "Ace Data Centers II L.L.C",23.26.119.0/24
 "Ace Data Centers II L.L.C",23.26.130.0/23
+"Ace Data Centers II L.L.C",23.26.132.0/24
 "Ace Data Centers II L.L.C",23.26.138.0/24
 "Ace Data Centers II L.L.C",23.26.150.0/24
 "Ace Data Centers II L.L.C",23.26.152.0/24
@@ -84453,7 +84502,6 @@ HostPapa,216.222.192.0/21
 "Ace Data Centers II L.L.C",23.27.252.0/24
 "Ace Data Centers II L.L.C",50.114.16.0/23
 "Ace Data Centers II L.L.C",50.114.20.0/24
-"Ace Data Centers II L.L.C",50.114.32.0/24
 "Ace Data Centers II L.L.C",50.114.44.0/24
 "Ace Data Centers II L.L.C",50.114.66.0/23
 "Ace Data Centers II L.L.C",50.114.68.0/22
@@ -84506,6 +84554,7 @@ HostPapa,216.222.192.0/21
 "Ace Data Centers II L.L.C",136.0.82.0/23
 "Ace Data Centers II L.L.C",136.0.94.0/23
 "Ace Data Centers II L.L.C",136.0.116.0/24
+"Ace Data Centers II L.L.C",136.0.133.0/24
 "Ace Data Centers II L.L.C",136.0.224.0/24
 "Ace Data Centers II L.L.C",136.0.232.0/24
 "Ace Data Centers II L.L.C",136.0.241.0/24
@@ -84522,8 +84571,6 @@ HostPapa,216.222.192.0/21
 "Ace Data Centers II L.L.C",144.31.15.0/24
 "Ace Data Centers II L.L.C",144.31.32.0/19
 "Ace Data Centers II L.L.C",144.31.96.0/22
-"Ace Data Centers II L.L.C",144.31.101.0/24
-"Ace Data Centers II L.L.C",144.31.102.0/24
 "Ace Data Centers II L.L.C",144.31.109.0/24
 "Ace Data Centers II L.L.C",144.31.110.0/23
 "Ace Data Centers II L.L.C",144.31.112.0/23
@@ -84618,6 +84665,7 @@ HostPapa,216.222.192.0/21
 "Ace Data Centers II L.L.C",193.23.198.0/24
 "Ace Data Centers II L.L.C",193.23.204.0/22
 "Ace Data Centers II L.L.C",193.23.212.0/22
+"Ace Data Centers II L.L.C",193.23.222.0/24
 "Ace Data Centers II L.L.C",198.20.128.0/22
 "Ace Data Centers II L.L.C",198.20.136.0/22
 "Ace Data Centers II L.L.C",198.20.144.0/22
@@ -85507,6 +85555,7 @@ HostPapa,216.222.192.0/21
 "NForce Entertainment B.V",141.11.246.0/24
 "NForce Entertainment B.V",141.11.250.0/24
 "NForce Entertainment B.V",141.98.80.0/24
+"NForce Entertainment B.V",143.20.82.0/24
 "NForce Entertainment B.V",154.16.12.0/24
 "NForce Entertainment B.V",154.16.16.0/24
 "NForce Entertainment B.V",166.0.162.0/24
@@ -87418,6 +87467,7 @@ Arcserve,199.204.172.0/22
 "Yigit Hosting Bilisim E-Ticaret Gida Sanayi Ticaret Limited Sirketi",194.146.47.0/24
 "RUBIX DATACENTER SAS",80.91.89.0/24
 "RUBIX DATACENTER SAS",80.245.56.0/24
+"RUBIX DATACENTER SAS",80.245.58.0/23
 "RUBIX DATACENTER SAS",82.129.65.0/24
 "RUBIX DATACENTER SAS",82.138.75.0/24
 "RUBIX DATACENTER SAS",82.138.86.0/24
@@ -87554,7 +87604,6 @@ Arcserve,199.204.172.0/22
 "ColoHouse LLC",107.178.59.0/24
 "ColoHouse LLC",107.178.60.0/22
 "ColoHouse LLC",138.36.16.0/22
-"ColoHouse LLC",140.235.125.0/24
 "ColoHouse LLC",162.252.56.0/22
 "ColoHouse LLC",162.255.136.0/22
 "ColoHouse LLC",181.225.136.0/22
@@ -87595,7 +87644,7 @@ Arcserve,199.204.172.0/22
 "Uniwersytet Przyrodniczo Humanistyczny w Siedlcach",91.210.48.0/22
 "20i Limited",45.8.224.0/22
 "20i Limited",46.247.89.0/24
-"20i Limited",46.247.90.0/24
+"20i Limited",46.247.90.0/23
 "20i Limited",67.213.218.0/24
 "20i Limited",185.146.164.0/22
 "20i Limited",185.151.28.0/22
@@ -88867,7 +88916,7 @@ Arcserve,199.204.172.0/22
 "JSC Selectel",213.232.192.0/24
 "JSC Selectel",213.232.228.0/23
 "JSC Selectel",213.232.251.0/24
-"JSC Selectel",217.168.244.0/22
+"JSC Selectel",217.168.240.0/21
 "Ahosting a.s",95.215.80.0/22
 "IQHost Ltd",193.106.172.0/22
 "O2SWITCH SAS",45.143.168.0/22
@@ -89432,6 +89481,7 @@ Arcserve,199.204.172.0/22
 "Private Layer INC",92.113.227.0/24
 "Private Layer INC",141.255.160.0/21
 "Private Layer INC",149.33.15.0/24
+"Private Layer INC",176.65.144.0/24
 "Private Layer INC",176.223.111.0/24
 "Private Layer INC",176.223.112.0/23
 "Private Layer INC",179.43.128.0/18
@@ -91156,8 +91206,6 @@ OneAsiaHost,116.251.216.0/21
 "UAB Cherry Servers",155.117.8.0/22
 "UAB Cherry Servers",162.141.11.0/24
 "UAB Cherry Servers",195.189.96.0/22
-"UAB Cherry Servers",212.42.208.0/20
-"UAB Cherry Servers",212.73.149.0/24
 "UAB Cherry Servers",217.217.72.0/21
 "UAB Cherry Servers",217.217.128.0/20
 "Hoster kg Ltd",5.59.232.0/23
@@ -91396,7 +91444,7 @@ OneAsiaHost,116.251.216.0/21
 "LeaseWeb Netherlands B.V",45.133.211.0/24
 "LeaseWeb Netherlands B.V",45.134.186.0/24
 "LeaseWeb Netherlands B.V",45.135.38.0/24
-"LeaseWeb Netherlands B.V",45.136.174.0/23
+"LeaseWeb Netherlands B.V",45.136.175.0/24
 "LeaseWeb Netherlands B.V",45.136.228.0/22
 "LeaseWeb Netherlands B.V",45.137.61.0/24
 "LeaseWeb Netherlands B.V",45.137.62.0/23
@@ -91659,7 +91707,8 @@ OneAsiaHost,116.251.216.0/21
 "LeaseWeb Netherlands B.V",194.29.79.0/24
 "LeaseWeb Netherlands B.V",194.33.32.0/24
 "LeaseWeb Netherlands B.V",194.33.62.0/24
-"LeaseWeb Netherlands B.V",194.35.224.0/22
+"LeaseWeb Netherlands B.V",194.35.224.0/23
+"LeaseWeb Netherlands B.V",194.35.226.0/24
 "LeaseWeb Netherlands B.V",194.41.8.0/24
 "LeaseWeb Netherlands B.V",194.41.38.0/24
 "LeaseWeb Netherlands B.V",194.45.34.0/24
@@ -91952,6 +92001,7 @@ OneAsiaHost,116.251.216.0/21
 "Hivelocity LLC",95.142.116.0/24
 "Hivelocity LLC",95.142.119.0/24
 "Hivelocity LLC",95.142.122.0/23
+"Hivelocity LLC",96.31.85.0/24
 "Hivelocity LLC",102.129.144.0/24
 "Hivelocity LLC",102.129.184.0/24
 "Hivelocity LLC",102.129.190.0/24
@@ -93190,7 +93240,6 @@ HostRush,207.231.110.0/23
 "ZSCALER INC",199.168.149.0/24
 "ZSCALER INC",199.168.150.0/24
 "BrightEdge Technologies",38.108.179.0/24
-"BrightEdge Technologies",67.139.155.0/24
 "BrightEdge Technologies",198.232.216.0/23
 "Abc-Hosters LLC",167.88.49.0/24
 "Dallas Data Center",162.250.224.0/22
@@ -93258,7 +93307,6 @@ GTHost,38.121.43.0/24
 GTHost,38.128.66.0/24
 GTHost,38.143.66.0/24
 GTHost,38.224.162.0/24
-GTHost,40.223.84.0/22
 GTHost,45.42.238.0/24
 GTHost,45.66.164.0/24
 GTHost,45.88.160.0/24
@@ -93676,7 +93724,6 @@ CrocWeb,192.206.54.0/23
 "VIVID-HOSTING LLC",68.64.136.0/23
 "VIVID-HOSTING LLC",69.30.78.0/24
 "VIVID-HOSTING LLC",69.30.86.0/23
-"VIVID-HOSTING LLC",72.1.184.0/22
 "VIVID-HOSTING LLC",72.1.188.0/23
 "VIVID-HOSTING LLC",72.236.86.0/23
 "VIVID-HOSTING LLC",72.237.36.0/24
@@ -93818,7 +93865,7 @@ CrocWeb,192.206.54.0/23
 "Netminders Server Hosting",104.243.254.0/24
 "Netminders Server Hosting",104.255.157.0/24
 "Netminders Server Hosting",104.255.159.0/24
-"Netminders Server Hosting",162.254.132.0/23
+"Netminders Server Hosting",162.254.132.0/24
 "Netminders Server Hosting",162.254.135.0/24
 "Netminders Server Hosting",172.94.7.0/24
 "Netminders Server Hosting",172.111.135.0/24
@@ -94042,10 +94089,7 @@ HostUS,216.189.156.0/22
 "Servers.com Inc",23.109.82.0/24
 "Servers.com Inc",23.109.84.0/22
 "Servers.com Inc",23.109.88.0/21
-"Servers.com Inc",23.109.96.0/24
-"Servers.com Inc",23.109.98.0/23
-"Servers.com Inc",23.109.100.0/22
-"Servers.com Inc",23.109.104.0/21
+"Servers.com Inc",23.109.96.0/20
 "Servers.com Inc",23.109.112.0/21
 "Servers.com Inc",23.109.120.0/22
 "Servers.com Inc",23.109.128.0/19
@@ -94161,6 +94205,8 @@ HostUS,216.189.156.0/22
 "Servers.com Inc",170.23.160.0/23
 "Servers.com Inc",170.23.164.0/22
 "Servers.com Inc",170.23.168.0/21
+"Servers.com Inc",170.23.192.0/23
+"Servers.com Inc",170.23.196.0/22
 "Servers.com Inc",172.84.181.0/24
 "Servers.com Inc",172.84.191.0/24
 "Servers.com Inc",172.85.109.0/24
@@ -94551,6 +94597,7 @@ HostUS,216.189.156.0/22
 "dogado GmbH",91.206.142.0/23
 "dogado GmbH",91.226.88.0/22
 "dogado GmbH",93.90.176.0/20
+"dogado GmbH",94.154.148.0/22
 "dogado GmbH",128.127.64.0/21
 "dogado GmbH",178.20.96.0/22
 "dogado GmbH",178.20.102.0/23
