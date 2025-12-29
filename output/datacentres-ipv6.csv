@@ -16078,7 +16078,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2025-12-27 10:00:04.379856"
+Linode,"# Last modified: 2025-12-28 10:00:04.578822"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
@@ -16903,6 +16903,7 @@ EGIHosting,2a0c:9ac0::/29
 "Leaseweb USA Inc",2a14:9e00:4::/48
 "Leaseweb USA Inc",2a14:9e00:8::/48
 "Rochester Colo LLC",2604:2620::/32
+"Interserver Inc",2601:2020::/31
 "Interserver Inc",2604:a00::/32
 "Interserver Inc",2a0a:b382::/32
 "Interserver Inc",2a0f:1207::/32
@@ -17500,8 +17501,7 @@ StabiliServers,2605:e480:11::/48
 "The Constant Company LLC",2a0f:9400:6166::/47
 "The Constant Company LLC",2a0f:9400:690a::/47
 "The Constant Company LLC",2a0f:9400:8020::/48
-"The Constant Company LLC",2a10:ccc1:449::/48
-"The Constant Company LLC",2a10:ccc1:44b::/48
+"The Constant Company LLC",2a10:ccc1:467::/48
 "The Constant Company LLC",2a11:29c0:3dd0::/44
 "The Constant Company LLC",2a12:fc0:10::/48
 "The Constant Company LLC",2a12:5340:6::/47
@@ -17678,7 +17678,6 @@ StabiliServers,2605:e480:11::/48
 "HostSlim B.V",2a0f:6284:1::/48
 "HostSlim B.V",2a0f:6284:4213::/48
 "HostSlim B.V",2a0f:6284:4219::/48
-"HostSlim B.V",2a0f:6284:8000::/36
 "PacketHub S.A",2a13:240::/44
 "PacketHub S.A",2a13:240:10::/48
 "PacketHub S.A",2a13:240:4500::/40
@@ -18059,6 +18058,7 @@ StabiliServers,2605:e480:11::/48
 "dataforest GmbH",2a0f:6284:2::/48
 "dataforest GmbH",2a0f:b240:12::/48
 "dataforest GmbH",2a14:7586:5000::/36
+"GoodHost s.r.o",2a0f:85c1:355::/48
 "Luc Haaijer trading as Ferox Hosting",2a07:54c1:c600::/40
 "Luc Haaijer trading as Ferox Hosting",2a12:bec0:650::/47
 "Thimaq Strati trading as iHost.al",2a12:4046::/32
@@ -18399,8 +18399,7 @@ HOSTING.CL,2803:6580::/32
 "BB Host LTDA",2804:3fd8::/32
 "EQUINIX BRASIL",2804:50:3::/48
 "EQUINIX BRASIL",2804:50:22::/48
-"Interserver Inc",2601:2010::/31
-"Interserver Inc",2601:2012::/32
+"Interserver Inc",2601:2010::/30
 "Interserver Inc",2604:a00:101::/48
 "Interserver Inc",2604:a00:1ac1::/48
 "Interserver Inc",2604:a00:1aca::/48
@@ -18577,7 +18576,6 @@ MOJOHOST,2607:ffb8::/32
 "HIVELOCITY Inc",2602:f5b3:1::/48
 "HIVELOCITY Inc",2602:f972:a::/48
 "HIVELOCITY Inc",2602:f972:10::/48
-"HIVELOCITY Inc",2602:ff16:1::/48
 "HIVELOCITY Inc",2602:ff16:2::/47
 "HIVELOCITY Inc",2602:ff16:4::/46
 "HIVELOCITY Inc",2602:ff16:8::/47
@@ -20917,7 +20915,10 @@ Latitude.sh,2a13:9500:88::/47
 "VPS House Technology Group LLC",2602:fcd5:a::/47
 "VPS House Technology Group LLC",2602:fcd5:c::/46
 "VPS House Technology Group LLC",2602:fcd5:10::/44
-"VPS House Technology Group LLC",2602:fcd5:20::/43
+"VPS House Technology Group LLC",2602:fcd5:20::/45
+"VPS House Technology Group LLC",2602:fcd5:28::/46
+"VPS House Technology Group LLC",2602:fcd5:2c::/47
+"VPS House Technology Group LLC",2602:fcd5:30::/44
 "VPS House Technology Group LLC",2602:fcd5:40::/45
 "VPS House Technology Group LLC",2602:fcd5:48::/46
 "Red Hat Inc",2620:52:10::/48
@@ -21045,7 +21046,6 @@ HostPapa,2620:b:e000::/48
 "Psychz Networks",2604:980:1::/48
 "Psychz Networks",2604:6600::/32
 "Psychz Networks",2606:c0:3::/48
-"Psychz Networks",2606:cc0:10::/48
 "Psychz Networks",2606:6680:2::/48
 "Psychz Networks",2606:6680:4::/48
 "Psychz Networks",2606:6680:7::/48
@@ -21599,6 +21599,7 @@ Sharktech,2a0c:c181::/32
 "SIA RixHost",2a02:4840:1000::/48
 "Critical Colocation S.A",2800:9b0::/32
 "IRONSERVERS E.I.R.L",2803:8240::/32
+"F1 SOLUTIONS DATACENTER E TELECOMUNICACOES LTDA",2804:a64:8000::/34
 "Ascenty Data Centers e Telecomunicações S/A",2804:ad4::/32
 "ENGETRONICS INTERNET DATACENTER",2804:3cb8::/32
 "GRUPOHOST COMUNICACAO MULTIMIDIA LTDA",2804:1674::/32
@@ -21642,7 +21643,6 @@ Sharktech,2a0c:c181::/32
 "Free Range Cloud Hosting Inc",2602:fed2:7190::/48
 "Free Range Cloud Hosting Inc",2602:fed2:7197::/48
 "Free Range Cloud Hosting Inc",2602:fed2:719b::/48
-"Free Range Cloud Hosting Inc",2602:fed2:719d::/48
 "Free Range Cloud Hosting Inc",2602:fed2:719f::/48
 "Free Range Cloud Hosting Inc",2602:fed2:7301::/48
 "Free Range Cloud Hosting Inc",2602:fed2:7305::/48
@@ -22613,7 +22613,6 @@ xTom,2a0d:c7c0::/32
 "Zenlayer Inc",2a0b:21c1:601e::/47
 "Zenlayer Inc",2a0b:21c1:6020::/47
 "Zenlayer Inc",2a0b:21c1:6024::/46
-HostRush,2606:cc0:11::/48
 HostRush,2606:cc0:200::/40
 HostRush,2606:cc0:400::/40
 "HostRocket.com Inc",2605:f080:700::/40
@@ -22670,7 +22669,9 @@ GTHost,2a13:18c2::/32
 "Atlantic.net Inc",2607:f170:100::/42
 "Atlantic.net Inc",2607:f170:140::/43
 "Atlantic.net Inc",2607:f170:170::/44
+"Atlantic.net Inc",2607:f170:300::/44
 "Atlantic.net Inc",2607:f170:8000::/44
+"Atlantic.net Inc",2a03:41a0::/44
 "Atlantic.net Inc",2a03:41a0:100::/44
 "HOSTVN Technology Solutions Joint Stock Company",2001:df2:27c0::/48
 "HOSTVN Technology Solutions Joint Stock Company",2001:df3:2d00::/48
