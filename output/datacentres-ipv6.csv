@@ -11813,6 +11813,7 @@
 "Microsoft Azure Public",2603:1030:9:874::/64
 "Microsoft Azure Public",2603:1030:9:876::/63
 "Microsoft Azure Public",2603:1030:9:878::/62
+"Microsoft Azure Public",2603:1030:9:87c::/64
 "Microsoft Azure Public",2603:1030:a::/47
 "Microsoft Azure Public",2603:1030:d::/48
 "Microsoft Azure Public",2603:1030:10::/47
@@ -12487,7 +12488,7 @@
 "Microsoft Azure Public",2603:1030:401:a94::/62
 "Microsoft Azure Public",2603:1030:401:a98::/61
 "Microsoft Azure Public",2603:1030:401:aa0::/60
-"Microsoft Azure Public",2603:1030:401:ab0::/62
+"Microsoft Azure Public",2603:1030:401:ab0::/61
 "Microsoft Azure Public",2603:1030:402::/47
 "Microsoft Azure Public",2603:1030:406::/47
 "Microsoft Azure Public",2603:1030:408::/48
@@ -12543,11 +12544,9 @@
 "Microsoft Azure Public",2603:1030:1406::/63
 "Microsoft Azure Public",2603:1036:3000:260::/59
 "Microsoft Azure Public",2603:1037:1:2e0::/59
-"Microsoft Azure Public",2603:1061:101a::/59
-"Microsoft Azure Public",2603:1061:101a:20::/60
-"Microsoft Azure Public",2603:1061:101a:30::/62
-"Microsoft Azure Public",2603:1061:101a:34::/63
-"Microsoft Azure Public",2603:1061:101a:36::/64
+"Microsoft Azure Public",2603:1061:101a::/58
+"Microsoft Azure Public",2603:1061:101a:40::/62
+"Microsoft Azure Public",2603:1061:101a:44::/63
 "Microsoft Azure Public",2603:1061:1312:4000::/54
 "Microsoft Azure Public",2603:1061:174c::/62
 "Microsoft Azure Public",2603:1061:2011:47::/64
@@ -13144,6 +13143,7 @@
 "Microsoft Azure Public",2603:1061:100d::/57
 "Microsoft Azure Public",2603:1061:100d:80::/59
 "Microsoft Azure Public",2603:1061:100d:a0::/61
+"Microsoft Azure Public",2603:1061:100d:a8::/63
 "Microsoft Azure Public",2603:1061:1310:2400::/54
 "Microsoft Azure Public",2603:1061:173a::/48
 "Microsoft Azure Public",2603:1061:2010:3a::/64
@@ -13683,6 +13683,8 @@
 "Microsoft Azure Public",2603:1030:804:580::/58
 "Microsoft Azure Public",2603:1030:804:5c0::/59
 "Microsoft Azure Public",2603:1030:804:5e0::/60
+"Microsoft Azure Public",2603:1030:804:5f0::/61
+"Microsoft Azure Public",2603:1030:804:5f8::/63
 "Microsoft Azure Public",2603:1030:805::/48
 "Microsoft Azure Public",2603:1030:806::/48
 "Microsoft Azure Public",2603:1030:807::/48
@@ -13822,10 +13824,8 @@
 "Microsoft Azure Public",2603:1037:1:280::/59
 "Microsoft Azure Public",2603:1061:1018::/58
 "Microsoft Azure Public",2603:1061:1018:40::/59
-"Microsoft Azure Public",2603:1061:1018:60::/61
-"Microsoft Azure Public",2603:1061:1018:68::/62
-"Microsoft Azure Public",2603:1061:1018:6c::/63
-"Microsoft Azure Public",2603:1061:1018:6e::/64
+"Microsoft Azure Public",2603:1061:1018:60::/60
+"Microsoft Azure Public",2603:1061:1018:70::/64
 "Microsoft Azure Public",2603:1061:1312:5800::/54
 "Microsoft Azure Public",2603:1061:174a::/63
 "Microsoft Azure Public",2603:1063:2206:4c::/64
@@ -14597,11 +14597,14 @@
 "Microsoft Azure Public",2603:1061:101c::/59
 "Microsoft Azure Public",2603:1061:101c:20::/60
 "Microsoft Azure Public",2603:1061:101c:30::/62
+"Microsoft Azure Public",2603:1061:101c:34::/64
 "Microsoft Azure Public",2603:1061:101d::/60
 "Microsoft Azure Public",2603:1061:101d:10::/62
 "Microsoft Azure Public",2603:1061:101d:14::/63
 "Microsoft Azure Public",2603:1061:101d:16::/64
-"Microsoft Azure Public",2603:1061:101e::/62
+"Microsoft Azure Public",2603:1061:101e::/60
+"Microsoft Azure Public",2603:1061:101e:10::/62
+"Microsoft Azure Public",2603:1061:101e:14::/64
 "Microsoft Azure Public",2603:1061:101f::/60
 "Microsoft Azure Public",2603:1061:101f:10::/62
 "Microsoft Azure Public",2603:1061:101f:14::/63
@@ -16249,7 +16252,7 @@ CloudFlare,2405:8100::/32
 CloudFlare,2a06:98c0::/29
 CloudFlare,2c0f:f248::/32
 Linode,"# This file contains a self-published geofeed as defined in https://datatracker.ietf.org/doc/html/rfc8805"
-Linode,"# Last modified: 2026-03-02 10:00:04.696820"
+Linode,"# Last modified: 2026-03-03 10:00:05.298324"
 Linode,2600:3c00::/32
 Linode,2600:3c0f:2::/48
 Linode,2600:3c01::/32
