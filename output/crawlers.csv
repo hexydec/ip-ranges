@@ -2241,6 +2241,8 @@ AppleBot,17.246.23.0/24,apple.com,http://www.apple.com/go/applebot
 "ChatGTP User",20.169.78.64/28,openai.com,https://openai.com/bot
 "ChatGTP User",20.169.78.80/28,openai.com,https://openai.com/bot
 "ChatGTP User",20.169.78.96/28,openai.com,https://openai.com/bot
+"ChatGTP User",20.169.86.224/28,openai.com,https://openai.com/bot
+"ChatGTP User",20.169.86.240/28,openai.com,https://openai.com/bot
 "ChatGTP User",20.169.87.112/28,openai.com,https://openai.com/bot
 "ChatGTP User",20.172.29.32/28,openai.com,https://openai.com/bot
 "ChatGTP User",20.193.233.240/28,openai.com,https://openai.com/bot
@@ -2862,7 +2864,7 @@ YandexBot,213.180.192.0/19,yandex.com,http://yandex.com/bots
 "Site27x7 Site Monitor",193.118.161.0/24,site24x7.com,
 "Site27x7 Site Monitor",193.118.161.1,site24x7.com,
 "Site27x7 Site Monitor",193.118.161.254,site24x7.com,
-"Site27x7 Site Monitor",169.148.148.0/23,site24x7.com,
+"Site27x7 Site Monitor",169.148.146.0/24,site24x7.com,
 "Site27x7 Site Monitor",103.122.78.0,site24x7.com,
 "Site27x7 Site Monitor",103.122.78.255,site24x7.com,
 "Site27x7 Site Monitor",103.103.199.0,site24x7.com,
@@ -2875,6 +2877,9 @@ YandexBot,213.180.192.0/19,yandex.com,http://yandex.com/bots
 "Site27x7 Site Monitor",169.148.147.255,site24x7.com,
 "Site27x7 Site Monitor",103.117.158.0,site24x7.com,
 "Site27x7 Site Monitor",103.117.159.255,site24x7.com,
+"Site27x7 Site Monitor",169.148.146.1,site24x7.com,
+"Site27x7 Site Monitor",169.148.146.254,site24x7.com,
+"Site27x7 Site Monitor",169.148.148.0/23,site24x7.com,
 "Site27x7 Site Monitor",103.89.75.0,site24x7.com,
 "Site27x7 Site Monitor",103.89.74.255,site24x7.com,
 "Site27x7 Site Monitor",103.103.196.0,site24x7.com,
@@ -3606,11 +3611,12 @@ PingdomBot,2a0d:3002:2100:a00c:5::4065,pingdom.com,http://www.pingdom.com/
 "Meta Crawlers",2a03:2880:f036::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f136::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f236::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
-"Meta Crawlers",163.70.148.0/24,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+"Meta Crawlers",57.145.10.0/23,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+"Meta Crawlers",2a03:2880:f385::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
+"Meta Crawlers",163.70.149.0/24,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f0a7::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f18b::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f28b::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
-"Meta Crawlers",163.70.149.0/24,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",57.144.168.0/23,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",2a03:2880:f354::/48,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
 "Meta Crawlers",57.144.52.0/23,meta.com,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers
