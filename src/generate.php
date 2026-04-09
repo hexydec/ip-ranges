@@ -82,6 +82,7 @@ class generate {
 				}
 			} else {
 				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'ips');
+				\set_time_limit(120);
 				if (!\copy($url, $file, $context)) {
 					$file = false;
 				}
