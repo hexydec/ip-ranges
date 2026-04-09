@@ -4,6 +4,12 @@ namespace hexydec\ipaddresses;
 
 class crawlers extends generate {
 
+	/**
+	 * Compiles crawler/bot IP ranges from JSON, HTML, text, and CSV sources for known search engines and monitoring services
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'name', 'range', 'domain', and 'url' keys
+	 */
 	public function compile(?string $cache = null) : \Generator {
 		$map = [
 			[
@@ -86,6 +92,7 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromJson($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -135,6 +142,7 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromHtml($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -165,6 +173,7 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromText($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -183,10 +192,11 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromCsv($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
-					'range' => $value,
+					'range' => $value[0],
 					'domain' => $item['domain'],
 					'url' => $item['url'] ?? null
 				];

@@ -6,12 +6,36 @@ class generate {
 
 	protected array $timing = [];
 
+	/**
+	 * Counts the total number of lines in a file
+	 *
+	 * @param string $file The path to the file to count lines in
+	 * @return int|false The number of lines, or false if the file does not exist
+	 */
+	public function getTotalLines(string $file) : int|false {
+		if (\file_exists($file)) {
+			\set_time_limit(120);
+			$obj = new \SplFileObject($file);
+			$obj->setFlags($obj::READ_AHEAD);
+			return \iterator_count($obj);
+		}
+		return false;
+	}
+
+	/**
+	 * Fetches a remote URL, optionally caching the result to a local file
+	 *
+	 * @param string $url The URL to fetch
+	 * @param ?string $cache The directory to cache downloaded files, or null to skip caching
+	 * @param bool $contents When true returns the file contents as a string, when false returns the local file path
+	 * @return string|false The file contents or local file path, or false on failure
+	 */
 	public function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
 		$local = null;
 
 		// generate cache file name
 		if ($cache !== null) {
-			$local = $cache.\preg_replace('/[^0-9a-z]+/i', '-', $url).'.cache';
+			$local = $cache.\preg_replace('/[^0-9a-z]+/i', '-', $url).(\strrchr(\basename($url), '.') ?: '');
 		}
 
 		// fetch from local cache
@@ -57,7 +81,7 @@ class generate {
 					return $file;
 				}
 			} else {
-				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'datacentres');
+				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'ips');
 				if (!\copy($url, $file, $context)) {
 					$file = false;
 				}
@@ -68,6 +92,13 @@ class generate {
 		return false;
 	}
 
+	/**
+	 * Fetches a JSON source and yields IP range prefixes from common JSON structures
+	 *
+	 * @param string $file The URL of the JSON file to fetch
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields CIDR range strings
+	 */
 	protected function getFromJson(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false && ($json = \json_decode($result)) !== null) {
 			foreach ($json->prefixes ?? [] AS $item) {
@@ -82,6 +113,13 @@ class generate {
 		}
 	}
 
+	/**
+	 * Fetches a plain text source and yields each line as an IP range
+	 *
+	 * @param string $file The URL of the text file to fetch
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields trimmed line strings
+	 */
 	protected function getFromText(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
 			foreach (\explode("\n", \trim($result)) AS $item) {
@@ -90,6 +128,13 @@ class generate {
 		}
 	}
 
+	/**
+	 * Fetches an HTML page and extracts IPv4/IPv6 addresses and CIDR ranges from its content
+	 *
+	 * @param string $file The URL of the HTML page to fetch
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields CIDR range or IP address strings
+	 */
 	protected function getFromHtml(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false && \preg_match_all('/(?<=[>\\n\\r\\t ])(?:[0-9]++(?:\.[0-9]++){3}|(?:[0-9a-f]{1,4}::?){2,7}(?:[0-9a-f]{1,4})?)(?:\/[0-9]{1,3})?(?=[<\\n\\r\\t ])/i', $result, $match)) {
 			foreach ($match[0] AS $item) {
@@ -100,20 +145,40 @@ class generate {
 		}
 	}
 
+	/**
+	 * Fetches a CSV source and yields each parsed row, skipping comment lines
+	 *
+	 * @param string $file The URL of the CSV file to fetch
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields arrays of CSV field values
+	 */
 	protected function getFromCsv(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
 			foreach (\explode("\n", \trim($result)) AS $item) {
 				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item, ',', '"', '\\')) !== false) {
-					yield $data[0];
+					yield $data;
 				}
 			}
 		}
 	}
 
+	/**
+	 * Compiles IP range data from configured sources (base implementation yields nothing)
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields IP range data arrays
+	 */
 	public function compile(?string $cache = null) : \Generator {
 		yield [];
 	}
 
+	/**
+	 * Compiles IP ranges and writes them to one or more output files in CSV, TXT, or JSON format
+	 *
+	 * @param array $files An array of output file paths; filenames containing '-ipv4' or '-ipv6' filter by protocol
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return int|false The number of ranges written, or false on failure
+	 */
 	public function save(array $files, ?string $cache = null) : int|false {
 		$handles = [];
 
@@ -143,25 +208,31 @@ class generate {
 			}
 			return true;
 		};
-		$i = 0;
-		$ranges = [];
-		foreach ($this->compile($cache) AS $item) {
-			if (!\in_array($item['range'], $ranges, true)) {
-				$ranges[] = $item['range'];
-				foreach ($handles AS $file => $handle) {
-					if ($include($file, $item['range'])) {
-						if (\str_ends_with($file, '.csv') && \fputcsv($handle, $item, ',', '"', '\\') === false) {
-							return false;
-						} elseif (\str_ends_with($file, '.txt') && \fwrite($handle, $item['range']."\n") === false) {
-							return false;
-						} elseif (\str_ends_with($file, '.json') && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
-							return false;
-						}
+		$time = \time();
+		foreach ($this->compile($cache) AS $i => $item) {
+
+			// set progress
+			$current = \time();
+			if ($current !== $time) {
+				\set_time_limit(30);
+				progress::status('Writing output: '.\number_format($i).' ranges');
+				$time = $current;
+			}
+
+			// write files
+			foreach ($handles AS $file => $handle) {
+				if ($include($file, $item['range'])) {
+					if (\str_ends_with($file, '.csv') && \fputcsv($handle, $item, ',', '"', '\\') === false) {
+						return false;
+					} elseif (\str_ends_with($file, '.txt') && \fwrite($handle, $item['range']."\n") === false) {
+						return false;
+					} elseif (\str_ends_with($file, '.json') && \fwrite($handle, ($i > 0 ? ",\n" : '').\json_encode($item)) === false) {
+						return false;
 					}
 				}
-				$i++;
 			}
 		}
+		progress::status('');
 
 		// close file handles
 		foreach ($handles AS $file => $handle) {
