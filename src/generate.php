@@ -71,6 +71,7 @@ class generate {
 					]
 				]
 			]);
+			\set_time_limit(300);
 			if ($contents) {
 				if (($file = \file_get_contents($url, false, $context)) !== false) {
 				
@@ -82,7 +83,6 @@ class generate {
 				}
 			} else {
 				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'ips');
-				\set_time_limit(120);
 				if (!\copy($url, $file, $context)) {
 					$file = false;
 				}

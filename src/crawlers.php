@@ -37,14 +37,15 @@ class crawlers extends generate {
 				'name' => 'GoogleBot User Triggered Fetchers Google',
 				'source' => 'https://developers.google.com/static/search/apis/ipranges/user-triggered-fetchers-google.json',
 				'domain' => 'google.com',
-				'url' => 'http://www.google.com/bot.html'
+				'url' => 'http://www.google.com/bot.html',
+				'match' => 'Google-CWS,FeedFetcher-Google,Google-Agent,GoogleMessages,Google-NotebookLM,Google-Pinpoint,GoogleProducer,Google-Read-Aloud,Google-Site-Verification'
 			],
 			[
 				'name' => 'BingBot',
 				'source' => 'https://www.bing.com/toolbox/bingbot.json',
 				'domain' => 'bing.com',
 				'url' => 'http://www.bing.com/bingbot.htm',
-				'match' => 'Bingbot,AdIdxBot,MicrosoftPreview,'
+				'match' => 'Bingbot,AdIdxBot,MicrosoftPreview'
 			],
 			[
 				'name' => 'AhrefsBot',
@@ -82,22 +83,25 @@ class crawlers extends generate {
 				'match' => 'GPTBot'
 			],
 			[
-				'name' => 'DuckDuckBot',
+				'name' => 'DuckDuck Bot',
 				'source' => 'https://duckduckgo.com/duckduckbot.json',
 				'domain' => 'duckduckgo.com',
-				'url' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
+				'url' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/',
+				'match' => 'DuckDuckBot'
 			],
 			[
 				'name' => 'Mistral AI',
 				'source' => 'https://mistral.ai/mistralai-user-ips.json',
 				'domain' => 'mistral.ai',
-				'url' => 'https://docs.mistral.ai/robots/'
+				'url' => 'https://docs.mistral.ai/robots/',
+				'match' => 'MistralAI-User'
 			],
 			[
 				'name' => 'Perplexity AI',
 				'source' => 'https://www.perplexity.ai/perplexitybot.json',
 				'domain' => 'perplexity.ai',
-				'url' => 'https://docs.perplexity.ai/guides/bots'
+				'url' => 'https://docs.perplexity.ai/guides/bots',
+				'match' => 'PerplexityBot'
 			]
 		];
 		foreach ($map AS $item) {
@@ -131,6 +135,7 @@ class crawlers extends generate {
 				'name' => 'Site24x7',
 				'source' => 'https://www.site24x7.com/multi-location-web-site-monitoring.html',
 				'domain' => 'site24x7.com',
+				'url' => 'https://www.site24x7.com',
 				'match' => 'Site24x7'
 			],
 			[
@@ -150,7 +155,9 @@ class crawlers extends generate {
 			[
 				'name' => 'Add Search Bot',
 				'source' => 'https://www.addsearch.com/docs/indexing/whitelisting-addsearch-bot/',
-				'domain' => 'addsearch.com'
+				'domain' => 'addsearch.com',
+				'url' => 'https://addsearch.com',
+				'match' => 'AddSearchBot'
 			]
 		];
 		foreach ($map AS $item) {
