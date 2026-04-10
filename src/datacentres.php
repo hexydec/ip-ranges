@@ -4,34 +4,96 @@ namespace hexydec\ipaddresses;
 
 class datacentres extends generate {
 
-	protected function getAzure(string $url, ?string $cache = null) : \Generator {
+	/**
+	 * Maps a cloud provider region identifier to an ISO 3166-1 alpha-2 country code
+	 *
+	 * @param string $region The cloud provider region string (e.g. 'us-east-1', 'westeurope')
+	 * @return ?string The two-letter country code, or null if the region is not recognised
+	 */
+	protected static function regionToCountry(string $region) : ?string {
+		$map = regionMapping::get();
+		$region = \strtolower(\trim($region));
+
+		// exact match
+		if (isset($map[$region])) {
+			return $map[$region];
+
+		// strip trailing number for AWS/Oracle style (e.g. eu-north-1 → eu-north)
+		} else {
+			$stripped = \preg_replace('/-?\d+$/', '', $region);
+			if (isset($map[$stripped])) {
+				return $map[$stripped];
+			}
+		}
+
+		return null;
+	}
+
+	/**
+	 * Fetches and yields Microsoft Azure IP ranges with their region identifiers
+	 *
+	 * @param string $url The URL of the Azure IP ranges JSON file
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'range' and 'region' keys
+	 */
+	protected function getAzure(string $name, string $url, ?string $cache = null) : \Generator {
 		if (($file = $this->fetch($url, $cache)) !== false && ($json = \json_decode($file)) !== null) {
 			foreach ($json->values AS $item) {
-				foreach ($item->properties->addressPrefixes ?? [] AS $item) {
-					yield $item;
+				$region = $item->properties->region ?? null;
+				foreach ($item->properties->addressPrefixes ?? [] AS $prefix) {
+					yield ['name' => $name, 'range' => $prefix, 'country' => $region ? self::regionToCountry($region) : null];
 				}
 			}
 		}
 	}
 
+	/**
+	 * Fetches and yields Linode/Akamai IP ranges from the geoip endpoint
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields CIDR range strings
+	 */
 	protected function getLinode(?string $cache = null) : \Generator {
 		if (($result = $this->fetch('https://geoip.linode.com/', $cache)) !== false) {
 			foreach (\explode("\n", \trim($result)) AS $item) {
-				yield \explode(',', $item, 2)[0];
+				if (!\str_starts_with($item, '#')) {
+					$parts = \explode(',', $item);
+					yield [
+						'name' => 'Linode',
+						'range' => $parts[0],
+						'country' => \strtolower($parts[1])
+					];
+				}
 			}
 		}
 	}
 
+	/**
+	 * Fetches and yields Oracle Cloud IP ranges with their region identifiers
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'range' and 'region' keys
+	 */
 	protected function getOracle(?string $cache = null) : \Generator {
 		if (($result = $this->fetch('https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json', $cache)) !== false && ($json = \json_decode($result)) !== null) {
 			foreach ($json->regions ?? [] AS $region) {
 				foreach ($region->cidrs AS $item) {
-					yield $item->cidr;
+					yield [
+						'name' => 'Oracle',
+						'range' => $item->cidr,
+						'country' => $region->region ? self::regionToCountry($region->region) : null
+					];
 				}
 			}
 		}
 	}
 
+	/**
+	 * Determines whether an ASN description matches known datacentre/hosting provider patterns
+	 *
+	 * @param string $name The ASN description to test
+	 * @return bool True if the name matches a known hosting/datacentre provider
+	 */
 	protected function asnMatches(string $name) : bool {
 
 		// string matches
@@ -52,14 +114,29 @@ class datacentres extends generate {
 		return false;
 	}
 
+	/**
+	 * Fetches ASN subnet data from ipverse and yields ranges belonging to hosting/datacentre providers
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'name' and 'range' keys
+	 */
 	protected function getAsns(?string $cache = null) : \Generator {
-		if (($file = $this->fetch('https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip', $cache, false)) !== false) {
+		progress::status('Fetching ASN ranges');
+		$src = 'https://github.com/ipverse/asn-ip/archive/refs/heads/master.zip';
+		if (($file = $this->fetch($src, $cache, false)) !== false) {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
 			if ($za->open($file, \ZipArchive::RDONLY)) {
 				$count = $za->numFiles;
+				$time = \time();
 				for ($i = 0; $i < $count; $i++) {
+					$current = \time();
+					if ($current !== $time) {
+						\set_time_limit(30);
+						progress::render($count, $i, ['Processing ASN data']);
+						$time = $current;
+					}
 					$filename = $za->getNameIndex($i);
 					if (!\str_ends_with($filename, '/aggregated.json')) {
 
@@ -86,6 +163,12 @@ class datacentres extends generate {
 		}
 	}
 
+	/**
+	 * Compiles datacentre IP ranges from AWS, GCP, Azure, CloudFlare, Linode, Oracle, IBM, and ASN sources
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'name', 'range', and 'country' keys
+	 */
 	public function compile(?string $cache = null) : \Generator {
 
 		// AWS and GCP
@@ -93,12 +176,31 @@ class datacentres extends generate {
 			'Amazon AWS' => 'https://ip-ranges.amazonaws.com/ip-ranges.json',
 			'Google Cloud Platform' => 'https://www.gstatic.com/ipranges/cloud.json'
 		];
-		foreach ($map AS $key => $item) {
-			foreach ($this->getFromJson($item, $cache) AS $value) {
-				yield [
-					'name' => $key,
-					'range' => $value
-				];
+		foreach ($map AS $key => $url) {
+			progress::status('Fetching '.$key.' ranges');
+			if (($result = $this->fetch($url, $cache)) !== false && ($json = \json_decode($result)) !== null) {
+				foreach ($json->prefixes ?? [] AS $item) {
+					$range = $item->ipv4Prefix ?? $item->ipv6Prefix ?? $item->ip_prefix ?? null;
+					$region = $item->region ?? $item->scope ?? '';
+					if ($range !== null) {
+						yield [
+							'name' => $key,
+							'range' => $range,
+							'country' => self::regionToCountry($region)
+						];
+					}
+				}
+				foreach (\array_merge($json->ipv6_prefixes ?? [], $json->ipv6Prefixes ?? []) AS $item) {
+					$range = $item->ipv6_prefix ?? $item->ipv6Prefix ?? null;
+					$region = $item->region ?? $item->scope ?? '';
+					if ($range !== null) {
+						yield [
+							'name' => $key,
+							'range' => $range,
+							'country' => self::regionToCountry($region)
+						];
+					}
+				}
 			}
 		}
 
@@ -109,13 +211,9 @@ class datacentres extends generate {
 			'Microsoft Azure Germany' => 'https://azureipranges.azurewebsites.net/Data/AzureGermany.json',
 			'Microsoft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
 		];
-		foreach ($map AS $key => $item) {
-			foreach ($this->getAzure($item, $cache) AS $value) {
-				yield [
-					'name' => $key,
-					'range' => $value
-				];
-			}
+		foreach ($map AS $key => $url) {
+			progress::status('Fetching '.$key.' ranges');
+			yield from $this->getAzure($key, $url, $cache);
 		}
 
 		// cloudflare
@@ -123,41 +221,38 @@ class datacentres extends generate {
 			'https://www.cloudflare.com/ips-v4/',
 			'https://www.cloudflare.com/ips-v6/'
 		];
+		progress::status('Fetching CloudFlare ranges');
 		foreach ($map AS $item) {
 			foreach ($this->getFromText($item, $cache) AS $value) {
 				yield [
 					'name' => 'CloudFlare',
-					'range' => $value
+					'range' => $value,
+					'country' => null
 				];
 			}
 		}
 
 		// linode
-		foreach ($this->getLinode($cache) AS $item) {
-			yield [
-				'name' => 'Linode',
-				'range' => $item
-			];
-		}
+		progress::status('Fetching Linode ranges');
+		yield from $this->getLinode($cache);
 
 		// oracle
-		foreach ($this->getOracle($cache) AS $item) {
-			yield [
-				'name' => 'Oracle',
-				'range' => $item
-			];
-		}
+		progress::status('Fetching Oracle ranges');
+		yield from $this->getOracle($cache);
 
 		// IBM
+		progress::status('Fetching IBM ranges');
 		foreach ($this->getFromHtml('https://cloud.ibm.com/docs/security-groups?topic=security-groups-ibm-cloud-ip-ranges', $cache) AS $item) {
 			yield [
 				'name' => 'IBM',
-				'range' => $item
+				'range' => $item,
+				'country' => null
 			];
 		}
 
 		// get ranges from matching ASN's
 		foreach ($this->getAsns($cache) AS $item) {
+			$item['country'] = null;
 			yield $item;
 		}
 	}

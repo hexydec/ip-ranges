@@ -4,6 +4,12 @@ namespace hexydec\ipaddresses;
 
 class crawlers extends generate {
 
+	/**
+	 * Compiles crawler/bot IP ranges from JSON, HTML, text, and CSV sources for known search engines and monitoring services
+	 *
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return \Generator Yields associative arrays with 'name', 'range', 'domain', and 'url' keys
+	 */
 	public function compile(?string $cache = null) : \Generator {
 		$map = [
 			[
@@ -74,9 +80,28 @@ class crawlers extends generate {
 				'domain' => 'openai.com',
 				'url' => 'https://openai.com/gptbot',
 				'match' => 'GPTBot'
+			],
+			[
+				'name' => 'DuckDuckBot',
+				'source' => 'https://duckduckgo.com/duckduckbot.json',
+				'domain' => 'duckduckgo.com',
+				'url' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/'
+			],
+			[
+				'name' => 'Mistral AI',
+				'source' => 'https://mistral.ai/mistralai-user-ips.json',
+				'domain' => 'mistral.ai',
+				'url' => 'https://docs.mistral.ai/robots/'
+			],
+			[
+				'name' => 'Perplexity AI',
+				'source' => 'https://www.perplexity.ai/perplexitybot.json',
+				'domain' => 'perplexity.ai',
+				'url' => 'https://docs.perplexity.ai/guides/bots'
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromJson($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -88,13 +113,6 @@ class crawlers extends generate {
 			}
 		}
 		$map = [
-			[
-				'name' => 'DuckDuckBot',
-				'source' => 'https://duckduckgo.com/duckduckgo-help-pages/results/duckduckbot/',
-				'domain' => 'duckduckgo.com',
-				'url' => 'http://duckduckgo.com/duckduckbot.html',
-				'match' => 'DuckDuckBot',
-			],
 			[
 				'name' => 'OnCrawl',
 				'source' => 'https://help.oncrawl.com/en/articles/2288662-what-ips-does-oncrawl-use-to-crawl-a-website',
@@ -128,9 +146,15 @@ class crawlers extends generate {
 				'domain' => 'siteimprove.com',
 				'url' => 'https://siteimprove.com',
 				'match' => 'Probe by Siteimprove.com,LinkCheck by Siteimprove.com,SiteCheck-sitecrawl by Siteimprove.com,Image size by Siteimprove.com'
+			],
+			[
+				'name' => 'Add Search Bot',
+				'source' => 'https://www.addsearch.com/docs/indexing/whitelisting-addsearch-bot/',
+				'domain' => 'addsearch.com'
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromHtml($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -165,6 +189,7 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromText($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
@@ -185,10 +210,11 @@ class crawlers extends generate {
 			]
 		];
 		foreach ($map AS $item) {
+			progress::status('Fetching '.$item['name'].' ranges');
 			foreach ($this->getFromCsv($item['source'], $cache) AS $value) {
 				yield [
 					'name' => $item['name'],
-					'range' => $value,
+					'range' => $value[0],
 					'domain' => $item['domain'],
 					'url' => $item['url'] ?? null,
 					'match' => $item['match']
