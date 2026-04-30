@@ -212,6 +212,7 @@
 "Amazon AWS",2600:1f01:4802::/47,ie
 "Amazon AWS",2600:1fe9:a400::/40,ca
 "Amazon AWS",2606:f40:1000::/39,ie
+"Amazon AWS",2606:7b40:a3e:1000::/54,us
 "Amazon AWS",2606:7b40:1800::/40,us
 "Amazon AWS",2620:108:7000::/44,us
 "Amazon AWS",2a05:d017::/36,gb
@@ -499,6 +500,7 @@
 "Amazon AWS",2600:f0f0:5534::/48,jp
 "Amazon AWS",2620:107:4000:4701::/64,us
 "Amazon AWS",2631:0:a::/48,us
+"Amazon AWS",2631:0:2400::/39,de
 "Amazon AWS",2a05:d074:b000::/40,de
 "Amazon AWS",2400:6500:0:9::3/128,id
 "Amazon AWS",2404:c2c0:f300::/40,cn
@@ -1002,7 +1004,6 @@
 "Amazon AWS",2406:daf8:9000::/40,id
 "Amazon AWS",2600:f0f0:11::/48,us
 "Amazon AWS",2600:f0f0:e03::/48,us
-"Amazon AWS",2600:f0f1:15::/48,
 "Amazon AWS",2620:107:4000:2::/64,us
 "Amazon AWS",2404:c2c0:ef00::/40,cn
 "Amazon AWS",2406:dabb:2800::/40,th
@@ -1634,6 +1635,7 @@
 "Amazon AWS",2600:f0f0:6111::/48,bh
 "Amazon AWS",2600:f0f0:8102::/48,in
 "Amazon AWS",2600:f0f0:8160::/48,ca
+"Amazon AWS",2606:7b40:a3e:400::/54,us
 "Amazon AWS",2606:7b40:10ff:40::/59,br
 "Amazon AWS",2606:7b40:10ff:7000::/56,us
 "Amazon AWS",2a05:d015::/36,il
@@ -3441,6 +3443,7 @@
 "Amazon AWS",2406:daf0:2000::/40,kr
 "Amazon AWS",2600:1fe9:a400::/40,ca
 "Amazon AWS",2606:f40:1000::/39,ie
+"Amazon AWS",2606:7b40:a3e:1000::/54,us
 "Amazon AWS",2606:7b40:1800::/40,us
 "Amazon AWS",2a05:d017::/36,gb
 "Amazon AWS",2a05:d06b:8000::/40,ie
@@ -4547,6 +4550,7 @@
 "Amazon AWS",2600:f0f0:6111::/48,bh
 "Amazon AWS",2600:f0f0:8102::/48,in
 "Amazon AWS",2600:f0f0:8160::/48,ca
+"Amazon AWS",2606:7b40:a3e:400::/54,us
 "Amazon AWS",2606:7b40:10ff:40::/59,br
 "Amazon AWS",2606:7b40:10ff:7000::/56,us
 "Amazon AWS",2a05:d015::/36,il
@@ -5258,7 +5262,6 @@
 "Amazon AWS",2600:9000:5380::/41,
 "Amazon AWS",2600:f0f0:5504::/46,
 "Amazon AWS",2600:9000:1000::/36,
-"Amazon AWS",2600:f0f1:15::/48,
 "Amazon AWS",2600:9000:2000::/36,
 "Amazon AWS",2400:7fc0:500::/40,
 "Amazon AWS",2600:9000:4000::/36,
@@ -14289,6 +14292,9 @@
 "Microsoft Azure Public",2603:1020:1602:4::554/128,
 "Microsoft Azure Public",2603:1030:10:4::454/126,
 "Microsoft Azure Public",2603:1030:210:c::70/125,
+"Microsoft Azure Public",2603:1030:210:33::4c8/125,
+"Microsoft Azure Public",2603:1030:210:33::4d0/126,
+"Microsoft Azure Public",2603:1030:210:33::4d8/125,
 "Microsoft Azure Public",2603:1030:40c:b::2a0/126,
 "Microsoft Azure Public",2603:1030:608:4::3b8/126,
 "Microsoft Azure Public",2603:1030:702:7::306/128,
@@ -14409,6 +14415,8 @@
 "Microsoft Azure Public",2603:1030:210:2e::2a6/128,
 "Microsoft Azure Public",2603:1030:210:2e::370/124,
 "Microsoft Azure Public",2603:1030:210:2e::380/125,
+"Microsoft Azure Public",2603:1030:210:33::4f0/124,
+"Microsoft Azure Public",2603:1030:210:33::560/126,
 "Microsoft Azure Public",2603:1030:40c:b::2a4/126,
 "Microsoft Azure Public",2603:1030:608:4::3bc/126,
 "Microsoft Azure Public",2603:1030:702:6::41c/127,
@@ -25552,6 +25560,8 @@
 "Microsoft Azure Public",2603:1030:401:a92::/64,
 "Microsoft Azure Public",2603:1030:401:ac2::/63,
 "Microsoft Azure Public",2603:1030:401:ac4::/64,
+"Microsoft Azure Public",2603:1030:401:ae9::/64,
+"Microsoft Azure Public",2603:1030:401:aea::/64,
 "Microsoft Azure Public",2603:1030:405::/48,
 "Microsoft Azure Public",2603:1030:409::/48,
 "Microsoft Azure Public",2603:1030:40a::/64,
@@ -25616,10 +25626,7 @@
 "Microsoft Azure Public",2603:1030:401:88::/62,us
 "Microsoft Azure Public",2603:1030:401:8c::/63,us
 "Microsoft Azure Public",2603:1030:401:8f::/64,us
-"Microsoft Azure Public",2603:1030:401:90::/63,us
-"Microsoft Azure Public",2603:1030:401:92::/64,us
-"Microsoft Azure Public",2603:1030:401:94::/62,us
-"Microsoft Azure Public",2603:1030:401:98::/61,us
+"Microsoft Azure Public",2603:1030:401:90::/60,us
 "Microsoft Azure Public",2603:1030:401:a0::/62,us
 "Microsoft Azure Public",2603:1030:401:a4::/63,us
 "Microsoft Azure Public",2603:1030:401:a7::/64,us
@@ -25937,8 +25944,11 @@
 "Microsoft Azure Public",2603:1030:401:ac6::/63,us
 "Microsoft Azure Public",2603:1030:401:ac8::/61,us
 "Microsoft Azure Public",2603:1030:401:ad0::/60,us
-"Microsoft Azure Public",2603:1030:401:ae0::/62,us
-"Microsoft Azure Public",2603:1030:401:ae4::/63,us
+"Microsoft Azure Public",2603:1030:401:ae0::/61,us
+"Microsoft Azure Public",2603:1030:401:ae8::/64,us
+"Microsoft Azure Public",2603:1030:401:aeb::/64,us
+"Microsoft Azure Public",2603:1030:401:aec::/62,us
+"Microsoft Azure Public",2603:1030:401:af0::/62,us
 "Microsoft Azure Public",2603:1030:402::/47,us
 "Microsoft Azure Public",2603:1030:406::/47,us
 "Microsoft Azure Public",2603:1030:408::/48,us
@@ -26632,10 +26642,9 @@
 "Microsoft Azure Public",2603:1046:2000:260::/59,my
 "Microsoft Azure Public",2603:1047:1::/59,my
 "Microsoft Azure Public",2603:1061:100d::/57,my
-"Microsoft Azure Public",2603:1061:100d:80::/59,my
-"Microsoft Azure Public",2603:1061:100d:a0::/61,my
-"Microsoft Azure Public",2603:1061:100d:a8::/62,my
-"Microsoft Azure Public",2603:1061:100d:ac::/63,my
+"Microsoft Azure Public",2603:1061:100d:80::/58,my
+"Microsoft Azure Public",2603:1061:100d:c0::/61,my
+"Microsoft Azure Public",2603:1061:100d:c8::/63,my
 "Microsoft Azure Public",2603:1061:1310:2400::/54,my
 "Microsoft Azure Public",2603:1061:173a::/48,my
 "Microsoft Azure Public",2603:1061:2010:3a::/64,my
@@ -26909,7 +26918,8 @@
 "Microsoft Azure Public",2603:1026:3000:260::/59,pl
 "Microsoft Azure Public",2603:1061:1006::/56,pl
 "Microsoft Azure Public",2603:1061:1006:100::/61,pl
-"Microsoft Azure Public",2603:1061:1006:108::/63,pl
+"Microsoft Azure Public",2603:1061:1006:108::/62,pl
+"Microsoft Azure Public",2603:1061:1006:10c::/64,pl
 "Microsoft Azure Public",2603:1061:1311:3000::/54,pl
 "Microsoft Azure Public",2603:1061:1735::/48,pl
 "Microsoft Azure Public",2603:1061:2000:6a0::/62,pl
@@ -27124,6 +27134,7 @@
 "Microsoft Azure Public",2603:1030:804:c8::/62,us
 "Microsoft Azure Public",2603:1030:804:cc::/63,us
 "Microsoft Azure Public",2603:1030:804:ce::/64,us
+"Microsoft Azure Public",2603:1030:804:d1::/64,us
 "Microsoft Azure Public",2603:1030:804:d2::/63,us
 "Microsoft Azure Public",2603:1030:804:d4::/62,us
 "Microsoft Azure Public",2603:1030:804:d8::/61,us
@@ -27194,8 +27205,8 @@
 "Microsoft Azure Public",2603:1030:804:580::/57,us
 "Microsoft Azure Public",2603:1030:804:600::/58,us
 "Microsoft Azure Public",2603:1030:804:640::/59,us
-"Microsoft Azure Public",2603:1030:804:660::/63,us
-"Microsoft Azure Public",2603:1030:804:662::/64,us
+"Microsoft Azure Public",2603:1030:804:660::/62,us
+"Microsoft Azure Public",2603:1030:804:664::/64,us
 "Microsoft Azure Public",2603:1030:805::/48,us
 "Microsoft Azure Public",2603:1030:806::/48,us
 "Microsoft Azure Public",2603:1030:807::/48,us
@@ -27381,9 +27392,9 @@
 "Microsoft Azure Public",2603:1061:1008:b0::/61,es
 "Microsoft Azure Public",2603:1061:1008:b8::/62,es
 "Microsoft Azure Public",2603:1061:1008:c0::/58,es
-"Microsoft Azure Public",2603:1061:1008:100::/61,es
-"Microsoft Azure Public",2603:1061:1008:108::/62,es
-"Microsoft Azure Public",2603:1061:1008:10c::/64,es
+"Microsoft Azure Public",2603:1061:1008:100::/59,es
+"Microsoft Azure Public",2603:1061:1008:120::/62,es
+"Microsoft Azure Public",2603:1061:1008:124::/64,es
 "Microsoft Azure Public",2603:1061:1311:3400::/54,es
 "Microsoft Azure Public",2603:1061:1738::/48,es
 "Microsoft Azure Public",2603:1061:2000:5e0::/62,es
@@ -28709,10 +28720,7 @@
 "Microsoft Azure Public",2603:1030:401:8c::/63,
 "Microsoft Azure Public",2603:1030:401:8e::/64,
 "Microsoft Azure Public",2603:1030:401:8f::/64,
-"Microsoft Azure Public",2603:1030:401:90::/63,
-"Microsoft Azure Public",2603:1030:401:92::/64,
-"Microsoft Azure Public",2603:1030:401:94::/62,
-"Microsoft Azure Public",2603:1030:401:98::/61,
+"Microsoft Azure Public",2603:1030:401:90::/60,
 "Microsoft Azure Public",2603:1030:401:a0::/62,
 "Microsoft Azure Public",2603:1030:401:a4::/63,
 "Microsoft Azure Public",2603:1030:401:a6::/64,
@@ -29194,8 +29202,13 @@
 "Microsoft Azure Public",2603:1030:401:ac6::/63,
 "Microsoft Azure Public",2603:1030:401:ac8::/61,
 "Microsoft Azure Public",2603:1030:401:ad0::/60,
-"Microsoft Azure Public",2603:1030:401:ae0::/62,
-"Microsoft Azure Public",2603:1030:401:ae4::/63,
+"Microsoft Azure Public",2603:1030:401:ae0::/61,
+"Microsoft Azure Public",2603:1030:401:ae8::/64,
+"Microsoft Azure Public",2603:1030:401:ae9::/64,
+"Microsoft Azure Public",2603:1030:401:aea::/64,
+"Microsoft Azure Public",2603:1030:401:aeb::/64,
+"Microsoft Azure Public",2603:1030:401:aec::/62,
+"Microsoft Azure Public",2603:1030:401:af0::/62,
 "Microsoft Azure Public",2603:1030:402::/47,
 "Microsoft Azure Public",2603:1030:405::/48,
 "Microsoft Azure Public",2603:1030:406::/47,
@@ -29267,6 +29280,7 @@
 "Microsoft Azure Public",2603:1030:804:ce::/64,
 "Microsoft Azure Public",2603:1030:804:cf::/64,
 "Microsoft Azure Public",2603:1030:804:d0::/64,
+"Microsoft Azure Public",2603:1030:804:d1::/64,
 "Microsoft Azure Public",2603:1030:804:d2::/63,
 "Microsoft Azure Public",2603:1030:804:d4::/62,
 "Microsoft Azure Public",2603:1030:804:d8::/61,
@@ -29350,8 +29364,8 @@
 "Microsoft Azure Public",2603:1030:804:580::/57,
 "Microsoft Azure Public",2603:1030:804:600::/58,
 "Microsoft Azure Public",2603:1030:804:640::/59,
-"Microsoft Azure Public",2603:1030:804:660::/63,
-"Microsoft Azure Public",2603:1030:804:662::/64,
+"Microsoft Azure Public",2603:1030:804:660::/62,
+"Microsoft Azure Public",2603:1030:804:664::/64,
 "Microsoft Azure Public",2603:1030:805::/48,
 "Microsoft Azure Public",2603:1030:806::/48,
 "Microsoft Azure Public",2603:1030:807::/48,
@@ -29884,7 +29898,8 @@
 "Microsoft Azure Public",2603:1061:1005:8a::/64,
 "Microsoft Azure Public",2603:1061:1006::/56,
 "Microsoft Azure Public",2603:1061:1006:100::/61,
-"Microsoft Azure Public",2603:1061:1006:108::/63,
+"Microsoft Azure Public",2603:1061:1006:108::/62,
+"Microsoft Azure Public",2603:1061:1006:10c::/64,
 "Microsoft Azure Public",2603:1061:1007::/57,
 "Microsoft Azure Public",2603:1061:1007:80::/58,
 "Microsoft Azure Public",2603:1061:1007:c0::/60,
@@ -29898,9 +29913,9 @@
 "Microsoft Azure Public",2603:1061:1008:b0::/61,
 "Microsoft Azure Public",2603:1061:1008:b8::/62,
 "Microsoft Azure Public",2603:1061:1008:c0::/58,
-"Microsoft Azure Public",2603:1061:1008:100::/61,
-"Microsoft Azure Public",2603:1061:1008:108::/62,
-"Microsoft Azure Public",2603:1061:1008:10c::/64,
+"Microsoft Azure Public",2603:1061:1008:100::/59,
+"Microsoft Azure Public",2603:1061:1008:120::/62,
+"Microsoft Azure Public",2603:1061:1008:124::/64,
 "Microsoft Azure Public",2603:1061:1009::/58,
 "Microsoft Azure Public",2603:1061:100a::/58,
 "Microsoft Azure Public",2603:1061:100a:40::/61,
@@ -29919,10 +29934,9 @@
 "Microsoft Azure Public",2603:1061:100c:b0::/61,
 "Microsoft Azure Public",2603:1061:100c:b8::/63,
 "Microsoft Azure Public",2603:1061:100d::/57,
-"Microsoft Azure Public",2603:1061:100d:80::/59,
-"Microsoft Azure Public",2603:1061:100d:a0::/61,
-"Microsoft Azure Public",2603:1061:100d:a8::/62,
-"Microsoft Azure Public",2603:1061:100d:ac::/63,
+"Microsoft Azure Public",2603:1061:100d:80::/58,
+"Microsoft Azure Public",2603:1061:100d:c0::/61,
+"Microsoft Azure Public",2603:1061:100d:c8::/63,
 "Microsoft Azure Public",2603:1061:100e::/56,
 "Microsoft Azure Public",2603:1061:100e:100::/58,
 "Microsoft Azure Public",2603:1061:100e:140::/61,
@@ -29974,19 +29988,19 @@
 "Microsoft Azure Public",2603:1061:101b:44::/63,
 "Microsoft Azure Public",2603:1061:101b:46::/64,
 "Microsoft Azure Public",2603:1061:101c::/58,
-"Microsoft Azure Public",2603:1061:101c:40::/61,
-"Microsoft Azure Public",2603:1061:101c:48::/62,
+"Microsoft Azure Public",2603:1061:101c:40::/60,
+"Microsoft Azure Public",2603:1061:101c:50::/61,
 "Microsoft Azure Public",2603:1061:101d::/60,
 "Microsoft Azure Public",2603:1061:101d:10::/62,
 "Microsoft Azure Public",2603:1061:101d:14::/63,
 "Microsoft Azure Public",2603:1061:101d:16::/64,
 "Microsoft Azure Public",2603:1061:101e::/60,
-"Microsoft Azure Public",2603:1061:101e:10::/62,
-"Microsoft Azure Public",2603:1061:101e:14::/64,
-"Microsoft Azure Public",2603:1061:101f::/60,
-"Microsoft Azure Public",2603:1061:101f:10::/62,
-"Microsoft Azure Public",2603:1061:101f:14::/63,
-"Microsoft Azure Public",2603:1061:101f:16::/64,
+"Microsoft Azure Public",2603:1061:101e:10::/61,
+"Microsoft Azure Public",2603:1061:101e:18::/62,
+"Microsoft Azure Public",2603:1061:101e:1c::/63,
+"Microsoft Azure Public",2603:1061:101f::/59,
+"Microsoft Azure Public",2603:1061:101f:20::/62,
+"Microsoft Azure Public",2603:1061:101f:24::/63,
 "Microsoft Azure Public",2603:1061:1310::/54,
 "Microsoft Azure Public",2603:1061:1310:400::/54,
 "Microsoft Azure Public",2603:1061:1310:800::/54,
