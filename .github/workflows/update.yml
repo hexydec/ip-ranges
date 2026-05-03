@@ -16,9 +16,9 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Install PHP
-        uses: nanasess/setup-php@v4
+        uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
+          php-version: '8.4'
       - run: php build.php
 
       - uses: stefanzweifel/git-auto-commit-action@v5
