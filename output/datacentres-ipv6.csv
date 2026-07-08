@@ -63,6 +63,7 @@
 "Amazon AWS",2600:1ff4:e000::/40,br
 "Amazon AWS",2600:1ff6:2000::/40,us
 "Amazon AWS",2600:1fff:2000::/40,us
+"Amazon AWS",2600:9000:de0::/43,
 "Amazon AWS",2600:f0f0:5523::/48,br
 "Amazon AWS",2a05:d05b:e000::/40,bh
 "Amazon AWS",2a05:d070:b000::/40,de
@@ -126,6 +127,7 @@
 "Amazon AWS",2600:1ff9:e000::/40,br
 "Amazon AWS",2600:f0f0:1:fd00::/56,us
 "Amazon AWS",2600:f0f0:111c::/48,us
+"Amazon AWS",2606:7b40:3001:c000::/52,us
 "Amazon AWS",2a05:d06a:e000::/40,bh
 "Amazon AWS",2406:da70:6000::/40,jp
 "Amazon AWS",2406:daa0:6000::/40,jp
@@ -389,6 +391,7 @@
 "Amazon AWS",2600:1f70:6000::/40,us
 "Amazon AWS",2600:1fa0:800::/40,us
 "Amazon AWS",2600:1fb9:1000::/40,ca
+"Amazon AWS",2600:9000:ff8::/46,
 "Amazon AWS",2600:f008:100::/40,de
 "Amazon AWS",2600:f0f0:0:300::/56,us
 "Amazon AWS",2600:f0f0:1:1000::/56,kr
@@ -408,6 +411,7 @@
 "Amazon AWS",2600:9000:ae00::/40,
 "Amazon AWS",2600:f0f0:700::/44,us
 "Amazon AWS",2600:f0f0:110d::/48,in
+"Amazon AWS",2600:f0f2:7400::/38,
 "Amazon AWS",2a05:d000:9000::/40,ch
 "Amazon AWS",2a05:d07e:4000::/40,de
 "Amazon AWS",2406:dafa:a000::/40,in
@@ -1326,6 +1330,7 @@
 "Amazon AWS",2406:daf2:8800::/40,sg
 "Amazon AWS",2406:daf6:c800::/40,my
 "Amazon AWS",2600:1fb9:ec00::/40,cl
+"Amazon AWS",2600:9000:fc0::/43,
 "Amazon AWS",2600:9000:a400::/40,
 "Amazon AWS",2600:f0f0:e04::/48,bh
 "Amazon AWS",2600:f0f0:5522::/48,br
@@ -1894,6 +1899,7 @@
 "Amazon AWS",2600:f0f0:e0f::/48,us
 "Amazon AWS",2600:f0f1:8f::/48,il
 "Amazon AWS",2600:f0fb:8000::/40,us
+"Amazon AWS",2606:7b40:3002::/56,us
 "Amazon AWS",2406:da32:a000::/40,in
 "Amazon AWS",2600:1f24::/36,us
 "Amazon AWS",2600:1ff0:1000::/40,ca
@@ -2120,6 +2126,7 @@
 "Amazon AWS",2600:1f32:2000::/40,us
 "Amazon AWS",2600:1ffa:e000::/40,br
 "Amazon AWS",2600:1ffc:6000::/40,us
+"Amazon AWS",2600:9000:7000::/36,
 "Amazon AWS",2600:f0f0:1126::/48,us
 "Amazon AWS",2600:f0f2:7013::/48,us
 "Amazon AWS",2606:7b40:1b0d:8200::/56,gb
@@ -3623,6 +3630,7 @@
 "Amazon AWS",2600:1ff2:800::/40,us
 "Amazon AWS",2600:f0f0:1:fd00::/56,us
 "Amazon AWS",2600:f0f0:111c::/48,us
+"Amazon AWS",2606:7b40:3001:c000::/52,us
 "Amazon AWS",2a05:d06a:e000::/40,bh
 "Amazon AWS",2406:da70:6000::/40,jp
 "Amazon AWS",2600:1f1f:c000::/36,us
@@ -3838,6 +3846,7 @@
 "Amazon AWS",2406:daef:9000::/40,id
 "Amazon AWS",2600:f0f0:700::/44,us
 "Amazon AWS",2600:f0f0:110d::/48,in
+"Amazon AWS",2600:f0f2:7400::/38,
 "Amazon AWS",2a05:d000:9000::/40,ch
 "Amazon AWS",2600:1f16:c000::/36,us
 "Amazon AWS",2600:1f21:c000::/36,us
@@ -5021,6 +5030,7 @@
 "Amazon AWS",2600:f0f0:e0f::/48,us
 "Amazon AWS",2600:f0f1:8f::/48,il
 "Amazon AWS",2600:f0fb:8000::/40,us
+"Amazon AWS",2606:7b40:3002::/56,us
 "Amazon AWS",2406:da32:a000::/40,in
 "Amazon AWS",2600:1f24::/36,us
 "Amazon AWS",2600:1ff0:1000::/40,ca
@@ -5651,8 +5661,12 @@
 "Amazon AWS",2606:7b40:1b0f:600::/56,us
 "Amazon AWS",2a05:d036:b000::/40,de
 "Amazon AWS",2a05:d05b:6000::/40,se
+"Amazon AWS",2600:9000:de0::/43,
+"Amazon AWS",2600:9000:ff8::/46,
 "Amazon AWS",2600:9000:f530::/46,
+"Amazon AWS",2600:9000:fc0::/43,
 "Amazon AWS",2600:9000:5300::/45,
+"Amazon AWS",2600:9000:7000::/36,
 "Amazon AWS",2001:3fc6:8::/47,de
 "Amazon AWS",2001:3fc6:a::/47,de
 "Amazon AWS",2600:f0f2:7000::/44,us
