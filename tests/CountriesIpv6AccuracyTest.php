@@ -183,7 +183,9 @@ class CountriesIpv6AccuracyTest extends TestCase {
 		$refFile = __DIR__ . '/../workspace/IP2LOCATION-LITE-DB1.IPV6.CSV';
 
 		self::assertFileExists($oursFile, 'Output file countries-ipv6.csv not found — run build.php first');
-		self::assertFileExists($refFile, 'Reference file IP2LOCATION-LITE-DB1.IPV6.CSV not found');
+		if (!\file_exists($refFile)) {
+			self::markTestSkipped('Reference file IP2LOCATION-LITE-DB1.IPV6.CSV not found');
+		}
 
 		[self::$ourStarts, self::$ourEnds, self::$ourCountries] = self::loadIpv6Csv($oursFile);
 		[self::$refStarts, self::$refEnds, self::$refCountries] = self::loadIp2LocationIpv6Csv($refFile);

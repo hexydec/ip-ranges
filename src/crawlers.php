@@ -111,7 +111,7 @@ class crawlers extends generate {
 					'name' => $item['name'],
 					'range' => $value,
 					'domain' => $item['domain'],
-					'url' => $item['url'] ?? null,
+					'url' => $item['url'],
 					'match' => $item['match']
 				];
 			}
@@ -167,7 +167,7 @@ class crawlers extends generate {
 					'name' => $item['name'],
 					'range' => $value,
 					'domain' => $item['domain'],
-					'url' => $item['url'] ?? null,
+					'url' => $item['url'],
 					'match' => $item['match']
 				];
 			}
@@ -202,7 +202,7 @@ class crawlers extends generate {
 					'name' => $item['name'],
 					'range' => $value,
 					'domain' => $item['domain'],
-					'url' => $item['url'] ?? null,
+					'url' => $item['url'],
 					'match' => $item['match']
 				];
 			}
@@ -223,7 +223,7 @@ class crawlers extends generate {
 					'name' => $item['name'],
 					'range' => $value[0],
 					'domain' => $item['domain'],
-					'url' => $item['url'] ?? null,
+					'url' => $item['url'],
 					'match' => $item['match']
 				];
 			}

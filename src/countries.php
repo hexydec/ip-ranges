@@ -114,19 +114,27 @@ class countries extends generate {
 				$time = \time();
 				$cidr = null;
 				$country = null;
-				while (($line = \gzgets($handle)) !== false) {
+				$eof = false;
+				while (!$eof) {
 
-					// progress
-					$current = \time();
-					if ($current !== $time) {
-						\set_time_limit(30);
-						progress::render($total, $i, ['Ingesting WHOIS inet6num data']);
-						$time = $current;
+					// treat EOF as a blank line so any pending object gets flushed by the same code path
+					if (($raw = \gzgets($handle)) === false) {
+						$eof = true;
+						$line = '';
+					} else {
+
+						// progress
+						$current = \time();
+						if ($current !== $time) {
+							\set_time_limit(30);
+							progress::render($total, $i, ['Ingesting WHOIS inet6num data']);
+							$time = $current;
+						}
+						$i++;
+						$line = \rtrim($raw, "\r\n");
 					}
-					$i++;
-					$line = \rtrim($line, "\r\n");
 
-					// blank line = end of object
+					// blank line or eof = end of object
 					if ($line === '') {
 						if ($cidr !== null && $country !== null) {
 							$parts = \explode('/', $cidr, 2);
@@ -149,21 +157,6 @@ class countries extends generate {
 						$cidr = \trim(\substr($line, 9));
 					} elseif (\str_starts_with($line, 'country:')) {
 						$country = \strtolower(\trim(\substr($line, 8)));
-					}
-				}
-
-				// flush last object
-				if ($cidr !== null && $country !== null) {
-					$parts = \explode('/', $cidr, 2);
-					if (\count($parts) === 2 && ($bin = \inet_pton($parts[0])) !== false) {
-						$prefix = \intval($parts[1]);
-						$end = aggregator::binAdd($bin, aggregator::prefixToBlockSize($prefix));
-						$this->addIpRange($ips[6], $cidr, [
-							'start' => $bin,
-							'end' => $end,
-							'prefix' => $prefix,
-							'country' => $country
-						]);
 					}
 				}
 				\gzclose($handle);
@@ -201,12 +194,12 @@ class countries extends generate {
 
 				// detect comments
 				if (\str_starts_with($line, '#')) {
-					
-				// process CSV
-				} elseif (($value = \str_getcsv($line, ',', '"', '\\')) === false) {
-				
+
+				// ensure there are enough columns
+				} elseif (\count($value = \str_getcsv($line, ',', '"', '\\')) < 3) {
+
 				// ensure the country is set
-				} elseif (\count($value) < 3 || ($country = \strtolower($value[1] ?: \substr($value[2], 0, 2))) === '*') {
+				} elseif (($country = \strtolower($value[1] ?: \substr($value[2], 0, 2))) === '*') {
 
 				// process the data
 				} else {
