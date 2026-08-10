@@ -90,7 +90,6 @@ class generate {
 			$this->timing[$host] = \microtime(true);
 			return $file;
 		}
-		return false;
 	}
 
 	/**
@@ -156,8 +155,8 @@ class generate {
 	protected function getFromCsv(string $file, ?string $cache = null) : \Generator {
 		if (($result = $this->fetch($file, $cache)) !== false) {
 			foreach (\explode("\n", \trim($result)) AS $item) {
-				if (!\str_starts_with($item, '#') && ($data = \str_getcsv($item, ',', '"', '\\')) !== false) {
-					yield $data;
+				if (!\str_starts_with($item, '#')) {
+					yield \str_getcsv($item, ',', '"', '\\');
 				}
 			}
 		}
@@ -210,6 +209,7 @@ class generate {
 			return true;
 		};
 		$time = \time();
+		$i = 0;
 		foreach ($this->compile($cache) AS $i => $item) {
 
 			// set progress
