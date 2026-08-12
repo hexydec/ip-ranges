@@ -14,7 +14,9 @@ class generate {
 	 */
 	public function getTotalLines(string $file) : int|false {
 		if (\file_exists($file)) {
-			\set_time_limit(120);
+
+			// iterator_count() runs as a single call, so the timer can't be renewed while it runs - use a generous but finite ceiling
+			\set_time_limit(3600);
 			$obj = new \SplFileObject($file);
 			$obj->setFlags($obj::READ_AHEAD);
 			return \iterator_count($obj);
@@ -39,8 +41,9 @@ class generate {
 		}
 
 		// fetch from local cache
+		$file = null;
 		if ($local !== null && \file_exists($local) && (!$contents || ($file = \file_get_contents($local)) !== false)) {
-			return $contents ? $file : $local;
+			return $contents && $file ? $file : $local;
 
 		// download file
 		} else {
@@ -71,7 +74,8 @@ class generate {
 					]
 				]
 			]);
-			\set_time_limit(300);
+			// file_get_contents()/copy() run as a single call, so the timer can't be renewed while it runs - use a generous but finite ceiling
+			\set_time_limit(3600);
 			if ($contents) {
 				if (($file = \file_get_contents($url, false, $context)) !== false) {
 				

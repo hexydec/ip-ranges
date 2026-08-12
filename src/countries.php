@@ -314,7 +314,9 @@ class countries extends generate {
 
 		// extract from MRT file
 		} elseif (($file = $this->fetch($url, $cache, false)) !== false) {
-			\set_time_limit(300);
+
+			// bgpdump runs as a single blocking call, so the timer can't be renewed while it runs - use a generous but finite ceiling
+			\set_time_limit(3600);
 			if (PHP_OS === 'WINNT') {
 				$wslcache = \trim(\shell_exec('wsl wslpath '.\escapeshellarg($cachefile)));
 				$wslfile = \trim(\shell_exec('wsl wslpath '.\escapeshellarg($file)));

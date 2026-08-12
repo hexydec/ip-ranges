@@ -83,8 +83,8 @@ class RegionToCountryTest extends TestCase {
 			['westeurope', 'nl'],
 			['northeurope', 'ie'],
 			['uksouth', 'gb'],
-			['francecentral', 'fr'],
-			['germanywestcentral', 'de'],
+			['centralfrance', 'fr'],
+			['germanywc', 'de'],
 			['japaneast', 'jp'],
 			['koreacentral', 'kr'],
 			['australiaeast', 'au'],
@@ -137,38 +137,17 @@ class RegionToCountryTest extends TestCase {
 
 	#[Test]
 	public function unmappedRegionsInLiveData() : void {
+		datacentres::$unmapped = [];
 		$dc = new datacentres();
-		$unmapped = [];
-		foreach ($dc->compile('cache/') AS $item) {
-			if ($item['country'] === null) {
-				continue;
-			}
+		foreach ($dc->compile(\dirname(__DIR__) . '/cache/') AS $item) {
 		}
 
-		// check for regions that return null but shouldn't
-		// re-parse the raw JSON to find any regions we're missing
-		$sources = [
-			'https://ip-ranges.amazonaws.com/ip-ranges.json' => 'region',
-			'https://www.gstatic.com/ipranges/cloud.json' => 'scope',
-		];
-		foreach ($sources AS $url => $field) {
-			$cache = \dirname(__DIR__) . '/cache/';
-			$cacheFile = $cache . \preg_replace('/[^0-9a-z]+/i', '-', $url) . (\strrchr(\basename($url), '.') ?: '');
-			if (!\file_exists($cacheFile)) {
-				continue;
-			}
-			$json = \json_decode(\file_get_contents($cacheFile));
-			foreach ($json->prefixes ?? [] AS $item) {
-				$region = $item->$field ?? '';
-				if ($region !== '' && \strtolower($region) !== 'global' && self::callRegionToCountry($region) === null) {
-					$unmapped[$region] = true;
-				}
-			}
-		}
+		// anything recorded here is a region string none of the mappings in regionMapping::get() matched
+		$unmapped = \array_diff(datacentres::$unmapped, ['', 'global']);
 
 		if ($unmapped) {
-			echo "\nUnmapped regions: " . \implode(', ', \array_keys($unmapped)) . "\n";
+			echo "\nUnmapped regions: " . \implode(', ', $unmapped) . "\n";
 		}
-		$this->assertEmpty($unmapped, \count($unmapped) . ' unmapped region(s) found: ' . \implode(', ', \array_keys($unmapped)));
+		$this->assertEmpty($unmapped, \count($unmapped) . ' unmapped region(s) found: ' . \implode(', ', $unmapped));
 	}
 }

@@ -4,6 +4,8 @@ namespace hexydec\ipaddresses;
 
 class datacentres extends generate {
 
+	public static array $unmapped = [];
+
 	/**
 	 * Maps a cloud provider region identifier to an ISO 3166-1 alpha-2 country code
 	 *
@@ -15,17 +17,21 @@ class datacentres extends generate {
 		$region = \strtolower(\trim($region));
 
 		// exact match
-		if (isset($map[$region])) {
+		if (\array_key_exists($region, $map)) {
 			return $map[$region];
 
 		// strip trailing number for AWS/Oracle style (e.g. eu-north-1 → eu-north)
 		} else {
 			$stripped = \preg_replace('/-?\d+$/', '', $region);
-			if (isset($map[$stripped])) {
+			if (\array_key_exists($stripped, $map)) {
 				return $map[$stripped];
 			}
 		}
 
+		// record unmapped items
+		if (!\in_array($region, self::$unmapped)) {
+			self::$unmapped[] = $region;
+		}
 		return null;
 	}
 
@@ -38,10 +44,34 @@ class datacentres extends generate {
 	 */
 	protected function getAzure(string $name, string $url, ?string $cache = null) : \Generator {
 		if (($file = $this->fetch($url, $cache)) !== false && ($json = \json_decode($file)) !== null) {
+
+			// service tags duplicate prefixes across a region-specific tag and its region-less umbrella tag - flag which prefixes resolve a country so the region-less duplicate can be skipped without buffering the output rows themselves
+			$map = [];
+			$resolved = [];
+			foreach ($json->values AS $item) {
+				if (($region = $item->properties->region ?? '') !== '') {
+					if (!isset($map[$region])) {
+						$map[$region] = self::regionToCountry($region);
+					}
+					if ($map[$region] !== null) {
+						foreach ($item->properties->addressPrefixes ?? [] AS $prefix) {
+							$resolved[$prefix] = true;
+						}
+					}
+				}
+			}
+
+			// stream the results, skipping the region-less duplicate of anything already resolved above
 			foreach ($json->values AS $item) {
 				$region = $item->properties->region ?? null;
 				foreach ($item->properties->addressPrefixes ?? [] AS $prefix) {
-					yield ['name' => $name, 'range' => $prefix, 'country' => $region ? self::regionToCountry($region) : null];
+					if ($region || !isset($resolved[$prefix])) {
+						yield [
+							'name' => $name,
+							'range' => $prefix,
+							'country' => $region ? $map[$region] : null
+						];
+					}
 				}
 			}
 		}
@@ -127,7 +157,7 @@ class datacentres extends generate {
 
 			// open zip file and inspect files
 			$za = new \ZipArchive();
-			if ($za->open($file, \ZipArchive::RDONLY)) {
+			if ($za->open($file, \ZipArchive::RDONLY) === true) {
 				$count = $za->numFiles;
 				$time = \time();
 				for ($i = 0; $i < $count; $i++) {
@@ -142,7 +172,7 @@ class datacentres extends generate {
 
 					} elseif (($content = $za->getFromIndex($i)) === false) {
 
-					} elseif (($json = \json_decode($content)) === false) {
+					} elseif (($json = \json_decode($content)) === null) {
 
 					} elseif (!empty($json->description) && $this->asnMatches($json->description)) {
 						foreach ($json->subnets->ipv4 ?? [] AS $item) {
@@ -206,10 +236,7 @@ class datacentres extends generate {
 
 		// Azure
 		$map = [
-			'Microsoft Azure Public' => 'https://azureipranges.azurewebsites.net/Data/Public.json',
-			'Microsoft Azure Government' => 'https://azureipranges.azurewebsites.net/Data/AzureGovernment.json',
-			'Microsoft Azure Germany' => 'https://azureipranges.azurewebsites.net/Data/AzureGermany.json',
-			'Microsoft Azure China' => 'https://azureipranges.azurewebsites.net/Data/China.json'
+			'Microsoft Azure Public' => 'https://raw.githubusercontent.com/maciejporebski/azure-ips/refs/heads/main/ServiceTags_Public_Latest.json'
 		];
 		foreach ($map AS $key => $url) {
 			progress::status('Fetching '.$key.' ranges');
