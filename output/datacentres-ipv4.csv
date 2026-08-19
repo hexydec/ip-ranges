@@ -3787,7 +3787,6 @@
 "Amazon AWS",69.107.7.96/29,us
 "Amazon AWS",76.223.170.0/28,ca
 "Amazon AWS",150.222.102.0/24,us
-"Amazon AWS",1.178.86.0/24,id
 "Amazon AWS",1.178.172.0/23,
 "Amazon AWS",3.4.12.2/32,au
 "Amazon AWS",3.4.12.5/32,us
@@ -8092,7 +8091,6 @@
 "Amazon AWS",51.74.128.0/18,de
 "Amazon AWS",54.194.0.0/15,ie
 "Amazon AWS",63.249.192.0/24,sg
-"Amazon AWS",1.178.86.0/24,id
 "Amazon AWS",15.129.80.0/22,ie
 "Amazon AWS",35.50.232.0/24,in
 "Amazon AWS",45.57.128.0/18,sg
@@ -9150,6 +9148,7 @@
 "Amazon AWS",52.80.198.136/29,cn
 "Amazon AWS",52.82.1.0/29,cn
 "Amazon AWS",69.234.197.72/29,cn
+"Amazon AWS",51.72.26.64/28,de
 "Amazon AWS",18.252.145.168/29,us
 "Amazon AWS",18.252.4.16/29,us
 "Amazon AWS",15.200.28.88/29,us
@@ -10148,6 +10147,7 @@
 "Amazon AWS",44.192.140.128/29,us
 "Amazon AWS",44.222.159.166/31,us
 "Amazon AWS",44.222.159.176/28,us
+"Amazon AWS",98.95.231.76/30,us
 "Amazon AWS",3.141.102.184/29,us
 "Amazon AWS",3.141.102.192/30,us
 "Amazon AWS",3.146.29.66/31,us
@@ -12990,6 +12990,7 @@
 "Microsoft Azure Public",167.105.104.192/27,
 "Microsoft Azure Public",168.61.142.96/27,
 "Microsoft Azure Public",172.129.84.0/26,
+"Microsoft Azure Public",172.129.101.32/27,
 "Microsoft Azure Public",172.194.76.0/26,
 "Microsoft Azure Public",172.194.112.64/27,
 "Microsoft Azure Public",172.198.92.0/26,
@@ -15079,6 +15080,10 @@
 "Microsoft Azure Public",158.158.139.16/28,
 "Microsoft Azure Public",158.158.139.32/29,
 "Microsoft Azure Public",172.129.91.128/25,
+"Microsoft Azure Public",172.129.100.64/26,
+"Microsoft Azure Public",172.129.101.164/31,
+"Microsoft Azure Public",172.129.101.168/30,
+"Microsoft Azure Public",172.129.102.0/29,
 "Microsoft Azure Public",172.166.240.170/31,
 "Microsoft Azure Public",172.166.240.184/29,
 "Microsoft Azure Public",172.166.241.160/27,
@@ -15351,6 +15356,10 @@
 "Microsoft Azure Public",48.198.101.224/27,
 "Microsoft Azure Public",48.198.102.0/27,
 "Microsoft Azure Public",48.198.154.128/26,
+"Microsoft Azure Public",172.129.89.110/31,
+"Microsoft Azure Public",172.129.95.8/29,
+"Microsoft Azure Public",172.129.95.224/29,
+"Microsoft Azure Public",172.129.96.0/26,
 "Microsoft Azure Public",4.210.131.22/31,
 "Microsoft Azure Public",20.6.141.124/31,
 "Microsoft Azure Public",20.14.127.122/31,
@@ -15382,6 +15391,8 @@
 "Microsoft Azure Public",48.198.101.96/27,
 "Microsoft Azure Public",51.105.80.124/30,
 "Microsoft Azure Public",51.105.81.128/27,
+"Microsoft Azure Public",172.129.91.44/30,
+"Microsoft Azure Public",172.129.95.192/27,
 "Microsoft Azure Public",13.87.32.20/32,
 "Microsoft Azure Public",13.87.33.18/32,
 "Microsoft Azure Public",20.72.28.64/26,
@@ -15405,6 +15416,8 @@
 "Microsoft Azure Public",48.197.92.192/26,
 "Microsoft Azure Public",48.198.102.64/26,
 "Microsoft Azure Public",48.198.102.128/26,
+"Microsoft Azure Public",172.129.96.64/26,
+"Microsoft Azure Public",172.129.96.128/26,
 "Microsoft Azure Public",13.87.32.25/32,
 "Microsoft Azure Public",13.87.33.19/32,
 "Microsoft Azure Public",4.145.12.240/28,
@@ -15828,7 +15841,7 @@
 "Microsoft Azure Public",48.197.81.0/25,
 "Microsoft Azure Public",48.198.89.0/25,
 "Microsoft Azure Public",172.129.79.128/25,
-"Microsoft Azure Public",172.129.95.64/26,
+"Microsoft Azure Public",172.129.103.0/26,
 "Microsoft Azure Public",4.145.0.80/28,
 "Microsoft Azure Public",4.147.44.160/27,
 "Microsoft Azure Public",4.148.29.64/27,
@@ -17065,6 +17078,7 @@
 "Microsoft Azure Public",135.232.159.192/27,
 "Microsoft Azure Public",135.235.2.224/27,
 "Microsoft Azure Public",168.61.142.64/27,
+"Microsoft Azure Public",172.129.103.64/26,
 "Microsoft Azure Public",172.204.250.0/26,
 "Microsoft Azure Public",172.208.219.224/27,
 "Microsoft Azure Public",172.212.135.64/26,
@@ -17272,6 +17286,7 @@
 "Microsoft Azure Public",102.37.85.240/28,
 "Microsoft Azure Public",134.138.83.96/28,
 "Microsoft Azure Public",158.23.112.144/28,
+"Microsoft Azure Public",172.129.95.240/28,
 "Microsoft Azure Public",172.194.84.80/28,
 "Microsoft Azure Public",172.198.99.16/28,
 "Microsoft Azure Public",172.204.167.96/28,
@@ -17296,6 +17311,7 @@
 "Microsoft Azure Public",4.229.112.80/30,
 "Microsoft Azure Public",4.229.112.84/31,
 "Microsoft Azure Public",4.229.115.88/29,
+"Microsoft Azure Public",4.232.40.32/27,
 "Microsoft Azure Public",4.232.98.176/28,
 "Microsoft Azure Public",4.232.100.192/27,
 "Microsoft Azure Public",4.232.101.0/26,
@@ -17319,6 +17335,7 @@
 "Microsoft Azure Public",9.223.197.240/28,
 "Microsoft Azure Public",9.234.135.160/27,
 "Microsoft Azure Public",9.235.185.192/26,
+"Microsoft Azure Public",9.235.248.80/28,
 "Microsoft Azure Public",13.64.56.41/32,
 "Microsoft Azure Public",13.65.44.200/32,
 "Microsoft Azure Public",13.66.141.232/29,
@@ -18330,6 +18347,7 @@
 "Microsoft Azure Public",74.7.192.0/27,
 "Microsoft Azure Public",74.7.192.64/26,
 "Microsoft Azure Public",74.7.192.152/29,
+"Microsoft Azure Public",74.153.3.32/27,
 "Microsoft Azure Public",74.161.84.205/32,
 "Microsoft Azure Public",74.161.136.68/31,
 "Microsoft Azure Public",74.161.136.80/28,
@@ -18351,6 +18369,7 @@
 "Microsoft Azure Public",74.225.108.8/31,
 "Microsoft Azure Public",74.225.108.16/28,
 "Microsoft Azure Public",74.226.124.96/28,
+"Microsoft Azure Public",74.248.174.64/28,
 "Microsoft Azure Public",85.211.239.192/26,
 "Microsoft Azure Public",102.37.81.64/28,
 "Microsoft Azure Public",102.37.160.144/28,
@@ -18488,6 +18507,11 @@
 "Microsoft Azure Public",168.61.147.151/32,
 "Microsoft Azure Public",168.61.165.229/32,
 "Microsoft Azure Public",168.63.20.177/32,
+"Microsoft Azure Public",172.129.95.16/28,
+"Microsoft Azure Public",172.129.95.32/27,
+"Microsoft Azure Public",172.129.95.64/26,
+"Microsoft Azure Public",172.129.95.128/26,
+"Microsoft Azure Public",172.129.95.232/29,
 "Microsoft Azure Public",172.182.152.128/28,
 "Microsoft Azure Public",172.185.107.128/26,
 "Microsoft Azure Public",172.186.53.100/30,
@@ -18567,6 +18591,9 @@
 "Microsoft Azure Public",48.198.97.224/28,
 "Microsoft Azure Public",48.198.100.0/24,
 "Microsoft Azure Public",48.198.101.0/27,
+"Microsoft Azure Public",172.129.91.48/28,
+"Microsoft Azure Public",172.129.91.96/27,
+"Microsoft Azure Public",172.129.94.0/24,
 "Microsoft Azure Public",4.154.148.0/24,
 "Microsoft Azure Public",4.182.44.0/25,
 "Microsoft Azure Public",4.194.227.0/25,
@@ -18819,6 +18846,8 @@
 "Microsoft Azure Public",48.197.94.32/27,
 "Microsoft Azure Public",48.198.102.240/28,
 "Microsoft Azure Public",48.198.103.224/27,
+"Microsoft Azure Public",172.129.97.96/28,
+"Microsoft Azure Public",172.129.97.128/27,
 "Microsoft Azure Public",4.195.177.248/29,
 "Microsoft Azure Public",4.195.178.0/31,
 "Microsoft Azure Public",20.91.113.180/31,
@@ -20118,6 +20147,9 @@
 "Microsoft Azure Public",48.198.97.248/29,
 "Microsoft Azure Public",150.171.113.0/24,
 "Microsoft Azure Public",150.171.114.0/23,
+"Microsoft Azure Public",172.129.89.108/31,
+"Microsoft Azure Public",172.129.91.40/30,
+"Microsoft Azure Public",172.129.95.0/29,
 "Microsoft Azure Public",13.87.32.33/32,
 "Microsoft Azure Public",20.72.16.20/31,
 "Microsoft Azure Public",20.72.30.186/31,
@@ -20136,6 +20168,7 @@
 "Microsoft Azure Public",48.198.104.128/27,
 "Microsoft Azure Public",51.105.80.120/31,
 "Microsoft Azure Public",172.129.72.32/27,
+"Microsoft Azure Public",172.129.100.48/28,
 "Microsoft Azure Public",52.125.144.0/20,
 "Microsoft Azure Public",4.145.16.144/29,
 "Microsoft Azure Public",4.145.16.192/26,
@@ -20336,6 +20369,7 @@
 "Microsoft Azure Public",145.191.2.72/30,
 "Microsoft Azure Public",145.191.2.76/31,
 "Microsoft Azure Public",168.61.240.128/29,
+"Microsoft Azure Public",172.129.96.192/29,
 "Microsoft Azure Public",172.165.73.64/29,
 "Microsoft Azure Public",172.165.73.72/30,
 "Microsoft Azure Public",172.165.84.120/29,
@@ -21143,6 +21177,8 @@
 "Microsoft Azure Public",167.105.106.32/27,
 "Microsoft Azure Public",167.105.106.64/27,
 "Microsoft Azure Public",168.62.198.63/32,
+"Microsoft Azure Public",172.129.97.112/28,
+"Microsoft Azure Public",172.129.97.160/27,
 "Microsoft Azure Public",172.194.84.64/28,
 "Microsoft Azure Public",172.194.89.32/27,
 "Microsoft Azure Public",172.194.112.160/27,
@@ -29618,6 +29654,7 @@
 "Microsoft Azure Public",57.152.116.224/27,us
 "Microsoft Azure Public",57.175.217.224/27,us
 "Microsoft Azure Public",68.220.88.120/29,us
+"Microsoft Azure Public",72.152.138.0/26,us
 "Microsoft Azure Public",72.152.228.64/26,us
 "Microsoft Azure Public",74.151.232.128/26,us
 "Microsoft Azure Public",104.41.152.101/32,us
@@ -29636,6 +29673,8 @@
 "Microsoft Azure Public",20.44.16.0/29,us
 "Microsoft Azure Public",20.44.17.0/29,us
 "Microsoft Azure Public",20.44.73.196/32,us
+"Microsoft Azure Public",20.49.98.24/29,us
+"Microsoft Azure Public",20.49.98.96/27,us
 "Microsoft Azure Public",20.49.99.44/31,us
 "Microsoft Azure Public",20.49.99.64/28,us
 "Microsoft Azure Public",20.49.102.24/29,us
@@ -30933,6 +30972,7 @@
 "Microsoft Azure Public",52.247.202.90/32,us
 "Microsoft Azure Public",74.146.151.160/27,us
 "Microsoft Azure Public",74.146.196.64/26,us
+"Microsoft Azure Public",74.146.202.224/27,us
 "Microsoft Azure Public",172.179.208.0/27,us
 "Microsoft Azure Public",172.179.208.64/26,us
 "Microsoft Azure Public",4.236.114.8/29,us
@@ -34780,6 +34820,7 @@
 "Microsoft Azure Public",57.150.156.0/23,us
 "Microsoft Azure Public",57.150.204.0/23,us
 "Microsoft Azure Public",57.163.10.0/23,us
+"Microsoft Azure Public",57.163.68.0/23,us
 "Microsoft Azure Public",104.214.40.16/28,us
 "Microsoft Azure Public",104.214.80.16/28,us
 "Microsoft Azure Public",104.214.80.48/28,us
@@ -35019,6 +35060,7 @@
 "Microsoft Azure Public",52.239.187.0/25,gb
 "Microsoft Azure Public",52.239.231.0/24,gb
 "Microsoft Azure Public",57.150.236.0/23,gb
+"Microsoft Azure Public",57.163.64.0/23,gb
 "Microsoft Azure Public",135.130.130.0/23,gb
 "Microsoft Azure Public",145.190.156.0/24,gb
 "Microsoft Azure Public",20.33.134.0/24,gb
@@ -35279,6 +35321,7 @@
 "Microsoft Azure Public",57.150.60.0/23,us
 "Microsoft Azure Public",57.150.146.0/23,us
 "Microsoft Azure Public",57.150.228.0/23,us
+"Microsoft Azure Public",57.163.66.0/23,us
 "Microsoft Azure Public",104.42.200.16/28,us
 "Microsoft Azure Public",135.130.26.0/23,us
 "Microsoft Azure Public",135.130.66.0/23,us
@@ -35346,6 +35389,7 @@
 "Microsoft Azure Public",135.130.120.0/23,us
 "Microsoft Azure Public",135.130.166.0/23,us
 "Microsoft Azure Public",145.190.162.0/24,us
+"Microsoft Azure Public",145.190.188.0/24,us
 "Microsoft Azure Public",20.33.138.0/24,us
 "Microsoft Azure Public",20.33.164.0/24,us
 "Microsoft Azure Public",20.33.189.0/24,us
@@ -40880,6 +40924,7 @@
 "Microsoft Azure Public",52.242.47.40/30,ca
 "Microsoft Azure Public",52.242.47.96/29,ca
 "Microsoft Azure Public",4.188.30.192/27,in
+"Microsoft Azure Public",4.188.133.112/30,in
 "Microsoft Azure Public",4.247.186.224/28,in
 "Microsoft Azure Public",4.247.187.0/26,in
 "Microsoft Azure Public",20.192.47.128/30,in
@@ -41268,6 +41313,7 @@
 "Microsoft Azure Public",52.172.85.16/29,in
 "Microsoft Azure Public",52.172.116.184/30,in
 "Microsoft Azure Public",52.172.116.190/31,in
+"Microsoft Azure Public",74.224.37.216/30,in
 "Microsoft Azure Public",74.224.224.224/27,in
 "Microsoft Azure Public",135.13.7.128/29,in
 "Microsoft Azure Public",135.13.51.128/27,in
@@ -45683,6 +45729,8 @@
 "Microsoft Azure Public",48.197.89.160/27,
 "Microsoft Azure Public",48.198.97.224/28,
 "Microsoft Azure Public",48.198.101.0/27,
+"Microsoft Azure Public",172.129.91.48/28,
+"Microsoft Azure Public",172.129.91.96/27,
 "Microsoft Azure Public",4.144.203.73/32,
 "Microsoft Azure Public",4.144.203.255/32,
 "Microsoft Azure Public",4.156.25.189/32,
@@ -45716,6 +45764,7 @@
 "Microsoft Azure Public",158.23.254.105/32,
 "Microsoft Azure Public",158.23.254.156/32,
 "Microsoft Azure Public",158.23.254.193/32,
+"Microsoft Azure Public",172.129.97.96/28,
 "Microsoft Azure Public",172.211.196.189/32,
 "Microsoft Azure Public",4.198.32.0/19,au
 "Microsoft Azure Public",4.254.128.0/17,au
@@ -45925,6 +45974,7 @@
 "Microsoft Azure Public",40.120.177.0/26,au
 "Microsoft Azure Public",40.120.177.64/28,au
 "Microsoft Azure Public",40.120.177.80/29,au
+"Microsoft Azure Public",40.120.177.88/31,au
 "Microsoft Azure Public",40.120.177.94/31,au
 "Microsoft Azure Public",40.120.177.96/27,au
 "Microsoft Azure Public",40.120.177.128/25,au
@@ -46162,6 +46212,7 @@
 "Microsoft Azure Public",40.93.89.0/24,at
 "Microsoft Azure Public",40.98.18.0/24,at
 "Microsoft Azure Public",40.98.22.128/26,at
+"Microsoft Azure Public",40.98.24.0/24,at
 "Microsoft Azure Public",40.100.4.128/25,at
 "Microsoft Azure Public",40.100.5.0/26,at
 "Microsoft Azure Public",40.101.116.0/25,at
@@ -46186,6 +46237,7 @@
 "Microsoft Azure Public",74.148.0.0/17,at
 "Microsoft Azure Public",135.130.188.0/23,at
 "Microsoft Azure Public",145.190.128.0/24,at
+"Microsoft Azure Public",151.206.116.0/24,at
 "Microsoft Azure Public",151.206.153.0/24,at
 "Microsoft Azure Public",151.206.179.0/24,at
 "Microsoft Azure Public",209.199.22.176/28,at
@@ -47298,6 +47350,7 @@
 "Microsoft Azure Public",40.97.55.64/26,us
 "Microsoft Azure Public",40.97.55.128/25,us
 "Microsoft Azure Public",40.98.3.0/26,us
+"Microsoft Azure Public",40.98.9.0/24,us
 "Microsoft Azure Public",40.113.192.0/18,us
 "Microsoft Azure Public",40.120.164.2/31,us
 "Microsoft Azure Public",40.120.164.4/30,us
@@ -47361,6 +47414,7 @@
 "Microsoft Azure Public",40.120.167.72/30,us
 "Microsoft Azure Public",40.120.167.98/31,us
 "Microsoft Azure Public",40.120.167.100/30,us
+"Microsoft Azure Public",40.120.167.104/31,us
 "Microsoft Azure Public",40.120.167.108/30,us
 "Microsoft Azure Public",40.120.167.112/28,us
 "Microsoft Azure Public",40.120.167.128/28,us
@@ -47376,6 +47430,7 @@
 "Microsoft Azure Public",40.123.168.0/25,us
 "Microsoft Azure Public",40.123.168.128/26,us
 "Microsoft Azure Public",40.123.168.192/30,us
+"Microsoft Azure Public",40.123.168.196/31,us
 "Microsoft Azure Public",40.123.168.202/31,us
 "Microsoft Azure Public",40.123.168.210/31,us
 "Microsoft Azure Public",40.123.168.212/30,us
@@ -47727,9 +47782,8 @@
 "Microsoft Azure Public",20.20.32.128/25,cl
 "Microsoft Azure Public",20.20.88.0/24,cl
 "Microsoft Azure Public",20.20.89.0/26,cl
-"Microsoft Azure Public",20.20.89.64/29,cl
-"Microsoft Azure Public",20.20.89.72/30,cl
-"Microsoft Azure Public",20.20.89.76/31,cl
+"Microsoft Azure Public",20.20.89.64/28,cl
+"Microsoft Azure Public",20.20.89.80/31,cl
 "Microsoft Azure Public",20.33.85.0/24,cl
 "Microsoft Azure Public",20.33.236.0/24,cl
 "Microsoft Azure Public",20.33.240.0/24,cl
@@ -47768,11 +47822,12 @@
 "Microsoft Azure Public",57.150.101.0/24,cl
 "Microsoft Azure Public",57.150.112.0/22,cl
 "Microsoft Azure Public",57.150.116.0/24,cl
-"Microsoft Azure Public",57.156.0.0/17,cl
+"Microsoft Azure Public",57.156.0.0/16,cl
 "Microsoft Azure Public",68.211.0.0/17,cl
 "Microsoft Azure Public",68.211.128.0/18,cl
 "Microsoft Azure Public",68.211.192.0/19,cl
 "Microsoft Azure Public",70.152.213.0/24,cl
+"Microsoft Azure Public",151.206.123.0/24,cl
 "Microsoft Azure Public",209.199.24.224/27,cl
 "Microsoft Azure Public",209.199.26.0/24,cl
 "Microsoft Azure Public",209.199.27.0/28,cl
@@ -48203,6 +48258,8 @@
 "Microsoft Azure Public",40.123.145.226/31,us
 "Microsoft Azure Public",40.123.145.228/31,us
 "Microsoft Azure Public",40.123.145.242/31,us
+"Microsoft Azure Public",40.123.146.12/31,us
+"Microsoft Azure Public",40.123.146.26/31,us
 "Microsoft Azure Public",40.123.146.32/30,us
 "Microsoft Azure Public",40.123.146.38/31,us
 "Microsoft Azure Public",40.123.146.40/31,us
@@ -48767,6 +48824,7 @@
 "Microsoft Azure Public",40.97.47.128/25,us
 "Microsoft Azure Public",40.97.52.0/26,us
 "Microsoft Azure Public",40.98.1.128/26,us
+"Microsoft Azure Public",40.98.10.0/24,us
 "Microsoft Azure Public",40.120.156.0/28,us
 "Microsoft Azure Public",40.120.156.16/29,us
 "Microsoft Azure Public",40.120.156.24/30,us
@@ -48880,7 +48938,7 @@
 "Microsoft Azure Public",40.123.146.14/31,us
 "Microsoft Azure Public",40.123.146.16/29,us
 "Microsoft Azure Public",40.123.146.24/31,us
-"Microsoft Azure Public",40.123.146.30/31,us
+"Microsoft Azure Public",40.123.146.28/30,us
 "Microsoft Azure Public",40.123.146.36/31,us
 "Microsoft Azure Public",40.123.146.42/31,us
 "Microsoft Azure Public",40.123.146.44/30,us
@@ -48892,7 +48950,8 @@
 "Microsoft Azure Public",40.123.146.112/29,us
 "Microsoft Azure Public",40.123.146.120/30,us
 "Microsoft Azure Public",40.123.146.128/27,us
-"Microsoft Azure Public",40.123.146.160/31,us
+"Microsoft Azure Public",40.123.146.160/30,us
+"Microsoft Azure Public",40.123.146.164/31,us
 "Microsoft Azure Public",40.123.146.176/31,us
 "Microsoft Azure Public",40.123.146.182/31,us
 "Microsoft Azure Public",40.123.146.184/29,us
@@ -48907,7 +48966,7 @@
 "Microsoft Azure Public",40.123.146.246/31,us
 "Microsoft Azure Public",40.123.146.248/29,us
 "Microsoft Azure Public",40.123.147.0/29,us
-"Microsoft Azure Public",40.123.147.8/31,us
+"Microsoft Azure Public",40.123.147.8/30,us
 "Microsoft Azure Public",40.123.147.14/31,us
 "Microsoft Azure Public",40.123.147.16/28,us
 "Microsoft Azure Public",40.123.147.32/31,us
@@ -49510,14 +49569,14 @@
 "Microsoft Azure Public",20.231.153.64/26,us
 "Microsoft Azure Public",40.98.0.128/25,us
 "Microsoft Azure Public",40.98.1.0/26,us
+"Microsoft Azure Public",40.98.7.0/24,us
 "Microsoft Azure Public",51.57.128.0/17,us
 "Microsoft Azure Public",52.106.121.0/27,us
 "Microsoft Azure Public",57.150.249.0/24,us
 "Microsoft Azure Public",57.157.24.0/24,us
 "Microsoft Azure Public",57.157.25.0/25,us
-"Microsoft Azure Public",57.157.25.128/28,us
-"Microsoft Azure Public",57.157.25.144/30,us
-"Microsoft Azure Public",57.157.25.148/31,us
+"Microsoft Azure Public",57.157.25.128/26,us
+"Microsoft Azure Public",57.157.25.192/31,us
 "Microsoft Azure Public",57.163.32.0/23,us
 "Microsoft Azure Public",134.138.0.0/17,us
 "Microsoft Azure Public",135.130.0.0/23,us
@@ -49857,6 +49916,7 @@
 "Microsoft Azure Public",40.97.47.0/25,us
 "Microsoft Azure Public",40.98.0.64/26,us
 "Microsoft Azure Public",40.98.2.0/24,us
+"Microsoft Azure Public",40.98.6.0/24,us
 "Microsoft Azure Public",40.112.48.0/20,us
 "Microsoft Azure Public",40.114.0.0/17,us
 "Microsoft Azure Public",40.117.32.0/19,us
@@ -50439,6 +50499,7 @@
 "Microsoft Azure Public",40.90.31.0/27,de
 "Microsoft Azure Public",40.90.128.240/28,de
 "Microsoft Azure Public",40.93.77.0/24,de
+"Microsoft Azure Public",40.98.28.0/24,de
 "Microsoft Azure Public",40.101.24.192/26,de
 "Microsoft Azure Public",40.107.138.0/23,de
 "Microsoft Azure Public",40.107.140.0/24,de
@@ -50471,6 +50532,7 @@
 "Microsoft Azure Public",70.152.41.0/24,de
 "Microsoft Azure Public",98.67.0.0/18,de
 "Microsoft Azure Public",98.67.64.0/21,de
+"Microsoft Azure Public",151.206.115.0/24,de
 "Microsoft Azure Public",4.182.0.0/16,de
 "Microsoft Azure Public",4.184.56.0/21,de
 "Microsoft Azure Public",4.184.64.0/18,de
@@ -50589,7 +50651,8 @@
 "Microsoft Azure Public",57.150.218.0/23,de
 "Microsoft Azure Public",57.157.60.0/24,de
 "Microsoft Azure Public",57.157.61.0/27,de
-"Microsoft Azure Public",57.157.61.32/29,de
+"Microsoft Azure Public",57.157.61.32/28,de
+"Microsoft Azure Public",57.157.61.48/31,de
 "Microsoft Azure Public",70.152.12.0/24,de
 "Microsoft Azure Public",72.144.0.0/16,de
 "Microsoft Azure Public",74.154.0.0/16,de
@@ -50624,9 +50687,8 @@
 "Microsoft Azure Public",52.123.22.0/24,in
 "Microsoft Azure Public",57.157.92.0/25,in
 "Microsoft Azure Public",57.157.92.128/26,in
-"Microsoft Azure Public",57.157.92.192/28,in
-"Microsoft Azure Public",57.157.92.208/29,in
-"Microsoft Azure Public",57.157.92.216/31,in
+"Microsoft Azure Public",57.157.92.192/27,in
+"Microsoft Azure Public",57.157.92.224/31,in
 "Microsoft Azure Public",57.163.2.0/23,in
 "Microsoft Azure Public",135.130.87.0/24,in
 "Microsoft Azure Public",135.130.94.0/23,in
@@ -50858,7 +50920,9 @@
 "Microsoft Azure Public",40.120.134.0/24,it
 "Microsoft Azure Public",40.120.135.0/26,it
 "Microsoft Azure Public",40.120.135.64/28,it
-"Microsoft Azure Public",40.120.135.80/31,it
+"Microsoft Azure Public",40.120.135.80/29,it
+"Microsoft Azure Public",40.120.135.88/30,it
+"Microsoft Azure Public",40.120.135.92/31,it
 "Microsoft Azure Public",48.212.19.0/24,it
 "Microsoft Azure Public",48.212.147.0/24,it
 "Microsoft Azure Public",48.213.19.0/24,it
@@ -50885,6 +50949,7 @@
 "Microsoft Azure Public",135.130.84.0/23,it
 "Microsoft Azure Public",145.190.69.0/24,it
 "Microsoft Azure Public",145.190.148.0/24,it
+"Microsoft Azure Public",151.206.119.0/24,it
 "Microsoft Azure Public",151.206.157.0/24,it
 "Microsoft Azure Public",151.206.183.0/24,it
 "Microsoft Azure Public",172.213.0.0/19,it
@@ -51495,16 +51560,15 @@
 "Microsoft Azure Public",52.245.112.0/22,kr
 "Microsoft Azure Public",52.253.173.0/24,kr
 "Microsoft Azure Public",52.253.174.0/24,kr
-"Microsoft Azure Public",57.157.88.0/25,kr
-"Microsoft Azure Public",57.157.88.128/26,kr
-"Microsoft Azure Public",57.157.88.192/27,kr
-"Microsoft Azure Public",57.157.88.224/28,kr
-"Microsoft Azure Public",57.157.88.240/29,kr
+"Microsoft Azure Public",57.157.88.0/24,kr
+"Microsoft Azure Public",57.157.89.0/27,kr
+"Microsoft Azure Public",57.157.89.32/30,kr
 "Microsoft Azure Public",70.152.15.0/24,kr
 "Microsoft Azure Public",72.155.0.0/17,kr
 "Microsoft Azure Public",74.227.136.0/21,kr
 "Microsoft Azure Public",104.44.90.160/27,kr
 "Microsoft Azure Public",135.130.106.0/23,kr
+"Microsoft Azure Public",151.206.121.0/24,kr
 "Microsoft Azure Public",151.206.159.0/24,kr
 "Microsoft Azure Public",151.206.185.0/24,kr
 "Microsoft Azure Public",4.243.0.0/16,kr
@@ -51788,6 +51852,7 @@
 "Microsoft Azure Public",68.155.0.0/16,mx
 "Microsoft Azure Public",70.152.44.0/24,mx
 "Microsoft Azure Public",145.190.84.0/24,mx
+"Microsoft Azure Public",151.206.124.0/24,mx
 "Microsoft Azure Public",151.206.184.0/24,mx
 "Microsoft Azure Public",158.23.0.0/16,mx
 "Microsoft Azure Public",172.195.0.0/16,mx
@@ -51819,10 +51884,10 @@
 "Microsoft Azure Public",40.107.10.0/24,nz
 "Microsoft Azure Public",40.120.172.0/23,nz
 "Microsoft Azure Public",40.120.174.0/24,nz
-"Microsoft Azure Public",40.120.175.0/28,nz
-"Microsoft Azure Public",40.120.175.16/29,nz
-"Microsoft Azure Public",40.120.175.24/30,nz
-"Microsoft Azure Public",40.120.175.28/31,nz
+"Microsoft Azure Public",40.120.175.0/26,nz
+"Microsoft Azure Public",40.120.175.64/29,nz
+"Microsoft Azure Public",40.120.175.72/30,nz
+"Microsoft Azure Public",40.120.175.76/31,nz
 "Microsoft Azure Public",48.212.21.0/24,nz
 "Microsoft Azure Public",48.212.149.0/24,nz
 "Microsoft Azure Public",48.213.21.0/24,nz
@@ -51844,6 +51909,7 @@
 "Microsoft Azure Public",52.253.212.0/24,nz
 "Microsoft Azure Public",70.152.211.0/24,nz
 "Microsoft Azure Public",135.130.128.0/23,nz
+"Microsoft Azure Public",151.206.122.0/24,nz
 "Microsoft Azure Public",151.206.154.0/24,nz
 "Microsoft Azure Public",151.206.180.0/24,nz
 "Microsoft Azure Public",172.196.0.0/16,nz
@@ -51989,6 +52055,7 @@
 "Microsoft Azure Public",40.97.53.128/26,us
 "Microsoft Azure Public",40.98.1.64/26,us
 "Microsoft Azure Public",40.98.1.192/26,us
+"Microsoft Azure Public",40.98.11.0/24,us
 "Microsoft Azure Public",40.107.199.0/24,us
 "Microsoft Azure Public",40.107.200.0/23,us
 "Microsoft Azure Public",40.116.0.0/16,us
@@ -52040,12 +52107,8 @@
 "Microsoft Azure Public",57.150.30.0/23,us
 "Microsoft Azure Public",57.150.66.0/23,us
 "Microsoft Azure Public",57.150.102.0/23,us
-"Microsoft Azure Public",57.157.64.0/24,us
-"Microsoft Azure Public",57.157.65.0/25,us
-"Microsoft Azure Public",57.157.65.128/26,us
-"Microsoft Azure Public",57.157.65.192/28,us
-"Microsoft Azure Public",57.157.65.208/29,us
-"Microsoft Azure Public",57.157.65.216/31,us
+"Microsoft Azure Public",57.157.64.0/23,us
+"Microsoft Azure Public",57.157.66.0/29,us
 "Microsoft Azure Public",64.236.128.0/17,us
 "Microsoft Azure Public",65.52.0.0/19,us
 "Microsoft Azure Public",65.52.48.0/20,us
@@ -52329,6 +52392,7 @@
 "Microsoft Azure Public",40.91.20.0/22,ie
 "Microsoft Azure Public",40.91.32.0/22,ie
 "Microsoft Azure Public",40.93.64.0/24,ie
+"Microsoft Azure Public",40.98.25.0/24,ie
 "Microsoft Azure Public",40.101.2.0/25,ie
 "Microsoft Azure Public",40.101.2.128/26,ie
 "Microsoft Azure Public",40.101.21.0/25,ie
@@ -52796,6 +52860,7 @@
 "Microsoft Azure Public",134.112.0.0/16,pl
 "Microsoft Azure Public",135.130.208.0/23,pl
 "Microsoft Azure Public",145.190.74.0/24,pl
+"Microsoft Azure Public",151.206.118.0/24,pl
 "Microsoft Azure Public",151.206.155.0/24,pl
 "Microsoft Azure Public",151.206.181.0/24,pl
 "Microsoft Azure Public",4.170.0.0/15,qa
@@ -53031,6 +53096,7 @@
 "Microsoft Azure Public",102.133.64.0/19,za
 "Microsoft Azure Public",102.133.96.0/20,za
 "Microsoft Azure Public",102.133.112.0/28,za
+"Microsoft Azure Public",151.206.114.0/24,za
 "Microsoft Azure Public",151.206.166.0/24,za
 "Microsoft Azure Public",151.206.192.0/24,za
 "Microsoft Azure Public",172.209.0.0/17,za
@@ -53390,6 +53456,7 @@
 "Microsoft Azure Public",40.97.32.0/22,us
 "Microsoft Azure Public",40.97.44.0/24,us
 "Microsoft Azure Public",40.98.0.0/26,us
+"Microsoft Azure Public",40.98.5.0/24,us
 "Microsoft Azure Public",40.119.0.0/18,us
 "Microsoft Azure Public",40.123.164.0/25,us
 "Microsoft Azure Public",40.123.164.128/29,us
@@ -53431,31 +53498,29 @@
 "Microsoft Azure Public",40.123.165.144/29,us
 "Microsoft Azure Public",40.123.165.154/31,us
 "Microsoft Azure Public",40.123.165.156/30,us
-"Microsoft Azure Public",40.123.165.160/30,us
-"Microsoft Azure Public",40.123.165.166/31,us
-"Microsoft Azure Public",40.123.165.168/31,us
+"Microsoft Azure Public",40.123.165.160/29,us
+"Microsoft Azure Public",40.123.165.168/30,us
 "Microsoft Azure Public",40.123.165.172/31,us
-"Microsoft Azure Public",40.123.165.184/31,us
+"Microsoft Azure Public",40.123.165.184/30,us
 "Microsoft Azure Public",40.123.165.188/31,us
 "Microsoft Azure Public",40.123.165.194/31,us
 "Microsoft Azure Public",40.123.165.202/31,us
-"Microsoft Azure Public",40.123.165.206/31,us
+"Microsoft Azure Public",40.123.165.204/30,us
 "Microsoft Azure Public",40.123.165.226/31,us
 "Microsoft Azure Public",40.123.165.232/31,us
 "Microsoft Azure Public",40.123.165.240/30,us
 "Microsoft Azure Public",40.123.165.250/31,us
-"Microsoft Azure Public",40.123.165.254/31,us
+"Microsoft Azure Public",40.123.165.252/30,us
 "Microsoft Azure Public",40.123.166.8/31,us
 "Microsoft Azure Public",40.123.166.16/31,us
 "Microsoft Azure Public",40.123.166.24/31,us
 "Microsoft Azure Public",40.123.166.30/31,us
-"Microsoft Azure Public",40.123.166.32/30,us
-"Microsoft Azure Public",40.123.166.36/31,us
+"Microsoft Azure Public",40.123.166.32/29,us
 "Microsoft Azure Public",40.123.166.40/30,us
 "Microsoft Azure Public",40.123.166.58/31,us
 "Microsoft Azure Public",40.123.166.70/31,us
 "Microsoft Azure Public",40.123.166.78/31,us
-"Microsoft Azure Public",40.123.166.80/31,us
+"Microsoft Azure Public",40.123.166.80/30,us
 "Microsoft Azure Public",40.123.166.84/31,us
 "Microsoft Azure Public",40.123.166.104/29,us
 "Microsoft Azure Public",40.123.166.112/28,us
@@ -53576,6 +53641,7 @@
 "Microsoft Azure Public",57.157.77.32/30,us
 "Microsoft Azure Public",57.157.77.36/31,us
 "Microsoft Azure Public",57.163.10.0/23,us
+"Microsoft Azure Public",57.163.68.0/23,us
 "Microsoft Azure Public",57.171.7.0/24,us
 "Microsoft Azure Public",57.171.13.0/24,us
 "Microsoft Azure Public",65.52.32.0/21,us
@@ -54088,8 +54154,9 @@
 "Microsoft Azure Public",40.102.17.128/25,es
 "Microsoft Azure Public",40.102.18.0/26,es
 "Microsoft Azure Public",40.120.144.0/23,es
-"Microsoft Azure Public",40.120.146.0/26,es
-"Microsoft Azure Public",40.120.146.64/27,es
+"Microsoft Azure Public",40.120.146.0/25,es
+"Microsoft Azure Public",40.120.146.128/29,es
+"Microsoft Azure Public",40.120.146.136/30,es
 "Microsoft Azure Public",48.208.40.0/24,es
 "Microsoft Azure Public",48.212.43.0/24,es
 "Microsoft Azure Public",48.212.170.0/24,es
@@ -54115,6 +54182,7 @@
 "Microsoft Azure Public",70.156.0.0/16,es
 "Microsoft Azure Public",135.130.58.0/23,es
 "Microsoft Azure Public",145.190.71.0/24,es
+"Microsoft Azure Public",151.206.120.0/24,es
 "Microsoft Azure Public",151.206.167.0/24,es
 "Microsoft Azure Public",151.206.193.0/24,es
 "Microsoft Azure Public",158.158.0.0/16,es
@@ -54172,6 +54240,7 @@
 "Microsoft Azure Public",40.64.183.0/25,se
 "Microsoft Azure Public",40.93.214.0/24,se
 "Microsoft Azure Public",40.98.16.0/24,se
+"Microsoft Azure Public",40.98.27.0/24,se
 "Microsoft Azure Public",40.101.1.0/24,se
 "Microsoft Azure Public",40.101.27.64/26,se
 "Microsoft Azure Public",40.101.27.128/25,se
@@ -54428,6 +54497,7 @@
 "Microsoft Azure Public",135.130.42.0/23,ch
 "Microsoft Azure Public",145.190.70.0/24,ch
 "Microsoft Azure Public",145.190.73.0/24,ch
+"Microsoft Azure Public",151.206.117.0/24,ch
 "Microsoft Azure Public",151.206.149.0/24,ch
 "Microsoft Azure Public",151.206.175.0/24,ch
 "Microsoft Azure Public",172.161.0.0/16,ch
@@ -54959,9 +55029,11 @@
 "Microsoft Azure Public",52.253.162.0/23,gb
 "Microsoft Azure Public",57.150.236.0/23,gb
 "Microsoft Azure Public",57.157.40.0/26,gb
-"Microsoft Azure Public",57.157.40.64/28,gb
-"Microsoft Azure Public",57.157.40.80/29,gb
-"Microsoft Azure Public",57.157.40.88/30,gb
+"Microsoft Azure Public",57.157.40.64/27,gb
+"Microsoft Azure Public",57.157.40.96/28,gb
+"Microsoft Azure Public",57.157.40.112/29,gb
+"Microsoft Azure Public",57.157.40.120/30,gb
+"Microsoft Azure Public",57.163.64.0/23,gb
 "Microsoft Azure Public",70.152.33.0/24,gb
 "Microsoft Azure Public",70.152.237.0/24,gb
 "Microsoft Azure Public",70.152.238.0/23,gb
@@ -55481,6 +55553,7 @@
 "Microsoft Azure Public",40.91.28.0/22,nl
 "Microsoft Azure Public",40.91.192.0/18,nl
 "Microsoft Azure Public",40.93.65.0/24,nl
+"Microsoft Azure Public",40.98.26.0/24,nl
 "Microsoft Azure Public",40.101.2.192/26,nl
 "Microsoft Azure Public",40.101.3.0/25,nl
 "Microsoft Azure Public",40.101.20.64/26,nl
@@ -55658,36 +55731,14 @@
 "Microsoft Azure Public",57.150.166.0/23,nl
 "Microsoft Azure Public",57.150.224.0/23,nl
 "Microsoft Azure Public",57.153.0.0/16,nl
-"Microsoft Azure Public",57.157.12.0/26,nl
-"Microsoft Azure Public",57.157.12.64/31,nl
-"Microsoft Azure Public",57.157.12.68/30,nl
-"Microsoft Azure Public",57.157.12.72/29,nl
-"Microsoft Azure Public",57.157.12.80/28,nl
-"Microsoft Azure Public",57.157.12.96/27,nl
-"Microsoft Azure Public",57.157.12.128/25,nl
+"Microsoft Azure Public",57.157.12.0/24,nl
 "Microsoft Azure Public",57.157.13.0/25,nl
-"Microsoft Azure Public",57.157.13.128/29,nl
-"Microsoft Azure Public",57.157.13.136/31,nl
-"Microsoft Azure Public",57.157.13.140/30,nl
-"Microsoft Azure Public",57.157.13.144/30,nl
-"Microsoft Azure Public",57.157.13.148/31,nl
+"Microsoft Azure Public",57.157.13.128/28,nl
+"Microsoft Azure Public",57.157.13.144/29,nl
 "Microsoft Azure Public",57.157.13.170/31,nl
-"Microsoft Azure Public",57.157.13.174/31,nl
-"Microsoft Azure Public",57.157.13.178/31,nl
-"Microsoft Azure Public",57.157.13.182/31,nl
-"Microsoft Azure Public",57.157.13.186/31,nl
-"Microsoft Azure Public",57.157.13.190/31,nl
-"Microsoft Azure Public",57.157.13.194/31,nl
-"Microsoft Azure Public",57.157.13.198/31,nl
-"Microsoft Azure Public",57.157.13.202/31,nl
-"Microsoft Azure Public",57.157.13.206/31,nl
-"Microsoft Azure Public",57.157.13.210/31,nl
-"Microsoft Azure Public",57.157.13.214/31,nl
-"Microsoft Azure Public",57.157.13.216/29,nl
-"Microsoft Azure Public",57.157.13.224/30,nl
-"Microsoft Azure Public",57.157.13.228/31,nl
-"Microsoft Azure Public",57.157.13.232/29,nl
-"Microsoft Azure Public",57.157.13.240/28,nl
+"Microsoft Azure Public",57.157.13.172/30,nl
+"Microsoft Azure Public",57.157.13.176/28,nl
+"Microsoft Azure Public",57.157.13.192/26,nl
 "Microsoft Azure Public",57.157.14.0/23,nl
 "Microsoft Azure Public",57.157.56.0/24,nl
 "Microsoft Azure Public",57.157.57.0/27,nl
@@ -55868,14 +55919,7 @@
 "Microsoft Azure Public",13.105.107.192/27,us
 "Microsoft Azure Public",20.3.0.0/16,us
 "Microsoft Azure Public",20.9.128.0/17,us
-"Microsoft Azure Public",20.20.76.0/25,us
-"Microsoft Azure Public",20.20.76.128/27,us
-"Microsoft Azure Public",20.20.76.160/28,us
-"Microsoft Azure Public",20.20.76.176/30,us
-"Microsoft Azure Public",20.20.76.184/29,us
-"Microsoft Azure Public",20.20.76.192/26,us
-"Microsoft Azure Public",20.20.77.0/24,us
-"Microsoft Azure Public",20.20.78.0/23,us
+"Microsoft Azure Public",20.20.76.0/22,us
 "Microsoft Azure Public",20.29.128.0/17,us
 "Microsoft Azure Public",20.33.46.0/24,us
 "Microsoft Azure Public",20.33.160.0/24,us
@@ -56201,6 +56245,7 @@
 "Microsoft Azure Public",145.190.40.0/23,us
 "Microsoft Azure Public",145.190.42.0/24,us
 "Microsoft Azure Public",145.190.162.0/24,us
+"Microsoft Azure Public",145.190.188.0/24,us
 "Microsoft Azure Public",151.206.79.0/25,us
 "Microsoft Azure Public",151.206.106.0/24,us
 "Microsoft Azure Public",151.206.135.0/24,us
@@ -56329,6 +56374,7 @@
 "Microsoft Azure Public",40.97.63.128/25,us
 "Microsoft Azure Public",40.97.72.0/26,us
 "Microsoft Azure Public",40.98.3.128/25,us
+"Microsoft Azure Public",40.98.8.0/24,us
 "Microsoft Azure Public",40.107.208.0/23,us
 "Microsoft Azure Public",40.107.210.0/24,us
 "Microsoft Azure Public",40.119.88.0/22,us
@@ -56375,14 +56421,10 @@
 "Microsoft Azure Public",57.150.252.0/23,us
 "Microsoft Azure Public",57.154.0.0/17,us
 "Microsoft Azure Public",57.157.8.0/23,us
-"Microsoft Azure Public",57.157.10.0/28,us
-"Microsoft Azure Public",57.157.10.16/29,us
-"Microsoft Azure Public",57.157.10.24/30,us
-"Microsoft Azure Public",57.157.10.48/28,us
-"Microsoft Azure Public",57.157.10.64/26,us
-"Microsoft Azure Public",57.157.10.128/25,us
+"Microsoft Azure Public",57.157.10.0/24,us
 "Microsoft Azure Public",57.157.11.0/27,us
-"Microsoft Azure Public",57.157.11.32/30,us
+"Microsoft Azure Public",57.157.11.32/28,us
+"Microsoft Azure Public",57.157.11.48/29,us
 "Microsoft Azure Public",57.157.11.72/29,us
 "Microsoft Azure Public",57.157.11.80/28,us
 "Microsoft Azure Public",57.157.11.96/27,us
@@ -56390,7 +56432,7 @@
 "Microsoft Azure Public",57.157.128.0/24,us
 "Microsoft Azure Public",57.157.129.0/25,us
 "Microsoft Azure Public",57.157.129.128/26,us
-"Microsoft Azure Public",57.157.129.192/29,us
+"Microsoft Azure Public",57.157.129.192/28,us
 "Microsoft Azure Public",57.163.18.0/23,us
 "Microsoft Azure Public",57.163.46.0/23,us
 "Microsoft Azure Public",70.152.40.0/24,us
@@ -56608,6 +56650,7 @@
 "Microsoft Azure Public",40.97.45.0/26,us
 "Microsoft Azure Public",40.97.46.0/25,us
 "Microsoft Azure Public",40.97.46.128/26,us
+"Microsoft Azure Public",40.98.12.0/24,us
 "Microsoft Azure Public",40.112.128.0/17,us
 "Microsoft Azure Public",40.118.128.0/17,us
 "Microsoft Azure Public",40.123.152.0/22,us
@@ -56825,6 +56868,7 @@
 "Microsoft Azure Public",57.150.146.0/23,us
 "Microsoft Azure Public",57.150.228.0/23,us
 "Microsoft Azure Public",57.154.128.0/18,us
+"Microsoft Azure Public",57.163.66.0/23,us
 "Microsoft Azure Public",65.52.112.0/20,us
 "Microsoft Azure Public",68.220.32.0/19,us
 "Microsoft Azure Public",70.152.38.0/24,us
@@ -56954,6 +56998,8 @@
 "Microsoft Azure Public",40.90.150.96/28,
 "Microsoft Azure Public",40.90.150.112/28,
 "Microsoft Azure Public",40.97.63.64/26,
+"Microsoft Azure Public",40.98.29.0/24,
+"Microsoft Azure Public",40.98.30.0/23,
 "Microsoft Azure Public",40.101.114.128/25,
 "Microsoft Azure Public",40.101.115.0/26,
 "Microsoft Azure Public",40.119.100.52/30,
