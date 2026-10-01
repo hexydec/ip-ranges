@@ -1428,6 +1428,7 @@
 "Amazon AWS",56.112.0.0/16,ca
 "Amazon AWS",64.66.160.0/24,gb
 "Amazon AWS",69.107.9.208/29,au
+"Amazon AWS",69.107.13.88/29,gb
 "Amazon AWS",70.132.0.0/18,
 "Amazon AWS",150.222.152.99/32,de
 "Amazon AWS",150.222.234.26/31,us
@@ -3079,6 +3080,7 @@
 "Amazon AWS",64.66.131.0/24,us
 "Amazon AWS",64.252.100.0/24,in
 "Amazon AWS",65.176.0.0/15,gb
+"Amazon AWS",69.107.13.80/29,gb
 "Amazon AWS",94.36.0.0/15,my
 "Amazon AWS",104.255.57.183/32,us
 "Amazon AWS",150.222.144.102/32,de
@@ -3708,7 +3710,6 @@
 "Amazon AWS",69.107.7.96/29,us
 "Amazon AWS",76.223.170.0/28,ca
 "Amazon AWS",150.222.102.0/24,us
-"Amazon AWS",1.178.86.0/24,id
 "Amazon AWS",1.178.172.0/23,
 "Amazon AWS",3.2.106.0/24,us
 "Amazon AWS",3.4.12.2/32,au
@@ -7977,7 +7978,6 @@
 "Amazon AWS",35.55.22.0/24,fr
 "Amazon AWS",51.74.128.0/18,de
 "Amazon AWS",54.194.0.0/15,ie
-"Amazon AWS",1.178.86.0/24,id
 "Amazon AWS",3.2.106.0/24,us
 "Amazon AWS",15.129.80.0/22,ie
 "Amazon AWS",35.50.232.0/24,in
@@ -10077,6 +10077,7 @@
 "Amazon AWS",63.187.12.0/22,de
 "Amazon AWS",63.187.16.0/22,de
 "Amazon AWS",63.187.20.0/22,de
+"Amazon AWS",63.189.140.0/22,de
 "Amazon AWS",16.18.164.0/22,ch
 "Amazon AWS",16.18.95.128/25,ch
 "Amazon AWS",16.192.180.0/22,se
@@ -10725,6 +10726,7 @@
 "Amazon AWS",2406:daf9:a000::/40,in
 "Amazon AWS",2600:f0f0:30f::/48,de
 "Amazon AWS",2600:f0f3:f010:3000::/56,ca
+"Amazon AWS",2600:f0fb:ca01::/52,sg
 "Amazon AWS",2600:f0fb:f102::/48,ie
 "Amazon AWS",2606:7b40:1b06:8100::/56,in
 "Amazon AWS",2606:7b40:1b0f:c100::/56,us
@@ -12480,6 +12482,7 @@
 "Amazon AWS",2606:f40:fff0::/48,ie
 "Amazon AWS",2606:f40:fffd::/48,us
 "Amazon AWS",2606:7b40:1b70::/44,
+"Amazon AWS",2620:107:4000:7e00::/56,us
 "Amazon AWS",2a05:d030:800::/40,il
 "Amazon AWS",2a05:d050:b000::/40,de
 "Amazon AWS",2a05:d070:2000::/40,fr
@@ -13435,6 +13438,7 @@
 "Amazon AWS",2600:1ff6:800::/40,us
 "Amazon AWS",2600:f0f0:705::/48,us
 "Amazon AWS",2600:f0f0:c01:500::/56,
+"Amazon AWS",2600:f0fb:c900:3000::/52,sg
 "Amazon AWS",2605:9cc0:1ff0:7200::/56,
 "Amazon AWS",2606:7b40:1b0c:200::/56,de
 "Amazon AWS",2a01:578:3::/48,ie
@@ -14782,6 +14786,7 @@
 "Amazon AWS",2406:da70:8000::/40,sg
 "Amazon AWS",2600:f0f0:30f::/48,de
 "Amazon AWS",2600:f0f3:f010:3000::/56,ca
+"Amazon AWS",2600:f0fb:ca01::/52,sg
 "Amazon AWS",2600:f0fb:f102::/48,ie
 "Amazon AWS",2606:7b40:1b06:8100::/56,in
 "Amazon AWS",2606:7b40:1b0f:c100::/56,us
@@ -16988,6 +16993,7 @@
 "Amazon AWS",2600:1ff6:800::/40,us
 "Amazon AWS",2600:f0f0:705::/48,us
 "Amazon AWS",2600:f0f0:c01:500::/56,
+"Amazon AWS",2600:f0fb:c900:3000::/52,sg
 "Amazon AWS",2605:9cc0:1ff0:7200::/56,
 "Amazon AWS",2606:7b40:1b0c:200::/56,de
 "Amazon AWS",2a01:578:3::/48,ie
@@ -17324,6 +17330,7 @@
 "Amazon AWS",2600:1f1a:41c6:700::/56,ca
 "Amazon AWS",2600:1f1a:4bd9:d100::/56,ca
 "Amazon AWS",2a05:d014:102e:7e00::/56,de
+"Amazon AWS",2a05:d014:11e2:dc00::/56,de
 "Amazon AWS",2a05:d014:1338:dd00::/56,de
 "Amazon AWS",2a05:d014:1cde:6300::/56,de
 "Amazon AWS",2a05:d019:5aa:1200::/56,ch
@@ -17646,6 +17653,8 @@
 "Google Cloud Platform",136.85.0.0/17,sg
 "Google Cloud Platform",136.92.128.0/17,sg
 "Google Cloud Platform",136.110.0.0/18,sg
+"Google Cloud Platform",152.239.192.0/18,sg
+"Google Cloud Platform",179.67.0.0/18,sg
 "Google Cloud Platform",2600:1900:4080::/44,sg
 "Google Cloud Platform",2600:1900:4334::/46,sg
 "Google Cloud Platform",2600:1902:90::/44,sg
@@ -18396,6 +18405,7 @@
 "Google Cloud Platform",8.234.24.0/21,us
 "Google Cloud Platform",8.236.192.0/18,us
 "Google Cloud Platform",8.237.64.0/18,us
+"Google Cloud Platform",8.237.192.0/18,us
 "Google Cloud Platform",34.0.128.0/19,us
 "Google Cloud Platform",34.127.156.0/22,us
 "Google Cloud Platform",34.128.4.0/22,us
@@ -18409,6 +18419,7 @@
 "Google Cloud Platform",34.183.66.0/24,us
 "Google Cloud Platform",34.184.65.0/24,us
 "Google Cloud Platform",35.235.172.0/22,us
+"Google Cloud Platform",152.239.128.0/18,us
 "Google Cloud Platform",2600:1901:8140::/44,us
 "Google Cloud Platform",2600:1902:280::/44,us
 "Google Cloud Platform",8.228.248.0/21,us
