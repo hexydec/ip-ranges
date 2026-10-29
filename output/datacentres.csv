@@ -5618,12 +5618,9 @@
 "Amazon AWS",13.212.3.64/26,sg
 "Amazon AWS",13.214.118.0/23,sg
 "Amazon AWS",13.214.124.128/26,sg
-"Amazon AWS",13.251.113.64/26,sg
-"Amazon AWS",13.251.116.0/23,sg
 "Amazon AWS",18.141.148.0/26,sg
 "Amazon AWS",18.141.226.0/23,sg
 "Amazon AWS",18.141.238.0/26,sg
-"Amazon AWS",18.143.204.64/26,sg
 "Amazon AWS",47.128.4.0/22,sg
 "Amazon AWS",47.128.8.0/23,sg
 "Amazon AWS",47.129.81.64/26,sg
@@ -5728,7 +5725,6 @@
 "Amazon AWS",18.199.211.0/24,de
 "Amazon AWS",3.122.128.0/23,de
 "Amazon AWS",3.123.12.192/26,de
-"Amazon AWS",3.127.48.128/26,de
 "Amazon AWS",3.70.212.128/26,de
 "Amazon AWS",3.74.148.128/26,de
 "Amazon AWS",3.75.112.0/24,de
@@ -5942,13 +5938,10 @@
 "Amazon AWS",184.198.82.0/23,us
 "Amazon AWS",184.198.84.0/24,us
 "Amazon AWS",3.227.250.128/25,us
-"Amazon AWS",3.234.248.192/26,us
-"Amazon AWS",3.235.202.128/26,us
 "Amazon AWS",3.236.169.0/25,us
 "Amazon AWS",3.236.32.0/22,us
 "Amazon AWS",3.236.94.128/25,us
 "Amazon AWS",3.237.107.0/25,us
-"Amazon AWS",3.238.167.0/24,us
 "Amazon AWS",3.239.232.0/24,us
 "Amazon AWS",3.83.168.0/22,us
 "Amazon AWS",3.91.171.128/25,us
@@ -6057,14 +6050,12 @@
 "Amazon AWS",35.86.187.128/26,us
 "Amazon AWS",35.86.66.0/23,us
 "Amazon AWS",35.89.72.0/25,us
-"Amazon AWS",35.90.103.192/26,us
 "Amazon AWS",35.92.124.192/26,us
 "Amazon AWS",35.95.152.0/25,us
 "Amazon AWS",44.234.106.0/23,us
 "Amazon AWS",44.234.113.64/26,us
 "Amazon AWS",44.234.123.128/26,us
 "Amazon AWS",44.234.123.64/26,us
-"Amazon AWS",44.234.22.128/26,us
 "Amazon AWS",44.242.184.128/25,us
 "Amazon AWS",44.247.17.0/24,us
 "Amazon AWS",44.248.100.0/23,us
@@ -11262,6 +11253,7 @@
 "Amazon AWS",2600:f0f0:1108::/48,sg
 "Amazon AWS",2600:f0f0:5512::/48,us
 "Amazon AWS",2600:f0f0:c12a::/48,us
+"Amazon AWS",2600:f0f3:f010:2900::/56,cl
 "Amazon AWS",2605:9cc0:1ff0:8200::/56,
 "Amazon AWS",2606:f40:4b00::/40,ie
 "Amazon AWS",2606:f40:fff8::/48,de
@@ -15288,6 +15280,7 @@
 "Amazon AWS",2600:f0f0:1108::/48,sg
 "Amazon AWS",2600:f0f0:5512::/48,us
 "Amazon AWS",2600:f0f0:c12a::/48,us
+"Amazon AWS",2600:f0f3:f010:2900::/56,cl
 "Amazon AWS",2605:9cc0:1ff0:8200::/56,
 "Amazon AWS",2606:f40:4b00::/40,ie
 "Amazon AWS",2606:f40:fff8::/48,de
@@ -94596,6 +94589,40 @@ Oracle,84.8.200.0/22,ma
 Oracle,84.8.208.0/23,ma
 Oracle,84.8.210.128/25,ma
 Oracle,92.4.202.0/23,ma
+Oracle,51.170.176.0/20,nl
+Oracle,84.235.160.0/19,nl
+Oracle,92.5.192.0/19,nl
+Oracle,92.5.224.0/20,nl
+Oracle,134.98.128.0/19,nl
+Oracle,140.204.84.0/23,nl
+Oracle,141.144.192.0/19,nl
+Oracle,141.148.224.0/19,nl
+Oracle,143.47.176.0/20,nl
+Oracle,144.21.32.0/20,nl
+Oracle,150.230.20.0/22,nl
+Oracle,152.70.48.0/20,nl
+Oracle,158.101.192.0/19,nl
+Oracle,158.178.144.0/20,nl
+Oracle,158.180.8.0/21,nl
+Oracle,168.138.120.0/22,nl
+Oracle,193.122.16.0/20,nl
+Oracle,193.123.32.0/19,nl
+Oracle,62.115.179.220/31,nl
+Oracle,62.115.179.228/31,nl
+Oracle,79.72.32.0/22,nl
+Oracle,79.76.24.0/21,nl
+Oracle,92.5.255.0/24,nl
+Oracle,134.70.104.0/22,nl
+Oracle,140.83.44.0/22,nl
+Oracle,140.91.44.0/23,nl
+Oracle,140.204.36.128/25,nl
+Oracle,140.204.38.128/25,nl
+Oracle,140.204.40.128/25,nl
+Oracle,158.178.220.0/22,nl
+Oracle,192.29.192.0/22,nl
+Oracle,192.29.200.0/21,nl
+Oracle,213.19.198.156/31,nl
+Oracle,213.19.198.164/31,nl
 Oracle,64.110.64.0/19,kr
 Oracle,129.91.3.0/24,kr
 Oracle,129.91.4.0/23,kr
@@ -95028,6 +95055,7 @@ Oracle,84.8.88.128/25,sa
 Oracle,130.110.224.0/21,sa
 Oracle,141.253.212.0/23,sa
 Oracle,84.8.128.0/20,za
+Oracle,84.12.64.0/18,za
 Oracle,92.4.128.0/19,za
 Oracle,129.151.160.0/19,za
 Oracle,145.241.96.0/21,za
@@ -95041,39 +95069,8 @@ Oracle,134.70.160.0/22,za
 Oracle,140.91.70.0/23,za
 Oracle,140.204.96.128/25,za
 Oracle,158.179.196.0/24,za
-Oracle,84.235.160.0/19,nl
-Oracle,92.5.192.0/19,nl
-Oracle,92.5.224.0/20,nl
-Oracle,134.98.128.0/19,nl
-Oracle,140.204.84.0/23,nl
-Oracle,141.144.192.0/19,nl
-Oracle,141.148.224.0/19,nl
-Oracle,143.47.176.0/20,nl
-Oracle,144.21.32.0/20,nl
-Oracle,150.230.20.0/22,nl
-Oracle,152.70.48.0/20,nl
-Oracle,158.101.192.0/19,nl
-Oracle,158.178.144.0/20,nl
-Oracle,158.180.8.0/21,nl
-Oracle,168.138.120.0/22,nl
-Oracle,193.122.16.0/20,nl
-Oracle,193.123.32.0/19,nl
-Oracle,62.115.179.220/31,nl
-Oracle,62.115.179.228/31,nl
-Oracle,79.72.32.0/22,nl
-Oracle,79.76.24.0/21,nl
-Oracle,92.5.255.0/24,nl
-Oracle,134.70.104.0/22,nl
-Oracle,140.83.44.0/22,nl
-Oracle,140.91.44.0/23,nl
-Oracle,140.204.36.128/25,nl
-Oracle,140.204.38.128/25,nl
-Oracle,140.204.40.128/25,nl
-Oracle,158.178.220.0/22,nl
-Oracle,192.29.192.0/22,nl
-Oracle,192.29.200.0/21,nl
-Oracle,213.19.198.156/31,nl
-Oracle,213.19.198.164/31,nl
+Oracle,84.12.128.0/18,ae
+Oracle,84.12.224.0/19,ae
 Oracle,84.235.240.0/20,ae
 Oracle,139.185.32.0/19,ae
 Oracle,141.145.144.0/20,ae
@@ -95201,6 +95198,7 @@ Oracle,146.181.16.0/20,cl
 Oracle,146.181.32.0/19,cl
 Oracle,146.235.240.0/21,cl
 Oracle,148.116.112.0/22,cl
+Oracle,155.181.128.0/18,cl
 Oracle,159.112.128.0/20,cl
 Oracle,159.112.144.0/21,cl
 Oracle,161.153.192.0/20,cl
@@ -95303,6 +95301,8 @@ Oracle,192.29.96.0/20,us
 Oracle,204.216.192.0/20,us
 Oracle,207.127.124.0/22,us
 Oracle,129.150.32.0/19,sg
+Oracle,129.221.32.0/19,sg
+Oracle,129.221.128.0/17,sg
 Oracle,134.185.80.0/20,sg
 Oracle,138.2.64.0/19,sg
 Oracle,138.2.96.0/20,sg
@@ -95525,6 +95525,10 @@ Oracle,148.116.36.0/22,us
 Oracle,148.116.40.0/22,us
 Oracle,148.116.44.128/25,us
 Oracle,148.116.48.0/23,us
+Oracle,149.118.128.0/19,my
+Oracle,155.181.8.0/21,my
+Oracle,155.181.16.0/20,my
+Oracle,129.38.64.0/18,co
 Oracle,149.130.160.0/19,co
 Oracle,157.137.192.0/19,co
 Oracle,157.137.224.0/20,co
