@@ -5,6 +5,16 @@ namespace hexydec\ipaddresses;
 class countries extends generate {
 
 	/**
+	 * @var array<string,int> The priority of each source, a range blocks data from lower priority sources inside it
+	 */
+	protected const PRIORITY = [
+		'bgp' => 0,
+		'registry' => 1,
+		'geofeed' => 2,
+		'cloud' => 3
+	];
+
+	/**
 	 * Adds an IP range to the dataset
 	 * 
 	 * @param array &$ips An array of IP ranges to add the new IP range to
@@ -13,10 +23,16 @@ class countries extends generate {
 	 * @return void
 	 */
 	protected function addIpRange(array &$ips, string $cidr, array $item) : void {
-		if (isset($ips[$cidr])) {
-			$ips[$cidr]->country = $item['country'];
-		} else {
-			$ips[$cidr] = (object) $item;
+
+		// key IPv6 by its compressed form, so a range written differently by each source still overwrites
+		$key = isset($item['prefix']) ? \inet_ntop($item['start']).'/'.$item['prefix'] : $cidr;
+
+		// a range only replaces the same range from an equal or lower priority source
+		if (!isset($ips[$key])) {
+			$ips[$key] = (object) $item;
+		} elseif ($item['priority'] >= $ips[$key]->priority) {
+			$ips[$key]->country = $item['country'];
+			$ips[$key]->priority = $item['priority'];
 		}
 	}
 
@@ -69,7 +85,8 @@ class countries extends generate {
 								$this->addIpRange($ips[4], $parts[3] . '/' . $prefix, [
 									'start' => $long,
 									'count' => $count,
-									'country' => $country
+									'country' => $country,
+									'priority' => self::PRIORITY['registry']
 								]);
 							}
 
@@ -82,84 +99,13 @@ class countries extends generate {
 									'start' => $bin,
 									'end' => $end,
 									'prefix' => $prefix,
-									'country' => $country
+									'country' => $country,
+									'priority' => self::PRIORITY['registry']
 								]);
 							}
 						}
 					}
 				}
-			} else {
-				return false;
-			}
-		}
-		return $ips;
-	}
-
-	/**
-	 * Extracts IPv6 ranges and country codes from WHOIS inet6num database dumps
-	 *
-	 * @param array $sources An array of gzipped WHOIS database URLs to process
-	 * @param array $ips An array of currently collected IP ranges, grouped into 4 and 6
-	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
-	 * @return array|false $ips with any new IPv6 ranges added, or false on failure
-	 */
-	protected function getWhoisIps(array $sources, array $ips, ?string $cache = null) : array|false {
-		progress::status('Collecting WHOIS IP data');
-		foreach ($sources AS $url) {
-
-			// open gzipped file as stream
-			if (($file = $this->fetch($url, $cache, false)) !== false && ($handle = \gzopen($file, 'r')) !== false) {
-				$total = \intval(\filesize($file) * 0.54); // rough estimate
-				$i = 0;
-				$time = \time();
-				$cidr = null;
-				$country = null;
-				$eof = false;
-				while (!$eof) {
-
-					// treat EOF as a blank line so any pending object gets flushed by the same code path
-					if (($raw = \gzgets($handle)) === false) {
-						$eof = true;
-						$line = '';
-					} else {
-
-						// progress
-						$current = \time();
-						if ($current !== $time) {
-							\set_time_limit(30);
-							progress::render($total, $i, ['Ingesting WHOIS inet6num data']);
-							$time = $current;
-						}
-						$i++;
-						$line = \rtrim($raw, "\r\n");
-					}
-
-					// blank line or eof = end of object
-					if ($line === '') {
-						if ($cidr !== null && $country !== null) {
-							$parts = \explode('/', $cidr, 2);
-							if (\count($parts) === 2 && ($bin = \inet_pton($parts[0])) !== false) {
-								$prefix = \intval($parts[1]);
-								$end = aggregator::binAdd($bin, aggregator::prefixToBlockSize($prefix));
-								$this->addIpRange($ips[6], $cidr, [
-									'start' => $bin,
-									'end' => $end,
-									'prefix' => $prefix,
-									'country' => $country
-								]);
-							}
-						}
-						$cidr = null;
-						$country = null;
-
-					// parse key: value
-					} elseif (\str_starts_with($line, 'inet6num:')) {
-						$cidr = \trim(\substr($line, 9));
-					} elseif (\str_starts_with($line, 'country:')) {
-						$country = \strtolower(\trim(\substr($line, 8)));
-					}
-				}
-				\gzclose($handle);
 			} else {
 				return false;
 			}
@@ -178,62 +124,96 @@ class countries extends generate {
 	protected function getGeofeedIps(string $source, array $ips, ?string $cache = null) : array|false {
 		progress::status('Collecting Geofeed IP data');
 		if (($result = $this->fetch($source, $cache)) !== false) {
-			$lines = \explode("\n", \trim($result));
-			unset($result);
-			$total = \count($lines);
-			$time = \time();
-			foreach ($lines AS $i => $line) {
-
-				// progress
-				$current = \time();
-				if ($current !== $time) {
-					\set_time_limit(30);
-					progress::render($total, $i, ['Ingesting Geofeed data']);
-					$time = $current;
-				}
-
-				// detect comments
-				if (\str_starts_with($line, '#')) {
-
-				// ensure there are enough columns
-				} elseif (\count($value = \str_getcsv($line, ',', '"', '\\')) < 3) {
-
-				// ensure the country is set
-				} elseif (($country = \strtolower($value[1] ?: \substr($value[2], 0, 2))) === '*') {
-
-				// process the data
-				} else {
-					$cidr = $value[0];
-					$parts = \explode('/', $cidr, 2);
-
-					// IPv6
-					if (\str_contains($cidr, ':')) {
-						if (($bin = \inet_pton($parts[0])) !== false) {
-							$prefix = \intval($parts[1]);
-							$end = aggregator::binAdd($bin, aggregator::prefixToBlockSize($prefix));
-							$this->addIpRange($ips[6], $cidr, [
-								'start' => $bin,
-								'end' => $end,
-								'prefix' => $prefix,
-								'country' => $country
-							]);
-						}
-
-					// IPv4
-					} elseif (($long = \ip2long($parts[0])) !== false) {
-						$count = \intval(\pow(2, 32 - \intval($parts[1])));
-						$this->addIpRange($ips[4], $cidr, [
-							'start' => $long,
-							'count' => $count,
-							'country' => $country
-						]);
-					}
-				}
-			}
-			unset($lines);
-			return $ips;
+			return $this->parseGeofeed(\explode("\n", \trim($result)), $ips);
 		}
 		return false;
+	}
+
+	/**
+	 * Extracts IP ranges and country codes from the GeoFeed Harvester dataset, skipping flagged rows and excluded feeds
+	 *
+	 * @param string $source The URL of the gzipped GeoFeed Harvester CSV file
+	 * @param array $exclude An array of geofeed URLs whose rows should be skipped
+	 * @param array $ips An array of currently collected IP ranges, grouped into 4 and 6
+	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
+	 * @return array|false $ips with any new IP ranges added, or false on failure
+	 */
+	protected function getHarvesterIps(string $source, array $exclude, array $ips, ?string $cache = null) : array|false {
+		progress::status('Collecting GeoFeed Harvester IP data');
+		if (($result = $this->fetch($source, $cache)) !== false && ($result = \gzdecode($result)) !== false) {
+
+			// keep rows with no flags (column 14) from feeds (column 8) that aren't excluded, which also drops the header
+			$lines = \array_filter(\explode("\n", \trim($result)), function (string $line) use ($exclude) : bool {
+				$value = \str_getcsv($line, ',', '"', '\\');
+				return \count($value) === 14 && $value[13] === '' && !\in_array($value[7], $exclude, true);
+			});
+			unset($result);
+			return $this->parseGeofeed(\array_values($lines), $ips);
+		}
+		return false;
+	}
+
+	/**
+	 * Adds the IP ranges from the lines of an RFC 8805 geofeed, where the first three columns are prefix, country, and region
+	 *
+	 * @param array $lines An array of CSV lines
+	 * @param array $ips An array of currently collected IP ranges, grouped into 4 and 6
+	 * @return array $ips with any new IP ranges added
+	 */
+	protected function parseGeofeed(array $lines, array $ips) : array {
+		$total = \count($lines);
+		$time = \time();
+		foreach ($lines AS $i => $line) {
+
+			// progress
+			$current = \time();
+			if ($current !== $time) {
+				\set_time_limit(30);
+				progress::render($total, $i, ['Ingesting Geofeed data']);
+				$time = $current;
+			}
+
+			// detect comments
+			if (\str_starts_with($line, '#')) {
+
+			// ensure there are enough columns
+			} elseif (\count($value = \str_getcsv($line, ',', '"', '\\')) < 3) {
+
+			// ensure the country is set
+			} elseif (\in_array($country = \strtolower($value[1] ?: \substr($value[2], 0, 2)), ['', '*'], true)) {
+
+			// process the data
+			} else {
+				$cidr = $value[0];
+				$parts = \explode('/', $cidr, 2);
+
+				// IPv6
+				if (\str_contains($cidr, ':')) {
+					if (($bin = \inet_pton($parts[0])) !== false) {
+						$prefix = \intval($parts[1]);
+						$end = aggregator::binAdd($bin, aggregator::prefixToBlockSize($prefix));
+						$this->addIpRange($ips[6], $cidr, [
+							'start' => $bin,
+							'end' => $end,
+							'prefix' => $prefix,
+							'country' => $country,
+							'priority' => self::PRIORITY['geofeed']
+						]);
+					}
+
+				// IPv4
+				} elseif (($long = \ip2long($parts[0])) !== false) {
+					$count = \intval(\pow(2, 32 - \intval($parts[1])));
+					$this->addIpRange($ips[4], $cidr, [
+						'start' => $long,
+						'count' => $count,
+						'country' => $country,
+						'priority' => self::PRIORITY['geofeed']
+					]);
+				}
+			}
+		}
+		return $ips;
 	}
 
 	/**
@@ -277,7 +257,8 @@ class countries extends generate {
 								'start' => $bin,
 								'end' => $end,
 								'prefix' => $prefix,
-								'country' => $country
+								'country' => $country,
+								'priority' => self::PRIORITY['cloud']
 							]);
 						}
 
@@ -287,7 +268,8 @@ class countries extends generate {
 						$this->addIpRange($ips[4], $cidr, [
 							'start' => $long,
 							'count' => $count,
-							'country' => $country
+							'country' => $country,
+							'priority' => self::PRIORITY['cloud']
 						]);
 					}
 				}
@@ -315,6 +297,11 @@ class countries extends generate {
 		// extract from MRT file
 		} elseif (($file = $this->fetch($url, $cache, false)) !== false) {
 
+			// remove previous output, as bgpdump exits 0 without writing anything when it can't read the dump
+			if (\file_exists($cachefile)) {
+				\unlink($cachefile);
+			}
+
 			// bgpdump runs as a single blocking call, so the timer can't be renewed while it runs - use a generous but finite ceiling
 			\set_time_limit(3600);
 			if (PHP_OS === 'WINNT') {
@@ -324,7 +311,7 @@ class countries extends generate {
 			} else {
 				$cmd = 'bgpdump -m -O '.\escapeshellarg($cachefile).' '.\escapeshellarg($file).' 2>/dev/null';
 			}
-			if (\exec($cmd)) {
+			if (\exec($cmd, $output, $code) !== false && $code === 0 && \file_exists($cachefile)) {
 				return [\fopen($cachefile, 'r'), $this->getTotalLines($cachefile)];
 			}
 		}
@@ -360,18 +347,18 @@ class countries extends generate {
 				}
 				$i++;
 
-				// process line
+				// process line, skipping default routes which would otherwise fill all unallocated space
 				$parts = \explode('|', $line);
-				if ($parts[0] === 'TABLE_DUMP2' && isset($parts[6])) {
+				if ($parts[0] === 'TABLE_DUMP2' && isset($parts[6]) && !\str_ends_with($parts[5], '/0')) {
 					$path = \explode(' ', \trim($parts[6]));
 					$asn = \end($path);
 					if (isset($asns[$asn])) {
 						$cidr = \trim($parts[5]);
 						$parts = \explode('/', $cidr, 2);
 
-						// ipv6
+						// ipv6, skipping 6to4 (2002::/16) and Teredo (2001::/32), whose addresses embed an IPv4 address and have no location of their own
 						if (\str_contains($cidr, ':')) {
-							if (($bin = \inet_pton($parts[0])) !== false) {
+							if (($bin = \inet_pton($parts[0])) !== false && !\str_starts_with($bin, "\x20\x02") && !\str_starts_with($bin, "\x20\x01\x00\x00")) {
 								$prefix = \intval($parts[1]);
 								$end = aggregator::binAdd($bin, aggregator::prefixToBlockSize($prefix));
 								$this->addIpRange($ips[6], $cidr, [
@@ -379,6 +366,7 @@ class countries extends generate {
 									'end' => $end,
 									'prefix' => $prefix,
 									'country' => $asns[$asn],
+									'priority' => self::PRIORITY['bgp']
 								]);
 							}
 
@@ -389,6 +377,7 @@ class countries extends generate {
 								'start' => $long,
 								'count' => $count,
 								'country' => $asns[$asn],
+								'priority' => self::PRIORITY['bgp']
 							]);
 						}
 					}
@@ -422,8 +411,8 @@ class countries extends generate {
 	}
 
 	/**
-	 * Compiles country-level IP range data from RIR, BGP, WHOIS, geofeed, and cloud provider sources,
-	 * resolving overlaps so more specific/higher-priority sources win
+	 * Compiles country-level IP range data from RIR, BGP, geofeed, and cloud provider sources,
+	 * resolving overlaps so the most specific range wins unless a higher priority source covers it
 	 *
 	 * @param ?string $cache The directory to cache downloaded data, or null to skip caching
 	 * @return \Generator Yields associative arrays with 'country' and 'range' keys
@@ -448,11 +437,11 @@ class countries extends generate {
 				'http://archive.routeviews.org/bgpdata/'.$date.'/RIBS/rib.'.$day.'.0000.bz2',
 				'https://archive.routeviews.org/route-views6/bgpdata/'.$date.'/RIBS/rib.'.$day.'.0000.bz2'
 			],
-			'whois' => [
-				'https://ftp.ripe.net/ripe/dbase/split/ripe.db.inet6num.gz',
-				'https://ftp.apnic.net/apnic/whois/apnic.db.inet6num.gz',
-				'https://ftp.afrinic.net/pub/dbase/afrinic.db.gz',
-				'https://ftp.lacnic.net/lacnic/dbase/lacnic.db.gz',
+			'harvester' => [
+				'url' => 'https://github.com/ipanalytics/GeoFeed-Harvester/releases/latest/download/geofeed.csv.gz',
+				'exclude' => [
+					'https://raw.githubusercontent.com/werw01f/geofeed/main/geofeed.csv' // splits one /29 evenly across ~76 countries
+				]
 			],
 			'geofeed' => 'https://geolocatemuch.com/geofeeds/validated-all.csv',
 			'cloud' => \dirname(__DIR__).'/output/datacentres.csv'
@@ -463,8 +452,8 @@ class countries extends generate {
 			\trigger_error('Unable to process RIR data', E_USER_ERROR);
 		} elseif (($ips = $this->getBgpIps($sources['bgp'], $ips, $cache)) === false) {
 			\trigger_error('Unable to process BGP data', E_USER_ERROR);
-		} elseif (($ips = $this->getWhoisIps($sources['whois'], $ips, $cache)) === false) {
-			\trigger_error('Unable to process WHOIS data', E_USER_ERROR);
+		} elseif (($ips = $this->getHarvesterIps($sources['harvester']['url'], $sources['harvester']['exclude'], $ips, $cache)) === false) {
+			\trigger_error('Unable to process GeoFeed Harvester data', E_USER_ERROR);
 		} elseif (($ips = $this->getGeofeedIps($sources['geofeed'], $ips, $cache)) === false) {
 			\trigger_error('Unable to process Geofeed data', E_USER_ERROR);
 		} elseif (($ips = $this->getCloudProviderIps($sources['cloud'], $ips)) === false) {

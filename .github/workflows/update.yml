@@ -2,7 +2,7 @@ name: Rebuild IP Ranges
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,6 +19,10 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.4'
+
+      - name: Install bgpdump
+        run: sudo apt-get update && sudo apt-get install -y bgpdump
+
       - run: php build.php
 
       - uses: stefanzweifel/git-auto-commit-action@v5

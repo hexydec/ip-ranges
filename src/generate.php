@@ -86,7 +86,8 @@ class generate {
 					return $file;
 				}
 			} else {
-				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'ips');
+				// keep the extension, as bgpdump detects the compression from it
+				$file = $local ?? \tempnam(\sys_get_temp_dir(), 'ips').(\strrchr(\basename($url), '.') ?: '');
 				if (!\copy($url, $file, $context)) {
 					$file = false;
 				}

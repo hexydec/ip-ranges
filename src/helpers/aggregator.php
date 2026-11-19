@@ -160,9 +160,9 @@ class aggregator {
 	}
 
 	/**
-	 * Resolves overlapping IPv4 blocks using an event sweep where the most specific (smallest) block wins
+	 * Resolves overlapping IPv4 blocks using an event sweep where the most specific (smallest) block wins, unless a higher priority block covers it
 	 *
-	 * @param array $ipv4 An array of objects with start, count, and country properties
+	 * @param array $ipv4 An array of objects with start, count, country, and priority properties
 	 * @return \Generator Yields associative arrays with 'country' and 'range' keys
 	 */
 	public static function resolveIpv4(array $ipv4) : \Generator {
@@ -243,10 +243,10 @@ class aggregator {
 					$cursor = $item->start;
 				}
 
-				$country = $item->country;
-
-				// push this block as the new innermost active range
-				$stack[$stackLen++] = [$end, $country];
+				// push this block as the new innermost active range, unless a higher priority source covers it
+				if (!$stackLen || $item->priority >= $stack[$stackLen - 1][2]) {
+					$stack[$stackLen++] = [$end, $item->country, $item->priority];
+				}
 			}
 		}
 
@@ -276,9 +276,9 @@ class aggregator {
 	}
 
 	/**
-	 * Resolves overlapping IPv6 blocks using an event sweep where the most specific (highest prefix) block wins
+	 * Resolves overlapping IPv6 blocks using an event sweep where the most specific (highest prefix) block wins, unless a higher priority block covers it
 	 *
-	 * @param array $ipv6 An array of objects with start, end, prefix, and country properties
+	 * @param array $ipv6 An array of objects with start, end, prefix, country, and priority properties
 	 * @return \Generator Yields associative arrays with 'country' and 'range' keys
 	 */
 	public static function resolveIpv6(array $ipv6) : \Generator {
@@ -365,9 +365,10 @@ class aggregator {
 				$cursor = $item->start;
 			}
 
-			// push this block as the new innermost active range
-			$country = $item->country;
-			$stack[$stackLen++] = [$item->end, $country];
+			// push this block as the new innermost active range, unless a higher priority source covers it
+			if (!$stackLen || $item->priority >= $stack[$stackLen - 1][2]) {
+				$stack[$stackLen++] = [$item->end, $item->country, $item->priority];
+			}
 		}
 
 		// flush remaining active blocks

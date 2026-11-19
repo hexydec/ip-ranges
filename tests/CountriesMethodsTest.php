@@ -45,12 +45,12 @@ class testableCountries extends countries {
 		return $this->getGeofeedIps($source, $ips, $cache);
 	}
 
-	public function callGetCloudProviderIps(string $source, array $ips) : array|false {
-		return $this->getCloudProviderIps($source, $ips);
+	public function callGetHarvesterIps(string $source, array $exclude, array $ips, ?string $cache = null) : array|false {
+		return $this->getHarvesterIps($source, $exclude, $ips, $cache);
 	}
 
-	public function callGetWhoisIps(array $sources, array $ips, ?string $cache = null) : array|false {
-		return $this->getWhoisIps($sources, $ips, $cache);
+	public function callGetCloudProviderIps(string $source, array $ips) : array|false {
+		return $this->getCloudProviderIps($source, $ips);
 	}
 
 	public function callIngestBgpData(array $ips, array $asns, string $url, ?string $cache = null) : array|false {
@@ -77,7 +77,8 @@ class CountriesMethodsTest extends TestCase {
 		$obj->callAddIpRange($ips, '1.0.0.0/24', [
 			'start' => \ip2long('1.0.0.0'),
 			'count' => 256,
-			'country' => 'au'
+			'country' => 'au',
+			'priority' => 1
 		]);
 
 		$this->assertArrayHasKey('1.0.0.0/24', $ips);
@@ -92,12 +93,14 @@ class CountriesMethodsTest extends TestCase {
 		$obj->callAddIpRange($ips, '1.0.0.0/24', [
 			'start' => \ip2long('1.0.0.0'),
 			'count' => 256,
-			'country' => 'au'
+			'country' => 'au',
+			'priority' => 1
 		]);
 		$obj->callAddIpRange($ips, '1.0.0.0/24', [
 			'start' => \ip2long('1.0.0.0'),
 			'count' => 256,
-			'country' => 'us'
+			'country' => 'us',
+			'priority' => 1
 		]);
 
 		$this->assertCount(1, $ips);
@@ -111,16 +114,103 @@ class CountriesMethodsTest extends TestCase {
 		$obj->callAddIpRange($ips, '10.0.0.0/8', [
 			'start' => \ip2long('10.0.0.0'),
 			'count' => 16777216,
-			'country' => 'gb'
+			'country' => 'gb',
+			'priority' => 1
 		]);
 		$obj->callAddIpRange($ips, '10.0.0.0/8', [
 			'start' => \ip2long('10.0.0.0'),
 			'count' => 16777216,
-			'country' => 'de'
+			'country' => 'de',
+			'priority' => 1
 		]);
 
 		$this->assertSame('de', $ips['10.0.0.0/8']->country);
 		$this->assertSame(16777216, $ips['10.0.0.0/8']->count);
+	}
+
+	#[Test]
+	public function addIpRangeLowerPriorityDoesNotReplace() : void {
+		$obj = new testableCountries();
+		$ips = [];
+		$obj->callAddIpRange($ips, '1.0.0.0/24', [
+			'start' => \ip2long('1.0.0.0'),
+			'count' => 256,
+			'country' => 'au',
+			'priority' => 1
+		]);
+		$obj->callAddIpRange($ips, '1.0.0.0/24', [
+			'start' => \ip2long('1.0.0.0'),
+			'count' => 256,
+			'country' => 'us',
+			'priority' => 0
+		]);
+
+		$this->assertSame('au', $ips['1.0.0.0/24']->country);
+		$this->assertSame(1, $ips['1.0.0.0/24']->priority);
+	}
+
+	#[Test]
+	public function addIpRangeHigherPriorityReplaces() : void {
+		$obj = new testableCountries();
+		$ips = [];
+		$obj->callAddIpRange($ips, '1.0.0.0/24', [
+			'start' => \ip2long('1.0.0.0'),
+			'count' => 256,
+			'country' => 'us',
+			'priority' => 0
+		]);
+		$obj->callAddIpRange($ips, '1.0.0.0/24', [
+			'start' => \ip2long('1.0.0.0'),
+			'count' => 256,
+			'country' => 'au',
+			'priority' => 2
+		]);
+
+		$this->assertSame('au', $ips['1.0.0.0/24']->country);
+		$this->assertSame(2, $ips['1.0.0.0/24']->priority);
+	}
+
+	#[Test]
+	public function resolveIpv4HigherPriorityBlocksLowerInside() : void {
+		$ips = [
+			(object) ['start' => \ip2long('10.0.0.0'), 'count' => 1 << 24, 'country' => 'fr', 'priority' => 0],
+			(object) ['start' => \ip2long('10.0.0.0'), 'count' => 1 << 16, 'country' => 'gb', 'priority' => 2],
+			(object) ['start' => \ip2long('10.0.1.0'), 'count' => 256, 'country' => 'us', 'priority' => 1],
+			(object) ['start' => \ip2long('10.0.2.0'), 'count' => 256, 'country' => 'de', 'priority' => 3]
+		];
+		$result = \iterator_to_array(aggregator::resolveIpv4($ips), false);
+
+		$this->assertSame([
+			['country' => 'gb', 'range' => '10.0.0.0/23'],
+			['country' => 'de', 'range' => '10.0.2.0/24'],
+			['country' => 'gb', 'range' => '10.0.3.0/24']
+		], \array_slice($result, 0, 3));
+		$this->assertContains(['country' => 'fr', 'range' => '10.1.0.0/16'], $result);
+		$this->assertNotContains('us', \array_column($result, 'country'));
+	}
+
+	#[Test]
+	public function resolveIpv6HigherPriorityBlocksLowerInside() : void {
+		$item = function (string $cidr, string $country, int $priority) : object {
+			[$ip, $prefix] = \explode('/', $cidr);
+			$start = \inet_pton($ip);
+			$prefix = \intval($prefix);
+			return (object) [
+				'start' => $start,
+				'end' => aggregator::binAdd($start, aggregator::prefixToBlockSize($prefix)),
+				'prefix' => $prefix,
+				'country' => $country,
+				'priority' => $priority
+			];
+		};
+		$ips = [
+			$item('2a0f:2e80::/29', 'us', 2),
+			$item('2a0f:2e80::/30', 'sc', 1),
+			$item('2a0f:2e84::/30', 'sc', 1)
+		];
+		$result = \iterator_to_array(aggregator::resolveIpv6($ips), false);
+
+		$this->assertSame([['country' => 'us', 'range' => '2a0f:2e80::/29']], $result);
 	}
 
 	// --- getRirIps ---
@@ -292,6 +382,67 @@ class CountriesMethodsTest extends TestCase {
 	}
 
 	#[Test]
+	public function getGeofeedIpsOverwritesUncompressedIpv6() : void {
+		$obj = new testableCountries();
+		$obj->setResponse('https://example.com/rir', 'ripencc|SC|ipv6|2a0f:2e80::|29|20100101|allocated');
+		$obj->setResponse('https://example.com/geofeed.csv', '2a0f:2e80:0000:0000:0000:0000:0000:0000/29,US,US-DC,Washington,');
+
+		$ips = $obj->callGetRirIps(['https://example.com/rir'], $this->emptyIps());
+		$result = $obj->callGetGeofeedIps('https://example.com/geofeed.csv', $ips);
+
+		$this->assertNotFalse($result);
+		$this->assertCount(1, $result[6]);
+		$this->assertSame('us', $result[6]['2a0f:2e80::/29']->country);
+	}
+
+	#[Test]
+	public function getGeofeedIpsSkipsEmptyCountry() : void {
+		$obj = new testableCountries();
+		$data = \implode("\n", [
+			'62.220.148.0/24,,,,',
+			'192.168.1.0/24,US,US-CA,,',
+		]);
+		$obj->setResponse('https://example.com/geofeed.csv', $data);
+
+		$ips = $this->emptyIps();
+		$result = $obj->callGetGeofeedIps('https://example.com/geofeed.csv', $ips);
+
+		$this->assertNotFalse($result);
+		$this->assertArrayNotHasKey('62.220.148.0/24', $result[4]);
+		$this->assertCount(1, $result[4]);
+	}
+
+	// --- getHarvesterIps ---
+
+	#[Test]
+	public function getHarvesterIpsSkipsFlaggedAndExcludedFeeds() : void {
+		$obj = new testableCountries();
+		$data = \implode("\n", [
+			'prefix,country,region,city,postal_code,rir,inetnum,url,fetched_at,signed,signature_valid,bgp_valid,confidence,flags',
+			'1.120.0.0/20,AU,AU-VIC,Melbourne,,APNIC,1.120.0.0/13,https://example.com/good.csv,2026-11-18T11:42:32+00:00,false,false,,0.80,',
+			'5.23.48.0/24,RU,RU-SPE,"Saint Petersburg, Russia",,RIPE,5.23.48.0/21,https://example.com/good.csv,2026-11-18T11:42:32+00:00,false,false,,0.80,',
+			'2.24.0.0/21,DE,,Düsseldorf,,RIPE,2.24.0.0/16,https://example.com/flagged.csv,2026-11-18T11:42:32+00:00,false,false,,0.65,overlap_conflict',
+			'2a10:bf80::/45,HR,,,,RIPE,2a10:bf80::/29,https://example.com/junk.csv,2026-11-18T11:42:32+00:00,false,false,,0.80,'
+		]);
+		$obj->setResponse('https://example.com/geofeed.csv.gz', \gzencode($data));
+
+		$result = $obj->callGetHarvesterIps('https://example.com/geofeed.csv.gz', ['https://example.com/junk.csv'], $this->emptyIps());
+
+		$this->assertNotFalse($result);
+		$this->assertSame(['1.120.0.0/20', '5.23.48.0/24'], \array_keys($result[4]));
+		$this->assertSame('ru', $result[4]['5.23.48.0/24']->country);
+		$this->assertEmpty($result[6]);
+	}
+
+	#[Test]
+	public function getHarvesterIpsReturnsFalseOnFetchFailure() : void {
+		$obj = new testableCountries();
+		$obj->setResponse('https://example.com/geofeed.csv.gz', false);
+
+		$this->assertFalse($obj->callGetHarvesterIps('https://example.com/geofeed.csv.gz', [], $this->emptyIps()));
+	}
+
+	#[Test]
 	public function getGeofeedIpsReturnsFalseOnFetchFailure() : void {
 		$obj = new testableCountries();
 		$obj->setResponse('https://example.com/geofeed.csv', false);
@@ -370,132 +521,6 @@ class CountriesMethodsTest extends TestCase {
 		$this->assertFalse($result);
 	}
 
-	// --- getWhoisIps ---
-
-	#[Test]
-	public function getWhoisIpsExtractsIpv6Ranges() : void {
-		$whois = \implode("\n", [
-			'inet6num:        2001:db8::/32',
-			'netname:         TEST-NET',
-			'country:         DE',
-			'',
-			'inet6num:        2001:db9::/32',
-			'netname:         TEST-NET-2',
-			'country:         FR',
-			'',
-		]);
-
-		// Write to a gzipped temp file
-		$tmp = \tempnam(\sys_get_temp_dir(), 'whois') . '.gz';
-		$gz = \gzopen($tmp, 'w');
-		\gzwrite($gz, $whois);
-		\gzclose($gz);
-
-		$obj = new testableCountries();
-		// Override fetch to return the gzipped file path
-		$obj->setResponse('https://example.com/whois.gz', \file_get_contents($tmp));
-
-		$ips = $this->emptyIps();
-
-		// We need to use the actual gz file, so call via reflection with the real file
-		// Instead, create a subclass approach: write the gz and use it directly
-		$rc = new \ReflectionClass($obj);
-		$method = $rc->getMethod('getWhoisIps');
-
-		// Override fetch to return the file path (not contents)
-		$testObj = new class extends testableCountries {
-			public string $gzFile = '';
-			public function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
-				if (!$contents) {
-					return $this->gzFile;
-				}
-				return parent::fetch($url, $cache, $contents);
-			}
-		};
-		$testObj->gzFile = $tmp;
-
-		$result = $method->invoke($testObj, ['https://example.com/whois.gz'], $ips);
-
-		\unlink($tmp);
-
-		$this->assertNotFalse($result);
-		$this->assertArrayHasKey('2001:db8::/32', $result[6]);
-		$this->assertSame('de', $result[6]['2001:db8::/32']->country);
-		$this->assertArrayHasKey('2001:db9::/32', $result[6]);
-		$this->assertSame('fr', $result[6]['2001:db9::/32']->country);
-	}
-
-	#[Test]
-	public function getWhoisIpsFlushesLastObject() : void {
-		// No trailing blank line — should still capture the last record
-		$whois = \implode("\n", [
-			'inet6num:        2001:db8::/48',
-			'country:         JP',
-		]);
-
-		$tmp = \tempnam(\sys_get_temp_dir(), 'whois') . '.gz';
-		$gz = \gzopen($tmp, 'w');
-		\gzwrite($gz, $whois);
-		\gzclose($gz);
-
-		$testObj = new class extends testableCountries {
-			public string $gzFile = '';
-			public function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
-				if (!$contents) {
-					return $this->gzFile;
-				}
-				return false;
-			}
-		};
-		$testObj->gzFile = $tmp;
-
-		$rc = new \ReflectionClass($testObj);
-		$method = $rc->getMethod('getWhoisIps');
-		$ips = $this->emptyIps();
-		$result = $method->invoke($testObj, ['https://example.com/whois.gz'], $ips);
-
-		\unlink($tmp);
-
-		$this->assertNotFalse($result);
-		$this->assertArrayHasKey('2001:db8::/48', $result[6]);
-		$this->assertSame('jp', $result[6]['2001:db8::/48']->country);
-	}
-
-	#[Test]
-	public function getWhoisIpsSkipsEntriesWithoutCountry() : void {
-		$whois = \implode("\n", [
-			'inet6num:        2001:db8::/32',
-			'netname:         TEST-NET',
-			'',
-		]);
-
-		$tmp = \tempnam(\sys_get_temp_dir(), 'whois') . '.gz';
-		$gz = \gzopen($tmp, 'w');
-		\gzwrite($gz, $whois);
-		\gzclose($gz);
-
-		$testObj = new class extends testableCountries {
-			public string $gzFile = '';
-			public function fetch(string $url, ?string $cache = null, bool $contents = true) : string|false {
-				if (!$contents) {
-					return $this->gzFile;
-				}
-				return false;
-			}
-		};
-		$testObj->gzFile = $tmp;
-
-		$rc = new \ReflectionClass($testObj);
-		$method = $rc->getMethod('getWhoisIps');
-		$ips = $this->emptyIps();
-		$result = $method->invoke($testObj, ['https://example.com/whois.gz'], $ips);
-
-		\unlink($tmp);
-
-		$this->assertNotFalse($result);
-		$this->assertEmpty($result[6]);
-	}
-
 	// --- ingestBgpData (via getBgpSource) ---
 
 	#[Test]
@@ -504,6 +529,7 @@ class CountriesMethodsTest extends TestCase {
 			'TABLE_DUMP2|1234567890|B|198.51.100.1|65000|192.0.2.0/24|65000 13335|IGP',
 			'TABLE_DUMP2|1234567890|B|198.51.100.1|65000|203.0.113.0/24|65000 24940|IGP',
 			'TABLE_DUMP2|1234567890|B|198.51.100.1|65000|10.0.0.0/8|65000 99999|IGP',
+			'TABLE_DUMP2|1234567890|B|198.51.100.1|65000|0.0.0.0/0|65000 13335|IGP',
 		]);
 
 		// Write to a cache file that getBgpSource will find
@@ -550,11 +576,19 @@ class CountriesMethodsTest extends TestCase {
 		$this->assertSame('de', $result[4]['203.0.113.0/24']->country);
 		// ASN 99999 not in our mapping, should be skipped
 		$this->assertArrayNotHasKey('10.0.0.0/8', $result[4]);
+		// default routes are skipped even when the ASN is mapped
+		$this->assertArrayNotHasKey('0.0.0.0/0', $result[4]);
 	}
 
 	#[Test]
 	public function ingestBgpDataExtractsIpv6FromDump() : void {
-		$bgpLines = 'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2001:db8::/32|65000 13335|IGP';
+		$bgpLines = \implode("\n", [
+			'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2001:db8::/32|65000 13335|IGP',
+			'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2002::/16|65000 13335|IGP',
+			'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2002:c000:204::/48|65000 13335|IGP',
+			'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2001::/32|65000 13335|IGP',
+			'TABLE_DUMP2|1234567890|B|2001:db8::1|65000|2001:0:4136::/48|65000 13335|IGP'
+		]);
 
 		$cachefile = \tempnam(\sys_get_temp_dir(), 'bgp6');
 		\file_put_contents($cachefile, $bgpLines);
@@ -580,6 +614,8 @@ class CountriesMethodsTest extends TestCase {
 		$this->assertNotFalse($result);
 		$this->assertArrayHasKey('2001:db8::/32', $result[6]);
 		$this->assertSame('us', $result[6]['2001:db8::/32']->country);
+		// 6to4 and Teredo routes are skipped, including more specific ones inside them
+		$this->assertSame(['2001:db8::/32'], \array_keys($result[6]));
 	}
 
 	#[Test]
