@@ -233,6 +233,7 @@ class regionMapping {
 			'southafricanorth' => 'za',
 			'southafricawest' => 'za',
 			'qatarcentral' => 'qa',
+			'saudiarabiaeast' => 'sa',
 			'israelcentral' => 'il',
 			'israelnorthwest' => 'il',
 			'taiwannorth' => 'tw',
